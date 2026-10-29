@@ -1,0 +1,3191 @@
+TITLE: Land doctrine
+URL: https://hoi4.paradoxwikis.com/Land_doctrine
+REVISION: 2026-03-20T03:42:09Z (rev 98999)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Land doctrine/Sample divisions with doctrine bonuses Sample divisions with doctrine bonuses
+
+Land doctrine allows a nation to specialize the way its army conducts land warfare. Land doctrines are split into Grand Doctrines and Subdoctrines. They can be reviewed and unlocked from the Officer Corps using army exp . There are four mutually exclusive grand doctrines and have unique milestones for each track when its unlocked subdoctrine is mastered. 3
+
+# Grand Doctrines
+Grand Doctrines provide bonuses and enables a Tactic when unlocked, as well as unique milestones for each track once mastered.
+
+Grand Doctrine: Mobile Warfare
+Unlock Bonuses:
+- Divisions speed: +10%
+- Planning Speed: +20%
+- Enables tactic: Unexpected Thrust
+
+Grand Doctrine: Superior Firepower
+Unlock Bonuses:
+- Enables tactic: Overwhelming Fire
+- line artillery:
+ - Soft attack: +10%
+- support:
+ - Soft attack: +5%
+
+Grand Doctrine: Grand Battleplan
+Unlock Bonuses:
+- Max planning: +10%
+- Daily Command Power Gain: +0.25
+- Enables tactic: Well-Planned Attack
+
+Grand Doctrine: Mass Assault
+Unlock Bonuses:
+- Non-Combat Out of Supply Penalties: −10%
+- Supply Grace: +48 Hours
+- Enables tactic: Relentless Assault
+
+# Doctrine Tracks [verified for 1.17]
+
+Tracks are split into four categories: Infantry, Artillery & Combat Support, Armor and Operations. Each has a set of subdoctrines shared among each grand doctrine. Mastery is used to unlock milestones within the subdoctrine, granting further bonuses. Each track gains mastery when certain units engage in action, or at a reduced rate while training. If a subdoctrine is not selected, up to 200 Mastery is held in reserve.
+
+Doctrine Track: Infantry
+Gains Mastery from:: all infantry
+
+Doctrine Track: Artillery & Combat Support
+Gains Mastery from:: artillery , support artillery , support
+
+Doctrine Track: Armor
+Gains Mastery from:: armored car , all tanks, all armor
+
+Doctrine Track: Operations
+Gains Mastery from:: all infantry, artillery , support artillery , all tanks, all armor
+
+When a track as been mastered, it unlocks the grand doctrine milestone for the track. One of the milestones increases Brigade size and each milestone (excluding Grand Battleplan Operations) enables a Tactic.
+
+Grand Doctrine: Mobile Warfare
+Infantry:
+- Org Loss when Moving: -15%
+- Reinforce rate: +2%
+
+- Enables tactic: Delay
+Artillery & Combat Support:
+- Org Loss when below 25%: -10%
+- Planning Speed: +10%
+- Enables tactic: Overwhelming Fire
+Armor:
+- Brigade Size: +1
+- Enables tactic: Blitz
+Operations:
+- Planning Speed: +20%
+- Enables tactic: Backhand Blow
+
+Grand Doctrine: Superior Firepower
+Infantry:
+- Supply Consumption: -10%
+- Enables tactic: Elastic Defense
+Artillery & Combat Support:
+- Brigade Size: +1
+- Plan Preparation Decay Rate: -10%
+- Enables tactic: Suppressive Barrage
+- Support companies:
+ - Organization: +10
+Armor:
+- Enables tactic: Delay
+- Army Recovery Rate: +0.10
+Operations:
+- Plan Preparation Decay Rate: -10%
+- Enables tactic: Tactical Withdrawal
+- Army Recovery Rate: +0.20
+
+Grand Doctrine: Grand Battleplan
+Infantry:
+- Max Entrenchment: +5%
+- Brigade Size: +1
+- Enables tactic: Elastic Defense
+Artillery & Combat Support:
+- Coordination: +10%
+- Enables tactic: Overwhelming Fire
+Armor:
+- Reinforce rate: +2%
+- Enables tactic: Breakthrough
+Operations:
+- Maximum Command Power Increase: +30
+- Coordination: +10%
+
+Grand Doctrine: Mass Assault
+Infantry:
+- Brigade Size: +1
+- Enables tactic: Mass Charge
+Artillery & Combat Support:
+- Non-Combat Out of Supply Penalties: -5%
+- Minimum Training Level: -5%
+- Enables tactic: Elastic Defense
+Armor:
+- Reinforce rate: +2%
+- Enables tactic: Overwhelming Fire
+Operations:
+- Entrenchment Speed: +5%
+- Minimum Training Level: -5%
+- Weekly War Support (Combat Casualties): +0.10%
+- Enables tactic: Backhand Blow
+
+# Doctrine Overviews [verified for 1.16]
+
+- Mobile Warfare
+- Hit them where they don't expect - mobile warfare doctrine seeks to break the trench deadlock of the First World War via aggressive maneuvers to pre-empt and disrupt the enemy.
+
+This doctrine is concerned with the employment of motorized, mechanized, and armored units, representing a doctrine of fast movement and extended attacks. The bulk of its bonuses are to division organization, movement speed, and breakthrough, as well as to supporting modifiers like organization loss from movement and planning speed. What it lacks in stats compared to Superior Firepower and Grand Battleplan, this doctrine is meant to make up for in organization and speed. Its exclusive Officer Corps spirits of Embrace the Future , Motorization Drive , and Maneuver Warfare similarly emphasize these traits and the use of motorized, mechanized, and armored units. Additionally, its most important tank division bonuses become available far earlier than any other land doctrine, giving them an edge in earlier wars with tanks. However, compared to other land doctrines, this doctrine lacks any real combat stat bonuses to its units (besides breakthrough for tank battalions), relying more on their higher organization to make up for the lower stats. This can make equipment and manpower losses under this doctrine far worse compared to other doctrines, as the higher organization cannot offset receiving more HP damage. Even if one wishes to use the additional organization to switch out an organization-providing unit like infantry for a harder-hitting unit like tanks, those higher-organization units tend to also be the ones with more HP, so such a setup would also lower the HP of the division and still result in more manpower and equipment losses. Also, while the doctrine gives a lot of breakthrough to tanks (though far less to other types of armored units), with No Step Back 's tank designer, well-designed tanks tend to already have more than enough breakthrough, making the additional benefits from the doctrine less useful in practice.
+The first set of mutually exclusive choices is between Mobile Infantry (left 1) or Blitzkrieg (right 1), while the second is between Desperate Defense (left 2) and Modern Blitzkrieg (right 2). Mobile Infantry adds a lot more organization and general bonuses to motorized and mechanized units, including those found in armored divisions, while Blitzkrieg adds a little more organization and a lot of breakthrough to tank units (but not tank variants like tank destroyers) as well as enables the powerful offensive Breakthrough tactic to punch through combat quickly. Desperate Defense expands the country's recruitable population and unlocks the highly effective defensive Guerrilla Tactics that can stall out enemies, while Modern Blitzkrieg continues adding more organization and breakthrough to land units and unlocks the potent defensive Backhand Blow tactic that can counter enemy attempts at armored breakthroughs.
+
+Historically, Auftragstaktik, or "mission-style tactics", was a doctrine that the German Empire experimented with in the run-up to the first world war. Rather than the old style of commanding an army by issuing orders from the top, mission-style tactics dictated that armies should be commanded by giving out objectives and goals and allowing lower-ranked officers to come up with their own way of achieving them. Fully developed for infantry over the course of the war, it would be applied in the interwar years to tanks and dedicated armored divisions. The German Reich would go on to demonstrate the effectiveness of this combination in the early stages of the second world war, making Allied observers give it the name "blitzkrieg", or "lightning warfare" (though it was not referred to as such by the Germans). The efficacy shown by mission-style tactics throughout the war would end up cementing it as a key part of most post-war military doctrines.
+
+As advertised, this doctrine is best suited for countries that wish to make a lot of use of fast, mobile units to rapidly exploit breakthroughs in the enemy line before it can be filled by reserves. Nations with limited industrial and/or manpower capacities should be wary of the increased losses they should expect to suffer under this doctrine thanks to it increasing organization.
+- Superior Firepower
+- Send shells, not men - Superior Firepower emphasizes employing crushing masses of fire to pave the way for maneuver units to advance and capture territory.
+
+ This generalist doctrine emphasizes raw stats of the army. While Mobile Warfare gives a lot of organization to armies following it, and Grand Battleplan gives a lot of bonuses through planning and entrenchment to armies following it, this doctrine just gives pure, simple stat bonuses. These bonuses are useful no matter what composition the army ends up having or purpose it ends up needing to serve. The exclusive Officer Corps spirits of this doctrine of Engineering Schools , Overwhelming Firepower , and Smoke and Fire also continue this idea of providing generalist bonuses where there is always something useful no matter the situation. The downside of this generalist approach is that this doctrine is also outshined by other doctrines that have more specialized bonuses that present a better package for specific situations or uses. Many of its more impactful bonuses are also found in the last two options of the doctrine's tree, making it lackluster in situations where army exp is in short supply.
+The first set of mutually exclusive choices is between Dispersed Support (left 1) or Integrated Support (right 1), while the second is between AirLand Battle (left 2) and Shock & Awe (right 2). Dispersed Support primarily provides benefits to line artillery brigades (and their variants) and makes them punch harder, while Integrated Support improves the effectiveness of all support companies, especially the ones with high soft attack like support artillery and rangers . AirLand Battle provides additional hard attack, especially for armored units, as well as bonuses to air superiority to allow aircraft to provide more bonuses to land units, while Shock & Awe provides more soft attack to all units, but especially to infantry and artillery, as well as more army organization. Both choices give access to the powerful offensive Breakthrough tactic to punch through combat quickly, as well as the annoying defensive Tactical Withdrawal tactic that can trap enemies in a constant cat-and-mouse game that prevents them from using their own special tactics.
+
+The tremendous losses in manpower from the first world war had a huge impact on a lot of both military and political thought afterward. One of the many reactions to the seminal catastrophe was that every life is precious, and that an army fights better when even its lowliest grunts know that their army will do whatever it can to keep them alive. Of the many nations who fought the second world war, none took this idea to heart more so than the United States, equipping and fielding not only a large amount of field hospitals and battlefield medicine units, but also putting a lot of effort into making the lives of their soldiers easier. This was also seen in how their soldiers were fed, with supply ships dedicated to carrying ice cream in the Pacific theater being a particularly famous example.
+
+As a generalist doctrine, this doctrine can work well for almost any strategy, though it will rarely be the best pick for any one approach. When taken with Integrated Support, it can particularly benefit divisions that make full use of support companies. Minor nations can potentially make great use of this doctrine by sending their forces as expeditionaries to larger powers who have taken Grand Battleplan, as the planning and entrenchment bonuses from it will stack with the stats bonuses of this doctrine. For countries for whom army exp is at a premium, it should be noted that a lot of the important bonuses for this doctrine come later than normal compared to other doctrines, so it is important to start getting army exp early when using this doctrine.
+- Grand Battleplan
+- With sufficient preparation, no obstacle is insurmountable - Grand Battleplan is characterized by patient, meticulous preparation of all arms, in both attack and defense.
+
+ This doctrine is one that revolves around obtaining strong battlefield performance through planning and entrenchment. While its stat bonuses can be rather lackluster compared to Superior Firepower and its organization is paltry compared to Mobile Warfare, it can beat both doctrines on the defense when it is allowed to fully entrench and both doctrines on the offense when it is allowed to obtain the maximum amount of planning. Unexpectedly, its exclusive Officer Corps spirits of Theatre Training , Tip of the Spear , and Logistical Focus provide generally useful bonuses to their armies instead of emphasizing their need for planning and entrenchnment even further. It also has a hidden strength in providing the most amount of breakthrough to non-armored battalions, which is a combat stat these battalions tend to be sorely missing. Unfortunately, the greatest strengths of this doctrine are also the source of its main weaknesses. On the offense, it can take a while to build up enough planning to reach parity with the combat performance of other doctrines, and on the defense, active combat will degrade entrenchment and the movement of units will outright reset it, making it poor for mobile/elastic defense. In both cases, this doctrine is also particularly vulnerable to spy networks, which can degrade and even outright kill both planning and entrenchment bonuses of enemy divisions. There are also some scenarios, e.g., naval invasions without the Expeditionary Units special forces doctrine or paradrops, where planning is not available, and so this doctrine can underperform in these situations.
+The only set of mutually exclusive choices for this doctrine is between Assault (left) and Infiltration (right). Assault provides more offensive benefits through planning, especially to tanks, and give access to the powerful offensive Breakthrough tactic to punch through combat quickly. Infiltration provides more bonuses to infantry, makes up for having less max planning by greatly increasing the combat effectiveness of all units at night, and is generally seen as a more cautious and defensive-oriented path.
+
+War planning has an extensive history, but it was truly taken to the next level during and after the first world war. Operations like Russian Empire's Brusilov Offensive, Italy's Isonzo Campaign, France's Nivelle Offensive, the German Empire's spring 1918 offensives, and the United Kingdom's, France's, and the United States' Hundred Days Offensive ran the whole gamut of disastrous defeat to decisive victory, and all involved extensive planning before their execution. Reliance on war planning would continue on in the second world war with mixed success, including the German Reich's various case plans like Case Blue and Case Anton, France's Saar Offensive and more-successful participation in Operation Overlord and Operation Dragoon, and Japan's and the United States' thoroughly wargamed naval operations in the Pacific. War planning would continue to be of key importance after the war, with the Soviet Union taking a particular liking to meticulously planning out potential operations.
+
+Assuming espionage is not a major concern, this doctrine can be useful as a somewhat generalist doctrine with great offensive potential, especially with tanks, on the Assault path and a more generalist approach that is a bit more defensively-minded on the Infiltration path. The high generic breakthrough bonuses can compound with the extra planning from this doctrine to greatly reduce losses when on the offense with non-tank units (e.g., special forces infantry or mechanized divisions). Many countries also start with the first doctrine in this tree already completed at the start of the game, which can effectively discount the amount of army exp required to complete it.
+- Mass Assault
+- Our willingness to sacrifice guarantees our victory - Mass Assault focuses on concentrating numerical superiority to force a breakthrough at the chosen time and place.
+
+ This rather odd doctrine is actually two different doctrines masquerading as one. While the mutually exclusive choices of other doctrines merely supplement their doctrine's overall approach, this doctrine's mutually exclusive choice between Deep Battle (left) and Mass Mobilization (right) present two paths that are so radically different that they effectively create two different doctrines under one larger category. Their exclusive Officer Corps spirits of The Queen of Battle , Bayonett Strength , and Operational Reserves seem to emphasize relying on infantry in battle and reducing equipment and manpower losses through more HP, but how they are expected to be used will change depending on what is chosen between Deep Battle and Mass Mobilization.
+Deep Battle is a jack-of-all-trades doctrine that is a master of none, even more so than the generalist Superior Firepower. It is most comparable to Grand Battleplan, providing a much weaker version of its bonuses that are supplemented by a few bonuses borrowed from Mobile Warfare, namely organization loss reduction from movement and access to the strong defensive Backhand Blow tactic. It adds to these a few of its own bonuses, of which the most notable are reduced combat width on infantry battalions that effectively acts as a stat bonus for them and a major bonus to reinforce rate, helping to prevent premature enemy breakthroughs so long as there are friendly units remaining across all sections of a frontline. This variety of bonuses is also its major downside, however. While it may seem like a more generalist choice similar to Superior Firepower, in practice, each of these bonuses pulls the doctrine in a different direction in terms of how to best make use of its modifiers. For example, reduced supply consumption, high reinforce rate, and reduced organization loss from movement seem to encourage an approach to defensive infantry that revolves around massing a large amount of smaller divisions that can recover after retreats and reinforce ongoing battles faster than the enemy can deplete all of the defending divisions' organization, but increased max entrenchment and the general lack of organization bonuses to infantry compared to other doctrines seem to discourage this approach over one of large, heavily entrenched divisions relying on engineer and static defense.
+Mass Mobilization is sort of a one-trick pony doctrine whose one trick just happens to be incredibly powerful. It gives bonuses almost exclusively to infantry units, but the bonuses it does give make it peerless for helping to fill out and hold any frontline. These include an incredibly high reinforce rate to prevent premature breakthroughs, a very high recovery rate especially on infantry , access to the highly effective defensive Guerrilla Tactics that can stall out enemies, greatly reduced combat width usage of infantry that indirectly functions as a general stat bonus, and extra recruitable population to make manpower much less of a concern. The fact that it requires less army exp to complete is just the cherry on top. The biggest downsides of the doctrine though are its one-trick-poniness. While it is extremely effective at filling out a frontline with leg infantry and grinding potential offensives to a halt, it tends to fall short in other areas. It offers little to no bonuses for armored units, no notable offensive bonuses to any units besides ordinary infantry (who tend to perform poorly on the offense because of their low breakthrough), and no access to any powerful offensive tactics that other doctrines give.
+
+Military theorists in the Soviet Union and Communist China were responsible for the development of groundbreaking military doctrines that would shape not only the second world war, but warfare in the 20th century in general. In the Soviet Union, military planners were pushed to come up with a new set of principles around which to organize their army that was a better fit for their state's new ideology compared to the doctrines of the old Russian Empire. What they came up with was a doctrine they called Deep Battle, which highlighted a new, operational level of thinking in between the tactical and strategic that would become a mainstay not just in the second world war, but 20th century warfare in general. Planners in Communist China were similarly faced with having to come up with a new doctrine that was a better fit for their ideology and situation, but the answer they came to was very different. Later called People's War, this doctrine combined elements of guerrilla warfare with a more conventional, structured approach that allowed an army to call upon guerrilla partisans when needed and still be able to act like a conventional army. Deployed successfully against Japan and later China, the doctrine would be adopted and used by many insurgent groups after the war.
+
+Deep Battle, being a jack-of-all-trades that it is, can be a decent choice for a country that is not sure what it wants from its land doctrine and wants to be prepared for anything. It can also be useful for a country that wants to blend the bonuses of Grand Battleplan with a few key bonuses from other doctrines, e.g., access to Backhand Blow from Mobile Warfare and/or increased effective stats from Superior Firepower, though only to infantry .
+Mass Mobilization can be a great choice for countries that wish to stall out enemy offensives, especially on minors who want to help hold a frontline while their majors focus on offensives. Even on major powers, its sheer attritional power can be combined with close air support to deal significant damage not just on the defense, but potentially even on the offense as well.
+
+# Researching Doctrines [verified for 1.16]
+
+Each individual grand doctrine and subdoctrine (excluding Great War Infantry at 50 army exp ) has a base cost of 100 army exp to unlock. This cost may be modified by spirits, advisors, and special bonuses from focuses, events, or decisions.
+
+It is possible to change doctrines at any point, but all bonuses from previously unlocked doctrines are lost when unlocking a different doctrine and changing grand doctrines resets all tracks. Any doctrine-exclusive Officer Corps spirits are also automatically switched to different ones when a different doctrine tree is selected.
+
+## Starting Doctrines
+Some nations start the game with a land doctrine pre-selected and unlocked. They can still change doctrines as normal, though sticking with their starting doctrine can cost them less army exp in the long run.
+
+Doctrine: Mobile Warfare
+Countries:
+- German Reich
+- East Germany
+- West Germany
+- Mecklenburg
+- Prussia
+- Saxony
+- Schleswig-Holstein
+- Thuringia
+- Generalgouvernement
+- Reichskommissariat Australasien
+- Reichskommissariat Anden
+- Reichskommissariat Arabien
+- Reichskommissariat Balkan
+- Reichskommissariat Belgien-Nordfrankreich
+- Reichskommissariat Großbritannien
+- Reichskommissariat Hindustan
+- Reichskommissariat Iberien
+- Reichskommissariat Kaukasien
+- Reichskommissariat Klein-Venedig
+- Reichskommissariat Kolumbus
+- Reichskommissariat Mittelafrika
+- Reichskommissariat Moskowien
+- Reichskommissariat Niederlande
+- Reichskommissariat Nordafrika
+- Reichskommissariat Nordamerika
+- Reichskommissariat Norwegen
+- Reichskommissariat Ostasien
+- Reichskommissariat Ostland
+- Reichskommissariat Turkestan
+- Reichskommissariat Ukraine
+- Reichskommissariat Ural 3
+
+Doctrine: Superior Firepower
+Countries:
+- United States
+- Yugoslavia 3
+
+Doctrine: Grand Battleplan
+Countries:
+- Australia
+- Belgium
+- British Raj
+- British Malaya
+- Dominion of Canada
+- France
+- Italy
+- Japan
+- Kingdom of Greece
+- New Zealand
+- Poland
+- South Africa
+- United Kingdom 3
+Countries (1939 Only):
+- Afghanistan
+- Argentina
+- Bolivia
+- Brazil
+- British Burma
+- Bulgaria
+- Chile
+- Colombia
+- Costa Rica
+- Cuba
+- Denmark
+- Ecuador
+- El Salvador
+- Estonia
+- Ethiopia
+- Finland
+- Hungary
+- Iceland
+- Ireland
+- Iraq
+- Kuwait
+- Latvia
+- Lithuania
+- Manchukuo
+- Mengkukuo
+- Mexico
+- Netherlands
+- Norway
+- Oman
+- Paraguay
+- Philippines
+- Portugal
+- Peru
+- Romania
+- Saudi Arabia
+- Siam
+- Sinkiang
+- Slovakia
+- Spain
+- Sweden
+- Switzerland
+- Tannu Tuva
+- Uruguay
+- Venezuela
+- Yemen
+- Yunnan 3
+
+Doctrine: Mass Assault
+Countries:
+- China
+- Communist China
+- Guangxi Clique
+- Soviet Union
+- Xibei San Ma 3
+Countries (1939 Only):
+- Dominican Republic
+- Guatemala
+- Haiti
+- Honduras
+- Liberia
+- Luxembourg
+- Mongolia
+- Nepal
+- Panama
+- Persia
+- Shanxi
+- Tibet
+- Turkey 3
+
+# Subdoctrine Trees
+
+## Infantry
+
+### Mobile Infantry
+Focus our infantry on mobility to keep up the pace of advances and avoid getting bogged down in costly positional fighting.*Enables tactic: Overwhelming Fire
+ - 1x 50% Research bonus for: TruckModernized Cavalry
+- cavalry:
+ - Breakthrough: +20% 1Infiltration
+- all infantry:
+ - Organization: +10
+ - Max speed: +5% 1First Strike Operations
+- vehicle infantry:
+ - Organization: +20 1
+Delegated Authority
+- vehicle infantry:
+ - Recovery Rate: +0.10
+ - Soft attack: +10% 1Maneuver Warfare
+- all infantry:
+ - Organization: +10
+ - Max speed: +20%
+
+### Defensive Postures
+A training and doctrinal emphasis on defensive tactics designed to stubbornly hold ground, inflicting casualties and delay upon the attacker.
+
+- cavalry:
+ - Supply use: -0.02
+- all infantry:
+ - Max Entrenchment: +20%Improvised Fighting Positions
+- Entrenchment speed: +5% 1Outpost Line
+- all infantry:
+ - Organization: +10
+ - Max speed: +5% 1Strongpoint Network
+- all infantry:
+ - Max Entrenchment: +20% 1
+
+Interlocking Fields of Fire
+- all infantry:
+ - Soft attack: +10% 1Infantry Engineer Training
+- Entrenchment speed: +15%
+
+# Doctrine Trees
+## Mobile Warfare [verified for 1.16]
+Mobile Warfare Mobile Warfare is a focus on speed and maneuver to cut off and disorganize enemy forces. *Enables tactic: Unexpected Thrust
+- Planning Speed: +50%
+- Divisions speed: +10%
+- Org Loss when Moving: −10%
+- all armor:
+ - Breakthrough: +20%
+- cavalry:
+ - Breakthrough: +20%
+Delay Even when a battle cannot be won, it can be advantageous to slow the progress of attacking forces with ambushes and delaying tactics. *Enables tactic: Delay
+- all infantry:
+ - Organization: +15
+Elastic Defense Rather than focusing all strength on the front line, an elastic defense creates a 'deeper' layer of defenses which allows the defender more time to react and counter-attack while the attacker is spread out and bogged down. *Enables tactic: Elastic Defense
+- Reinforce rate: +2%
+- all tanks:
+ - Organization: +1
+- Armored car :
+ - Organization: +2
+- cavalry:
+ - Max speed: +15%
+- all armor:
+ - Max speed: +10%
+Mobile Infantry Regular Infantry is often too slow to keep up with, react to, or escape from rapidly moving Armored forces. The answer is to focus on Motorized or Mechanized Infantry which can keep up with the pace of modern warfare. * Cavalry Recon :
+ - Max speed: +15%
+- Motorized Recon :
+ - Max speed: +10%
+- Light Armored Recon :
+ - Max speed: +10%
+- mobile:
+ - Max speed: +10%
+ - Recovery Rate: +0.20 Armored Spearhead To use Tanks to their fullest potential they cannot be tied down supporting Infantry. Instead they must be formed into fast moving, independent units which can spearhead attacks. *Enables tactic: Blitz
+- all tanks:
+ - Organization: +3
+ - Breakthrough: +20% Mobile Infantry Blitzkrieg
+Mass Motorization An even greater focus on Motorized troops. *all infantry:
+ - Organization: +10 Schwerpunkt In any operation the Schwerpunkt, or Focal point, must be identified and maximum force concentrated to win at that point. *all tanks:
+ - Organization: +2
+- all armor:
+ - Recovery Rate: +0.10
+Mechanized Offensive Motorized troops are well and good, but to lead offensives we need Infantry that can ride into battle in armored transports which protect them and carry heavy weapons. *Enables tactic: Blitz
+- vehicle infantry:
+ - Organization: +15
+- all tanks, Armored Car :
+ - Organization: +3
+- Light Armored Recon :
+ - all armor:
+ - Breakthrough: +10% Blitzkrieg Blitzkrieg refers to the strategy of fast moving Armored forces supported by Mobile Infantry and air support breaking through enemy lines to disorganize and encircle them. *Enables tactic: Breakthrough
+- all tanks:
+ - Organization: +1
+- all armor:
+ - Recovery Rate: +0.10
+- vehicle infantry:
+ - Organization: +5
+- Armored Car :
+ - Recovery Rate: +0.10
+ - Organization: +7
+Kampfgruppe A Kampfgruppe was an ad hoc formation which was organized to carry out a specific task. *Enables tactic: Overwhelming Fire
+- Planning Speed: +20%
+- all infantry:
+ - Organization: +10
+ - Recovery Rate: +0.20
+- Brigade Size: +1
+Volkssturm The Volkssturm, or People's Militia, consisted of men who were too old, too young, or otherwise unfit for regular military service. *Recruitable population: +2% Fire brigades 'Fire brigades' were hastily scrambled forces thrown together to react to enemy breakthroughs or other critical issues. *all infantry:
+ - Organization: +10
+- all tanks, Armored Car :
+ - Organization: +2 Desperate Defense Modern Blitzkrieg
+Non-Discriminatory Conscription Even invalids and cripples must be drafted, there can be no such thing as a civilian. *Recruitable population: +3% Backhand Blow Rather than fighting for every inch of ground, enemy penetrations are largely avoided until they have extended themselves, at which point they can be cut off and destroyed by counterattacks. *Enables tactic: Backhand Blow
+Werwolf Guerrillas The Werwolves were a planned German resistance group that would fight on against the occupying powers when the war was lost. *Enables tactic: Guerrilla Tactics
+- Damage to Enemy Garrisons in our states occupied by the enemy: +10% Modern Blitzkrieg The pinnacle of Mobile Warfare, Modern Blitzkrieg incorporates all the latest advances of technology and the lessons learned from previous doctrines. *all tanks:
+ - Organization: +3
+ - Breakthrough: +20%
+- all armor:
+ - Recovery Rate: +0.20
+- Armored Car :
+ - Organization: +3
+ - Breakthrough: +20%
+ - Recovery Rate: +0.20
+
+## Superior Firepower [verified for 1.16]
+
+Superior Firepower This doctrine focuses on throwing shells, not men, at the enemy. Our manpower is precious, bullets are cheap. *Enables tactic: Suppressive Barrage
+- front line:
+ - Soft attack: +10%
+Delay Even when a battle cannot be won, it can be advantageous to slow the progress of attacking forces with ambushes and delaying tactics. *Enables tactic: Delay
+- leg infantry:
+ - Organization: +10
+Mobile Defense Mobile forces can be used to reinforce the defense wherever the enemy may attack. *Enables tactic: Elastic Defense
+- all infantry:
+ - Defense: +10%
+Dispersed Support By dispersing our Support units they can cover a wider area while remaining out of the line of fire, resulting in divisions with greater defense. *line artillery:
+ - Recovery Rate: +0.20
+- cavalry:
+ - Recovery Rate: +0.20
+- signal :
+ - artillery:
+ - Defence: +10% Integrated Support Closely integrating support forces with combat troops results in divisions which are stronger on the attack. *support:
+ - Organization: +10
+ - Soft attack: +25% Dispersed Support Integrated Support
+Overwhelming Firepower Calling on all available support units to give overwhelming firepower can greatly soften up a target, or better yet, seriously ruin an attacker's day. *Enables tactic: Overwhelming Fire
+- line artillery:
+ - Soft attack: +10%
+Coordination: +5% Regimental Combat Teams A regimental combat team is an Infantry regiment closely integrated with supporting units such as Artillery, Tanks, and Reconnaissance elements to form a small self-sufficient unit which allows for greater flexibility when attacking. *Enables tactic: Overwhelming Fire
+- support:
+ - Organization: +10
+ - Soft attack: +25%
+Mechanized Offensive Motorized troops are well and good, but to lead offensives we need Infantry that can ride into battle in armored transports which protect them and carry heavy weapons. *Enables tactic: Blitz
+- all armor:
+ - Breakthrough: +10%
+Concentrated Fire Plans By concentrating the fire of different batteries into a synchronized bombardment much greater damage can be inflicted on the enemy. *Army:
+ - Hard attack: +10% Centralized Fire Control A Centralized Fire Control system allows all calls for artillery support to be evaluated in one location, and if needed, a division's entire firepower to be concentrated on a target rather than a unit only being able to request fire from the artillery assigned to them. *all infantry:
+ - Soft attack: +5%
+- artillery:
+ - Soft attack: +5% Airland Battle Shock & Awe
+Combined Arms Armor, Infantry, and Support units working together in well organized teams are far more effective than the same forces used separately. *Enables tactic: Breakthrough
+- all armor:
+ - Hard attack: +10%
+ - Soft attack: +10% Forward Observers Forward Observers take up positions where they can directly observe the accuracy and effects of artillery fire, and relay the results back to the guns for correction. *Reinforce rate: +2%
+- recon
+ - Reconnaissance: +100%
+Tactical Control Officers familiar with combined arms operations in forward positions can now directly control all branch's operations. *Enables tactic: Tactical Withdrawal
+- Reinforce rate: +2%
+- Brigade Size: +1 Advanced Firebases Artillery camps can be positioned close to the front lines in fortified bases in order to give the maximum possible support to advancing forces. *Enables tactic: Tactical Withdrawal
+- all infantry:
+ - Organization: +10
+ - Recovery Rate: +0.05
+- all tanks:
+ - Organization: +2
+- all armor:
+ - Recovery Rate: +0.05
+- Armored Car :
+ - Organization: +2
+ - Recovery Rate: +0.05
+- Brigade Size: +1
+AirLand Battle With the ground forces already operating in combined arms formations, AirLand Battle now also emphasizes close coordination between land forces and air forces, merging the Air and Land battlefields into a seamless whole. *Air Superiority: +15%
+- front line:
+ - Organization: +5
+- recon :
+ - aa
+ - Air Attack: +10%
+- motorized recon :
+ - aa:
+ - Air Attack: +10% Shock and Awe A massive concentration of firepower will impose this overwhelming level of Shock and Awe against an adversary on an immediate or sufficiently timely basis to paralyze its will to carry on. *Enables tactic: Breakthrough
+- front line:
+ - Soft attack: +5%
+- all infantry:
+ - Soft attack: +5%
+ - Hard attack: +5%
+- artillery:
+ - Soft attack: +5%
+ - Hard attack: +5%
+
+## Grand Battleplan [verified for 1.16]
+
+Trench Warfare A shovel is often the best weapon of the infantry. Units learn the value of entrenching in any position they take up. *Max Entrenchment: +10
+- Entrenchment speed: +25%
+- cavalry:
+ - Supply use: -0.02
+Grand Battle Plan Extensive planning and preparation before engaging in battle is the key to success. *Max planning: +10%
+- Daily Command Power Gain: +0.25
+Prepared Defense More extensive systems of field fortification greatly improve a unit's defense. *all infantry:
+ - Organization: +10
+ - Defense: +10%
+Grand Assault Once sufficient forces have been built up and their objectives well planned out, a powerful assault cannot help but to destroy the enemy. *Enables tactic: Well-Planned Attack
+- Army:
+ - Breakthrough: +10%
+ - Soft attack: +5%
+Mechanized Offensive Motorized troops are well and good, but to lead offensives we need Infantry that can ride into battle in armored transports which protect them and carry heavy weapons. *Enables tactic: Blitz
+- Enables tactic: Elastic Defense
+- Brigade Size: +1
+- vehicle infantry, Armored Car :
+ - Organization: +5 Infantry Offensive The offensive spirit of the infantry is the decisive element of winning battles. Our infantry must lead the way. *Enables tactic: Infiltration Assault
+- Brigade Size: +1
+- leg infantry:
+ - Organization: +5
+ - Breakthrough: +10% Assault Infiltration
+Assault Concentration Before an attack, the leading elements are carefully prepared and placed in forward positions, ensuring maximum force can be applied in the opening moments. *Enables tactic: Overwhelming Fire
+- Max planning: +10% Armored Operations Tanks and other armored vehicles are highly useful for delivering infantry to battlefields and offering direct support in combat. *Enables tactic: Blitz
+- Enables tactic: Elastic Defense
+- all tanks:
+ - Organization: +2
+- all armor:
+ - Recovery Rate: +0.10
+- Armored Car :
+ - Organization: +2
+ - Recovery Rate: +0.10
+Branch Inter-Operation Increased coordination between the different branches of the armed forces allows them to work better in combined arms operations. *Coordination: +10%
+- all infantry:
+ - Organization: +5
+- all tanks, Armored Car :
+ - Organization: +1 Infiltration Assault In the opening moves of an attack infantry must target weak points in the enemy line to bypass and isolate the more well-defended sections, which can then be wiped out by the rest of the attacking forces. *Supply consumption: −10%
+- Daily Command Power Gain Multiplier: +15%
+- recon :
+ - leg infantry
+ - Soft Attack: +5%
+Assault Breakthrough Rather than launching a grand assault across the entire front, it can be much more effective to concentrate the strike on only one, or a few, points of the enemy line and achieve a breakthrough there. *Enables tactic: Breakthrough
+- Army:
+ - Breakthrough: +10% Night Assault Tactics Soldiers who are used to moving and fighting at night can either pre-position themselves for an attack, or directly attack unsuspecting enemy forces. *Land Night Attack: +25%
+Central Planning Officers from all branches now contribute to the planning of a given operation to make sure it operates at maximum efficiency. *Max planning: +10%
+- Maximum Command Power Increase: +30
+- Logistics :
+ - all infantry:
+ - Defense: +5% Attritional Containment If we are unable to launch an attack to remove an enemy position it must nonetheless be subjected to constant minor attacks which will cause losses and prevent the enemy from launching attacks of their own. *all infantry:
+ - Organization: +5
+- all tanks, Armored Car :
+ - Organization: +1
+C3I Effective staff officers ensure the flow of Command, Control, Communications & Intelligence between a commanding officer and the units he controls. *Reinforce rate: +2%
+- all infantry:
+ - Organization: +5
+- all tanks:
+ - Organization: +1
+- Armored Car :
+ - Organization: +2 Infiltration in Depth Our forces are now trained to bypass and isolate enemy strongpoints to a much greater depth, ideally our assault forces should not stop until they reach the enemy's rear areas and their forces are completely cut off. *Reinforce rate: +2%
+- recon:
+ - Reconnaissance: +100%
+
+## Mass Assault [verified for 1.16]
+
+Mass Assault 'Perfect' weapons are overrated, a large number of 'good enough' weapons is the path to victory! *Reinforce rate: +2%
+Minimum training level: −10%
+Weekly War Support (Combat Casualties): +0.10%
+Pocket Defense It is possible that, on the defensive, our troops may be caught in a pocket. In this case, they must merely hold out until the inevitable counter-attack relieves them. *Non-Combat Out of Supply Penalties: −10%
+- Supply Grace: +48 Hours
+- recon :
+ - Max speed: +15%
+- cavalry:
+ - Max speed: +15%
+Defense in Depth By offering relatively light resistance and temporarily giving ground we can trade space for time and allow attacking forces to exhaust themselves before counter-attacking. *Max entrenchment: +5
+- leg infantry:
+ - Organization: +5
+Large Front Operations Fighting over a large front involves coordinating the efforts of multiple units over long distances: At an operational level, rather than tactical. *Enables tactic: Relentless Assault
+- Supply consumption: −10%
+- Brigade Size: +1 People's Army The People's Army believes in the primacy of men over weapons, with superior motivation compensating for inferior technology, and enjoys widespread support from the civilian population. *Enables tactic: Mass Charge
+- Damage to Enemy Garrisons in our states occupied by the enemy: +10%
+- Division Attrition: −10%
+- Military Police :
+ - cavalry :
+ - Suppression: +0.35
+- Brigade Size: +1 Deep Battle Mass Mobilization
+Deep Operations The concept of Deep Operations, or Deep Battle, is to break through the enemy's defensive lines at multiple points and destroy his operational reserves, his operational depth, and occupy as much of his strategic depth as possible. *Enables tactic: Blitz
+- all tanks, Armored Car :
+ - Organization: +2 Infantry Offensive The offensive spirit of the infantry is the decisive element of winning battles. Our infantry must lead the way. * Infantry :
+ - Recovery Rate: +0.30
+- Reinforce rate: +5%
+Operational Concentration The key to any military action is overwhelming local superiority. Short of being overwhelmingly superior along the entire front, this involves weakening parts of your front line to concentrate troops where needed rather than trying to be strong everywhere. *Enables tactic: Elastic Defense
+- Max planning: +10%
+Reinforce rate: +5% Large Front Offensive By conducting, or threatening, Human Wave Offensives across multiple areas of the front we can prevent the enemy from concentrating his firepower against any single attack. *all infantry:
+ - Organization: +10
+- all tanks, Armored Car :
+ - Organization: +2
+Vast Offensives If a breakthrough can be achieved it must be exploited strongly as possible: A vast offensive pushing through enemy lines as deeply as possible will render the defense of their front more difficult, impossible, or irrelevant. *Enables tactic: Overwhelming Fire
+- Supply consumption: −10%
+- Infantry :
+ - Combat width: −0.3 Human Wave Offensive A Human Wave Offensive is an infantry tactic in which an attacker conducts a frontal assault with densely concentrated infantry formations against the enemy line, with the intent to overrun the defenders by engaging in melee combat. *Recruitable population: +5%
+- Reinforce rate: +15%
+- Infantry :
+ - Combat width: −0.4
+Breakthrough Priority Expanding upon Operational Concentration, all needs of the front are subordinated to the need to concentrate forces for Breakthroughs. Local defeats are inconsequential compared to striking a decisive blow. *Enables tactic: Breakthrough
+- all tanks, Armored Car :
+ - Organization: +1
+ - Breakthrough: +10%
+- all infantry:
+ - Organization: +5
+ - Breakthrough: +10%
+- cavalry:
+ - Breakthrough: +5% Guerrilla Warfare The enemy advances, we retreat; the enemy camps, we harass; the enemy tires, we attack; the enemy retreats, we pursue. *Enables tactic: Guerrilla Tactics
+- Non-Combat Out of Supply Penalties: −30%
+- Resistance Growth Speed in our states occupied by the enemy: +25%
+- Army:
+ - Recovery Rate: +0.20
+
+Mechanized Wave Mechanized forces are ideal for conducting the rapid advances needed to properly exploit Breakthroughs, both for supporting the Armored forces and for securing the flanks of the breach. *vehicle infantry:
+ - Organization: +10
+ - Recovery Rate: +0.10
+- all tanks:
+ - Organization: +2
+- Armored Car :
+ - Organization: +3
+ - Recovery Rate: +0.10
+- all armor:
+ - Recovery Rate: +0.10
+- armored car recon :
+ - leg infantry:
+ - Organization: +1
+Continuous Offensive While properly exploited Breakthroughs are often very effective, sooner or later the attacker always becomes exhausted and the defender is able to reorganize and reform new defensive lines. However, with enough reserves and the right organization, an offensive could be continued to a much greater depth with devastating results to the enemy. *Enables tactic: Backhand Blow
+- Org Loss when Moving: −25%
+Reinforce rate: +5%
+
+# Comparison Tables [verified for 1.16]
+The following tables compare the differences between every possible path of the selected land doctrines. The first set of tables are sorted by unit type and combine all stat bonuses available for each unit type, including what they would be if certain conditions are met (usually that the division contain a specific support company). The modifiers listed in the country modifiers table are applied on a country-level basis; certain modifiers in the table, e.g., organization loss from movement, stack multiplicatively with other modifiers of the same kind.
+
+Mobile Warfare
+Left, Left
++35
++0.2
++35
++0.2
+
+Left, Right
++45
++0.2
++45
++0.2
+
+Right, Left
++25
++0.2
++25
++0.2
+
+Right, Right
++35
++0.2
++35
++0.2
+
+Superior Firepower
+Left, Left
++10%
++10%
++10%
++15
++10%
++10%
++10%
++15
+
+Left, Right
++25%
++10%
++20
++0.05
++25%
++10%
++20
++0.05
+
+Right, Left
++10%
++10%
++10%
++15
++10%
++10%
++10%
++15
+
+Right, Right
++25%
++10%
++20
++0.05
++25%
++10%
++20
++0.05
+
+Grand Battleplan
+Left
++5%
++10%, +15% w/ Logistics Company
++20%
++15
++5%
++10%, +15% w/ Logistics Company
++20%
++15
+
+Right
++10%, +15% w/ Cavalry Recon Detachment
++10%
++20%
++20
++10%, +15% w/ Cavalry Recon Detachment
++10%
++20%
++20
+
+Mass Assault
+Left
++10%
++10, +11 w/ Light Armored Recon Company
+-0.3
++10%
++10, +11 w/ Light Armored Recon Company
+
+Right
++15
++0.5
+-0.4
++15
++0.2
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align:right;"
+|+ style="white-space: nowrap; text-align: left;" | Mobile Battalion Modifiers Table
+! colspan="2" rowspan="2" style="white-space: nowrap;" class="unsortable" | Doctrine with Variant
+! colspan="8" style="text-align: center;" | Cavalry
+! colspan="7" style="text-align: center;" | Other Mounted Infantry
+! colspan="7" style="text-align: center;" | Mechanized & Motorized Infantry
+! colspan="6" style="text-align: center;" | Armored Cars
+|-
+! Soft Attack
+! Hard Attack
+! Breakthrough
+! Organization
+! Recovery Rate
+! Max Speed
+! Supply Use
+! Suppression
+! Soft Attack
+! Hard Attack
+! Breakthrough
+! Organization
+! Recovery Rate
+! Max Speed
+! Supply Use
+! Soft Attack
+! Hard Attack
+! Defense
+! Breakthrough
+! Organization
+! Recovery Rate
+! Max Speed
+! Soft Attack
+! Hard Attack
+! Breakthrough
+! Organization
+! Recovery Rate
+! Max Speed
+|-
+| rowspan="4" style="text-align:left;" | Mobile Warfare
+| style="text-align:left;" | Left, Left
+|
+|
+| +20%
+|
+|
+| +15%
+|
+|
+|
+|
+| +20%
+|
+|
+| +15%
+|
+|
+|
+|
+|
+| +50
+| +0.4
+| +10%
+|
+|
+|
+| +5
+| +0.2
+| +10%
+|-
+| style="text-align:left;" | Left, Right
+|
+|
+| +20%
+|
+|
+| +15%
+|
+|
+|
+|
+| +20%
+|
+|
+| +15%
+|
+|
+|
+|
+|
+| +60
+| +0.4
+| +10%
+|
+|
+| +20%
+| +10
+| +0.4
+| +10%
+|-
+| style="text-align:left;" | Right, Left
+|
+|
+| +20%
+|
+|
+| +15%
+|
+|
+|
+|
+| +20%
+|
+|
+| +15%
+|
+|
+|
+|
+|
+| +30
+| +0.2
+|
+|
+|
+|
+| +9
+| +0.1
+|
+|-
+| style="text-align:left;" | Right, Right
+|
+|
+| +20%
+|
+|
+| +15%
+|
+|
+|
+|
+| +20%
+|
+|
+| +15%
+|
+|
+|
+|
+|
+| +40
+| +0.2
+|
+|
+|
+| +20%
+| +14
+| +0.3
+|
+|-
+| rowspan="4" style="text-align:left;" | Superior Firepower
+| style="text-align:left;" | Left, Left
+| +10%
+| +10%
+|
+| +5
+| +0.2
+|
+|
+|
+| +10%
+| +10%
+|
+| +5
+| +0.2
+|
+|
+| +10%
+| +10%
+| +10%
+|
+| +5
+|
+|
+| +10%
+| +10%
+|
+| +5
+|
+|
+|-
+| style="text-align:left;" | Left, Right
+| +15%
+|
+|
+|
+| +0.2
+|
+|
+|
+| +15%
+|
+|
+|
+| +0.2
+|
+|
+| +25%
+| +5%
+| +10%
+|
+| +10
+| +0.05
+|
+| +15%
+|
+|
+| +2
+| +0.05
+|
+|-
+| style="text-align:left;" | Right, Left
+| +10%
+| +10%
+|
+| +5
+|
+|
+|
+|
+| +10%
+| +10%
+|
+| +5
+|
+|
+|
+| +10%
+| +10%
+| +10%
+|
+| +5
+|
+|
+| +10%
+| +10%
+|
+| +5
+|
+|
+|-
+| style="text-align:left;" | Right, Right
+| +15%
+|
+|
+|
+|
+|
+|
+|
+| +15%
+|
+|
+|
+|
+|
+|
+| +25%
+| +5%
+| +10%
+|
+| +10
+| +0.05
+|
+| +15%
+|
+|
+| +2
+| +0.05
+|
+|-
+| rowspan="2" style="text-align:left;" | Grand Battleplan
+| style="text-align:left;" | Left
+| +5%
+|
+| +20%
+|
+|
+|
+| -0.02
+|
+| +5%
+|
+| +20%
+|
+|
+|
+| -0.02
+| +5%
+|
+| +10%, +15% w/ Logistics Company
+| +20%
+| +20
+|
+|
+| +5%
+|
+| +20%
+| +8
+|
+|
+|-
+| style="text-align:left;" | Right
+| +5%
+|
+| +10%
+|
+|
+|
+| -0.02
+|
+| +5%
+|
+| +10%
+|
+|
+|
+| -0.02
+| +5%
+|
+| +10%
+| +10%
+| +15
+|
+|
+| +5%
+|
+| +10%
+| +3
+| +0.1
+|
+|-
+| rowspan="2" style="text-align:left;" | Mass Assault
+| style="text-align:left;" | Left
+|
+|
+| +5%
+|
+|
+| +15%
+|
+|
+|
+|
+| +5%
+|
+|
+| +15%
+|
+|
+|
+|
+| +10%
+| +15
+| +0.1
+|
+|
+|
+| +10%
+| +6
+| +0.1
+|
+|-
+| style="text-align:left;" | Right
+|
+|
+|
+|
+| +0.2
+| +15%
+|
+| +0.35 w/ Military Police
+|
+|
+|
+|
+| +0.2
+| +15%
+|
+|
+|
+|
+|
+| +10
+| +0.2
+|
+|
+|
+|
+| +2
+| +0.2
+|
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align:right;"
+|+ style="white-space: nowrap; text-align: left;" | Combat Support Battalion Modifiers Table
+! colspan="2" rowspan="2" style="white-space: nowrap;" class="unsortable" | Doctrine with Variant
+! colspan="6" style="text-align: center;" | Artillery & Rocket Artillery
+! colspan="6" style="text-align: center;" | Anti-Air
+! colspan="5" style="text-align: center;" | Other Combat Support
+|-
+! Soft Attack
+! Hard Attack
+! Defense
+! Breakthrough
+! Organization
+! Recovery Rate
+! Soft Attack
+! Hard Attack
+! Air Attack
+! Breakthrough
+! Organization
+! Recovery Rate
+! Soft Attack
+! Hard Attack
+! Breakthrough
+! Organization
+! Recovery Rate
+|-
+| rowspan="4" style="text-align:left;" | Mobile Warfare
+| style="text-align:left;" | Left, Left
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+| style="text-align:left;" | Left, Right
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+| style="text-align:left;" | Right, Left
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+| style="text-align:left;" | Right, Right
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+| rowspan="4" style="text-align:left;" | Superior Firepower
+| style="text-align:left;" | Left, Left
+| +10%
+| +10%
+| +10% w/ Signal Company
+|
+|
+| +0.2
+| +10%
+| +10%
+| +10% w/ Cavalry Recon Detachment or Motorized Recon Company
+|
+|
+|
+| +20%
+| +10%
+|
+| +5
+| +0.2
+|-
+| style="text-align:left;" | Left, Right
+| +20%
+| +5%
+| +10% w/ Signal Company
+|
+|
+| +0.2
+|
+|
+|
+|
+|
+|
+| +25%
+|
+|
+|
+| +0.2
+|-
+| style="text-align:left;" | Right, Left
+|
+| +10%
+|
+|
+|
+|
+|
+| +10%
+| +10% w/ Cavalry Recon Detachment or Motorized Recon Company
+|
+|
+|
+| +10%
+| +10%
+|
+| +5
+|
+|-
+| style="text-align:left;" | Right, Right
+| +10%
+| +5%
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| +15%
+|
+|
+|
+|
+|-
+| rowspan="2" style="text-align:left;" | Grand Battleplan
+| style="text-align:left;" | Left
+| +5%
+|
+|
+| +20%
+|
+|
+| +5%
+|
+|
+| +20%
+|
+|
+| +5%
+|
+| +20%
+|
+|
+|-
+| style="text-align:left;" | Right
+| +5%
+|
+|
+| +10%
+|
+|
+| +5%
+|
+|
+| +10%
+|
+|
+| +5%
+|
+| +10%
+|
+|
+|-
+| rowspan="2" style="text-align:left;" | Mass Assault
+| style="text-align:left;" | Left
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+| style="text-align:left;" | Right
+|
+|
+|
+|
+|
+| +0.2
+|
+|
+|
+|
+|
+| +0.2
+|
+|
+|
+|
+| +0.2
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align:right;"
+|+ style="white-space: nowrap; text-align: left;" | Mobile Combat Support Battalion Modifiers Table
+! colspan="2" rowspan="2" style="white-space: nowrap;" class="unsortable" | Doctrine with Variant
+! colspan="7" style="text-align: center;" | Motorized Artillery
+! colspan="6" style="text-align: center;" | Truck-Drawn Rocket Artillery & Motorized Rocket Artillery
+! colspan="6" style="text-align: center;" | Motorized Anti-Tank
+! colspan="6" style="text-align: center;" | Other Mobile Combat Support Battalions
+|-
+! Soft Attack
+! Hard Attack
+! Defense
+! Breakthrough
+! Organization
+! Recovery Rate
+! Max Speed
+! Soft Attack
+! Hard Attack
+! Defense
+! Breakthrough
+! Organization
+! Recovery Rate
+! Soft Attack
+! Hard Attack
+! Breakthrough
+! Organization
+! Recovery Rate
+! Max Speed
+! Soft Attack
+! Hard Attack
+! Breakthrough
+! Organization
+! Recovery Rate
+! Max Speed
+|-
+| rowspan="4" style="text-align:left;" | Mobile Warfare
+| style="text-align:left;" | Left, Left
+|
+|
+|
+|
+|
+| +0.2
+| +10%
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| +0.2
+| +10%
+|
+|
+|
+|
+| +0.2
+| +10%
+|-
+| style="text-align:left;" | Left, Right
+|
+|
+|
+|
+|
+| +0.2
+| +10%
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| +0.2
+| +10%
+|
+|
+|
+|
+| +0.2
+| +10%
+|-
+| style="text-align:left;" | Right, Left
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+| style="text-align:left;" | Right, Right
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+| rowspan="4" style="text-align:left;" | Superior Firepower
+| style="text-align:left;" | Left, Left
+| +10%
+| +10%
+| +10% w/ Signal Company
+|
+|
+| +0.2
+|
+| +10%
+| +10%
+| +10% w/ Signal Company
+|
+|
+|
+| +20%
+| +10%
+|
+| +5
+| +0.2
+|
+| +10%
+| +10%
+|
+|
+| +0.2
+|
+|-
+| style="text-align:left;" | Left, Right
+| +20%
+| +5%
+| +10% w/ Signal Company
+|
+|
+| +0.2
+|
+| +20%
+| +5%
+| +10% w/ Signal Company
+|
+|
+|
+| +25%
+|
+|
+|
+| +0.2
+|
+| +10%
+|
+|
+|
+| +0.2
+|
+|-
+| style="text-align:left;" | Right, Left
+|
+| +10%
+|
+|
+|
+|
+|
+|
+| +10%
+|
+|
+|
+|
+| +10%
+| +10%
+|
+| +5
+|
+|
+|
+| +10%
+|
+|
+|
+|
+|-
+| style="text-align:left;" | Right, Right
+| +10%
+| +5%
+|
+|
+|
+|
+|
+| +10%
+| +5%
+|
+|
+|
+|
+| +15%
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+| rowspan="2" style="text-align:left;" | Grand Battleplan
+| style="text-align:left;" | Left
+| +5%
+|
+|
+| +20%
+|
+|
+|
+| +5%
+|
+|
+| +20%
+|
+|
+| +5%
+|
+| +20%
+|
+|
+|
+| +5%
+|
+| +20%
+|
+|
+|
+|-
+| style="text-align:left;" | Right
+| +5%
+|
+|
+| +10%
+|
+|
+|
+| +5%
+|
+|
+| +10%
+|
+|
+| +5%
+|
+| +10%
+|
+|
+|
+| +5%
+|
+| +10%
+|
+|
+|
+|-
+| rowspan="2" style="text-align:left;" | Mass Assault
+| style="text-align:left;" | Left
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+| style="text-align:left;" | Right
+|
+|
+|
+|
+|
+| +0.2
+|
+|
+|
+|
+|
+|
+| +0.2
+|
+|
+|
+|
+| +0.2
+|
+|
+|
+|
+|
+| +0.2
+|
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align:right;"
+|+ style="white-space: nowrap; text-align: left;" | Armored & Armored Support Battalion Modifiers Table
+! colspan="2" rowspan="2" style="white-space: nowrap;" class="unsortable" | Doctrine with Variant
+! colspan="6" style="text-align: center;" | Armored Battalions
+! colspan="6" style="text-align: center;" | Tank Destroyers
+! colspan="6" style="text-align: center;" | Other Armored Combat Support Battalions
+|-
+! Soft Attack
+! Hard Attack
+! Breakthrough
+! Organization
+! Recovery Rate
+! Max Speed
+! Soft Attack
+! Hard Attack
+! Breakthrough
+! Organization
+! Recovery Rate
+! Max Speed
+! Soft Attack
+! Hard Attack
+! Breakthrough
+! Organization
+! Recovery Rate
+! Max Speed
+|-
+| rowspan="4" style="text-align:left;" | Mobile Warfare
+| style="text-align:left;" | Left, Left
+|
+|
+| +20%, +30% w/ Light Armored Recon Company
+| +4
+|
+| +10%
+|
+|
+| +20%, +30% w/ Light Armored Recon Company
+|
+|
+| +10%
+|
+|
+| +20%, +30% w/ Light Armored Recon Company
+|
+|
+| +10%
+|-
+| style="text-align:left;" | Left, Right
+|
+|
+| +40%, +50% w/ Light Armored Recon Company
+| +9
+| +0.2
+| +10%
+|
+|
+| +20%, +30% w/ Light Armored Recon Company
+|
+| +0.2
+| +10%
+|
+|
+| +20%, +30% w/ Light Armored Recon Company
+|
+| +0.2
+| +10%
+|-
+| style="text-align:left;" | Right, Left
+|
+|
+| +40%
+| +7
+| +0.2
+| +10%
+|
+|
+| +20%
+|
+| +0.2
+| +10%
+|
+|
+| +20%
+|
+| +0.2
+| +10%
+|-
+| style="text-align:left;" | Right, Right
+|
+|
+| +60%
+| +12
+| +0.4
+| +10%
+|
+|
+| +20%
+|
+| +0.4
+| +10%
+|
+|
+| +20%
+|
+| +0.4
+| +10%
+|-
+| rowspan="4" style="text-align:left;" | Superior Firepower
+| style="text-align:left;" | Left, Left
+| +20%
+| +20%
+| +10%
+| +5
+|
+|
+| +20%
+| +20%
+| +10%
+| +5
+|
+|
+| +10%
+| +20%
+| +10%
+|
+|
+|
+|-
+| style="text-align:left;" | Left, Right
+| +15%
+|
+| +10%
+| +2
+| +0.05
+|
+| +15%
+|
+| +10%
+|
+| +0.05
+|
+|
+|
+| +10%
+|
+| +0.05
+|
+|-
+| style="text-align:left;" | Right, Left
+| +20%
+| +20%
+| +10%
+| +5
+|
+|
+| +20%
+| +20%
+| +10%
+| +5
+|
+|
+| +10%
+| +20%
+| +10%
+|
+|
+|
+|-
+| style="text-align:left;" | Right, Right
+| +15%
+|
+| +10%
+| +2
+| +0.05
+|
+| +15%
+|
+| +10%
+|
+| +0.05
+|
+|
+|
+| +10%
+|
+| +0.05
+|
+|-
+| rowspan="2" style="text-align:left;" | Grand Battleplan
+| style="text-align:left;" | Left
+| +5%
+|
+| +20%
+| +2
+|
+|
+| +5%
+|
+| +20%
+|
+|
+|
+| +5%
+|
+| +20%
+|
+|
+|
+|-
+| style="text-align:left;" | Right
+| +5%
+|
+| +10%
+| +3
+| +0.1
+|
+| +5%
+|
+| +10%
+|
+| +0.1
+|
+| +5%
+|
+| +10%
+|
+| +0.1
+|
+|-
+| rowspan="2" style="text-align:left;" | Mass Assault
+| style="text-align:left;" | Left
+|
+|
+| +10%
+| +5
+| +0.1
+|
+|
+|
+|
+|
+| +0.1
+|
+|
+|
+|
+|
+| +0.1
+|
+|-
+| style="text-align:left;" | Right
+|
+|
+|
+| +2
+| +0.2
+|
+|
+|
+|
+|
+| +0.2
+|
+|
+|
+|
+|
+| +0.2
+|
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align:right;"
+|+ style="white-space: nowrap; text-align: left;" | Support Company Modifiers Table
+! colspan="2" rowspan="2" style="white-space: nowrap;" class="unsortable" | Doctrine with Variant
+! colspan="6" style="text-align: center;" | Support Artillery, Support Rocket Artillery, Super-Heavy Howitzer, & Self-Propelled Super-Heavy Howitzer
+! colspan="6" style="text-align: center;" | Support Anti-Air
+! colspan="5" style="text-align: center;" | Support Anti-Tank, Engineer, Pioneers, & Winter Logistics Companies
+! colspan="6" style="text-align: center;" | Land Cruiser, Flame Tank, Assault Engineer, & Armored Engineer Companies
+! colspan="6" style="text-align: center;" | Armored Maintenance & Armored Signal Companies
+! colspan="6" style="text-align: center;" | Airborne Light Tank
+! colspan="7" style="text-align: center;" | Cavalry Recon Detachment
+! colspan="7" style="text-align: center;" | Motorized Recon & Light Armored Recon Companies
+! colspan="7" style="text-align: center;" | Light Tank Recon Company
+! colspan="6" style="text-align: center;" | Helicopter Recon Company
+! colspan="6" style="text-align: center;" | Other Recon Companies
+! colspan="5" style="text-align: center;" | Other Support Companies
+|-
+! Soft Attack
+! Hard Attack
+! Defense
+! Breakthrough
+! Organization
+! Recovery Rate
+! Soft Attack
+! Hard Attack
+! Air Attack
+! Breakthrough
+! Organization
+! Recovery Rate
+! Soft Attack
+! Hard Attack
+! Breakthrough
+! Organization
+! Recovery Rate
+! Soft Attack
+! Hard Attack
+! Breakthrough
+! Organization
+! Recovery Rate
+! Max Speed
+! Soft Attack
+! Hard Attack
+! Breakthrough
+! Organization
+! Recovery Rate
+! Max Speed
+! Soft Attack
+! Hard Attack
+! Breakthrough
+! Organization
+! Recovery Rate
+! Max Speed
+! Soft Attack
+! Hard Attack
+! Breakthrough
+! Organization
+! Recovery Rate
+! Max Speed
+! Reconnaissance
+! Soft Attack
+! Hard Attack
+! Breakthrough
+! Organization
+! Recovery Rate
+! Max Speed
+! Reconnaissance
+! Soft Attack
+! Hard Attack
+! Breakthrough
+! Organization
+! Recovery Rate
+! Max Speed
+! Reconnaissance
+! Soft Attack
+! Hard Attack
+! Breakthrough
+! Organization
+! Recovery Rate
+! Reconnaissance
+! Soft Attack
+! Hard Attack
+! Breakthrough
+! Organization
+! Recovery Rate
+! Reconnaissance
+! Soft Attack
+! Hard Attack
+! Breakthrough
+! Organization
+! Recovery Rate
+|-
+| rowspan="4" style="text-align:left;" | Mobile Warfare
+| style="text-align:left;" | Left, Left
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| +20%, +30% w/ Light Armored Recon Company
+| +4
+|
+| +10%
+|
+|
+| +20%, +30% w/ Light Armored Recon Company
+| +4
+|
+| +10%
+|
+|
+| +20%
+|
+|
+| +10%
+|
+|
+|
+|
+|
+| +15%
+|
+|
+|
+|
+|
+|
+| +10%
+|
+|
+|
+| +20%
+|
+|
+| +10%
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+| style="text-align:left;" | Left, Right
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| +40%, +50% w/ Light Armored Recon Company
+| +9
+| +0.2
+| +10%
+|
+|
+| +40%, +50% w/ Light Armored Recon Company
+| +9
+| +0.2
+| +10%
+|
+|
+| +20%
+|
+| +0.2
+| +10%
+|
+|
+|
+|
+|
+| +15%
+|
+|
+|
+|
+|
+|
+| +10%
+|
+|
+|
+| +20%
+|
+| +0.2
+| +10%
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+| style="text-align:left;" | Right, Left
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| +40%
+| +7
+| +0.2
+| +10%
+|
+|
+| +40%
+| +7
+| +0.2
+| +10%
+|
+|
+| +20%
+|
+| +0.2
+| +10%
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| +20%
+|
+| +0.2
+| +10%
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+| style="text-align:left;" | Right, Right
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| +60%
+| +12
+| +0.4
+| +10%
+|
+|
+| +60%
+| +12
+| +0.4
+| +10%
+|
+|
+| +20%
+|
+| +0.4
+| +10%
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| +20%
+|
+| +0.4
+| +10%
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+| rowspan="4" style="text-align:left;" | Superior Firepower
+| style="text-align:left;" | Left, Left
+|
+| +10%
+| +10% w/ Signal Company
+|
+|
+|
+|
+| +10%
+| +10% w/ Cavalry Recon Detachment or Motorized Recon Company
+|
+|
+|
+| +10%
+| +10%
+|
+| +5
+|
+| +20%
+| +20%
+| +10%
+| +5
+|
+|
+| +10%
+| +20%
+| +10%
+|
+|
+|
+| +10%
+| +20%
+| +10%
+| +5
+|
+|
+|
+| +10%
+|
+| +5
+|
+|
+|
+|
+| +10%
+|
+| +5
+|
+|
+|
+|
+| +10%
+| +20%
+| +10%
+| +5
+|
+|
+|
+| +10%
+|
+|
+|
+|
+| +10%
+| +10%
+|
+| +5
+|
+|
+|
+| +10%
+|
+|
+|
+|-
+| style="text-align:left;" | Left, Right
+| +10%
+| +5%
+| +10% w/ Signal Company
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| +15%
+|
+|
+|
+|
+| +15%
+|
+| +10%
+| +2
+| +0.05
+|
+|
+|
+| +10%
+| +2
+| +0.05
+|
+|
+|
+| +10%
+|
+| +0.05
+|
+|
+|
+|
+|
+|
+|
+| +100%
+|
+|
+|
+|
+|
+|
+| +100%
+|
+|
+| +10%
+|
+| +0.05
+|
+| +100%
+|
+|
+|
+|
+|
+| +100%
+| +15%
+|
+|
+|
+|
+| +100%
+|
+|
+|
+|
+|
+|-
+| style="text-align:left;" | Right, Left
+| +50%
+| +10%
+|
+|
+| +20
+|
+| +50%
+| +10%
+| +10% w/ Cavalry Recon Detachment or Motorized Recon Company
+|
+| +20
+|
+| +60%
+| +10%
+|
+| +25
+|
+| +70%
+| +20%
+| +10%
+| +25
+|
+|
+| +60%
+| +20%
+| +10%
+| +20
+|
+|
+| +70%
+| +20%
+| +10%
+| +25
+|
+|
+| +60%
+| +10%
+|
+| +25
+|
+|
+|
+| +60%
+| +10%
+|
+| +25
+|
+|
+|
+| +70%
+| +20%
+| +10%
+| +25
+|
+|
+|
+| +50%
+| +10%
+|
+| +20
+|
+|
+| +60%
+| +10%
+|
+| +25
+|
+|
+| +50%
+| +10%
+|
+| +20
+|
+|-
+| style="text-align:left;" | Right, Right
+| +60%
+| +5%
+|
+|
+| +20
+|
+| +50%
+|
+|
+|
+| +20
+|
+| +65%
+|
+|
+| +20
+|
+| +65%
+|
+| +10%
+| +22
+| +0.05
+|
+| +50%
+|
+| +10%
+| +22
+| +0.05
+|
+| +65%
+|
+| +10%
+| +20
+| +0.05
+|
+| +65%
+|
+|
+| +20
+|
+|
+| +100%
+| +65%
+|
+|
+| +20
+|
+|
+| +100%
+| +65%
+|
+| +10%
+| +20
+| +0.05
+|
+| +100%
+| +50%
+|
+|
+| +20
+|
+| +100%
+| +65%
+|
+|
+| +20
+|
+| +100%
+| +50%
+|
+|
+| +20
+|
+|-
+| rowspan="2" style="text-align:left;" | Grand Battleplan
+| style="text-align:left;" | Left
+| +5%
+|
+|
+| +20%
+|
+|
+| +5%
+|
+|
+| +20%
+|
+|
+| +5%
+|
+| +20%
+|
+|
+| +5%
+|
+| +20%
+| +2
+|
+|
+| +5%
+|
+| +20%
+| +2
+|
+|
+| +5%
+|
+| +20%
+|
+|
+|
+| +5%
+|
+| +20%
+|
+|
+|
+|
+| +5%
+|
+| +20%
+|
+|
+|
+|
+| +5%
+|
+| +20%
+|
+|
+|
+|
+| +5%
+|
+| +20%
+|
+|
+|
+| +5%
+|
+| +20%
+|
+|
+|
+| +5%
+|
+| +20%
+|
+|
+|-
+| style="text-align:left;" | Right
+| +5%
+|
+|
+| +10%
+|
+|
+| +5%
+|
+|
+| +10%
+|
+|
+| +5%
+|
+| +10%
+|
+|
+| +5%
+|
+| +10%
+| +3
+| +0.1
+|
+| +5%
+|
+| +10%
+| +3
+| +0.1
+|
+| +5%
+|
+| +10%
+|
+| +0.1
+|
+| +5%
+|
+| +10%
+|
+|
+|
+| +100%
+| +5%
+|
+| +10%
+|
+|
+|
+| +100%
+| +5%
+|
+| +10%
+|
+| +0.1
+|
+| +100%
+| +5%
+|
+| +10%
+|
+|
+| +100%
+| +5%
+|
+| +10%
+|
+|
+| +100%
+| +5%
+|
+| +10%
+|
+|
+|-
+| rowspan="2" style="text-align:left;" | Mass Assault
+| style="text-align:left;" | Left
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| +10%
+| +5
+| +0.1
+|
+|
+|
+| +10%
+| +5
+| +0.1
+|
+|
+|
+|
+|
+| +0.1
+|
+|
+|
+|
+|
+|
+| +15%
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| +0.1
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+| style="text-align:left;" | Right
+|
+|
+|
+|
+|
+| +0.2
+|
+|
+|
+|
+|
+| +0.2
+|
+|
+|
+|
+| +0.2
+|
+|
+|
+| +2
+| +0.2
+|
+|
+|
+|
+| +2
+| +0.2
+|
+|
+|
+|
+|
+| +0.2
+|
+|
+|
+|
+|
+| +0.2
+| +15%
+|
+|
+|
+|
+|
+| +0.2
+|
+|
+|
+|
+|
+|
+| +0.2
+|
+|
+|
+|
+|
+|
+| +0.2
+|
+|
+|
+|
+|
+| +0.2
+|
+|
+|
+|
+|
+| +0.2
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align:right;"
+|+ style="white-space: nowrap; text-align: left;" | Country Modifiers Table
+! colspan="2" rowspan="2" style="white-space: nowrap;" class="unsortable" | Doctrine with Variant
+! colspan="2" style="text-align: center;" | Planning
+! rowspan="2" style="text-align: center;" | Divisions Speed
+! rowspan="2" style="text-align: center;" | Organization Loss when Moving
+! rowspan="2" style="text-align: center;" | Reinforce Rate
+! rowspan="2" style="text-align: center;" | Recruitable Population
+! rowspan="2" style="text-align: center;" | Damage to Enemy Garrisons in Occupied States
+! rowspan="2" style="text-align: center;" | Coordination
+! rowspan="2" style="text-align: center;" | Air Superiority
+! colspan="2" style="text-align: center;" | Entrenchment
+! colspan="2" style="text-align: center;" | Command Power
+! rowspan="2" style="text-align: center;" | Supply Consumption
+! rowspan="2" style="text-align: center;" | Land Night Attack
+! rowspan="2" style="text-align: center;" | Minimum Training Level
+! rowspan="2" style="text-align: center;" | Weekly War Support (Combat Casualties)
+! colspan="2" style="text-align: center;" | Supply
+! rowspan="2" style="text-align: center;" | Division Attrition
+! rowspan="2" style="text-align: center;" | Resistance Growth in Enemy Occupied States
+! rowspan="2" style="text-align: center;" class="unsortable" | Unlocked Offensive Tactics
+! rowspan="2" style="text-align: center;" class="unsortable" | Unlocked Defensive Tactics
+|-
+! Planning Speed
+! Max Planning
+! Entrenchment Speed
+! Max Entrenchment
+! Daily Command Power Gain
+! Max Command Power
+! Non-Combat Supply Penalties
+! Supply Grace (Hours)
+|-
+| rowspan="4" style="text-align:left;" | Mobile Warfare
+| style="text-align:left;" | Left, Left
+| +70% || || +20% || -10% || +2% || +5% || +10%
+| ||
+| || || || || ||
+| || || || || ||
+| style="text-align: left;" | Unexpected Thrust
+ Blitz || style="text-align: left;" | Delay
+ Elastic Defense
+ Overwhelming Fire
+ Guerrilla Tactics
+|-
+| style="text-align:left;" | Left, Right
+| +70% || || +20% || -10% || +2% || ||
+| ||
+| || || || || ||
+| || || || || ||
+| style="text-align: left;" | Unexpected Thrust
+ Blitz || style="text-align: left;" | Delay
+ Elastic Defense
+ Overwhelming Fire
+ Backhand Blow
+|-
+| style="text-align:left;" | Right, Left
+| +70% || || +20% || -10% || +2% || +5% || +10%
+| ||
+| || || || || ||
+| || || || || ||
+| style="text-align: left;" | Unexpected Thrust
+ Blitz
+ Breakthrough || style="text-align: left;" | Delay
+ Elastic Defense
+ Overwhelming Fire
+ Guerrilla Tactics
+|-
+| style="text-align:left;" | Right, Right
+| +70% || || +20% || -10% || +2% || ||
+| ||
+| || || || || ||
+| || || || || ||
+| style="text-align: left;" | Unexpected Thrust
+ Blitz
+ Breakthrough || style="text-align: left;" | Delay
+ Elastic Defense
+ Overwhelming Fire
+ Backhand Blow
+|-
+| rowspan="4" style="text-align:left;" | Superior Firepower
+| style="text-align:left;" | Left, Left
+| || || || || +2% || ||
+| +5% || +15%
+| || || || || ||
+| || || || || ||
+| style="text-align: left;" | Suppressive Barrage
+ Blitz
+ Breakthrough || style="text-align: left;" | Delay
+ Elastic Defense
+ Overwhelming Fire
+ Tactical Withdrawal
+|-
+| style="text-align:left;" | Left, Right
+| || || || || +2% || ||
+| +5% ||
+| || || || || ||
+| || || || || ||
+| style="text-align: left;" | Suppressive Barrage
+ Blitz
+ Breakthrough || style="text-align: left;" | Delay
+ Elastic Defense
+ Overwhelming Fire
+ Tactical Withdrawal
+|-
+| style="text-align:left;" | Right, Left
+| || || || || +2% || ||
+| || +15%
+| || || || || ||
+| || || || || ||
+| style="text-align: left;" | Suppressive Barrage
+ Blitz
+ Breakthrough || style="text-align: left;" | Delay
+ Elastic Defense
+ Overwhelming Fire
+ Tactical Withdrawal
+|-
+| style="text-align:left;" | Right, Right
+| || || || || +2% || ||
+| ||
+| || || || || ||
+| || || || || ||
+| style="text-align: left;" | Suppressive Barrage
+ Blitz
+ Breakthrough || style="text-align: left;" | Delay
+ Elastic Defense
+ Overwhelming Fire
+ Tactical Withdrawal
+|-
+| rowspan="2" style="text-align:left;" | Grand Battleplan
+| style="text-align:left;" | Left
+| || +30% || || || +2% || ||
+| +10% ||
+| +25% || +10 || +0.25 || +30 || ||
+| || || || || ||
+| style="text-align: left;" | Well-Planned Attack
+ Blitz
+ Breakthrough || style="text-align: left;" | Elastic Defense
+ Overwhelming Fire
+|-
+| style="text-align:left;" | Right
+| || +10% || || || +2% || ||
+| ||
+| +25% || +10 || +0.25, +15% || || -10% || +25%
+| || || || || ||
+| style="text-align: left;" | Well-Planned Attack
+ Infiltration Assault
+ Blitz || style="text-align: left;" | Elastic Defense
+|-
+| rowspan="2" style="text-align:left;" | Mass Assault
+| style="text-align:left;" | Left
+| || +10% || || -25% || +12% || ||
+| ||
+| || +5 || || || -20% ||
+| -10% || +0.1% || -10% || +48 || ||
+| style="text-align: left;" | Relentless Assault
+ Blitz
+ Breakthrough || style="text-align: left;" | Elastic Defense
+ Overwhelming Fire
+ Backhand Blow
+|-
+| style="text-align:left;" | Right
+| || || || || +22% || +5% || +10%
+| ||
+| || +5 || || || ||
+| -10% || +0.1% || -40% || +48 || -10% || +25%
+| style="text-align: left;" | Mass Charge || style="text-align: left;" | Guerrilla Tactics
+|}
+
+# References

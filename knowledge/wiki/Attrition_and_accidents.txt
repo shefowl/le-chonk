@@ -1,0 +1,110 @@
+TITLE: Attrition and accidents
+URL: https://hoi4.paradoxwikis.com/Attrition_and_accidents
+REVISION: 2026-03-14T14:45:22Z (rev 98852)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Attrition will lead to the loss of equipment and organization (though not manpower) beyond combat operations. Only land units suffer from attrition, but naval and air units can suffer accidents that act in a similar fashion, especially when training or operating in harsh weather.
+
+# Causes [verified for 1.16]
+
+All on-map units have a baseline attrition rate of UNIT_UPKEEP_ATTRITION. Attrition can be caused or increased by the following:
+- Training: +5%
+- Moving in hostile Terrain (i.e., Desert , Jungle , Marsh , and Mountain ): up to +50%
+- Weather: up to +70%
+- Resistance: up to +25%
+- Border wars: up to +10%
+- Less than 35% supply status: up to +20%
+- Unit is moving: 1.2
+
+Off-map supply trucks have a baseline attrition rate 0.3% instead. They multiply all sources of attrition by 0.65, but can be far more adversely affected by certain sources of attrition than regular land units:
+- Transporting supplies through rugged Terrain (i.e., Hills , Forest , Desert , Jungle , Marsh , and Mountain ): up to +400%
+- Transporting supplies through adverse Weather: up to +500%
+
+# Organization loss [verified for 1.16]
+
+A division loses {{#tag:math|0.08 \cdot \left( \text{attrition} \right) }} organization per hour from attrition, both in combat and out of combat. Divisions that are out of supply also suffer up to -0.2 recovery rate (and thus, their hourly organization gain) based on both how much they are out of supply and how long they have been out of supply, with the maximum effect being achieved after 30 days.
+
+# Equipment loss [verified for 1.16]
+
+Higher reliability reduces equipment loss from attrition. Reliability above 100% has no further impact on equipment losses and acts identical to having a reliability of 100%.
+
+## Land units
+For land units, the amount of equipment lost per hour for each type of equipment is:
+
+{{#tag:math|\text{Equipment lost per hour} = 0.005 \cdot \text{attrition} \cdot \text{random}(0,1) \cdot \text{number of equipment} \cdot ATTRITION_EQUIPMENT_PER_TYPE_LOSS_CHANCE \cdot \left(1 - \text{reliability}\right)}}
+
+This comes to an average rate of:
+
+{{#tag:math|\text{Average equipment lost per hour} = 0.005 \cdot \text{attrition} \cdot 0.5 \cdot \text{number of equipment} \cdot ATTRITION_EQUIPMENT_PER_TYPE_LOSS_CHANCE \cdot \left(1 - \text{reliability}\right)}}
+
+For sufficiently high equipment counts or low reliability, and with one day being 24 hours, this simplifies to:
+
+{{#tag:math|\text{Average daily attrition rate} = 0.6\% \cdot \text{attrition} \cdot \left(1 - \text{reliability}\right) }}.
+
+For 100% attrition and 0% reliability, about 0.6% of equipment will be lost per day. For 5% attrition and 80% reliability, which are very common conditions for training divisions that use a lot of infantry equipment, days of training (enough to go from Green to Trained ) will cost about % of equipment.
+
+It should be noted that each equipment variant calculates attrition independently.
+
+## Air units
+While aircraft do not suffer from attrition, they have a 10% base chance of suffering an accident. This gets modified by a balancing factor (0.1x), their reliability (up to 2 at 0% reliability), if they are on an aircraft carrier (1.5x), if they are currently performing pilot exercises (+20%), their veterancy, weather, and other modifiers (though not country-level ones from national spirits if they are negative). Every game hour, all air bases are checked for accidents. At most one accident can happen per hour per airbase, but multiple planes could be destroyed in it. The accident can affect a random portion of the wing between 0% and 100%, but only 0.7% of the wing actually gets destroyed. If the effect is less than one plane (often the case with aircraft carriers), these fractional parts are accumulated on a country-wide level and added to the next accident effect.
+
+{{#tag:math|\text{Hourly accident chance} = 10 \% \cdot \text{Accident chance modifiers} \cdot \left( 100\% - \text{reliability} \right) \cdot 2 }}
+
+{{#tag:math|\text{Accident effect} = \text{random}\left(0,1\right) \cdot 0.7 \% }}
+
+{{#tag:math|\text{Average accident effect} = 0.5 \cdot 0.7 \% = 0.35\% }}
+
+{{#tag:math|\text{Average aircraft lost per hour per airbase} = 10 \% \cdot \left( 100\% - \text{reliability} \right) \cdot 2 \cdot 0.35\% = 0.07\% \cdot \left( 100\% - \text{reliability} \right) }}
+
+Assuming a reliability of 80% and no other modifiers, the average amount of aircraft lost per hour would be 0.014% of a wing per airbase. This accumulates to 0.336% of a wing per airbase per day and 122.64% of an air wing per airbase per year.
+
+All aircraft (other than intercontinental bombers with Götterdämmerung ) start with a reliability of at least 80%, though this can be modified up or down through the use of variants and military industrial organizations. With a reliability of 90% and no other modifiers, the average hourly loss rate from accidents would become 0.007% of a wing per airbase, which translates to 0.168% of a wing per airbase per day and 61.32% of an air wing per airbase per year. With a reliability of 40% (common with variants without By Blood Alone 's aircraft designer) and no other modifiers, the average hourly loss rate from accidents would become 0.042% of a wing per airbase, which translates to 1.008% of a wing per airbase per day and 367.92% of an air wing per airbase per year.
+
+Due to how low the losses from accidents are when compared to actual combat, it's usually preferable to disregard reliability in favor of combat stats in most situations.
+
+## Naval units
+Ships do not suffer from attrition, but their reliability corresponds with probability of getting critically hit by enemy attacks. However, they can suffer accidents.
+
+Ships that are performing naval exercises have a 2% chance of suffering an accident every hour. When it happens, the ship loses 30% of its current organization and 5% of its maximum HP, plus an extra 4 strength damage. There is also a 30% chance of a training accident being a critical hit, which multiplies all organization and strength damage taken from the accident by 4x.
+
+Ships can also suffer accidents from operating in mined waters. The chance of a ship hitting a mine in a particular sea zone depends on how saturated the sea zone is with mines (up to 5%) as well as the sea zone's terrain. When a ship does hit a mine, it loses loses 50% of its current organization and takes 50 strength damage, which can sink smaller vessels outright. There is also a 14% chance of a training accident being a critical hit, which multiplies all organization and strength damage taken from the accident by 5x, allowing mines to potentially instantly sink even larger vessels.
+
+Prides of the fleet are far less affected by accidents. Their accident chances are scaled by 0.01x, and even when they do get an accident, the chance of it being a critical hit are also scaled by 0.01x.
+
+There is also an additional 4% balancing factor present for naval accidents, including from training and from mines. This ensures naval accidents are to occur at around that rate, preventing extremely lucky or unlucky streaks.
+
+The game does still make references to naval attrition, however. Some of the game's defines supposedly control naval attrition effects, as do certain admiral traits like Cold Water Expert and weather effects like Arctic Water .
+
+# Methods to reduce equipment loss [verified for 1.16]
+
+There are several ways to reduce the effects of equipment loss.
+
+For land units, one way is to improve the reliability of their equipment by attaching a Maintenance Company to divisions or by creating new equipment variants and designs (for No Step Back tanks, Man the Guns ships, and By Blood Alone aircraft) with more reliability.
+
+Another way is to find the source of attrition and mitigate or eliminate it:
+- For attrition from low supply, attaching a Logistics Company to divisions can be helpful, as can improving the supply network, or even simply moving units out of overloaded areas until there is enough supply left for remaining units.
+- For attrition due to rough terrain, such as Jungles or Mountains , it can be helpful to reduce the amount of time spent in these terrains in the first place, especially with divisions containing low reliability equipment.
+- For attrition due to Extremely hot or Extremely cold weather, acclimatizing units to that weather can reduce their attrition from it. Certain national spirits, support companies like Winter Logistics , special forces doctrines/special forces concentration technologies, and commander traits like Adaptable and Winter Specialist can speed up hot and/or cold acclimatization.
+- For attrition due to temporary weather effects, such as Mud , Blizzards , or Sandstorms , it can be helpful to wait until these conditions clear up. The build-up of Mud in particular can also be reduced by upgrading a state's infrastructure .
+- For attrition from high resistance, certain occupation laws like Martial Law or Brutal Oppression and performing the Root Out Resistance mission with operatives can be used to lower it. If enemy operatives are boosting resistance through operations, they can be thwarted by performing the Counter Intelligence mission with operatives and/or taking the Passive defense and/or Interrogation techniques intelligence agency upgrades.
+- For attrition to off-map supply trucks, it can be useful to reduce supply motorization. This will reduce the range of supply hubs and potentially cause attrition for land units who will become out of supply as a result, so it can also be helpful to build new supply hubs or naval bases to reduce increased load on the supply network caused by lowering the level of motorization.
+- For attrition from training, it can be helpful to restrict what equipment divisions are allowed to use. Divisions can still be trained even when they are using outdated equipment, or even no equipment, and do not lose any experience from receiving more up-to-date equipment after they have been trained in the field. Restricting equipment can also be done for air wings performing pilot exercises, as losing old and outdated aircraft to training accidents is better than losing more expensive, up-to-date equipment.
+
+There are also ways to reduce attrition globally. These include:
+- Certain political advisors and military high command figures can reduce attrition when employed
+- Certain national spirits unlocked through national focuses can reduce attrition
+- The People's Army land doctrine under the Mass Mobilization path of Mass Assault reduces attrition for all land units
+
+## Custom difficulty settings
+Adjusting the strength slider of a major country in its difficulty settings prior to a game will reduce the amount of attrition that that country's units will receive. However, doing so disables achievements.
+
+# References
+
+hoi4de:Attrition and accidents
+hoi4es:Attrition and accidents
+hoi4fr:Attrition and accidents
+hoi4pl:Attrition and accidents
+hoi4pt:Attrition and accidents
+hoi4ru:Attrition and accidents

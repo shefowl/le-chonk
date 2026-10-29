@@ -1,0 +1,54 @@
+TITLE: National focus
+URL: https://hoi4.paradoxwikis.com/National_focus
+REVISION: 2026-03-27T17:40:41Z (rev 99341)
+VERIFIED FOR: 1.17
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+The focus trees allow the players (and the AI) to direct the development of their nation. Each country has a focus tree, representing a number of progression paths (branches) available to that nation. These paths may be based on actual historical situations or on alternative historical possibilities. The individual options can range from political, diplomatic and warfare-related focuses to more economic and research-related focuses.
+
+Due to the semi-random nature of the AI it ensures that no two games will play out in precisely the same way. Players wishing to have a more historical-based campaign can choose to do so by ticking the Historical AI Focuses option on the country selection screen (map) just before the start of a new game. It is important to note, however, that player nations are not bound by this and as such their in-game actions can still force the AI to pick somewhat less than historical choices.
+
+The seven great powers as well as Poland and Finland have a unique national focus tree in the base game. Additional countries - as detailed below - received a unique focus tree as part of different DLCs. All other nations use the generic national focus tree.
+
+# Mechanic overview [verified for 1.17]
+
+Branches in a focus tree revolve around a common theme or goal with the individual focuses within intended to help in achieving that goal. Although branches are mostly isolated from each other, they will be connected (locally) if they happen to coincide over a common point.
+
+Only a single focus can be taken at a time. A time 70 day focus requires Political power 70 Political power to complete at a progress rate of Political power –1 Political power per day, and a time 35 day focus requires Political power 35 Political power to complete. When completed, the player may go up to 10 days without picking a new focus and still have those days (and their accumulated Political power Political power) count towards the new focus.
+
+Aside from the branches' top level focuses, most other focuses have additional requirements in need of fulfillment before they can be picked. If a requirement of an on-going focus has become invalidated, the focus will either be paused until the requirement is restored (if possible) or outright be cancelled when such a thing is not easily possible. For cases such as the latter, focuses will have bypass conditions to allow the player to proceed past them - the player will be notified of the bypass within a few days (they will display a golden bracket as if completed regularly). For example, Motorization Effort can be bypassed if the Motorized Infantry technology has already been researched beforehand.
+
+Once a focus has started, the player can manually stop it, unless explicitly prohibited. If stopped, a maximum of 10 days of focus progress is saved. If, due to circumstances, the focus has been invalidated, the political power already spent are lost. As such, it is recommended to check all requirements and conditions regarding a focus to assess if/how they may be affected within its completion time-frame.
+
+Accessing a focus' expanded details can be achieved by clicking or hovering over the focus. Among the information presented there are: the flavor description, its requirements, bypass conditions (if applicable) and the expected completion effects.
+
+## Visual indicators
+- Bracket color - Players can check at a glance a focus' completion status by the background color of its name bracket. Grey bracket means available for picking, brown bracket indicates as of yet unavailability and golden bracket denotes completed focuses. On-going focuses will feature a shining overlay effect over them.
+
+- Connection lines - Focuses are connected by colored lines. The color indicates whether its preceding focus is completed (green) or not (light-blue). The connection may also appear as a solid or dotted line, with the former indicating a logical AND and the latter a logical OR. For example, to pick Special Forces would require all 3 of the focuses preceding it while picking Technology Sharing requires only one of the 2 preceding it.
+
+- Mutually exclusive - Some focuses may have the exclusivem mutually exclusive icon appearing in-between them. The icon denotes that only one of two may be selected. Further more, depending on the focuses outgoing connections it may also exclude from picking any of the focuses connected to them further down the line. For example, choosing between Collectivist Ethos or Liberty Ethos will make any of the other side's subsequent connected focuses unavailable for picking up until Technology Sharing (linked to both sides by an OR connection).
+
+## Continuous focus
+
+(Main article: Continuous focus)
+branches desc
+
+# Generic national focus tree
+
+(Main article: Generic national focus tree)
+All nations lacking a unique national focus tree use the generic national focus tree instead.
+branches desc
+
+Note: The generic focus tree also acts as the default tree for nations which received a unique focus tree in a DLC if said DLC is not enabled.
+
+# List of national focus trees
+
+# References
+
+- To update page content see reference files in folder common/national_focus:
+ - Each country (or group) has its own txt file.
+- To update flavor text see reference files in folder localisation/english:
+ - For the main flavor text see reference file focus_l_english.yml.
+ - For focuses added in DLCs, see reference file DLC_focus_l_english.yml (replace DLC with DLC's abbreviated name).

@@ -1,0 +1,245 @@
+TITLE: Government
+URL: https://hoi4.paradoxwikis.com/Government
+REVISION: 2026-03-27T17:52:58Z (rev 99350)
+VERIFIED FOR: 1.9
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Government is the political representation of what is happening in the player's country.
+
+# Political power [verified for 1.9]
+
+ Political power represents the amount of influence a country's leader has over domestic affairs. The amount of political power that can be stored at the same time is between NCountry POLITICAL_POWER_LOWER_CAP and NCountry POLITICAL_POWER_UPPER_CAP.
+
+## Passive generation
+Political power is generated at a base rate of +NPolitics BASE_POLITICAL_POWER_INCREASE per day on Regular difficulty. The other difficulty levels add percentage bonuses and penalties, respectively.
+
+Difficulty: Civilian
+Modifier: +50%
+
+Difficulty: Recruit
+Modifier: +25%
+
+Difficulty: Regular
+Modifier: +0%
+
+Difficulty: Veteran
+Modifier: -10%
+
+Difficulty: Elite
+Modifier: -15%
+
+The rate at which political power is generated is also influenced by a nation's stability. At 0% stability, political power gain is subject to a -50% modifier, and is subject to a +20% modifier at 100% stability. At 50% stability, there is no modifier to the political power gain.
+
+### Leaders with modifiers
+(Main article: Country leader traits)
+Certain leaders have a trait which gives their nation a bonus or malus to political power. For example:
+
+German Reich
+Adolf Hitler
+GER_der_fuhrer
+
+Soviet Union
+Iosif Stalin
+stalin_heart_of_steel
+
+United Kingdom
+Edward VIII
+inexperienced_imperialist
+
+## National focus
+(Main article: National focus)
+National focuses were developed as a means of providing alternative options for decision-making within the context of Hearts of Iron IV. A single national focus may be active at any given time; each one requires a specific number of days, typically 70 days. A focus requires one unit of political power per day. Upon completion, they bestow benefits or precipitate events. Major nations (and those nations included in downloadable content expansions) have their own distinctive focus tree, while other countries utilize a generic one,
+
+## Ideas
+(Main article: Ideas)
+Political power is spent to manage the government via ideas. These take the form of laws, ministers, and companies. Enacting or removing an idea costs political power, with adding an idea usually costing 150.
+
+## Commanders
+(Main article: Commander)
+Political power may be used to produce new commanders for use in commanding divisions. The cost scales with the amount of commanders the player already has, starting at a cost of 5 and increasing by 5 for each additional commander. Naval commanders are bought with the same system, and at the same rate as the field commanders.
+
+## Diplomacy
+(Main article: Diplomacy)
+Political Power is needed for several diplomatic interactions, including justifying war, guaranteeing independence, or improving relations.
+
+Justifying for a province using the Conquest casus belli costs 50 political power, increasing by 5 if justifying on a country with the Neutral Foreign Policy national spirit. Each state added to the Conquest justification increases the cost by 10 political power. Justifying using the Retake core state casus belli costs 25 political power.
+
+A guarantee of independence costs 25 political power and increases by that much for each subsequent guarantee (first justification is 25 political power, second justification is 50 political power, etc.).
+
+Improving relations is initiated at the cost of 10 political power, and costs a base rate of .2 political power per day for a country with a matching ideology. If the improving relations action is taken with the target being a separate ideology, the cost per day is 0.4 political power. For example, if Germany was improving relations with fascist Italy it would cost .2 political power per day, but improving relations with the democratic United Kingdom would cost .4 political power per day.
+
+## Decisions
+Decisions act as a middle ground between national focuses and events. The outcomes vary between instantaneous or timed effects.
+
+The decisions tab is accessible by clicking the gavel icon in the top bar, or by pressing Shift+Q.
+
+# Ideology
+(Main article: Ideology)
+The player's government type is defined by their country leader and their ideology.
+
+# Elections
+Elections occur in most democracy Democracies and some neutrality Non-Aligned countries, along with Paraguay( communism ), El Salvador( fascism ) and Peru( fascism ) at the start of the game. Communist United States, communist/fascist Mexico, fascist Poland, and Communist China can have elections via their national focus. The length of time between an election depends on the country, ranging from one to eight years between elections.
+
+The player can see when the next election will be under the politics or diplomacy tabs. Elections enable the player to change power to other ideologies without violence. If a party has above 50% popularity during an election, they will win it and become the new ruling party. Elections can also trigger some other Election events. The United States, Spain, and Greece have unique election events due to their elections creating a national affair.
+
+# National spirit
+(Main article: National spirit)
+National spirits are special ideas which apply bonuses and/or maluses. These ideas can be gained through the nation's focus tree or via certain event chains.
+
+While many of these are nation specific there are also some which are more generic in nature and can apply to more than one nation (such as those in the generic focus tree).
+
+# Stability [verified for 1.9]
+
+ Stability is expressed as a percentage from NCountry MIN_STABILITY yes to NCountry MAX_STABILITY yes, and represents the people's support for the current government. Stability has various effects. At high stability, the nation receives production bonuses. At low stability, various crises can ravage the nation. Details below.
+
+Stability above NCountry DEFAULT_STABILITY yes gives the following bonuses, which scale linearly from none at NCountry DEFAULT_STABILITY yes to the full amount at NCountry MAX_STABILITY yes. At NCountry MAX_STABILITY yes stability, the bonuses are:
+
+- political power Gain: +10%
+- factory output : +20%
+- dockyard output : +20%
+- Consumer Goods Factor: -20%
+
+Stability below NCountry DEFAULT_STABILITY yes gives the following penalties, which scale linearly from none at NCountry DEFAULT_STABILITY yes to the full amount at NCountry MIN_STABILITY yes. At NCountry MIN_STABILITY yes stability, the penalties are:
+
+- political power Gain: -20%
+- factory output : -50%
+- dockyard output : -50%
+
+Further, stability affects resistance targets in occupied territories from 0% at NCountry MAX_STABILITY yes stability up to +NResistance RESISTANCE_TARGET_MODIFIER_PER_STABILITY_LOSS yes at NCountry MIN_STABILITY yes stability .
+
+The effect of stability is rounded down to the nearest integer. For example, 81.6% stability results in the same bonus as 81.0% and both are displayed as 81% stability . The game internally stores stability to a higher precision.
+
+If the player is at war, low stability may cause a crisis up to a civil war.
+
+Stability is calculated by adding permanent stability modifiers on top of base stability. Base stability ranges from the same minimum and the maximum as the regular stability and can be modified by various events, national focuses, and decisions (such as Improved Worker Conditions): once it hits a floor or a ceiling, it cannot be changed any further.
+
+Permanent stability modifiers are then applied additively to base stability. If the total stability goes over the maximum or below the minimum, it gets capped at the nearest possible value. However, the additional stability from permanent modifiers will not be lost and can be counted as a buffer against negative stability modifiers.
+
+The following are stability modifiers:
+
+- -0.2 being at war.
+- 0% to -30% from war support during war. Scales from 0% stability at 100% war support to -30% stability at 0% war support .
+- 0% to +0.15 from popularity of the ruling party's ideology. Scales from 0% stability at 0% popularity to 0.15 stability at 100% popularity.
+ - This effect is increased to up to +25% with the Political Loyalty officer corps spirit.
+- +15% from having "Popular Figurehead" ruler trait or political advisor (both can be stacked together)
+- +60% ruler-modifier for Japan only
+
+This means that with sufficient permanent modifiers to stability, the total stability of a nation may never reach the maximum. This is the case with most countries; by having 100% base stability, 100% party ideology popularity (gives +0.15 stability modifier) and being at war (gives -0.2 stability modifier), a country's total stability will be sitting at 95% and cannot be increased by increasing base stability (because base stability already reaches 100%) and requires either further positive stability modifiers or ending the ongoing war (which removes the -0.2 stability modifier) to reach 100% stability.
+
+# War support [verified for 1.9]
+
+ War support is expressed as a percentage from NCountry MIN_WAR_SUPPORT yes to NCountry MAX_WAR_SUPPORT yes, and represents the willingness of the population to endure the privations of war. Various laws and national focuses can only be enacted if war support is at a sufficient level. The default value at which war support grants no benefits is NCountry DEFAULT_WAR_SUPPORT yes, with bonuses above that value and drawbacks below it.
+
+War support will give up to the following benefits at the maximum value:
+- Mobilization Speed: +30%
+- Army Attack on Core Territory: 10%
+- Army Defense on Core Territory: 10%
+- Command Power Gain: +50%
+
+War support give up to the following penalties at the minimum value:
+- Mobilization Speed: -50%
+- Command Power Gain: -95%
+- Surrender Limit: -30%
+- May cause a crisis while at war
+War support can be changed through the following actions:
+
+- -20% by being in an offensive war
+- +20% by being in a defensive war
+- +10% by having an active attaché in another country
+- +5% by having a pride of fleet
+
+# Command Power
+
+ cp (CP) represents the ability of the government to bypass the chain of command and directly influence the military.
+Command power is capped at 80 however, both the growth and the cap can be increased by Doctrines, National Spirits, and army officer corps spirits. Hiring military chiefs and military high command will also increase the cap, and the country's war support also affects cp growth.
+
+Command power is used for assigning commanders for promoting generals to field marshals, taking certain military related decisions, managing air supply, assigning traits to field marshals, generals, and admirals who qualify, and using special abilities to affect divisions.
+
+Note that in the case of military operations, command power can be spent on one-time operations or it can be allocated for continuous operations. Cost is based upon the total number of battalions in your army for which you activate a command ability.
+
+Most of the command power abilities are unlocked by traits and apply to divisions under the general. These cost command power to trigger and run for a limited duration, giving bonuses or other effects such as offering up unique tactics.
+
+Use: Assign a commander trait
+Description: You can assign a trait to a Commander if they have an empty trait slot.
+cp Cost: UNIT_LEADER_ASSIGN_TRAIT_COST
+Notes: Generals, Field Marshals, and Admirals are treated in a similar fashion.
+
+Use: Hire ( By Blood Alone Promote an officer to) a general
+Description: You can promote officers to generals, allowing them to command armies.
+cp Cost: 5 per existing general and field marshal
+Notes: Has a maximum cost of 80 cp
+
+Use: Hire an admiral
+Description: You can acquire new admirals, allowing them to command fleets.
+cp Cost: 5 per existing admiral
+Notes: Has a maximum cost of 80 cp
+
+Use: Promote a general to a field marshal
+Description:
+You can promote generals to field marshals, thus making them capable of controlling an Army Group.
+cp Cost: 40
+Notes: 40 cp is only a base cost, it can be further modified by personality traits.
+
+Use: Send Attaché
+Description:
+While at peace, you can send an attaché to a country at war in to provide mutual benefits to both you and the recipient.
+cp Cost: 50
+Notes: cp is used and allocated so long as the mission is active.
+
+Use: Air Supply Mission
+Description:
+Allows transport planes to conduct air supply drop missions (0.01 supply per supply plane at full efficiency).
+cp Cost: MISSION_COMMAND_POWER_COSTS per plane
+Notes: cp is used and allocated so long as the mission is active.
+
+Use: More Ground Crews
+Description: Improves air efficiency by +10% in a zone.
+cp Cost: 20 per zone
+Notes:
+cp is used and allocated so long the command is active and there are planes operating in the air zone.
+
+Use: Commander Abilities
+Description: Temporarily enhance the troops under a general or field marshal
+cp Cost: Variable
+Notes: For a more detailed breakdown, see Commander Abilities.
+
+## Attaché [verified for 1.16]
+
+An attaché is a technical expert on a country's diplomatic staff at a foreign capital that can be sent to a country currently at war by a country currently not at war. Sending an attaché will result in higher military cooperation and give benefits to both countries. It costs the sending country 100 political power and 50 cp to send the attaché, of which the 50 cp is constantly allocated to maintain the attaché.
+
+The sending country receives the following benefits:
+- Receiving country shares military intelligence with this country.
+- 15% of the army exp , naval exp , and air exp that the receiving country generates for itself
+- War Support : +10% (only once)
+- If it is a puppet of the receiving country, Daily Autonomy: +0.05
+
+The receiving country gets the following benefits, though they do not get them multiple times if they have received multiple attachés:
+- Division Organization: +2%
+- Planning Speed: +10%
+- If it is a puppet of the sending country, Daily Autonomy: -0.05
+
+The AI will generally decline attaches from countries with which it has an opinion of less than +20 due to its base reluctance of -50.
+
+Any country at war with the receiving country may ask the sending country to recall the attaché. This is a one time event that gives a choice of either recalling the attaché, which improves relations with the demanding country at the cost of the attaché, or spending a variable amount of political power (depending on the demanding country's relative strength as well as how strong its governing ideology is within the receiving country) and worsening relations to the demanding country.
+
+### Strategy
+
+As attachés are neither raising world tension nor limited by it, they are a viable alternative to volunteers and lend-leasing
+for any country. The Spanish Civil War and the Sino-Japanese War are both great sources of XP through attach&eacute;s.
+Sourcing XP this way does not put a strain on equipment, manpower, world tension limits or fuel stockpiles, only the blocked CP and invested PP
+(and the ongoing cost of dismissing requests to recall the attach&eacute;) are to be considered. This however still allows for a rapid expansion of the army, as division templates can be expanded and new units created without losing equipment to training, while XP ramps up reasonably fast (in case of the Sino-Japanese War and Land XP). The opportunity cost can be regarded as fairly low.
+The added 10% war support can go a long way to move towards at least early mobilization for democracies or, in case of warmongering nations like Germany, to quickly convert to war economy, with the according benefits.
+
+# Country leaders
+(Main article: Political parties and leaders)
+Each country has a leader. This leader depends on which party is in power and the leader of said party. Most leaders are only flavor and have no effect on the game while some leaders have AI modifiers and/or certain bonuses and/or penalties.
+
+# References
+
+hoi4de:Government
+hoi4es:Government
+hoi4fr:Government
+hoi4pl:Government
+hoi4pt:Government
+hoi4ru:Government

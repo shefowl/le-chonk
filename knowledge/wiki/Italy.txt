@@ -1,0 +1,2816 @@
+TITLE: Italy
+URL: https://hoi4.paradoxwikis.com/Italy
+REVISION: 2026-03-22T12:57:04Z (rev 99090)
+VERIFIED FOR: 1.9
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Italy is a major power in Southern Europe with a core population of 41.74 M and an additional 3.26 M non-core subjects. It borders France to the northwest, Austria and Switzerland to the north, and Yugoslavia to the east, with the Mediterranean Sea and Adriatic Sea surrounding much of its coastline. Italy also possesses a modest colonial empire, including territories in Libya, Eritrea, and Somali Sultanate, as well as the Dodecanese and the enclave of Zara.
+
+Its industry is modest compared to other major powers, with a limited factory count, and it suffers from shortages of key resources such as oil and rubber , cushioned by decent domestic steel and aluminium availability. In 1936, its navy is its most formidable asset, capable of challenging Allied control in the Mediterranean, while its land army is average at best and its air force underdeveloped.
+
+In a historical playthrough, Italy fulfills a support role to the German Reich, allowing the Axis to contest the Mediterranean and North Africa. If successful, this denies the Allies a valuable staging ground from which they could harass the Axis’s soft underbelly, allowing the Axis to secure the Mediterranean and focus elsewhere. However, Italy’s position also exposes it to multiple potential fronts, from France and the Balkans to North Africa and the Mediterranean Sea itself.
+
+Italy is also the featured nation in the game’s tutorial, making it a popular starting choice for new players. Its strong potential to expand its navy, army, and air force, engage in an early colonial war in Ethiopia, and (as was historical), availability of a bailout from Germany should the war effort go awry, provides a good introduction to core mechanics. At the same time, it suffers from a weaker industrial base than other majors, shortages of key resources like oil and rubber, the strong possibility of multiple challenging frontlines, and the unforgiving Balance of Power mechanic introduced in the DLC By Blood Alone . These factors make Italy a rewarding yet potentially overwhelming nation for inexperienced players.
+
+# Historical background
+Italy emerged from World War I on the side of the victorious Entente, having joined France and Britain in exchange for promises of substantial territorial gains. With the war's end, Italy had anticipated its promised reward would be commensurate with Italian losses in the Alps. However, at the 1919 Paris Peace Conference, the major powers, France, Great Britain, and the United States, failed to honor most of these commitments. Italy received South Tyrol and Trieste, but Dalmatia was given to the newly formed Yugoslavia. Regions Italy had long considered as Italian, such as Corsica, Savoy, Nice, and Tunisia, remained under French control, and most former German colonies went to Britain. This perceived betrayal, known as the “Mutilated Victory,” fueled national resentment and contributed to the rise of Fascism.
+
+Before entering World War II, Italy annexed Ethiopia and Albania. Although bound to Germany by the Pact of Steel, it remained neutral until June 1940, joining the war to claim French territories such as Corsica, Savoy, and Nice. In 1941, Italy joined Germany and Hungary in the invasion of Yugoslavia, annexing most of coastal Dalmatia and nearby inland areas.
+
+Aside from these successes, however, Italy's military performance was poor. Its forces failed to make significant gains in France before the armistice, suffered a disastrous defeat in Greece in late 1940, and botched an invasion of British Egypt, advancing briefly before being driven back in Operation Compass. By early 1943, the Allies had expelled Italy from Africa entirely. That summer, Allied forces invaded the Italian mainland, leading to Mussolini’s downfall and the collapse of his government.
+
+Following the armistice with the Allies, Marshal Pietro Badoglio’s royal government saw much of Italy swiftly occupied by Germany. In the north, the Germans installed Mussolini as head of the puppet Italian Social Republic, based in the town of Salò between Milan and Venice. Badoglio and the king fled to Brindisi in the south without issuing orders to the army. The royal government, controlling southern Italy, declared war on Germany and claimed authority over the entire nation, sparking a brief but destructive civil war marked by partisan resistance. By spring 1945, with the war's end, Italy lost Istria and the city of Zadar to Yugoslavia, as well as all its African colonies. In the postwar years, Italy recovered and became a founding member of the European Union alongside France, Germany (then divided into West Germany and East Germany), and the Low Countries.
+
+# Events [verified for 1.16]
+
+(Main article: Italian events, Italian events BBA)
+
+Italy’s base game events include annexing Albania, claiming Yugoslavia territory, fortifying the Alps, negotiating a technology pact with Germany, demanding the Balearic Islands from Spain, and requesting control of Vichy France's Corsica and Savoy from Germany. With the By Blood Alone DLC enabled, Italy also receives events related to the Second Italo-Ethiopian War, triggered if the conflict stalls and Italy seeks a negotiated peace.
+
+# Decisions [verified for 1.16]
+
+(Main article: Italian decisions, Italian missions)
+
+Italy’s decisions focus on consolidating control over its African colonies by managing irregular troops, creating the puppet state of Italian State of East Africa, and later supporting it with aid and granting it additional territory. They also enable diplomatic actions in the Balkans, Greece, and Turkey, including establishing puppet states, demanding territory, and offering land in exchange for alliances.
+
+With Mussolini in power, Italy gains access to the unique Missions from the Duce system, where the Duce periodically issues timed objectives. Examples include expanding military strength (army, navy, air force), stockpiling fuel, or raising compliance in subject states. Completing a mission grants temporary national spirits that enhance the relevant area, such as reduced fuel consumption and increased supply range for a fuel stockpile mission, while failure results in penalties like higher supply usage and reduced fuel gain from oil. The national focus To Live As A Lion shortens mission timers but increases the rewards for success.
+
+# National focus
+
+(Main article: Italian national focus tree)
+Italy, as one of the seven major powers, gets a unique national focus tree.
+branches desc
+
+# National spirits [verified for 1.17]
+
+Italy starts with the following national spirits:
+
+Spirit Victor Emmanuel III: The "Soldier King" reminds the Italians of their recent victories in the Great War. His presence and their loyalty to him is a great source of unity for the people.
+- Stability: +5%
+
+Spirit Vittoria Mutilata: Our allies betrayed Italy and stabbed us in the back when they broke the Pact of London. We sacrificed so much blood at the Isonzo for their victory and they in turn denied us what was ours by right. Now Italy will take her destiny into her own hands and ensure that justice is done.
+- Justify war goal time: −5%
+- Acceptance of Communist Diplomacy: −10
+- Acceptance of Democratic Diplomacy: −10
+- Acceptance of Fascist Diplomacy: +10
+
+Spirit London Naval Treaty Signatory: We have signed the London Naval Treaty and accordingly are restricted in the size of our capital ships.
+- Carrier Max Cost: 10250
+- Cruiser Max Cost: 5700
+- Heavy Ship Max Cost: 11500
+
+Spirit Ricostruzione Industriale: Our efforts to save our domestic industries after the Great Depression have proven to be successful. By investing in Italy's industrial capacity even further our productivity will soon rival those of the major powers.
+- Aircraft Designer Cost: -15%
+- Tank Designer Cost: -15%
+- Naval Designer Cost: -15%
+- Materiel Designer Cost: -15%
+- Industrial Concern Cost: -35%
+- cic construction speed: +5.00%
+
+Spirit Military Industry: Our Domestic military complex has fallen behind our rivals in both productivity and technology. We must strengthen Italy's military industries if we want our forces to be successful on the battlefields.
+- Armor Research Speed: -15%
+- Weapons and Equipment Research Speed: -15%
+- Artillery Research Speed: -15%
+- Air Research Speed: -15%
+- Naval Research Speed: -15%
+- Production Efficiency Cap: -10.00%
+- Production Efficiency growth: -5.00%
+- Production Efficiency Base: -5.00%
+- Factory Output: -10.00%
+
+Spirit Regio Esercito/Esercito Italiano: The Italian army fought in the first World War and was on the victorious side, but has not been able to keep up with the military modernization. By adapting to modern times we will strengthen the army and be ever-victorious.
+- Divisions speed: -10.00%
+- Divisions Organization: -10.0%
+- Org Loss when Moving: +15.0%
+- Max Entrenchment: +10.00%
+- Land Doctrine Cost: +10.00%
+
+Spirit Regia Aeronautica/Aeronautica Italiana: The Newest branch of the Italian armed forces and was one of the greatest air forces in the world when it was formed, but has been lagging behind recently. By investing in our air force it can once again become the envy of the world.
+- Ace generation chance: +10.00%
+- Naval Mission Efficiency: -10%
+- Air Accidents Chance: +5.0%
+- Night Operations Penalty: +15.00%
+- Bad Weather Penalty: +15.00%
+- Air Superiority Bonus in Combat: +5.0%
+- Air Doctrine Cost: +10.00%
+
+Spirit Regia Marina/Marina Italiana: Only by securing naval dominance in the Mediterranean can we secure the shores of Italy, but to do this we must invest heavily in modernizing the navy.
+- Fleet Coordination: -5%
+- Naval Detection: -10%
+- Spotting Speed: -10%
+- Screening Efficiency: +5.0%
+- Naval Doctrine Cost: +10.00%
+- Attack when in combat alongside the Pride of the Fleet: +10.00%
+
+If Italy has a king, its spirits are named Regio Esercito, Regia Aeronautica, and Regia Marina. Without a king, they are Esercito Italiano, Aeronautica Italiana, and Marina Italiana.
+With the DLC Arms Against Tyranny enabled, Ricostruzione Industriale grants Military Industrial Organisation cost reductions instead.
+
+# Technology [verified for 1.17]
+
+## Research
+Italy begins with 4 research slots available; 2 more can be unlocked through the national focus tree.
+
+- Infantry Equipment I
+- Improved Infantry Equipment I (39)
+- Support Weapons II (39)
+- Truck
+- Inter-War Armored Car La Résistance
+- Mountain Infantry I
+- Camelry Battle for the Bosporus
+----
+- Engineer Company I
+- Recon Company I (39)
+- Civilian Train
+----
+- Towed Artillery
+- Towed Anti-Air
+- Inter-War Artillery (39)
+- Towed Anti-Tank (39)
+----
+- Basic Light Tank (36)
+- Improved Light Tank (39)
+----
+Armor without No Step Back :
+- Light Tank I (36)
+- Light Tank II (39) * Basic Destroyer
+- Basic Depth Charges
+- Basic Cruiser
+- Inclined Belt Armor Scheme
+- Basic Heavy Ship
+- Basic Submarine
+- Midget Submarine (39)
+- Coastal Defense Ships
+----
+- Basic Light Battery
+- Basic Heavy Battery
+- Basic Torpedo
+- Transport Ship
+- Contact Mine
+- Minelaying Submarine * Basic Small Airframe (36)
+- Improved Small Airframe (39)
+- Basic Medium Airframe
+- Inter-War Transport Plane
+- Bombs
+- Light MG
+- Heavy MG (39)
+- Air Launched Torpedoes
+- Aircraft Construction
+- Engines II
+----
+Without By Blood Alone :
+- Inter-War Fighter (36)
+- Fighter II (39)
+- Close Air Support I
+- Naval Bomber I
+- Inter-War Bomber (36)
+- Tactical Bomber II (39)
+- Inter-War Transport Plane * Advanced Machine Tools (39)
+- Concentrated Industry III (39)
+- Construction III (39)
+- Fuel Storage
+- Synthetic Oil Experiments (39)
+- Fuel Refining I (36)
+- Fuel Refining II (39)
+---- (39)
+- Radio (39)
+- Computing Machine (39)
+---- (39)
+Without La Résistance : (39)
+- Encryption - Polyalphabetical Ciphers (39)
+- Decryption - Frequency Analysis (39) * Grand Battleplan
+ - Defensive Postures ( mastery : 100) (39) * Fleet in Being * Operational Integrity
+
+## Cosmetic names
+Italy has a number of unique names for various technologies and equipment, listed here. Note that generic names are not listed.
+
+Type: Infantry Equipment
+1918: Carcano M91
+1936: Carcano M38
+1939: MAB-38
+1942: FNAB-43
+
+Type: Motorized
+1936: Fiat 626
+
+Type: Mechanized
+1940: CVP-4
+1942: Fiat 727
+1944: Breda 61
+
+Type: Armored Car La Résistance
+1936: AB611
+1940: AB40
+1942: AS.42
+
+Tech year: 1918
+Light (TD/SPG/AA): Fiat 3000
+
+Tech year: 1934
+Light (TD/SPG/AA): L3 (L3 cc / NA / NA)
+Heavy (TD/SPG/AA): P75
+
+Tech year: 1936
+Light (TD/SPG/AA): L6 (Semovente 47/32 / NA / NA)
+
+Tech year: 1938
+Medium (TD/SPG/AA): M11/39
+
+Tech year: 1940
+Medium (TD/SPG/AA): M16 (Semovente 75/34 / Semovente M 41 75/18 / NA)
+Heavy (TD/SPG/AA): P26 (NA / Semovente da 149/40 / NA)
+
+Tech year: 1941
+Light (TD/SPG/AA): L8
+Super-Heavy: Il Duce
+
+Tech year: 1943
+Medium (TD/SPG/AA): M20/43 (Semovente M41M 90/53 / Semovente M42L 105/25 / Semovente M15/42)
+Heavy (TD/SPG/AA): P43
+
+Tech year: 1945
+Modern: P45
+
+Note: Without No Step Back, Medium Tank I and II are unlocked one year later.
+
+Tech year: 1934
+Artillery: Cannone da 75/27
+
+Tech year: 1936
+Anti-Air: Breda Mod. 35
+Anti-Tank: Cannone da 37/45
+
+Tech year: 1939
+Artillery: Obice da 149/19
+
+Tech year: 1940
+Anti-Air: Cannone-Mitragliera da 37/54
+Anti-Tank: Cannone da 47/32 mod. 35
+
+Tech year: 1942
+Artillery: Obice da 210/22 modello 35
+
+Tech year: 1943
+Anti-Air: Cannone da 90/53 mod. 41
+Anti-Tank: Cannone da 75/32 mod. 37
+
+1933
+CR.32
+Ca.101
+NA
+Ca.101
+
+1936
+Ba.65 (Ba.65bis)
+C.200 Saetta (IC.200)
+SM.79 Sparviero (SM.79-II Sparviero)
+Ro.57
+BR.20 Cicogna
+P.50
+Ca.310
+
+1940
+Ba.88 Lince (Re.2001G/H Falco II)
+C.202 Folgore (IC.202)
+SM.84 (SM.84-II)
+Ro.58
+Z.1007bis Alcione
+P.108
+Ca.311
+Ca.133
+
+1944
+Ba.201 (Ba.201bis)
+G.55 Centauro (G.55S Centauro)
+SM.89 (SM.89-II)
+SM.92
+Z.1018 Leone
+P.133
+G.212
+
+1945
+Re.2007
+NA
+
+1950
+Re.2008
+NA
+NA
+
+# Geography [verified for 1.16]
+
+Italy is located in Southern Europe, comprising the Italian Peninsula and the islands of Sicily and Sardinia to the west. Italy borders France to the northwest, Switzerland and Austria to the north, and Yugoslavia to the east. It is surrounded by the Adriatic Sea to the east and the Mediterranean Sea to the south and west. Italy's central location on the Mediterranean allows Italy to be a dominant force in the region. It also controls the enclave of Zara on the Dalmatian coast and the Dodecanese in the Aegean Sea, along with African colonies in Libya, Eritrea, and Somali Sultanate.
+
+Italy’s terrain is predominantly hilly, with the peninsula featuring narrow coastal plains on both the eastern and western sides of its rugged central spine. The Alps dominate the north, while the Apennine Mountains run the length of the mainland. Flatlands are found mainly in the south and on the island of Sicily.
+
+Italy owns 16 core and 13 colonial states.
+
+State: Abruzzo
+Cities: Ancona
+vp: 1
+Terrain (# prov): Hills (6)
+ Mountain (5)
+Region: Urban Region
+population: 2,979,335
+Is core: yes
+
+State: Benghasi
+Cities: Bengasi
+vp: 3
+Terrain (# prov): Hills (3)
+ Mountain (1)
+Region: Wasteland
+population: 82,535
+Is core: no
+
+State: Calabria
+Cities: Reggio Calabria
+vp: 1
+Terrain (# prov): Hills (1)
+ Mountain (4)
+Region: Developed Rural Region
+population: 1,772,000
+Is core: yes
+
+State: Campania
+Cities: Napoli
+vp: 20
+Terrain (# prov): Forest (1)
+ Hills (1)
+ Mountain (5)
+ Plains (1)
+ Urban (1)
+Region: Urban Region
+population: 4,240,000
+Is core: yes
+
+Cyrenaica
+Desert (10)
+ Mountain (3)
+Wasteland
+8,808
+no
+
+State: Derna
+Cities: Tobruk
+vp: 5
+Terrain (# prov): Desert (2)
+ Hills (1)
+ Mountain (4)
+ Plains (1)
+Region: Wasteland
+population: 45,628
+Is core: no
+
+State: Dodecanese
+Cities: Rodi
+vp: 1
+Terrain (# prov): Plains (2)
+Region: Small Island
+population: 120,000
+Is core: no
+
+El Agheila
+Desert (7)
+Wasteland
+40,431
+no
+
+State: Emilia Romagna
+Cities: Bologna
+Ferrara
+Parma
+vp: 5
+3
+1
+Terrain (# prov): Hills (3)
+ Marsh (1)
+ Mountain (3)
+ Plains (1)
+ Urban (1)
+Region: Dense Urban Region
+population: 3,202,401
+Is core: yes
+
+State: Eritrea
+Cities: Asmara
+Biscia
+Massaua
+vp: 3
+1
+1
+Terrain (# prov): Desert (1)
+ Hills (3)
+ Mountain (4)
+Region: Rural Region
+population: 600,600
+Is core: no
+
+State: Istria
+Cities: Fiume
+vp: 1
+Terrain (# prov): Hills (2)
+Region: Developed Rural Region
+population: 125,850
+Is core: yes
+
+State: Jubaland
+Cities: Kismaayo
+vp: 1
+Terrain (# prov): Plains (2)
+Region: Pastoral Region
+population: 1,028,895
+Is core: no
+
+State: Lazio
+Cities: Anzio
+Roma
+vp: 1
+40
+Terrain (# prov): Hills (3)
+ Mountain (2)
+ Plains (1)
+ Urban (1)
+Region: Urban Region
+population: 2,781,971
+Is core: yes
+
+Libyan Desert
+Desert (15)
+ Mountain (1)
+Wasteland
+42,633
+no
+
+State: Litorale
+Cities: Trieste
+vp: 3
+Terrain (# prov): Hills (1)
+ Mountain (1)
+ Urban (1)
+Region: Urban Region
+population: 1,038,159
+Is core: yes
+
+State: Lombardy
+Cities: Brescia
+Milano
+vp: 3
+15
+Terrain (# prov): Mountain (4)
+ Plains (5)
+ Urban (1)
+Region: Metropolis Region
+population: 5,597,704
+Is core: yes
+
+State: Piedmont
+Cities: Genova
+Torino
+vp: 10
+5
+Terrain (# prov): Forest (1)
+ Hills (2)
+ Mountain (8)
+ Plains (4)
+ Urban (2)
+Region: Metropolis Region
+population: 4,765,476
+Is core: yes
+
+State: Puglia
+Cities: Bari
+Brindisi
+Foggia
+Taranto
+vp: 3
+3
+3
+15
+Terrain (# prov): Mountain (1)
+ Plains (6)
+ Urban (1)
+Region: Urban Region
+population: 2,642,000
+Is core: yes
+
+State: Sardinia
+Cities: Cagliari
+Sassari
+vp: 3
+2
+Terrain (# prov): Hills (5)
+ Mountain (1)
+ Plains (1)
+ Urban (1)
+Region: Developed Rural Region
+population: 991,921
+Is core: yes
+
+State: Sicily
+Cities: Catania
+Messina
+Palermo
+Siracusa
+vp: 5
+5
+20
+1
+Terrain (# prov): Hills (3)
+ Mountain (2)
+ Plains (4)
+ Urban (1)
+Region: Urban Region
+population: 3,836,571
+Is core: yes
+
+Sirte
+Desert (5)
+Wasteland
+13,213
+no
+
+State: Somaliland
+Cities: Mogadiscio
+vp: 3
+Terrain (# prov): Desert (6)
+ Mountain (1)
+ Plains (5)
+Region: Rural Region
+population: 771,671
+Is core: no
+
+State: South Tyrol
+Cities: Bolzano
+vp: 1
+Terrain (# prov): Mountain (5)
+Region: Developed Rural Region
+population: 298,290
+Is core: yes
+
+State: Trentino
+Cities: Trento
+vp: 1
+Terrain (# prov): Mountain (2)
+Region: Developed Rural Region
+population: 370,739
+Is core: yes
+
+State: Tripoli
+Cities: Tripoli
+vp: 10
+Terrain (# prov): Desert (1)
+ Hills (4)
+ Plains (2)
+ Urban (1)
+Region: Developed Rural Region
+population: 469,136
+Is core: no
+
+Tripolitania
+Desert (9)
+ Hills (1)
+Wasteland
+17,617
+no
+
+State: Tuscany
+Cities: Firenze
+La Spezia
+Livorno
+Lucca
+vp: 3
+1
+1
+1
+Terrain (# prov): Forest (1)
+ Hills (3)
+ Mountain (4)
+ Plains (2)
+ Urban (1)
+Region: Dense Urban Region
+population: 3,084,933
+Is core: yes
+
+State: Veneto
+Cities: Padova
+Venezia
+Verona
+vp: 3
+10
+1
+Terrain (# prov): Marsh (2)
+ Mountain (2)
+ Plains (4)
+Region: Dense Urban Region
+population: 3,963,151
+Is core: yes
+
+State: Zadar
+Cities: Zara
+vp: 5
+Terrain (# prov): Plains (1)
+Region: Enclave
+population: 18,000
+Is core: no
+
+# Politics [verified for 1.9]
+
+Italy starts with 60% and 80% base. These are changed to 42% and 55% after modifiers.
+
+## Political parties
+Italy is one of the primary fascist Fascist nations, governed under a fascist regime. In both the 1936 and 1939 scenarios, the popularity of its political parties remain unchanged. Benito Mussolini’s Partito Nazionale Fascista dominates with overwhelming support at 76%, followed by the democratic Partito Popolare Italiano with a significant 22%, and the communist Partito Comunista Italiano holding a marginal 2%.
+
+Italy's starting political parties.
+{| class="wikitable" style="float:left; width:49em; margin:10px; margin-left:0"
+|+ Political parties, 1936/1939
+! Id. !! style="width:22.3em;" | Party name !! style="width:1em;" | Popularity !! style="width:11.9em;" | Leader !! style="width:1em;" | Ruling
+|-
+! style="text-align: center;" | Democracy
+! Partito Popolare Italiano
+| style="text-align: center;" | 20% || Ferruccio Parri || style="text-align: center;" | No
+|-
+! style="text-align: center;" | Communism
+! Partito Comunista Italiano
+|style="text-align: center;" | 2% || Palmiro Togliatti || style="text-align: center;" | No
+|-
+! style="text-align: center;" | Fascism
+! Partito Nazionale Fascista
+| style="text-align: center;" | 73% || Benito Mussolini || style="text-align: center;" | Yes
+|-
+! style="text-align: center;" | Non-Aligned
+! Partito Nazionale Monarchico
+|style="text-align: center;" | 5% || Vittorio Emanuele III || style="text-align: center;" | No
+|}
+
+## Country leaders
+Possible country leaders of Italy.
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Country leaders
+! Ideology
+! class="unsortable" | Portrait
+! Name
+! style="width:1em;" | Party
+! Traits
+! Effects
+! Possible
+|-
+! style="text-align: center;" | Democracy
+Socialism
+|
+| Ferruccio Parri
+| Partito Popolare Italiano
+| resistance_leader
+| Starting Democratic leader
+- Via event The Leadership of the Republic
+|-
+! style="text-align: center;" | Democracy
+Liberalism
+|
+| Ivanoe Bonomi
+| Partito Democratico del Lavoro
+| moderate_reformist
+|
+- Via event The Leadership of the Republic
+|-
+! style="text-align: center;" | Democracy
+Conservatism
+|
+| Alcide de Gasperi
+| Democrazia Cristiana
+| master_of_politics
+|
+- If focus Christian Democracy is completed
+ - Via focus Monarchia d'Italia
+|-
+! style="text-align: center;" | Democracy
+Conservatism
+|
+
+Start=
+
+|-|
+Rome=
+
+| Vittorio Emanuele III
+| Partito Popolare Italiano
+| the_soldier_king
+|
+- If Italy has character Vittorio Emanuele III
+ - Via focus Democratic King
+
+Known as "Augustus Vittorio Emanuele" if the Roman Empire has been formed
+|-
+! style="text-align: center;" | Democracy
+Conservatism
+|
+
+Start=
+
+|-|
+Rome=
+
+| Umberto II
+| Partito Popolare Italiano
+| inexperienced_monarch
+|
+- If Italy does not have character Vittorio Emanuele III
+ - Via focus Democratic King
+
+Known as "Augustus Umberto" if the Roman Empire has been formed
+|-
+! style="text-align: center;" | Democracy
+Conservatism
+|
+| National Military Junta
+| Partito Popolare Italiano
+| the_grand_council
+|
+- If focuses Christian Democracy or Democratic King are completed
+ - Via event The council deposes [Vittorio Emanuele III]
+|-
+! style="text-align: center;" | Democracy
+Socialism
+|
+| Comitato di Liberazione Nazionale
+| Partito Popolare Italiano
+| anti_fascist_committee
+|
+- Via focus Italian Socialism
+- Via event Italian Civil War
+|-
+! style="text-align: center;" | Communism
+Marxism
+|
+| Palmiro Togliatti
+| Partito Comunista Italiano
+| conservative_communist
+| Starting Communist leader
+- Via event The Leadership of the Republic
+- Via event Italian Civil War
+|-
+! style="text-align: center;" | Communism
+Marxism
+|
+| Antonio Gramsci
+| Partito Comunista Italiano
+| indisposed_political_scientist
+|
+- Via focus Liberate Gramsci
+- Event The Leadership of the Republic
+|-
+! style="text-align: center;" | Communism
+Stalinism
+|
+| Sandro Pertini
+| Partito Socialista Italiano
+| staunch_anti_fascist
+|
+- Via event The Leadership of the Republic
+|-
+! style="text-align: center;" | Communism
+Marxism
+|
+| Comitato di Liberazione Nazionale
+| Partito Comunista Italiano
+| anti_fascist_committee
+|
+- Via focus The Popular Front
+- Via event Italian Civil War
+|-
+! rowspan="3" style="text-align: center;" | Fascism
+Fascism
+| rowspan=3|
+
+Start=
+
+|-|
+Rome=
+
+| rowspan=3| Benito Mussolini
+| rowspan=3| Partito Nazionale Fascista
+| il_duce
+|
+Starting leader
+
+"Il Duce" can be upgraded if focuses The Man of Providence, Strengthen the Regime and/or Heroes of the Nation are completed
+
+Known as "Augustus Mussolini" if the Roman Empire has been formed
+|-
+| lion_tamer
+|
+Trait gained if focus Culto del Duce is completed.
+ Upgraded with focus To Live as a Lion
+|-
+| capo_supremo
+|
+Trait gained if focus Capo Supremo is completed.
+|-
+! style="text-align: center;" | Fascism
+Fascism
+|
+| The Grand Council of Fascism
+| Partito Nazionale Fascista
+| the_grand_council
+|
+- Via event The council deposes [Benito Mussolini]
+|-
+! style="text-align: center;" | Fascism
+Fascism
+|
+| Italo Balbo
+| Partito Nazionale Fascista
+| aviation_hero
+|
+- Via focus Italo Balbo
+|-
+! rowspan="2" style="text-align: center;" | Fascism
+Fascism
+| rowspan=2|
+| rowspan=2| Dino Grandi
+| rowspan=2| Partito Nazionale Fascista
+| silver_tongue
+| La Résistance
+- Via focus Dino Grandi
+|-
+| silver_tongue_no_lar
+| La Résistance
+- Via focus Dino Grandi
+|-
+! style="text-align: center;" | Non-Aligned
+Despotism
+|
+
+Start=
+
+|-|
+Rome=
+
+| Vittorio Emanuele III
+| Partito Nazionale Monarchico
+| the_soldier_king
+| Starting Non-Aligned leader
+- Has not completed focus Democratic King
+ - Via focus Monarchia d'Italia
+ - Via focus The Italian Liberation War
+
+Known as "Augustus Vittorio Emanuele" if the Roman Empire has been formed
+|-
+! style="text-align: center;" | Non-Aligned
+Despotism
+|
+
+Start=
+
+|-|
+Rome=
+
+| Umberto II
+| Partito Nazionale Monarchico
+| inexperienced_monarch
+|
+- Has not completed focus Democratic King
+ - Via focus Monarchia d'Italia
+ - Via focus The Italian Liberation War
+- If focus Power to the King is completed
+ - Via decision Abdication of Vittorio Emanuele III
+- Via event The King/Emperor of Italy Dies
+
+Known as "Augustus Umberto" if the Roman Empire has been formed
+|-
+! style="text-align: center;" | Non-Aligned
+Moderatism
+|
+| Comitato di Liberazione Nazionale
+| Partito Nazionale Monarchico
+| anti_fascist_committee
+|
+- Via event Italian Civil War
+|-
+! style="text-align: center;" | Non-Aligned
+Oligarchy
+|
+| National Military Junta
+| Partito Nazionale Monarchico
+| the_grand_council
+|
+- If focus Monarchia d'Italia is completed
+ - Via event The council deposes [Vittorio Emanuele III]
+|-
+! style="text-align: center;" | Non-Aligned
+Despotism
+|
+| Papa Pio XI
+| Partito Nazionale Monarchico
+| supreme_pontiff
+|
+- Via focus Gloria al Regno d'Italia
+ - Event The Pope's Ascendancy (via Balance of Power)
+|-
+! style="text-align: center;" | Non-Aligned
+Oligarchy
+|
+| Papa Pio XII
+| Partito Nazionale Monarchico
+| supreme_pontiff
+|
+- Via focus Gloria al Regno d'Italia
+ - Event The Pope's Ascendancy (via Balance of Power)
+- Via event The Death of the Pope
+|}
+
+## Formable nations
+
+Italy has several notable formable nation options. Its two primary formables are Greater Italy and the Roman Empire, both of which can be unlocked through the Culto del Duce or Convene the Grand Council national focus paths. These two are mutually exclusive, and the Roman Empire has no ideology requirement. If democratic Democratic, such as by taking the Democratic King focus, Italy can also form the European Union. However, pursuing the Defy the Duce branch will prevent the formation of Greater Italy or the Roman Empire. When formed, these nations grant Italy a vast number of cores.
+
+## Diplomacy
+
+Italy begins the 1936 scenario at war with Ethiopia, a conflict that will dominate the early months of the game. Italian technological and numerical superiority generally ensures victory barring player intervention, especially if reinforcements are pulled from mainland Italy to reinforce the campaign. With the By Blood Alone DLC enabled, Italy is incentivized to end the war quickly, as Ethiopia can take the Boarding the Train focus to form a government-in-exile if the war drags on enough time, prolonging the conflict and preventing Italy from fully annexing or puppeting the region.
+
+At the 1936 start, Italy has no alliances but is guaranteeing Albania. Diplomatic options include joining Germany and the Axis, forming an independent faction with Nationalist Spain, or allying France if it turns fascist.
+
+# Staff and designers
+## Personnel [verified for 1.17]
+
+Ministers and military staff of Italy.
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Political Advisors
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+| Gian Galeazzo Ciano
+| hierarch_minister_of_foreign_affairs
+|
+- Has completed focus Foreign Affairs
+- Benito Mussolini does not have the trait Minister of Foreign Affairs
+- One of the following must be true:
+ - Current ruling party is Fascist
+ - If has By Blood Alone :
+ - Has completed focus Utilize the Blackshirts
+ - Else:
+ - Current ruling party is Non-Aligned
+| align="center" | 75
+|-
+| Dino Grandi
+| hierarch_minister_of_justice
+|
+- Has completed focus Believe, Obey, Fight
+- Benito Mussolini does not have the trait Minister of Justice
+- One of the following must be true:
+ - Current ruling party is Fascist
+ - If has By Blood Alone :
+ - Has completed focus Utilize the Blackshirts
+ - Else:
+ - Current ruling party is Non-Aligned
+- Dino Grandi is not the country leader
+| align="center" | 75
+|-
+| Giuseppe Bottai
+| hierarch_minister_of_education
+|
+- Has completed focus Legge Bottai
+- Benito Mussolini does not have the trait Minister of Education
+| align="center" | 75
+|-
+| Renato Ricci
+| hierarch_minister_of_corporations
+|
+- Has completed focus Security Militias
+- Benito Mussolini does not have the trait Minister of Corporations
+- If has By Blood Alone :
+ - Has not completed focus Defy the Duce
+ - Has not completed focus Disband the Blackshirts
+ - Has not completed focus Crush Opposition
+ - Current ruling party is not Communist
+- Else:
+ - Current ruling party is Fascist
+| align="center" | 75
+|-
+| Mario Roatta
+| head_of_intelligence
+| La Résistance
+- Has created an Intelligence Agency
+- If has By Blood Alone :
+ - Has not completed focus Defy the Duce
+ - Has not completed focus Disband the Blackshirts
+ - Has not completed focus Crush Opposition
+ - Current ruling party is not Communist
+- Else:
+ - Current ruling party is Fascist
+| align="center" | 150
+|-
+| Giovanni Marinelli
+| prince_of_terror
+|
+- One of the following must be true:
+ - Current ruling party is Fascist
+ - If has By Blood Alone :
+ - Has completed focus Utilize the Blackshirts
+ - Else:
+ - Current ruling party is Non-Aligned
+| align="center" | 150
+|-
+| Giacomo Acerbo
+| war_industrialist
+|
+- If has By Blood Alone :
+ - Has not completed focus Defy the Duce
+ - Has not completed focus Disband the Blackshirts
+ - Has not completed focus Crush Opposition
+ - Current ruling party is not Communist
+- Else:
+ - Current ruling party is Fascist
+| align="center" | 150
+|-
+| Paolo Thaon di Revel
+| quartermaster_general
+|
+- One of the following must be true:
+ - Current ruling party is Fascist
+ - If has By Blood Alone :
+ - Has completed focus Utilize the Blackshirts
+ - Else:
+ - Current ruling party is Non-Aligned
+| align="center" | 150
+|-
+| Carlo Favagrossa
+| armaments_organizer
+|
+- If has By Blood Alone :
+ - Has not completed focus Defy the Duce
+ - Has not completed focus Disband the Blackshirts
+ - Has not completed focus Crush Opposition
+ - Current ruling party is not Communist
+- Else:
+ - Current ruling party is Fascist
+| align="center" | 150
+|-
+| Alberto Beneduce
+| captain_of_industry
+|
+- One of the following must be true:
+ - Current ruling party is Fascist
+ - Current ruling party is Non-Aligned
+ - Has completed focus Cooperate with Moderates
+| align="center" | 150
+|-
+| Guido Jung
+| financial_expert
+|
+- Current ruling party is Fascist
+- Has not completed focus Pact of Steel
+- Has not completed focus Revoke the Acerbo Law
+| align="center" | 150
+|-
+| Adelchi Serena
+| silent_workhorse
+|
+- One of the following must be true:
+ - Current ruling party is Fascist
+ - If has By Blood Alone :
+ - Has completed focus Utilize the Blackshirts
+ - Else:
+ - Current ruling party is Non-Aligned
+| align="center" | 150
+|-
+| Curzio Malaparte
+| editor
+|
+- If has By Blood Alone :
+ - One of the following must be true:
+ - Current ruling party is Fascist
+ - Has completed focus Utilize the Blackshirts
+ - Has completed focus Cooperate with Moderates
+| align="center" | 150
+|-
+| Serafino Mazzolini
+| ideological_crusader
+|
+- If has By Blood Alone :
+ - Has not completed focus Defy the Duce
+ - Has not completed focus Disband the Blackshirts
+ - Has not completed focus Crush Opposition
+ - Current ruling party is not Communist
+- Else:
+ - Current ruling party is Fascist
+| align="center" | 150
+|-
+| Roberto Farinacci
+| backroom_backstabber
+|
+- If has By Blood Alone :
+ - Has not completed focus Defy the Duce
+ - Has not completed focus Disband the Blackshirts
+ - Has not completed focus Crush Opposition
+ - Current ruling party is not Communist
+- Else:
+ - Current ruling party is Fascist
+| align="center" | 150
+|-
+| Carlo Scorza
+| fascist_demagogue
+|
+- If has By Blood Alone :
+ - Has not completed focus Defy the Duce
+ - Has not completed focus Disband the Blackshirts
+ - Has not completed focus Crush Opposition
+ - Current ruling party is not Communist
+- Else:
+ - Current ruling party is Fascist
+- Is not Supervised State
+| align="center" | 150
+|-
+| Vittorio Emanuele Orlando
+| old_figurehead
+| By Blood Alone
+- One of the following must be true:
+ - Has completed focus Meritocracy
+ - Has completed focus Monarchia d'Italia
+ - All of the following must be true:
+ - Has completed focus Common Ground
+ - Current ruling party is Democratic
+| align="center" | 150
+|-
+| Luigi Einaudi
+| financial_expert
+| By Blood Alone
+- One of the following must be true:
+ - Has completed focus Revoke the Acerbo Law
+ - Has completed focus Common Ground
+| align="center" | 150
+|-
+| Pietro d'Acquarone
+| staunch_monarchist
+| By Blood Alone
+- Has completed focus Convene the Grand Council
+| align="center" | 150
+|-
+| Alberto de'Stefani
+| economist
+| By Blood Alone
+- One of the following must be true:
+ - Has completed focus Power to the King
+ - Has completed focus Cooperate with Moderates
+| align="center" | 150
+|-
+| Ivanoe Bonomi
+| democratic_reformer
+|
+- Is not Supervised State
+- If has By Blood Alone :
+ - One of the following must be true:
+ - Has completed focus Unite the Opposition
+ - Has completed focus Defy the Duce
+- Ivanoe Bonomi is not the country leader
+| align="center" | 150
+|-
+| Alcide de Gasperi
+| voice_of_restraint
+| By Blood Alone
+- One of the following must be true:
+ - Has completed focus Revoke the Acerbo Law
+ - Has completed focus Disband the Blackshirts
+ - All of the following must be true:
+ - Has completed focus Common Ground
+ - Current ruling party is Democratic
+- Alcide de Gasperi is not the country leader
+| align="center" | 150
+|-
+| Mario Scelba
+| minister_of_posts_and_telegraphs
+| By Blood Alone
+- One of the following must be true:
+ - Has completed focus Christian Democracy
+ - All of the following must be true:
+ - Has completed focus Common Ground
+ - Current ruling party is Democratic
+| align="center" | 150
+|-
+| Guido de Ruggiero
+| liberal_professor
+| By Blood Alone
+- One of the following must be true:
+ - Has completed focus Cooperate with Moderates
+ - Has completed focus Italian Socialism
+ - All of the following must be true:
+ - Has completed focus Common Ground
+ - Current ruling party is Communist
+| align="center" | 150
+|-
+| Alberto Tarchiani
+| captain_of_industry
+| By Blood Alone
+- Has completed focus Bring Back Exiled Intellectuals
+| align="center" | 150
+|-
+| Giuseppe Borea
+| anti_fascist_chaplain
+| By Blood Alone
+- One of the following must be true:
+ - Has completed focus Bring Back Exiled Intellectuals
+ - Has completed focus The Italian Liberation War
+| align="center" | 150
+|-
+| Amadeo Bordiga
+| communist_revolutionary
+|
+- If has By Blood Alone :
+ - Has not completed focus Defy the Duce
+ - Has not completed focus Disband the Blackshirts
+ - Has not completed focus Crush Opposition
+ - Current ruling party is not Communist
+- Else:
+ - Current ruling party is Fascist
+- Is not Supervised State
+| align="center" | 150
+|-
+| Luigi Longo
+| gallo
+| By Blood Alone
+- One of the following must be true:
+ - Has completed focus The Popular Front
+ - All of the following must be true:
+ - Has completed focus Common Ground
+ - Current ruling party is Democratic
+| align="center" | 150
+|-
+| Palmiro Togliatti
+| marxist_fundamentalist
+| By Blood Alone
+- One of the following must be true:
+ - Has completed focus Unite the Opposition
+ - Has completed focus Defy the Duce
+- Has not completed focus Culto del Duce
+- Has not completed focus Convene the Grand Council
+- Palmiro Togliatti is not the country leader
+| align="center" | 150
+|-
+| Sandro Pertini
+| marxist_philosopher
+| By Blood Alone
+- One of the following must be true:
+ - Has completed focus The Abyssinian Fiasco
+ - Has completed focus Defy the Duce
+- Has not completed focus Culto del Duce
+- Has not completed focus Convene the Grand Council
+- Sandro Pertini is not the country leader
+| align="center" | 150
+|-
+| Antonio Pesenti
+| economist
+| By Blood Alone
+- One of the following must be true:
+ - Has completed focus The Popular Front
+ - All of the following must be true:
+ - Has completed focus Common Ground
+ - Current ruling party is Democratic
+| align="center" | 150
+|-
+| Fausto Gullo
+| minister_of_peasants
+| By Blood Alone
+- One of the following must be true:
+ - Has completed focus The Popular Front
+ - All of the following must be true:
+ - Has completed focus Common Ground
+ - Current ruling party is Democratic
+| align="center" | 150
+|-
+| Giulio Paggio
+| partisans_organizer
+| By Blood Alone
+- Has completed focus The Popular Front
+| align="center" | 150
+|-
+| Ignazio Silone
+| revolutionary_poet
+| By Blood Alone
+- One of the following must be true:
+ - Has completed focus The Path to Progress
+ - Has completed focus Bring Back Exiled Intellectuals
+| align="center" | 150
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Theorists
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+| Rodolfo Graziani
+| grand_battle_plan_expert
+|
+- Current ruling party is Fascist
+| align="center" | 150
+|-
+| Giovanni Messe
+| mobile_warfare_expert
+|
+- If has By Blood Alone :
+ - One of the following must be true:
+ - Current ruling party is not Communist
+ - Has completed focus Common Ground
+| align="center" | 150
+|-
+| Giuseppe Fioravanzo
+| grand_fleet_proponent
+
+| align="center" | 150
+|-
+| Angelo Iachino
+| naval_theorist
+|
+- Current ruling party is Fascist
+| align="center" | 100
+|-
+| Amedeo Mecozzi
+| assault_avaition
+
+| align="center" | 150
+|-
+| Renato Sandalli
+| air_warfare_theorist
+
+| align="center" | 100
+|-
+| Romeo Bernotti
+| naval_aviation_pioneer
+
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Chief of Army
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+| Pietro Badoglio
+| army_chief_morale_2
+
+| align="center" | 100
+|-
+| Emilio De Bono
+| army_chief_defensive_1
+
+| align="center" | 50
+|-
+| Ugo Cavallero
+| army_chief_organizational_1
+
+| align="center" | 50
+|-
+| Alberto Pariani
+| army_chief_maneuver_2
+|
+- Has completed focus A Bandit's War
+| align="center" | 100
+|-
+| Giovanni Duca
+| army_chief_drill_2
+| By Blood Alone
+- One of the following must be true:
+ - Current ruling party is Democratic
+ - Has completed focus Army Leaders
+- Has completed focus Meritocracy
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Chief of Navy
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+| Inigo Campioni
+| navy_chief_decisive_battle_1
+
+| align="center" | 50
+|-
+| Domenico Cavagnari
+| navy_chief_commerce_raiding_1
+
+| align="center" | 50
+|-
+| Arturo Riccardi
+| navy_chief_naval_aviation_1
+|
+- Current ruling party is Fascist
+| align="center" | 50
+|-
+| Raffaele de Courten
+| navy_chief_commerce_raiding_2
+|
+- One of the following must be true:
+ - Current ruling party is Fascist
+ - If has By Blood Alone :
+ - Has completed focus Utilize the Blackshirts
+ - Else:
+ - Current ruling party is Non-Aligned
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Chief of Airforce
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+| Italo Balbo
+| air_chief_all_weather_2
+|
+- Italo Balbo is not the country leader
+| align="center" | 100
+|-
+| Rino Corso Fougier
+| air_chief_safety_1
+
+| align="center" | 50
+|-
+| Francesco Pricolo
+| air_chief_reform_2
+
+| align="center" | 100
+|-
+| Aldo Pellegrini
+| air_chief_ground_support_1
+
+| align="center" | 50
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Military High Command
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+| Vittorio Ambrosio
+| army_cavalry_2
+
+| align="center" | 100
+|-
+| Alfredo Guzzoni
+| army_infantry_2
+|
+- Current ruling party is Fascist
+| align="center" | 100
+|-
+| Alberto Da Zara
+| navy_anti_submarine_1
+
+| align="center" | 50
+|-
+| Carlo Bergamini
+| navy_capital_ship_2
+
+| align="center" | 100
+|-
+| Ettore Muti
+| air_tactical_bombing_2
+|
+- Current ruling party is Fascist
+| align="center" | 100
+|-
+| Marziale Cerutti
+| air_air_combat_training_2
+|
+- Current ruling party is Fascist
+| align="center" | 100
+|-
+| Silvio Scaroni
+| air_bomber_interception_2
+|
+- Current ruling party is Fascist
+| align="center" | 100
+|-
+| Luigi Mascherpa
+| navy_naval_air_defense_1
+|
+- Current ruling party is Fascist
+| align="center" | 50
+|-
+| Achille Starace
+| army_logistics_1
+|
+- One of the following must be true:
+ - Current ruling party is Fascist
+ - Current ruling party is Non-Aligned
+- Has not completed focus Disband the Blackshirts
+- Has completed focus Army Leaders
+| align="center" | 50
+|-
+| Mario Roatta
+| army_regrouping_1
+|
+- If has By Blood Alone :
+ - Has not completed focus Defy the Duce
+ - Has not completed focus Disband the Blackshirts
+ - Has not completed focus Crush Opposition
+ - Current ruling party is not Communist
+- Else:
+ - Current ruling party is Fascist
+| align="center" | 50
+|-
+| Randolfo Pacciardi
+| army_regrouping_2
+|
+- One of the following must be true:
+ - Current ruling party is Communist
+ - All of the following must be true:
+ - Current ruling party is Democratic
+ - Has completed focus Common Ground
+| align="center" | 50
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ style="width: 46em; text-align:left;" | Field Marshals
+! class="unsortable" | Portrait
+! Name
+!
+Skill
+!
+ATK
+!
+DEF
+!
+PLN
+!
+LOG
+! class="unsortable" | Traits
+! class="unsortable" | Requirements
+|-
+|
+| align="left" | Benito Mussolini
+| 1 || 2 || 1 || 1 || 1
+| align="left" | Old Guard
+ Politically Connected
+ Media Personality
+ Harsh Leader
+| align="left" |
+- Has completed focus Capo Supremo
+|-
+|
+| align="left" | Giuseppe Piéche
+| 2 || 1 || 2 || 2 || 2
+| align="left" | Infantry Officer
+ Expert Delegator
+| align="left" | By Blood Alone
+- One of the following must be true:
+ - Has completed focus Expand the Royal Guard
+ - Has completed focus Empower the Carabinieri
+ - Has completed focus The Carabinieri
+|-
+|
+| align="left" | Emilio De Bono
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Old Guard
+ Politically Connected
+ Cautious
+ Defensive Doctrine
+
+|-
+|
+| align="left" | Italo Balbo
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Politically Connected
+ Career Officer
+ Reckless
+ Media Personality
+
+|-
+|
+| align="left" | Mario Ricci
+| 3 || 2 || 3 || 2 || 2
+| align="left" | Mountaineer
+ Unyielding Defender
+| align="left" | By Blood Alone
+- Has completed focus Defy the Duce
+- One of the following must be true:
+ - Current ruling party is Communist
+ - Current ruling party is Democratic
+|-
+|
+| align="left" | Pietro Badoglio
+| 1 || 1 || 2 || 1 || 2
+| align="left" | Old Guard
+ Inflexible Strategist
+ Politically Connected
+ Organizer
+ Defensive Doctrine
+
+|-
+|
+| align="left" | Rodolfo Graziani
+| 2 || 3 || 2 || 2 || 1
+| align="left" | Politically Connected
+ Cautious
+ Desert Fox
+ Offensive Doctrine
+| align="left" |
+- Current ruling party is Fascist
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ style="width: 46em; text-align:left;" | Generals
+! class="unsortable" | Portrait
+! Name
+!
+Skill
+!
+ATK
+!
+DEF
+!
+PLN
+!
+LOG
+! class="unsortable" | Traits
+! class="unsortable" | Requirements
+|-
+|
+| align="left" | Ada Gobetti
+| 2 || 1 || 2 || 2 || 2
+| align="left" | Militia Officer
+ Cautious
+ Organizer
+| align="left" | By Blood Alone
+- Has completed focus Gruppi di Difesa della donna
+|-
+|
+| align="left" | Alessandro Pirzio Biroli
+| 1 || 2 || 1 || 1 || 1
+| align="left" | Harsh Leader
+| align="left" |
+- Current ruling party is Fascist
+|-
+|
+| align="left" | Alfredo Guzzoni
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Old Guard
+| align="left" |
+- Current ruling party is Fascist
+|-
+|
+| align="left" | Amedeo Guillet
+| 3 || 3 || 2 || 2 || 3
+| align="left" | Irregulars Officer
+ Cavalry Leader
+ Desert Fox
+ Skirmisher
+| align="left" |
+- Has completed focus Comandante Diavolo
+|-
+|
+| align="left" | Annibale Bergonzoli
+| 2 || 2 || 2 || 1 || 2
+| align="left" | Old Guard
+ Infantry Officer
+ Commando
+| align="left" |
+- Current ruling party is not Communist
+- Has completed focus Army Leaders
+|-
+|
+| align="left" | Carlo Geloso
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Old Guard
+ Engineer
+
+|-
+|
+| align="left" | Carlo Vecchiarelli
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Mountaineer
+
+|-
+|
+| align="left" | Ettore Baldassarre
+| 2 || 2 || 1 || 2 || 2
+| align="left" | Old Guard
+ Reckless
+ Engineer
+ Fortress Buster
+| align="left" |
+- Current ruling party is Fascist
+|-
+|
+| align="left" | Ettore Bastico
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Career Officer
+ Infantry Officer
+| align="left" |
+- Current ruling party is Fascist
+|-
+|
+| align="left" | Ezio Rosi
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Infantry Officer
+ Organizer
+
+|-
+|
+| align="left" | Francesco Zingales
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Cavalry Leader
+ Combined Arms Expert
+| align="left" |
+- Current ruling party is Fascist
+|-
+|
+| align="left" | Giovanni Duca
+| 2 || 3 || 1 || 1 || 2
+| align="left" | Militia Officer
+ Infantry Officer
+ Hill Fighter
+| align="left" | By Blood Alone
+- One of the following must be true:
+ - Has completed focus Meritocracy
+ - Has completed focus Army Leaders and current ruling party is either Democratic or Non-Aligned
+|-
+|
+| align="left" | Giovanni Messe
+| 4 || 4 || 3 || 2 || 4
+| align="left" | Armor Officer
+ War Hero
+
+|-
+|
+| align="left" | Giuseppe de Stefanis
+| 2 || 2 || 1 || 2 || 2
+| align="left" | Infantry Officer
+ Armor Officer
+| align="left" | By Blood Alone
+- One of the following must be true:
+ - Has completed focus Monarchia d'Italia
+ - Has completed focus Italian Socialism
+|-
+|
+| align="left" | Giuseppe Tellera
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Armor Officer
+| align="left" |
+- Current ruling party is Fascist
+|-
+|
+| align="left" | Hamid Idris Awate
+| 2 || 2 || 2 || 1 || 2
+| align="left" | Ascari Officer
+ Reckless
+ Trickster
+ Desert Fox
+ Guerilla Fighter
+| align="left" |
+- Has completed focus Strengthen Ascari Corps
+|-
+|
+| align="left" | Ibrahim Farag Mohammed
+| 2 || 2 || 2 || 1 || 2
+| align="left" | Ascari Officer
+ Invader
+ Desert Fox
+| align="left" |
+- Has completed focus Strengthen Ascari Corps
+- Has completed focus Forza Navale Speciale
+|-
+|
+| align="left" | Italo Gariboldi
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Old Guard
+ Career Officer
+
+|-
+|
+| align="left" | Luigi Longo
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Militia Officer
+ Infantry Officer
+| align="left" |
+- Current ruling party is Communist
+|-
+|
+| align="left" | Mario Berti
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Old Guard
+ Reckless
+ War Hero
+
+|-
+|
+| align="left" | Mario Roata
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Politically Connected
+| align="left" |
+- Current ruling party is Fascist
+|-
+|
+| align="left" | Mario Robotti
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Infantry Officer
+
+|-
+|
+| align="left" | Mario Vercellino
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Infantry Officer
+
+|-
+|
+| align="left" | Norma Barbolini
+| 2 || 3 || 1 || 1 || 2
+| align="left" | Militia Officer
+ Trickster
+| align="left" | By Blood Alone
+- Has completed focus Defy the Duce
+- One of the following must be true:
+ - Current ruling party is Communist
+ - Current ruling party is Democratic
+|-
+|
+| align="left" | Pietro Pintor
+| 1 || 1 || 2 || 1 || 2
+| align="left" | Old Guard
+ Inflexible Strategist
+| align="left" |
+- Current ruling party is Fascist
+|-
+|
+| align="left" | Pompeo Colajanni
+| 2 || 2 || 1 || 2 || 2
+| align="left" | Reckless
+ Cavalry Officer
+ Commando
+| align="left" | By Blood Alone
+- Has completed focus Defy the Duce
+- One of the following must be true:
+ - Current ruling party is Communist
+ - Current ruling party is Democratic
+|-
+|
+| align="left" | Prince Adalberto
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Career Officer
+
+|-
+|
+| align="left" | Prince Filiberto
+| 2 || 2 || 2 || 1 || 2
+| align="left" | Militia Officer
+ Career Officer
+ Infantry Officer
+| align="left" | By Blood Alone
+- Has completed focus Paramilitary Training
+|-
+|
+| align="left" | Prince Umberto
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Career Officer
+
+|-
+|
+| align="left" | Randolfo Pacciardi
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Politically Connected
+ Infantry Officer
+ Skilled Staffer
+| align="left" | By Blood Alone
+- Has completed focus Defy the Duce
+- One of the following must be true:
+ - Current ruling party is Communist
+ - Current ruling party is Democratic
+|-
+|
+| align="left" | Sebastiano Visconti Prasca
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Inflexible Strategist
+ Career Officer
+
+|-
+|
+| align="left" | Ubaldo Soddu
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Career Officer
+ Cautious
+| align="left" |
+- Current ruling party is Fascist
+|-
+|
+| align="left" | Ugo Luca
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Infantry Officer
+ Urban Assault Specialist
+| align="left" | By Blood Alone
+- Has completed focus Empower the Carabinieri
+|-
+|
+| align="left" | Ugo Cavallero
+| 2 || 1 || 1 || 2 || 3
+| align="left" | Old Guard
+ Career Officer
+ Cautious
+ Organization First
+
+|-
+|
+| align="left" | Vittorio Ambrosio
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Cavalry Officer
+
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ style="width: 46em; text-align:left;" | Admirals
+! class="unsortable" | Portrait
+! Name
+!
+Skill
+!
+ATK
+!
+DEF
+!
+MNV
+!
+COR
+! class="unsortable" | Traits
+! class="unsortable" | Requirements
+|-
+|
+| align="left" | Alberto Da Zara
+| 3 || 3 || 2 || 3 || 2
+| align="left" | Gentlemanly
+ Superior Tactician
+
+|-
+|
+| align="left" | Angelo Iachino
+| 2 || 2 || 1 || 3 || 1
+| align="left" | Bold
+ Career Officer
+ Spotter
+ Superior Tactician
+| align="left" |
+- Current ruling party is Fascist
+|-
+|
+| align="left" | Carlo Bergamini
+| 2 || 3 || 1 || 2 || 1
+| align="left" | Gunnery Expert
+ Battleship Adherent
+ Ironside
+
+|-
+|
+| align="left" | Giuseppe Fioravanzo
+| 3 || 2 || 2 || 4 || 2
+| align="left" | Aviation Enthusiast
+ Blockade Runner
+
+|-
+|
+| align="left" | Giuseppe di Bartalo
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Old Guard
+ Bold
+ Fleet Protector
+
+|-
+|
+| align="left" | Inigo Campioni
+| 3 || 2 || 2 || 3 || 3
+| align="left" | Battleship Adherent
+ Spotter
+ Superior Tactician
+
+|-
+|
+| align="left" | Junio Valerio Borghese
+| 3 || 4 || 1 || 3 || 2
+| align="left" | Cuts Corners
+ Sea Wolf
+ Silent Hunter
+| align="left" |
+- Has completed focus Decima Flottiglia MAS
+|-
+|
+| align="left" | Prince Aimone
+| 2 || 2 || 2 || 2 || 2
+| align="left" | Gentlemanly
+ Inshore Fighter
+
+|}
+
+## Companies [verified for 1.11]
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" |Industrial concerns
+!Icon
+!Designer
+!Type
+!Effect
+!Prerequisites
+!Cost ( political power )
+|-
+|
+| Ferrovie dello Stato Italiane
+| Railway Company
+|
+- Trains and Railways Research Speed: +15%
+railway_company
+|
+- Has completed focus Railway Innovations
+| align="center" | 75
+|-
+|
+| Agip
+| Refining Concern
+|
+- Synthetic Resources Research Speed: +10%
+- Industrial Research Speed: +5%
+refinery_concern
+|
+- None
+| align="center" | 150
+|-
+|
+| Danieli
+| Industrial Concern
+|
+- Industrial Research Speed: +15%
+industrial_concern
+- This designer is located in the Northern part of Italy. Completing the focus Strengthen Northern Industry and New Industrialization Program will improve the designer to:
+- Industrial Research Speed: +15%
+industrial_concern
+- Factory output : +3.00%
+- Dockyard output : +3.00%
+|
+- Controls Veneto (160)
+| align="center" | 150
+|-
+|
+| Terni Industria ed Elettricità
+| Industrial Concern
+|
+- Industrial Research Speed: +15%
+industrial_concern
+- This designer is located in the Southern part of Italy. Completing the focus Modernize the Mezzogiorno and New Industrialization Program will improve the designer to:
+- Industrial Research Speed: +20%
+- Electronics Research Speed: +10%
+industrial_concern
+|
+- Controls Toscana (162)
+| align="center" | 150
+|-
+|
+| Italcementi
+| Construction Company
+|
+construction_company
+- This designer is located in the Northern part of Italy. Completing the focus Strengthen Northern Industry and New Industrialization Program will improve the designer to:
+- Infrastructure Infrastructure construction speed: +10.00%
+- Railway Railway construction speed: +10.00%
+- Construction speed: +5.00%
+|
+- Controls Piemonte (158)
+| align="center" | 150
+|-
+|
+| Astaldi
+| Construction Company
+|
+construction_company
+- This designer is located in the Southern part of Italy. Completing the focus Modernize the Mezzogiorno and New Industrialization Program will improve the designer to:
+- Electronics Research Speed: +10%
+construction_company
+|
+- Controls Lazio (2)
+| align="center" | 150
+|-
+|
+| Ducati Energia
+| Electronics Concern
+|
+- Electronics Research Speed: +15%
+electronics_concern
+- This designer is located in the Northern part of Italy. Completing the focus Strengthen Northern Industry and New Industrialization Program will improve the designer to:
+
+- Electronics Research Speed: +20%
+electronics_concern
+- Reconnaissance: +5.0%
+- Coordination: +10.0%
+|
+- Controls Emilia Romagna (161)
+
+| align="center" | 150
+|}
+
+### Designers
+ Arms Against Tyranny
+Design companies of Italy
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" |Tank designers
+!Icon
+!Designer
+!Type
+!Effect
+!Cost ( political power )
+|-
+|
+|Fiat
+|Tank Designer
+|
+- Armor Research Speed: +15%
+- Armor: Reliability: +5%
+By selecting this Design Company it will permanently affect capabilities on all equipment researched while they are hired.
+| align="center" |150
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" |Ship designers
+!Icon
+!Designer
+!Type
+!Effect
+!Cost ( political power )
+|-
+|
+|CRDA
+|Ship Designer
+|
+- Naval Research Speed: +15%
+| align="center" |150
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" |Aircraft designers
+!Icon
+!Designer
+!Type
+!Effect
+!Cost ( political power )
+|-
+|
+|Macchi
+|Light Aircraft Designer
+|
+- Air Research Speed: +15%
+- Fighter:
+ - Agility: +10%
+ - Max Speed: +10%
+- Carrier Fighter:
+ - Agility: +10%
+ - Max Speed: +10%
+By selecting this Design Company it will permanently affect capabilities on all equipment researched while they are hired.
+| align="center" |150
+|-
+|
+|Savoia-Marchetti
+|Medium Aircraft Designer
+|
+- Air Research Speed: +15%
+- Heavy Fighter: Reliability: +20%
+- Tactical Bomber: Reliability: +20%
+By selecting this Design Company it will permanently affect capabilities on all equipment researched while they are hired.
+| align="center" |150
+|-
+|
+|Caproni
+|Naval Aircraft Designer
+|
+- Air Research Speed: +15%
+- Naval Bomber:
+ - Range: +10%
+ - Naval Attack: +10%
+- CV Naval Bomber:
+ - Range: +10%
+ - Naval Attack: +10%
+- Carrier Fighter:
+ - Range: +10%
+ - Agility: +10%
+- Carrier CAS:
+ - Range: +10%
+ - Naval Attack: +10%
+By selecting this Design Company it will permanently affect capabilities on all equipment researched while they are hired.
+| align="center" |150
+|-
+|
+|Piaggio
+|Heavy Aircraft Designer
+|
+- Air Research Speed: +15%
+- Strategic Bomber: Strategic Bombing: +10%
+By selecting this Design Company it will permanently affect capabilities on all equipment researched while they are hired.
+| align="center" |150
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" |Materiel designers
+!Icon
+!Designer
+!Type
+!Effect
+!Cost ( political power )
+|-
+|
+|Beretta
+|Infantry Equipment Designer
+|
+- Weapons and Equipment Research Speed: +15%
+| align="center" |150
+|-
+|
+|Lancia
+|Motorized Equipment Designer
+|
+- Motorization Research Speed: +15%
+| align="center" |150
+|-
+|
+|Breda
+|Artillery Designer
+|
+- Artillery Research Speed: +15%
+| align="center" |150
+|}
+
+### Organizations
+ Arms Against Tyranny
+Italy has access to these Military industrial organizations.
+
+{| class="wikitable"
+|+
+!Tanks
+!Ships
+!Planes
+!Materiel Equipment
+|-
+|Fiat
+Standardized Production
+|CRDA
+Battle Line Ship Builders
+|Macchi
+Light Aircraft Design
+|Beretta
+Infantry Weapons Designer
+|-
+|
+|Odero-Terni-Orlando
+Escort Fleet
+|Savoia-Marchetti
+Multi-Role Aircraft Designer
+|Lancia
+Automotive Manufacturer
+|-
+|
+|Navalmeccanica
+Refurbishment Repair Manufacturer
+|Caproni
+CAS Aircraft Design
+|Breda
+Artillery Designer
+|-
+|
+|Cantiere Navale di Ancona
+Raiding Fleet
+|Piaggio
+Heavy Aircraft Designer
+|Brescia Arsenal
+Support Equipment Manufacturer
+|-
+|
+|Cantieri Navali Tosa
+Submarine Designer
+|IMAM
+Multi-Role Tactical Aircraft
+|Officine Meccaniche
+Automotive Manufacturer
+(unlocked by focus)
+|-
+|
+|
+|CRDA-CANT
+Naval Aircraft Designer
+|
+|-
+|
+|
+|Fiat Aviazione
+Range Focused Aircraft Designer
+|
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Tank organizations
+|
+
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Ship organizations
+|
+
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Plane organizations
+|
+
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Materiel organizations
+|
+
+|}
+
+# Economy [verified for 1.17]
+
+## Laws
+Italy starts with the following laws:
+Limited Conscription Partial Mobilization Limited Exports*Italy begins with the Conscription Law Extensive Conscription in the 1939 start.
+
+## Industry
+Italy begins with a modest industry compared to other major powers, at just 56 factories, which is a bit below that of the other European major powers. The country's limited production and construction power will seriously undermine its war effort if not dealt with swiftly.
+
+{| class="wikitable" style="text-align: center"
+|+
+! style="width: 10%" |
+Year
+! style="width: 13%" | Military factory
+Military Factories
+! style="width: 13%" | Naval dockyard
+Naval Dockyards
+! style="width: 13%" | Civilian factory
+Civilian Factories
+! style="width: 13%" | Fuel Silo
+Fuel Silos
+! style="width: 13%" | Refinery
+Refineries
+! style="width: 13%" | Building Slot
+Building Slots
+|-
+| 1936
+| 20
+| 15
+| 21 (-10)
+| 1
+| 0
+| 110
+|}
+- Numbers in red indicate the number of civilian factories required to produce consumer goods, based on economy laws and the total number of military and civilian factories, rounded up.
+
+## Resources
+Italy begins with a rather limited resource pool, with access to a decent supply of steel and aluminum but lacking a sufficient supply of most other resources. This shortage should be addressed early, as it can leave Italy heavily reliant on trade, consuming valuable civilian factories, and trade opportunities will inevitably diminish once global conflict begins.
+
+{| class="wikitable" style="text-align: center"
+|+
+! style="width: 9%" |
+Year
+! style="width: 13%" | oil
+Oil
+! style="width: 13%" | aluminum
+Aluminum
+! style="width: 13%" | rubber
+Rubber
+! style="width: 13%" | tungsten
+Tungsten
+! style="width: 13%" | steel
+Steel
+! style="width: 13%" | chromium
+Chromium
+! style="width: 13%" | coal
+Coal
+|-
+| 1936
+| 5* (-1)
+| 103 (-26)
+| 0
+| 2
+| 109 (-27)
+| 4 (-1)
+| 7 (-2)
+|}
+- These numbers represent the available resources one hour into the game. Numbers in red indicate how many resources are reserved for export due to trade laws.
+
+- With Battle for the Bosporus , Italy gets access to all of Albania's oil .
+
+# Military [verified for 1.17]
+
+## Army
+
+{| class="wikitable sortable" style="width: 300px;"
+|+ style="color:black;"| Army of Italy
+! width=1% class="unsortable" | !! width=80% | Type !! width=15% | # 1936 !! | # 1939
+|-
+| || Infantry
+| align="center" | 22
+| align="center" | 59
+|-
+| || Irregular Infantry
+| align="center" colspan="2" | 5
+|-
+| || Militia
+| align="center" | 7
+| align="center" | 0
+|-
+| || Mountaineers
+| align="center" | 5
+| align="center" | 8
+|-
+| || Cavalry
+| align="center" | 4
+| align="center" | 2
+|-
+| || Motorized Infantry
+| align="center" | 0
+| align="center" | 2
+|-
+| || Light Tank
+| align="center" | 3
+| align="center" | 20
+|-
+! !! style="text-align: left;" | Total divisions || 46 || 96
+|-
+! !! style="text-align: left;" | Manpower used || 264.00K || 590.30K
+|}
+
+The Regio Esercito (Royal Army) is a sizable land force, fielding a mix of regular infantry, colonial infantry, militia, and specialized units such as mountaineers and light tank divisions. In 1936, it comprises 46 divisions totalling roughly 264,000 men, spread across the Italian mainland and colonial possessions in Africa.
+
+While many formations are of reasonable quality, a significant proportion consist of outdated or lightly equipped colonial and irregular units, limiting their combat effectiveness against modern opponents. Mechanized and motorized capabilities are minimal, with only a few light tank divisions and no dedicated motorized divisions at the start. Of note is that these “light tank” divisions are more akin to cavalry formations, fielding 4 cavalry, 2 motorized infantry, and just a single light tank battalion each.
+
+Despite these shortcomings, Italy’s varied unit roster will be sufficient for the ongoing conflict in Ethiopia. However, significant modernization and expansion will be essential if the Regio Esercito is to compete with the better-equipped armies of France or the United Kingdom.
+
+Italy starts with the Grand Battleplan land doctrine.
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | Division composition list
+! Division !! Name list !! # 1936 !! # 1939 !! Support companies !! Combat battalions
+|-
+| Divisione di Fanteria* || Infantry Division || 17 || 0 || || 6x
+|-
+| Divisione di Fanteria^ || Infantry Division || 0 || 47 || || 6x
+|-
+| Divisione Alpina || Mountain Division || 5 || 8 || || 6x
+|-
+| Camicie Nere || CC.NN. Infantry Division || 7 || 0 || || 6x
+|-
+| Divisione Celere || Cavalry Division || 3 || 3 || || 4x 2x 1x
+|-
+| Reggimento di Cavalleria* || Cavalry Regiment || 2 || 0 || || 4x
+|-
+| Divisione Coloniale || Colonial Division || 0 || 3 || || 4x
+|-
+| Divisione Ascari Libica || Colonial Division || 2 || 5 || || 4x
+|-
+| Divisione Ascari Eritrea || Colonial Division || 2 || 2 || || 4x
+|-
+| Divisione Ascari Somala || Colonial Division || 1 || 2 || || 4x
+|-
+| Banda Indigena Irregolare || Irregular Bands || 0 || 0 || || 4x
+|-
+| Truppe Irregolari a Cavallo || Spahis Squadron Groups || 2 || 2 || || 3x
+|-
+| Banda Irregolare Libica || Irregular Bands || 1 || 1 || || 4x
+|-
+| Banda Irregolare Eritrea || Irregular Bands || 2 || 2 || || 4x
+|-
+| Banda Irregolare Somala || Dubat Bands || 2 || 2 || || 4x
+|-
+| Divisione Autotrasportabile^ || Motorized Division || 0 || 10 || || 6x 1x 2x
+|-
+| Divisione Motorizzata^ || Motorized Division || 0 || 2 || || 7x
+|-
+| Divisione Corazzata^ || Armored Division || 0 || 3 || || 4x 3x
+|-
+| Raggruppamento Celere^ || Cavalry Division || 0 || 4 || || 2x 2x 1x
+|-
+| colspan="6" | * marks a division that is removed in the 1939 start.
+^ marks a division that is only available in the 1939 start.
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | Example division template names
+! style="text-align:left;" | Name !! style="text-align:left;" | Italian Name
+|-
+| Colonial Division || Divisione F. Coloniale
+|-
+| Irregular Band || Gruppo Bandi Irregolari
+|-
+| Dubat Bands || Banda di Confine dei Dubat
+|-
+| Armored Division || Divisione Corazzata
+|-
+| Mountain Division || Divisione Alpina
+|-
+| Marine Regiment || Reggimento di Sbarco
+|-
+| Garrison Division || Divisione Costiera
+|-
+| Meharist Squadron Group || Gruppo Squadroni Meharisti
+|-
+| Gruppo Bande a Camello || Gruppo Bande a Cavallo
+|-
+| Motorized Division || Divisione Motorizzata
+|-
+| Mechanized Division || Divisione Meccanizzata
+|-
+| Cavalry Regiment || Reggimento di Cavalleria
+|-
+| Cavalry Division || Divisione Celere
+|-
+| Colonial Cavalry || Gruppo Cav. Coloniale
+|-
+| Savari Squadron Groups || Gruppo Squadroni Savari
+|-
+| Spahis Squadron Groups || Gruppo Squadroni Spahis
+|-
+| Mounted Irregular Bands || Gruppo Bande a Cavallo
+|-
+| Paratrooper Division || Divisione Paracadutisti
+|-
+| Infantry Division || Divisione di Fanteria
+|-
+| CC.NN. Infantry Division || Divisione CC.NN.
+|-
+! colspan="2" | If the Roman Empire has been formed:
+|-
+| Roman Infantry Legions || Legio X
+|-
+| Roman Cavalry Formation || Equites X
+|-
+| Roman Armored Legions || Legio Loricatorum X
+|-
+| Roman Mech. Legions || Legio Mechanica X
+|-
+| Roman Paratrooper Legions || Legio Caeli X
+|-
+| Roman Auxiliaries || Auxilia X
+|-
+| Roman Mountain Legions || Legio Mons X
+|-
+| Roman Marine Units || Classica X
+|-
+| Roman Motorised Legions || Legio Motricium X
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | No Step Back Tank variants list
+! Type !! Chassis !! Role !! Main Armament !! Turret !! Suspension !! Armor (level) !! Engine (level) !! Special Modules
+|-
+| M11/39^ || Improved Light || Light Tank || High Velocity Cannon || Superstructure || Bogie || Riveted (3) || Gasoline (2) || Heavy Machine Gun
+|-
+| L3/35 || Basic Light || Light Tank || Heavy Machine Gun || Superstructure || Bogie || Riveted (1) || Gasoline (1) ||
+|-
+| L6/40^ || Basic Light || Light Tank || Autocannon || One Man || Bogie || Riveted (4) || Gasoline (2) ||
+|-
+| Fiat 3000* || Inter-War Light || Light Tank || Heavy Machine Gun || One Man || Bogie || Riveted (2) || Gasoline (1) ||
+|-
+| Fiat 3000B* || Inter-War Light || Light Tank || Small Cannon || One Man || Bogie || Riveted (2) || Gasoline (1) ||
+|-
+| colspan="9" | * marks a variant as "outdated".
+^ marks a variant that is only available in the 1939 start.
+|}
+
+## Navy
+
+{| class="wikitable sortable" style="width: 300px;"
+|+ style="color:black;"| Navy of Italy
+! width=1% class="unsortable" | !! width=80% | Type !! width=15% | # 1936 !! | # 1939
+|-
+| || Battleship
+| align="center" colspan="2" | 2
+|-
+| || Heavy Cruiser
+| align="center" colspan="2" | 8
+|-
+| || Light Cruiser
+| align="center" | 11
+| align="center" | 14
+|-
+| || Destroyer
+| align="center" | 82
+| align="center" | 125
+|-
+| || Submarine
+| align="center" | 51
+| align="center" | 97
+|-
+| || Convoy
+| align="center" colspan="2" | 200
+|-
+! !! style="text-align: left;" | Total ships || 154 || 246
+|-
+! !! style="text-align: left;" | Manpower used || 52.10K || 75.65K
+|}
+
+The Regia Marina (Royal Navy) is sizeable and ranks among the most modern navies of the Second World War, with access to all 1936 hulls, batteries, and armor configurations. The only major omission is the lack of carriers, and given the significant industrial investment required, their construction may not be an immediate priority.
+
+While some vessels in service are older models, Italy has several modern battleships, cruisers, destroyers, and submarines under construction, notably two 1936 Littorio-class and two Conte di Cavour-class battleships, many of which are nearing completion.
+
+With sustained investment, the Regia Marina has the potential to contest control of the Mediterranean, though doing so against both the Royal Navy and the Marine Nationale will demand a significant resource commitment. Its role is vital in safeguarding the maritime supply lifeline to North Africa, as failure to protect these convoys would allow the Allies to raid them with impunity, threatening the entire campaign.
+
+Italy’s starts with the Fleet in Being naval doctrine, and the nation’s unique Regia Marina national spirit grants a +10.00% Attack bonus to ships fighting alongside the Pride of the Fleet.
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | Naval units list
+! Type !! Class !! Hull !! Engine !! # 1936 !! 1936 !! # 1939 !! 1939 !! Design note
+|-
+|BB || Andrea Doria* || Early Heavy Ship || Heavy I || 2 || || || || 2x Heavy Battery I, 2x Secondary Battery I, 2x Anti-Air I, Fire Control 0, Battleship Armor I
+|-
+|BB || Conte Di Cavour || Early Heavy Ship || Heavy II || || 2 || 2 || || 2x Heavy Battery I, 2x Secondary Battery I, Anti-Air I, Fire Control 0, Battleship Armor I, Floatplane Catapult I
+|-
+|BB || Littorio || Basic Heavy Ship || Heavy III || || 2 || || 2 || 2x Heavy Battery II, 2x Secondary Battery II, 2x Anti-Air I, Fire Control 0, Battleship Armor II, Floatplane Catapult II
+|-
+|BB || Caio Duilio*^ || Early Heavy Ship || Heavy II || || || || 2 || 2x Heavy Battery I, 2x Secondary Battery I, 3x Anti-Air I, Fire Control 0, Battleship Armor I
+|-
+|CA || San Giorgio* || Coastal Defense Ship || Cruiser I || 1 || || 1 || || Medium Battery I, 2x Secondary Battery I, 2x Anti-Air I, Fire Control 0, Cruiser Armor II, Torpedo Launcher I
+|-
+|CA || Bolzano || Basic Cruiser || Cruiser II || 1 || || 1 || || 2x Medium Battery I, 2x Anti-Air I, Fire Control 0, Cruiser Armor I, Floatplane Catapult I
+|-
+|CA || Trento* || Basic Cruiser || Cruiser II || 2 || || 2 || || 2x Medium Battery I, 2x Anti-Air I, Fire Control 0, Cruiser Armor I, Floatplane Catapult I
+|-
+|CA || Zara* || Basic Cruiser || Cruiser II || 4 || || 4 || || 2x Medium Battery I, 2x Anti-Air I, Fire Control 0, Cruiser Armor II, Floatplane Catapult I
+|-
+|CL || Duca degli Abruzzi || Basic Cruiser || Cruiser II || || 2 || 2 || || 2x Light Cruiser Battery III, 2x Anti-Air II, Fire Control 0, Cruiser Armor I, Torpedo Launcher I, Floatplane Catapult II
+|-
+|CL || Giussano* || Early Cruiser || Cruiser II || 6 || || 6 || || 2x Light Cruiser Battery II, Anti-Air II, Fire Control 0, Torpedo Launcher I, Floatplane Catapult I
+|-
+|CL || Montecuccoli || Basic Cruiser || Cruiser II || 3 || 1 || 4 || || 2x Light Cruiser Battery II, Anti-Air I, Anti-Air II, Fire Control 0, Torpedo Launcher I, Floatplane Catapult I
+|-
+|CL || Taranto* || Early Cruiser || Cruiser I || 2 || || 2 || || Light Cruiser Battery I, Fire Control 0, Cruiser Armor I, Torpedo Launcher I, Minelaying Rails
+|-
+|DD || Aquila* || Early Destroyer || Light I || 2 || || || || Light Battery I, Torpedo Launcher I, Depth Charge I, Minelaying Rails
+|-
+|DD || Curtatone* || Early Destroyer || Light I || 49 || || 46 || || Light Battery I, Anti-Air I, Fire Control 0, Torpedo Launcher I
+|-
+|DD || Maestrale || Early Destroyer || Light II || 14 || 2 || 46 || || Light Battery I, Anti-Air I, Fire Control 0, Torpedo Launcher I, Depth Charge I
+|-
+|DD || Navigatori* || Early Destroyer || Light I || 17 || || 17 || || Light Battery I, Anti-Air I, Fire Control 0, Torpedo Launcher I, Depth Charge I, Minelaying Rails
+|-
+|DD || Soldati^ || Basic Destroyer || Light II || || || 16 || || Light Battery II, Anti-Air I, Fire Control 0, Torpedo Launcher I, Depth Charge I
+|-
+|SS || Bandiera* || Early Submarine || Submarine I || 11 || || 11 || || 2x Torpedo Tubes I
+|-
+|SS || Calvi || Basic Submarine || Submarine I || 2 || 1 || 32 || || 2x Torpedo Tubes I
+|-
+|SS || Mameli* || Early Submarine || Submarine I || 17 || || 17 || || Torpedo Tubes I
+|-
+|SS || Sirena* || Early Submarine || Submarine I || 21 || || 23 || || Torpedo Tubes I
+|-
+|SS || Marcello^ || Basic Submarine || Submarine II || || || 14 || 2 || 2x Torpedo Tubes I
+|-
+| colspan="9" | * marks a variant as "outdated".
+^ marks a variant that is only available in the 1939 start.
+
+Ship type terminology:
+- BB - Battleship
+- CA - Heavy cruiser
+- CL - Light cruiser
+- DD - Destroyer
+- SS - Submarine
+|}
+
+## Air force
+{| class="wikitable sortable" style="width: 400px;"
+|+ style="color:black;"| Air force of Italy
+! width=1% class="unsortable" | !! width=80% | Type !! width=15% | hoi4 1936 !! | By Blood Alone 1936 !! | hoi4 1939 !! | By Blood Alone 1939
+|-
+| || Fighter
+| align="center" colspan="2" | 300
+| align="center" colspan="2" | 441
+|-
+| || Close Air Support
+| align="center" colspan="2" | 48
+| align="center" colspan="2" | 36
+|-
+| || Naval Bomber
+| align="center" | 72
+| align="center" | 0
+| align="center" | 48
+| align="center" | 0
+|-
+| || Tactical Bomber
+| align="center" | 288
+| align="center" | 360
+| align="center" | 738
+| align="center" | 786
+|-
+! !! style="text-align: left;" | Total planes || 708 || 708 || 1263 || 1263
+|-
+! !! style="text-align: left;" | Manpower used || 19.92K || 21.36K || 40.02K || 40.98K
+|}
+
+Upgrading the interwar fighters and bombers to at least 1936 level is a priority for the air force, as is simply expanding the country's contingent of fighters to a size that can achieve air superiority over the home land and sea regions to fend off strategic bombing and port strike missions. (The Allies (AI) can easily send over 1000 bombers and fighters respectively to Italy.) If carriers are to be built, naval bombers must also be developed to be deployed on them.
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | By Blood Alone Aircraft variants list
+! Type !! Airframe !! Role !! Main Armament !! Secondary Weapons !! Engine !! Special Modules
+|-
+| Ca.135^ || Basic Medium || Tactical Bomber || Medium Bomb Bay || || 2x Engine II || Hmg Defense Turret
+|-
+| Z.506^ || Basic Medium || Tactical Bomber || Medium Bomb Bay || Light Torpedo Mountings || 3x Engine II || Extra Fuel Tanks, Light MG Defense Turret, Flying Boat Medium
+|-
+| BR.20^ || Basic Medium || Tactical Bomber || Medium Bomb Bay || || 2x Engine II || Extra Fuel Tanks, Light MG Defense Turret
+|-
+| Re.2000^ || Improved Small || Fighter || Heavy Mg 2X || || 1x Engine II ||
+|-
+| G.50^ || Basic Small || Fighter || Heavy Mg 2X || || 1x Engine II ||
+|-
+| CR.42*^ || Inter-War Small || Fighter || Heavy Mg 2X || || 1x Engine II ||
+|-
+| Ba.65^ || Basic Small || CAS || Small Bomb Bay || 2x Light Machine Gun || 1x Engine II ||
+|-
+| SM.79^ || Basic Medium || Tactical Bomber || Medium Bomb Bay || Light Torpedo Mountings || 3x Engine II || Light MG Defense Turret 2x
+|-
+| SM.81^ || Basic Medium || Tactical Bomber || Medium Bomb Bay || Medium Bomb Bay || 3x Engine I || Light MG Defense Turret 2x
+|-
+| S.72*^ || Inter-War Medium || Tactical Bomber || Medium Bomb Bay || Medium Bomb Bay || 3x Engine I || Light MG Defense Turret 2x
+|-
+| Ca.133*^ || Inter-War Medium || Tactical Bomber || Medium Bomb Bay || Bomb Locks || 3x Engine I || Light MG Defense Turret 2x
+|-
+| Ca.101*^ || Inter-War Medium || Tactical Bomber || Medium Bomb Bay || || 3x Engine I || Light MG Defense Turret
+|-
+| Ca.111*^ || Inter-War Small || CAS || Small Bomb Bay || || 1x Engine I ||
+|-
+| CR.32^ || Inter-War Small || Fighter || 2x Light Machine Gun || || 1x Engine I ||
+|-
+| colspan="7" | * marks a variant as "outdated".
+^ marks a variant that is only available in the 1939 start.
+|}
+
+# Strategies and guides
+
+## Puppet juggling
+Italy can release these nations as Puppets: Kingdom of Libya, Somali Sultanate, Eritrea. They have some manpower and no resources of value, and can complete the Generic national focus tree.
+
+Italy can also release Independent State of Croatia as Puppet while keeping Core states - annex it after the Generic national focus tree is complete (complete enough) - release Kingdom of Lombardy-Venetia as Puppet while keeping Core states - annex it after the Generic national focus tree is complete (complete enough). This would turn a tiny Enclave into an industrial district filled with developed infrastructure, air bases, civilian factories, military factories, and a large naval base.
+
+If releasing the Puppet states of Kingdom of Libya, Somali Sultanate, Eritrea - consider asking some or all of them for Garrison Support - then release Kingdom of Lombardy-Venetia as a Puppet while keeping Core states - causing Manpower to go from 748.17K to 784.68K (+36.51K Italians).
+
+Note that Kingdom of Libya territories and Zadar/Zara (Kingdom of Lombardy-Venetia/Independent State of Croatia Rump State) are needed for the formation of the Roman Empire. So, you may choose to not release these countries.
+
+France can also release Somali Sultanate (in place where Djibouti would be). So, Italy should release Somali Sultanate first.
+
+## Basic strategy
+Italy is an interesting country to play despite being the weakest of all starting Majors. It is unique in that it is the only nation that starts off at war with another nation in 1936, that being Ethiopia. Taking Ethiopia isn't a problem, but the war provides an easy early-game source of military experience for reformatting the Italian army divisions. Timing the end of the war is also important. End it too early and you likely will not be able to earn much experience for your generals and field marshals. End it too late and the war might just drain a large chunk of your manpower and/or equipment and the Spanish civil war might just start and end before you can finish the "Support Nationalist Spain" national focus. While the Ethiopian war and Spanish civil war is ongoing, build up your military and industry, you will need them later. Some traits you may want to get with a small number of generals are Mountaineer, Desert Fox, Infantry Leader and Trickster, whilst getting them to level 6 if possible (and making them field marshals should you wish). With the pair of aforementioned terrain-based traits, you will be able to get the Adaptable trait, arguably one of the best that the game has to offer. Its 45% terrain penalty reduction makes attacking into finicky terrain that you'll inevitably have to fight through in a historical game much easier, and thus is very much advised to acquire whenever possible, not just when playing Italy.
+
+After Ethiopia, Italy can decide not only the fate of the Allies, but also the Axis. In order for Italy to disrupt German Reich (If Italy is going the "Italy first" route), all Italy has to do in the beginning is to invade Austria before Anschluss and then attack Yugoslavia (causing Czechoslovakia to join as well) and then take Czechoslovakia after war with Yugoslavia. This can be difficult to pull off if Czechoslovakia fortifies, but successfully pulling it off will allow you to steal a lot of the low-hanging fruit that is normally meant for Germany, weakening them. Ironically, despite declaring war and making puppets from Austria, Czechoslovakia and Yugoslavia, this will still generate less world tension than what Germany can produce historically from taking aggressive action against said nations.
+From here, Italy can choose to expand its alliance by creating further puppets from Hungary, Romania and Turkey. One has to watch the world tension, however, as if it rises to 25% or higher, the allies (France and the UK) will start guaranteeing nations you target, which can easily lead to nasty war with both nations. A war with both the French and British at this stage is likely going to be too much for Italy to handle, even with skilled play, so be careful.
+
+That being said, sometimes Italy can take refuge in audacity. If world tension is below 80% and France hasn't joined the Allies yet through a focus, Italy could complete the national focus "Go After France" (or justify a wargoal on a nation when world tension is over 25%, causing France to guarantee them) and strike them directly. France has a respectable military but Italy can relatively easily build up its own military to match them through superior units, though this might require stretching Italy's manpower pool somewhat. Be mindful, however, of the fact that France's military industry is horribly sloppy, at just 6 Military factories although, France's national focus tree can expand this quite a bit. If Italy builds up its military and industry (the faster the better), attacks France and manages to encircle and destroy enough units to cripple the French military, Italy could conceivably defeat France before 1940, allowing them to more than double their industrial potential if they annex France, or acquire a nice source of manpower if they puppet them.
+
+From here, the path to supremacy lies open; Italy can either choose to strike at Germany or the United Kingdom and once those two are gone, the rest of Europe is within your reach. Only the Soviet Union could theoretically present a threat to you anymore and that will most likely only become a factor towards the late game. Conquer enough land and you might just find yourself surpassing even Mussolini's wildest dreams and be able to restore the Roman Empire.
+
+If playing the more historical Axis alignment its worth noting that Italy is unique among the Axis of being within striking distance of the Middle East with its valuable and abundant Oil supplies. Using its North African holdings as a launching point and its ability to protect supply convoys through the Central and Eastern Mediterranean Italy is able to quickly seize not just the Suez but the entirety of the Allies Middle eastern territory. Just be sure to grab it all or else Vichy France will spawn and cut you off from further eastern expansion.
+Once this is done you are at your leisure to fabricate and push eastwards grabbing more Oil than you could possibly use from the weak Iraq and Iran. At this point you are then free to advance further into the British Raj and/or open up more fronts with the Soviet menace.
+
+## Some suggestions regarding units
+A robust and relatively straightforward strategy is to transition your military doctrine to "Superior Firepower" and deploy Support and Line Artillery (comprising Normal, Anti-Tank, and Anti-Air variants) in all of your divisions. In conjunction with fighters (for air supremacy), close-air-support planes (to assist ground divisions) and field hospitals (to conserve manpower, if resources permit), it is possible to both attack and defend against most enemy units with relative ease. Once a reliable source of fuel and sufficient factories to support it have been obtained, the fielding of various types of tanks (supported by motorized/mechanized infantry) can commence. This allows for the further augmentation of breakthrough capabilities, enabling the breaking of stalemates and the encirclement of enemy units for destruction.
+
+It is of the utmost importance to maintain a vigilant watch over the Italian coastline. Italy is a peninsular nation with a lengthy coastline, which presents a significant challenge when confronting a maritime adversary like Britain. Failure to adequately address this vulnerability could have dire consequences. To prevent a hostile power from launching a similar invasion of Italy, it is advisable to construct coastal forts at all naval bases and station units there to repel any potential invaders. It is also advisable to maintain a reserve force in close proximity to the coastal forts, in order to repel any attempted landings by enemy forces and prevent the encirclement and destruction of the coastal forts themselves.
+
+As for your naval units, Italy is a peninsular nation so maintaining naval supremacy in the Mediterranean will go a long way to protecting against possible naval invasions (something an AI-controlled Italy often falls victim to). In the early game, when naval dockyards are in limited supply, a decent early-game fleet would be a mixture of torpedo-equipped destroyers and gun-carrying light cruisers (both with added armor), with some heavy cruisers added here and there as resources permit. These ships are decently powerful while also being decently expendable and replaceable. In theory, the light and heavy cruisers should engage and destroy enemy screening ships, allowing the destroyers to attack and destroy enemy capital ships once the screen ships are down. Once you acquire more naval dockyards, this combo can be further augmented with the addition of more heavy cruisers and even battleships for heavier ordnance. The Mediterranean sea is small enough that Naval Bombers operating from airfields in coastal states should have enough range to cover most sea zones, allowing you to support your navy. This also makes Aircraft Carrier battleships somewhat redundant early on.
+
+When it comes to dealing with enemy submarines, one could set up specialized "scout fleets" consisting of destroyers optimized for detecting submarines and ordered to "Do not engage". These scout fleets can scout the Mediterranean for submarines and if they find any, they will alert the actual attack fleets, allowing them to make their way over and attack the enemy submarines, damaging and hopefully destroying them. If Italy wants to further assist their navy, they could build ships (destroyers and cruisers) outfitted with minelayers and extensively mine the Mediterranean sea. Mines will cause enemy ships to suffer a speed penalty, making them move slower, which hampers everything from responding to and engaging your fleets, disengaging, and retreating from battles and fleeing from bad situations. Having enough friendly minefields around can allow the Italian navy to do a lot more risky/audacious maneuvers and get away with it, allowing them to punch above their weight against bigger enemies like the British Royal Navy and the French navy.
+
+To avoid issues with fuel, Italy could invest in building fuel silos in peacetime and importing Oil to fill them up. If you manage to puppet Romania or any other nation that has a decent Oil reserve, you can import Oil at a discount. Once war does break out and fuel becomes harder to import, this can be remedied by occupying and/or annexing states that produce Oil. Alternatively, if conquering and/or importing Oil is not an available option, constructing synthetic fuel refineries can help address this. Just make sure to also protect these installations from enemy aggression as both fuel silos and oil refineries can be bombed by hostile planes and captured by enemy troops, so be careful.
+
+# Achievements
+{| width=100%
+| FOCUS Duce Nuked'em: Nuke Los Angeles as fascist Italy.
+|}
+{| width=100%
+| FOCUS At least they run on time!: As fascist Italy, have max level railways in all your core states.
+|}
+{| width=100%
+| FOCUS Holy, Roman, and an Empire: As the Pope, restore Rome.
+|}
+{| width=100%
+| FOCUS Pizza Time!: As Italy, occupy New York, Chicago and Hawaii.
+|}
+{| width=100%
+| FOCUS Collect all the Romes: As Italy, continue holding onto the First Rome, and gain the second and third Rome
+|}
+{| width=100%
+| FOCUS Nothing personal, Adolf: As Italy, take Austria before the Anschluss and never enter a faction with a fascist Germany
+|}
+{| width=100%
+| FOCUS Not today: As communist Italy, save Gramsci from the brink of death, make him the leader of Italy and form the Italian National Union.
+|}
+{| width="100%"
+|FOCUS Stalin, how many guns does he have?: As the pope, capitulate the USSR
+|}

@@ -1,0 +1,887 @@
+TITLE: Air technology
+URL: https://hoi4.paradoxwikis.com/Air_technology
+REVISION: 2025-12-11T20:02:44Z (rev 94743)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+By Blood Alone
+For air technology without By Blood Alone , see the separate Air technology (Basic) page.
+
+ By Blood Alone replaces the basic air technology system with a more modular system that feeds into the aircraft designer. Rather than researching aircraft within different roles, the new system splits up research based on the airframes from which plane designs are built and the modules that are to go into said airframes, including weaponry, engines, and even some special modules.
+
+With the introduction of special projects in Götterdämmerung and the accompanying Patch 1.15, all air technologies now also generate aerodynamics and avionics breakthrough progress while being researched.
+
+# Airframes
+## Small Airframes
+
+FOCUS Inter-War Small Airframe: Since the early days of the Great War, aviation has advanced in leaps and bounds. This airframe represents the culmination of these developments, but it is clear that its growth potential is limited.
+1933
+220 days
+Enables
+Inter-War Small Airframe 2 aluminum 1 rubber manpower 20
+Air Defense 7
+Air Superiority 1
+Naval Targeting 1
+Reliability 80%
+Thrust 11
+Production cost 16 Range 400 km
+Agility 35
+Naval Attack 1
+Max Speed 400 km/h
+Weight 3
+Fuel Usage 0.21 fuel
+Inter-War Carrier Airframe 2 aluminum 1 rubber manpower 20
+Air Defense 7
+Air Superiority 1
+Naval Targeting 1
+Reliability 80%
+Thrust 11
+Production cost 18 Range 400 km
+Agility 30
+Naval Attack 1
+Max Speed 400 km/h
+Weight 4
+Fuel Usage 0.21 fuel
+
+Technology:
+FOCUS Basic Small Airframe: In recent years, a number of new technologies has emerged, allowing for the construction of very capable, yet small, planes. This airframe represents just the first step on that road.
+Year: 1936
+Base time: 220 days
+Prerequisites: Inter-War Small Airframe
+Effects:
+Enables
+Basic Small Airframe 3 aluminum 1 rubber manpower 20
+Air Defense 9
+Air Superiority 1
+Naval Targeting 1
+Reliability 80%
+Thrust 11
+Production cost 17 Range 550 km
+Agility 40
+Naval Attack 1
+Max Speed 425 km/h
+Weight 4
+Fuel Usage 0.21 fuel
+Basic Carrier Airframe 3 aluminum 1 rubber manpower 20
+Air Defense 9
+Air Superiority 1
+Naval Targeting 1
+Reliability 80%
+Thrust 11
+Production cost 20.5 Range 550 km
+Agility 35
+Naval Attack 1
+Max Speed 425 km/h
+Weight 5
+Fuel Usage 0.21 fuel
+
+Technology:
+FOCUS Improved Small Airframe: With improved aerodynamics and more robust construction, this airframe represents a clear step forward compared to the basic model.
+Year: 1940
+Base time: 220 days
+Prerequisites: Basic Small Airframe
+Effects:
+Enables
+Improved Small Airframe 3 aluminum 1 rubber manpower 20
+Air Defense 11
+Air Superiority 1
+Naval Targeting 1
+Reliability 80%
+Thrust 11
+Production cost 18 Range 650 km
+Agility 45
+Naval Attack 1
+Max Speed 450 km/h
+Weight 5
+Fuel Usage 0.21 fuel
+Improved Carrier Airframe 3 aluminum 1 rubber manpower 20
+Air Defense 11
+Air Superiority 1
+Naval Targeting 1
+Reliability 80%
+Thrust 11
+Production cost 21.5 Range 650 km
+Agility 40
+Naval Attack 1
+Max Speed 450 km/h
+Weight 6
+Fuel Usage 0.21 fuel
+
+Unlocks
+ Jet Engine special project
+
+Technology:
+FOCUS Advanced Small Airframe: Thoroughly optimized for performance, this airframe represents the absolute maximum of what can be done with a piston-driven airplane.
+Year: 1944
+Base time: 220 days
+Prerequisites: Improved Small Airframe
+Effects:
+Enables
+Advanced Small Airframe 4 aluminum 1 rubber manpower 20
+Air Defense 12
+Air Superiority 1
+Naval Targeting 1
+Reliability 80%
+Thrust 11
+Production cost 19 Range 750 km
+Agility 50
+Naval Attack 1
+Max Speed 475 km/h
+Weight 6
+Fuel Usage 0.21 fuel
+Advanced Carrier Airframe 4 aluminum 1 rubber manpower 20
+Air Defense 12
+Air Superiority 1
+Naval Targeting 1
+Reliability 80%
+Thrust 11
+Production cost 23 Range 750 km
+Agility 45
+Naval Attack 1
+Max Speed 475 km/h
+Weight 6
+Fuel Usage 0.21 fuel
+
+Unlocks
+ Axial Jet Engine special project
+
+Technology:
+FOCUS Modern Small Airframe: This airframe is designed to take advantage of the great speeds offered by modern engines and solve some of the structural problems that come with flying at high sub-sonic speeds.
+Year: 1945
+Base time: 220 days
+Prerequisites: Axial Jet Engine
+ Advanced Small Airframe
+Effects:
+Enables
+Modern Small Airframe 4 aluminum 1 rubber manpower 20
+Air Defense 18
+Air Superiority 1
+Naval Targeting 1
+Reliability 80%
+Thrust 11
+Production cost 22 Range 900 km
+Agility 55
+Naval Attack 1
+Max Speed 500 km/h
+Weight 6
+Fuel Usage 0.21 fuel
+Modern Carrier Airframe 4 aluminum 1 rubber manpower 20
+Air Defense 18
+Air Superiority 1
+Naval Targeting 1
+Reliability 80%
+Thrust 11
+Production cost 26.5 Range 900 km
+Agility 50
+Naval Attack 1
+Max Speed 500 km/h
+Weight 6
+Fuel Usage 0.21 fuel
+
+## Medium Airframes
+
+FOCUS Inter-War Medium Airframe: While able to carry a significant payload over a long distance, the growth potential of this airframe is severely limited.
+1933
+220 days
+Enables
+Inter-War Medium Airframe 2 aluminum 1 rubber manpower 40
+Air Defense 15
+Air Superiority 1
+Naval Targeting 1
+Reliability 80%
+Thrust 19
+Production cost 30 Range 750 km
+Agility 25
+Naval Attack 1
+Max Speed 200 km/h
+Weight 8
+Fuel Usage 0.32 fuel
+
+Technology:
+FOCUS Basic Medium Airframe: Incorporating a number of new technologies developed recently, this airframe is significantly more capable than previous planes of similar size.
+Year: 1936
+Base time: 220 days
+Prerequisites: Inter-War Medium Airframe
+Effects:
+Enables
+Basic Medium Airframe 3 aluminum 1 rubber manpower 40
+Air Defense 18
+Air Superiority 1
+Naval Targeting 1
+Reliability 80%
+Thrust 19
+Production cost 32 Range 900 km
+Agility 30
+Naval Attack 1
+Max Speed 325 km/h
+Weight 8
+Fuel Usage 0.32 fuel
+
+Technology:
+FOCUS Improved Medium Airframe: Taking advantage of modern production technologies, this airframe allows the plane to carry a bigger payload over a longer distance.
+Year: 1940
+Base time: 220 days
+Prerequisites: Basic Medium Airframe
+Effects:
+Enables
+Improved Medium Airframe 4 aluminum 1 rubber manpower 40
+Air Defense 20
+Air Superiority 1
+Naval Targeting 1
+Reliability 80%
+Thrust 19
+Production cost 34 Range 1100 km
+Agility 35
+Naval Attack 1
+Max Speed 375 km/h
+Weight 12
+Fuel Usage 0.32 fuel
+
+Unlocks
+ Jet Engine special project
+
+Technology:
+FOCUS Advanced Medium Airframe: Engineered to maximize performance and payload, this airframe represents the pinnacle of conventionally-powered airplanes.
+Year: 1944
+Base time: 220 days
+Prerequisites: Improved Medium Airframe
+Effects:
+Enables
+Advanced Medium Airframe 5 aluminum 1 rubber manpower 40
+Air Defense 24
+Air Superiority 1
+Naval Targeting 1
+Reliability 80%
+Thrust 19
+Production cost 37 Range 1300 km
+Agility 40
+Naval Attack 1
+Max Speed 425 km/h
+Weight 14
+Fuel Usage 0.32 fuel
+
+Unlocks
+ Axial Jet Engine special project
+
+Technology:
+FOCUS Modern Medium Airframe: With jet-powered planes likely to become dominant, engineers are starting to figure out how to build airframes with jet propulsion in mind.
+Year: 1945
+Base time: 220 days
+Prerequisites: Axial Jet Engine
+ Advanced Medium Airframe
+Effects:
+Enables
+Modern Medium Airframe 5 aluminum 1 rubber manpower 40
+Air Defense 24
+Air Superiority 1
+Naval Targeting 1
+Reliability 80%
+Thrust 19
+Production cost 38 Range 1500 km
+Agility 45
+Naval Attack 1
+Max Speed 500 km/h
+Weight 16
+Fuel Usage 0.32 fuel
+
+## Large Airframes
+
+FOCUS Inter-War Large Airframe: This very large airframe has plenty of space to carry bombs or fluel tanks. However, it is clear that its development potential is severely limited. New generations of strategic bombers are already on the horizon.
+1933
+220 days
+Enables
+Inter-War Large Airframe 3 aluminum 2 rubber manpower 80
+Air Defense 20
+Air Superiority 0.01
+Naval Targeting 1
+Reliability 80%
+Thrust 32
+Production cost 64 Range 1000 km
+Agility 20
+Naval Attack 1
+Max Speed 200 km/h
+Weight 16
+Fuel Usage 0.8 fuel
+
+Technology:
+FOCUS Basic Large Airframe: This airframe was designed to test the potential of a true strategic bomber, able to attack industrial targets deep inside enemy territory, and bring its crew back alive.
+Year: 1936
+Base time: 220 days
+Prerequisites: Inter-War Large Airframe
+Effects:
+Enables
+Basic Large Airframe 3 aluminum 2 rubber manpower 80
+Air Defense 25
+Air Superiority 0.01
+Naval Targeting 1
+Reliability 80%
+Thrust 32
+Production cost 66 Range 1500 km
+Agility 25
+Naval Attack 1
+Max Speed 225 km/h
+Weight 18
+Fuel Usage 0.8 fuel
+
+Technology:
+FOCUS Improved Large Airframe: With the concept of a strategic bomber now well proven, this airframe was designed to improve payload and range, while having sufficent potential for future growth.
+Year: 1940
+Base time: 220 days
+Prerequisites: Basic Large Airframe
+Effects:
+Enables
+Improved Large Airframe 4 aluminum 2 rubber manpower 80
+Air Defense 35
+Air Superiority 0.01
+Naval Targeting 1
+Reliability 80%
+Thrust 32
+Production cost 68 Range 2000 km
+Agility 30
+Naval Attack 1
+Max Speed 300 km/h
+Weight 20
+Fuel Usage 0.8 fuel
+
+Unlocks
+ Intercontinental Bomber special project
+
+ Mothership Aircraft special project
+
+Technology:
+FOCUS Advanced Large Airframe: Optimized for very long range flying at very high altitude, this airframe is capable of carrying a sizable payload deep into the heart of enemy territory.
+Year: 1944
+Base time: 220 days
+Prerequisites: Improved Large Airframe
+Effects:
+Enables
+Advanced Large Airframe 5 aluminum 2 rubber manpower 80
+Air Defense 50
+Air Superiority 0.01
+Naval Targeting 1
+Reliability 80%
+Thrust 32
+Production cost 70 Range 3000 km
+Agility 35
+Naval Attack 1
+Max Speed 350 km/h
+Weight 22
+Fuel Usage 0.8 fuel
+
+Technology:
+FOCUS Modern Large Airframe: Jet propulsion offers a quantum leap in performance. This airframe was designed to take advantage of this.
+Year: 1945
+Base time: 220 days
+Prerequisites: Axial Jet Engine
+ Advanced Large Airframe
+Effects:
+Enables
+Modern Large Airframe 6 aluminum 2 rubber manpower 80
+Air Defense 54
+Air Superiority 0.01
+Naval Targeting 1
+Reliability 80%
+Thrust 32
+Production cost 71 Range 3600 km
+Agility 40
+Naval Attack 1
+Max Speed 400 km/h
+Weight 24
+Fuel Usage 0.8 fuel
+
+Technology:
+FOCUS Reinforced Mothership Wings: Without their mothership, the fighters are essentially stranded in the air, severely limiting their operational effectiveness. Strengthening the mothership's air wings is the most cost-effective strategy to enhance the survivability of the entire squadron.
+Year: 1942
+Base time: 192 days
+Prerequisites:
+- Mothership Aircraft
+- Improved Large Airframe
+Effects:
+Upgrades
+- Mothership Aircraft :
+ - Air Defense: +8%
+
+Technology:
+FOCUS Miniature Fighters: With smaller fighters we will be able to carry more of them into battle without sacrificing much firepower, as well as reducing the weight of the Motherships load
+Year: 1944
+Base time: 165 days
+Prerequisites: Reinforced Mothership Wings
+Effects:
+Upgrades
+- Mothership Aircraft :
+ - Air Attack: +6%
+ - Agility: +6%
+ - Fuel Usage: -8%
+
+Technology: FOCUS Aerial Hangars: Planes used to transport troops on paradrop missions.
+Year: 1946
+Base time: 192 days
+Prerequisites: Miniature Fighters
+Effects:
+Upgrades
+- Mothership Aircraft :
+ - Range: +20%
+ - Air Attack: +10%
+ - Agility: +10%
+
+# Transport Planes
+
+FOCUS Inter-War Transport Plane: Planes used to transport troops on paradrop missions.
+1933
+220 days
+Enables
+Transport 3 aluminum 2 rubber Air Supply manpower 80
+Air Defense 20
+Max Speed 400 km/h
+Fuel Usage 1.00 fuel Range 1000 km
+Agility 10
+Reliability 80%
+Production cost 38
+
+Technology:
+FOCUS Improved Transport Plane: Planes used to transport troops on paradrop missions.
+Year: 1940
+Base time: 220 days
+Prerequisites: Inter-War Transport Plane
+Effects:
+Enables
+Transport II 3 aluminum 2 rubber Air Supply manpower 80
+Air Defense 20
+Max Speed 450 km/h
+Fuel Usage 1.00 fuel Range 1300 km
+Agility 10
+Reliability 80%
+Production cost 38
+
+Technology:
+FOCUS Modern Transport Plane: Planes used to transport troops on paradrop missions.
+Year: 1945
+Base time: 220 days
+Prerequisites: Improved Transport Plane
+Effects:
+Enables
+Transport III 3 aluminum 2 rubber Air Supply manpower 80
+Air Defense 20
+Max Speed 480 km/h
+Fuel Usage 1.00 fuel Range 1800 km
+Agility 10
+Reliability 80%
+Production cost 38
+
+# Weaponry
+
+## Bomber Weapons
+
+FOCUS Bombs: Since the early days of the Great War, airplanes have been increasingly used to drop explosives onto enemy targets. Over time, this has developed more and more into a fundamental aspect of aerial warfare.
+1933
+110 days
+Enables
+Bomb Locks Mountings for small bombs under the wings or the fuselage allow the plane to attack ground targets with some hope of success. Production cost 1 Enables Mission Close Air Support
+Enables Mission Naval Strike
+Enables Mission Logistics Strike
+Small Bomb Bay A small bay to carry bombs. Being inside the fuselage reduces drag, but the structural changes necessary for it mean the plane can not do radical maneuvers in air combat. Weight 2 Production cost 3 Enables Mission Close Air Support
+Enables Mission Naval Strike
+Enables Mission Logistics Strike
+Medium Bomb Bay A mid-sized bomb bay allows carrying enough ordinace to strike a wide variety of targets. Weight 1 Production cost 6 Enables Mission Close Air Support
+Enables Mission Strategic Bombing
+Enables Mission Nuclear Strike
+Enables Mission Port Strike
+Enables Mission Logistics Strike
+Large Bomb Bay A large bay to carry enough ordinace to damage or destroy even extensive factories and other hard targets. Agility -15
+Production cost 1 Weight 2 Enables Mission Strategic Bombing
+Enables Mission Nuclear Strike
+Enables Mission Port Strike
+
+Technology:
+FOCUS Armor Piercing Bombs: Warships have steadily increased their deck armor to defeat this specialist bombs must be developed to penetrate this armor.
+Year: 1933
+Base time: 110 days
+Prerequisites: Bombs
+Effects:
+Enables
+Armor Piercing Bomb Locks Mountings for large armor piercing bombs under the wings or the fuselage allow the plane to attack Naval targets with great effect. Production cost 1 Enables Mission Close Air Support
+Enables Mission Naval Strike
+Enables Mission Logistics Strike
+
+Technology:
+FOCUS Heavy Bombs: Modern Warfare requires airplanes increasingly used larger bombs on enemy targets. Over time, this has developed more and more into a fundamental aspect of aerial warfare.
+Year: 1940
+Base time: 110 days
+Prerequisites: Bombs
+Effects:
+Enables
+Heavy Bomb Locks Mountings for large armor piercing bombs under the wings or the fuselage allow the plane to attack Naval targets with great effect. Production cost 1 Enables Mission Close Air Support
+Enables Mission Naval Strike
+Enables Mission Logistics Strike
+
+Unlocks
+ Bouncing Bomb special project
+
+ Earthshaker Bomb special project
+
+## Fighter Weapons
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Light MG: Rifle-caliber machine guns have formed the mainstay of air-to-air weaponry since the days of the Great War.
+| 1933
+| 110 days
+
+|
+Enables
+2x Light Machine Gun A set of two rifle-caliber machine guns gives a little added firepower against air targets for a very moderate cost. Air Attack +5
+Production cost 1 Weight 1 Enables Mission Air Superiority
+Enables Mission Interception
+4x Light Machine Gun What this set of four rifle-caliber lacks in destructiveness, it makes up for in sheer volume. Air Attack +10
+Production cost 2 Weight 2 Enables Mission Air Superiority
+Enables Mission Interception
+Light MG Defense Turret While somewhat underpowered for air-to-air combat, a light machine gun in a turret will make any attack against this plane a more dangerous undertaking. Air Defense +1
+Max Speed -3%
+Production cost 1 Air Attack +1
+Weight 1
+Light MG Defense Turret 2x A set of two light machine guns in electrically-powered turrets cover more angles and make the plane a much harder target to attack. Air Defense +2
+Max Speed -6%
+Production cost 2 Air Attack +1.5
+Weight 2
+|-
+| FOCUS Survivability Studies: By carefully analyzing the battle damage on returning planes, we can accurately determine which parts of a plane are really vital.
+| 1939
+| 110 days
+| Light MG
+|
+Enables
+Self Sealing Fuel Tanks +1 rubber By adding a layer of specially-treated rubber around the fuel tanks, a hit to the fuel tank does not cripple an airplane as the tank will seal itself over time, preventing loss of fuel. Air Defense +6
+Production cost 1 Weight 1
+Self Sealing Fuel Tanks +2 rubber By adding a layer of specially-treated rubber around the fuel tanks, a hit to the fuel tank does not cripple an airplane as the tank will seal itself over time, preventing loss of fuel. Air Defense +8
+Production cost 1.5 Weight 1
+Self Sealing Fuel Tanks +2 rubber By adding a layer of specially-treated rubber around the fuel tanks, a hit to the fuel tank does not cripple an airplane as the tank will seal itself over time, preventing loss of fuel. Air Defense +10
+Production cost 2 Weight 1
+Armor Plates Steel plating behind the pilot seat and around the engine give the plane increased survivability against ground fire and attacks from behind. Range -10%
+Weight 2 Air Defense +4
+Production cost 1
+Armor Plates Armor around the engines and the more fragile parts of the fuselage gives the plane significantly better survivability, at the cost of range. Range -10%
+Weight 6 Air Defense +6
+Production cost 3
+Armor Plates Extensive steel plating protects the engines, fuel tanks, and the crew compartment to allow the plane to shrug off anything but a direct hit from anti-aircraft fire, as well as making it a very tough target for fighters to shoot down. Range -10%
+Weight 9 Air Defense +8
+Production cost 5
+|-
+| FOCUS Heavy MG: Modern planes are capable of withstanding significantly more punishment than older models, while also offering fewer opportunities to score hits. Each hit must therefore do the maximum amount of damage, requiring a bigger cartridge.
+| 1939
+| 110 days
+| Light MG
+|
+Enables
+2x Heavy Machine Gun A pair of heavy machine guns allows penetrating the toughened outer skin of modern airplanes. Air Attack +9
+Production cost 1.5 Weight 2.5 Enables Mission Air Superiority
+Enables Mission Interception
+4x Heavy Machine Gun A quartet of heavy machineguns offers terrifying firepower, both in individual performance and in sheer volume of fire. Air Attack +18
+Production cost 5 Weight 3 Enables Mission Air Superiority
+Enables Mission Interception
+Heavy MG Defense Turret A heavy machine gun in a rotating turret allows the defender to fight back against a fighter armed with similar weapons with some hope of success. Air Defense +2
+Max Speed -3.5%
+Production cost 2 Air Attack +1.5
+Weight 2
+Heavy MG Defense Turret 2x A set of two powered turrets with heavy machine guns present any attacking fighter with a dangerous target. Air Defense +4
+Max Speed -7%
+Production cost 4 Air Attack +3
+Weight 4
+|-
+| FOCUS Cannons I: A cannon shell can punch through even the toughest airplane, while potentially carrying enough explosives to do crippling damage when it hits.
+| 1939
+| 110 days
+| Light MG
+|
+Enables
+1x Cannon I An automatic cannon offers a significant amount of firepower against air targets, but the added weight makes the plane both slower and less maneuverable. Air Attack +10
+Weight 3 Agility -1
+Production cost 2.5 Enables Mission Air Superiority
+Enables Mission Interception
+2x Cannon I Two automatic cannons give a plane a fearsome forward-firing armament against air and soft ground targets, at considerable cost in weight and agility. Air Attack +20
+Weight 6 Agility -2
+Production cost 5 Enables Mission Air Superiority
+Enables Mission Interception
+|-
+| FOCUS Large Cannons: With a higher caliber and a bigger shell, these cannons can bring down even large planes in a single hit.
+| 1943
+| 165 days
+| Cannons I
+|
+Enables
+1x Large Cannon Firing a larger and more powerful shell than previous iterations of autocannons but at slower velocities, this weapon can bring down even a large airframe in a single hit. Air Attack +12
+Weight 4 Agility -2
+Production cost 3 Enables Mission Air Superiority
+Enables Mission Interception
+2x Large Cannon Twin cannons give a plane a significant amount of punch, while the increased volume of fire makes scoring crippling hits even easier. Air Attack +24
+Weight 8 Agility -4
+Production cost 6 Enables Mission Air Superiority
+Enables Mission Interception
+Cannon Defense Turret A modern cannon in a traversable turret significantly alters the balance of power between the defender and the attacker in air combat. Few fighters can withstand a direct hit from a modern cannon and continue to fight. Air Defense +4
+Max Speed -3.7%
+Production cost 4 Air Attack +3
+Weight 4
+Cannon Defense Turret 2x Two turrets armed with automatic cannons give the plane a fearsome defensive punch that would make any fighter attack on it a very dangerous prospect indeed. Air Defense +8
+Max Speed -7.5%
+Production cost 8 Air Attack +6
+Weight 8
+|-
+| FOCUS Cannons II: With A modern cannon firing a large shell at high velocity, we can bring down even the toughest aircraft.
+| 1945
+| 220 days
+| Cannons I
+|
+Enables
+1x Cannon II A modern cannon firing a large shell at high velocity, this weapon can bring down even fighters and strategic bombers all the same. Air Attack +12
+Weight 3 Agility -0.5
+Production cost 3 Enables Mission Air Superiority
+Enables Mission Interception
+2x Cannon II Twin cannons give a plane a significant amount of punch, while the increased volume of fire makes scoring crippling hits even easier. Air Attack +24
+Weight 6 Agility -1
+Production cost 6 Enables Mission Air Superiority
+Enables Mission Interception
+Cannon Defense Turret A modern cannon in a traversable turret significantly alters the balance of power between the defender and the attacker in air combat. Few fighters can withstand a direct hit from a modern cannon and continue to fight. Air Defense +4
+Max Speed -3.7%
+Production cost 4 Air Attack +3
+Weight 4
+Cannon Defense Turret 2x Two turrets armed with automatic cannons give the plane a fearsome defensive punch that would make any fighter attack on it a very dangerous prospect indeed. Air Defense +8
+Max Speed -7.5%
+Production cost 8 Air Attack +6
+Weight 8
+|}
+
+## Recon Equipment
+ La Résistance
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Photo Reconnaissance: The first clear military purpose of the aeroplane was to find the enemy and report their location to the Generals on the ground. This still remains one of the most common tasks of military aviation.
+| 1933
+| 110 days
+
+|
+Enables
+Recon Camera A set of cameras with special lenses, allowing the plane to take accurate pictures of enemy formations and installations even from high altitude. Weight 1 Production cost 1 Enables Mission Air Recon
+|}
+
+## Torpedoes
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Air Launched Torpedoes: Lightweight torpedoes can be carried by any capable aircraft in order to extend our ability to strike at sea.
+| 1933
+| 110 days
+
+|
+Enables
+Light Torpedo Mountings Hardpoints to allow a lightweight torpedo to be mounted under the fuselage. This gives the plane a potent weapon to use against enemy ships. Production cost 4 Enables Mission Naval Strike
+Enables Mission Port Strike
+Enables Mission Naval Patrol
+|-
+| FOCUS Improved Air Launched Torpedoes: Standardized mounts and ratings allow the development of larger, more powerful torpedoes as well as increasing their general utility.
+| 1940
+| 110 days
+| Air Launched Torpedoes
+|
+Enables
+Medium Torpedo Mountings Hardpoints to allow a Medium weight torpedo to be mounted under the fuselage. This gives the plane a potent weapon to use against enemy ships. Production cost 4 Enables Mission Naval Strike
+Enables Mission Port Strike
+Enables Mission Naval Patrol
+|-
+| FOCUS Advanced Air Launched Torpedoes: The development of lightweight fittings designed to be shed upon entering the water gives aerial torpedos significantly greater accuracy as well as enhanced safety for the aircraft performing a drop.
+| 1944
+| 110 days
+| Improved Air Launched Torpedoes
+|
+Enables
+Heavy Torpedo Mountings Hardpoints to allow a heavy weight torpedo to be mounted under the fuselage. This gives the plane a potent weapon to use against enemy ships. Production cost 4 Enables Mission Naval Strike
+Enables Mission Port Strike
+Enables Mission Naval Patrol
+|}
+
+# Engines
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Engines I: Airplane engines must be powerful, but lightweight and reliable. This engine type provides enough power to get a plane in the air, but somewhat limits it from reaching its full potential.
+| 1933
+| 110 days
+
+|
+Enables
+1x Engine I This basic engine is reliable and cheap, but not particularly powerful. Thrust 11
+Production cost 12 Fuel Usage 0.16 fuel
+2x Engine I Twin engines give the plane a significant increase in thrust, but at a cost. Thrust 19
+Production cost 24 Fuel Usage 0.32 fuel
+3x Engine I Three engines give more thrust than a pair of them, without the additional cost of a fourth engine. Thrust 23
+Production cost 36 Fuel Usage 0.48 fuel
+4x Engine I A quartet of engines provides enough thrust to lift a heavy plane and allow it to carry a significant payload. Thrust 32
+Production cost 48 Fuel Usage 0.64 fuel
+6x Engine I With six engines, any plane can be made to carry a significant payload over a long range, at a decent speed. Thrust 41
+Production cost 68 Fuel Usage 0.80 fuel
+|-
+| FOCUS Aircraft Construction: We have come a long way since the days of plywood and fabric in aircraft manufacture. New technologies allow for planes that are better suited for specific roles.
+| 1933
+| 110 days
+| Engines I
+|
+Enables
+Dive Brakes A set of spoilers along the trailing edge of the wing deploy when the plane enters a dive, reducing overall speed and allowing the plane to pull out of steep dives without ripping its wings off. This, in turn, allows the plane to attack from a near-vertical dive, drastically increasing accuracy. Weight 2 Production cost 2
+Non-Strategic Material Usage By substituting specially-treated wood or fabric for aluminum wherever possible, we can drastically reduce the usage of strategic materials. However, wood and fabric don't stand up very well to modern weapons. -2 aluminum Air Defense -6 Production cost -7.5%
+Floats A seat of floatation devices mounted under the airframe allows the plane to land on water. This makes scouting missions for enemy naval assets easier, but also drastically reduces agility. Surface Detection +5
+Agility -5
+Weight 1 Sub Detection +3
+Max Speed -30%
+Production cost 1
+Non-Strategic Material Usage By substituting specially-treated wood or fabric for aluminum wherever possible, we can drastically reduce the usage of strategic materials. However, wood and fabric don't stand up very well to modern weapons. -2 aluminum Air Defense -8 Production cost -7.5%
+Flying Boat Instead of mounting a landing gear, the underside of the plane can be shaped to be able to land on water. this makes scouting missions over water much easier. Surface Detection +8
+Max Speed -40% Sub Detection +3
+Production cost 4
+Non-Strategic Material Usage By substituting specially-treated wood or fabric for aluminum wherever possible, we can drastically reduce the usage of strategic materials. However, wood and fabric don't stand up very well to modern weapons. -3 aluminum Air Defense -10 Production cost -7.5%
+Flying Boat Instead of mounting a landing gear, the underside of the plane can be shaped to be able to land on water. this makes scouting missions over water much easier. Surface Detection +12
+Max Speed -40% Sub Detection +5
+Production cost 4
+|-
+| FOCUS Range Improvements: While it seems obvious that adding more fuel capacity will increase the range of an airplane, actually adding that capacity to a plane without impacting flight performance too much is far from trivial.
+| 1936
+| 110 days
+| Engines I
+|
+Enables
+Extra Fuel Tanks Devoting more internal space of the airframe for fuel increases the plane's range, but it also makes the plane a lot more flammable. Range +50%
+Weight 2 Air Defense -2
+Production cost 1
+Extra Fuel Tanks Devoting more internal space of the airframe for fuel increases the plane's range, but it also makes the plane a lot more flammable. Range +50%
+Weight 5 Air Defense -6
+Production cost 2
+Extra Fuel Tanks Devoting more internal space of the airframe for fuel increases the plane's range, but it also makes the plane a lot more flammable. Range +50%
+Weight 8 Air Defense -8
+Production cost 4
+Drop Tanks Small, disposable tanks that hold extra fuel give our fighters some extra range when on offensive missions. Since they are dropped before combat, they don't impede combat performance. Range +25%
+Production cost 1 Weight 3
+|-
+| FOCUS Engines II: The rapid growth of airplanes requires a corresponding growth of engine power.
+| 1936
+| 110 days
+| Engines I
+|
+Enables
+1x Engine II A larger and more powerful engine allows for higher speed and greater payload. Max Speed +20%
+Fuel Usage 0.16 fuel Thrust 16
+Production cost 14
+2x Engine II Twin engines give the plane a significant increase in thrust, but at a cost. Max Speed +20%
+Fuel Usage 0.32 fuel Thrust 25
+Production cost 28
+3x Engine II Three engines give more thrust than a pair of them, without the additional cost of a fourth engine. Max Speed +20%
+Fuel Usage 0.48 fuel Thrust 32
+Production cost 42
+4x Engine II A quartet of engines provides enough thrust to lift a heavy plane and allow it to carry a significant payload. Max Speed +20%
+Fuel Usage 0.64 fuel Thrust 40
+Production cost 56
+6x Engine II With six engines, any plane can be made to carry a significant payload over a long range, at a decent speed. Max Speed +20%
+Fuel Usage 0.80 fuel Thrust 56
+Production cost 80
+
+Unlocks
+ Jet Engine special project
+|-
+| FOCUS Engines III: Incorporating advanced features such as methanol-injection and automatic mixture, this engine is able to put out significantly more power.
+| 1940
+| 165 days
+| Engines II
+|
+Enables
+1x Engine III Incorporating advanced features such as methanol-injection and automatic mixture, this engine is able to put out significantly more power. Max Speed +30%
+Fuel Usage 0.16 fuel Thrust 25
+Production cost 16
+2x Engine III Twin engines give the plane a significant increase in thrust, but at a cost. Max Speed +30%
+Fuel Usage 0.32 fuel Thrust 38
+Production cost 32
+3x Engine III Three engines give more thrust than a pair of them, without the additional cost of a fourth engine. Max Speed +30%
+Fuel Usage 0.48 fuel Thrust 51
+Production cost 48
+4x Engine III A quartet of engines provides enough thrust to lift a heavy plane and allow it to carry a significant payload. Max Speed +30%
+Fuel Usage 0.64 fuel Thrust 64
+Production cost 64
+6x Engine III With six engines, any plane can be made to carry a significant payload over a long range, at a decent speed. Max Speed +30%
+Fuel Usage 0.80 fuel Thrust 90
+Production cost 92
+
+Unlocks
+ Axial Jet Engine special project
+|-
+| FOCUS Engines IV: With extensive engineering to capitalize on every possible performance boost, this engine represents the absolute pinnacle of piston-driven engine technology.
+| 1944
+| 220 days
+| Engines III
+|
+Enables
+1x Engine IV With extensive engineering to capitalize on every possible performance boost, this engine represents the absolute pinnacle of piston-driven engine technology. Max Speed +45%
+Fuel Usage 0.16 fuel Thrust 30
+Production cost 18
+2x Engine IV Twin engines give the plane a significant increase in thrust, but at a cost. Max Speed +45%
+Fuel Usage 0.32 fuel Thrust 45
+Production cost 36
+3x Engine IV Three engines give more thrust than a pair of them, without the additional cost of a fourth engine. Max Speed +45%
+Fuel Usage 0.48 fuel Thrust 60
+Production cost 54
+4x Engine IV A quartet of engines provides enough thrust to lift a heavy plane and allow it to carry a significant payload. Max Speed +45%
+Fuel Usage 0.64 fuel Thrust 75
+Production cost 72
+6x Engine IV With six engines, any plane can be made to carry a significant payload over a long range, at a decent speed. Max Speed +45%
+Fuel Usage 0.80 fuel Thrust 105
+Production cost 108
+|-
+| FOCUS Centrifugal Jet: Centrifugal jets use a single stage compressor to compress the intake air, before blasting it out to create thrust. This results in smaller, more easily maintained engines.
+| 1945
+| 220 days
+| * Götterdämmerung
+- Jet Engine
+- Engine IV
+|
+Upgrades
+- helicopter:
+ - Defense: +5%
+ - Breakthrough: +5%
+ - Max Speed: +10%
+ - Fuel Usage: -5%
+|}
+
+# Secret Techs [verified for 1.16]
+
+These techs are only available for certain countries under the appropriate conditions.
+
+{| class="wikitable"
+|-
+! Technology
+! Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| suicide_charge
+|Can unlock this tech:
+- Japan via Strengthen the Divine Wind( no ncns ) or Rocket development( ncns ) with By Blood Alone
+|
+Enables
+Fixed Explosive Charge A fixed hollow charge turns the plane into a flying bomb. If the plane is steered into an enemy ship, it would cause dramatic destruction, but at the cost of the plane and the crew both being lost. Agility -5
+Production cost 4 Air Defense -10 Enables Mission Kamikaze Strike
+|}

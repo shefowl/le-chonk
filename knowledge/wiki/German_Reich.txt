@@ -1,0 +1,2939 @@
+TITLE: German Reich
+URL: https://hoi4.paradoxwikis.com/German_Reich
+REVISION: 2026-03-22T12:42:09Z (rev 99074)
+VERIFIED FOR: 1.9
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+The German Reich (or Germany for short) is a major power in Central Europe with a population of 65.6 M. Germany has a rapidly growing military industry and army and is surrounded by countries which soon may find themselves conquered. It borders Denmark to the north, Poland and Czechoslovakia to the east, and Austria and Switzerland to the south. To the west lies France, Luxembourg, Belgium and the Netherlands.
+
+Germany is in many ways "the star of the show" in Hearts of Iron IV, with both historical and technical precedence, as it acts as the primary driving force of many early-game events in historical playthroughs and is also usually the instigator of World War II, with many of the in-game events and focus trees tailored to bring about a conflict roughly comparable to the real-life counterpart. That being said, the player can freely change the course of events and either change the course of Germany's path or steal the spotlight as another country.
+
+# Historical background
+After the collapse of the German Empire in the November Revolution of 1918/19 after WW1 the Weimar Republic was proclaimed, named after the German city where its constitutional convention was held. The troubled Weimar Republic would exist until 1933 when the NSDAP seized power and transformed the country into a fascist dictatorship led by Adolf Hitler. By 1936 the NSDAP had cemented its power, having purged most of the opposition, and thus could focus on preparing for the next war.
+
+Germany was the primary Axis Power in the European Theatre. Historically, the German Reich precipitated the Second World War by attacking Poland on 1 September 1939, and would go on to establish a brief but notorious hegemony over continental Europe after conquering France in 20 June 1940. The German Reich will later go on to invade the Soviet Union in 22 June 1941. The German Reich closed down the European Theatre of the Second World War through its surrender and fall between 4 May and 9 May 1945.
+
+# Events
+(Main article: German events, German events WtT, German events MtG, German events GD, SS recruitment events)
+
+# Decisions
+(Main article: German decisions, SS recruitment decisions)
+
+# National focus
+
+(Main article: German national focus tree)
+German Reich, as one of the seven major powers, has a unique national focus tree.
+branches desc
+
+# National spirits
+German Reich starts with the following national spirits:
+
+Spirit Bitter Loser: Bitterness over defeat in the Great War dominates the politics of this nation.
+- Ideology drift defense: +50%
+- Can create factions
+
+Spirit MEFO Bills: MEFO bills were promissory notes created by Hjalmar Schacht to enable the government to fund rearmament, acting through the balance sheet entity Metallurgische Forschungsgesellschaft to hide this rearmament from French and British eyes. These bills must be extended for six-month periods, or their recipients will have to be paid when they fall due.
+- Consumer Goods Factories factor will increase by 3.0% each month up to 100.0%. The monthly increase will be higher based on the amount of non-core states controlled by German Reich. If Consumer Goods Factories factor reaches 100.0% additional penalties will be applied.
+
+- Consumer Goods Factories: 10.0%
+- Civilian Intelligence to others: -25.0%
+- Army Intelligence to others: -25.0%
+- Navy Intelligence to others: -25.0%
+- Airforce Intelligence to others: -25.0%
+- Military factory construction speed: +10.00%
+- Naval dockyard construction speed: +10.00%
+
+Spirit Deutsches Heer: The German Reich has a long and proud military history with a tradition of innovative thinking. The General Staff has sought to improve our armed forces even further since the humiliating defeat in the Great War. Armed with this expertise, our army is poised to strike against any foe who wishes to subjugate our proud people.
+- Division Organization: +5.0%
+- Supply Consumption: +15%
+- Planning Speed: +25.0%
+
+Spirit Kriegsmarine: Through modernization and bold strategy, we challenge the oceans, striking fear into our enemies. Our mighty Battleships will rule over the waves and our U-boats will rule under them.
+- Screening bonus when using only capital ships: +10.0%
+- Naval Defense: -10.00%
+
+Spirit Luftwaffe: With unmatched skill and technical prowess, the Luftwaffe is poised to dominate the skies and project our might to any foes foolish enough to challenge us. With cutting-edge aircraft and expertly trained pilots, our Airforce stands ready to set the skies on fire, destroy any army, and sink every navy that opposes us.
+- Air manpower requirement: +10.00%
+- Air Accidents Chance: +10.0%
+
+# Technology [verified for 1.17]
+
+## Research
+German Reich begins with 4 research slots available; 1 more can be unlocked through the national focus tree.
+
+- Infantry Equipment I (36)
+- Improved Infantry Equipment I (39)
+- Infantry Equipment II (39)
+- Support Weapons II (39)
+- Truck
+- Inter-War Armored Car La Résistance
+- Paratroopers I (39)
+- Mountain Infantry I
+----
+- Engineer Company I
+- Recon Company I
+- Civilian Train
+----
+- Towed Artillery
+- Towed Anti-Air
+- Inter-War Artillery (39)
+- Towed Anti-Tank (39)
+----
+- Improved Light Tank
+- Basic Medium Tank (39)
+- Basic Heavy Tank
+- Basic Engine
+----
+Armor without No Step Back :
+- Light Tank II
+- Medium Tank I (39)
+- Heavy Tank I * Basic Destroyer
+- Basic Depth Charges
+- Passive Sonar
+- Basic Cruiser (36)
+- Improved Cruiser (39)
+- Basic Cruiser Armor Scheme (36)
+- Inclined Belt Armor Scheme (39)
+- Basic Heavy Ship
+- Basic Carrier (39)
+- Basic Submarine
+- Panzerschiff
+- Pre-Dreadnought
+- Midget Submarine (39)
+----
+- Basic Light Battery
+- Basic Heavy Battery (36)
+- Improved Heavy Battery (39)
+- Improved Ship Torpedo Launcher
+- Transport Ship
+- Contact Mine
+- Minelaying Submarine * Basic Small Airframe
+- Basic Medium Airframe
+- Inter-War Large Airframe
+- Inter-War Transport Plane
+- Bombs
+- Light MG
+- Cannons I
+- Photo Reconnaissance
+- Air Launched Torpedoes
+- Aircraft Construction
+- Engines II
+----
+Without By Blood Alone :
+- Fighter I
+- Close Air Support I (36)
+- Close Air Support II (39)
+- Naval Bomber I
+- Heavy Fighter I (39)
+- Tactical Bomber I
+- Strategic Bomber I
+- Inter-War Transport Plane * Advanced Machine Tools (39)
+- Dispersed Industry IV (39)
+- Construction IV (39)
+- Fuel Storage
+- Synthetic Oil Experiments
+- Oil Processing (39)
+- Fuel Refining I (36)
+- Fuel Refining II (39)
+---- (39)
+- Radio (39)
+- Cavity Magnatron (39)
+- Computing Machine (39)
+- Basic Fortification (39)
+---- (39)
+Without La Résistance : (39)
+- Encryption - Polyalphabetical Ciphers (39)
+- Decryption - Frequency Analysis (39) * Mobile Warfare
+ - Mobile Infantry ( mastery : 200) (39)
+ - Mobile Recon & Assault ( mastery : 150) (39)
+ - Mission Type Tactics ( mastery : 100) (39) * Trade Interdiction * Battlefield Support
+ - Airspace Dominance ( mastery : 100) (39)
+ - Pinpoint Strikes ( mastery : 50) (39)
+
+## Cosmetic names
+German Reich has a number of unique names for various technologies and equipment, listed here. Note that generic names are not listed.
+
+Type: Support Weapons
+1918: MG 08 & leichter Minenwerfer
+1938: MG 34 & 5 cm Granatwerfer 36
+1940: MG 42 & 8 cm Granatwerfer 34
+1942: MG 45 & 12 cm Granatwerfer 42
+
+Type: Infantry Equipment
+1918: Gewehr 98
+1936: Karabiner 98k
+1939: MP 38
+1942: MP 43
+
+Type: Infantry Anti-Tank
+1942: Panzerfaust 30
+1943: Panzerschreck
+
+Type: Motorized
+1936: Opel Blitz
+
+Type: Mechanized
+1940: Sd.Kfz. 11
+1942: Sd.Kfz. 251
+1944: Sd.Kfz. 251/20
+
+Type: Amphibious Tractors
+1941: LWS
+1943: LWS II
+
+Type: Armored Car La Résistance
+1936: Sdkfz 222
+1940: Sdkfz 231
+1942: Puma
+
+Tech year: 1918
+Light (TD/SPG/AA): Leichttraktor
+
+Tech year: 1934
+Light (TD/SPG/AA): Panzer I (Marder II / Bison / FlakPz I)
+Heavy (TD/SPG/AA): Grosstraktor (Sturer Emil / NA / NA)
+
+Tech year: 1936
+Light (TD/SPG/AA): Panzer II (Marder III / Wespe / FlakPz Luchs)
+
+Tech year: 1938
+Amphibious: Schwimmpanzer II
+Medium (TD/SPG/AA): Panzer III (StuG III / Grille / Möbelwagen)
+
+Tech year: 1940
+Medium (TD/SPG/AA): Panzer IV (JagdPz IV / Hummel / Ostwind)
+Heavy (TD/SPG/AA): Tiger (Elefant / Sturmtiger / NA)
+
+Tech year: 1941
+Light (TD/SPG/AA): Leopard (JagdLeopard / WT Leopard / FlakPz 1602)
+Super-Heavy (TD/SPG/AA): Maus (Jagdmaus / GW E-100 / FlakMaus)
+
+Tech year: 1943
+Medium (TD/SPG/AA): Panther (Jagdpanther / Brummbär / Wirbelwind)
+Heavy (TD/SPG/AA): King Tiger (Jagdtiger / GW Tiger / NA)
+
+Tech year: 1945
+Modern (TD/SPG/AA): E-50 (E-25 / NA / Kugelblitz)
+
+Note: Without No Step Back, Medium Tank I and II are unlocked one year later. Amphibious tanks are then unlocked in 1940 and 1942, the second one is called Tauchpanzer III.
+
+Tech year: 1934
+Artillery: 10,5-cm LeFH 18
+
+Tech year: 1936
+Anti-Air: 2 cm FlaK 30
+Anti-Tank: 3,7 cm PaK 36
+
+Tech year: 1939
+Artillery: 15-cm sFH 18
+
+Tech year: 1940
+Anti-Air: 2 cm Flakvierling 38
+Rocket Artillery: Nebelwerfer 41
+Anti-Tank: 7,5 cm PaK 40
+
+Tech year: 1942
+Artillery: 15-cm Kanone 18
+
+Tech year: 1943
+Anti-Air: 8.8 cm FlaK 41
+Rocket Artillery: 21 cm Nebelwerfer 42
+Anti-Tank: 12,8 cm PaK 44
+
+1933
+He 51
+Do 23
+NA
+Ju 24
+
+1936
+Ju 87 (Ju 87 C 'Stuka')
+Bf 109 (Ar 197)
+Do 22 (Fi 167)
+Bf 110
+He 111
+Do 19
+Hs. 126
+
+1940
+Ju 87 G 'Kanonenvogel' (Ju 88 C)
+Fw 190 (Bf 109 T)
+Ar 196 (Ar 195)
+Me 410 'Hornisse'
+Ju 88 A
+He 177 'Greif'
+Fw 189
+Ju 52
+
+1944
+Hs-129 (Ju 187 C)
+Ta 152 (BV 155)
+Fw 300 (Ar 215)
+Ju 388
+Ju 188
+Ta 400
+Ju 352
+
+1945
+Me 262 'Schwalbe'
+Hs 132
+
+1950
+He 162
+Ar 234 'Blitz'
+H.XVIII
+
+# Geography [verified for 1.16]
+
+In 1936, the German Reich is one of the largest countries in Europe, spanning parts of both Western and Central Europe from the Rhine to Silesia, and from the North and Baltic Seas to the Alps. Clockwise from the north, Germany borders Denmark, Poland, Czechoslovakia, Austria, Switzerland, France, Luxembourg, Belgium and the Netherlands. Additionally, the exclave of East Prussia runs from the Baltic Sea to the north to Lithuania to the northeast and has Poland to the east, south, and west.
+The border states of Rhineland and Moselland are demilitarised in 1936, and the German Reich cannot move forces into the area until it completes the Rhineland national focus, or if it gets involved in a war before doing the Rhineland national focus.
+
+The coastline consists mostly of flat, arable land and the East Frisian marshes, which together form part of the North European Plain. Much of the German interior is heavily forested, most prominent being the Black Forest region near the Alsatian border. Foothills dominate the Czechoslovakian border. The southern border with Switzerland and Austria is somewhat mountainous, although very little Alpine territory actually resides within prewar German borders; Lake Constance (the Bodensee) forms part of this southern border with Switzerland and Austria. The Rhine and Danube rivers both run partially through Germany towards the North Sea and the Black Sea respectively, whilst the Elbe, Oder, and Weser all run to the German coastline and the major ports of Hamburg, Stettin, and Bremen. The Kiel Canal traverses the German state of Schleswig-Holstein to connect the North and Baltic seas, allowing German and allied vessels to bypass the Danish straits.
+
+There are many large urban areas in Germany, and most German states host at least one major city. The capital, Berlin, and the regional hubs Frankfurt and Munich are the most important cities from a strategic point of view, and the large Rhine-Ruhr conurbation in the northwest is also a vital, highly industrialized region. Germany's largest naval bases are situated at Wilhelmshaven and Kiel, and the nation has a generally high infrastructure level, even by European standards.
+
+German Reich owns 24 states.
+
+State: Baden
+Cities: Baden-Baden
+Freiburg
+Karlsruhe
+Konstanz
+Müllheim
+vp: 0
+1
+10
+0
+1
+Terrain (# prov): Forest (2)
+ Hills (4)
+ Mountain (1)
+Region: Dense Urban Region
+population: 2,056,854
+
+State: Brandenburg
+Cities: Berlin
+Brandenburg
+Magdeburg
+Potsdam
+Seelow
+Wittenberg
+vp: 50
+0
+5
+0
+1
+0
+Terrain (# prov): Forest (10)
+ Plains (4)
+ Urban (2)
+Region: Megalopolis Region
+population: 7,265,029
+
+State: Ermland-Masuren
+Cities: Allenstein
+Lyck
+vp: 3
+0
+Terrain (# prov): Forest (7)
+ Plains (4)
+Region: Developed Rural Region
+population: 1,238,108
+
+State: Franken
+Cities: Coburg
+Nürnberg
+Würzburg
+vp: 2
+10
+2
+Terrain (# prov): Forest (5)
+ Hills (3)
+ Plains (3)
+ Urban (1)
+Region: Urban Region
+population: 2,508,159
+
+State: Hannover
+Cities: Braunschweig
+Bremen
+Buxtehude
+Cuxhaven
+Hannover
+Lüneburg
+vp: 0
+5
+0
+2
+10
+1
+Terrain (# prov): Forest (8)
+ Hills (2)
+ Marsh (1)
+ Plains (5)
+ Urban (2)
+Region: Dense Urban Region
+population: 2,438,286
+
+State: Hessen
+Cities: Darmstadt
+Edersee Dam
+Frankfurt
+Kassel
+Mainz
+Wiesbaden
+vp: 0
+0
+20
+3
+2
+2
+Terrain (# prov): Forest (10)
+ Hills (1)
+ Plains (2)
+ Urban (1)
+Region: Dense Urban Region
+population: 3,798,235
+
+State: Hinterpommern
+Cities: Köslin
+Stettin
+Stolp
+vp: 3
+5
+0
+Terrain (# prov): Forest (8)
+ Plains (5)
+ Urban (1)
+Region: Developed Rural Region
+population: 1,124,417
+
+State: Holstein
+Cities: Hamburg
+Heide
+Kiel
+vp: 20
+0
+10
+Terrain (# prov): Marsh (1)
+ Plains (3)
+ Urban (2)
+Region: Dense Urban Region
+population: 3,095,630
+
+State: Königsberg
+Cities: Königsberg
+vp: 10
+Terrain (# prov): Forest (1)
+ Plains (4)
+ Urban (1)
+Region: Urban Region
+population: 2,140,234
+
+State: Lower Silesia
+Cities: Breslau
+Liegnitz
+Waldenburg
+vp: 10
+1
+0
+Terrain (# prov): Forest (4)
+ Hills (4)
+ Plains (3)
+ Urban (1)
+Region: Dense Urban Region
+population: 3,052,726
+
+State: Mecklenburg
+Cities: Lübeck
+Rostock
+Schwerin
+vp: 3
+5
+0
+Terrain (# prov): Forest (2)
+ Plains (4)
+Region: Developed Rural Region
+population: 836,353
+
+State: Moselland
+Cities: Bitburg
+Koblenz
+Saarbrücken
+Trier
+vp: 1
+0
+5
+3
+Terrain (# prov): Forest (6)
+ Hills (1)
+ Plains (2)
+Region: Metropolis Region
+population: 3,027,739
+
+State: Niederbayern
+Cities: Regensburg
+vp: 3
+Terrain (# prov): Forest (6)
+ Hills (1)
+ Plains (3)
+Region: Urban Region
+population: 1,453,365
+
+State: Oberbayern
+Cities: Augsburg
+München
+Rosenheim
+vp: 3
+20
+0
+Terrain (# prov): Forest (4)
+ Mountain (4)
+ Plains (3)
+ Urban (1)
+Region: Urban Region
+population: 2,679,413
+
+State: Ostmark
+Cities: Küstrin
+vp: 1
+Terrain (# prov): Forest (7)
+Region: Urban Region
+population: 1,250,840
+
+State: Rhineland
+Cities: Aachen
+Bonn
+Düsseldorf
+Essen
+Köln
+vp: 0
+0
+0
+10
+5
+Terrain (# prov): Forest (4)
+ Plains (3)
+ Urban (2)
+Region: Megalopolis Region
+population: 6,144,743
+
+State: Sachsen
+Cities: Chemnitz
+Dresden
+Leipzig
+vp: 2
+5
+5
+Terrain (# prov): Forest (3)
+ Hills (5)
+ Plains (1)
+ Urban (2)
+Region: Metropolis Region
+population: 5,592,576
+
+State: Schleswig
+Cities: Flensburg
+Niebüll
+vp: 3
+0
+Terrain (# prov): Plains (3)
+Region: Rural Region
+population: 152,520
+
+State: Thüringen
+Cities: Erfurt
+Halle
+Jena
+Weimar
+vp: 5
+0
+2
+1
+Terrain (# prov): Forest (3)
+ Hills (2)
+ Plains (4)
+Region: Dense Urban Region
+population: 3,005,214
+
+State: Upper Silesia
+Cities: Gleiwitz
+Oppeln
+vp: 5
+3
+Terrain (# prov): Forest (1)
+ Plains (3)
+ Urban (1)
+Region: Urban Region
+population: 1,402,591
+
+State: Vorpommern
+Cities: Greifswald
+Neustrelitz
+Rügen
+Stralsund
+vp: 0
+1
+0
+1
+Terrain (# prov): Forest (3)
+ Plains (4)
+Region: Developed Rural Region
+population: 1,006,221
+
+State: Weser-Ems
+Cities: Emden
+Münster
+Oldenburg
+Osnabrück
+Wilhelmshaven
+vp: 1
+5
+0
+0
+5
+Terrain (# prov): Marsh (2)
+ Plains (8)
+Region: Urban Region
+population: 2,058,467
+
+State: Westfalen
+Cities: Bielefeld
+Dortmund
+Hamm
+Möhne Reservoir
+vp: 0
+5
+0
+0
+Terrain (# prov): Forest (2)
+ Plains (7)
+ Urban (1)
+Region: Dense Urban Region
+population: 5,109,333
+
+State: Württemberg
+Cities: Stuttgart
+Ulm
+vp: 20
+3
+Terrain (# prov): Forest (4)
+ Hills (5)
+ Lake (1)
+ Plains (1)
+ Urban (1)
+Region: Dense Urban Region
+population: 3,076,854
+
+# Politics
+German Reich starts with 75% stability and 30% war support base. These are increased to 81% stability and 35% war support after modifiers.
+
+## Ideology [verified for 1.9]
+
+ Fascism Nationalsozialistische Deutsche Arbeiterpartei (Fascist)
+- no Can force government of another country to adopt the same ideology.
+- yes Can send volunteer forces
+- Justify war goal time when at war with a major: -80%
+
+## Political parties [verified for 1.17]
+
+Germany's starting political parties.
+
+{| class="wikitable" style="float:left; width:49em; margin:10px; margin-left:0"
+|+ Political parties, 1936 & 1939
+! Id. !! style="width:22.3em;" | Party name !! style="width:1em;" | Popularity !! style="width:11.9em;" | Leader !! style="width:1em;" | Ruling
+|-
+! style="text-align: center;" | Democracy
+! Deutsche Zentrumspartei (Zentrum)
+| style="text-align: center;" | 35% || Konrad Adenauer || style="text-align: center;" | no
+|-
+! style="text-align: center;" | Communism
+! Kommunistische Partei Deutschlands (KPD)
+|style="text-align: center;" | 10% || Wilhelm Pieck || style="text-align: center;" | No
+|-
+! style="text-align: center;" | Fascism
+! Nationalsozialistische Deutsche Arbeiterpartei (NSDAP)
+| style="text-align: center;" | 40% || Adolf Hitler || style="text-align: center;" | yes
+|-
+! style="text-align: center;" | Non-Aligned
+! Deutschnationale Volkspartei (DNVP)
+|style="text-align: center;" | 15% || Generic || style="text-align: center;" | No
+|}
+
+## Country leaders
+Possible country leaders of Germany.
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Country leaders
+! Ideology
+! class="unsortable" | Portrait
+! Name
+! style="width:1em;" | Party
+! Traits
+! Effects
+! Possible
+|-
+! style="text-align: center;" | Democracy
+Conservatism
+|
+| Konrad Adenauer
+| Deutsche Zentrumspartei
+| GER_traditionalist
+| Starting Democratic leader
+- Via focus The Monarchy Compromise WW gtd
+- Via focus The Monarchy Compromise B
+- Via focus Re-establish Free Elections WW gtd
+ - Event The Return of Democracy
+|-
+! style="text-align: center;" | Democracy
+Socialism
+|
+| Hans Vogel
+| Sozialdemokratische Partei Deutschlands
+| GER_staunch_social_democrat
+|
+- Via focus Re-establish Free Elections WW gtd
+ - Event The Return of Democracy
+|-
+! style="text-align: center;" | Communism
+Stalinism
+|
+| Wilhelm Pieck
+| Kommunistische Partei Deutschlands
+| staunch_stalinist
+| Starting Communist leader
+- Via event Communist Civil War in [Germany]
+|-
+! style="text-align: center;" | Communism
+Stalinism
+| rowspan=2|
+| rowspan=2| Walther Ulbricht
+| rowspan=2| Kommunistische Partei Deutschlands
+| GER_inflexible_communist_organizer
+|
+- If Ernst Thalmann is not freed from prison
+ - Via focus The People's Victory
+Trait is replaced by Staunch Stalinist after completing focus Proletarian Dictatorship
+|-
+! style="text-align: center;" | Communism
+Leninism
+| GER_staunch_stalinist_leader
+|
+- Via focus Defense Treaty with the Soviet
+ - Event [The Soviet Union] Approves of Our Alignment
+|-
+! rowspan ="2" style="text-align: center;" | Communism
+Leninism
+| rowspan=2|
+| rowspan=2| Ernst Thälmann
+| Kommunistische Partei Deutschlands
+| NOR_stern_communist
+|
+- If Ernst Thalmann is freed from prison
+ - Via focus The People's Victory
+|-
+| Kommunistische Arbeiterpartei
+| GER_stern_communist
+|
+- Via focus Legacy of the Spartacus League
+ - Event A Leader for the People
+|-
+! style="text-align: center;" | Communism
+Leninism
+|
+| Heinrich Brandler
+| Kommunistische Arbeiterpartei
+| GER_pragmatic_trade_unionist
+|
+- Via focus Legacy of the Spartacus League
+ - Event A Leader for the People
+|-
+! style="text-align: center;" | Communism
+Marxism
+|
+| Otto Grotewohl
+| Kommunistische Arbeiterpartei
+| GER_pragmatic_socialist
+|
+- Via focus Legacy of the Spartacus League
+ - Event A Leader for the People
+|-
+! style="text-align: center;" | Fascism
+Nazism
+|
+| Adolf Hitler
+| Nationalsozialistische Deutsche Arbeiterpartei
+| GER_der_fuhrer
+|
+Starting leader
+
+"Der Führer" can be upgraded if focuses Reorganize the Wehrmacht
+ and/or Führerprinzip are completed
+|-
+! rowspan="3" style="text-align: center;" | Fascism
+Nazism
+| rowspan=3|
+| rowspan=3| Heinrich Himmler
+| rowspan=3| Nationalsozialistische Deutsche Arbeiterpartei
+| GER_himmler_fuhrer_abwehr
+|
+- If focus Absorb the Abwehr is completed
+ - Via focus A Strong Successor
+|-
+| GER_himmler_fuhrer_ss
+|
+- If focus Strengthen the Waffen-SS is completed
+ - Via focus A Strong Successor
+|-
+
+|
+- Via the Oster Conspiracy event chain
+ - Event The Führer is Dead
+ - Event The Conspiracy Succeeds
+- Via event Hitler Found Dead
+
+|-
+! rowspan="2" style="text-align: center;" | Fascism
+Nazism
+| rowspan=2|
+| rowspan=2| Hermann Göring
+| rowspan=2| Nationalsozialistische Deutsche Arbeiterpartei
+| GER_goring_fuhrer
+|
+- Via focus A Strong Successor
+|-
+
+|
+- Via the Oster Conspiracy event chain
+ - Event The Führer is Dead
+ - Event The Conspiracy Succeeds
+
+|-
+! style="text-align: center;" | Fascism
+Nazism
+|
+| Fritz Todt
+| Nationalsozialistische Deutsche Arbeiterpartei
+| GER_todt_fuhrer
+|
+- Via focus A Strong Successor
+|-
+! style="text-align: center;" | Fascism
+Nazism
+|
+| Albert Speer
+| Nationalsozialistische Deutsche Arbeiterpartei
+| GER_speer_fuhrer
+|
+- Via focus A Strong Successor
+|-
+! style="text-align: center;" | Fascism
+Nazism
+|
+| Joseph Goebbels
+| Nationalsozialistische Deutsche Arbeiterpartei
+| GER_goebbels_fuhrer
+|
+- Via focus A Strong Successor
+|-
+! style="text-align: center;" | Fascism
+Nazism
+|
+| Rudolf Hess
+| Nationalsozialistische Deutsche Arbeiterpartei
+| GER_hess_fuhrer
+|
+- Via focus A Strong Successor
+|-
+! style="text-align: center;" | Fascism
+Nazism
+|
+| Martin Bormann
+| Nationalsozialistische Deutsche Arbeiterpartei
+| GER_bormann_fuhrer
+|
+- Via focus A Strong Successor
+|-
+! style="text-align: center;" | Fascism
+Nazism
+|
+| Eva Braun
+| Nationalsozialistische Deutsche Arbeiterpartei
+| GER_iron_maiden
+|
+- Via the Oster Conspiracy event chain
+ - Event The Führer is Dead
+ - Event The Conspiracy Succeeds
+|-
+! style="text-align: center;" | Fascism
+Nazism
+|
+| Otto Strasser
+| Kampfgemeinschaft Revolutionärer Nationalsozialisten
+| GER_revolutionary_nationalist
+| gtd
+- Via event Nazi Leadership Captured
+ - Germany turns Fascist
+- Via event Reinstate the Captured Nazi Leadership?
+ - Germany turns Fascist
+|-
+! style="text-align: center;" | Non-Aligned
+Despotism
+|
+| August von Mackensen
+| Militärregierung
+| great_war_hero
+|
+- Via focuses Rally the Wehrmacht or Oppose Hitler
+ - Event Wehrmacht Officers Challenge Hitler
+|-
+|- -->
+! style="text-align: center;" | Non-Aligned
+Despotism
+|
+| Wilhelm II
+| Deutschnationale Volkspartei
+| anti_democrat
+|
+- Via focuses The Return of the Kaiser or Return of the Kaiser
+ - Event Kaiser Returns to Germany
+ - Event Wilhelm II Freed
+- Via Netherlands aided German Civil War
+|-
+! style="text-align: center;" | Non-Aligned
+Despotism
+|
+| Wilhelm III
+| Deutschnationale Volkspartei
+| popular_figurehead2
+|
+- Via focuses The Return of the Kaiser or Return of the Kaiser
+ - Event Netherlands Prevents Return of the Kaiser
+ - Event Wilhelm II Freed
+ - Event Wilhelm II Dies
+ - Event August Von Mackensen Dies
+ - Via event chain following France support to the Netherlands refusing the handover of Wilhelm II
+- Via Netherlands aided German Civil War
+|-
+! style="text-align: center;" | Non-Aligned
+Despotism
+|
+| Wilhelm IV
+| Deutschnationale Volkspartei
+
+|
+- Via the Oster Conspiracy event chain
+ - Event The Conspiracy Succeeds
+|-
+! style="text-align: center;" | Non-Aligned
+Despotism
+|
+| Victoria
+| Deutschnationale Volkspartei
+| kaiserin_of_the_people
+|
+- Event Hindenburg Aflame in London
+|-
+! style="text-align: center;" | Non-Aligned
+Despotism
+|
+| Erich Raeder
+| Deutschnationale Volkspartei/Militärregierung
+| GER_high_admiral
+| gtd
+- Via event The Kriegsmarine's Coup d'etat
+|-
+! style="text-align: center;" | Non-Aligned
+Despotism
+|
+| Fourth Supreme Army Command
+| Oberste Heeresleitung
+| GER_oberste_heeresleitung_trait
+| gtd
+- Via focus Military Dictatorship
+|}
+
+## Country names
+Possible country names for Germany.
+{| class="wikitable"
+|+
+! Id. !! Country name !! Condition
+|-
+| democracy || German Republic
+|-
+| democracy || Kingdom of Germany
+|-
+| democracy || German Transitional Government
+|-
+| communism || Socialist Republic of Germany
+|-
+| communism || Soviet Occupation Zone of Germany || Puppet of Communist Soviet Union
+|-
+| fascism || German Reich
+|-
+| neutrality || German Empire
+|-
+| neutrality || German Military Junta
+|-
+| neutrality || German Kaiserrich
+|-
+| unknownid || [Overlord's] Occupation Zone || Supervised state of [Overlord country]
+|-
+| unknownid || [Overlord's] Germany|| Subject of [Overlord country]
+|}
+
+## Diplomacy [verified for 1.9]
+
+As a Fascist country, the German Reich begins with slightly negative relationships with most of the world. In Europe, only Italy has positive relations with the German Reich. The Treaty of Versailles demilitarized Germany's border with Belgium, Luxembourg, and part of the Netherlands and France. The German Reich is the leader of the Axis at the start of the game but has no allies yet at the beginning of the grand campaign. Germany is able to form the German Empire through national focus, and the Greater German Reich or Holy Roman Empire through decisions. If Germany becomes Democratic, they may also form the European Union through a decision (West Germany may also form the EU if it is divided by the Yalta Conference, but East Germany cannot form the EU).
+
+In terms of cores, outside of the cores granted through any of the formable nations, Germany can also gain cores on Austria (either through the Anschluss focus, or through an event that will fire off if Germany is either Democratic or Non-Aligned and in a faction with Austria - said event has a 90% chance of giving the positive answer, which will annex Austria and core them), West Poland (Danzig can be cored through Danzig or War even if Poland refuses; if the USSR conquers Poland and secedes West Poland, Germany will gain cores on all of West Poland, even if they took Oppose Hitler after signing the pact; Monarchist Germany can gain cores on Danzig, Posen, and Katowice if they do the focus "Danzig for Guarantee" and Poland accepts; Democratic Germany can regain Danzig and Poznan if they are in the same faction as Poland, Poland is Democratic or Non-aligned, Germany has completed the focus The Big Red Menace, Poland is at war with the USSR, and Poland has lost more than 30% of their victory points to the USSR), Alsace-Lorraine (if Germany takes Reintegrate Luxembourg and Alsace-Lorraine - which also cores Luxembourg - or is Monarchist and takes Reinstate Imperial Possessions), and the Sudetenland (if Germany either does the focus Demand Sudetenland and both the allies and Czechoslovakia agree, or if Czechoslovakia completes the focus "Deliver Sudetenland").
+
+# Staff and designers
+## Personnel [verified for 1.17]
+
+Ministers and military staff of German Reich
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Political Advisors
+! width="1px" class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+
+|-
+|
+| Otto Strasser
+| GER_revolutionary_nationalist_advisor
+| gtd
+- Has completed focus Expatriate the Communists B
+- Has country flag GER_strasserism_relevant_in_germany_flag
+| align="center" | 150
+
+|-
+|
+| Hermann Göring
+| GER_overseer_four_year_plan
+|
+- Current ruling party is Fascist
+- Has not completed focus Reichsleiter Göring
+- Not visible when part of the Inner Circle
+- Current ruling party is Fascist
+- Has not completed focus Oppose Hitler
+| align="center" | 150
+
+|-
+|
+| Joachim von Ribbentrop
+| GER_reich_minister_foreign_affairs_ribbentrop
+|
+- One of the following must be true:
+ - All of the following must be true:
+ - Has completed focus Reorganize the Wehrmacht
+ - Current ruling party is Fascist
+ - Reinstated Nazi Leadership
+- One of the following must be true:
+ - Reinstated Nazi Leadership
+ - All of the following must be true:
+ - Has not completed focus Heed von Neurath's Concerns
+ - Has not completed focus Oppose Hitler
+| align="center" | 50
+
+|-
+|
+| Konstantin von Neurath
+| GER_reich_minister_foreign_affairs_neurath
+|
+- Current ruling party is not Communist
+- Has completed focus Heed von Neurath's Concerns
+- Has not completed focus Reorganize the Wehrmacht
+- Has not completed focus Oppose Hitler
+| align="center" | 50
+
+|-
+|
+| Fritz Todt
+| GER_reich_engineer
+|
+- Reinstated Nazi Leadership
+- Reinstated Nazi Leadership
+| align="center" | 150
+
+|-
+|
+| Albert Speer
+| GER_reich_architect
+|
+- Reinstated Nazi Leadership
+- Reinstated Nazi Leadership
+| align="center" | 150
+
+|-
+|
+| Hjalmar Schacht
+| GER_mefo_bills_architect
+|
+- Has Modifier: MEFO Bills
+- Current ruling party is not Communist
+- Walther Funk is not hired as an advisor
+- Has Modifier: MEFO Bills
+- Current ruling party is not Communist
+| align="center" | 75
+
+|-
+|
+| Walther Funk
+| GER_reich_minister_of_economy
+|
+- Current ruling party is Fascist
+- Hjalmar Schacht is not hired as an advisor
+- Ludwig Erhard is not hired as an advisor
+- Current ruling party is Fascist
+- Has not completed focus Oppose Hitler
+| align="center" | 150
+
+|-
+|
+| Joseph Goebbels
+| GER_reich_minister_of_propaganda
+|
+- Reinstated Nazi Leadership
+- One of the following must be true:
+ - Is not Supervised State
+ - Has not completed focus Reichsleiter Göring
+- Reinstated Nazi Leadership
+| align="center" | 150
+
+|-
+|
+| Rudolf Hess
+| GER_first_among_equals
+|
+- Does not have country flag flight_of_hess
+- Walther Funk is not hired as an advisor
+- Has not completed focus Party Chancellor Hess
+- One of the following must be true
+ - Current ruling party is Fascist
+ - Reinstated Nazi Leadership
+- Not visible when part of the Inner Circle
+- Current ruling party is Fascist
+- Has not completed focus Oppose Hitler
+| align="center" | 150
+
+|-
+|
+| Heinrich Himmler
+| prince_of_terror
+|
+- One of the following must be true
+ - Current ruling party is Fascist
+ - Reinstated Nazi Leadership
+- Has not completed focus Reichsleiter Himmler
+- Not visible when part of the Inner Circle
+- Current ruling party is Fascist
+- Has not completed focus Oppose Hitler
+| align="center" | 150
+
+|-
+|
+| Martin Bormann
+| GER_secretary_to_the_fuhrer
+|
+- Rudolf Hess is not hired as an advisor
+- Has not completed focus Party Chancellor Bormann
+- One of the following must be true
+ - Current ruling party is Fascist
+ - Reinstated Nazi Leadership
+- Not visible when part of the Inner Circle
+- Current ruling party is Fascist
+- Has not completed focus Oppose Hitler
+| align="center" | 150
+
+|-
+|
+| Leni Riefenstahl
+| GER_film_director
+|
+- One of the following must be true:
+ - Reinstated Nazi Leadership
+ - Has completed focus Fund the Film Department
+- One of the following must be true:
+ - Reinstated Nazi Leadership
+ - Current ruling party is Fascist
+| align="center" | 150
+
+|-
+|
+| Franz Seldte
+| GER_reich_minister_for_labor
+|
+- One of the following must be true:
+ - Current ruling party is Fascist
+ - Reinstated Nazi Leadership
+- One of the following must be true:
+ - Reinstated Nazi Leadership
+ - Current ruling party is Fascist
+| align="center" | 150
+
+|-
+|
+| Hanns Kerrl
+| GER_reich_minister_of_church_affairs
+|
+- One of the following must be true:
+ - Current ruling party is Fascist
+ - Reinstated Nazi Leadership
+- Has not completed focus Hegemony of the SS
+- One of the following must be true:
+ - Reinstated Nazi Leadership
+ - Current ruling party is Fascist
+| align="center" | 150
+
+|-
+|
+| Reinhard Heydrich
+| GER_reich_security_main_office_director_lar
+|
+- One of the following must be true:
+ - Current ruling party is Fascist
+ - Reinstated Nazi Leadership
+- One of the following must be true:
+ - Reinstated Nazi Leadership
+ - Current ruling party is Fascist
+| align="center" | 150
+
+|-
+|
+| Reinhard Heydrich
+| GER_reich_security_main_office_director_no_lar
+|
+ La Résistance
+- Current ruling party is Fascist
+- Has not completed focus Oppose Hitler
+| align="center" | 150
+
+|-
+|
+| Wilhelm Canaris
+| head_of_the_abwehr
+|
+ La Résistance
+- Has created an Intelligence Agency
+- Has not completed focus Reorganize Secret Services
+- Has not completed focus Start the Proletarian Revolution
+- Has not completed focus Start the Proletarian Revolution
+| align="center" | 150
+
+|-
+|
+| Hans Oster
+| anti_fascist_agent
+|
+- Has completed focus Oppose Hitler
+- One of the following must be true:
+ - Current ruling party is not Fascist
+ - Has not completed focus Remilitarize the Rhineland
+| align="center" | 150
+
+|-
+|
+| Alfred Hugenberg
+| monarchist_media_mogul
+|
+- Has completed focus Revive the Kaiserreich B
+- One of the following must be true:
+ - Current ruling party is not Fascist
+ - Has not completed focus Remilitarize the Rhineland
+- Has not completed focus Start the Proletarian Revolution
+| align="center" | 150
+
+|-
+|
+| Carl Friedrich Goerdeler
+| GER_price_commissioner
+|
+- One of the following must be true:
+ - Has completed focus Revive the Kaiserreich B
+ - Has completed focus Strive for Conservative Values
+- One of the following must be true:
+ - Current ruling party is not Fascist
+ - Has not completed focus Remilitarize the Rhineland
+- Has not completed focus Start the Proletarian Revolution
+| align="center" | 150
+
+|-
+|
+| Julius Leber
+| connected_citizen
+|
+- Has completed focus Re-establish Free Elections WW
+- One of the following must be true:
+ - The current ruling party is not Fascist
+ - Has not completed focus Remilitarize the Rhineland
+- Has not completed focus Revive the Kaiserreich B
+- Has not completed focus Start the Proletarian Revolution
+| align="center" | 150
+
+|-
+|
+| Kurt Schumacher
+| democratic_reformer
+|
+- Has completed focus Re-establish Free Elections WW
+- One of the following must be true:
+ - The current ruling party is not Fascist
+ - Has not completed focus Remilitarize the Rhineland
+- Has not completed focus Revive the Kaiserreich B
+- Has not completed focus Start the Proletarian Revolution
+| align="center" | 150
+
+|-
+|
+| Theodor Heuss
+| liberal_journalist
+|
+- Has completed focus Re-establish Free Elections WW
+- One of the following must be true:
+ - The current ruling party is not Fascist
+ - Has not completed focus Remilitarize the Rhineland
+- Has not completed focus Revive the Kaiserreich B
+- Has not completed focus Start the Proletarian Revolution
+| align="center" | 150
+
+|-
+|
+| Hans Luther
+| GER_former_reichsbank_president
+|
+- The current ruling party is not Fascist
+- One of the following must be true:
+ - The current ruling party is not Fascist
+ - Has not completed focus Remilitarize the Rhineland
+| align="center" | 150
+
+|-
+|
+| Ludwig Erhard
+| economic_reformer
+|
+- Has completed focus Prioritize Economic Growth
+- Walther Funk is not hired as an advisor
+- Has not completed focus Prioritize the Four Year Plan
+| align="center" | 150
+
+|-
+|
+| Hermann Erhardt
+| GER_freikorps_commander
+|
+gtd
+- The current ruling party is Non-Aligned
+- Has completed focus Reestablish the Freikorps
+- Has not completed focus Remilitarize the Rhineland
+- Has not completed focus Start the Proletarian Revolution
+- Has not completed focus The Monarchy Compromise WW
+| align="center" | 150
+
+|-
+|
+| Adolf Friedrich von Mecklenburg
+| GER_minister_of_the_colonies
+|
+gtd
+- One of the following must be true:
+ - The current ruling party is Non-Aligned
+ - The current ruling party is Democratic
+- One of the following must be true:
+ - Current ruling party is not Fascist
+ - Has not completed focus Remilitarize the Rhineland
+- Has not completed focus Start the Proletarian Revolution
+| align="center" | 150
+
+|-
+|
+| Wilhelm von Gayl
+| GER_monarchist_jurist
+|
+gtd
+- Has completed focus Monarchist Sentiment
+- Has not completed focus Remilitarize the Rhineland
+- Has not completed focus Start the Proletarian Revolution
+| align="center" | 150
+
+|-
+|
+| Andreas Hermes
+| GER_minister_of_agriculture
+|
+gtd
+- Has completed focus Monarchist Sentiment
+- Has not completed focus Remilitarize the Rhineland
+- Has not completed focus Start the Proletarian Revolution
+| align="center" | 150
+
+|-
+|
+| Dietrich Bonhoeffer
+| GER_influential_pastor
+|
+gtd
+- One of the following must be true:
+ - The current ruling party is Non-Aligned
+ - The current ruling party is Democratic
+- Has not completed focus Remilitarize the Rhineland
+| align="center" | 150
+
+|-
+|
+| Ernst Thälmann
+| communist_revolutionary
+|
+gtd
+- Ernst Thälmann has been freed from Prison
+- Ernst Thälmann is not the country leader
+- Has not completed focus Remilitarize the Rhineland
+- Has not completed focus Monarchist Sentiment
+| align="center" | 150
+
+|-
+|
+| Ernst Thälmann
+| communist_revolutionary
+|
+gtd
+- Is not Supervised State
+| align="center" | 150
+
+|-
+|
+| Walter Ulbricht
+| GER_inflexible_communist_organizer
+|
+gtd
+- Walter Ulbricht is not the country leader
+- One of the following must be true:
+ - Has completed focus Start the Proletarian Revolution
+ - Current ruling party is Communist
+- Has not completed focus Revive the Kaiserreich B
+- One of the following must be true:
+ - Current ruling party is not Fascist
+ - Has not completed focus Remilitarize the Rhineland
+- Has not completed focus Revive the Kaiserreich B
+| align="center" | 150
+
+|-
+|
+| Wilhelm Zaisser
+| GER_intelligence_coordinator
+|
+gtd
+- Has completed focus Formalize the Intelligence Wing
+- Has not completed focus Remilitarize the Rhineland
+- Has not completed focus Monarchist Sentiment
+| align="center" | 150
+
+|-
+|
+| Otto Ruhle
+| marxist_philosopher
+|
+gtd
+- Has completed focus Legacy of the Spartacus League
+- Has not completed focus Remilitarize the Rhineland
+- Has not completed focus Monarchist Sentiment
+| align="center" | 150
+
+|-
+|
+| Hermann Duncker
+| GER_workers_educator
+|
+gtd
+- Current ruling party is Communist
+- One of the following must be true:
+ - Current ruling party is not Fascist
+ - Has not completed focus Remilitarize the Rhineland
+- One of the following must be true:
+ - One of the following must be true:
+ - Current ruling party is not Non-Aligned
+ - Current ruling party is not Democratic
+ - Has not completed focus Monarchist Sentiment
+| align="center" | 150
+
+|-
+|
+| August Thalheimer
+| GER_stakhonovite_collectivist1
+|
+gtd
+- Current ruling party is Communist
+- One of the following must be true:
+ - Current ruling party is not Fascist
+ - Has not completed focus Remilitarize the Rhineland
+- One of the following must be true:
+ - One of the following must be true:
+ - Current ruling party is not Non-Aligned
+ - Current ruling party is not Democratic
+ - Has not completed focus Monarchist Sentiment
+| align="center" | 150
+
+|-
+|
+| Bernhard Bastlein
+| GER_seasoned_socialist_resistance_fighter
+|
+gtd
+- Has completed focus Start the Proletarian Revolution
+- Has not completed focus Remilitarize the Rhineland
+- Has not completed focus Monarchist Sentiment
+| align="center" | 150
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Theorists
+! width="1px" class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! width="1px" | Cost ( political power )
+|-
+|
+| Werner von Blomberg
+| grand_battle_plan_expert
+|
+- Has not completed focus Reorganize the Wehrmacht
+- Has not completed focus Reorganize the Wehrmacht
+| align="center" | 150
+|-
+|
+| Erich von Manstein
+| mobile_warfare_expert
+
+| align="center" | 150
+|-
+|
+| Heinz Guderian
+| blitzkrieg_theorist
+|
+- Has completed focus Adopt New Panzer Doctrine
+| align="center" | 200
+|-
+|
+| Alfred Saalwächter
+| submarine_specialist
+|
+- Has completed focus Wolfpack Tactics
+| align="center" | 150
+|-
+|
+| W. von Richthofen
+| close_air_support_proponent
+
+| align="center" | 150
+|-
+|
+| Walther Wever
+| air_warfare_theorist
+
+| align="center" | 100
+|-
+|
+| Ernst Udet
+| dive_bomber
+|
+- Has completed focus Dive Bombers
+| align="center" | 100
+|-
+|
+| Otto Ciliax
+| naval_theorist
+
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Chief of Army
+! width="1px" class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! width="1px" | Cost ( political power )
+|-
+|
+| Werner von Fritsch
+| army_chief_army_high_command
+|
+gtd
+- Werner von Fritsch is not already hired elsewhere
+- Has completed focus Prussian Artillery Doctrine
+- Has not completed focus Remilitarize the Rhineland
+- Has not completed focus The Monarchy Compromise WW
+- Has not completed focus Start the Proletarian Revolution
+| align="center" | 100
+|-
+|
+| Ludwig Beck
+| army_chief_organizational_2
+
+| align="center" | 100
+|-
+|
+| Wilhelm Keitel
+| army_chief_drill_2
+|
+- Current ruling party is Fascist
+- Current ruling party is Fascist
+| align="center" | 100
+|-
+|
+| Franz Halder
+| army_chief_offensive_2
+|
+- Has completed focus Instill Auftragstaktik
+| align="center" | 100
+|-
+|
+| W. von Brauchitsch
+| army_chief_maneuver_2
+|
+- Has completed focus Develop Modern Maneuver Warfare
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Chief of Navy
+! width="1px" class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! width="1px" | Cost ( political power )
+|-
+|
+| Karl Dönitz
+| navy_chief_commerce_raiding_3
+|
+- Has completed focus Trade Interdiction
+| align="center" | 200
+|-
+|
+| Erich Raeder
+| navy_chief_maneuver_2
+|
+- Erich Raeder is not the country leader
+| align="center" | 100
+|-
+|
+| Rolf Carls
+| navy_chief_decisive_battle_2
+
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Chief of Airforce
+! width="1px" class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! width="1px" | Cost ( political power )
+|-
+|
+| Albert Kesselring
+| air_chief_reform_2
+
+| align="center" | 100
+|-
+|
+| Hermann Göring
+| GER_reich_marshal
+|
+- One of the following must be true:
+ - Current ruling party is Fascist
+ - Reinstated Nazi Leadership
+- Current ruling party is Fascist
+- Has not completed focus Oppose Hitler
+| align="center" | 100
+|-
+|
+| Ritter von Greim
+| air_chief_all_weather_2
+|
+- Has completed focus Expanding the Luftwaffe
+| align="center" | 100
+|-
+|
+| Helmuth Wilberg
+| air_chief_ground_support_3
+|
+- Current ruling party is not Fascist
+- Has completed focus Reorganize the Luftwaffe
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Military High Command
+! width="1px" class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! width="1px" | Cost ( political power )
+|-
+|
+| Gerd von Rundstedt
+| army_regrouping_2
+
+| align="center" | 100
+|-
+|
+| Werner von Fritsch
+| army_logistics_2
+|
+- If has GTD
+ - Werner von Fritsch is not already hired elsewhere
+- Has not completed focus Reorganize the Wehrmacht
+- Has not completed focus Reorganize the Wehrmacht
+| align="center" | 100
+|-
+|
+| Erwin Rommel
+| army_armored_3
+|
+- Has completed focus Adopt New Panzer Doctrine
+| align="center" | 200
+|-
+|
+| Kurt Student
+| air_airborne_2
+|
+- Has completed focus Fallschirmjäger
+| align="center" | 100
+|-
+|
+| Paul von Lettow-Vorbeck
+| army_concealment_2
+|
+- Current ruling party is Non-Aligned
+- Current ruling party is Non-Aligned
+- Has global flag: von_lettow_is_in_a_country
+| align="center" | 100
+|-
+|
+| Günther Lütjens
+| navy_fleet_logistics_2
+
+| align="center" | 100
+|-
+|
+| Ferdinand Schörner
+| army_infantry_2
+
+| align="center" | 100
+|-
+|
+| Erich Bey
+| navy_naval_air_defense_2
+
+| align="center" | 100
+|-
+|
+| Viktor Schütze
+| navy_submarine_1
+
+| align="center" | 50
+|-
+|
+| Hugo Sperrle
+| air_close_air_support_2
+|
+- Has completed focus Dive Bombers
+| align="center" | 100
+|-
+|
+| Erhard Milch
+| air_tactical_bombing_2
+|
+- Has completed focus Tactical Bombers
+| align="center" | 100
+|-
+|
+| Robert Knauss
+| air_strategic_bombing_2
+|
+- Has completed focus Uralbomber Program
+| align="center" | 100
+|-
+|
+| Josef Kammhuber
+| air_bomber_interception_2
+
+| align="center" | 100
+|-
+|
+| Alfred Becker
+| GER_adaptive_engineer
+|
+- Has completed focus Salvage Captured Equipment
+| align="center" | 100
+|-
+|
+| Walter Dornberger
+| GER_head_of_the_missile_department
+|
+- One of the following must be true:
+ - Has completed focus Rocketry Innovations
+ - Has completed focus Wonder Weapons
+ - Has completed focus Glorious Mechanical Machinations
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ style="width: 46em; text-align:left;" | Field Marshals
+! class="unsortable" | Portrait
+! Name
+!
+Skill
+!
+ATK
+!
+DEF
+!
+PLN
+!
+LOG
+! class="unsortable" | Traits
+! class="unsortable" | Requirements
+|-
+|
+| align="left" | August von Mackensen
+| 4 || 3 || 4 || 3 || 3
+| align="left" | Old Guard
+ Thorough Planner
+ Organization First
+| align="left" |
+- Current ruling party is Non-Aligned
+- Has not retired
+|-
+|
+| align="left" | Heinrich Himmler
+| 2 || 1 || 3 || 1 || 2
+| align="left" | Militia Officer
+ Politically Connected
+| align="left" |
+- Has completed focus Hegemony of the SS
+|-
+|
+| align="left" | Vincenz Müller
+| 3 || 3 || 3 || 2 || 2
+| align="left" | Politically Connected
+ Reckless
+ Infantry Officer
+| align="left" | wuw
+- Has completed focus Reorganize the Nationale Volksarmee
+|-
+|
+| align="left" | Werner von Blomberg
+| 3 || 2 || 3 || 3 || 2
+| align="left" | Defensive Doctrine
+ Thorough Planner
+| align="left" |
+- Has not completed focus Reorganize the Wehrmacht
+|-
+|
+| align="left" | Giorgi Kvinitadze
+| 3 || 2 || 4 || 2 || 2
+| align="left" | Inflexible Strategist
+ Infantry Leader
+| align="left" |
+- Has completed focus Establish Eastern Grand Duchies
+- Has received event The Formation of a Georgian Foreign Legion
+|-
+|
+| align="left" | Ruprecht Von Wittelsbach
+| 4 || 4 || 4 || 3 || 2
+| align="left" | Old Guard
+ Politically Connected
+ Thorough Planner
+ Organizer
+| align="left" |
+- Has completed focus Fan Prussian Militarism WW
+|-
+|
+| align="left" | Rüdiger Von der Goltz
+| 2 || 3 || 1 || 3 || 4
+| align="left" | Old Guard
+ Thorough Planner
+| align="left" |
+- Has completed focus Subduing the Baltic States
+- Poland has not completed focus Restore the Bermontians
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ style="width: 46em; text-align:left;" | Generals
+! class="unsortable" | Portrait
+! Name
+!
+Skill
+!
+ATK
+!
+DEF
+!
+PLN
+!
+LOG
+! class="unsortable" | Traits
+! class="unsortable" | Requirements
+|-
+|
+| align="left" | Albert Kesselring
+| 4 || 4 || 3 || 5 || 3
+| align="left" | Brilliant Strategist
+ Cautious
+ War Hero
+
+|-
+|
+| align="left" | Alexander von Falkenhausen
+| 3 || 2 || 2 || 3 || 3
+| align="left" | Infantry Officer
+| align="left" |
+- One of the following must be true:
+ - Has completed focus Befriend Japan
+ - Has completed focus Create Asian Reichskommisariats
+|-
+|
+| align="left" | Alfred Jodl
+| 3 || 2 || 2 || 3 || 3
+| align="left" | Career Officer
+
+|-
+|
+| align="left" | Arno von Lenski
+| 3 || 4 || 1 || 3 || 2
+| align="left" | Politically Connected
+ Armor Officer
+ Cavalry Leader
+| align="left" | wuw
+- Has completed focus Reorganize the Nationale Volksarmee
+|-
+|
+| align="left" | Andrey Shkuro
+| 2 || 3 || 1 || 4 || 2
+| align="left" | Reckless
+ Cavalry Officer
+| align="left" |
+- One of the following must be true:
+ - Has completed focus Ally the Russian White Movement
+ - Has completed focus War with the USSR
+ - Has received event An Offer from Disgruntled Cossacks
+|-
+|
+| align="left" | Bronislaw Kaminski
+| 2 || 2 || 1 || 2 || 2
+| align="left" | Politically Connected
+ Militia Officer
+ Organizer
+| align="left" |
+- Current ruling party is not Communist
+- The Lokot Autonomy exists (Collaboration in Lokot event)
+|-
+|
+| align="left" | Erich von Manstein
+| 4 || 4 || 3 || 5 || 2
+| align="left" | Brilliant Strategist
+ Armor Officer
+ Trickster
+ Engineer
+
+|-
+|
+| align="left" | Ernst-Eberhard Hell
+| 3 || 2 || 4 || 3 || 3
+| align="left" | Inflexible Strategist
+ Infantry Officer
+| align="left" |
+- Has completed focus Lessons of the Great War
+|-
+|
+| align="left" | Erwin Rommel
+| 4 || 5 || 3 || 3 || 2
+| align="left" | Reckless
+ Media Personality
+ Armor Officer
+ War Hero
+ Trickster
+| align="left" |
+- Has completed focus Adopt New Panzer Doctrine
+|-
+|
+| align="left" | Erwin von Witzleben
+| 4 || 4 || 3 || 2 || 4
+| align="left" | Career Officer
+ Infantry Officer
+
+|-
+|
+| align="left" | Ewald von Kleist
+| 3 || 4 || 2 || 2 || 3
+| align="left" | Harsh Leader
+ Armor Officer
+
+|-
+|
+| align="left" | Fedor von Bock
+| 4 || 5 || 3 || 5 || 3
+| align="left" | Brilliant Strategist
+ Harsh Leader
+ Cavalry Officer
+
+|-
+|
+| align="left" | Felix Steiner
+| 3 || 3 || 2 || 3 || 2
+| align="left" | Militia Officer
+| align="left" |
+- One of the following must be true:
+ - Has completed focus Strengthen the Waffen-SS
+ - The German Civil War has started
+|-
+|
+| align="left" | Franz Ritter von Epp
+| 2 || 2 || 2 || 1 || 1
+| align="left" | Militia Officer
+| align="left" | wuw
+- Has completed focus Reestablish the Freikorps
+|-
+|
+| align="left" | Friedrich Paulus
+| 2 || 1 || 1 || 3 || 2
+|
+
+|-
+|
+| align="left" | Friedrich Schulz
+| 3 || 3 || 3 || 1 || 3
+| align="left" | Infantry Officer
+| align="left" |
+- Has completed focus Lessons of the Great War
+|-
+|
+| align="left" | Georg von Küchler
+| 4 || 3 || 2 || 4 || 4
+|
+
+|-
+|
+| align="left" | Georg-Hans Reinhardt
+| 3 || 2 || 3 || 3 || 2
+| align="left" | Armor Officer
+ Defensive Doctrine
+
+|-
+|
+| align="left" | Gerd von Rundstedt
+| 4 || 5 || 3 || 5 || 2
+| align="left" | Old Guard
+ Brilliant Strategist
+ Cautious
+
+|-
+|
+| align="left" | Gotthard Heinrici
+| 4 || 3 || 5 || 4 || 3
+| align="left" | Old Guard
+ Inflexible Strategist
+ Infantry Officer
+
+|-
+|
+| align="left" | Günther von Kluge
+| 4 || 5 || 3 || 4 || 3
+| align="left" | Brilliant Strategist
+ Cautious
+
+|-
+|
+| align="left" | Hans Kahle
+| 2 || 1 || 2 || 2 || 2
+| align="left" | Politically Connected
+| align="left" | wuw
+- Has completed focus Reorganize the Nationale Volksarmee
+|-
+|
+| align="left" | Hans Krebs
+| 3 || 3 || 2 || 3 || 2
+| align="left" | Politically Connected
+ Winter Specialist
+| align="left" |
+- Has accepted the Hans Krebs Recalled from the Soviet Union event
+|-
+|
+| align="left" | Hans Marchwitza
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Politically Connected
+| align="left" | wuw
+- Has completed focus Reorganize the Nationale Volksarmee
+|-
+|
+| align="left" | Hans-Jürgen von Blumenthal
+| 3 || 3 || 2 || 2 || 3
+| align="left" | Infantry Officer
+ Ranger
+| align="left" | wuw
+- Current ruling party is not Communist
+- Has completed focus Rally the Wehrmacht
+|-
+|
+| align="left" | Hasso von Manteuffel
+| 4 || 4 || 3 || 3 || 3
+| align="left" | Career Officer
+ Cautious
+ Armor Officer
+| align="left" |
+- Has completed focus Panzer Troops School
+|-
+|
+| align="left" | Heinz Guderian
+| 4 || 4 || 4 || 4 || 3
+| align="left" | Brilliant Strategist
+ Career Officer
+ Armor Officer
+ Trickster
+ Panzer Leader
+| align="left" |
+- Has completed focus Adopt New Panzer Doctrine
+|-
+|
+| align="left" | Hermann Erhardt
+| 2 || 2 || 1 || 2 || 2
+| align="left" | Militia Officer
+| align="left" | wuw
+- Has completed focus Reestablish the Freikorps
+|-
+|
+| align="left" | Hermann Hoth
+| 3 || 2 || 2 || 3 || 3
+| align="left" | Reckless
+ Armor Officer
+| align="left" |
+- One of the following must be true:
+ - Has completed focus Bribe Senior Officers
+ - The German Civil War has started
+|-
+|
+| align="left" | Johannes Blaskowitz
+| 3 || 2 || 3 || 3 || 2
+| align="left" | Infantry Officer
+
+|-
+|
+| align="left" | Konstantin Voskoboinik
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Politically Connected
+ Militia Officer
+ Urban Assault Specialist
+| align="left" |
+- Current ruling party is not Communist
+- The Lokot Autonomy exists (Collaboration in Lokot event)
+|-
+|
+| align="left" | Kurt Student
+| 4 || 4 || 2 || 4 || 3
+| align="left" | Reckless
+ Commando
+| align="left" |
+- Has completed focus Fallschirmjäger
+|-
+|
+| align="left" | Maximilian von Weichs
+| 4 || 4 || 2 || 3 || 4
+| align="left" | Cavalry Officer
+
+|-
+|
+| align="left" | Oswald Lutz
+| 3 || 3 || 2 || 2 || 3
+| align="left" | Cavalry Leader
+ Combined Arms Expert
+| align="left" |
+- Has not completed focus Reorganize the Wehrmacht
+|-
+|
+| align="left" | Paul Hausser
+| 4 || 3 || 3 || 4 || 3
+| align="left" | Militia Officer
+ Politically Connected
+ Armor Officer
+| align="left" |
+- One of the following must be true:
+ - Has completed focus Strengthen the Waffen-SS
+ - The German Civil War has started
+|-
+|
+| align="left" | Paul von Lettow-Vorbeck
+| 4 || 3 || 3 || 2 || 5
+| align="left" | Militia Officer
+ Trickster
+ War Hero
+ Media Personality
+ Jungle Rat
+| align="left" |
+- Has completed focus Monarchist Sentiment
+ - Taken the decision to recall Paul von Lettow-Vorbeck
+|-
+|
+| align="left" | Pyotr Krasnov
+| 2 || 3 || 1 || 1 || 2
+| align="left" | Cavalry Leader
+| align="left" |
+- One of the following must be true:
+ - Has completed focus Ally the Russian White Movement
+ - Has completed focus War with the USSR
+ - Has received event An Offer from Disgruntled Cossacks
+|-
+|
+| align="left" | Prince Eitel Friedrich
+| 2 || 2 || 1 || 2 || 2
+| align="left" | | Politically Connected
+ Infantry Leader
+| align="left" |
+- Has completed focus Glory to the Imperial Army
+|-
+|
+| align="left" | Sepp Dietrich
+| 4 || 3 || 3 || 5 || 4
+| align="left" | Militia Officer
+ Brilliant Strategist
+ Politically Connected
+ Reckless
+ Armor Officer
+| align="left" |
+- One of the following must be true:
+ - Has completed focus Strengthen the Waffen-SS
+ - The German Civil War has started
+|-
+|
+| align="left" | Shalva Maglakelidze
+| 3 || 3 || 3 || 2 || 1
+| align="left" | Infantry Leader
+ Mountaineer
+| align="left" |
+- Has completed focus Establish Eastern Grand Duchies
+- Has received event The Formation of a Georgian Foreign Legion
+|-
+|
+| align="left" | Walter Krüger
+| 3 || 3 || 3 || 1 || 3
+| align="left" | Militia Officer
+ Politically Connected
+ Reckless
+| align="left" |
+- One of the following must be true:
+ - Has completed focus Strengthen the Waffen-SS
+ - The German Civil War has started
+|-
+|
+| align="left" | Walter Model
+| 3 || 4 || 4 || 2 || 3
+| align="left" | Inflexible Strategist
+ Politically Connected
+ Harsh Leader
+| align="left" |
+- One of the following must be true:
+ - Has completed focus Bribe Senior Officers
+ - The German Civil War has started
+|-
+|
+| align="left" | Walther Nehring
+| 3 || 3 || 3 || 2 || 2
+| align="left" | Armor Officer
+ Panzer Leader
+| align="left" |
+- Has completed focus Panzer Troops School
+|-
+|
+| align="left" | Werner von Fritsch
+| 3 || 2 || 3 || 2 || 3
+| align="left" | Old Guard
+ Cautious
+| align="left" |
+- Has not completed focus Reorganize the Wehrmacht
+|-
+|
+| align="left" | Wilhelm List
+| 3 || 3 || 3 || 2 || 2
+| align="left" | Career Officer
+
+|-
+|
+| align="left" | Wilhelm Ritter von Leeb
+| 3 || 3 || 3 || 2 || 2
+| align="left" | Infantry Officer
+
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ style="width: 46em; text-align:left;" | Admirals
+! class="unsortable" | Portrait
+! Name
+!
+Skill
+!
+ATK
+!
+DEF
+!
+MNV
+!
+COR
+! class="unsortable" | Traits
+! class="unsortable" | Requirements
+|-
+|
+| align="left" | Alfred Saalwächter
+| 4 || 4 || 2 || 3 || 4
+| align="left" | Old Guard
+ Bold
+
+|-
+|
+| align="left" | Erich Raeder
+| 4 || 3 || 4 || 3 || 3
+| align="left" | Battleship Adherent
+ Naval Lineage
+
+|-
+|
+| align="left" | Günther Lütjens
+| 3 || 4 || 1 || 1 || 4
+| align="left" | Gentlemanly
+ Career Officer
+ Superior Tactician
+
+|-
+|
+| align="left" | Hermann Boehm
+| 4 || 3 || 4 || 4 || 2
+| align="left" | Craven
+ Superior Tactician
+
+|-
+|
+| align="left" | Karl Dönitz
+| 5 || 5 || 3 || 3 || 5
+| align="left" | Career Officer
+ Sea Wolf
+
+|-
+|
+| align="left" | Rolf Carls
+| 4 || 3 || 3 || 3 || 4
+| align="left" | Naval Lineage
+ Superior Tactician
+ Ironside
+
+|-
+|
+| align="left" | Wilhelm Marschall
+| 4 || 4 || 2 || 3 || 4
+| align="left" | Old Guard
+ Bold
+
+|}
+
+## Companies [verified for 1.17]
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+style = "width: 30em; text-align: left;" | Industrial concerns
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+! style = "width: 1px;" | DLC
+|-
+germany
+|}
+
+### Designers
+ Arms Against Tyranny
+Design companies of German Reich.
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+style = "width: 30em; text-align: left;" | Tank designers
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+! style = "width: 1px;" | DLC
+|-
+germany
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+style = "width: 30em; text-align: left;" | Ship designers
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+! style = "width: 1px;" | DLC
+|-
+germany
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+style = "width: 30em; text-align: left;" | Aircraft designers
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+! style = "width: 1px;" | DLC
+|-
+germany
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+style = "width: 30em; text-align: left;" | Materiel designers
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+! style = "width: 1px;" | DLC
+|-
+germany
+|}
+
+### Organizations [verified for 1.14]
+
+ Arms Against Tyranny
+German Reich has access to these Military industrial organizations.
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Tank organizations
+|
+
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Ship organizations
+|
+
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Plane organizations
+|
+
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Materiel organizations
+|
+
+|}
+
+# Economy [verified for 1.17]
+
+## Laws
+Germany starts with the following laws:
+
+1936
+Limited Conscription Partial Mobilization Limited Exports
+1939
+Extensive Conscription War Economy Autarky
+
+## Industry
+{| class="wikitable" style="text-align: center"
+|+
+! style="width: 10%" |
+Year
+! style="width: 13%" | Military factory
+Military Factories
+! style="width: 13%" | Naval dockyard
+Naval Dockyards
+! style="width: 13%" | Civilian factory
+Civilian Factories
+! style="width: 13%" | Fuel Silo
+Fuel Silos
+! style="width: 13%" | Refinery
+Refineries
+! style="width: 13%" | Building Slot
+Building Slots
+|-
+| 1936
+| 28
+| 10
+| 35 (-15)
+| 2
+| 0
+| 170
+|}
+- Numbers in red indicate the number of civilian factories required to produce consumer goods, based on economy laws and the total number of military and civilian factories, rounded up.
+
+The German industrial capacity is formidable. Germany possesses the largest military production capacity out of all European countries and its civilian industry is on par with the other European major countries. The only thing Germany lacks is a sizable naval production capacity, something that eventually needs to be addressed in order to challenge the navies of other countries.
+
+## Resources [verified for 1.17]
+
+{| class="wikitable" style="text-align: center"
+|+
+! style="width: 9%" |
+Year
+! style="width: 13%" | oil
+Oil
+! style="width: 13%" | aluminum
+Aluminum
+! style="width: 13%" | rubber
+Rubber
+! style="width: 13%" | tungsten
+Tungsten
+! style="width: 13%" | steel
+Steel
+! style="width: 13%" | chromium
+Chromium
+! style="width: 13%" | coal
+Coal
+|-
+| 1936
+| 4 (-1)
+| 153 (-38)
+| 0
+| 5 (-1)
+| 301 (-75)
+| 5 (-1)
+| 278 (-69)
+|}
+- These numbers represent the available resources one hour into the game. Numbers in red indicate how many resources are reserved for export due to trade laws.
+
+As far as resources are concerned, Germany falls a little short compared to the United Kingdom and France. While Germany has access to a large amount of steel and a good amount of aluminum, they have a severe shortage of everything else and can easily become dependent on foreign import to fuel their military apparatus. Luckily, the Rubber and Oil shortage can be at least partially mitigated with synthetic resource refineries while metals (Tungsten and Chromium) can be secured throughout Europe.
+
+# Military [verified for 1.17]
+
+German Reich's Wehrmacht is divided into three parts: the Heer (Army), the Kriegsmarine (Navy) and the Luftwaffe (Air force).
+
+## Army
+{| class="wikitable sortable" style="width: 300px;"
+|+ style="color:black;"| Army of German Reich
+! width=1% class="unsortable" | !! width=80% | Type !! width=15% | # 1936 !! | # 1939
+|-
+| || Infantry
+| align="center" | 24
+| align="center" | 99
+|-
+| || Mountaineers
+| align="center" | 1
+| align="center" | 3
+|-
+| || Paratrooper
+| align="center" | 0
+| align="center" | 1
+|-
+| || Cavalry
+| align="center" colspan="2" | 1
+|-
+| || Motorized Infantry
+| align="center" | 1
+| align="center" | 7
+|-
+| || Light Tank
+| align="center" | 3
+| align="center" | 11
+|-
+! !! style="text-align: left;" | Total divisions || 30 || 122
+|-
+! !! style="text-align: left;" | Manpower used || 269.60K || 1.10M
+|}
+
+In 1936, the Heer is relatively small compared to the armies of the other major powers. However, quality is its strength, the Heer is well trained, with all divisions being regulars and thus receiving 25% bonuses in combat. The Heer is also well equipped, with no equipment shortages, large infantry divisions (a width of 18), and support artillery and engineers. Most importantly, it has a highly elite mobile segment, with 3 light tank Panzer divisions and one motorized SS division.
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | Division composition list
+! Division !! Name list !! # 1936 !! # 1939 !! Support companies !! Combat battalions
+|-
+| Infanterie-Division || Infantry Divisions || 24 || 83 || || 9x
+|-
+| Panzer-Division* || Panzer Divisions || 3 || 0 || || 4x 2x
+|-
+| Panzer-Division^ || Panzer Divisions || 0 || 7 || || 4x 3x
+|-
+| Infanterie-Division (mot.) || Motorized Divisions || 1 || 4 || || 9x
+|-
+| Gebirgs-Brigade* || Mountain Divisions || 1 || 0 || || 6x
+|-
+| Kavallerie-Brigade* || Cavalry Divisions || 1 || 0 || || 4x
+|-
+| Kavallerie-Brigade^ || Cavalry Divisions || 0 || 1 || || 3x
+|-
+| Gebirgs-Division^ || Mountain Divisions || 0 || 3 || || 9x
+|-
+| Fallschirmjäger-Division^ || Paratrooper Divisions || 0 || 1 || || 5x
+|-
+| Leichte Division^ || Light Divisions || 0 || 4 || || 1x 4x
+|-
+| SS-Regiment^ || SS Divisions || 0 || 3 || || 3x
+|-
+| Sicherungs-Division^ || Garrison Divisions || 0 || 16 || || 9x
+|-
+| colspan="6" | * marks a division that is removed in the 1939 start.
+^ marks a division that is only available in the 1939 start.
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | No Step Back Tank variants list
+! Type !! Chassis !! Role !! Main Armament !! Turret !! Suspension !! Armor (level) !! Engine (level) !! Special Modules
+|-
+| Panzer II Ausf. A* || Improved Light || Light Tank || Autocannon || Two Man || Christie || Riveted (2) || Gasoline (3) || Basic Radio
+|-
+| Panzer II || Improved Light || Light Tank || Autocannon || Two Man || Christie || Riveted (3) || Gasoline (3) || Basic Radio
+|-
+| Panzer 38(t)^ || Improved Light || Light Tank || High Velocity Cannon || Two Man || Bogie || Riveted (3) || Gasoline (3) || Basic Radio, Smoke Launchers
+|-
+| Neubaufahrzeug || Basic Heavy || Heavy Tank || Close Support Gun || Three Man || Bogie || Riveted (2) || Gasoline (6) || Basic Radio, 3x Heavy Machine Gun
+|-
+| Panzer III Ausf. F^ || Basic Medium || Medium Tank || Improved Small Cannon || Three Man || Torsion Bar || Welded (3) || Gasoline (6) || Basic Radio, Smoke Launchers
+|-
+| Panzer IV Ausf. C^ || Basic Medium || Medium Tank || Close Support Gun || Three Man || Bogie || Welded (3) || Gasoline (6) || Basic Radio, Smoke Launchers
+|-
+| Panzer I Ausf. A* || Basic Light || Light Tank || Heavy Machine Gun || One Man || Christie || Riveted (1) || Gasoline (5) || Basic Radio
+|-
+| Panzer 35(t)*^ || Basic Light || Light Tank || High Velocity Cannon || Two Man || Bogie || Riveted (2) || Gasoline (3) || Basic Radio
+|-
+| Leichttraktor* || Inter-War Light || Light Tank || Small Cannon || Two Man || Christie || Riveted (2) || Gasoline (2) || Basic Radio
+|-
+| Sturmpanzer
+Requires GER_artillery_bombardment
+ || Basic Medium || Medium SP Artillery || Medium Howitzer || Superstructure || Bogie || Welded (2) || Gasoline (6) ||
+|-
+| Nashorn
+Requires GER_artillery_bombardment
+ || Basic Medium || Medium Tank Destroyer || Medium Cannon || Superstructure || Bogie || Welded (2) || Gasoline (6) ||
+|-
+| Panzer III Ausf. A
+Requires GER_advanced_panzer_research
+ || Basic Medium || Medium Tank || High Velocity Cannon || Three Man || Bogie || Welded (3) || Gasoline (6) || Basic Radio, Smoke Launchers
+|-
+| Panzer IV
+Requires GER_advanced_panzer_research
+ || Basic Medium || Medium Tank || Close Support Gun || Three Man || Bogie || Welded (2) || Gasoline (6) || Basic Radio, Smoke Launchers
+|-
+| Sturmgeschütz III
+Requires GER_advanced_panzer_research
+ || Basic Medium || Medium SP Artillery || Medium Howitzer || Superstructure || Bogie || Welded (3) || Gasoline (4) || Basic Radio
+|-
+| Panther Ausf. A
+Requires GER_expand_kummersdorfs_capacity
+ || Advanced Medium || Medium Tank || High Velocity Cannon || Three Man || || Welded (4) || Gasoline (5) || Improved Radio, Sloped Armor, Smoke Launchers
+|-
+| Tiger I Ausf. A
+Requires GER_expand_kummersdorfs_capacity
+ || Improved Heavy || Heavy Tank || Heavy Cannon || Three Man || || Welded (6) || Gasoline (8) || Basic Radio, Smoke Launchers, Additional Machineguns
+|-
+| Panzer VII Löwe
+Requires GER_treaty_with_the_ussr
+ || Improved Heavy || Heavy Tank || Improved Heavy Cannon || Two Man || Torsion Bar || Welded (6) || Gasoline (6) || Basic Radio, Additional Machineguns, Sloped Armor
+|-
+| Panzerjäger Elefant
+Requires GER_treaty_with_the_ussr
+ || Improved Heavy || Heavy Tank Destroyer || Improved Heavy Cannon || Superstructure || Torsion Bar || Welded (6) || Gasoline (6) || Basic Radio, Additional Machineguns, Squeeze-bore Adaptor, Sloped Armor
+|-
+| colspan="9" | * marks a variant as "outdated".
+^ marks a variant that is only available in the 1939 start.
+|}
+
+## Navy
+{| class="wikitable sortable" style="width: 300px;"
+|+ style="color:black;"| Navy of German Reich
+! width=1% class="unsortable" | !! width=80% | Type !! width=15% | # 1936 !! | # 1939
+|-
+| || Battleship
+| align="center" | 2
+| align="center" | 4
+|-
+| || Heavy Cruiser
+| align="center" | 2
+| align="center" | 4
+|-
+| || Light Cruiser
+| align="center" colspan="2" | 8
+|-
+| || Destroyer
+| align="center" | 12
+| align="center" | 32
+|-
+| || Submarine
+| align="center" | 14
+| align="center" | 58
+|-
+| || Convoy
+| align="center" colspan="2" | 200
+|-
+! !! style="text-align: left;" | Total ships || 38 || 106
+|-
+! !! style="text-align: left;" | Manpower used || 21.00K || 49.37K
+|}
+
+The Kriegsmarine ("War Navy") is small and outdated in 1936, and without serious rearmament efforts, it won't stand a chance against the Royal Navy due to a lack of modern capital ships and air power. However, it can be rebuilt in the time available into an effective fighting force, especially if operating under the protection of the Luftwaffe. Germany starts with some technological advantages in naval design, including 1936 designs for light cruisers, destroyers and submarines.
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | Naval units list
+! Type !! Class !! Hull !! Engine !! # 1936 !! 1936 !! # 1939 !! 1939 !! Design note
+|-
+|CV || Graf Zeppelin^ || Basic Carrier || Carrier II || || || || 1 || 3x Hangar Space, Secondary Battery I, Anti-Air I
+|-
+|BB || Deutschland* || Pre-Dreadnaught || Heavy II || 2 || || 2 || || Heavy Battery I, Secondary Battery I, 2x Anti-Air I, Fire Control 0, Battleship Armor I
+|-
+|BC || Scharnhorst || Basic Heavy Ship || Heavy II || || 2 || 2 || || 2x Heavy Battery II, 2x Secondary Battery I, 2x Anti-Air I, Fire Control 0, Battlecruiser Armor I
+|-
+|BB || Bismarck^ || Basic Heavy Ship || Heavy II || || || || 2 || 2x Heavy Battery III, 2x Secondary Battery II, 2x Anti-Air I, Fire Control I, Battleship Armor II, Floatplane Catapult I
+|-
+|CA || Admiral Hipper || Basic Cruiser || Cruiser II || || 1 || 1 || 4 || 2x Medium Battery II, 2x Anti-Air I, Fire Control 0, Cruiser Armor II, Torpedo Launcher I, Floatplane Catapult I
+|-
+|CA || Deutschland || Panzershiff || Cruiser II || 2 || 1 || 3 || || Heavy Battery II, Secondary Battery I, Anti-Air I, Fire Control 0, Cruiser Armor I, Torpedo Launcher I, Floatplane Catapult I
+|-
+|CL || Bremse* || Early Cruiser || Cruiser I || 2 || || 2 || || Light Battery I, 2x Anti-Air I, Fire Control 0, 2x Minelaying Rails
+|-
+|CL || Emden* || Early Cruiser || Cruiser I || 1 || || 1 || || 2x Light Cruiser Battery I, Fire Control 0, Cruiser Armor I, Torpedo Launcher I
+|-
+|CL || Königsberg* || Early Cruiser || Cruiser II || 3 || || 3 || || 2x Light Cruiser Battery I, Anti-Air I, Fire Control 0, Cruiser Armor I, Torpedo Launcher I, Minelaying Rails
+|-
+|CL || Leipzig || Basic Cruiser || Cruiser I || 2 || || 2 || || 2x Light Cruiser Battery I, 2x Anti-Air I, Fire Control 0, Cruiser Armor I, Torpedo Launcher I, Floatplane Catapult I
+|-
+|DD || Type 24* || Early Destroyer || Light I || 12 || || 11 || 6 || Light Battery I, Fire Control 0, Torpedo Launcher I, Minelaying Rails
+|-
+|DD || Zerstörer 1934* || Basic Destroyer || Light II || || 4 || 4 || || Light Battery II, Anti-Air I, Fire Control 0, 2x Torpedo Launcher I, Minelaying Rails
+|-
+|DD || Zerstörer 1934A || Basic Destroyer || Light II || || 12 || 12 || || Light Battery II, Anti-Air I, Fire Control 0, 2x Torpedo Launcher I, Depth Charge I
+|-
+|DD || Zerstörer 1936^ || Basic Destroyer || Light II || || || 5 || 1 || Light Battery II, Anti-Air I, Fire Control 0, Torpedo Launcher I, Depth Charge I
+|-
+|SS || Type II* || Early Submarine || Submarine I || 14 || 8 || 26 || || Torpedo Tubes I
+|-
+|SS || Type VII^ || Basic Submarine || Submarine I || || || 32 || 5 || Torpedo Tubes II
+|-
+| colspan="9" | * marks a variant as "outdated".
+^ marks a variant that is only available in the 1939 start.
+
+Ship type terminology:
+- CV - Carrier
+- BB - Battleship
+- CA - Heavy cruiser
+- CL - Light cruiser
+- DD - Destroyer
+- SS - Submarine
+|}
+
+## Air force
+{| class="wikitable sortable" style="width: 400px;"
+|+ style="color:black;"| Air force of German Reich
+! width=1% class="unsortable" | !! width=80% | Type !! width=15% | hoi4 1936 !! | By Blood Alone 1936 !! | hoi4 1939 !! | By Blood Alone 1939
+|-
+| || Fighter
+| align="center" colspan="2" | 280
+| align="center" | 1158
+| align="center" | 1279
+|-
+| || Close Air Support
+| align="center" colspan="2" | 80
+| align="center" colspan="2" | 391
+|-
+| || Naval Bomber
+| align="center" colspan="2" | 72
+| align="center" colspan="2" | 162
+|-
+| || Heavy Fighter
+| align="center" colspan="2" | 0
+| align="center" | 120
+| align="center" | 0
+|-
+| || Tactical Bomber
+| align="center" colspan="2" | 480
+| align="center" colspan="2" | 1056
+|-
+| || Transport Plane
+| align="center" colspan="2" | 80
+| align="center" colspan="2" | 132
+|-
+! !! style="text-align: left;" | Total planes || 992 || 992 || 3020 || 3020
+|-
+! !! style="text-align: left;" | Manpower used || 37.66K || 37.66K || 100.98K || 98.34K
+|}
+
+The Luftwaffe in 1936 is smaller than the RAF, which is usually its main adversary, and the small fighter force is outdated. However, the German Reich does start with 1936 designs for all aircraft except carrier variants and heavy fighters, meaning that modern aircraft production can begin right away and research efforts can be diverted elsewhere.
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | By Blood Alone Aircraft variants list
+! Type !! Airframe !! Role !! Main Armament !! Secondary Weapons !! Engine !! Special Modules
+|-
+| Do 22 || Basic Small || Naval Bomber || Light Torpedo Mountings || || 1x Engine II || Light MG Defense Turret, Floats
+|-
+| Ju 87 || Basic Small || CAS || Bomb Locks || || 1x Engine II || Light MG Defense Turret, Dive Brakes
+|-
+| Bf 109 D || Basic Small || Fighter || 4x Light Machine Gun || || 1x Engine II ||
+|-
+| Hs 123* || Inter-War Small || CAS || Bomb Locks || || 1x Engine I ||
+|-
+| He 51* || Inter-War Small || Fighter || 2x Light Machine Gun || || 1x Engine I ||
+|-
+| Do 17 || Basic Medium || Tactical Bomber || Medium Bomb Bay || || 2x Engine I || Light MG Defense Turret 2x
+|-
+| He 111 || Basic Medium || Tactical Bomber || Medium Bomb Bay || Medium Bomb Bay || 2x Engine II || Light MG Defense Turret 2x
+|-
+| Ju 86* || Inter-War Medium || Tactical Bomber || Medium Bomb Bay || || 2x Engine II || Light MG Defense Turret 2x, Extra Fuel Tanks
+|-
+| Do 23* || Inter-War Medium || Tactical Bomber || Medium Bomb Bay || || 2x Engine I ||
+|-
+| He 112^ || Basic Small || Fighter || 2x Light Machine Gun || 2x Cannon I || 1x Engine II ||
+|-
+| Bf 110 C^ || Basic Small || Fighter || 4x Light Machine Gun || 2x Cannon I || 2x Engine II ||
+|-
+| Bf 109 E^ || Basic Small || Fighter || 2x Light Machine Gun || 2x Cannon I || 1x Engine II ||
+|-
+| Ju 87 D
+Requires GER_dive_bombers
+ || Improved Small || CAS || Bomb Locks || Bomb Locks || 1x Engine II || Light MG Defense Turret
+|-
+| Ju 88
+Requires GER_tactical_bombers
+ || Improved Medium || Tactical Bomber || Medium Bomb Bay || Medium Bomb Bay || 2x Engine II || Light MG Defense Turret 2x
+|-
+| Ju 89
+Requires GER_uralbomber_program
+ || Basic Large || Strategic Bomber || Large Bomb Bay || || 4x Engine II || Light MG Defense Turret 2x, Light MG Defense Turret
+|-
+| FW 190
+Requires GER_form_the_jagdwaffe
+ || Improved Small || Fighter || 4x Light Machine Gun || 2x Light Machine Gun || 1x Engine II ||
+|-
+| He 115
+Requires GER_torpedobomber
+ || Improved Small || Naval Bomber || Light Torpedo Mountings || Bomb Locks || 2x Engine II || Light MG Defense Turret
+|-
+| Me 262
+Requires GER_aerodynamic_research_institute
+ || Modern Small || Fighter || 2x Cannon II || 2x Cannon II || Jet Engine 2X || Armor Plates, Drop Tanks, Self-Sealing Fuel Tanks
+|-
+| Ar 234
+Requires GER_aerodynamic_research_institute
+ || Modern Medium || Tactical Bomber || Medium Bomb Bay || Medium Bomb Bay || Jet Engine 2X || Extra Fuel Tanks
+|-
+| colspan="7" | * marks a variant as "outdated".
+^ marks a variant that is only available in the 1939 start.
+|}
+
+# Strategies and guides
+
+During 1936, player should build civilian factories until end of 1937 while not building infrastructure. Germany starts at Partial mobilization which doesn't have de-buff for building civilian factories. At the beginning of 1938 its wise to start shifting construction towards military factories. In the year 1939 you should start building refineries in Autobahn states for rubber and oil. After that build Military factories again.
+
+Start with the "Rhineland" national focus which gives you 120 political power to switch for Free trade law. Then pick either "Four Year Plan" second (delayed and few tech juggling in research to construction 1 and Basic Machine tools so bonuses does not applies to dispersed 1,2 or construction 2) or go "Army Innovations" and "Treaty with the USSR" and select "Four Year Plan" as fourth focus. Then continue to "Anschluss", "Demand Sudetenland/Slovenia" and other diplomatic focuses are achieved the player should take them. Germany is in a race against time to occupy Allied countries before they outgrow Germany industrially. Given enough time the Allied countries have enough factories and manpower to beat both Germany and Italy. Therefore it is recommended the player has declared war on France, Yugoslavia, Poland, and/or the Benelux countries before 1939 is over.
+
+Remember to send volunteers to fight for Nationalist Spain to gain military experience.
+
+Germany suffers from a lack of fuel for most of the early to mid-game so it's important to keep in mind to build refineries and trade are important parts of the pre-war buildup. After the war is declared with the Allies Germany can still trade with Romania and the Soviet Union without risking losing German convoys. Avoid trading with the Soviet Union, unless absolutely necessary, since Germany will likely be at war with them in the future and the player doesn't want to give them more civilian factories.
+
+In the buildup to the war with Poland Germany has many strategies to choose from.
+However, one approach is to build up the army with tanks and motorized, while upgrading the infantry template to include artillery and support divisions, air force with fighters and Close Air Support/Tactical Bombers and leaving the navy largely ignored as it won't help much in the wars with France, Poland and the Benelux countries. Use naval bombers and submarines to disrupt UK shipping and troop transports. This strategy largely follows the historical strategy of the German Reich.
+
+Another approach is to focus on a strong navy, particularly submarines. While only producing a small amount of "elite" tank divisions and letting motorized/motorized artillery divisions be your "punching force". Air superiority is still very important and it's recommended that Germany have deployed a minimum of 1000 fighters at the outbreak of the war. Use submarines to sink as much of UK transports and trade convoys in the English Channel at the start of the war. Keep the surface fleet in dock until the player thinks it can match the Royal Navy, and France has surrendered.
+
+## National focus
+
+A generally agreed upon order for national focus is as follows:
+
+### Historical
+- Rhineland
+- Army Innovations
+- Treaty with the USSR
+- Four Year Plan
+- Autarky
+- Hermann Goring-Werke
+- KdF-Wagen
+- Extra Research Slot
+- Reichsautobahn
+- Anschluss
+
+The overarching objective of this directive is to utilize the initial stages of the game to priorities the development of the German economy. These strategic choices, when coupled with a research focus on industrial development, result in the optimal economic growth trajectory, enabling the production of advanced military units at a significantly accelerated rate by 1939. To illustrate, the strategy of taking the Rhineland first assumes that the political power will be used to transition to a free economy, which provides a substantial early economic stimulus. One might regard choices 2 and 3 as somewhat flexible. However, they are presented in this manner because they provide very early medium armor, which allows for the production of Panzer IV units in 1938. This is a highly desirable outcome. The rationale for allocating the four-year plan to the fourth slot (as opposed to the second) is that it enables the player to capitalize on the research bonuses associated with that focus in subsequent years (assuming the player commences industrial technology research at the outset of the game). This allows the player to maintain a sustained focus on industrial technology research well in advance, thereby securing the aforementioned bonuses over an extended period. It is worth noting that the sequence Four Year Plan --> Autarky --> Hermann Goring-Werk --> KdF-Wagen is one that is likely to be beneficial in the majority of strategic scenarios. In conclusion, while the final three options are widely regarded as the optimal choices, flexibility is possible when pursuing specific strategies.
+
+For a historical DOW on Poland (9/1/1939), the following chain needs to start by February 1, 1939:
+
+17. Reassert Eastern Claims
+
+18. Molotov-Ribbentrop Pact
+
+19. Danzig or War
+
+The reason we are doing Reassert Eastern Claims first is to not allow the Soviet Union to possibly take Lithuania (and thus Memel) before us. You may reassert eastern claims at any time, so long as it happens before the Molotov-Ribbentrop Pact
+
+### Ahistorical (Democratic)
+- Oppose Hitler
+- Four Year Plan
+- Autarky
+- Kaiser Werke
+- Wilhelm Wagen
+- Extra Research Slot
+- Secure the New State
+- Re-Establish Free Elections
+- The Monarchy Compromise
+- Reverse the Brain Drain
+
+The general purpose of this order is to minimize the world tension generated by the player, and to prepare for the main focus of our conflict with the Soviet Union - as the German Civil War can vary for everyone, the 5 focuses in between Oppose Hitler and Secure the New State are to ensure that you have plenty of time. It's recommended that one rush the 2nd level of Industrial Focus (Concentrated/Dispersed Industry II and Construction II) before taking Four Year Plan to benefit the most from those bonuses - one does not need to have finished the respective techs to use the bonuses on the 1939 industry. If the civil war is still ongoing by the time you finish Extra Research Slot, feel free to add Army Innovations and Treaty with the USSR for more time and also to get Medium Tanks early (note you can take the latter focus any time as long as you haven't done Bulwark Against Bolshevism or the Great Red Menace, so if you want to hold off on taking them until you've flipped to Democracy, feel free to do so). If, on the other hand, you finish the civil war early, feel free to tackle Secure the New State early, and come back to what economic focuses you skipped after doing Re-Establish Free Elections while you wait for enough Democracy support to do the Monarchy Compromise.
+
+Note that taking Großraumwirtschaft during the civil war if it lasts that long is also worth considering, as doing so will allow you to align Hungary and Romania and boost Democracy in those countries, thus preventing them from flipping to Fascism and joining either Novus Imperium Romanum or the Greater East Asian Co-Prosperity Sphere (in the case of Romania, the boost from Appoint Pro-Allied Government may also result in them flipping back to Democracy).
+
+### Ahistorical (Imperial)
+
+- Army Innovations
+- Treaty with the USSR
+- Oppose Hitler
+- Naval Rearmament
+- Naval Effort
+- Four Year Plan
+- Secure the New State
+- Revive the Kaiserreich
+- Return of the Kaiser
+- Focus on the True Enemy
+
+Unlike with the Democratic tree, tension is not a limiting factor if pursuing the Kaiser and letting him restore the Central Powers - one can take some time to justify a few war goals before overthrowing Hitler; in particular, Switzerland or the Netherlands are ideal candidates (former gives one a second way of bypassing the Maginot if the French manage to secure the Belgian border; latter is ideal for gaining access to the Dutch East Indies and the oil, manpower, and other resources it grants), although if one wishes to have Wilhelm II, they should be mindful of how much tension they generate, as the UK and France can block the Netherlands from returning the Kaiser. Taking Army Innovations first allows for one to have some army XP to customize their divisions (in particular, adding 2 motorized units to the starting panzer division is very effective during the civil war), and Treaty with the USSR allows for one to get Medium Tanks early on. The two naval focuses are required to progress down Focus on the True Enemy (and getting more dockyards early means you can begin the construction of capital/screen ships earlier), and Four Year Plan's placement is to ensure that one at least has the chance to get started on the 1937 industry techs so they can research the 1939 ones ahead of time. Unlike with the Democratic Tree, however, it is advised that, if possible, for one to rush Return of the Kaiser as soon as possible; one can get enough Non-Aligned support by doing rounds of anti-Fascist/anti-Communist raids, and also banning the latter ideology.
+
+## Forming the Holy Roman Empire
+The Holy Roman Empire is a very daunting, but powerful, path that Germany can form, consisting of the Netherlands, Belgium, Luxembourg, Northern Italy, Austria, Czechoslovakia, Switzerland and some territory from France.
+
+First, one should wait until they have enough political power to justify on Yugoslavia; while the country itself (and Romania, who is one of the 3 nations guaranteeing Yugoslavia) is not required to form the HRE, it is guaranteed by 2 nations (France and Czechoslovakia) who are. In the meantime, use your starting infantry to guard the border with France, convert all your starting units who aren't infantry to the Panzer Division, and have them prepare a naval invasion from Wilhelmshaven to either Dunkerque or Calais. Train and force deploy cavalry until you have 48 units, and use them to guard the Czech border - make sure to exercise them so they aren't lv 1. Have your navy exercise until they are at least lv 2, and then set them on strike force on the necessary bodies of water. Your focuses should be Naval Rearmament, Army Innovations, Treaty with the USSR, Air Innovations, Four Year Plan, and Großraumwirtschaft - use the 10 Army XP you get from Army Innovations to add 2 motorized units to your Panzer Division Template, to make them faster and stronger, and use the bonuses from Four Year Plan to go ahead of time on the 1939 Industrial and Construction techs. Note that while Align Romania would allow you to eventually bring Romania into your faction (thus allowing you to get around the Romanian guarantee of Yugoslavia), by the time Romania would be able to join your faction, France will have joined the Allies as well as having cancelled its guarantee on Yugoslavia, so it's best to just hold off on aligning Romania (and it's best to wait until after you overthrow the Nazi regime to get them as a puppet anyways).
+
+When the war breaks out, launch your naval invasion as soon as France gets called in - while the starting French navy is stronger than the starting German navy, there is a small period where they will not be deployed in the English channel; even if you lose naval superiority during the invasion, as long as the naval invasion starts while you have superiority, you'll be able to carry it out. As soon as your 6 panzer divisions land on France, call back your navy and have them rush the victory points; due to the Disjointed Government spirit, if you can take Paris and a few other cities, they will capitulate easily (and the 2 motorized units you added will make the divisions very fast). After capitulating France, during the peace conference, take all of mainland France and Corsica as well as any resource-rich territory (French Indochina, France's South American territory, and some of their African colonies) and territory that isn't attached to a nation, and then liberate the rest - while you want to cause some world tension, you do not want to cause too much, as you want the British to like you (and if the tension gets too high in the civil war, there is a chance Italy could intervene on the Reich's side), yet you also want tension to be high enough so that you can form a faction with Austria (to annex them through an event) and Romania (after taking "Align Romania"). If you wish to go for House of Kurds on this playthrough, it's recommended that you liberate an extra African territory to compensate for the tension taking the French-held Kurdish territory will generate (alternatively, one can liberate Brittany, as it is not required for the HRE; liberating Occitania is not a good idea, as one of the Occitanian cores, Savoy, is required for forming the nation). Do not puppet any nations - when the civil war breaks out, any puppets you have will join the Reich, and will go free after the Reich falls.
+
+After the peace deal with France, take your Panzer Divisions and have them enter the tile of Czechoslovakia that borders Poland; this tile will not be fortified, and will go down easily. Have the Panzers rush the Victory points and capitulate them. After this, use your cavalry units to stop the Romanians from entering (as neither France nor Czechoslovakia will have joined a faction, you will not have to worry about capitulating a faction leader; that being said, if you justify any more war goals while at war, they will be guaranteed by the British, so don't), and disband the rest of your army. As soon as Czechoslovakia capitulates (take all states; while you only need the Czech states and not the Slovak states, you might as well take everything), take Oppose Hitler, and 1-2 days before that focus completes, disband your existing units (the Romanians will not be able to get to any of your cores in this time), and send all your equipment to either Nationalist or Republican Spain (or one of the Chinese Warlords, if the Sino-Japanese war has broken out). After the war fires, cancel the lend-lease, take the Decision "Sharpen Air Safety Regulations" (to ensure that you do not get the Hindenburg Disaster; the only other guaranteed way to prevent it is to remain at war until May 6, 1939, which is not practical), and train Panzer Divisions (6 at a time) - the AI's troops are nowhere near as strong as even force-deployed Panzer Divisions. Romania and Yugoslavia will still be at war with the AI Controlled German Reich, but they will not be at war with the German Military Junta (if you wish to have the Romanian occupied lands in Czechoslovakia revert to your control, give Romania military access). It's also recommended that you change your conscription and mobilization laws now if you want to - going to Extensive Conscription as Germany is a very good idea, as Fan Prussian Militarism can offset the training time increase Extensive Conscription has, and you won't get another chance to go to War Economy for a while. During or after the war, form a faction with Austria - this will get you an event that allows you to peacefully annex them after a random amount of time (if you form a faction with them during the war, the event can still fire, which will result in not only a new front opening for the Reich, but also you getting their well-equipped troops). After completing the war, consider taking "Align Hungary", "Align Romania", and "Integrate War Economies" to get Romania as a puppet (Hungary won't become a puppet as you own Czechoslovakia, some of the states it has claims on). If historical is on and one has Death or Dishonor, by 1938, Romania should flip to Non-Aligned (the "Align Romania" focus will help tremendously), and will accept an invitation to your faction. If one has La Resistance, consider setting up a collaboration government on Italy by this point for later.
+
+Regardless of if you decided to Integrate the Economies of Romania and Hungary or not, take Restore the Kaiserreich and Return of the Kaiser, but disband all your units before the latter finishes - as long as you have fewer units than the Dutch, they will block the return of the Kaiser (note that units that have yet to be deployed are not counted; as such, feel free to queue up a large number of units before disbanding your army; make them a single cavalry or infantry division to get them out quickly). Rather than declare war in response, accept their decision to get Wilhelm III (if one has caused too much World Tension, the British can threaten war instead of the Dutch blocking you, but as we need to have the British on our side, we can't let that happen). Then, wait for some of the tension you caused to go down (now would be a good time to take Fan Prussian Militarism, as well as any other economic focuses you want), and take the decisions "Reinstate Wilhelm's Line of Succession" and "Modernize the Succession Laws" (the latter will allow Victoria to become Kaiserin). Afterwards, take "Expatriate the Communists", and let the tension die down more - do not take "See to the Eastern Front" until after you have restored the British Titles, as it will raise world tension (and thus lower British opinion of you. After a few months (stockpiling PP in the meantime), take "Acknowledge British Naval Dominance" and "An Alliance with the Shade", join the UK (making sure to request military access beforehand), and after getting their opinion of you to 100 (if improving relations doesn't get it, guarantee their independence) request the restoration of British Titles. When they accept, opt to send a liaison forward, and the rest of the royal family will die in an event, letting you get Queen Victoria - if the Hindenburg Disaster was gotten instead of the Hindenburg incident, you will not be able to get Victoria and will instead get August Von Mackensen again, and have to restart. Note that it's recommended that if you wish to build any more capital ships, you do so before acknowledging British Naval Dominance (an Aircraft Carrier or two is not a bad idea, especially since you have more than enough Chromium from New Caledonia); after the focus finishes, divert all dockyard production to submarines/destroyers and convoys afterwards (as well as repairing your existing ships).
+
+With the Royal Titles restored, and the Kaiserin on the throne, you now have the Benelux, Italy, and Switzerland left to conquer before you can form the HRE. While you can manually justify a war goal on Italy (as a non-aligned nation, tension will be high enough, and Italy will have caused world tension), it is much easier to guarantee the independence of either Greece or Yugoslavia, and have them call you in when Italy inevitably declares war on one of them (naval invasions on the Italian coastal cities in combination with a few collaboration governments should do the trick). Afterwards, defeat Italy, take the northern Italian territories (Piedmont (158), Lombardy (159), South Tyrol (39), Veneto (160), Emilia Romagna (161), Tuscany (162) and Istria (736)) required, and leave the Allies (feel free to take See to the Eastern Front and Danzig for Guarantee to return Memel to your borders and have East Prussia connected at this point; you can later form a faction with Poland if you wish, who likely are still non-aligned and are inclined to join a faction with you). Garrison troops on the UK's victory points, justify on the Benelux countries or Switzerland (due to how high world Tension is, if the UK is controlled by an AI, they will guarantee them), and when the war is declared, the British will join, which will cause them to come close to capitulating, if not instantly capitulating. If Man the Guns is installed, there's a very good chance that the Netherlands has joined the Allies by this point, so you could justify on either Belgium or Luxembourg and also get the Dutch in the peace deal. If playing with Man the Guns, it's recommended that one do this sooner rather than later, as there is a chance that if the British have not taken their political focuses, they will take a Change in Course and go Fascist/Communist (if they take the former, they'll join the Japanese on historical; if they go the latter, they'll join the USSR). Take whatever you want during the peace deal (while you cannot get territory from Australia, Canada, New Zealand, or South Africa unless you occupied them, fought them directly, or dropped one bomb on them through strategic bombing, you can satellite British Malaya and the Raj; if you do wish to go after the British dominions, however, you should have territory to stage naval invasions from thanks to the French lands of Madagascar (543), St. Pierre and Miquelon (730), and New Caledonia (635), and compared to the Royal Navy, the colonial navies are relatively weak), and then focus on taking down the remaining Benelux countries and Switzerland - the latter can be defeated easily if you use a trap, tricking them into coming onto territory you control (outside of the mountains), and then rushing their victory points. Afterwards, take the decision and restore the HRE. If you took Danzig for Guarantee and See to the Eastern Front, congratulate yourself on restoring not just the HRE, but Prussia to German hands.
+
+By this point, there are very few nations that can stand up to you (the United States, USSR, and a fully unified China are the most notable examples), so feel free to do whatever you want.
+
+# Achievements
+
+FOCUS Don’t Die for Your Country: As Germany in a 1939 start, occupy all of Poland and France without taking more than 475 casualties.
+FOCUS Monarchy is Back in Fashion: As Germany, Bring back the Kaiser and ensure that Italy is controlled by Victor Emmanuel by killing Mussolini.
+FOCUS Operation Sea Lion: Control British mainland as Germany.
+FOCUS Our Other Place in the Sun: As Imperial Germany, conquer a Caribbean island.
+FOCUS True Blitzkrieg: As Germany have both Poland and France surrender before January 1st 1940
+FOCUS Why Die For Danzig?: As Germany, turn France fascist and occupy Danzig without going to war with France.
+FOCUS Not much fun in Stalingrad: As Germany, capitulate the Soviet Union without taking Stalingrad.
+FOCUS By Beer Alone: As Germany, control Budweis, Tsingtao, and Guinness directly or through a faction member.
+FOCUS Naval Arms Race: As Germany led by an Admiral capitulate the United Kingdom
+FOCUS Weltpolitik: As Germany take control of all of your former colonies
+FOCUS Woman in a High Castle: As Germany with a female leader either annex the USA, including Alaska and Hawaii or have an American puppet that owns all the American starting states, including Alaska and Hawaii.

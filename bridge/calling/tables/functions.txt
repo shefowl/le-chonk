@@ -1,0 +1,65 @@
+VERIFIED FUNCTION ADDRESSES
+===========================
+
+Hearts of Iron IV 1.19.3.0 (Linux ELF, stripped, build-id a4971c9e8ac9a6f2487dea109e01f9839ee59db7). Addresses are
+relative to the IMAGE BASE: runtime address = image_base + offset.
+
+Every signature here was recovered by disassembly. Calling an address
+that is NOT on this list, with guessed arguments, crashes the game --
+which is why api.call() refuses anything else (force=True overrides).
+
+
+OFFSET           FUNCTION
+------------------------------------------------------------------------------
+img+0xA44AF0     diplomacy
+img+0xA46FC0     diplomacy
+img+0xA510D0     diplomacy
+img+0xA578C0     diplomacy
+img+0xD220D0     read side
+img+0xD38840     (see source)
+img+0xD39CA0     (see source)
+img+0xD77320     (see source)
+img+0x11D9190    (see source)
+img+0x20A8C40    CPauseGame ctor(this,std::string*,u8,u8) / CanExecute
+img+0x20A8DE0    CPauseGame ctor(this,std::string*,u8,u8) / CanExecute
+img+0x20C6F20    (see source)
+img+0x2125090    (see source)
+img+0x21F8030    armies and battle plans
+img+0x21F88E0    armies and battle plans
+img+0x21F9230    armies and battle plans
+img+0x21FA010    armies and battle plans
+img+0x21FC9B0    armies and battle plans
+img+0x21FCE50    armies and battle plans
+img+0x21FF3B0    armies and battle plans
+img+0x2200D80    armies and battle plans
+img+0x22014B0    Calling it in a live game FROZE it. Never call it.
+img+0x2201F40    Calling it in a live game FROZE it. Never call it.
+img+0x2205C10    armies and battle plans
+img+0x2206330    armies and battle plans
+img+0x2207330    armies and battle plans
+img+0x2207BA0    armies and battle plans
+img+0x220D510    armies and battle plans
+img+0x220ECB0    armies and battle plans
+img+0x2212780    armies and battle plans
+img+0x2212B20    armies and battle plans
+img+0x2212D00    armies and battle plans
+img+0x2213140    armies and battle plans
+img+0x2213A80    armies and battle plans
+img+0x2214080    armies and battle plans
+img+0x2215D40    armies and battle plans
+img+0x2216310    armies and battle plans
+img+0x2216800    armies and battle plans
+img+0x2216A10    armies and battle plans
+img+0x23FB1E0    Calling it in a live game FROZE it. Never call it.
+img+0x2D95150    Resolve(handle*) -> obj
+img+0x2D96CB0    read side
+img+0x2DA10A0    read side
+img+0x2DD3E80    CommandQueue::Post
+img+0x345D230    console
+img+0x345D250    console
+img+0x3483CF0    token id -> std::string*
+img+0x34979E0    operator new
+img+0x3497A00    operator delete
+img+0x3497A20    operator delete
+
+Total: 50 addresses

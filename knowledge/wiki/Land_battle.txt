@@ -1,0 +1,129 @@
+TITLE: Land battle
+URL: https://hoi4.paradoxwikis.com/Land_battle
+REVISION: 2025-12-10T01:13:23Z (rev 94545)
+VERIFIED FOR: 1.15
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+A land battle is a combat in the defending divisions' province initiated by attacking divisions trying to move into the province. It is resolved in one-hour-turns, with divisions dealing damage against automatically selected enemy divisions. The battle is won by either side when the opponent runs out of frontline divisions able to continue fighting. If the attacker wins, the defender's units are forced to retreat to another province (or shatter if they have nowhere to retreat).
+
+# Tactics
+(Main article: Combat tactics)
+Tactics are automatically selected by the leading generals. They provide damage, movement speed, and base combat width modifiers in the battle.
+
+# Combat width
+The maximum concentration of force of both sides in a battle is limited by its combat width. The available width is increased if attackers are engaging from multiple provinces (flanking). Paradrops will add another flanking direction, as will naval invasions. Base width, and subsequently flanking width, is dependent on terrain where the combat is taking place.
+
+The combat width of a division is the total width of its battalions. Most battalions have a combat width of two, artillery (including motorized and self-propelled) guns have a combat width of three. Anti-tank and anti-air battalions (including motorized) have a combat width of one. Support companies occupy no combat width. (See also Land_units#Unit_types.) The Vast Offensives and Human Wave Offensive technologies from mutually exclusive branches of the Mass Assault doctrine tree reduce the width of ordinary infantry battalions by 0.4, meaning 25% more infantry battalions can fit in the same infantry frontage. The Holding the Line technology from the Mountaineers Special Forces doctrine tree reduces the width of mountaineer battalions by 0.2.
+
+At the start of a battle or when reinforcing (see below), divisions will be added from the reserve to the frontline unless the combat width has already been filled or the combat width penalty would exceed -33%. The combat width penalty is calculated as -100% * (total_width - battle_width) / battle_width.
+
+Examples:
+- In an 80-width Urban battle, it is possible to have 106 total width (penalty of -32.5%), but not 107 (penalty of -33.75%).
+- In a 70-width Plains battle, the last out of 8 divisions of 10-widths will remain in reserve, because the combat width is already filled, even though the combat width penalty would only be ≈ % (from -100% * (80-70)/70).
+
+# Reserves
+
+Divisions that initially did not fit into the combat width or that join the combat after it has already started end up in reserves. While in reserve, these units do not take or deal damage, do not regain organization and do not increase their entrenchment or preparation bonuses. They do provide recon and anti-air capabilities though.
+
+One unit in reserve has a chance to join combat every hour as long as there is combat width available. The base chance to join is only 2% per hour (so mean time to join is about 35 hours). This chance is greatly improved by having Radio researched, by division speed, doctrine tech, and having a signals company attached to the division.
+
+As a defender, try providing reserves in a timely manner so they have time to reinforce the frontline and are not forced to retreat and potentially be overrun. If fighting at full width with fresh reserves, consider manually retreating your defending units that are very low on organization one at a time one province away from the front so they can recover and reserves can fill in. Otherwise, you run a risk that all frontline troops get low on organization and retreat at the same time, giving reserves no chance to reinforce.
+
+If you are on the attacking side, consider not attacking with more units than can fit into combat width so that the rest, instead of waiting in reserve, can recover organization and gain the planning bonus. When you do have reserves and width available (if they caught up, or a division runs out of organization) and all defender units are already fighting, instead of waiting for reinforcement, it can be useful to stop the combat and attack again so all your units join immediately.
+
+# Attacks
+When encountering a target of a particular hardness, the soft attack and hard attack stats of the damage dealing division are combined to produce a number of attacks against the target. The more hardness the target has, the more hard attack factors into the number of attacks and vice versa. For example, a division with 0% hardness receives all soft attacks and none of the hard attacks while a division with 25% hardness would receive 25% of the hard attacks and 75% of the soft attacks.
+
+# Defenses
+The target of damage has a number of defenses to partially protect it. For divisions on the defender's side this is the Defense stat, on the attacker's side it is Breakthrough.
+
+# Damage dealing
+
+In damage dealing, the number of attacks is round(hardness modified attack / 10) and the number of defenses is round(defense / 10). Both attacks and defenses reset every hour.
+
+Each attack has the potential to be a hit (causes HP and organization damage) or a miss (no effect on HP and organization). After each attack, the defending unit removes one defense (if it has some left). The hit chance depends on whether the defender had any defenses left. If it did, the hit chance is 10%. Without any defenses left, the chance increases to 40%.
+
+For each hit, the amount of possible damage done is randomly determined by a die. For HP damage, the dice size is 2 and for organization damage, it is 4. The exact amount of damage done to HP and organization per hit is calculated by multiplying the obtained die rolls with the damage modifiers (base modifiers of 0.06 for strength and 0.053 for organization, tactics attack modifiers, and armor reduction). Other modifiers affect the number of attacks, thus the number of hits, but not the amount of resulting damage per hit.
+
+When armored units target a unit that has insufficient piercing, the organization dice size is increased by 6, representing the ability of the armored unit to move more freely under fire, obtain better positioning and thus deal more damage. This means an unpierced armored unit on average does 5.5 organization damage per hit instead of 2.5, a +120% increase.
+
+As a unit takes HP damage in combat, its damage output gets scaled down. The scaling is rounded to multiples of 10%, e.g. for strength less than 100% but greater or equal to 90%, the damage output is scaled by 90%. Note that damage done to a unit's HP does not change the other stats of the unit before the combat is finished.
+
+To summarize the above with an example: an armored division with 1000 soft attack vs an infantry division with 500 defense stat.
+
+- 50 attacks against defense have a 10% hit chance.
+- 50 attacks against no defense have 40% hit chance.
+- On average, the infantry division is hit 50 * 0.1 + 50 * 0.4 = 25 times.
+- For each organization die roll, 3.5 is expected.
+- The armored division is damaged to slightly less than 100% HP and so has a 90% damage scaling factor.
+- In total, the armored division is expected to deal 25 * 3.5 * 90% * 0.053 = 4.17375 organization damage per hour. For a regular infantry division with 50-60 organization, the combat is expected to finish in about half a day.
+
+## Targeting
+Divisions do not attack enemies uniformly. Each division has an "Engagement Width" of twice its own combat width, used to create a list of targets. Enemy divisions are added in a random order, rejecting any that would cause the list of targets to exceed the engagement width. If none of the enemy division fit, one is picked randomly.
+
+For example, a 36 width division has an engagement width of 72. Its list of targets could include five 14 width divisions (5*14 < 72) but if it were to encounter five 15 width divisions it would only engage four of them at a time (5*15 > 72). Whenever there is a pool of targets where none of them fit into the engagement width of the one picking the targets, one will be chosen randomly. If there are any targets that don't fit into the engagement width, and some others that do, the ones that do not fit are ignored and targets will only be chosen from those that do fit into the engagement width.
+
+The attacks are split into an uncoordinated and coordinated part. Uncoordinated attacks are spread between all targets in the engagement width according to their respective width. One selected priority target additionally receives all of the coordinated attacks, increasing the chance to overcome its defenses.
+
+The coordinated share is DAMAGE_SPLIT_ON_FIRST_TARGET + Coordination × (1 + Initiative).
+- Initiative is a division stat that is usually gained from the signal company , though it can also be gained from other sources.
+- Coordination is a global stat that is usually gained from researching Radio technologies and RADAR technologies, but can also be gained from certain land doctrines and officer corps spirits.
+
+The priority target is chosen by
+- considering how hardness affects the number of effective attacks the attacker would have against the target, with a slight bias for hard attacks
+- avoiding armored targets: if armor exceeds the attacker's piercing, the rating is halved
+- favoring low organizaton: based on the formula
+
+E.g. a 36 width division with 1000 attacks has five 14 width divisions with 200 defense on its list of targets. There are no additional modifiers to coordination in play. 650 attacks will then be allocated to the split attack. Each enemy division will receive 130 of those. The remaining 350 that was partitioned off with then be applied to whichever is considered the best target. If there are no other divisions left to be assigning attacks, the attacks are then compared to defences and resolved as hits. The 4 sub-targets will each receive 130 attacks compared to their 200 defense, while the primary target will receive 480 compared to 200 defense. If there was a second attacking division that had the exact same distribution, the sub-targets would each receive 260 hits against 200 defense, and the primary would get 960 against 200 defense.
+
+## Collateral damage
+Infrastructure in the state and fortifications in the province receive damage based on the attacker's attacks. The amount scales with the attacker's number of attacks, soft attack component and damage scaling factor. Damage against fortifications only occurs with a probability of 5 while infrastructure always gets damaged. Attacks by close air support do not cause collateral damage.
+
+The damage against infrastructure gets scaled further as described in Construction#Damage_and_repair.
+
+The Siege Artillery ability doubles both the probability and the damage against land forts.
+
+# Combat factors
+The following factors modify the number of attacks and/or defenses a unit has in combat (list is not exhaustive). All factors stack multiplicatively, so it is possible to reach very low or high values depending the tactical situation.
+- Terrain: the attacker receives attack and breakthrough penalties in rough terrain, up to -50% (even more with heavy units)
+- River crossing: penalty of -30% or -60% for attacker attack and breakthrough depending on the river size
+- Night: penalty of -50% for attacks of both sides, mitigatable with Land Night Attack bonuses
+- Fort: penalty for attacker attack and breakthrough of -15% per fort level. Each extra attacking direction cancels out one fort level, but not the last level.
+- Encirclement: penalty for defender -30% if all surrounding land provinces are enemy-controlled (excluding islands)
+- Enemy air superiority: up to -35% penalty for whichever side is facing hostile air superiority
+- Low supply: scaling attack/defense penalties up to -25%/-65% and -35%/-15% for the attacker and defender, respectively
+- Exceeding combat width penalty: -1% per extra percent of combat width, up to -33%
+- Stacking penalty for having too many divisions in combat: -2% per division over the stacking limit. The stacking limit is 5, plus 3 per flanking direction.
+- In multiple combats: -50% for a division that is in multiple combats (e.g. attacking while being attacked)
+- Paradrop penalty: -30% combat penalty for 48 hours after being paradropped
+- Amphibious penalty: -50%
+- Commander skill: +2.5% per skill point for both attack and defense
+- Planning bonus: up to +30% for the attacker, which can be further improved by a doctrine to +110% or more
+- Entrenchment: +2% for the defender per each point built
+- Air support: bonus to attack and defense (in addition to direct damage support planes do)
+- Country bonus
+- Division experience: -25% for Green , +0% for Trained , +25% for Regular , +50% for Seasoned , and +75% for Veterans
+- Intel advantage: up to +15% from army intel advantage (starting at 5 and maxing out at 50 intel advantage)
+- Tactics: +20% from breakthrough as an example.
+
+For example:
+- experience +75%
+- entrenchment +40%
+- terrain +20%
+- country +40%
+- commander skill +35%
+results in a modifier of +456% to base stats (1.75*1.4*1.2*1.4*1.35=5.56)
+
+The final factor is capped at 1% if the multiplied value is lower.
+
+# Equipment damage
+After the battle ends, the ratio of HP lost is translated into equipment and manpower losses with a factor of 70%. The stats of the unit are locked during the combat if the template is unchanged, and are only updated after the combat.
+
+# Equipment capture
+The winning side of the battle can capture a portion of the enemy's lost equipment if they have the Equipment Capture Ratio (ECR) stat. The default value for this stat is 0%, but can be gained through the use of maintenance , the Scavenger general trait, and various national spirits. Each division gets access to a portion of the enemy losses according to its manpower times its ECR and recovers equipment according to its ECR. For example, if the winning side of a battle has one division with 10000 manpower and 5% ECR and another division with 20000 manpower and 10% ECR, the former will recover 20% * 5% = 1% of the enemy's lost equipment while the latter will recover 80% * 10% = 8% (80% vs. 20% due to having 4 times the manpower times ECR).
+
+# Equipment recovery
+The winning side recovers a portion of its own equipment based on its reliability. Each division recovers {{#tag:math|\text{recovery ratio} = \text{reliability}^2 \cdot 40\% }} of its lost equipment, including shot down air support planes.
+
+# References

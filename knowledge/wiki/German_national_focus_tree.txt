@@ -1,0 +1,111 @@
+TITLE: German national focus tree
+URL: https://hoi4.paradoxwikis.com/German_national_focus_tree
+REVISION: 2026-02-21T10:02:48Z (rev 97597)
+VERIFIED FOR: 1.17
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+- For the industrial and historical political branches of the German focus tree, see German national focus tree: industrial/ historical branches.
+- For the opposition political branches of the German focus tree, see German national focus tree: opposition branches.
+
+Germany, as one of the seven major powers, gets a unique national focus tree.
+
+The focus tree includes both historical and alt-historical options for the player to pursue. As an integral actor in the war the historical path provides Germany with the means to reorganise most of Western, Central and Northern Europe, dictating the course of action for many of the nations in its immediate vicinity.
+
+German national focus tree. Clicking on the branches leads to the appropriate section.
+
+The German national focus tree can be divided into 7 branches, 25 Sub-branches and 1 branch with 3 sub-branches if the DLC GTD is disabled:
+
+- Develop Modern Maneuver Warfare Branch
+- This builds on Germany's ground force and modifies the Deutsches Heer national modifier.
+
+- Expanding the Luftwaffe Branch
+- This builds on Germany's airforce and modifies the Luftwaffe national modifier.
+
+- Strengthen the Kriegsmarine Branch
+- This builds on Germany's navy and modifies the Kriegsmarine national modifier.
+
+- Prioritize Economic Growth Branch
+- This branch focuses on slowly rebuilding Germany's economy and ultimately creating an economic miracle.
+
+ - Construct the Reichsautobahn Sub-branch
+ - This shared sub-branch builds infra and Railway throughout Germany and neighboring areas.
+
+- The Four-Year Plan Branch
+- This branch prioritizes on making Germany self sufficient and unlocks a special trade law, Autarky . It may improve the trade law after building and obtaining more resources. It can also get special economy law called Totaler Krieg after building up the country's military industry.
+
+- Remilitarize the Rhineland Branch
+- The historical branch at first, remilitarizes the Rhineland, against the stipulations of the Treaty of Versailles. The player may decide to listen to Konstantin von Neurath and take a more cautious approach. This allows the peaceful integration and coring of Czechoslovakia. The player may instead follow Joachim von Ribbentrop with an aggressive stance and befriend the Soviet Union. It may also give Germany the decisions to make Reichskommissariat s and build the SS divisions.
+
+ - Reorganize Secret Services Sub-branch
+ - This gives bonuses to the nation's intelligence agency. It also gives special operatives, including Coco Chanel, if Germany controls 16 It is only available with the La Résistance DLC enabled.
+
+ - Führerprinzip Sub-branch
+ - These focuses build the Führer's inner circle. It represents the infighting between the Führer's closest advisors. When the player completes an advisor's beginning focus, they will start completing the below focuses themselves which will give bonuses depending on the advisor. Then 3 of them will ascend as Reichsleiters and may be able to usurp Hitler's position, or stay loyal to him.
+
+ - Bribe Senior Officers Sub-branch
+ - This sub-branch hires and gives bonuses to army leaders and gives Germany penal divisions.
+
+ - Anschluss Sub-branch
+ - This sub-branch gives Germany expansion opportunities throughout Europe.
+
+ - Demonstration of Military Achievements Sub-branch
+ - If Germany keeps expanding by either occupying states, gaining subjects, or capitulating major powers, its leader will gain beneficial traits.
+
+ - Demand Slovenia Sub-branch
+ - This gives Germany expansion opportunities into the Balkan region.
+
+ - Operation Sea Lion Sub-branch
+ - This gives bonuses to naval invasion, with expansion to the British Isles and into the Americas. It will also give Germany the decision to make Reichskommissariat in the Americas.
+
+ - Anti-Comintern Pact Sub-branch
+ - This sub-branch focuses on expansion into eastern Europe, Asia and Africa. Germany may decide to help either the China or the Japan in the Sino-Japanese war. It will also give Germany the decision to make Reichskommissariat s in Asia and Africa.
+
+ - Legion Condor Sub-branch
+ - This focus shared between the historical and opposition branches, give Germany to volunteers sent to the Spanish Civil War.
+
+The following branches are only available with the gtd DLC:
+
+- Rally the Wehrmacht Branch
+- The opposition branch triggers a civil war against the Fascist in order to change the course of the country.
+
+ - Start The Proletarian Revolution Sub-branch
+ - This sub-branch prepares a civil war in order to convert Germany into a Communist ideology. The left side focuses on the country's intelligence agency, while the right side focuses on the country's military.
+ - Legacy of the Spartacus League Sub-branch
+ - This makes the Spartacists the ruling Communist faction, gets the Politbüro national spirit and spreads Communism to other countries to influence them to become German Volkskommissariat s
+ - Intervene in Spain/Assist Our Eastern Comrades Sub-branch
+ - These focuses allows Germany to assist in either the Spanish Civil War or the War in China.
+ - Liberate Austria Sub-branch
+ - This shared section sparks Communist revolutions around Europe with expansion to the Americas and Asia.
+ - Nationalize Industries Sub-branch
+ - This shared section builds industry in the country.
+ - Proletarian Dictatorship Sub-branch
+ - This gives cb against other European countries, instead of the Volkskommissariat system.
+ - Sign the Second Treaty of Berlin Sub-branch
+ - This allies with the Soviet Union and divides Europe and creates spheres of influence.
+ - Monarchist Sentiment Sub-branch
+ - This sub-branch restores German Reich Neutrality under Wilhelm II and rebuilds Germany after the Civil war. The player may instead have the Kaiser as a figure head as a military high command leads the country.
+ - Re-establish Free Elections Sub-branch
+ - Instead, the player may form a Democratic with Wilhelm III in the throne. It may ally with France and gain cb against remaining Fascist nations in Europe.
+ - Realpolitik Sub-branch
+ - The focuses under this sub-branch emphasize on expanding within the European continent.
+ - Mitteleuropa Sub-branch
+ - This section seeks to rebuild the Central Powers and builds the groundwork to a European Federation.
+ - Restore the Holy Roman Empire Sub-branch
+ - This hidden focus creates the Holy Roman Empire if Kaiserin Victoria is in power or if Germany decides to conquer Italy via focus. It will also replace the Reichstag building with the Volkshalle and gives a national spirit.
+ - See to the Eastern Front/Restore the Brest-Litovsk Borders Sub-branch
+ - These set Germany's expansion route towards Eastern Europe. Either by allying with the Poland and other oppressed peoples against the Soviet Union or carve up Eastern Europe under the plans of the Brest-Litovsk treaty.
+ - Reject the Locarno Treaty Sub-branch
+ - These focuses sets Germany's expansion towards France and Western Europe.
+ - Weltpolitik Sub-branch
+ - These focuses set Germany's route of expansion outside of Europe by either allying the United Kingdom to expand around the world while negotiating with them, making enemies out of them in order to destroy the old colonial hegemony, or entering a friendship with China to make spheres of influence in Asia.
+
+The following branches are only available without the gtd DLC:
+- Oppose Hitler Branch
+- This branch allows German Reich to remove Adolf Hitler and the NSDAP from power via civil war and restore the German Monarchy to pursue a democracy or neutrality .
+ - Revive the Kaiserreich Sub-branch
+ - This sub-branch restores German Reich Neutrality under Wilhelm II, re-creating the German Empire that fell in 1918 and gives war goals against the United Kingdom and the France, and allows for restoring the Italy and Austria-Hungary monarchies; Germany can also choose to be subordinate to the United Kingdom and ally them while fighting against communist France. It also allies with eastern nations in order to crush the communist threat of the Soviet Union in the east.
+ - Rebuild the Nation Sub-branch
+ - This shared Neutrality and Democratic sub-branch rebuilds Germany after the civil war with industry and manpower bonuses.
+ - Re-establish Free Elections Sub-branch (base game)
+ - This sub-branch creates a Democracy ; it can happen under both Kaisers Wilhelm II and Wilhelm III. It creates a faction with Austria, Czechoslovakia, Hungary, Yugoslavia, Romania, Netherlands, Belgium, Luxembourg, Norway, Sweden, Denmark, Estonia, Latvia, Lithuania, Poland, and Finland in order to crush the Soviet Union and other Communism communist factions (like France and any other country that turns communist through its focus tree). It also adds one more research slot than the regular five slots and gives boosts to nuclear technology.

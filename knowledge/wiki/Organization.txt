@@ -1,0 +1,11 @@
+TITLE: Organization
+URL: https://hoi4.paradoxwikis.com/Organization
+REVISION: 2025-10-19T23:46:09Z (rev 91054)
+VERIFIED FOR: ?
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Organization can refer to
+
+- Land organisation
+- Naval organisation

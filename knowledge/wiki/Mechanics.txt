@@ -1,0 +1,333 @@
+TITLE: Mechanics
+URL: https://hoi4.paradoxwikis.com/Mechanics
+REVISION: 2026-03-14T13:58:33Z (rev 98833)
+VERIFIED FOR: 1.8
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Mechanics are aspects of the game which require detailed discussion. Herein is a brief about each mechanic and a link to a more detailed page.
+
+# Politics
+
+Mechanic: Ideology
+Ver.: 1.9
+Notes:
+A political ideology is the sum of ideas, concepts and theories to justify political action. The game has four primary ideologies: communism, democracy, fascism and non-aligned.
+
+Mechanic: Faction
+Ver.: 1.9
+Notes:
+A faction is an alliance of nations that can call on each other when fighting a war. The player is never forced to join the war of other faction members.
+
+Mechanic: National focus
+Ver.: 1.17
+Notes:
+The national focus tree represents the decisions available to steer the country towards economic development, militarization or political action.
+
+Mechanic: Ideas
+Ver.: 1.12
+Notes:
+Ideas are the set of laws, political advisers, research and production companies and the military staff available to each country.
+
+Mechanic: Government
+Ver.: 1.9
+Notes: The political aspects of a country.
+
+Mechanic: Puppet
+Ver.: 1.14
+Notes: A puppet is a country whose politics are largely controlled by another country.
+
+Mechanic: Diplomacy
+Ver.: 1.9
+Notes: Diplomacy is the interaction between countries.
+
+Mechanic: World tension
+Ver.: 1.16
+Notes:
+World tension is a measure of how heated the atmosphere between the countries is.
+
+Mechanic: Civil war
+Ver.: 1.8
+Notes:
+When a country is divided on ideological grounds and no peaceful solution is available, a civil war will begin.
+
+Mechanic: Occupation
+Ver.: 1.16
+Notes: When country obtains any non-core land it will become occupied.
+
+Mechanic: Balance of power
+Ver.: 1.14
+Notes: Used to simulate a rivalry for power between two political factions.
+
+# Production
+
+Mechanic: Trade
+Ver.: 1.16
+Notes: Resources can be traded between countries.
+
+Mechanic: Production
+Ver.: 1.16
+Notes: Production of equipment or ships is necessary for all military units.
+
+Mechanic: Construction
+Ver.: 1.9
+Notes: Constructions are fixed assets that may be built in states.
+
+Mechanic: Equipment
+Ver.: 1.8
+Notes: Equipment is a necessary component of combat units.
+
+Mechanic: Fuel
+Ver.: 1.16
+Notes:
+Fuel is a resource needed for the operation of vehicles with combustion engines, including trucks, tanks, aircraft, and ships.
+
+Mechanic: Military industrial organization
+Ver.: 1.13
+Notes:
+Military industrial organizations provide bonuses to equipment that they design and produce, replacing the base game design companies.
+
+Mechanic: International market
+Ver.: 1.16
+Notes: Equipment can be purchased and sold between countries.
+
+# Research and technology
+
+Mechanic: Research
+Ver.: 1.16
+Notes: Research is required to unlock technologies.
+
+Mechanic: Infantry technology
+Ver.: 1.16
+Notes:
+Research technologies that improve infantry weapons and equipment, and unlock and improve motorized, mechanized, and special forces infantry.
+
+Mechanic: Support companies technology
+Ver.: 1.16
+Notes: Research technologies that unlock and improve all types of support battalions.
+
+Mechanic: Armor technology
+Ver.: 1.16
+Notes:
+Research technologies that unlock all types and models of tanks, from light to super heavy chassis, as well as their variants.
+
+Mechanic: Artillery technology
+Ver.: 1.16
+Notes:
+Research technologies that unlock and improve all types of artillery, including anti-tank, anti-air and rocket artillery.
+
+Mechanic: Land doctrine
+Ver.: 1.16
+Notes:
+Research one of the four land doctrine trees: mobile warfare, superior firepower, grand battleplan and mass assault.
+
+Mechanic: Special forces doctrine
+Ver.: 1.16
+Notes:
+Research specializations for your special forces: mountaineers, marines and paratroopers.
+
+Mechanic: Naval technology
+Ver.: 1.16
+Notes:
+Research technologies that unlock new ship types and classes, as well as submarine and improve transports for naval invasions.
+
+Mechanic: Naval doctrine
+Ver.: 1.16
+Notes:
+Research one of the three naval doctrine trees: fleet in being, trade interdiction and base strike.
+
+Mechanic: Air technology
+Ver.: 1.16
+Notes:
+Research technologies that unlock or improve all types of airframes: light, medium or heavy, as well as their jet propulsion versions.
+
+Mechanic: Air doctrine
+Ver.: 1.16
+Notes:
+Research one of the three air doctrine trees: strategic destruction, battlefield support and operational integrity.
+
+Mechanic: Engineering technology
+Ver.: 1.16
+Notes:
+Research technologies related to electronic engineering (computers, radios, cryptography), rockets and atomic research.
+
+Mechanic: Industry technology
+Ver.: 1.16
+Notes:
+Research technologies that improve production efficiency and volume of all factories, improve resources excavation, and unlock and improve synthetic refineries.
+
+Mechanic: Special project
+Ver.: 1.15
+Notes:
+Research long-term projects at experimental facilities that can provide a wide array of benefits and unlock an assortment of dangerous capabilities.
+
+Mechanic: Scientist
+Ver.: 1.16
+Notes:
+Recruit and train scientists to help research technologies and pursue special projects.
+
+# Military and warfare
+
+Mechanic: Warfare
+Ver.: 1.8
+Notes: Fight your enemy on land, in the air and at sea.
+
+Mechanic: Peace conference
+Ver.: 1.16
+Notes: Dictate peace terms with defeated enemies.
+
+Mechanic: Land units
+Ver.: 1.9
+Notes:
+All army components need to be designed, produced, deployed and supplied to conduct land warfare.
+
+Mechanic: Land warfare
+Ver.: 1.9
+Notes:
+Land warfare consists of assigning command groups to theaters, through which they can engage enemy armies and capture territory.
+
+Mechanic: Division designer
+Ver.: 1.9
+Notes: Designing divisions allow to customize them battalion by battalion.
+
+Mechanic: Army planner
+Ver.: 1.8
+Notes:
+Designed divisions need to be recruited and trained to be deployed on the field.
+
+Mechanic: Command group
+Ver.: 1.8
+Notes:
+Organization of divisions in command group(s) is necessary to assign them some specific tasks, such as exercise.
+
+Mechanic: Commander
+Ver.: 1.16
+Notes: Command groups can be led by a more skillful commander, if available.
+
+Mechanic: Battle plan
+Ver.: 1.9
+Notes: A battle plan enables automatic management of divisions in a specific role.
+
+Mechanic: Combat tactics
+Ver.: 1.16
+Notes:
+Combat tactics are determined for both sides at the beginning of a battle and after every 24 hours.
+
+Mechanic: Ship
+Ver.: 1.16
+Notes:
+All navies require ship design, production and a naval base to conduct naval missions.
+
+Mechanic: Naval warfare
+Ver.: 1.12
+Notes:
+Naval combat is mostly automated through mission orders assigned to fleets and to be carried out in particular Sea Regions.
+
+Mechanic: Aircraft
+Ver.: 1.14
+Notes:
+All air wings require plane design, production and an air base to conduct air missions.
+
+Mechanic: Air warfare
+Ver.: 1.9
+Notes:
+Air warfare consists of the deployment of air wings to Strategic Regions, where they can undertake missions.
+
+Mechanic: Experience
+Ver.: 1.16
+Notes:
+Experience is gained mainly during combat and training, but also some national foci give experience. It can be used to create variants and division templates.
+
+Mechanic: Officer corps
+Ver.: 1.11
+Notes:
+Manage advisors and theorists, choose your army, navy, and air spirits, and unlock doctrines.
+
+Mechanic: Attrition and accidents
+Ver.: 1.16
+Notes: Equipment loss as a result of a sustained offensive.
+
+Mechanic: Logistics
+Ver.: 1.11
+Notes: All military components require supply to function.
+
+Mechanic: Manpower
+Ver.: 1.8
+Notes: Manpower is needed to recruit and strengthen divisions.
+
+Mechanic: Nuclear bomb
+Ver.: 1.16
+Notes: Nuclear bombs can be used to inflict heavy damage to the opposing side.
+
+Mechanic: Raid
+Ver.: 1.16
+Notes: Special military operations designed to disrupt the enemy's war effort.
+
+# Espionage
+
+Mechanic: Intel
+Ver.: 1.16
+Notes:
+Intel reveals information about other countries’ military, industry, and government.
+
+Mechanic: Intelligence agency
+Ver.: 1.16
+Notes: The intelligence agency is the foundation of your espionage network.
+
+Mechanic: Operatives
+Ver.: 1.16
+Notes: Operatives help conduct espionage through missions and operations.
+
+Mechanic: Missions
+Ver.: 1.16
+Notes:
+Espionage missions are ongoing tasks that operatives can perform for intelligence or counterintelligence purposes.
+
+Mechanic: Operations
+Ver.: 1.17
+Notes:
+Operations are one-time tasks completed by operatives for various espionage purposes.
+
+# Map
+{| class="mildtable sortable" width=70%
+! width=1% class="unsortable" |
+! width=15% | Mechanic
+! width=3% | Ver.
+! width=60% class="unsortable" | Notes
+|-
+| || Map || 1.14
+| The map is split in finite regions of various size characteristics.
+|-
+| || Province || 1.14
+| The smallest division of the map. Provinces contain a specific terrain and enable some constructions.
+|-
+| || Terrain || 1.16
+| Terrain may apply limitations and penalties to military, actions and attrition.
+|-
+| || Weather || 1.14
+| Weather may apply penalties to military movement, actions and attrition.
+|-
+| || State || 1.9
+| States are made of one or multiple provinces. States enable some constructions and provide resources and manpower.
+|}
+
+# Events and decisions
+{| class="mildtable sortable" width=70%
+! width=1% class="unsortable" |
+! width=15% | Mechanic
+! width=3% | Ver.
+! width=60% class="unsortable" | Notes
+|-
+| || Events || ~
+| Events add flavor to the game or provide choices that will affect the course of the game.
+|-
+| || Decisions || ~
+| Decisions add flavor to the game or provide choices that will affect the course of the game.
+|}
+
+hoi4de:Mechanics
+hoi4es:Mechanics
+hoi4fr:Mechanics
+hoi4pl:Mechanics
+hoi4pt:Mechanics
+hoi4ru:Mechanics

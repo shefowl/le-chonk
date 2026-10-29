@@ -1,0 +1,1330 @@
+TITLE: Naval support technology
+URL: https://hoi4.paradoxwikis.com/Naval_support_technology
+REVISION: 2026-01-13T20:27:12Z (rev 96536)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+The naval support research tree includes all technologies which are not direct derivatives of ship hulls. For the most part, these technologies include new or improved naval weaponry, but also includes technologies for improving troop transports used during naval invasions and a few technologies for reducing the effect of incoming critical hits and for sweeping waters of hostile mines.
+
+With the introduction of special projects in Götterdämmerung and the accompanying Patch 1.15, all naval support technologies now also generate naval engineering breakthrough progress while being researched.
+
+# Armaments [verified for 1.16]
+
+## Batteries
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Naval Gunnery: Basic design for the training and elevation mechanics of naval guns.
+| 1922
+| 110 days
+
+|
+
+Unlocks
+
+85 mm RF. Cannon
+
+Light attack: 1.0
+Light piercing: 1.0
+
+Max speed: -1%
+naval production cost Production cost: 90
+
+1 steel
+
+17 cm Cannon
+
+Heavy attack: 6.0
+Heavy piercing: 22.0
+
+Max speed: -4%
+HP: +40%
+
+naval production cost Production cost: 650
+
+14.5 cm Cannon
+
+Light attack: 4.0
+Light piercing: 5.5
+
+Max speed: -3%
+HP: 20.0
+
+naval production cost Production cost: 300
+
+1 steel
+
+28 cm Cannon
+
+Heavy attack: 14.0
+Heavy piercing: 31.0
+
+Max speed: -5%
+naval production cost Production cost: 1550
+
+75mm RF. Cannon
+
+Light attack: 3.0
+Light piercing: 5.5
+
+Max speed: -2%
+naval production cost Production cost: 180
+
+|-
+| FOCUS Basic Light Battery: An open, powered mount for a small-caliber gun for use on smaller ships.
+Mounting this module increases Light Gun Attack, which helps in engaging enemy Screening Ships.
+| 1936
+| 110 days
+| Naval Gunnery
+|
+
+Unlocks
+
+105 mm RF. Cannon
+
+Light attack: 1.5
+Light piercing: 2.0
+
+Max speed: -2%
+naval production cost Production cost: 120
+
+|-
+| FOCUS Basic Medium Battery: A powered turret with two or three guns of medium caliber for use on cruisers.
+Mounting a Light Medium Battery module increases Light Gun Attack, which helps in engaging enemy Screening Ships. Mounting a Medium Battery module increases Heavy Gun Attack, which helps with engaging enemy Capital Ships.
+| 1936
+| 110 days
+| Naval Gunnery
+|
+
+Unlocks
+
+1 steel
+
+19 cm Cannon
+
+Heavy attack: 8.0
+Heavy piercing: 25.0
+
+Max speed: -6%
+HP: +40%
+
+naval production cost Production cost: 700
+
+15 cm Cannon
+
+Light attack: 5.0
+Light piercing: 7.0
+
+Max speed: -4%
+HP: 20.0
+
+naval production cost Production cost: 350
+
+120mm RF. Cannon
+
+Light attack: 4.0
+Light piercing: 7.0
+
+Max speed: -3%
+naval production cost Production cost: 240
+
+|-
+| FOCUS Basic Heavy Battery: A gigantic turret housing massive guns under heavy armor.
+Mounting a Heavy Battery module increases a ship's Heavy Gun Attack, improving performance against enemy Capital Ships.
+| 1936
+| 110 days
+| Naval Gunnery
+|
+
+Unlocks
+
+1 steel
+
+30.5 cm Cannon
+
+Heavy attack: 18.0
+Heavy piercing: 36.0
+
+Max speed: -6%
+naval production cost Production cost: 1650
+
+1 steel 1 chromium
+
+46 cm Cannon
+
+Heavy attack: 27.0
+Heavy piercing: 45.0
+
+Max speed: -8%
+naval production cost Production cost: 2000
+
+|-
+| FOCUS Improved Light Battery: A closed, powered mount for a small-caliber gun gives the crew some protection from the elements and shell splinters.
+Mounting this module increases Light Gun Attack, which helps in engaging enemy Screening Ships.
+| 1939
+| 110 days
+| Small-Caliber Semi-Armor Piercing Shell
+|
+
+Unlocks
+
+127 mm RF. Cannon
+
+Light attack: 2.0
+Light piercing: 2.5
+
+Max speed: -3%
+naval production cost Production cost: 150
+
+|-
+| FOCUS Improved Medium Battery: An improved turret layout allows faster loading while better armor improves survivability.
+Mounting a Light Medium Battery module increases Light Gun Attack, which helps in engaging enemy Screening Ships. Mounting a Medium Battery module increases Heavy Gun Attack, which helps with engaging enemy Capital Ships.
+| 1939
+| 110 days
+| Armor-Piercing Capped Medium Shell
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="border: none;" | 2 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | 20.3 cm Cannon
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Heavy attack: 10.0
+| style="border: none; width: 50%; padding-left: 10px;"| Heavy piercing: 29.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: -7%
+| style="border: none; width: 50%; padding-left: 10px;"| HP: +40%
+|-
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 725
+|-
+| colspan="2" style="border: none;" | 1 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | 15.5 cm Cannon
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Light attack: 6.0
+| style="border: none; width: 50%; padding-left: 10px;"| Light piercing: 8.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: -5%
+| style="border: none; width: 50%; padding-right: 10px;"| HP: 20.0
+|-
+| style="border: none; padding-left: 10px;"| naval production cost Production cost: 375
+|}
+
+|-
+| FOCUS Improved Heavy Battery: Power Rammers increase the loading speed of heavy guns while automatic flash-tight doors improve safety.
+Mounting a Heavy Battery module increases a ship's Heavy Gun Attack, improving performance against enemy Capital Ships.
+| 1939
+| 110 days
+| Armor-Piercing Capped Shell
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="border: none;" | 1 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | 38 cm Cannon
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Heavy attack: 22.0
+| style="border: none; width: 50%; padding-left: 10px;"| Heavy piercing: 40.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: -7%
+| style="border: none; padding-left: 10px;"| naval production cost Production cost: 1750
+|}
+
+|-
+| FOCUS Advanced Light Battery: An advanced twin mount brings significantly more firepower to bear under armored protection.
+Mounting this module increases Light Gun Attack, which helps in engaging enemy Screening Ships.
+| 1944
+| 110 days
+| Small-Caliber Armor Piercing Shell
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | 130 mm RF. Cannon
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Light attack: 3.0
+| style="border: none; width: 50%; padding-left: 10px;"| Light piercing: 2.5
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: -2%
+| style="border: none; padding-left: 10px;"| naval production cost Production cost: 175
+|}
+
+|-
+| FOCUS Advanced Medium Battery: By integrating power loading and remote power control, modern cruisers can reach rates of fire and accuracy that was hitherto considered impossible.
+Mounting a Light Medium Battery module increases Light Gun Attack, which helps in engaging enemy Screening Ships. Mounting a Medium Battery module increases Heavy Gun Attack, which helps with engaging enemy Capital Ships.
+| 1944
+| 110 days
+| Medium-Caliber Semi-Armor Piercing Shell
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="border: none;" | 2 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | 20.3 cm Auto-Loading Cannon
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Heavy attack: 12.0
+| style="border: none; width: 50%; padding-left: 10px;"| Heavy piercing: 34.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: -8%
+| style="border: none; width: 50%; padding-left: 10px;"| HP: +40%
+|-
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 800
+|-
+| colspan="2" style="border: none;" | 1 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | 15.5 cm Auto-Loading Cannon
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Light attack: 7.5
+| style="border: none; width: 50%; padding-left: 10px;"| Light piercing: 9.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: -6%
+| style="border: none; width: 50%; padding-left: 10px;"| HP: 20.0
+|-
+| style="border: none; padding-left: 10px;"| naval production cost Production cost: 425
+|}
+
+|-
+| FOCUS Advanced Heavy Battery: Improved Recoil Reduction Mechanisms and delay coils reduce interference of shells in flight and dramatically increase accuracy.
+Mounting a Heavy Battery module increases a ship's Heavy Gun Attack, improving performance against enemy Capital Ships.
+| 1944
+| 110 days
+| Super-Heavy Armor Piercing Shell
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="border: none;" | 1 steel 1 chromium
+|-
+| colspan="2" style="text-align: center; border: none;" | 40.6 cm Cannon
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Heavy attack: 26.0
+| style="border: none; width: 50%; padding-left: 10px;"| Heavy piercing: 45.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: -8%
+| style="border: none; padding-left: 10px;"| naval production cost Production cost: 1850
+|}
+|}
+
+## Shells
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Small-Caliber Semi-Armor Piercing Shell: A compromise between armor-piercing performance and explosive power, this shell does significantly more damage after punching through the weak armor of light ships.
+| 1936
+| 55 days
+| Basic Light Battery
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Upgrades
+|-
+| colspan="2" style="text-align: center; border: none;" | Destroyers, Light Cruisers, Heavy Cruisers, Battleships, Battlecruisers, Carriers
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; padding-right: 10px;"| Light attack: +5%
+|-
+| style="border: none; padding-right: 10px;"| Light piercing: +5%
+|}
+
+|-
+| FOCUS Small-Caliber Armor Piercing Shell: A proper armor-piercing shell for small caliber guns gives destroyers and other light ships a fighting chance against armored opponents.
+| 1942
+| 55 days
+| Improved Light Battery
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Upgrades
+|-
+| colspan="2" style="text-align: center; border: none;" | Destroyers, Light Cruisers, Heavy Cruisers, Battleships, Battlecruisers, Carriers
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; padding-right: 10px;"| Light attack: +5%
+|-
+| style="border: none; padding-right: 10px;"| Light piercing: +5%
+|}
+
+|-
+| FOCUS Armor-Piercing Capped Medium Shell: By fitting a ballistic hood, shells can be made more aerodynamic while still maintaining their armor-piercing performance.
+| 1936
+| 55 days
+| Basic Medium Battery
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Upgrades
+|-
+| colspan="2" style="text-align: center; border: none;" | Light Cruisers
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; padding-right: 10px;"| Light attack: +5%
+|-
+| style="border: none; padding-right: 10px;"| Light piercing: +5%
+|-
+| colspan="2" style="text-align: center; border: none;" | Heavy Cruisers
+|-
+| style="border: none; padding-right: 10px;"| Heavy attack: +5%
+|-
+| style="border: none; padding-right: 10px;"| Heavy piercing: +5%
+|}
+
+|-
+| FOCUS Medium-Caliber Semi-Armor Piercing Shell: A compromise between armor-piercing performance and explosive power, this shell does significantly more damage after punching through the weak armor of light ships.
+| 1942
+| 55 days
+| Improved Medium Battery
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Upgrades
+|-
+| colspan="2" style="text-align: center; border: none;" | Light Cruisers
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; padding-right: 10px;"| Light attack: +5%
+|-
+| style="border: none; padding-right: 10px;"| Light piercing: +5%
+|-
+| colspan="2" style="text-align: center; border: none;" | Heavy Cruisers
+|-
+| style="border: none; padding-right: 10px;"| Heavy attack: +5%
+|-
+| style="border: none; padding-right: 10px;"| Heavy piercing: +5%
+|}
+
+|-
+| FOCUS Armor-Piercing Capped Shell: By fitting a ballistic hood, shells can be made more aerodynamic while still maintaining their armor-piercing performance.
+| 1936
+| 55 days
+| Basic Heavy Battery
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Upgrades
+|-
+| colspan="2" style="text-align: center; border: none;" | Battleships, Battlecruisers
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; padding-right: 10px;"| Heavy attack: +5%
+|-
+| style="border: none; padding-right: 10px;"| Heavy piercing: +5%
+|}
+
+|-
+| FOCUS Super-Heavy Armor Piercing Shell: Weighing well over a ton, these massive shells strike with unprecedented power and pose a dire threat to even the heaviest armor.
+| 1942
+| 55 days
+| Improved Heavy Battery
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Upgrades
+|-
+| colspan="2" style="text-align: center; border: none;" | Battleships, Battlecruisers
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; padding-right: 10px;"| Heavy attack: +5%
+|-
+| style="border: none; padding-right: 10px;"| Heavy piercing: +5%
+|}
+|}
+
+## Dual-Purpose Batteries
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Basic Dual-Purpose Battery: Combining anti-ship and anti-air guns in a single mount allows for more flexibility and saves weight.
+Mounting this module increases Light Gun Attack, which helps in engaging enemy Screening Ships. These modules also increase Anti-Air Attack.
+Mounting a Secondary Battery Module gives a Cruiser, Carrier, or Heavy Ship a small amount of Light Gun Attack and allows it to engage a second target.
+| 1939
+| 110 days
+| Improved Light Battery
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="border: none;" | 1 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | 113mm Dual-Purpose Battery
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Light attack: 1.5
+| style="border: none; width: 50%; padding-left: 10px;"| Light piercing: 1.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Anti-Air: 2.0
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: -2%
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: 130
+|-
+| colspan="2" style="text-align: center; border: none;" | 113mm Dual-Purpose Secondary Battery
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Light attack: 3.0
+| style="border: none; width: 50%; padding-left: 10px;"| Light piercing: 4.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Anti-Air: 2.0
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: -1%
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: 240
+|-
+| colspan="2" style="border: none;" | 1 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | 100mm Dual-Purpose Battery
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Light attack: 1.0
+| style="border: none; width: 50%; padding-left: 10px;"| Light piercing: 0.5
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Anti-Air: 1.0
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: -1%
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: 100
+|-
+| colspan="2" style="text-align: center; border: none;" | 100mm Dual-Purpose Secondary Battery
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Light attack: 2.0
+| style="border: none; width: 50%; padding-left: 10px;"| Light piercing: 3.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Anti-Air: 1.0
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: -1%
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: 180
+|}
+
+|-
+| FOCUS Improved Dual-Purpose Battery: Powered fully enclosed Twin gun mounts greatly increase firepower and protection while saving weight.
+Mounting this module increases Light Gun Attack, which helps in engaging enemy Screening Ships. These modules also increase Anti-Air Attack.
+Mounting a Secondary Battery Module gives a Cruiser, Carrier, or Heavy Ship a small amount of Light Gun Attack and allows it to engage a second target.
+| 1939
+| 110 days
+| Basic Dual-Purpose Battery
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="border: none;" | 1 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | 127mm Dual-Purpose Battery
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Light attack: 2.0
+| style="border: none; width: 50%; padding-left: 10px;"| Light piercing: 1.7
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Anti-Air: 3.0
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: -3%
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: 160
+|-
+| colspan="2" style="text-align: center; border: none;" | 127mm Dual-Purpose Secondary Battery
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Light attack: 4.0
+| style="border: none; width: 50%; padding-left: 10px;"| Light piercing: 7.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Anti-Air: 2.5
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: -3%
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: 300
+|}
+
+|-
+| FOCUS Advanced Dual-Purpose Battery: Automated Rapid fire enclosed gun mounts greatly increase firepower.
+Mounting this module increases Light Gun Attack, which helps in engaging enemy Screening Ships. These modules also increase Anti-Air Attack.
+Mounting a Secondary Battery Module gives a Cruiser, Carrier, or Heavy Ship a small amount of Light Gun Attack and allows it to engage a second target.
+| 1944
+| 110 days
+| Improved Dual-Purpose Battery
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="border: none;" | 1 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | 127mm RF. Dual-Purpose Battery
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Light attack: 2.5
+| style="border: none; width: 50%; padding-left: 10px;"| Light piercing: 1.7
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Anti-Air: 4.0
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: -4%
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: 185
+|-
+| colspan="2" style="text-align: center; border: none;" | 127mm RF. Dual-Purpose Secondary Battery
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Light attack: 4.5
+| style="border: none; width: 50%; padding-left: 10px;"| Light piercing: 7.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Anti-Air: 3.0
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: -3%
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: 360
+|}
+
+|-
+| FOCUS Advanced Medium Dual-Purpose Battery: Automatic loading Rapid fire Medium enclosed gun Batteries greatly increase firepower.
+Mounting a Light Medium Battery increases Light Gun Attack, which helps in engaging enemy Screening Ships. This module also increases Anti-Air Attack.
+| 1944
+| 165 days
+| Medium-Caliber Semi-Armor Piercing Shell
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | 152m RF. Dual-Purpose Battery
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Light attack: 7.5
+| style="border: none; width: 50%; padding-left: 10px;"| Light piercing: 8.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Anti-Air: 4.5
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: -6%
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| HP: 20.0
+| style="border: none; width: 50%; padding-left: 10px;"| naval production cost Production cost: 450
+|}
+|}
+
+# Torpedoes [verified for 1.16]
+
+## Ship-Based Torpedo Launchers
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Basic Torpedo: A self-propelled weapon with an explosive warhead that runs on a pre-determined course until it hits the target below the waterline.
+Mounting this module on Light Ships or Cruisers allows them to do significant damage to enemy Capital Ships.
+| 1922
+| 220 days
+
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | 3x 450mm Torpedo Launcher
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+
+| style="border: none; width: 50%; padding-right: 10px;"| Torpedo attack: 18.0
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: -1%
+|-
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 90
+|}
+
+|-
+| FOCUS Improved Ship Torpedo Launcher: Stronger motors allow more tubes to be installed in a single mount and be trained on target faster.
+Mounting this module on Light Ships or Cruisers allows them to do significant damage to enemy Capital Ships.
+| 1936
+| 165 days
+| Basic Torpedo
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | 4x 450mm Torpedo Launcher
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Torpedo attack: 24.0
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: -2%
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Torpedo hit chance: +1%
+| style="border: none; width: 50%; padding-left: 10px;"| naval production cost Production cost: 120
+|}
+
+|-
+| FOCUS Advanced Ship Torpedo Launcher: Larger diameter tubes allow for bigger torpedoes with heavier warheads.
+Mounting this module on Light Ships or Cruisers allows them to do significant damage to enemy Capital Ships.
+| 1940
+| 165 days
+| Improved Ship Torpedo Launcher
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | 3x 533mm Torpedo Launcher
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Torpedo attack: 30.0
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: -3%
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Torpedo hit chance: +1.5%
+| style="border: none; width: 50%; padding-left: 10px;"| naval production cost Production cost: 150
+|}
+
+|-
+| FOCUS Modern Ship Torpedo Launcher: Powerful compressed air charges allow heavier torpedoes to be launched at higher speeds.
+Mounting this module on Light Ships or Cruisers allows them to do significant damage to enemy Capital Ships.
+| 1944
+| 165 days
+| Advanced Ship Torpedo Launcher
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | 4x 533mm Torpedo Launcher
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Torpedo attack: 36.0
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: -4%
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Torpedo hit chance: +2%
+| style="border: none; width: 50%; padding-left: 10px;"| naval production cost Production cost: 180
+|}
+|}
+
+## Torpedo Warfare
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! Optional Bonus
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Magnetic Detonator: A new detonator detects the shift in the earth's magnetic field when the torpedo passes under the target. An explosion directly under a ship causes much more damage and often breaks the keel of the target, sinking it instantly.
+| 1936
+| 275 days
+| 50 naval exp for +150%
+| Basic Torpedo
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Upgrades
+|-
+| colspan="2" style="text-align: center; border: none;" | Destroyers, Submarines, Light Cruisers, Heavy Cruisers
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Torpedo attack: +20%
+|}
+
+|-
+| FOCUS Homing Torpedo: Equipped with an accoustic detector, the torpedo can home in on the biggest source of noise ahead of it - usually the target.
+| 1942
+| 275 days
+| 50 naval exp for +150%
+| Magnetic Detonator
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Upgrades
+|-
+| colspan="2" style="text-align: center; border: none;" | Destroyers, Submarines, Light Cruisers, Heavy Cruisers
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Torpedo hit chance: +10%
+|}
+
+|-
+| FOCUS Electric Torpedo: Instead of leaving an easily-detected trail of bubbles, a torpedo with an electrical engine remains practically invisible until it hits. This also means that there is no trail leading back to the launching submarine.
+| 1940
+| 275 days
+| 50 naval exp for +150%
+| Magnetic Detonator
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Global stats
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; padding-right: 10px;"| Torpedo reveal chance: -25%
+|}
+|}
+
+# Damage Control [verified for 1.16]
+
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! Optional Bonus
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Fire Fighting Drills: Every member of a ship's crew, from the Captain down to the simple sailor, must be able to help in containing and fighting fires onboard the ship.
+| 1922
+| 275 days
+| 50 naval exp for +150%
+
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Global stats
+|-
+| style="border: none; padding-right: 10px;"| Chance to receive critical hit: -10%
+|-
+| style="border: none; padding-right: 10px;"| Effects of sustained critical hits: -10%
+|}
+
+|-
+| FOCUS Separate Fire Mains: By separating the main water lines around the ship, the probability of a hit rendering the ship completely unable to fight fires is much reduced.
+| 1922
+| 275 days
+| 50 naval exp for +150%
+| Fire Fighting Drills
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Global stats
+|-
+| style="border: none; padding-right: 10px;"| Chance to receive critical hit: -10%
+|-
+| style="border: none; padding-right: 10px;"| Effects of sustained critical hits: -10%
+|}
+
+|-
+| FOCUS Diesel-powered Emergency Pumps: With heavy pumps usually dependent on the main engines for power, a single and fairly light hit in the engine room may render the ship unable to stay afloat.
+| 1922
+| 275 days
+| 50 naval exp for +150%
+| Separate Fire Mains
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Global stats
+|-
+| style="border: none; padding-right: 10px;"| Chance to receive critical hit: -10%
+|-
+| style="border: none; padding-right: 10px;"| Effects of sustained critical hits: -10%
+|}
+|}
+
+# Fire Control Methods [verified for 1.16]
+
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! Optional Bonus
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Bracket Shooting: To hit the target, the first step is to straddle it by firing a few guns at a time until the impacts hit on both sides of the target.
+| 1922
+| 275 days
+| 50 naval exp for +150%
+
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Upgrades
+|-
+| colspan="2" style="text-align: center; border: none;" | Battleships, Battlecruisers
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; padding-right: 10px;"| Light attack: +5%
+|-
+| style="border: none; padding-right: 10px;"| Heavy attack: +5%
+|}
+
+|-
+| FOCUS Ladder Shooting: Instead of firing over the target and losing track of the impacts behind the enemy ship, shots are deliberately dropped short of the target and the distance between impact and target measured to determine the range.
+| 1922
+| 275 days
+| 50 naval exp for +150%
+| Bracket Shooting
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Upgrades
+|-
+| colspan="2" style="text-align: center; border: none;" | Battleships, Battlecruisers
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; padding-right: 10px;"| Light attack: +10%
+|-
+| style="border: none; padding-right: 10px;"| Heavy attack: +10%
+|-
+| colspan="2" style="text-align: center; border: none;" | Heavy Cruisers
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; padding-right: 10px;"| Light attack: +5%
+|-
+| style="border: none; padding-right: 10px;"| Heavy attack: +5%
+|}
+
+|-
+| FOCUS Shell Dyes: Adding small color packages to the shells when they are fired colors the impacts around the target and allows multiple ships to engage the same target without being confused by each other's impacts.
+| 1922
+| 275 days
+| 50 naval exp for +150%
+| Ladder Shooting
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Upgrades
+|-
+| colspan="2" style="text-align: center; border: none;" | Battleships, Battlecruisers
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; padding-right: 10px;"| Light attack: +15%
+|-
+| style="border: none; padding-right: 10px;"| Heavy attack: +15%
+|-
+| colspan="2" style="text-align: center; border: none;" | Heavy Cruisers, Light Cruisers
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; padding-right: 10px;"| Light attack: +10%
+|-
+| style="border: none; padding-right: 10px;"| Heavy attack: +10%
+|-
+| colspan="2" style="text-align: center; border: none;" | Destroyers
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; padding-right: 10px;"| Light attack: +5%
+|-
+| style="border: none; padding-right: 10px;"| Heavy attack: +5%
+|}
+|}
+
+# Transports [verified for 1.16]
+
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! Optional Bonus
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Transport Ship: Ship designed solely for troop movement, without any defensive capabilities.
+| 1922
+| 165 days
+
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Global stats
+|-
+| style="border: none; padding-right: 10px;"| Troop convoy requirements: -33%
+|-
+| style="border: none; padding-right: 10px;"| Naval invasion capacity: +10
+|}
+
+|-
+| FOCUS Landing Craft: Dedicated invasion craft make landing in hostile territory slightly less of a headache.
+| 1940
+| 220 days
+
+| Transport Ship
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="border: none;" | 1 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | Floating harbor
+|-
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 400
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Global stats
+|-
+| style="border: none; padding-right: 10px;"| Invasion preparation time: -25%
+|-
+| style="border: none; padding-right: 10px;"| Invasion defense: +15%
+|-
+| style="border: none; padding-right: 10px;"| Naval invasion capacity: +20
+|}
+
+|-
+| FOCUS Advanced Landing Craft: Advanced Landing craft means that our boys can get on the beach quicker and more effectively during an invasion.
+| 1944
+| 220 days
+
+| Landing Craft
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Global stats
+|-
+| style="border: none; padding-right: 10px;"| Invasion defense: +50%
+|-
+| style="border: none; padding-right: 10px;"| Naval invasion capacity: +100
+|-
+| style="border: none; padding-right: 10px;"| Amphibious invasion preparation speed: +25%
+|}
+
+|-
+| FOCUS Multi-Product Supply Ship: With the use of the newly produced supply ships, we can ensure smoother transfer of the fuel, ammunition and supplies.
+| 1938
+| 220 days
+| 75 naval exp for +175%
+| Underway Replenishment
+ Transport Ship
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Global stats
+|-
+| style="border: none; padding-right: 10px;"| Underway Replenishment Range: +25%
+|-
+| style="border: none; padding-right: 10px;"| Underway Replenishment Convoy Usage: -20%
+|}
+
+|-
+| FOCUS Standardized Tenshioned Replenishment Alongside Method: Standardized Tenshioned Replenishment Alongside Method or STREAM is a further evolution of ensuring a steady resupply of our long range naval operations
+| 1943
+| 275 days
+| 75 naval exp for +150%
+| Multi-Product Supply Ship
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Global stats
+|-
+| style="border: none; padding-right: 10px;"| Underway Replenishment Range: +25%
+|-
+| style="border: none; padding-right: 10px;"| Underway Replenishment Convoy Usage: -20%
+|}
+|}
+
+# Mine Warfare [verified for 1.16]
+
+## Mines
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Contact Mine: A simple floating bomb, anchored to the sea floor. The mine explodes when it comes into contact with a ship.
+| 1922
+| 220 days
+
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | Minelaying Rails
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: -2%
+| style="border: none; width: 50%; padding-left: 10px;"| Minelaying: 1.0
+|-
+| style="border: none; padding-left: 10px;"| naval production cost Production cost: 90
+|-
+| colspan="2" style="text-align: center; border: none;" | Minesweeping Gear
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: -2%
+| style="border: none; width: 50%; padding-left: 10px;"| Minesweeping: 1.0
+|-
+| style="border: none; padding-left: 10px;"| naval production cost Production cost: 30
+|}
+
+|-
+| FOCUS Magnetic Mine: This sophisticated mine explodes when it detects changes in the magnetic field stemming from a passing ship.
+| 1936
+| 220 days
+| Contact Mine
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Global stats
+|-
+| style="border: none; padding-right: 10px;"| Naval mines damage: +20%
+|}
+
+|-
+| FOCUS Degaussing: By installing powerful electro-magnetic coils, a ship's magentic signature can be dramatically reduced, making it far less vulnerable to magnetic mines.
+| 1938
+| 110 days
+| Magnetic Mine
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Global stats
+|-
+| style="border: none; padding-right: 10px;"| Naval mines avoidance: +50%
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Upgrades
+|-
+| colspan="2" style="text-align: center; border: none;" | Destroyers, Light Cruisers, Heavy Cruisers
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; padding-right: 10px;"| Sub detection: +10%
+|}
+
+|-
+| FOCUS Acoustic Mine: This type of naval mine detonates when its sensors detect the noise of a nearby ship.
+| 1942
+| 220 days
+| Magnetic Mine
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Global stats
+|-
+| style="border: none; padding-right: 10px;"| Naval mines damage: +20%
+|}
+
+|-
+| FOCUS Pressure Mine: This highly advanced mine detects small changes in water pressure caused by a ship moving nearby.
+| 1945
+| 220 days
+| Acoustic Mine
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Global stats
+|-
+| style="border: none; padding-right: 10px;"| Naval mines damage: +20%
+|}
+|}
+
+## Aerial Mine Warfare
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Aerial Minelaying: By fitting the mines with a small parachute, they can be safely dropped from airplanes, allowing quick and efficient creation of minefields.
+| 1942
+| 110 days
+| Acoustic Mine
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| style="border: none;" | With By Blood Alone :
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | Airdropped Mines
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Minelaying: 0.05
+| style="border: none; width: 50%; padding-left: 10px;"| Weight: 2
+|-
+| style="border: none; padding-right: 10px;"| production cost Production cost: 2
+|-
+| style="border: none;" | Without By Blood Alone :
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Upgrades
+|-
+| colspan="2" style="text-align: center; border: none;" | Naval Bombers
+|-
+| colspan="2" style="border: none; padding-right: 10px;"| Minelaying: 0.05
+|-
+| colspan="2" style="text-align: center; border: none;" | Tactical Bombers
+|-
+| colspan="2" style="border: none; padding-right: 10px;"| Minelaying: 0.08
+|-
+| colspan="2" style="text-align: center; border: none;" | Strategic Bombers
+|-
+| colspan="2" style="border: none; padding-right: 10px;"| Minelaying: 0.13
+|}
+
+|-
+| FOCUS Aerial Minesweeping: Airplanes can be fitted with special equipment to detect and safely detonate naval mines from the air.
+| 1944
+| 110 days
+| Pressure Mine
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| style="border: none;" | With By Blood Alone :
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | Demining Coil
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Minesweeping: 0.1
+| style="border: none; width: 50%; padding-left: 10px;"| Agility: -5
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Weight: 20
+| style="border: none; width: 50%; padding-left: 10px;"| production cost Production cost: 3
+|-
+| style="border: none;" | Without By Blood Alone :
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Upgrades
+|-
+| colspan="2" style="text-align: center; border: none;" | Naval Bombers
+|-
+| colspan="2" style="border: none; padding-right: 10px;"| Minesweeping: 0.10
+|-
+| colspan="2" style="text-align: center; border: none;" | Tactical Bombers
+|-
+| colspan="2" style="border: none; padding-right: 10px;"| Minesweeping: 0.15
+|}
+|}
+
+## Submarine Minelaying
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Minelaying Submarine: By installing special equipment to hold and release mines, a specially-designed submarine can deploy mines while submerged and, hopefully, undetected.
+| 1922
+| 220 days
+| Contact Mine
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | Minelaying Tubes
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Minelaying: 1.0
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 90
+|}
+
+|-
+| FOCUS Torpedo-tube Mine Deployment: Redesigning mines to fit into torpedo tubes allows any submarine to become a minelayer, albeit at the expense of torpedoes carried.
+| 1940
+| 220 days
+| Minelaying Submarine
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Upgrades
+|-
+| colspan="2" style="text-align: center; border: none;" | Submarines
+|-
+| style="border: none; padding-right: 10px;"| Minelaying: +20%
+|}
+|}
+
+# References

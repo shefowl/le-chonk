@@ -1,0 +1,485 @@
+TITLE: Production
+URL: https://hoi4.paradoxwikis.com/Production
+REVISION: 2026-03-27T17:42:42Z (rev 99343)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Production refers to the manufacturing of equipment such as tanks, guns, planes and ships used by the military to conduct a country's war. The construction of buildings in states and provinces, including both military installations and economic development, is known as construction.
+
+# Factories [verified for 1.16]
+
+There are three types of factories:
+
+- Civilian factories : Used for construction (including repair), trade, consumer goods, purchasing equipment licenses, the international market (with Arms Against Tyranny ), and Intelligence agencies and their upgrades (with La Résistance ). These have a base output of 4 industrial capacity per day.
+- Military factories : Produce land- and air-based equipment, including for infantry, artillery, tanks, air wings, and railways. These have a base output of 3.5 production cost per day. This is multiplied by both factory output modifiers and by production efficiency , both of which are applied independently of one another.
+ - For example, at 50% production efficiency with +10% factory output from having Export Focus and -21.8% factory output due to low stability , the production of each military factory would be {{#tag:math| 3.5 \cdot 0.5 \cdot {(1+0.1-0.218)} = 1.5435 }} production cost per day
+- Naval dockyards : Produce ships, submarines, convoys, and other naval equipment. These have a base output of 2 naval production cost per day. This is multiplied by dockyard output modifiers; naval dockyards are not affected by production efficiency.
+
+The main output modifiers for military factories and naval dockyards are production technologies and industry technologies, while civilian factories are mainly affected by construction technologies and economy laws.
+
+# Production lines [verified for 1.16]
+
+For production by civilian factories , see Construction
+Production of military and naval equipment is organized into production lines, each of which produces a single type of equipment at a time using assigned military factories for land- and air-based equipment and naval dockyards for naval equipment. Up to 150 factories may be assigned to a single production line, but a country can operate multiple lines producing the same item.
+
+Ship production lines have a maximum number of dockyards that can be assigned. No more than 5 naval dockyards can work on producing a capital ship at once; this limit is 10 for screen ships and submarines, 15 for convoys, and 5 for No Step Back floating harbors.
+
+Some special land units may also have a limited number of military factories per line: 5 each for No Step Back railway guns (including super-heavy ones), Götterdämmerung super-heavy howitzers (including self-propelled ones), and Götterdämmerung land cruisers.
+
+## Production line UI
+
+- Item name and position in queue
+- The military industrial organization (MIO) producing the item
+- Production efficiency
+- Number of factories assigned to the item
+- Delete this production line
+- Move the production line up and down the priority queue. It is also possible to drag and drop the top of the box.
+- Toggle equipment conversion mode
+- Item's specialized role, if applicable (tank destroyer in this case)
+- The MIO used to design the variant. Upwards arrow indicates a new version of the MIO can be applied. (Without the Arms against Tyranny DLC, this shows the design company.)
+- Whether production is being used for reinforcements, upgrading fielded units, or sent to stockpile. The number shows how many items of the equipment type are needed or in stock.
+- Resources consumed by this production line; red indicates a shortage
+
+Many of the elements on the box have tooltips that can be inspected for further details.
+
+## Production efficiency [verified for 1.16]
+
+Each production line has its own efficiency level which determines how good it is at producing its current equipment . The higher the efficiency, the faster the production line produces equipment, up to a maximum value. Running the same production line continuously gradually increases its efficiency.
+
+Production efficiency starts at a base (10 without modifiers) and increases each day up to a production efficiency cap (50 without modifiers). All of these can potentially be increased by industry technology, research, and national focuses. The base production efficiency growth per day is:
+
+(All quantities can be expressed in terms of percent or as a fraction, as long as they are expressed in the same terms everywhere.)
+
+The minimum possible base growth per day is thus about 0.05% (near the starting cap of 50%), and the maximum 1% (100% cap & 10% current efficiency).
+
+Alternatively, the relative time in days to reach a particular level of production efficiency is given by
+
+For example, going from 25% of the cap to 75% of the cap takes days.
+
+Therefore it takes at most 500 days for a fully-supplied line to reach the cap. (500 days is the theoretical total time to grow from 0% efficiency to the 100% limit (without any adjustments), serving as the basic constant in the formula.)This represents a shortfall of at most 166.6 factory-days of output relative to a factory running at cap for the same period.
+
+Production efficiency is tracked separately for each factory. Adding one or more new factories to an existing production line reduces production efficiency of the added factories. It is important to know that the factories already in the line do not lose efficiency - what they are making has not changed. Only the new factory has minimum efficiency.
+
+Caution: When military factories are lost or damaged and total factory count declines, the loss comes off the bottom of the list and those factories lose their efficiency. A wise precaution is to move your high-priority and high-efficiency production lines up in the list.
+
+While all military factories are affected by production efficiency, there are some, special equipment types that are unaffected by passive production efficiency growth , most notably, No Step Back railway guns. The only way to increase the production efficiency of these lines is to increase their base production efficiency.
+
+## Production efficiency retention [verified for 1.16]
+
+Switching a production line to a related type of equipment not only cancels production of the previous unit and the time spent on it, it also reduces the line's production efficiency.
+The decrease depends on how drastic the change is, with the player getting to keep a greater percentage of the line's previous efficiency based on how drastic the change is:
+
+- Retain 90: Different variant of the same model (e.g. Panzer III Ausf. F → Panzer III Ausf. G [variants of the German medium tank 1], this also includes switching from license production to own production of the same equipment type, e.g. Italian Fighter II C.202 Folgore to German Fighter II FW190)
+- Retain 70: Different model of the same chassis (e.g. Panzer III → StuG III [German medium tank 1 to German medium tank destroyer 1])
+- Retain 30: Direct upgrade or direct downgrade of equipment of the same type (e.g. Panzer III → Panzer IV [German medium tank 1 to German medium tank 2])
+- Retain 20: Indirect upgrade or indirect downgrade of equipment of the same type (e.g. Panzer III → Panther [German medium tank 1 to German medium tank 3])
+- Retain 10%: Any other change (e.g. Infantry Equipment 1 to Towed Artillery 1)
+
+Except for changing of variant, which always results in a loss of 10%, these effects can be reduced by researching:
+- Dispersed industry I
+- Dispersed industry II
+- Dispersed industry III
+- Dispersed industry IV
+- Dispersed industry V
+- Flexible line
+Each tech provides a production efficiency retention bonus, which serves to limit the production efficiency loss when switching production lines.
+
+Some national spirits and unique political advisors can also provide additional production efficiency retention .
+
+Switching a production line back to the old equipment it was producing not only does not undo the production efficiency loss from having switched lines. Production efficiency retention is based purely on the equipment differences between the currently produced equipment and the equipment being switched to.
+
+### Calculating production efficiency with retention bonus
+
+When a production line is switched while having Dispersed Industry unlocked and/or Flexible Line unlocked, the new Production Efficiency is not the result of a simple addition of the efficiency retention (listed in red in the previous section) and the Production Efficiency Retention bonus obtained from the technologies. As the in-game modifier describes, the retention bonus is applied as a percentage of the loss in production efficiency (e.g. 10% retention incurs a 90% loss, so a 10% bonus would reduce the loss by 10% of 90% or 9%. This would give you a new retention of 19%.)
+
+The new Production Efficiency can be calculated in three steps. First, determine the bonus efficiency by multiplying the retention modifier and the efficiency loss. Second, add that product to the original efficiency retention (listed in red in the previous section). This is you new efficiency retention. Finally, multiply your current production efficiency and your new efficiency retention. This is your new production efficiency.
+
+Note that a base production efficiency (default 10%) superior to this result will supersede it.
+
+It is possible to express these three steps into one formula that will compute the new production efficiency:
+
+Where
+- CPE: Current Production Efficiency;
+- RET: Retention (the values in red above, or 10% for any other production switch);
+- BON: Efficiency retention bonus obtained through Dispersed Industry I to V or Flexible Line.
+
+With this formula, we can see that bonus (BON) is more effective with lower retention (RET).
+
+To summarize, the real production efficiency will be given by
+
+## For ships
+Ships, submarines, and convoys are produced in naval dockyards , which do not have production efficiency. Instead, every dockyard produces a constant 2 naval production cost per day, modified by dockyard output modifiers. Hence, if a dockyard production line is changed to a different ship, all progress on the incomplete ship is lost, but the dockyards will immediately operate at full efficiency on the new production line.
+
+Also unlike land-based equipment, repairing ships requires allocating naval dockyards for the purpose. Each dockyard can repair up to one ship at a time, and the maximum amount of dockyards allowed to repair ships at a time can be modified in the production screen. Dockyards that are currently repairing ships are removed from active production lines until they are done repairing.
+
+## Equipment conversion
+A production line can be set to produce an item by converting obsolete or foreign (captured, lend-leased, license-built, or purchased) equipment of the same chassis. This can be done at any time (assuming input items are available) by clicking the button in the bottom-left of the production line's box, and incurs no loss of production efficiency. When the line runs out of equipment to convert it will automatically revert to production from raw materials.
+
+Equipment conversion can be used for things such as converting tanks to tank destroyers, or upgrading old No Step Back tank and By Blood Alone aircraft designs with new modules. It is generally faster than production from scratch (depending on the number of changes made to the design), and can be sped up further with the equipment conversion technologies. Strategic resources are only consumed to the extent the new design requires them and the old one did not.
+
+Ships can also be refitted to a new design from the task force panel in a similar manner. Each ship must be refitted individually, requiring significant dockyard time (particularly for engine and armor replacements). To refit a foreign ship taken in a peace conference, a new design must be created from the design tab of the ship's info panel; however this may sometimes fail to create a valid refit target. Once a refit is started, it can be safely canceled until it is at least 20% complete, after which cancelling a refit requires scuttling the ship.
+
+In order to convert existing equipment, the existing design must be:
+- Marked as decommissioned (automatic for foreign equipment).
+- Has the same chassis as the new target design (e.g. a 1934 light tank can not become a 1936 light tank).
+
+Foreign equipment has additional quirks outlined by the table below:
+
+Conversion target: Domestic design, same model1
+Converts domestic designs​: Yes
+Converts foreign designs: No
+
+Conversion target: Foreign license, same model
+Converts domestic designs​: No
+Converts foreign designs:
+Only with tank No Step Back / ship / aircraft By Blood Alone designers2​
+
+Conversion target: Domestic design, different model
+Converts domestic designs​: Yes
+Converts foreign designs: Yes
+
+Conversion target: Foreign license, different model
+Converts domestic designs​: Yes
+Converts foreign designs: Yes
+
+- 1 A model is Tank/TD/SPA/SPAA and Fighter/CAS/etc. (but only with By Blood Alone , without it all planes are different chassis and not models of the same chassis).
+
+- 2 And only those of the same national origin.​
+
+Conversion cost formula: (base_chassis_cost * (0.9 - tech) + new_module_cost) * prod_modifiers + dismantle_costs.
+- Note that for the equipment designers, the base chassis cost is not shown in the research or production screens (those have modules priced in), but is seen in the tooltip for production cost in the designer itself.
+- Production modifiers come from armor types and modules.
+- The dismantle cost is paid any time a module changes from the old design, including moving slots.
+
+Refit cost formula for ships: old_design_cost * (0.2 + newly_added_module_prod_modifiers) + (module_upgrade_cost if available, new_module_cost if not) * prod_modifiers + dismantle_costs. This also applies to carrier conversions.
+- Module upgrade costs usually are only available when upgrading a module to a differently-tiered one in the same category, e.g., upgrading an anti-air 1 module to anti-air 2, 3, or 4. They are usually less than new module costs, but in some cases like for light cruiser batteries, heavy cruiser batteries, and engines, they can be more expensive than a new module, sometimes doubly or triply so.
+ - Note: with engines, the upgrade costs only apply when staying within the same engine category. This is relevant for carrier conversions, as the more expensive upgrade costs are not paid when switching from cruiser or heavy ship engines to carrier engines, but they are paid if the design stays within the same engine category type and has a different tier.
+- Production modifiers come from armor types and engines.
+- Dismantle costs are paid for removing specific modules, mainly armor modules and torpedo launchers (though the dismantle costs for torpedo launchers are fairly small). This includes removing battleship or battlecruiser armor when converting battleships or battlecruiser to carriers, which practically makes these carrier conversions more expensive than just producing a new carrier from scratch.
+
+### Equipment conversion speed
+Equipment conversion speed bonuses from sources like equipment conversion technologies , certain focuses like Salvaged and Retooled, etc. are applied as bonuses on the reduction of the production cost due to conversion. It only applies to equipment that can be converted, such as tanks with No Step Back and aircraft with By Blood Alone , not ships, as alterations to ships are considered refits, not conversions.
+Note: the UI is currently bugged and does highlight conversion speed bonuses when refitting ships, even though their bonuses are not applied.
+
+Example: Consider upgrading an aircraft with a full cost of 30 production cost . If, through conversion, the cost is normally reduced to 20 production cost , the conversion savings amount to 10 production cost , as 30 - 20 = 10. With one +40% conversion speed bonus, a reduction of 40% is applied to the 10 production cost savings, giving a further 4 production cost reduction. Therefore, if the initial conversion cost is 20 production cost before researching the conversion bonus, it will be reduced to 16 production cost after applying the bonus, as 30 - 10 * (1 + 0.4) = 16. With both conversion bonuses researched, it would be reduced to 12 production cost , as 30 - 10 * (1 + 0.4 + 0.4) = 12.
+
+With the right designs, these bonuses can help massively reduce the resource cost of producing expensive equipment, like heavy tanks with heavy cannons or aircraft with self-sealing fuel tanks. Producing a barebones design first and then converting it into a full design can be just a few percentages more expensive than producing the full design outright, but have half or even less of the total resource cost. If a country has additional equipment conversion speed bonuses from elsewhere, making equipment in two steps can even be outright cheaper.
+
+### Ship refitting speed
+Ship refitting speed bonuses from sources like the Naval Refit Yards officer corps spirit, certain focuses like Expand the Repair Yards, etc., act as additional Dockyard Output bonuses that are only applied when refitting ships. This makes them have a smaller relative effect the more Dockyard Output the country already has.
+
+With the right designs, these bonuses can help reduce the resource costs of producing expensive ships like battleships or carriers, reduce the naval production cost of ships with final designs that are a lot more expensive than barebones ones as is often the case with carriers, or both.
+
+# Resources [verified for 1.16]
+
+Each nation can use a percentage of the resources on its territory for military production, with the rest being reserved exclusively for trade. This percentage depends on the trade law, with Closed Economy making all resources available for internal production and no resources available for trade.
+
+The total amount of resources can be increased by researching the excavation technologies. Each level of excavation technology gives a resource gain efficiency increase of +10% to the total of all extracted resources (extracted resources are those that come from the ground via drilling or mining; it does not include resources from trade or synthetic refineries ). There are five (5) levels of excavation technology; researching all of them will give a +50% bonus to the extracted resources total.
+
+The total amount of resources can also be increased by building infrastructure . Each level of infrastructure gives a resource increase of +15% to the total of all extracted resources (except those resources produced by a synthetic refinery or resources acquired via trade) in a state. There are five (5) levels of infrastructure; building all of them will give a +75% bonus to the extracted resources total.
+
+A +20% modifier is applied to resource extraction in a state if there is a supply hub or naval base in it connected to the capital via sea or railroad. Most states have this bonus at game start.
+
+Resources cannot be stockpiled. They flow directly to production, with any excess resources being effectively wasted. Fuel that is produced directly from oil can be stockpiled, however.
+
+Different kinds of equipment require different resources to produce. Lacking sufficient resources will apply an increasing efficiency penalty up to -100% to the lowest priority production lines. The penalty increases by -5% per missing unit of resource per type, and the highest applicable penalty is applied to individual factories.
+
+For example, when having 2 units of steel and 0 units of aluminum available and adding a new production line for Support Equipment (needs 2 steel 1 aluminum ) with 11 military factories , the first factory receives a penalty of -5% because it misses one unit of aluminum . The second factory receives a -10% penalty because it is missing both two units of steel and the one unit of aluminum . For each of the remaining factories, the penalty increases by -10% because they need two additional steel , the last ones getting a -100% penalty, being unable to produce the equipment at all. The production line shows the average penalty across all factories, -50%. This penalty stacks multiplicatively with other modifiers.
+
+Some countries have access to unique political advisors, national focuses and/or national spirits that can reduce these penalties.
+
+When facing a shortage, consider that the cost in civilian factories , hence construction slowdown, to provide sufficient resources might not be worth the benefit of eliminating the penalty inflicted on the production line. Note that production efficiency increase is not affected by availability of resources for a production line, so it can make sense to leave a production line without adequate resources when it is first started and put the civilian factories needed to buy resources to another use, as this is when output loss is lowest. However, consider that countries from which you buy resources gain the construction you spend. Hence, buying resources from a country that's in the same faction, or which will be so later, doesn't result in loss from your faction, though both AI and humans, even allied, may have different ideas about how to put those civilian factories to use.
+
+There are six strategic resources:
+
+Resource: Oil
+Description: Oil is important for making any form of vehicle run.
+Equipment:
+- Not used in manufacturing, but instead refined into fuel , which is used by ships, aircraft, and ground vehicles to operate.
+
+Resource: Aluminium
+Description:
+Aluminum is important for the construction of specialized vehicles and aircraft.
+Equipment:
+- Aircraft
+- Support Equipment
+
+Resource: Rubber
+Description: Rubber is important for the construction of most vehicles.
+Equipment:
+- Aircraft
+- Motorized/Mechanized
+
+Resource: Tungsten
+Description:
+Tungsten is a rare hard metal mainly used for anti-tank munitions, but also machine tools and specialized parts.
+Equipment:
+- Artillery and Anti-Tank
+- Level III and IV Armored Cars
+- Medium, Heavy, and Super-Heavy tank weapons
+- Small anti-tank and anti-air tank weapons
+- Squeeze-Bore Adapter on tanks and tank variants
+- Rocket aircraft
+- Railway guns
+
+Resource: Steel
+Description:
+Steel is the primary metal for most types of military machinery, whether it be tanks or ships.
+Equipment:
+- Infantry Weapons and Support Equipment
+- Artillery, Anti-Air, and Anti-Tank
+- Floating harbors
+- Ships
+- Tanks, Motorized/Mechanized, and Armored Cars
+- Trains
+- Railway guns
+
+Resource: Chromium
+Description: Chromium is a metal used for the construction of advanced engines.
+Equipment:
+- Improved Heavy, Advanced Heavy, Super-Heavy, and Modern tank chassis
+- Welded Armor on tanks and tank variants
+- High-tier Medium tank weapons
+- Level II and III Anti-Tank
+- Large ships (Carrier, Battleship, Super-Heavy Battleship, and Battlecruiser)
+- Level IV small ships (Destroyer, Light Cruiser, Heavy Cruiser, Submarine)
+- Level III and IV Cruiser Armor
+- Jet aircraft
+- Railway guns
+
+## Acquiring resources
+
+There are several ways to acquire more resources:
+- Trade for resources.
+- Take resource prospecting decisions or certain national focuses.
+- Construct Infrastructure in resource-producing states.
+- Build a supply hub or naval base in a resource-producing state that has none, and connect it to the capital.
+- Construct Synthetic Refineries .
+- Change trade Law to keep more domestic production.
+- Research excavation technologies.
+- Conquer states containing resources.
+- Gain rights to resources through peace conferences or unique decisions.
+
+## Reducing resource usage
+In addition to acquiring more resources when there is a shortage, there are many ways to reduce how many are consumed by a nation's production lines:
+
+- Lower-tier equipment, components, and chassis often have reduced resource costs.
+- Aircraft designs with Non-Strategic Material Usage have reduced aluminum costs.
+- Omitting resource-costing components from tank, ship, and aircraft designs like Squeeze-Bore Adaptor , Flight Deck Armor , or Self Sealing Fuel Tanks reduces their resource costs.
+- Because converting equipment only costs resources if the new design has a different resource cost from the old one, producing tanks and/or aircraft in multiple steps, where a bare-bones design is built first before it is converted to the full design, can reduce overall resource costs for that line of equipment.
+- Refitting ships after they have been produced only consumes the resources of the refitted components. For example, building a cruiser with no armor and the refitting it with Cruiser Armor IV only incurs the armor's chromium cost during the refit step, whereas building the same ship without refitting would cost additional chromium during the entire production process instead of just when the armor is being added.
+- Some military industrial organization (MIO) bonuses can reduce resource requirements for certain types of equipment. The Vertical Integration and Permanent Industrial Revolution MIO policies also reduce resource requirements for all MIO equipment, though Vertical Integration also increases the production penalty for lacking resources.
+
+## Resources by country or by state
+This spreadsheet contains resources by country and by state, with tabs set up by version of the game forum:1701788. Resources can also be viewed on the wiki at List of countries and at List of states.
+
+# Equipment [verified for 1.16]
+
+Land divisions and air wings are not produced as atomic units. Instead, factories produce individual tanks, airplanes, and so forth. This equipment is then sent to fill out the country's land divisions and air wings. Unlike resources, equipment can be stockpiled. The stockpiles can be viewed under the Logistics Tab . The table below primarily shows equipment for land units. Equipment tables for air wings can be found at Aircraft.
+
+Equipment: Amphibious Mechanized (Amtrac)
+Usage: * amtrac
+
+Equipment: Amphibious Tank
+Usage: * amphibious tank
+
+Equipment: Anti-Air
+Usage:
+- aa
+- motorized anti-air
+- sup aa
+
+Equipment: Anti-Tank
+Usage:
+- at
+- motorized anti-tank
+- sup at
+
+Equipment: Armored Car
+Usage:
+- armored car La Résistance
+- armored car recon La Résistance
+
+Equipment: Artillery
+Usage:
+- arty
+- motorized artillery
+- sup arty
+
+Equipment: Heavy Amphibious Tank
+Usage: heavy amphibious tank No Step Back
+
+Equipment: Heavy Flame Tank
+Usage: heavy flame tank No Step Back
+
+Equipment: Heavy SP Anti-Air
+Usage: heavy sp aa
+
+Equipment: Heavy SP Artillery
+Usage: heavy sp art
+
+Equipment: Heavy Tank
+Usage: heavy tank
+
+Equipment: H. Tank Destroyer
+Usage: heavy td
+
+Equipment: Infantry Equipment
+Usage:
+- infantry
+- bicycle
+- penal
+- militia
+- irregulars
+- marines
+- marine commando Arms Against Tyranny
+- mountaineers
+- paratroopers
+- cavalry
+- camelry By Blood Alone
+- motorized
+- mechanized
+- amtrac
+- engineers
+- pioneers Arms Against Tyranny
+- jungle pioneers Trial of Allegiance or Götterdämmerung
+- recon
+- motorized recon
+- rangers Arms Against Tyranny
+- long range patrol Arms Against Tyranny
+- military police
+- assault By Blood Alone
+- winter logistics Arms Against Tyranny
+
+Equipment: Light Amphibious Tank
+Usage: light amphibious tank No Step Back
+
+Equipment: Light Flame Tank
+Usage: light flame tank No Step Back
+
+Equipment: Light SP Anti-Air
+Usage: light sp aa
+
+Equipment: Light SP Artillery
+Usage: light sp art
+
+Equipment: Light Tank
+Usage:
+- lighttank
+- armored recon
+- airborne light armor Arms Against Tyranny
+
+Equipment: L. Tank Destroyer
+Usage: light td
+
+Equipment: Mechanized
+Usage: mechanized
+
+Equipment: Medium Amphibious Tank
+Usage: medium amphibious tank No Step Back
+
+Equipment: Medium Flame Tank
+Usage: medium flame tank No Step Back
+
+Equipment: Medium SP Anti-Air
+Usage: medium sp aa
+
+Equipment: Medium SP Artillery
+Usage: medium sp art
+
+Equipment: Medium Tank
+Usage: medium tank
+
+Equipment: M. Tank Destroyer
+Usage: medium td
+
+Equipment: Modern SP Anti-Air
+Usage: modern sp aa
+
+Equipment: Modern SP Artillery
+Usage: modern sp art
+
+Equipment: Modern Tank
+Usage: modern tank
+
+Equipment: Modern Tank Destroyer
+Usage: modern td
+
+Equipment: Trucks
+Usage:
+- motorized
+- motorized anti-air
+- motorized anti-tank
+- motorized artillery
+- mot rart
+- truck-drawn rocket artillery
+- motorized recon
+- fieldhospital
+- logistics
+- signals
+
+Equipment: Motorized Rocket Artillery
+Usage: mot rart
+
+Equipment: Rocket Artillery
+Usage:
+- rart
+- sup rart
+- truck-drawn rocket artillery
+
+Equipment: SH SP Anti-Air
+Usage: super heavy sp aa
+
+Equipment: SH SP Artillery
+Usage: super heavy sp art
+
+Equipment: SH. Tank Destroyer
+Usage: super heavy td
+
+Equipment: Super Heavy Tank
+Usage: super heavy tank
+
+Equipment: Support Equipment
+Usage:
+- bicycle
+- engineers
+- pioneers Arms Against Tyranny
+- jungle pioneers Trial of Allegiance or Götterdämmerung
+- recon
+- motorized recon
+- rangers Arms Against Tyranny
+- long range patrol Arms Against Tyranny
+- military police
+- maintenance
+- field hospital
+- logistics
+- signals
+- assault By Blood Alone
+- winter logistics Arms Against Tyranny
+
+# Production licenses [verified for 1.16]
+
+Nations may pay for production licenses from nations that already have researched a technology. The base cost is 1 civilian factory per license involving 1936 technology or earlier (pre-1936) technology. The civilian factory goes to the nation whose equipment is being licensed. License costs increase by +1 civilian factory for each technology year beyond 1936. For example, licensing Towed Artillery (1936 equipment) costs 1 civilian factory , licensing Improved Artillery (1939 equipment) costs 4 civilian factories , and licensing Advanced Artillery (1942 equipment) costs 7 civilian factories . Once a license is acquired, it cannot be canceled for 30 days.
+
+Having a license to some equipment also provides +20% research speed for the technology that unlocks a domestic (non-licensed) version of that equipment. For equipment that uses a designer, such as tanks (with No Step Back ), ships, and aircraft (with By Blood Alone ), only the technology for the base chassis, hull, or airframe of the licensed design receives this bonus.
+
+A nation with good relations with a foreign nation can request a license from them to produce the foreign equipment. The equipment type an AI-controlled nation is willing to license out depends on their relations and how advanced the technology is. Germany, for example, may not be willing to license out their latest tank or fighter designs, but would be happy to provide Panzer IIs to friendly or neutral nations. National focuses may also provide a way to gain licenses.
+
+Producing foreign equipment will not be as efficient as producing the player's own designs. The following production penalties apply multiplicatively to factory output or dockyard output :
+- Licensed equipment from another faction member: -25%
+- Licensed equipment from a non-faction member: -35%
+- Does not have a license to produce the foreign equipment: -50%
+- Foreign equipment is "ahead of time": additional -5% for each year that it is ahead of time, up to a maximum of -20%
+
+Some national focuses provide bonuses to license production that can offset these penalties, such as License German Equipment or Befriend Japan. In particular, Extensive Licensing Program can allow Hungary to produce licensed equipment faster than their own.
+
+Creating a variant of licensed equipment costs 2 as much experience compared to doing the same for non-licensed equipment.
+
+When licensing equipment, design companies and military industrial organizations applied to the original equipment do not transfer their bonuses to the licensed equipment. However, country-wide bonuses from national spirits, political advisors, and/or Air Production that affect the production cost of the original equipment will transfer over with the license.
+
+With Arms Against Tyranny , military industrial organizations cannot be directly assigned to production lines of foreign equipment, preventing them from applying their production bonuses to those lines and also preventing them from gathering funds and experience from overseeing those lines.
+
+As of game version v1.16.9, there are also a set of bugs in the game where component modules of licensed ship designs can be applied and used on domestic, non-licensed hulls without penalties even if the country does not have the appropriate technology for them. This can happen whenever a save game where the license is active is loaded. Similar bugs for tank designs (with No Step Back ) and aircraft designs (with By Blood Alone ) have also been unofficially noted.
+
+# References

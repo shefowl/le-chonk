@@ -1,0 +1,1676 @@
+TITLE: Naval technology
+URL: https://hoi4.paradoxwikis.com/Naval_technology
+REVISION: 2026-02-11T21:07:29Z (rev 97165)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Man the Guns
+For naval technology without Man the Guns , see the separate Naval technology (Basic) page.
+
+ Man the Guns replaces the existing naval technology system of set, successive designs with an extensive modular system that allows players to create more highly customized individual ship classes. Each ship has a number of slots for modules depending on its hull type, located above and below its portrait in the ship design screen. The bottom-side slots are considered fundamental mountings for the class and are universal to them, though some such as AA or torpedoes need not be filled. For instance, all destroyers have bottom-side mountings for one battery gun, one AA mount, a fire control/sonar, a sonar/radar, a torpedo launcher, and an engine. All ships also are required to have certain mountings -- a destroyer, for instance, must have a battery and an engine, as otherwise it has no means to move or defend itself.
+
+However, the mountings above the portrait are additional slots for customizing the class, and contain no mandatory elements. These are divided into three sections for the ship -- front, middle, and rear, with up to two front and rear slots and three middles ones. As an example, the Early Destroyer only has one middle and one rear slot above-portrait, but the 1940 Destroyer has a middle, rear, and front.
+
+Exactly what can go in the optional slots also changes from ship class to ship class. Cruisers and battleships can only mount main guns or AA in their front slots, but destroyers can mount depth charges in theirs (as the 1940 technology bracket also unlocks the Depth Charge Mortar). A wide variety of equipment exists that can produce highly specialized ships.
+
+With the introduction of special projects in Götterdämmerung and the accompanying Patch 1.15, all naval technologies now also generate naval engineering breakthrough progress while being researched.
+
+# Destroyers [verified for 1.16]
+
+## Destroyer Hulls
+
+FOCUS Early Destroyer: To ensure the safety of convoys, the destroyers of the Great War must be repurposed and developed. Arming vessels with more torpedoes will allow more opportunities to engage.
+1922
+165 days
+2 steel
+
+Early Destroyer
+
+manpower Service manpower: 250
+Surface detection: 20.0
+
+Sub detection: 2.5
+Surface visibility: 10.0
+
+Depth charges: 1.0
+Max speed: 32.0 kn
+
+Max range: 1500 km
+HP: 25.0
+
+Reliability: 80.0%
+Fuel usage: 0.0
+
+naval production cost Production cost: 400
+
+Unlocks
+
+35,000 Shp Engine
+
+Max speed: +10%
+Fuel usage: 7.0
+
+naval production cost Production cost: +12.5%
+
+Technology:
+FOCUS 1936 Destroyer: Longer torpedo range and faster reload speeds, along with new types of armaments such as anti-air turrets, will allow our destroyers to remain efficient and versatile.
+Year: 1936
+Base time: 165 days
+Prerequisites: Early Destroyer
+Effects:
+2 steel
+
+1936 Destroyer
+
+manpower Service manpower: 325
+Surface detection: 20.0
+
+Sub detection: 3.0
+Surface visibility: 10.0
+
+Depth charges: 1.0
+Max speed: 32.0 kn
+
+Max range: 1800 km
+HP: 40.0
+
+Reliability: 85.0%
+Fuel usage: 0.0
+
+naval production cost Production cost: 500.00
+
+Unlocks
+
+40,000 Shp Engine
+
+Max speed: +15%
+Fuel usage: 8.0
+
+naval production cost Production cost: +15%
+
+Technology:
+FOCUS 1940 Destroyer: To better face threats from above and below, new destroyers must be outfitted with radar and modern anti-air and anti-submarine weaponry.
+Year: 1940
+Base time: 165 days
+Prerequisites: 1936 Destroyer
+Effects:
+3 steel
+
+1940 Destroyer
+
+manpower Service manpower: 400
+Surface detection: 20.0
+
+Sub detection: 3.5
+Surface visibility: 10.0
+
+Depth charges: 1.0
+Max speed: 32.0 kn
+
+Max range: 2000 km
+HP: 50.0
+
+Reliability: 90.0%
+Fuel usage: 0.0
+
+naval production cost Production cost: 550.00
+
+Unlocks
+
+45,000 Shp Engine
+
+Max speed: +20%
+Fuel usage: 10.0
+
+naval production cost Production cost: +17.5%
+
+Technology:
+FOCUS 1944 Destroyer: The modern destroyer must be fitted with a variety of different detection technologies, new depth charge deployment systems and be built at a larger scale than their predecessors.
+Year: 1944
+Base time: 165 days
+Prerequisites: 1940 Destroyer
+Effects:
+4 steel 1 chromium
+
+1944 Destroyer
+
+manpower Service manpower: 500
+Surface detection: 20.0
+
+Sub detection: 4.0
+Surface visibility: 10.0
+
+Depth charges: 1.0
+Max speed: 32.0 kn
+
+Max range: 2500 km
+HP: 60.0
+
+Reliability: 92.0%
+Fuel usage: 0.0
+
+naval production cost Production cost: 600.00
+
+Unlocks
+
+50,000 Shp Engine
+
+Max speed: +25%
+Fuel usage: 10.0
+
+naval production cost Production cost: +20%
+
+## Destroyer Modules
+
+{| class="wikitable"
+|-
+|-
+! Technology
+! Year
+! Base time
+! Optional Bonus
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Basic Depth Charges: A simple explosive container with a pressure-sensitive trigger explodes when it hits a pre-set depth.
+Mounting this module on Light Ships and Cruisers will allow them to attack enemy Submarines.
+| 1922
+| 165 days
+| 50 naval exp for +150%
+| Early Destroyer
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | Depth Charge Rails
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Depth charges: 8.0
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: -1%
+|-
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 90.00
+| style="border: none; width: 50%; padding-left: 10px;"|
+|}
+
+|-
+| FOCUS Depth Charge Thrower: A simple mechanical device that tosses a depth charge a set distance away from the ship. This means that the destroyer no longer has to drive directly across the target to hit it.
+Mounting this module on Light Ships and Cruisers will allow them to attack enemy Submarines.
+| 1936
+| 165 days
+| 50 naval exp for +150%
+| Basic Depth Charges
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;"| Depth Charge Thrower
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Depth charges: 13.0
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: -1%
+|-
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 120.00
+| style="border: none; width: 50%; padding-left: 10px;"|
+|}
+
+|-
+| FOCUS Depth Charge Mortar: A mortar on board the destroyer can throw an explosive charge much further, allowing the ship to maintain sonar contact with the submarine throughout the attack and dramatically increasing its accuracy.
+Mounting this module on Light Ships and Cruisers will allow them to attack enemy Submarines.
+| 1940
+| 165 days
+| 50 naval exp for +150%
+| Depth Charge Thrower
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;"| Anti-submarine Mortar
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Depth charges: 17.0
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: -2%
+|-
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 150.00
+| style="border: none; width: 50%; padding-left: 10px;"|
+|}
+
+|-
+| FOCUS Improved Depth Charge Mortar: A larger propellant charge throws a proper depth charge set to a specific depth at a submarine from quite a distance.
+Mounting this module on Light Ships and Cruisers will allow them to attack enemy Submarines.
+| 1944
+| 165 days
+| 50 naval exp for +150%
+| Depth Charge Mortar
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;"| Advanced Anti-submarine Mortar
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Depth charges: 22.0
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: -2%
+|-
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 180.00
+| style="border: none; width: 50%; padding-left: 10px;"|
+|}
+
+|-
+| FOCUS Smoke Generators: Some minor modifications to the engines and smokestacks of light and medium ships allow them to make a lot of smoke to avoid or break contact with the enemy.
+| 1922
+| 82 days
+
+| Early Destroyer
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Global stats
+|-
+| style="border: none; width: 75%; padding-right: 10px;"| Fleet speed while retreating: +20%
+|}
+
+|-
+| FOCUS Passive Sonar: A basic set of hydrophones allows tracking of underwater targets through detecting the sound they make.
+Mounting this module in an Electronics Slot on Light Ships or Cruisers will help them detect enemy Submarines.
+| 1922
+| 165 days
+
+| Early Destroyer
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;"| Hydrophones
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Sub detection: 8.0
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 40.00
+|}
+
+|-
+| FOCUS Active Sonar: Using modulated sound waves, this system can accurately measure bearing and distance to a submerged target.
+Mounting this module in an Electronics Slot on Light Ships or Cruisers will help them detect enemy Submarines.
+| 1936
+| 165 days
+
+| Passive Sonar
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;"| Active Sonar
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Sub detection: 12.0
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 60.00
+|}
+|}
+
+# Cruisers [verified for 1.16]
+
+## Cruiser Hulls
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Early Cruiser: Although bound by the stipulations of the Washington Naval Treaty, the cruiser is still the most flexible warship. This hull allows construction of a light cruiser for screening and scouting, or a heavy cruiser to support the battleline.
+| 1922
+| 165 days
+
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="border: none;" | 1 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | Early Cruiser
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| manpower Service manpower: 600
+| style="border: none; width: 50%; padding-left: 10px;"| Surface detection: 20.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Sub detection: 1.0
+| style="border: none; width: 50%; padding-left: 10px;"| Surface visibility: 15
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: 27.0 kn
+| style="border: none; width: 50%; padding-left: 10px;"| Max range: 2500 km
+|-
+| style="border: none; padding-right: 10px;"| HP: 100
+| style="border: none; padding-left: 10px;"| Reliability: 80.0%
+|-
+| style="border: none; padding-right: 10px;"| Fuel usage: 20.0
+| style="border: none; padding-left: 10px;"| naval production cost Production cost: 1800
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" |
+Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | Floatplane Catapult
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Surface detection: 7.0
+| style="border: none; width: 50%; padding-left: 10px;"| Sub detection: 2.5
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: −1%
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: 150
+| style="border: none; width: 50%; padding-right: 10px;"|
+|-
+| colspan="2" style="text-align: center; border: none;" | 50mm Belt/40mm Deck
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: −5%
+| style="border: none; width: 50%; padding-left: 10px;"| Armor: 6.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: +10%
+| style="border: none; width: 50%; padding-right: 10px;"|
+|-
+| colspan="2" style="text-align: center; border: none;" | 60,000 Shp Engine
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: +20%
+| style="border: none; width: 50%; padding-left: 10px;"| Fuel usage: 12.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: +15%
+|}
+
+|-
+| FOCUS 1936 Cruiser: The next generation of cruisers features new engine arrangements that improve survivability, as well as space for dedicated aircraft facilities.
+| 1936
+| 165 days
+| Early Cruiser
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="border: none;" | 2 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | 1936 Cruiser
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| manpower Service manpower: 800
+| style="border: none; width: 50%; padding-left: 10px;"| Surface detection: 20.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Sub detection: 1.5
+| style="border: none; width: 50%; padding-left: 10px;"| Surface visibility: 15
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: 30.0 kn
+| style="border: none; width: 50%; padding-left: 10px;"| Max range: 3000 km
+|-
+| style="border: none; padding-right: 10px;"| HP: 110
+| style="border: none; padding-left: 10px;"| Reliability: 85.0%
+|-
+| style="border: none; padding-right: 10px;"| Fuel usage: 20.0
+| style="border: none; padding-left: 10px;"| naval production cost Production cost: 1900
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" |
+Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | 70,000 Shp Engine
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: +30%
+| style="border: none; width: 50%; padding-left: 10px;"| Fuel usage: 16.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: +17.5%
+|}
+
+|-
+| FOCUS 1940 Cruiser: As cruisers around the world get more powerful and capable, new and larger hulls are needed to hold all the extra equipment needed.
+| 1940
+| 165 days
+| 1936 Cruiser
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="border: none;" | 2 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | 1940 Cruiser
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| manpower Service manpower: 1200
+| style="border: none; width: 50%; padding-left: 10px;"| Surface detection: 20.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Sub detection: 2.0
+| style="border: none; width: 50%; padding-left: 10px;"| Surface visibility: 15
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: 32.0 kn
+| style="border: none; width: 50%; padding-left: 10px;"| Max range: 4000 km
+|-
+| style="border: none; padding-right: 10px;"| HP: 120
+| style="border: none; padding-left: 10px;"| Reliability: 90.0%
+|-
+| style="border: none; padding-right: 10px;"| Fuel usage: 20.0
+| style="border: none; padding-left: 10px;"| naval production cost Production cost: 2000
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" |
+Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | 80,000 Shp Engine
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: +35%
+| style="border: none; width: 50%; padding-left: 10px;"| Fuel usage: 20.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: +20%
+|}
+
+|-
+| FOCUS 1944 Cruiser: Influenced by wartime experiences, the latest generation of cruisers have a rearranged superstructure to allow wider fields of fire for anti-air armaments and new internal layouts to support the use of radar.
+| 1944
+| 165 days
+| 1940 Cruiser
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="border: none;" | 3 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | 1944 Cruiser
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| manpower Service manpower: 1400
+| style="border: none; width: 50%; padding-left: 10px;"| Surface detection: 20.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Sub detection: 2.5
+| style="border: none; width: 50%; padding-left: 10px;"| Surface visibility: 15
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: 33.0 kn
+| style="border: none; width: 50%; padding-left: 10px;"| Max range: 4500 km
+|-
+| style="border: none; padding-right: 10px;"| HP: 130
+| style="border: none; padding-left: 10px;"| Reliability: 95.0%
+|-
+| style="border: none; padding-right: 10px;"| Fuel usage: 20.0
+| style="border: none; padding-left: 10px;"| naval production cost Production cost: 2100
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" |
+Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | 90,000 Shp Engine
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: +40%
+| style="border: none; width: 50%; padding-left: 10px;"| Fuel usage: 24.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: +22.5%
+|}
+
+|}
+
+## Cruiser Modules
+
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! Optional Bonus
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Improved Airplane Catapult: An improved pneumatic mechanism allows much larger airplanes to be launched via catapult. This increases their search radius.
+Mounting this module on Cruisers, Heavy Ships or specialized Submarines improves their ability to detect enemy ships.
+| 1936
+| 82 days
+
+| Early Cruiser
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | Improved Floatplane Catapult
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Surface detection: 10.0
+| style="border: none; width: 50%; padding-left: 10px;"| Sub detection: 3.5
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: -1%
+| style="border: none; width: 50%; padding-left: 10px;"| naval production cost Production cost: 170
+|}
+|}
+
+# Cruiser & Battleship Armor [verified for 1.16]
+
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! Optional Bonus
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Basic Cruiser Armor Scheme: An armor scheme that copies the split between belt and deck armor seen in Capital Ships and offers some protection against splinters and small-caliber guns.
+Mounting this module on Cruisers improves their ability to withstand enemy damage, but also reduces their speed.
+| 1936
+| 55 days
+| 50 naval exp for +150%
+
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="border: none;" | 1 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | 100mm Belt/30mm Deck
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: −7.5%
+| style="border: none; width: 50%; padding-left: 10px;"| HP: +5%
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Armor: 8.0
+| style="border: none; padding-left: 10px;"| naval production cost Production cost: +15%
+|}
+
+|-
+| FOCUS Inclined Belt Armor Scheme: By placing the belt armor at an angle, the same weight and thickness of armor are much harder to pierce.
+Mounting this module on Heavy Ships improves their ability to withstand enemy damage. Battleships and Battlecruisers are defined by their different Armor Schemes.
+| 1936
+| 137 days
+| 50 naval exp for +150%
+| Basic Cruiser Armor Scheme
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="border: none;" | 1 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | 350mm Belt/150mm Deck
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: -5%
+| style="border: none; width: 50%; padding-right: 10px;"| Torpedo damage reduction: 0.1
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Incoming torpedo critical chance: -15%
+| style="border: none; width: 50%; padding-right: 10px;"| HP: +10%
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Armor: 36.0
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: +20.0%
+|-
+| colspan="2" style="border: none;" | 1 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | 305mm Belt/100mm Deck
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Torpedo damage reduction: 0.1
+| style="border: none; width: 50%; padding-right: 10px;"| Incoming torpedo critical chance: -10%
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| HP: +10%
+| style="border: none; width: 50%; padding-right: 10px;"| Armor: 28.0
+|-
+| style="border: none; padding-left: 10px;"| naval production cost Production cost: +12.5%
+|-
+| colspan="2" style="border: none;" | 1 steel 1 chromium
+|-
+| colspan="2" style="text-align: center; border: none;" | 120mm Belt/50mm Deck
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: −10.0%
+| style="border: none; width: 50%; padding-left: 10px;"| HP: +10%
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Armor: 10.0
+| style="border: none; padding-left: 10px;"| naval production cost Production cost: +20%
+|}
+
+|-
+| FOCUS All-or-Nothing Armor Scheme: This scheme focuses on only protecting the most vital areas of the ship, while ignoring the unimportant parts.
+Mounting this module on Heavy Ships improves their ability to withstand enemy damage. Battleships and Battlecruisers are defined by their different Armor Schemes.
+| 1936
+| 137 days
+| 50 naval exp for +125%
+| Inclined Belt Armor Scheme
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="border: none;" | 2 steel 1 chromium
+|-
+| colspan="2" style="text-align: center; border: none;" | 380mm Belt/155mm Deck
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: -10%
+| style="border: none; width: 50%; padding-right: 10px;"| Torpedo damage reduction: 0.2
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Incoming torpedo critical chance: -20%
+| style="border: none; width: 50%; padding-right: 10px;"| HP: +15%
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Armor: 40.0
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: +17.5%
+|-
+| colspan="2" style="border: none;" | 1 steel 1 chromium
+|-
+| colspan="2" style="text-align: center; border: none;" | 330mm Belt/130mm Deck
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: -10%
+| style="border: none; width: 50%; padding-right: 10px;"| Torpedo damage reduction: 0.2
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Incoming torpedo critical chance: -15%
+| style="border: none; width: 50%; padding-right: 10px;"| HP: +15%
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Armor: 34.0
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: +12.5%
+|-
+| colspan="2" style="border: none;" | 2 steel 1 chromium
+|-
+| colspan="2" style="text-align: center; border: none;" | 150mm Belt/60mm Deck
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: −12.5%
+| style="border: none; width: 50%; padding-left: 10px;"| HP: +15%
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Armor: 12.0
+| style="border: none; padding-left: 10px;"| naval production cost Production cost: +25%
+|}
+
+|}
+
+# Battleships [verified for 1.16]
+
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Early Heavy Ship: Considered by some to be a relic of a bygone era of naval warfare, by others as the most impressive ships ever built, no one can deny that these remnants of the battleship arms race constitute some of the most heavily armed and armored vessels ever built.
+| 1922
+| 192 days
+
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="border: none;" | 1 steel 1 chromium
+|-
+| colspan="2" style="text-align: center; border: none;" | Early Heavy Ship
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| manpower Service manpower: 4000
+| style="border: none; width: 50%; padding-left: 10px;"| Surface detection: 20.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Sub detection: 1.0
+| style="border: none; width: 50%; padding-left: 10px;"| Surface visibility: 20.0
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: 20.0 kn
+| style="border: none; padding-right: 10px;"| Max range: 3000 km
+|-
+| style="border: none; padding-left: 10px;"| HP: 350.0
+| style="border: none; padding-left: 10px;"| Armor: 0.0
+|-
+| style="border: none; padding-right: 10px;"| Reliability: 80.0%
+| style="border: none; padding-left: 10px;"| Fuel usage: 67.0
+|-
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 2800
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" |
+Unlocks
+|-
+| colspan="2" style="border: none;" | 1 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | 200mm Belt/40mm Deck
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Torpedo damage reduction: 0.1
+| style="border: none; width: 50%; padding-right: 10px;"| Incoming torpedo critical chance: -10%
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| HP: +5%
+| style="border: none; width: 50%; padding-right: 10px;"| Armor: 30.0
+|-
+| style="border: none; padding-left: 10px;"| naval production cost Production cost: +12.5%
+|-
+| colspan="2" style="text-align: center; border: none;" | 150mm Belt/25mm Deck
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: +5%
+| style="border: none; width: 50%; padding-right: 10px;"| Torpedo damage reduction: 0.1
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| HP: +5%
+| style="border: none; width: 50%; padding-right: 10px;"| Armor: 22.0
+|-
+| style="border: none; padding-left: 10px;"| naval production cost Production cost: +10%
+|-
+| colspan="2" style="text-align: center; border: none;" | 30,000 Shp Engine
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: +20%
+| style="border: none; width: 50%; padding-left: 10px;"| Fuel usage: 20.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: +17.5%
+|}
+
+|-
+| FOCUS 1936 Heavy Ship: With improved stability and range, a new generation of battleships improve upon previous designs while remaining within limits stipulated by naval treaties.
+| 1936
+| 165 days
+| Early Heavy Ship
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="border: none;" | 1 steel 1 chromium
+|-
+| colspan="2" style="text-align: center; border: none;" | 1936 Heavy Ship
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| manpower Service manpower: 5200
+| style="border: none; width: 50%; padding-left: 10px;"| Surface detection: 20.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Sub detection: 1.0
+| style="border: none; width: 50%; padding-left: 10px;"| Surface visibility: 20.0
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: 24.0 kn
+| style="border: none; padding-right: 10px;"| Max range: 3500 km
+|-
+| style="border: none; padding-left: 10px;"| HP: 370.0
+| style="border: none; padding-left: 10px;"| Armor: 0.0
+|-
+| style="border: none; padding-right: 10px;"| Reliability: 85.0%
+| style="border: none; padding-left: 10px;"| Fuel usage: 67.0
+|-
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 3000
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" |
+Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | 90,000 Shp Engine
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: +35%
+| style="border: none; width: 50%; padding-left: 10px;"| Fuel usage: 25.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: +20.0%
+|}
+
+|-
+| FOCUS 1940 Heavy Ship: Thicker armor, stronger engines, a battery of high-caliber guns and improved anti-air capabilities can allow battleships to remain relevant, if correctly employed, in a world where naval warfare is increasingly dominated by aerial support.
+| 1940
+| 165 days
+| 1936 Heavy Ship
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="border: none;" | 1 steel 1 chromium
+|-
+| colspan="2" style="text-align: center; border: none;" | 1940 Heavy Ship
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| manpower Service manpower: 6000
+| style="border: none; width: 50%; padding-left: 10px;"| Surface detection: 20.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Sub detection: 1.0
+| style="border: none; width: 50%; padding-left: 10px;"| Surface visibility: 20.0
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: 25.0 kn
+| style="border: none; padding-right: 10px;"| Max range: 4000 km
+|-
+| style="border: none; padding-left: 10px;"| HP: 400
+| style="border: none; padding-left: 10px;"| Armor: 0
+|-
+| style="border: none; padding-right: 10px;"| Reliability: 90.0%
+| style="border: none; padding-left: 10px;"| Fuel usage: 67.0
+|-
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 3200
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" |
+Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | 150,000 Shp Engine
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: +45%
+| style="border: none; width: 50%; padding-left: 10px;"| Fuel usage: 30.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: +22.5%
+|}
+
+|-
+| FOCUS 1944 Heavy Ship: As the world sees what may be the last major battleship confrontations, the importance of heavy armaments and anti-air turrets is greater than ever.
+| 1944
+| 165 days
+| 1940 Heavy Ship
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="border: none;" | 1 steel 1 chromium
+|-
+| colspan="2" style="text-align: center; border: none;" | 1944 Heavy Ship
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| manpower Service manpower: 6000
+| style="border: none; width: 50%; padding-left: 10px;"| Surface detection: 20.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Sub detection: 1.0
+| style="border: none; width: 50%; padding-left: 10px;"| Surface visibility: 20.0
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: 26.0 kn
+| style="border: none; padding-right: 10px;"| Max range: 4500 km
+|-
+| style="border: none; padding-left: 10px;"| HP: 450.0
+| style="border: none; padding-left: 10px;"| Armor: 0.0
+|-
+| style="border: none; padding-right: 10px;"| Reliability: 95.0%
+| style="border: none; padding-left: 10px;"| Fuel usage: 67.0
+|-
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 3400
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" |
+Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | 210,000 Shp Engine
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: +55%
+| style="border: none; width: 50%; padding-left: 10px;"| Fuel usage: 35.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: +25%
+|}
+
+|}
+
+# Carriers [verified for 1.16]
+
+## Carrier Hulls
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Deck Conversions: Conversions of old hulls allow for cheap experiments with naval aviation to gain experience in building and operating carriers. These ships will be less capable than a purpose-built carrier, but far quicker to create.
+| 1922
+| 192 days
+
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="border: none;" | 4 steel 1 chromium
+|-
+| colspan="2" style="text-align: center; border: none;" | Converted Battleship
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| manpower Service manpower: 5000
+| style="border: none; width: 50%; padding-left: 10px;"| Surface detection: 26.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Sub detection: 5.0
+| style="border: none; width: 50%; padding-left: 10px;"| Surface visibility: 30.0
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: 25.0 kn
+| style="border: none; padding-right: 10px;"| Max range: 4000 km
+|-
+| style="border: none; padding-left: 10px;"| HP: 325.0
+| style="border: none; padding-right: 10px;"| Reliability: 65.0%
+|-
+| style="border: none; padding-left: 10px;"| Fuel usage: 87.0
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 2700
+
+|-
+| colspan="2" style="border: none;" | 3 steel 1 chromium
+|-
+| colspan="2" style="text-align: center; border: none;" | Converted Cruiser
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| manpower Service manpower: 1000
+| style="border: none; width: 50%; padding-left: 10px;"| Surface detection: 26.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Sub detection: 5.0
+| style="border: none; width: 50%; padding-left: 10px;"| Surface visibility: 30.0
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: 22.5 kn
+| style="border: none; padding-right: 10px;"| Max range: 4000 km
+|-
+| style="border: none; padding-left: 10px;"| HP: 125.0
+| style="border: none; padding-right: 10px;"| Reliability: 65.0%
+|-
+| style="border: none; padding-left: 10px;"| Fuel usage: 87.0
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 2700
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" |
+Unlocks
+|-
+| colspan="2" style="border: none;" | 1 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | 90mm Deck
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: -5%
+| style="border: none; width: 50%; padding-left: 10px;"| HP: 25
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Armor: 5.0
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: +10%
+|-
+| colspan="2" style="text-align: center; border: none;" | 50,000 Shp Engine
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: +30%
+| style="border: none; width: 50%; padding-left: 10px;"| Fuel usage: 12.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: +10%
+|-
+| colspan="2" style="border: none;" | 1 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | Hangar Space
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: -5%
+| style="border: none; width: 50%; padding-left: 10px;"| Deck Size: 20
+|-
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 1500
+|}
+
+|-
+| FOCUS 1936 Carrier: Many military theorists believe that naval aviation is the future. Converting old capital ships and ocean liners to carry aircraft will be the first step towards utilizing these new doctrines.
+| 1936
+| 165 days
+| Deck Conversions
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="border: none;" | 3 steel 1 chromium
+|-
+| colspan="2" style="text-align: center; border: none;" | 1936 Carrier
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| manpower Service manpower: 4500
+| style="border: none; width: 50%; padding-left: 10px;"| Surface detection: 26.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Sub detection: 5.0
+| style="border: none; width: 50%; padding-left: 10px;"| Surface visibility: 30.0
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: 26.0 kn
+| style="border: none; padding-right: 10px;"| Max range: 3000 km
+|-
+| style="border: none; padding-left: 10px;"| HP: 250.0
+| style="border: none; padding-right: 10px;"| Reliability: 70.0%
+|-
+| style="border: none; padding-left: 10px;"| Fuel usage: 87.0
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 2094
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" |
+Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | 120,000 Shp Engine
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: 5.0 kn
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: +30%
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Reliability: −20%
+| style="border: none; width: 50%; padding-left: 10px;"| Fuel usage: 16.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: 480
+|}
+
+|-
+| FOCUS 1940 Carrier: As work begins on the first keel-up carrier designs, we must ensure that these ships have the range and speed to keep up with the rest of our navy, while respecting the post-war naval treaties.
+| 1940
+| 165 days
+| 1936 Carrier
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="border: none;" | 4 steel 1 chromium
+|-
+| colspan="2" style="text-align: center; border: none;" | 1940 Carrier
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| manpower Service manpower: 5000
+| style="border: none; width: 50%; padding-left: 10px;"| Surface detection: 26.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Sub detection: 5.0
+| style="border: none; width: 50%; padding-left: 10px;"| Surface visibility: 30.0
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: 26.0 kn
+| style="border: none; padding-right: 10px;"| Max range: 4000 km
+|-
+| style="border: none; padding-left: 10px;"| HP: 325.0
+| style="border: none; padding-right: 10px;"| Reliability: 75.0%
+|-
+| style="border: none; padding-left: 10px;"| Fuel usage: 87.0
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 2600
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" |
+Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | 150,000 Shp Engine
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: 5.0 kn
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: +40%
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Reliability: −20%
+| style="border: none; width: 50%; padding-left: 10px;"| Fuel usage: 20.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: 550
+|}
+
+|-
+| FOCUS 1944 Carrier: Improved construction methods and more specialized systems like deck edge elevators allow these carriers to transport more planes more efficiently.
+| 1944
+| 165 days
+| 1940 Carrier
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="border: none;" | 4 steel 2 chromium
+|-
+| colspan="2" style="text-align: center; border: none;" | 1944 Carrier
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| manpower Service manpower: 5500
+| style="border: none; width: 50%; padding-left: 10px;"| Surface detection: 26.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Sub detection: 5.0
+| style="border: none; width: 50%; padding-left: 10px;"| Surface visibility: 30.0
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: 26.0 kn
+| style="border: none; padding-right: 10px;"| Max range: 5000 km
+|-
+| style="border: none; padding-left: 10px;"| HP: 350.0
+| style="border: none; padding-right: 10px;"| Reliability: 80.0%
+|-
+| style="border: none; padding-left: 10px;"| Fuel usage: 87.0
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 3250
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" |
+Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | 210,000 Shp Engine
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: 5 kn
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: +45%
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Reliability: −20%
+| style="border: none; width: 50%; padding-left: 10px;"| Fuel usage: 24.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: 670
+|}
+|}
+
+## Carrier Modules
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! Optional Bonus
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Refined Pykrete: With the further refinement of the Pykrete, we are now able to have much better insulation and protection for our aircraft about the Ice Carrier
+| 1942
+| 110 days
+
+| Ice Carrier
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="border: none;" | 2 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | Steel-Reinforced Pykrete Runway
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Max Speed: −15%
+| style="border: none; width: 50%; padding-right: 10px;"| Weather Penalty: −10%
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| HP: 35.0
+| style="border: none; width: 50%; padding-right: 10px;"| Armor: 4.0
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| naval production cost Production cost: +15%
+|}
+
+|-
+| FOCUS Ice Composite Runways: With the continued development of the Ice Composites we are looking for the best materials and construction techniques to provide protection for our carrier and planes
+| 1945
+| 110 days
+
+| Refined Pykrete
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="border: none;" | 3 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | Ice-Composite Runway
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Max Speed: −15%
+| style="border: none; width: 50%; padding-right: 10px;"| Weather Penalty: −15%
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| HP: 40.0
+| style="border: none; width: 50%; padding-right: 10px;"| Armor: 6.0
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| naval production cost Production cost: +20%
+|}
+|}
+
+# Submarines [verified for 1.16]
+
+## Submarine Hulls
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Early Submarine: Submarines are stealthy vessels designed to take out undefended convoys. The early models from the Great War pave the way for new methods of naval warfare.
+| 1922
+| 165 days
+| Basic Torpedo
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="border: none;" | 1 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | Early Submarine
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| manpower Service manpower: 200
+| style="border: none; width: 50%; padding-left: 10px;"| Surface detection: 20.0
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Surface visibility: 1.0
+| style="border: none; width: 50%; padding-left: 10px;"| Sub visibility: 25.0
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: 13.0 kn
+| style="border: none; padding-right: 10px;"| Max range: 2500 km
+|-
+| style="border: none; padding-left: 10px;"| HP: 10.0
+| style="border: none; padding-right: 10px;"| Reliability: 60.0%
+|-
+| style="border: none; padding-left: 10px;"| Fuel usage: 1.0
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 320
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" |
+Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | 4x 450mm Torpedo Tubes
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Torpedo attack: 13.0
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: -1%
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| naval production cost Production cost: 80
+|-
+| colspan="2" style="text-align: center; border: none;" | 1,000 Shp Engine
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: +5%
+| style="border: none; width: 50%; padding-right: 10px;"| Fuel usage: 7.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: +10%
+|}
+
+|-
+| FOCUS 1936 Submarine: Better armed and more stable, new submarine designs are made to take advantage of advancements in naval tactics and have longer range, being able to attack distant convoy routes.
+| 1936
+| 165 days
+| Early Submarine
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="border: none;" | 2 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | 1936 Submarine
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| manpower Service manpower: 200
+| style="border: none; width: 50%; padding-left: 10px;"| Surface detection: 20.0
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Surface visibility: 1.0
+| style="border: none; width: 50%; padding-left: 10px;"| Sub visibility: 22.0
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: 17.0 kn
+| style="border: none; padding-right: 10px;"| Max range: 4000 km
+|-
+| style="border: none; padding-left: 10px;"| HP: 20.0
+| style="border: none; padding-right: 10px;"| Reliability: 70.0%
+|-
+| style="border: none; padding-left: 10px;"| Fuel usage: 1.0
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 350
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" |
+Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | 6x 450mm Torpedo Tubes
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Torpedo attack: 17.0
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: -2%
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Torpedo hit chance: +0.5%
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: 100
+|-
+| colspan="2" style="text-align: center; border: none;" | 2,000 Shp Engine
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: +10%
+| style="border: none; width: 50%; padding-right: 10px;"| Fuel usage: 8.0
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: +12.5%
+|}
+
+|-
+| FOCUS 1940 Submarine: The role of the submarine in the fleet outside of convoy attacks is still under debate. Achieving a balance between combination of speed, range and weaponry will be key to the necessary model.
+| 1940
+| 220 days
+| 1936 Submarine
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="border: none;" | 2 steel
+|-
+| colspan="2" style="text-align: center; border: none;" | 1940 Submarine
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| manpower Service manpower: 200
+| style="border: none; width: 50%; padding-left: 10px;"| Surface detection: 20.0
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Surface visibility: 1.0
+| style="border: none; width: 50%; padding-left: 10px;"| Sub visibility: 20.0
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: 18.0 kn
+| style="border: none; padding-right: 10px;"| Max range: 5000 km
+|-
+| style="border: none; padding-left: 10px;"| HP: 30.0
+| style="border: none; padding-right: 10px;"| Reliability: 75.0%
+|-
+| style="border: none; padding-left: 10px;"| Fuel usage: 1.0
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 420
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" |
+Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | 4x 533mm Torpedo Tubes
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Torpedo attack: 20.0
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: -3%
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Torpedo hit chance: +1.0%
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: 120
+|-
+| colspan="2" style="text-align: center; border: none;" | 3,000 Shp Engine
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Sub visibility: −5%
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: +15%
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Fuel usage: 10.0
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: +15%
+|}
+
+|-
+| FOCUS 1944 Submarine: Increased test depth and efficient layouts will be features of the modern submarines, taking advantage of field experience to select appropriate armaments and engines.
+| 1944
+| 220 days
+| 1940 Submarine
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="border: none;" | 3 steel 1 chromium
+|-
+| colspan="2" style="text-align: center; border: none;" | 1944 Submarine
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| manpower Service manpower: 200
+| style="border: none; width: 50%; padding-left: 10px;"| Surface detection: 20.0
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Surface visibility: 1.0
+| style="border: none; width: 50%; padding-left: 10px;"| Sub visibility: 15.0
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Max speed: 18.0 kn
+| style="border: none; padding-right: 10px;"| Max range: 6000 km
+|-
+| style="border: none; padding-left: 10px;"| HP: 35.0
+| style="border: none; padding-right: 10px;"| Reliability: 80.0%
+|-
+| style="border: none; padding-left: 10px;"| Fuel usage: 1.0
+| style="border: none; padding-right: 10px;"| naval production cost Production cost: 550
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" |
+Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | 6x 533mm Torpedo Tubes
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Torpedo attack: 25.0
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: -4%
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Torpedo hit chance: +1.5%
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: 140
+|-
+| colspan="2" style="text-align: center; border: none;" | 4,000 Shp Engine
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Sub visibility: −10%
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: +20%
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Fuel usage: 10.0
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: +20%
+|}
+
+|}
+
+## Submarine Modules
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! Optional Bonus
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Basic Submarine Snorkel: A simple airtube running from the engine room to the control tower. Extended, it allows the submarine to run its engines and charge its batteries while still submerged.
+Mounting this module on Submarines reduces their Visibility, making them harder to detect.
+| 1940
+| 110 days
+
+| 1940 Submarine
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | Basic Schnorkel
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Sub visibility: −7%
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: 50
+|}
+
+|-
+| FOCUS Improved Submarine Snorkel: An improved design prevents any water from being sucked into the engines and also reduces the radar echo of the snorkel head.
+Mounting this module on Submarines reduces their Visibility, making them harder to detect.
+| 1944
+| 220 days
+| 50 naval exp for +150%
+| Basic Submarine Snorkel
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | Improved Schnorkel
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-right: 10px;"| Sub visibility: −13%
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: 70
+|}
+
+|-
+| FOCUS AIP-Diesel Combination Engines: With further refinement of the AIP technology, we are seeing improvement both in terms of performance as well as the material consumption used by the engines
+| 1940
+| 220 days
+
+| Air-Independent Propulsion
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | AIP-Diesel Combination Engine
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Sub visibility: −17%
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: +15%
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Max range: -33%
+| style="border: none; width: 50%; padding-right: 10px;"| Fuel usage: 45.0
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| naval production cost Production cost: +30%
+|}
+
+|-
+| FOCUS High-Speed Walter Engines: Our experience and understanding of the Air-Independent Propulsion System have allowed us to develop state of the art engines. Silent, fast and deadly.
+| 1944
+| 220 days
+
+| style="text-align: center;" | AIP-Diesel Combination Engines
+|
+{| class="wikitable mw-collapsible innercollapse mw-collapsed" style="margin-right:2px"
+! style="width:551px;" colspan="2" |
+|-
+| colspan="2" style="text-align: center; font-size: 150%; border: none;" | Unlocks
+|-
+| colspan="2" style="text-align: center; border: none;" | High Speed Walter Engines
+|-
+| colspan="2" style="text-align: center; border: none;" |
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Sub visibility: −20%
+| style="border: none; width: 50%; padding-right: 10px;"| Max speed: +35%
+|-
+| style="border: none; width: 50%; padding-left: 10px;"| Fuel usage: 30.0
+| style="border: none; width: 50%; padding-right: 10px;"| naval production cost Production cost: +35%
+|}
+
+|}
+
+# Secret Techs [verified for 1.16]
+
+These techs are only available for certain countries under the appropriate conditions. Other countries can still obtain production licenses for designs based on hulls unlocked by these technologies, though the usual production penalties apply.
+
+{| class="wikitable"
+|-
+! Technology
+! style="width:30em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| panzerschiffe
+|
+Starts with this tech:
+- German Reich
+- East Germany
+Can unlock this tech:
+- Argentina via Recover the Ship
+|
+Enables
+ Panzerschiff
+|-
+| Pre-Dreadnought Ships
+|
+Starts with this tech:
+- German Reich
+- Greece
+Can unlock this tech:
+- Italy via Bring back old Glories
+|
+Enables
+ Pre-Dreadnought
+|-
+| style="text-align: center;"| Coastal Defense Ships
+|
+Starts with this tech:
+- Yugoslavia
+- Welsh Argentina
+- Turkey
+- Kingdom of the Two Sicilies
+- Grand Duchy of Tuscany
+- Sweden
+- Sardinia-Piedmont
+- Siam
+- Rapa Nui
+- Peru
+- Papal States
+- Norway
+- Mexico
+- Lombardy-Venetia
+- Kurdistan
+- Japan
+- Italy
+- Netherlands
+- Greenland
+- Greece
+- Finland
+- Denmark
+- Chile
+- China
+- Argentina
+- Italian State of East Africa
+Can unlock this tech:
+- Chile via Coastal Fleet
+- Argentina via Coastal Fleet
+- Brazil via Coastal Fleet
+- Uruguay via Coastal Fleet
+- Paraguay via Coastal Fleet
+- Romania via Coastal Defense Ships
+- Bulgaria via A Black Sea Fleet
+- Iceland via Joint Shipbuilding Program
+- Iraq via Naval Technological Advancements
+- Belgian Congo via Develop a Coastal-Defense Fleet
+- Soviet Union via decision "Merge Ship Plants"
+- Philippines via Coastal Defense Ships
+- Any nation, by taking the "Coastal Defense Fleet" Fleet doctrine
+|
+Enables
+ Coastal Defense Ship
+|}
+
+# References

@@ -1,0 +1,12 @@
+TITLE: Italian events
+URL: https://hoi4.paradoxwikis.com/Italian_events
+REVISION: 2025-08-24T17:41:32Z (rev 88861)
+VERIFIED FOR: 1.10
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+This is a list of all Italy's events (from events/Italy.txt).
+
+# id 1 - 10
+
+# id 11 - 20

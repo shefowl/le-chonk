@@ -1,0 +1,4062 @@
+TITLE: British national focus tree
+URL: https://hoi4.paradoxwikis.com/British_national_focus_tree
+REVISION: 2025-11-30T13:54:56Z (rev 93913)
+VERIFIED FOR: 1.17
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+United Kingdom, as one of the seven major powers, gets a unique national focus tree.
+
+British national focus tree. Clicking on the branches leads to the appropriate section.
+
+The British national focus tree can be divided into 5 main branches and 6 distinct sub-branches:
+- Cryptologic Bomb/Limited Rearmament Branch
+- This branch gives technology research bonuses, factories and an extra research slot.
+
+ - Expand the Secret Intelligence Service Sub-branch
+- This gives the United Kingdom an Intelligence Agency and a national spirit. It is only available with La Résistance
+
+ - Limited Rearmament Sub-branch
+- This sub-branch gives air and naval research bonuses along with providing a collection of air bases and dockyards.
+
+- Reinforce the Empire Branch
+- This branch is centered around the industrial development of the colonies and the fortification of key territories, with the ultimate end goal of creating an Imperial Federation, which will have the United Kingdom annex all the colonies and gain cores on their territories.
+
+ - Encourage Colonial Elite Sub-branch
+- The "Fortify East Asia" side of the sub-branch focuses on developing in Asian colonies, influencing China and gaining a war goal against Japan. The "Commonwealth Ties" side focuses on developing the Dominions, Autonomy or Independence for the British Raj and forming the Imperial Federation.
+
+ - Mediterranean Bastion Sub-branch
+- This Sub-branch focuses on the development of the Mediterranean colonies, coercion of Balkan countries and Turkey, and gaining a war goal against Italy.
+
+- Steady As She Goes Branch
+- The Democracy branch of the Focus tree. The UK will stay democratic and maintain the current government structure.
+
+ - Home Defense Sub-branch
+- This Democracy sub-branch focuses on intervening against (and puppeting) the Scandinavian and Benelux countries, securing Iraq and Iran, and eventually war with the Soviet Union and Germany.
+
+- Revisit Colonial Policy Branch
+- This Branch focuses on decolonization, which effectively amounts to dismantling the British Empire, with some colonial territory kept as puppets, in exchange for getting more manpower and industry in the British homelands, and allowing the UK to concentrate on dealing with European affairs.
+
+- Global Defense Sub-branch
+- This Democracy sub-branch under the Steady As She Goes Branch focuses on placing Winston Churchill into power early, ending appeasement, eradicating pacifism and mobilizing the country for war followed by gaining war goals against countries with oil, Major European countries who caused World tension, and allowing justification against other democracy countries.
+
+- A Change in Course Branch
+- This branch focuses on changing the government structure of the UK by switching the ideology of the government to Neutrality , Fascism or communism .
+- The Neutrality path focuses on setting up King Edward VIII as an absolute monarch, allying with Germany and gaining war goals against Italy and the Soviet Union. This path also allows the United Kingdom to gain a war goal against the United States to reinstate British rule by installing an American monarchy.
+- The Fascism section focuses on securing alliances with other European fascist nations against Germany. The "God Save The King" section is shared with the Monarchist path and focuses on retaking the Dominions after they gain independence and gaining a war goal to annex the United States.
+ - Concessions to the Trade Unions Sub-branch
+- The communism sub-branch will cause the United Kingdom to become communist and opens up the choice between allying with the Soviet Union or forming a new faction and then moving on to turn other European nations to communism , with the end goal of going to war with Germany and the United States and installing puppet regimes in each. It also forces the United Kingdom to take the decolonization focus and complete it within 2 years of becoming communist as otherwise a civil war will break out.
+
+# Cryptologic Bomb/Limited Rearmament Branch [verified for 1.17]
+
+Industrial branch of the British national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+Focus:
+FOCUS Cryptologic Bomb: The Poles have been developing a brilliant machine they call the 'Cryptologic Bomb' which can break the German Enigma ciphers. We have the resources to develop it further at our Bletchley Park facility.
+Prerequisites:
+United Kingdom:
+- Is at war with Germany
+- Poland:Is not in faction with Germany
+One of the following must be true:
+- All of the following must be true:
+ - Is at war with Germany
+ - Poland is in faction with Germany
+- All of the following must be true:
+ - At war
+ - Is in faction with United States
+- Germany: Does not Exist
+Effects:
+United Kingdom:
+- If DLC La Résistance is not enabled:
+ - 3x 100% research bonus for: Decryption methods or computing technology.
+- Otherwise:
+ - We will gain +10 Decryption Speed
+
+Focus:
+FOCUS Limited Rearmament: The recent stirrings from Germany and other Fascist powers around the world suggest that we may not enjoy peace in our time. In preparation, we should begin to set the pieces in motion for our own rearmament if the situation gets any worse.
+Prerequisites:
+None
+Not enough building Slot for cic
+Effects:
+United Kingdom:
+- Random owned controlled cored state:
+ - Add 2 building slot
+ - Add 2 Civilian Factory
+- Random owned controlled cored state:
+ - Add 2 building slot
+ - Add 2 Civilian Factory
+
+Focus:
+FOCUS Air Defense: There is no question of where the enemy will be coming from; we must protect the coast with extensive anti-air batteries.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Limited Rearmament
+- One of the following must be true:
+ - More than 5% World Tension
+ - At War
+ - Current Ruling Party is not Democracy
+ - Has the national spirit No Further Appeasement.
+Not enough building Slot for static Anti Air
+Effects:
+United Kingdom:
+- air exp : +25
+- Add maximum static anti air in 123 125 127.
+ - If there are no free building slots, They will be placed in a random owned controlled state with priority in the British Isles.
+
+Focus:
+FOCUS RADAR: The ability to detect enemy bombers will be crucial to the war effort. We should spare no resources in further developing Radar technology and constructing a network of detection stations along the coasts.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Air Defense
+Effects:
+United Kingdom:
+- air exp : +25
+- Gain breakthrough progress:
+ - Aerodynamics and Avionics: 75.00%
+- 1x 100% research bonus for: RADAR technology.
+
+Focus:
+FOCUS The Tizard Mission: We have produced many breakthroughs in technology that we cannot fully exploit ourselves due to our lack of resources and industrial capacity. Henry Tizard would like to head a delegation to negotiate a technology sharing treaty with the USA.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Cryptologic Bomb
+ - RADAR
+- Current ruling party is Democracy
+- Any other Country
+ - Is at war with United Kingdom
+ - Current ruling Party is not Democratic
+ - More Factories than 30
+- At peace with the United States
+- United States
+ - Current Ruling Party is Democracy
+ - At Peace
+ - All of the following must be true:
+ - Does not have economy law Undisturbed Isolation
+ - Does not have economy law Isolation
+Effects:
+United States:
+- Gets event "The Tizard mission"
+ - If they accept:
+ - Gain breakthrough progress:
+ - Aerodynamics and Avionics: 75.00%
+ - 1x 50% Research bonus for: Fighter models
+ - 1x 50% Research bonus for: RADAR technology
+ - United States
+ - Gain breakthrough progress:
+ - Aerodynamics and Avionics: 75.00%
+ - 1x 50% Research bonus for: Fighter models
+
+Focus:
+FOCUS The MAUD Committee: The 'Military Application of Uranium Detonation' committee is convinced that it is theoretically possible to construct a bomb of unbelievable power by employing uranium to achieve an uncontrolled nuclear fission reaction. However, we might not be able to develop this technology in time on our own. We should speak with the Americans.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - The Tizard Mission
+- Is in faction with United States
+Effects:
+United Kingdom:
+- Gain breakthrough progress:
+ - Nuclear Research: 75.00%
+- 1x 75%: research bonus for: Nuclear technology
+
+Focus:
+FOCUS The Shadow Scheme: The Air Ministry has come up with a brilliant suggestion for easier conversion of civilian factories into military ones. With the appropriate grants and loans to various key companies, their factories can be extended and adapted in advance to make the transition to military applications much smoother.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Limited Rearmament
+- One of the following must be true:
+ - More than 5% World Tension
+ - At war
+ - Current ruling party is not Democracy
+ - Has the national spirit No Further Appeasement.
+Effects:
+United Kingdom:
+- Grants 4 Building Slot and 4 mic in total in two states when entering a war.
+-
+If does not have the national spirit Prepare for the Inevitable:
+
+Spirit Wartime Industry:
+cic to mic cost : -50.00%
+
+- Otherwise swap the national spirit Prepare for the Inevitable with:
+
+Spirit Prepare for the Inevitable: It seems all but certain that our nation will be involved in yet another world conflict. We must increase our industrial expenditures to increase the rate of our rearmament.
+- cic to mic cost : -50.00%
+- Factory Output : +5.00%
+- mic Construction Speed: +10.00%
+
+Focus:
+FOCUS Industrial Effort: Focus all our political efforts on building up the civilian industry in a great leap forward.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - The Shadow Scheme
+Effects:
+United Kingdom:
+- 2x 100% Research bonus for: Industry
+
+Focus:
+FOCUS Royal Ordnance Factories: The Royal Arsenal at Woolwich is woefully insufficient to produce all the munitions and small arms we need. We should establish many more factories around the country, preferably in relatively safe areas.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Industrial Effort
+- One of the following must be true:
+ - Any other country:
+ - Is at war with the United Kingdom
+ - More Factories than 30
+ - Germany: Has completed focus Remilitarize the Rhineland
+ - More than 20% of World Tension
+ - Has national spirit No Further Appeasement
+ - Current Ruling party is not Democracy
+Not enough building Slot for mic
+Effects:
+United Kingdom:
+- Random Owned Controlled State in the Home area:
+ - Add 2 Building Slot
+ - Add 2 Mic
+- Random Owned Controlled State in the Home area:
+ - Add 2 Building Slot
+ - Add 2 Mic
+- Random Owned Controlled State in the Home area:
+ - Add 2 Building Slot
+ - Add 2 Mic
+
+Focus:
+FOCUS Secret Weapons: We now possess the knowledge and the infrastructure to focus on the development of various secret weapons projects that used to belong in the realm of science fiction.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - The MAUD Committee
+ - Royal Ordnance Factories
+Effects:
+United Kingdom:
+- 1x 50% Research bonus for: Rocketry technology
+- 1x 50% Research bonus for: Nuclear technology
+
+Focus:
+FOCUS BSA Company: The Royal Ordnance Factories are not producing enough small arms, but, like we did in the Great War, we could contract the Birmingham Small Arms Company and expand their capacity.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Royal Ordnance Factories
+Effects:
+United Kingdom gets the national spirit:
+
+Spirit Birmingham Small Arms Company:
+Infantry Equipment: production cost : -10.00%
+
+Focus:
+FOCUS Extra Research Slot: Our industrial expansion and other recent advances might allow us to conduct more R&D in parallel.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Industrial Effort
+Effects:
+United Kingdom:
+- Gain 1 research slot.
+
+Focus:
+FOCUS Vickers Experimental Facilities: In order to further our research and development of special technological projects, we should endeavor to expand Vickers' experimental facilities at Foxwarren.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Industrial Effort
+- 126 is fully controlled by United Kingdom
+Effects:
+United Kingdom:
+- Gain breakthrough progress:
+ - Aerodynamics and Avionics: 50.00%
+- Gain breakthrough progress:
+ - Land Warfare: 50.00%
+- If there are no other Experimental Facilities in 126, we will gain 1 Aerodynamics and Avionics Facility in 126
+
+Focus:
+FOCUS A Motorized Army: Recently the Army has been experimenting with fully motorized infantry units. As yet, they have not formed any fully motorized divisions, but with with right words to the Secretary of State for War this could soon be possible.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Limited Rearmament
+Effects:
+United Kingdom:
+- 1x 100% research bonus for Motorized
+
+Focus:
+FOCUS Royal Tank Regiment: Britain invented the tank, and so the Royal Tank Regiment should be equipped with the world's best tanks, but this is not currently the case. The Special Vehicle Development Committee proposes to research and develop a modern design to keep Britain at the forefront of tank development.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - A Motorized Army
+Effects:
+United Kingdom:
+- 1x 100% research bonus for: Armor technology
+
+## Expand the Secret Intelligence Service Sub-branch [verified for 1.17]
+
+ La Résistance
+
+Intelligence sub-branch of the British national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+Focus:
+FOCUS Expand the Secret Intelligence Service: The Secret Intelligence Service, commonly called the MI6, helps protect our homeland from any subversive activities and foreign threats. Though formed during the Great War, they were reorganized in the twenties. Back then however we missed some important details, and should endeavor to increase the size of the organization once again.
+Prerequisites:
+The DLC La Résistance is enabled
+
+United Kingdom:
+- Requires the following:
+ - Limited Rearmament
+Effects:
+United Kingdom:
+- If does not have, Create an Intelligence Agency
+- gets the national spirit:
+
+Spirit MI6:
+- Stability : +5.00%
+- Operative slots: +1
+- Intel network strength gain factor: +10%
+- Enemy operative detection chance offset: +0.05%
+- Enemy operative capture chance: +5%
+- Civilian intelligence to others: -5.0%
+
+## General Rearmament Sub-branch [verified for 1.17]
+
+Naval and Airforce sub-branch of the British national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+Focus:
+FOCUS General Rearmament: It is starting to look like another Great War is inevitable. If it isn't Hitler it will be the Mikado, or even the Soviets... Public opinion has swung enough that we can initiate a program of general rearmament.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Limited Rearmament
+- One of the following must be true:
+ - More than 10% World Tension
+ - At War
+ - Current ruling party is not Democracy
+ - Has the national spirit No Further Appeasement.
+Effects:
+United Kingdom gets the national spirit:
+
+Spirit British Austerity:
+Consumer Goods Factories: -5%
+
+Focus:
+FOCUS Air Rearmament: In any war with a continental enemy, the Royal Air Force will prove the key to victory. First, we must ensure that our airbases can support our rearmament plans!
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - General Rearmament
+Not enough building Slot for Air Base
+Effects:
+United Kingdom:
+- air exp : +25
+- 5 Random owned controlled state in the British Isles:
+ - Add 2 Air base
+
+Focus:
+FOCUS Special Air Service: An officer by the name of David Stirling has come up with the idea that a small commando unit might be capable of harrassing the enemy behind their lines, causing tremendous damage. Naming them an 'Air Service' has the added benefit of causing the enemy to believe they have to defend against paratroopers, too. There may well be merit to this idea.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - General Rearmament
+Effects:
+United Kingdom gets the national spirit:
+
+Spirit Special Air Service: An officer by the name of David Stirling has come up with the idea that a small commando unit might be capable of harrassing the enemy behind their lines, causing tremendous damage. Naming them an 'Air Service' has the added benefit of causing the enemy to believe they have to defend against paratroopers, too. There may well be merit to this idea.
+- Special Forces Capacity Multiplier: +5.0%
+- Special Forces Division training time: -10.0%
+
+- Available as Political Advisor
+ - David Stirling Commando (Genius):
+ - Special forces Attack: +20.0%
+ - Special forces Defense: +20.0%
+
+Focus:
+FOCUS Airborne Forces Depot: Following the success of early airborne operations in hostile territory, it is clear that the parachute regiments are the future. The establishment of dedicated training facilities and equipment will help us adopt these new technologies into our overall strategy.
+Prerequisites:
+The DLC Arms Against Tyranny is enabled
+United Kingdom:
+- Requires the following:
+ - Special Air Service
+Effects:
+United Kingdom:
+- Adds 1 free Special Forces Branch Specialism
+- 2x +25% Cost reduction for: Special Forces Doctrine
+
+Focus:
+FOCUS Naval Rearmament: Though we tried to prevent a naval arms race with the Second London Naval Treaty, even the signatories are mostly ignoring it. The Royal Navy must never lose its global supremacy. We must always ensure that it remains the largest in the world.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - General Rearmament
+Not enough building Slot for nic
+Effects:
+United Kingdom:
+- navy exp : +50
+- Random Owned Controlled Cored State:
+ - Add 1 Building Slot
+ - Add 1 nic
+- Random Owned Controlled Cored State:
+ - Add 1 Building Slot
+ - Add 1 nic
+- Random Owned Controlled Cored State:
+ - Add 1 Building Slot
+ - Add 1 nic
+
+Focus:
+FOCUS Fighter Command: Our first priority must be to control our own skies! It is hard to discern a more important area of military research than fighter development.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Air Rearmament
+Effects:
+United Kingdom:
+- If the DLC By Blood Alone is not enabled:
+ - air exp : +25
+ - 2x 100% research bonus for: Fighter models and Heavy Fighter Models
+- Otherwise if DLC By Blood Alone is not enabled:
+ - air exp : +25
+ - 2x 100% research bonus for: Fighter models and Heavy Fighter Models
+ - 1x 50% Cost Reduction for: Air Doctrine
+
+Focus:
+FOCUS Bomber Command: Like Giulio Douhet always said;'The bomber will always get through!'. Advances in radar technology and anti-air defenses notwithstanding, we should prioritize the development of better bombers.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Air Rearmament
+Effects:
+United Kingdom:
+- If the DLC By Blood Alone is not enabled:
+ - air exp : +25
+ - 2x 100% research bonus for: Strategic Bomber models and Tactical Bomber models
+- Otherwise if DLC By Blood Alone is not enabled:
+ - air exp : +25
+ - 2x 100% research bonus for: Strategic Bomber models and Tactical Bomber models
+ - 1x 50% Cost Reduction for: Air Doctrine
+
+Focus:
+FOCUS Coastal Command: Our industry is driven by resources shipped to Britain from many distant parts of the Empire. Our convoys are our lifeblood and must be protected by both the Royal Navy and the Royal Air Force. We should set up a special RAF formation to protect the approaches to our ports!
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Air Rearmament
+Effects:
+United Kingdom:
+- If the DLC By Blood Alone is not enabled:
+ - air exp : +25
+ - 2x 100% research bonus for: Naval Bomber models and Close Air Support models
+- Otherwise if DLC By Blood Alone is not enabled:
+ - air exp : +25
+ - 2x 100% research bonus for: Naval Bomber models and Close Air Support models
+ - 1x 50% Cost Reduction for: Air Doctrine
+
+Focus:
+FOCUS Aircraft Production Group: Aircraft production remains our highest priority. The London Aircraft Production Group (LAPG) should be created to manage and coordinate all available aircraft related production.
+Prerequisites:
+United Kingdom:
+- Requires one of the following:
+ - Fighter Command
+ - Bomber Command
+ - Coastal Command
+Effects:
+United Kingdom gets the national spirit:
+
+Spirit Aircraft production group:
+Fighter production cost : -10.00%
+
+Focus:
+FOCUS Jet Aircraft: It seems almost certain that the jet engine will come to replace propeller engines on airplanes. The potential is enormous, and we must not allow Britain to lag behind in this crucial area of research.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Aircraft Production Group
+Effects:
+United Kingdom:
+- Gain breakthrough progress:
+ - Aerodynamics and Avionics: 100.00%
+- 2x 100% research bonus for: Jet technology
+
+Focus:
+FOCUS Chiefs of Staff Committee: We must empower the heads of the various service branches to conduct this war as they consider is best. The Combined Chiefs of Staff, formed initially in 1923, will now be given the means to coordinate operations across the globe, reporting directly to the War Cabinet. This will greatly streamline planning for military operations.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Air Rearmament
+ - Naval Rearmament
+Effects:
+United Kingdom:
+- Army exp : +10
+- Navy exp : +10
+- Air exp : +10
+- gets the national spirit:
+
+Spirit Chiefs of Staff Committee: We must empower the heads of the various service branches to conduct this war as they consider is best. The Combined Chiefs of Staff, formed initially in 1923, will now be given the means to coordinate operations across the globe, reporting directly to the War Cabinet. This will greatly streamline planning for military operations.
+- Planning Speed: +10.0%
+- Maximum Command Power Increase: +25%
+- Daily Command Power Gain Multiplier: +10%
+
+Focus:
+FOCUS Destroyer Focus: Modern battleships are marvels, but we must not neglect the critical role of the humble destroyer in the protection of our convoys
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Naval Rearmament
+Effects:
+United Kingdom:
+- 2x 100% research bonus for: Destroyer models
+
+Focus:
+FOCUS Convoy Escort Focus: It cannot be stressed enough, our convoys are our lifeblood. We must do everything in our power to protect them and to replace lost tonnage quickly.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Destroyer Focus
+Effects:
+United Kingdom gets the national spirit:
+
+Spirit Convoy system priority:
+- Light Hull production cost : -10.00%
+- Trade Convoy production cost : -10.00%
+
+Focus:
+FOCUS Anti-Submarine Training School: One of our advantages is the ability to draw upon a large pool of skilled officers with experience from the last war to train new crews. With ASW expert Commodore Gilbert Stephenson in charge, the establishment of a new anti-submarine training school at Tobermory will ensure our crews obtain the skills they need before embarking on Atlantic convoy duty and facing the U-boat menace.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Convoy Escort Focus
+Effects:
+United Kingdom:
+- Add a +25.00% Mastery bonus for 180 days to all active Screens tracks
+- gets the national spirit:
+
+Spirit Anti-Submarine Training School: One of our advantages is the ability to draw upon a large pool of skilled officers with experience from the last war to train new crews. With ASW expert Commodore Gilbert Stephenson in charge, the establishment of a new anti-submarine training school at Tobermory will ensure our crews obtain the skills they need before embarking on Atlantic convoy duty and facing the U-boat menace.
+- Destroyer Training Experience: +10%
+- Destroyer Combat Experience Gain: +10%
+
+Focus:
+FOCUS A/S Warfare: The Atlantic is our lifeline, and we must ensure it remains clear from enemies that would prey on our vulnerable shipping, be it above the surface or below it. We shall focus on cutting-edge developments in the field of anti-submarine warfare, ensuring our escorts are equipped with the best weaponry and detection means that we can provide.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Destroyer Focus
+Effects:
+United Kingdom:
+- Reduce ahead of time penalty by 2.0 years and give a 100% research bonus. Valid for the next 2 researches of these technologies: Anti-Submarine Warfare Technology
+
+Focus:
+FOCUS Amphibious Warfare: Ruling the waves is fine, but sometimes you need to get your feet wet. We must not neglect our ability to land invasion forces in hostile territory.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Naval Rearmament
+Effects:
+United Kingdom:
+- 1x 100% research bonus for: Marine Technology
+- 2x 100% research bonus for: Transport models
+
+Focus:
+FOCUS Britannia Rules the Waves: In the long shadow of the Royal Navy, other naval powers are forced to come up with innovative new doctrines to compensate. We must not grow complacent and rely solely on the quantity and quality of individual ships.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Naval Rearmament
+Effects:
+United Kingdom:
+- 3x 50% Cost Reduction for: Naval Doctrine
+
+Focus:
+FOCUS Carrier Focus: There is an intense argument among naval theorists about the continued viability of the battleship. There are those who argue that modern air power will come to dominate naval power, and that the aircraft carrier will replace the battleship as the king of the oceans.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Britannia Rules the Waves
+- ExclusiveM Mutually exclusive with:
+ - Battleship Focus
+Effects:
+United Kingdom:
+- navy exp : +25
+- 2x 100% research bonus for: Carrier Models
+
+Focus:
+FOCUS Battleship Focus: While the theorists bicker about air supremacy or naval supremacy, no one wants the guns of a battleship pointing at their palace. Even if the carrier enthusiasts prove right in the end, battleships will still dominate the oceans for years to come.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Britannia Rules the Waves
+- ExclusiveM Mutually exclusive with:
+ - Carrier Focus
+Effects:
+United Kingdom:
+- navy exp : +25
+- 2x 100% research bonus for: Battleship Models
+
+Focus:
+FOCUS Expand the Repair Yards: Though our navy is among the world's largest, we must also have the means to quickly repair our ships should they incur battle damage, or our enemies may wear us down through attrition. Expanding our repair yards would not only achieve this, but also enable us to refit some of our older models in a timely manner.
+Prerequisites:
+United Kingdom:
+- Requires one of the following:
+ - Carrier Focus
+ - Battleship Focus
+Effects:
+United Kingdom:
+- Random Owned Controlled Cored State:
+ - Add 2 Building Slot
+ - Add 2 nic
+gets the national spirit:
+
+Spirit Expand the Repair Yards: Though our navy is among the world's largest, we must also have the means to quickly repair our ships should they incur battle damage, or our enemies may wear us down through attrition. Expanding our repair yards would not only achieve this, but also enable us to refit some of our older models in a timely manner.
+- Refitting Speed: +10%
+- Refitting Cost: -10%
+- Ship Repair Speed: +10%
+
+Focus:
+FOCUS Vanguard: We must not be outnumbered by our enemies on the seas. We have a number of 15-inch guns still in storage that could be used to replace the time-consuming 16-inch guns required for our next planned battleships, which would greatly speed up construction of the class's lead ship: HMS Vanguard.
+Alternative Descriptions
+Communist description
+
+We must not be outnumbered by our enemies on the seas. We have a number of 15-inch guns still in storage that could be used to replace the time-consuming 16-inch guns required for our next planned battleships, which would greatly speed up construction of the class's lead ship: WLNS Vanguard.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Battleship Focus
+- time date is at least 1944.1.1
+- Has technology: 1944 Heavy Ship Hull
+- Has full control of 133
+Effects:
+United Kingdom:
+- navy exp : +25
+- Create Vanguard Capital Ship variant on gaining technology 1944 Heavy Ship Hull
+- 133 Create HMS Vanguard
+
+Focus:
+FOCUS Anti-Non-Contact Committee: Our technical experts in mine warfare advise that new types of mines, activated by magnetic fields, sound and other means, are likely to play an important part in the next war. By appointing a special Admiralty Anti-Non-Contact Committee to research ways to sweep them now, we can help keep our ships safe, and perhaps even make some advances in our own mine technology in the process.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Naval Rearmament
+Effects:
+United Kingdom:
+- 1x 100% research bonus for: Naval Minelaying Technology
+- 2x 100% research bonus for: Naval Minesweeping Technology
+
+Focus:
+FOCUS Secure the Imperial Shipping Routes: The cohesion of our colonial empire hinges on our ability to protect the merchant shipping that binds it together, and to project our force wherever it may be necessary. We have always relied upon a vast fleet of light cruisers to do this, and we must ensure we continue to have the necessary numbers of these ships to allow us to be everywhere at once.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Naval Rearmament
+ - Service Overseas
+Effects:
+United Kingdom:
+- 2x 100% research bonus for: Cruiser Models
+- gets the national spirit:
+
+Spirit Secure the Imperial Shipping Routes: The cohesion of our colonial empire hinges on our ability to protect the merchant shipping that binds it together, and to project our force wherever it may be necessary. We have always relied upon a vast fleet of light cruisers to do this, and we must ensure we continue to have the necessary numbers of these ships to allow us to be everywhere at once.
+Cruiser production cost : -10.00%
+
+# Reinforce the Empire Branch [verified for 1.17]
+
+Colonial Development branch of the British national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+Focus:
+FOCUS Reinforce the Empire: Our Empire is vast, and despite our power, weakly defended. To combat this we need to encourage Imperial Patriotism throughout the realm.
+Prerequisites:
+United Kingdom:
+- ExclusiveM Mutually exclusive with:
+ - Revisit Colonial Policy
+- Current ruling party is not Communism
+- More than 0 Subject nations
+Effects:
+United Kingdom:
+- Gain Base Stability : +10.00%
+- If Decolonization has not been achieved within 2
+ years of becoming Communist, a civil war will start!
+
+Focus:
+FOCUS Service Overseas: By rotating armed forces personnel to colonial stations and back home again they can learn about the conditions on different fronts, gain experience, and share it with their comrades back home.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Reinforce the Empire
+Effects:
+United Kingdom:
+- Army exp : +5
+- Navy exp : +25
+- Air exp : +25
+- gets the national spirit:
+
+Spirit Service Overseas: By rotating armed forces personnel to colonial stations and back home again they can learn about the conditions on different fronts, gain experience, and share it with their comrades back home.
+Hot acclimatization gain factor: +10.0%
+
+## Encourage Colonial Elite Sub-branch [verified for 1.17]
+
+Dominion and East Asian colonial development sub-branch of the British national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+Focus:
+FOCUS Encourage Colonial Elite: Our vast, sprawling empire houses some of the greatest minds in the world, but its size prevents many of them from ever meeting. By encouraging them to work together on our most important projects, we can achieve results faster.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Service Overseas
+Effects:
+United Kingdom gets the national spirit:
+
+Spirit Colonial Elite:
+Research Speed: +7.00%
+
+Focus:
+FOCUS Fortify East Asia: Many of our old colonies in the east are threatened by civil wars and imperial ambitions of local countries. We must not neglect our remaining outposts, but continue to develop these regions to secure our global presence.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Encourage Colonial Elite
+- 336: Controller: One of the following must be true:
+ - Country is United Kingdom
+ - Is a subject of the United Kingdom
+- 326: Controller: One of the following must be true:
+ - Country is United Kingdom
+ - Is a subject of the United Kingdom
+- 336: cannot build 1 more nic
+- 326: cannot build 1 more nic
+Effects:
+United Kingdom gets the national spirit:
+
+Spirit Fortify the Empire:
+- Land Fort construction Speed: +5.00%
+- Coastal Fort construction Speed: +5.00%
+
+- If already have the National Spirit, Modify it by:
+
+Spirit Fortify the Empire:
+Effective Change:
+- Land Fort construction Speed: +5.00%
+- Coastal Fort construction Speed: +5.00%
+
+- 336:
+ - Add 1 Building Slot
+ - Add 1 nic
+- 326:
+ - Add 1 Building Slot
+ - Add 1 cic
+
+Focus:
+FOCUS The Burma Road: We should aid the Chinese in their struggle against Japan by constructing a road - and associated infrastructure - between Burma and China, where supplies can reach them overland, safe from Japanese predation.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Fortify East Asia
+- China:
+ - Is at war with Japan
+ - Is at peace with United Kingdom
+- Japan is not in faction with United Kingdom
+- China does not exist
+- 640: cannot build 1 more infra
+- 325: cannot build 1 more infra
+- 601:
+ - cannot build 2 more infra
+ - cannot build 1 more Air Base
+ - cannot build 1 more mic
+Effects:
+United Kingdom:
+- 640:
+ - Add 2 infra
+ - Add 2 Air Base
+- 601:
+ - Add 2 infra
+ - Add 1 Air Base
+ - Add 1 Building Slot
+ - Add 1 mic
+- Gain Base War Support : +5.00%
+- Unlocks Decision: Expand the Burma Road
+- China Gains The Burma road ( Opinion of United Kingdom +15)
+- Yunnan Gains The Burma road ( Opinion of United Kingdom +15)
+- Japan Gains The Burma road ( Opinion of United Kingdom -30)
+
+Focus:
+FOCUS Sanction Japan: The Japanese seem committed to creating their 'Greater East Asia Co-Prosperity Sphere'; under their hegemony, of course. The British Empire is the primary obstacle, together with the colonies of other Western powers. They must be denied access to the resources they need.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - The Burma Road
+- Current Ruling party is Democracy
+- Japan:
+ - Exists
+ - One of the following must be true:
+ - In an offensive war
+ - Caused more than 15% World Tension
+ - Is not in faction with United Kingdom
+ - At peace with United Kingdom
+Is at war with Japan
+Effects:
+Japan:
+- Gains embargo towards United Kingdom
+- Gains sanctions_relations towards United Kingdom
+
+Focus:
+FOCUS The Singapore Strategy: Singapore should remain our primary naval base in the East. Hong Kong may fall to the Japanese, but Singapore must remain impregnable until the Main Fleet can arrive to decisively defeat the enemy.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Fortify East Asia
+- 336: Controller: One of the following must be true:
+ - Country is United Kingdom
+ - Is a subject of the United Kingdom
+Effects:
+United Kingdom:
+- navy exp : +25
+- 336:
+ - Add 1 Building Slot
+ - If more than 1 free slots for Coastal Fort in the province (12299):
+ - Add 3 Coastal Fort in a province in the state.
+- If Controller of 336 is not the United Kingdom:
+ - Add -2% Autonomy
+
+Focus:
+FOCUS Landward Fortifications: The current defenses on Singapore Island are inadequate. We must focus our efforts on beefing up the fortifications!
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - The Singapore Strategy
+- 336: Controller: One of the following must be true:
+ - Country is United Kingdom
+ - Is a subject of the United Kingdom
+336:
+- cannot build 2 more Static Anti Air
+- Cannot build 4 more Land Fort
+Effects:
+United Kingdom:
+- 336:
+ - Add 1 Building Slot
+ - If more than 3 free slots for Coastal Fort in the province (12299):
+ - Add 4 Land Fort in a province in the state.
+ - If more than 1 free slots for static anti air :
+ - Add 2 static anti air
+- If Controller of 336 is not the United Kingdom:
+ - Add -2% Autonomy
+
+Focus:
+FOCUS Peninsular War: We should preempt and slow down an enemy coming down from the north through Malaya before they even reach Singapore.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Landward Fortifications S
+- 336: Controller: One of the following must be true:
+ - Country is United Kingdom
+ - Is a subject of the United Kingdom
+Effects:
+United Kingdom:
+- 336:
+ - Add 3 Land Fort in a province in the state.
+ - Add 3 Land Fort in a province in the state.
+ - Add 3 Land Fort in a province in the state.
+ - Add 2 Air Base
+- If Controller of 336 is not the United Kingdom:
+ - Add -2% Autonomy
+
+Focus:
+FOCUS Hold Hong Kong: The Singapore Strategy is obsolete. Our plan should be bolder and rely on a base much closer to Japan. With sufficient fortifications and facilities, Hong Kong will serve perfectly!
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Fortify East Asia
+- 326: Controller: One of the following must be true:
+ - Country is United Kingdom
+ - Is a subject of the United Kingdom
+Effects:
+United Kingdom:
+- navy exp : +25
+- 326:
+ - Add 1 Building Slot
+ - If more than 2 free slots for Coastal Fort in the province (10062):
+ - Add 3 Coastal Fort in a province in the state.
+
+Focus:
+FOCUS Landward Fortifications: Hong Kong will have to become a fortress city in order to withstand a sustained attack from mainland China.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Hold Hong Kong
+- 326: Controller: One of the following must be true:
+ - Country is United Kingdom
+ - Is a subject of the United Kingdom
+326:
+- cannot build 2 more static anti air
+- Cannot build 4 more Land Fort
+Effects:
+United Kingdom:
+- 326:
+ - Add 1 Building Slot
+ - If more than 1 free slots for Land Fort in the province (10062):
+ - Add 4 Land Fort in a province in the state.
+ - If more than 1 free slots for static anti air :
+ - Add 2 static anti air
+
+Focus:
+FOCUS Air Defenses: We must expand and improve the anti-air emplacements in Hong Kong greatly.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Landward Fortifications H
+- 326: Controller: One of the following must be true:
+ - Country is United Kingdom
+ - Is a subject of the United Kingdom
+326:
+- cannot build 2 more static anti air
+- cannot build 2 more air base
+Effects:
+United Kingdom:
+- 326:
+ - If more than 1 free slots for static anti air :
+ - Add 2 static anti air
+ - If more than 1 free slots for air base :
+ - Add 4 air base
+
+Focus:
+FOCUS War with Japan: All other options are exhausted and the Japanese refuse to give up their expansionist ways. For the safety of the British Empire and the people of Asia, we must subdue the Japanese.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Sanction Japan
+ - Peninsular War
+ - Air Defenses
+- Current Ruling Party is Democracy
+- Not in an Offensive war
+- Japan:
+ - exists
+ - One of the following must be true:
+ - In an offensive War
+ - Caused more than 30% World Tension
+ - Current ruling party is not Democracy
+ - Is not in Faction with United Kingdom
+ - At peace with United Kingdom
+Is at war with Japan
+Effects:
+United Kingdom:
+- Gains Puppet (Focus) war goal against Japan
+
+Focus:
+FOCUS Influence China: Although the Chinese nationalists have called themselves enemies of our colonial efforts, they are trapped between enemies with too few allies. If we reach out to them, they may be willing to shift their policies.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Air Defenses
+- China:Exists
+- Current Ruling Party is Democracy
+Effects:
+China:
+- Add 2 offmap mic
+- Gets the national spirit for 1095 days:
+
+Spirit Democratic Influence: Democratic pressure has made democracy very popular, and the country is susceptible to align with other Democrats.
+- Daily Democracy Support: +0.10
+- Acceptance of Democracy Diplomacy: +85
+
+- Gets event "United Kingdom is Influencing our Politics"
+- Every other Country that has more than 30 factories and is not Democracy :
+ - Gains democratic_leanings_bad towards China
+- Will be abandoned if
+ - China: Does not exist
+
+Focus:
+FOCUS Commonwealth Ties: United by common allegiance to the Crown, the nations of the British Commonwealth are the first we can count on in the event of another global conflict. Securing our diplomatic administration there will be of the essence.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Encourage Colonial Elite
+- One of the following must be true:
+ - Any country:
+ - Original country is Canada
+ - Is in Faction with United Kingdom
+ - Any country:
+ - Original country is South Africa
+ - Is in Faction with United Kingdom
+ - Any country:
+ - Original country is British Raj
+ - Is in Faction with United Kingdom
+ - Any country:
+ - Original country is Australia
+ - Is in Faction with United Kingdom
+ - Any country:
+ - Original country is New Zealand
+ - Is in Faction with United Kingdom
+ - Any country:
+ - Original country is British Malaya
+ - Is in Faction with United Kingdom
+ - Any country:
+ - Original country is Palestine
+ - Is in Faction with United Kingdom
+ - Any country:
+ - Original country is Jordan
+ - Is in Faction with United Kingdom
+ - Any country:
+ - Original country is Kuwait
+ - Is in Faction with United Kingdom
+ - Any country:
+ - Original country is Burma
+ - Is in Faction with United Kingdom
+- Canada does not exist
+- South Africa does not exist
+- British Raj does not exist
+- Australia does not exist
+- New Zealand does not exist
+- British Malaya does not exist
+- Palestine does not exist
+- Jordan does not exist
+- Kuwait does not exist
+- Burma does not exist
+- Any State:
+ - All of the following must be true:
+ - Is not a core of the United Kingdom
+ - Is not a core of Canada
+ - Is not a core of South Africa
+ - Is not a core of Australia
+ - Is not a core of New Zealand
+ - Is not a core of British Raj
+ - Is not a core of British Malaya
+ - Is not a core of Burma
+ - State is 320
+ - State is 321
+ - Owner is United Kingdom
+Effects:
+If:
+- Any country:
+ - Original country is Canada
+ - Is in Faction with United Kingdom
+ - Political power : +50
+ - Gains Commonwealth Ties ( Opinion of United Kingdom: +15)
+- Any country:
+ - Original country is South Africa
+ - Is in Faction with United Kingdom
+ - Political power : +50
+ - Gains Commonwealth Ties ( Opinion of United Kingdom: +15)
+- Any country:
+ - Original country is British Raj
+ - Is in Faction with United Kingdom
+ - Political power : +50
+ - Gains Commonwealth Ties ( Opinion of United Kingdom: +15)
+- Any country:
+ - Original country is Australia
+ - Is in Faction with United Kingdom
+ - Political power : +50
+ - Gains Commonwealth Ties ( Opinion of United Kingdom: +15)
+- Any country:
+ - Original country is New Zealand
+ - Is in Faction with United Kingdom
+ - Political power : +50
+ - Gains Commonwealth Ties ( Opinion of United Kingdom: +15)
+- Any country:
+ - Original country is British Malaya
+ - Is in Faction with United Kingdom
+ - Political power : +50
+ - Gains Commonwealth Ties ( Opinion of United Kingdom: +15)
+- Any country:
+ - Original country is Palestine
+ - Is in Faction with United Kingdom
+ - Political power : +50
+ - Gains Commonwealth Ties ( Opinion of United Kingdom: +15)
+- Any country:
+ - Original country is Jordan
+ - Is in Faction with United Kingdom
+ - Political power : +50
+ - Gains Commonwealth Ties ( Opinion of United Kingdom: +15)
+- Any country:
+ - Original country is Kuwait
+ - Is in Faction with United Kingdom
+ - Political power : +50
+ - Gains Commonwealth Ties ( Opinion of United Kingdom: +15)
+- Any country:
+ - Original country is Burma
+ - Is in Faction with United Kingdom
+ - Political power : +50
+ - Gains Commonwealth Ties ( Opinion of United Kingdom: +15)
+
+Focus:
+FOCUS Develop the Raj: The state of our colonies in India remains controversial both abroad and at home, but whatever is in store for them, strengthening their industrial capacity is a priority at the present stage.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Commonwealth Ties
+- Any Country:
+ - Original country is British Raj
+ - Is in Faction with United Kingdom
+British Raj: Not enough building slots for cic
+Effects:
+British Raj:
+- Gains Aided Industrial Development ( Opinion of United Kingdom: +15)
+- Random Owned Controlled State:
+ - Add 2 Building Slot
+ - Add 2 cic
+- Random Owned Controlled State:
+ - Add 2 Building Slot
+ - Add 2 cic
+- Random Owned Controlled State:
+ - Add 2 Building Slot
+ - Add 2 cic
+ - Add -5% Autonomy
+
+Focus:
+FOCUS Indian Independence: Japan is actively fomenting rebellion in India and has even formed a 'National Indian Army' composed of Indian recruits. The situation could grow dangerous if nothing is done to prevent it. We can either defeat Japan quickly, or promise the Indians independence in a few years.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Develop the Raj
+- ExclusiveM Mutually exclusive with:
+ - Indian Autonomy
+- One of the following must be true:
+ - All of the following must be true:
+ - time date is at least 1943.10.1
+ - British Raj:
+ - Is a subject of the United Kingdom
+ - Is at peace
+ - All of the following must be true:
+ - Current ruling party is Democracy
+ - British Raj:
+ - Is a subject of the United Kingdom
+ - Is at peace
+- Otherwise:
+ - Has global flag: indian_national_army_setup
+ - Current ruling party is Democracy
+ - British Raj is a puppet of United Kingdom
+Effects:
+- British Raj becomes free
+Otherwise:
+- United Kingdom gets the national spirit for 1460 days:
+
+Spirit Indian independence promised:
+Stability : -10.00%
+
+- British Raj loses National Spirit Azad Hind
+
+Focus:
+FOCUS Indian Autonomy: Rather than promise full independence, it is possible we may be able to weaken the Indian independence movements by giving them far-reaching autonomy, much like the other Dominions already enjoy.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Develop the Raj
+- ExclusiveM Mutually exclusive with:
+ - Indian Independence
+- British Raj is a subject of the United Kingdom
+Effects:
+British Raj:
+- Becomes dominion of United Kingdom
+- gets the national spirit for 730 days:
+
+Spirit Indian Autonomy: Rather than promise full independence, it is possible we may be able to weaken the Indian independence movements by giving them far-reaching autonomy, much like the other Dominions already enjoy.
+Daily autonomy progress gain: +0.5
+
+- Without autonomy or Lord Halifax as country leader, the British Raj will not accept
+ any proposals for Imperial Federation
+
+Focus:
+FOCUS British Commonwealth Air Training Plan: Our military success hinges upon our mastery of the air, and therefore the skill of our air crews. We will embark upon the largest aviation training program the world has ever seen to ensure we have all the trained pilots and crews we require to master this new dimension of warfare.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Commonwealth Ties
+- One of the following must be true:
+ - Canada is in Faction with the United Kingdom
+ - South Africa is in Faction with the United Kingdom
+ - British Raj is in Faction with the United Kingdom
+ - Australia is in Faction with the United Kingdom
+ - New Zealand is in Faction with the United Kingdom
+Effects:
+United Kingdom:
+- Gets the National Spirit:
+
+Spirit British Commonwealth Air Training Plan: Our military success hinges upon our mastery of the air, and therefore the skill of our air crews. We will embark upon the largest aviation training program the world has ever seen to ensure we have all the trained pilots and crews we require to master this new dimension of warfare.
+- Air exp gain: +0.05 daily
+- Air exp gain: +10.0%
+- Air Wing Training Experience Gain: +20%
+- Air Wing Mission Experience Gain: +10%
+
+Every Country that is a subject of the United Kingdom that is not South Africa:
+- Gets the National Spirit:
+
+Spirit British Commonwealth Air Training Plan: Our military success hinges upon our mastery of the air, and therefore the skill of our air crews. We will embark upon the largest aviation training program the world has ever seen to ensure we have all the trained pilots and crews we require to master this new dimension of warfare.
+- Air exp gain: +0.05 daily
+- Air exp gain: +10.0%
+- Air Wing Training Experience Gain: +20%
+- Air Wing Mission Experience Gain: +10%
+
+South Africa:
+- Gets the National Spirit:
+
+Spirit Joint Air Training Scheme: The British government has implemented a Commonwealth-Wide training program for its members' aircrews. We will be able to benefit heavily from this.
+- Air exp gain: +0.05 daily
+- Air exp gain: +10.0%
+- Air Wing Training Experience Gain: +20%
+- Air Wing Mission Experience Gain: +10%
+
+Focus:
+FOCUS Development in Canada: An investment in Canada's Industry and Shipyards will provide a boost to their economy and allow them to provide a greater contribution in the event of war.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Commonwealth Ties
+- Any country:
+ - Original country is Canada
+ - Is in Faction with United Kingdom
+One of the following must be true:
+- Canada does not exist
+- Canada:
+ - Not enough building slots for cic
+ - Not enough building slots for nic
+Effects:
+Canada:
+- Gains Aided Industrial Development ( Opinion of United Kingdom: +15)
+- Random Owned Controlled State:
+ - Add 2 Building Slot
+ - Add 2 cic
+- Random Owned Controlled State:
+ - Add 1 Building Slot
+ - Add 1 cic
+- Random Owned Controlled State:
+ - Add 1 Building Slot
+ - Add 1 nic
+- Random Owned Controlled State:
+ - Add 1 Building Slot
+ - Add 1 nic
+- Add -5% Autonomy
+
+Focus:
+FOCUS Development in Australia: An investment in Australia's Shipyards and Industry will provide a boost to their economy and allow them to provide a greater contribution in the event of war.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Commonwealth Ties
+- Any country:
+ - Original country is Australia
+ - Is in Faction with United Kingdom
+One of the following must be true:
+- Australia does not exist
+- Australia:
+ - Not enough building slots for cic
+ - Not enough building slots for nic
+Effects:
+Australia:
+- Gains Aided Industrial Development ( Opinion of United Kingdom: +15)
+- Random Owned Controlled State:
+ - Add 1 Building Slot
+ - Add 1 cic
+- Random Owned Controlled State:
+ - Add 1 Building Slot
+ - Add 1 cic
+- Random Owned Controlled State:
+ - Add 2 Building Slot
+ - Add 2 nic
+- Random Owned Controlled State:
+ - Add 1 Building Slot
+ - Add 1 nic
+- Add -5% Autonomy
+
+Focus:
+FOCUS Develop New Zealand: New Zealand retains a strong connection to our nation and has warned against the fascist threat. Their contribution in the event of war is certain, and we should aid them in preparing accordingly.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Development in Australia
+- Any country:
+ - Original country is New Zealand
+ - Is in Faction with United Kingdom
+One of the following must be true:
+- New Zealand does not exist
+- New Zealand:
+ - Not enough building slots for cic
+ - Not enough building slots for nic
+Effects:
+New Zealand:
+- Gains Aided Industrial Development ( Opinion of United Kingdom: +15)
+- Random Owned Controlled State:
+ - Add 1 Building Slot
+ - Add 1 cic
+- Random Owned Controlled State:
+ - Add 1 Building Slot
+ - Add 1 cic
+- Random Owned Controlled State:
+ - Add 2 Building Slot
+ - Add 2 nic
+- Random Owned Controlled State:
+ - Add 1 Building Slot
+ - Add 1 nic
+- Add -5% Autonomy
+
+Focus:
+FOCUS Develop South Africa: The political situation in South Africa is uncertain. We cannot fully trust that they will support our war effort, but by aiding them in strengthening their industry, we can hope to increase support for the British cause.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Commonwealth Ties
+- Any country:
+ - Original country is South Africa
+ - Is in Faction with United Kingdom
+One of the following must be true:
+- South Africa does not exist
+- South Africa:
+ - Not enough building slots for cic
+ - Not enough building slots for nic
+Effects:
+South Africa:
+- Gains Aided Industrial Development ( Opinion of United Kingdom: +15)
+- Random Owned Controlled State:
+ - Add 2 Building Slot
+ - Add 2 cic
+- Random Owned Controlled State:
+ - Add 1 Building Slot
+ - Add 1 cic
+- Random Owned Controlled State:
+ - Add 1 Building Slot
+ - Add 1 nic
+- Random Owned Controlled State:
+ - Add 1 Building Slot
+ - Add 1 nic
+- Add -5% Autonomy
+
+Focus:
+FOCUS Hold the Imperial Conference: The last time the various government leaders of all our self-governing colonies and dominions met up to discuss matters of Imperial interest was in 1932. It is high time we hold another conference, especially if we want to strengthen the Empire in the immediate future.
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Development in Canada
+ - Develop New Zealand
+ - Develop South Africa
+- Canada One of the following must be true:
+ - All of the following must be true:
+ - Is a subject of the United Kingdom
+ - Is the same ruling party as United Kingdom
+- South Africa One of the following must be true:
+ - All of the following must be true:
+ - Is a subject of the United Kingdom
+ - Is the same ruling party as United Kingdom
+- Australia One of the following must be true:
+ - All of the following must be true:
+ - Is a subject of the United Kingdom
+ - Is the same ruling party as United Kingdom
+- New Zealand One of the following must be true:
+ - All of the following must be true:
+ - Is a subject of the United Kingdom
+ - Is the same ruling party as United Kingdom
+- Any State:
+ - All of the following must be true:
+ - Is not a core of United Kingdom
+ - Is not a core of Canada
+ - Is not a core of South Africa
+ - Is not a core of Australia
+ - Is not a core of New Zealand
+ - State is 331
+ - Owner: One of the following must be true:
+ - Country is United Kingdom
+ - Country is Canada
+ - Country is South Africa
+ - Country is Australia
+ - Country is New Zealand
+- Canada does not exist
+- South Africa does not exist
+- British Raj One of the following must be true:
+- does not exist
+- Is not a subject of the United Kingdom
+- Australia does not exist
+- New Zealand does not exist
+- Any state:
+ - All of the following must be true:
+ - Is not a core of the United Kingdom
+ - Is not a core of Canada
+ - Is not a core of South Africa
+ - Is not a core of Australia
+ - Is not a core of New Zealand
+ - Owner is the United Kingdom
+Effects:
+United Kingdom:
+- Political Power : +120
+- United Kingdom, Canada, South Africa, British Raj,
+ Australia or New Zealand If they are a subject of the United Kingdom:
+ - Gets event The [current year] Imperial Conference
+- Unlocks Imperial Conference Decisions for 60 days
+- Ensure you have Political Power saved up to make
+ use of these!
+- Without autonomy or Lord Halifax as country leader, the British Raj will not
+accept any proposals for Imperial Federation.
+
+Focus:
+FOCUS Imperial Federation: Imperial Federation has long been toted as an alternative to self-governance. After a lengthy period of preparations, the time has now at last come to unify our government with those of our Dominions, and to retake our position as the world's pre-eminent superpower. Rule Britannia!
+Prerequisites:
+United Kingdom:
+- Requires the following:
+ - Hold the Imperial Conference
+- Canada:
+ - One of the following must be true:
+ - All of the following must be true:
+ - Is a subject of the United Kingdom
+ - One of the following must be true:
+ - Is Integrated Puppet
+ - Is Reichskommissariat
+ - All of the following must be true:
+ - Does not exist
+ - Any state:
+ - Is not a core of Canada
+ - Is owned by the United Kingdom
+- South Africa:
+ - One of the following must be true:
+ - All of the following must be true:
+ - Is a subject of the United Kingdom
+ - One of the following must be true:
+ - Is Integrated Puppet
+ - Is Reichskommissariat
+ - All of the following must be true:
+ - Does not exist
+ - Any state:
+ - Is not a core of South Africa
+ - Is owned by the United Kingdom
+- British Raj If it has accepted federation:
+ - One of the following must be true:
+ - All of the following must be true:
+ - Is a subject of the United Kingdom
+ - One of the following must be true:
+ - Is Integrated Puppet
+ - Is Reichskommissariat
+ - United Kingdom: Country leader has the trait Viceroy Emeritus
+ - All of the following must be true:
+ - Does not exist
+ - Any state:
+ - Is not a core of British Raj
+ - Is not 320
+ - Is not 321
+ - Is owned by the United Kingdom
+- Australia:
+ - One of the following must be true:
+ - All of the following must be true:
+ - Is a subject of the United Kingdom
+ - One of the following must be true:
+ - Is Integrated Puppet
+ - Is Reichskommissariat
+ - All of the following must be true:
+ - Does not exist
+ - Any state:
+ - Is not a core of Australia
+ - Is owned by the United Kingdom
+- New Zealand:
+ - One of the following must be true:
+ - All of the following must be true:
+ - Is a subject of the United Kingdom
+ - One of the following must be true:
+ - Is Integrated Puppet
+ - Is Reichskommissariat
+ - All of the following must be true:
+ - Does not exist
+ - Any state:
+ - Is not a core of New Zealand
+ - Is owned by the United Kingdom
+Effects:
+United Kingdom:
+- Will be known as The Imperial Federation
+- Gets event Rise of the Imperial Federation
+- Canada:
+ - Every unit leader:
+ - Joins the United Kingdom
+ - United Kingdom annexes Canada
+ - Every state that is a core of Canada
+ - is now a core of United Kingdom
+- South Africa:
+ - Every unit leader:
+ - Joins the United Kingdom
+ - United Kingdom annexes South Africa
+ - If South Africa completed the focus Police Windhoek:
+ - Every state that is a core of South Africa
+ - is now a core of United Kingdom except 275
+- British Raj If it has accepted federation:
+ - Every unit leader:
+ - Joins the United Kingdom
+ - United Kingdom annexes British Raj
+ - if :United Kingdom: Country leader has the trait Viceroy Emeritus:
+ - Due to Lord Halifax' controversial history in India:
+ - Every state that is:
+ - Owned by United Kingdom or owned by British Raj
+ - Is a core of the British Raj
+ - Not a core of the United Kingdom
+ - Resistance: +15.0%
+- Australia:
+ - Every unit leader:
+ - Joins the United Kingdom
+ - United Kingdom annexes Australia
+ - Every state that is a core of Australia
+ - is now a core of United Kingdom
+- New Zealand:
+ - Every unit leader:
+ - Joins the United Kingdom
+ - United Kingdom annexes New Zealand
+ - Every state that is a core of New Zealand:
+ - is now a core of United Kingdom
+- British Malaya:
+ - Every unit leader:
+ - Joins the United Kingdom
+ - United Kingdom annexes British Malaya
+
+## Mediterranean Bastion Sub-branch [verified for 1.17]
+
+Mediterranian colonial development sub-branch of the British national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+{| class="mildtable"
+! style="width: 30%;" | Focus
+! style="width: 30%;" | Prerequisites
+! style="width: 40%;" | Effects
+
+|- id="Mediterranean Bastion"
+| FOCUS Mediterranean Bastion: The route through the Mediterranean is a vitally important shortcut to and from India. As such, it is of utmost importance to keep it open and in our hands.
+| United Kingdom:
+- Requires the following:
+ - Service Overseas
+- 447: Controller: One of the following must be true:
+ - Country is the United Kingdom
+ - Is a subject of the United Kingdom
+| United Kingdom gets the national spirit:
+
+Spirit Fortify the Empire:
+- Land Fort construction Speed: +5.00%
+- Coastal Fort construction Speed: +5.00%
+
+- If already have the National Spirit, Modify it by:
+
+Spirit Fortify the Empire:
+Effective Change:
+- Land Fort construction Speed: +5.00%
+- Coastal Fort construction Speed: +5.00%
+
+- 447:
+ - If more than 2 free slots for Coastal Fort in the province (4076):
+ - Add 3 Coastal Fort in a province in the state
+ - If more than 1 free slots for Naval Base in the province (4076):
+ - Add 2 Naval Base in a province in the state
+ - If more than 2 free slots for Air Base :
+ - Add 3 Air Base
+
+|- id="Fortify the Rock"
+| FOCUS Fortify the Rock: As well as controlling the entrance to the Mediterranean, Gibraltar provides a strongly defended harbour from which ships can operate in both the Atlantic and the Mediterranean. As such, it is imperative that it is strongly guarded.
+| United Kingdom:
+- Requires the following:
+ - Mediterranean Bastion
+- ExclusiveM Mutually exclusive with:
+ - Coerce Spain
+- 118: owned and controlled by United Kingdom
+| United Kingdom:
+- 118:
+ - If more than 3 free slots for Land Fort in the province (4135):
+ - Add 4 Land Fort in a province in the state
+ - If more than 0 free slots for Coastal Fort in the province (4135):
+ - Add 1 Coastal Fort in a province in the state
+ - If more than 2 free slots for Air Base :
+ - Add 2 Air Base
+ - If more than 2 free slots for Static anti air :
+ - Add 2 static anti air
+
+|- id="Coerce Spain"
+| FOCUS Coerce Spain: The Spanish know better than most the power of the Royal Navy, but perhaps a reminder is in order...
+| United Kingdom:
+- Requires the following:
+ - Mediterranean Bastion
+- ExclusiveM Mutually exclusive with:
+ - Fortify the Rock
+- Any other country:
+ - Original country is Spain
+ - Exists
+ - At Peace
+ - Is not in Faction with United Kingdom
+ - Is fully independent
+- Current ruling party is not Communism
+| Spain gets the National Spirit for 1095 days if United Kingdom is:
+- Democracy :
+
+Spirit Democratic Influence: Democratic pressure has made democracy very popular, and the country is susceptible to align with other Democrats.
+- Daily Democracy Support: +0.10
+- Acceptance of Democracy Diplomacy: +85
+
+ - Gains Democratic Leanings ( Opinion of United Kingdom: +15)
+ - Every other Country that has more than 30 factories and is not Democracy :
+ - Gains Democratic leanings ( Opinion of Spain: -30)
+ - Gets event United Kingdom is influencing our politics
+- Fascism :
+
+Spirit Fascist Influence: Fascist pressure has made fascism very popular, and the country is susceptible to align with other fascists.
+- Daily Fascism Support: +0.10
+- Acceptance of Fascism Diplomacy: +85
+
+ - Gains Fascist Leanings ( Opinion of United Kingdom: +15)
+ - Every other Country that has more than 30 factories and is not Fascism :
+ - Gains Fascist leanings ( Opinion of Spain: -30)
+ - Gets event United Kingdom is influencing our politics
+- Neutrality and Spain has not completed Regional Defense Council of Aragon:
+
+Spirit Authoritarian Influence: Authoritarian pressure has led to new-found respect with strong governments and noble royal houses, and the country is susceptible to align with other authoritarian governments.
+- Daily Support for neutrality : +0.10
+- Acceptance of neutrality Diplomacy: +85
+
+ - Gains Authoritarian Leanings ( Opinion of United Kingdom: +15
+ - Every other Country that has more than 30 factories and is not Fascism :
+ - Gains Authoritarian leanings ( Opinion of Spain: -30
+ - Gets event United Kingdom is influencing our politics
+
+|- id="Protect the Suez"
+| FOCUS Protect the Suez: Controlling the Suez channel is part of the means by which the British Empire retains its command of the sea. Losing this region would be disastrous. Measures must be taken to fortify it.
+| United Kingdom:
+- Requires the following:
+ - Mediterranean Bastion
+- 447: Controller: One of the following must be true:
+ - Country is United Kingdom
+ - Is a subject of the United Kingdom
+- 447:
+ - Cannot build 2 more Coastal Fort
+ - Cannot build 2 more Anti-Air
+ - Cannot build 3 more Air Base
+ - Cannot build 2 more Land Fort
+| United Kingdom:
+- 447:
+ - If more than 1 free slots for Coastal Fort in the province (4076):
+ - Add 2 Coastal Fort in a province in the state
+ - If more than 3 free slots for static anti air :
+ - Add 3 Air Base
+ - If more than 2 free slots for Land Fort in the province (1071):
+ - Add 4 Land Fort in a province in the state
+ - If more than 1 free slots for static anti air :
+ - Add 2 static anti air
+
+|- id="Fortify Malta"
+| FOCUS Fortify Malta: Malta commands an excellent position in the central Mediterranean, a vital way station along our lifeline through Egypt and the Suez Canal to India and the Far East. Time spent fortifying it more strongly could never be wasted.
+| United Kingdom:
+- Requires the following:
+ - Mediterranean Bastion
+- 116: Owned and controlled by United Kingdom
+- 116
+ - Cannot build 2 more Coastal Fort in province 12003
+ - Cannot build 1 more Air Base
+| United Kingdom:
+- 116:
+ - Add 1 Building Slot
+ - Add 2 Coastal Fort in a province in the state
+ - Add 3 Air Base
+ - Add 2 static anti air
+
+|- id="Coerce Turkey"
+| FOCUS Coerce Turkey: They don't have to love us, but Johnny Turkey should know enough to fear our battleships...
+| United Kingdom:
+- Requires the following:
+ - Protect the Suez
+- ExclusiveM Mutually exclusive with:
+ - Coerce Greece
+- Current ruling party is not communism
+- Turkey:
+ - Exists
+ - At peace
+ - Is not in faction with United Kingdom
+ - Is fully independent
+| Turkey gets the National Spirit for 1095 days if United Kingdom is:
+- Democracy :
+
+Spirit Democratic Influence: Democratic pressure has made democracy very popular, and the country is susceptible to align with other Democrats.
+- Daily Democracy Support: +0.10
+- Acceptance of Democracy Diplomacy: +85
+
+ - Gains Democratic Leanings ( Opinion of United Kingdom: +15)
+ - Every other Country that has more than 30 factories and is not Democracy :
+ - Gains Democratic leanings ( Opinion of Turkey: -30)
+ - Gets event United Kingdom is influencing our politics
+- Fascism :
+
+Spirit Fascist Influence: Fascist pressure has made fascism very popular, and the country is susceptible to align with other fascists.
+- Daily Fascism Support: +0.10
+- Acceptance of Fascism Diplomacy: +85
+
+ - Gains Fascist Leanings ( Opinion of United Kingdom: +15)
+ - Every other Country that has more than 30 factories and is not Fascism :
+ - Gains Fascist leanings ( Opinion of Turkey: -30)
+ - Gets event United Kingdom is influencing our politics
+- Neutrality :
+
+Spirit Authoritarian Influence: Authoritarian pressure has led to new-found respect with strong governments and noble royal houses, and the country is susceptible to align with other authoritarian governments.
+- Daily Support for neutrality : +0.10
+- Acceptance of neutrality Diplomacy: +85
+
+ - Gains Authoritarian Leanings ( Opinion of United Kingdom: +15)
+ - Every other Country that has more than 30 factories and is not neutrality :
+ - Gains Authoritarian leanings ( Opinion of Turkey: -30)
+ - Gets event United Kingdom is influencing our politics
+
+|- id="Coerce Greece"
+| FOCUS Coerce Greece: It is in our interests to have basing rights in Greece, and frankly the Greeks are in no position to refuse us.
+| United Kingdom:
+- Requires the following:
+ - Protect the Suez
+- ExclusiveM Mutually exclusive with:
+ - Coerce Turkey
+- Current ruling party is not communism
+- Greece:
+ - Exists
+ - At peace
+ - Is not in faction with United Kingdom
+ - Is fully independent
+| Greece gets the National Spirit for 1095 days if United Kingdom is:
+- Democracy :
+
+Spirit Democratic Influence: Democratic pressure has made democracy very popular, and the country is susceptible to align with other Democrats.
+- Daily Democracy Support: +0.10
+- Acceptance of Democracy Diplomacy: +85
+
+ - Gains Democratic Leanings ( Opinion of United Kingdom: +15)
+ - Every other Country that has more than 30 factories and is not Democracy :
+ - Gains Democratic leanings ( Opinion of Greece: -30)
+ - Gets event United Kingdom is influencing our politics
+- Fascism :
+
+Spirit Fascist Influence: Fascist pressure has made fascism very popular, and the country is susceptible to align with other fascists.
+- Daily Fascism Support: +0.10
+- Acceptance of Fascism Diplomacy: +85
+
+ - Gains Fascist Leanings ( Opinion of United Kingdom: +15)
+ - Every other Country that has more than 30 factories and is not Fascism :
+ - Gains Fascist leanings ( Opinion of Greece: -30)
+ - Gets event United Kingdom is influencing our politics
+- Neutrality :
+
+Spirit Authoritarian Influence: Authoritarian pressure has led to new-found respect with strong governments and noble royal houses, and the country is susceptible to align with other authoritarian governments.
+- Daily Support for neutrality : +0.10
+- Acceptance of neutrality Diplomacy: +85
+
+ - Gains Authoritarian Leanings ( Opinion of United Kingdom: +15)
+ - Every other Country that has more than 30 factories and is not neutrality :
+ - Gains Authoritarian leanings ( Opinion of Greece: -30)
+ - Gets event United Kingdom is influencing our politics
+
+|- id="Balkan Strategy"
+| FOCUS Balkan Strategy: Many of the nations in the Balkans are pro-British and see the same threat from central Europe as we do. If we seize the opportunity and support them early, we can secure their loyalty, although at the expense of angering their revengist neighbors.
+| United Kingdom:
+- Requires the following:
+ - Protect the Suez
+ - Fortify Malta
+- Current ruling party is Democratic
+- Yugoslavia does not exist
+- Greece does not exist
+- Romania does not exist
+- Bulgaria does not exist
+- Hungary does not exist
+| If Romania, Yugoslavia or Greece and not in a faction with fascism Germany or Italy or if Greece did not rebuff Britain:
+- Gets event United Kingdom Sends Industrial Support
+- Add 2 offmap mic
+- Gains Balkan Strategy ( Opinion of United Kingdom: +15)
+
+Bulgaria and Hungary:
+- Gains Balkan Strategy ( Opinion of United Kingdom: -30)
+
+- United Kingdom gets event The Question of Yugoslavia
+
+|- id="Sanction Italy"
+| FOCUS Sanction Italy: Mussolini dreams of a new Roman Empire and, absurd as it may sound, might someday attack us to achieve his dream. We should do what we can to prevent this before it comes to war.
+| United Kingdom:
+- Requires the following:
+ - Balkan Strategy
+- Italy:
+ - exists
+ - One of the following must be true:
+ - In an offensive war
+ - Caused more than 15% World Tension
+ - Is not in Faction with United Kingdom
+ - At peace with United Kingdom
+Is at war with Italy
+| Italy:
+- Trade relations with United Kingdom changed by -100
+- Gains Trade Sanctions ( Opinion of United Kingdom: -40)
+
+|- id="War with Italy"
+| FOCUS War with Italy: The Italians refuse to give up their plans for a new Empire and have proven willing to go to war in order to expand their borders. We must do what we can to eliminate this threat before it is too late.
+| United Kingdom:
+- Requires the following:
+ - Sanction Italy
+- Not in an offensive war
+- Italy:
+ - exists
+ - One of the following must be true:
+ - In an offensive war
+ - Caused more than 15% World Tension
+ - Is not in Faction with United Kingdom
+ - At peace with United Kingdom
+Is at war with Italy
+| United Kingdom:
+- Gains Puppet (focus) War Goal against Italy
+|}
+
+# Revisit Colonial Policy Branch [verified for 1.17]
+
+Colonial Independence branch of the British national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+{| class="mildtable"
+! style="width: 30%;" | Focus
+! style="width: 30%;" | Prerequisites
+! style="width: 40%;" | Effects
+
+|- id="Revisit Colonial Policy"
+| FOCUS Revisit Colonial Policy: The times are changing. It is clear that independence movements will only continue to spring up across the empire, and in ever-stronger incarnations. If we do not wish to be forced into pouring increasingly vast resources into surpressing these movements, then we must acknowledge that our Empire has run its course, and now must be allowed to find its own path into the world.
+| United Kingdom:
+- ExclusiveM Mutually exclusive with:
+ - Reinforce the Empire
+- Is fully independent
+- One of the following must be true:
+ - Current ruling party is Democracy
+ - Current ruling party is Communism
+| United Kingdom:
+- Gain base Stability : -5.00%
+- Change in popularity of Communism : 5.00%
+- Political Power : +80
+- If Decolonization has not been achieved within 2
+ years of becoming Communist, a civil war will start!
+
+|- id="Guide the Colonies"
+| FOCUS Guide the Colonies: Taking the first steps towards full independence, after long periods under our control, is not easy. Our Dominions require our aid in restructuring their government, so that they may function as well when completely independent as they do now, under our guidance.
+| United Kingdom:
+- Requires the following:
+ - Revisit Colonial Policy
+- Is fully independent
+- More than 0 subject nations
+Fewer than 1 Subject nations
+| United Kingdom:
+- Political Power : +60
+- If Canada, South Africa, Australia, New Zealand, British Malaya or Burma
+ - Is a subject of United Kingdom:
+ - Gain base Stability : +5.00%
+ - Gains Guiding the Colonies ( opinion of United Kingdom +15)
+ - gets the national spirit:
+
+Spirit Guided by Britain:
+- Political Advisor Cost: -25%
+- Economy Laws Cost: -25%
+- Trade Laws Cost: -25%
+- Conscription Laws Cost: -25%
+
+|- id="Towards Dominion Independence"
+| FOCUS Towards Dominion Independence: Having seen to the restructuring of the Dominion governments, we must now aid our dominions in taking the final steps towards cutting their official ties to Westminster. It is likely we will see a period of mass migration, as those who would rather continue to be a part of United Kingdom will immigrate.
+Alternative Descriptions
+Game file description
+
+Having seen to the restructuring of the Dominion governments, we must now aid our dominions in taking the final steps towards cutting their official ties to Westminster. It is likely we will see a period of mass migration, as those who would rather continue to be a part of [Root.GetNameDef] will immigrate.
+| United Kingdom:
+- Requires the following:
+ - Guide the Colonies
+- Is fully independent
+- One of the following must be true:
+ - Canada: Is a subject of the United Kingdom
+ - South Africa: Is a subject of the United Kingdom
+ - Australia: Is a subject of the United Kingdom
+ - New Zealand: Is a subject of the United Kingdom
+One of the following must be true:
+- All of the following must be true:
+ - Canada is fully independent
+ - South Africa is fully independent
+ - Australia is fully independent
+ - New Zealand is fully independent
+- Has completed the focus Bring the Dominions Back into the Fold
+| United Kingdom:
+- Political Power : +100
+- Manpower : +100000
+- If a dominion has the national spirit Guided by Britain:
+
+Spirit Guided by Britain:
+Effective Change:
+- Daily autonomy progress gain: +1.0
+
+|- id="Foundations for an Indian State"
+| FOCUS Foundations for an Indian State: If it is to function as an independent state, we must see to increasing the industrialization of India, as well as drastically restructuring their government. The challenges of governing an entire subcontinent are, as we have found, not simple ones, and India must be prepared if it is to succeed.
+| United Kingdom:
+- Requires the following:
+ - Towards Dominion Independence
+- Is fully independent
+- Hidden trigger:
+ - If:
+ - the DLC goe is enabled:
+ - Has event target:UK_INDIA (alternative British Raj)
+ - event target:UK_INDIA is a subject of the United Kingdom
+- British Raj is a subject of the United Kingdom
+British Raj:
+- is fully independent
+ - If the DLC GOE is enabled:
+ - Has event target:UK_INDIA(alternative British Raj)
+ - event target:UK_INDIA(alternative British Raj):
+ - Does not exist
+ - Is not a subject of the United Kingdom
+| United Kingdom:
+- Political Power : +60
+- If the DLC goe is enabled:
+ - Has event target:UK_INDIA (alternative British Raj)
+ - event target:UK_INDIA exists
+ - If event target:UK_INDIA(alternative British Raj) is a subject of the United Kingdom:
+ - Gain Base Stability : +5.00%
+ - Gains Guiding the Colonies ( opinion of United Kingdom +15)
+ - gets the national spirit:
+
+Spirit Guided by Britain:
+- Political Advisor Cost: -33%
+- Economy Laws Cost: -33%
+- Trade Laws Cost: -33%
+- Conscription Laws Cost: -33%
+
+ - Random Owned Controlled Cored State:
+ - Add 2 building slots
+ - Add 2 cic
+ - Random Owned Controlled Cored State:
+ - Add 2 building slot
+ - Add 2 cic
+- If British Raj is a subject of United Kingdom:
+ - Gain Base Stability : +5.00%
+ - Gains Guiding the Colonies ( opinion of United Kingdom +15)
+ - gets the national spirit:
+
+Spirit Guided by Britain:
+- Political Advisor Cost: -33%
+- Economy Laws Cost: -33%
+- Trade Laws Cost: -33%
+- Conscription Laws Cost: -33%
+
+ - Random Owned Controlled Cored State:
+ - Add 2 building slots
+ - Add 2 cic
+ - Random Owned Controlled Cored State:
+ - Add 2 building slot
+ - Add 2 cic
+
+|- id="The Three-Nation Solution"
+| FOCUS The Three-Nation Solution: Cultural and religious differences are extreme across the Indian subcontinent. Already, there are antagonizations between various groupings with different loyalties. Rather than lump them all in to a single state, perhaps the better solution would be to split the subcontinent up in a trio of states. Hindu India, Muslim Pakistan in the northwest, and Muslim Bangladesh in the northeast.
+| Allow branch:
+- The DLC GOE is not enabled
+United Kingdom:
+- Requires the following:
+ - Foundations for an Indian State
+- Is fully independent.
+- British Raj is a subject of the United Kingdom.
+| If British Raj fully controls:
+- 444, 443, 445, 440, 442, 441, 430:
+ - British Raj Gains Three Nation Solution ( Opinion of United Kingdom -50)
+- Release Bangladesh
+ - Bangladesh becomes Puppet of United Kingdom
+ - Gains the National Spirit
+
+Spirit Guided by Britain:
+- Political Advisor Cost: -33%
+- Economy Laws Cost: -33%
+- Trade Laws Cost: -33%
+- Conscription Laws Cost: -33%
+
+ - If United Kingdom is at war, Bangladesh joins the war
+- Release Pakistan
+ - Pakistan becomes Puppet of United Kingdom
+ - Gains the National Spirit
+
+Spirit Guided by Britain:
+- Political Advisor Cost: -33%
+- Economy Laws Cost: -33%
+- Trade Laws Cost: -33%
+- Conscription Laws Cost: -33%
+
+ - If United Kingdom is at war, Pakistan joins the war
+
+|- id="Towards Indian Independence"
+| FOCUS Towards Indian Independence: The time has come to set India on its path to independence. We will begin gradually transferring governmental tasks, increasing their autonomy in preparation for full independence.
+| United Kingdom:
+- Requires the following:
+ - Foundations for an Indian State
+- Is fully independent
+- British Raj is a subject of the United Kingdom.
+- Hidden trigger:
+ - If:
+ - the DLC goe is enabled:
+ - Has event target:UK_INDIA (alternative British Raj)
+ - event target:UK_INDIA is a subject of the United Kingdom
+One of the following must be true:
+- British Raj is fully independent
+- Has completed the focus Reclaim the Jewel in the Crown
+ - If the DLC GOE is enabled:
+ - Has event target:UK_INDIA(alternative British Raj)
+ - event target:UK_INDIA(alternative British Raj):
+ - Does not exist
+ - Is not a subject of the United Kingdom
+| United Kingdom:
+- Political Power : +150
+- Manpower : +150000
+- If:
+ - the DLC GOE is enabled
+ - Has event target:UK_INDIA(alternative British Raj)
+ - event target:UK_INDIA(alternative British Raj) exists
+ - Modify the National Spirit Guided by Britain with:
+
+Spirit Guided by Britain:
+Effective Change:
+- Daily autonomy progress gain: +2.0
+
+ - Current country leader retires.
+- If:
+ - Has event target:UK_INDIA(alternative British Raj)
+ - event target:UK_INDIA(alternative British Raj) exists
+ - British Raj: removes the National Spirit Guided by Britain
+- Otherwise: British Raj:
+ - Modify the National Spirit Guided by Britain with:
+
+Spirit Guided by Britain:
+Effective Change:
+- Daily autonomy progress gain: +2.0
+
+ - if it is a subject and not a Dominion or a Satellite
+ - If the has not completed focus Organize the Blackshirts and is not Fascist
+ - It becomes a Dominion
+ - Otherwise:
+ - It becomes a Satellite
+- Pakistan and Bangladesh (If they exist):
+ - Modify the National Spirit Guided by Britain with:
+
+Spirit Guided by Britain:
+Effective Change:
+- Daily autonomy progress gain: +2.0
+
+ - Becomes Dominion of the United Kingdom if it is a subject and not a Dominion
+- If the DLC GOE is not enabled:
+- British Raj:
+ - Current country leader retires.
+
+|- id="Withdraw from Contested Territories"
+| FOCUS Withdraw from Contested Territories: A number of territories across the globe, considered part of the British Overseas Territories, are claimed by neighbouring states. This causes diplomatic tensions, and so it may be better to reassess their status as under United Kingdom juristiction.
+| United Kingdom:
+- Requires the following:
+ - Guide the Colonies
+- Is fully independent
+- Has full control of either: ** 659 326 332 331 119 118 906 1021 \n**_ 2
+All of the following must be true:
+- Does not own 659 326 332 331 119 118 906 1021 \n*Does not own_
+| United Kingdom:
+- Gain Base Stability : -15.00%
+- Manpower : +25000
+- The below nations have states transferred to them by United Kingdom if said states are fully controlled by all United Kingdom
+ - Argentina: 299 (becomes core), 720
+ - Canada: 331, 332
+ - China (current owner): 326
+ - Ireland: 119
+ - British Malaya: 1021
+ - Republican Spain, Nationalist Spain, Carlist Spain or Anarchist Spain (The first one gets it if they exist. Otherwise the next one gets it etc.): 118 (becomes core) (If the Spanish Civil War is not over, The country with the original tag SPR gets it.)
+ - Yemen: 659 (becomes core of South Arabia), 906, 992 (also if British Raj owns it and is a subject of the United Kingdom)
+ - All nations which have states transferred to them receive the following opinion modifier towards United Kingdom (for Yemen, also towards the British Raj for 992, if the above requirements are met):
+ - Returned Our Territory ( Opinion +15 Opinion)
+
+|- id="Self-Government For the Mediterranean"
+| FOCUS Self-Government For the Mediterranean: The nations in the Mediterranean are ready to receive extensive autonomy in preparation for full independence. This is likely to result in an influx of immigrants desiring to obtain British nationality before independence is formalized.
+| United Kingdom:
+- Requires the following:
+ - Withdraw from Contested Territories
+- Is fully independent
+- One of the following must be true:
+ - Has full control of 116
+ - Has full control of 183
+- Does not own 116
+- Does not own 183
+| United Kingdom:
+- Gain Political Power : +25
+- Manpower : +10000
+- Release Malta
+ - Malta becomes a puppet of the United Kingdom
+ - If United Kingdom is at war, Malta joins the war
+- Release Republic of Cyprus
+ - Republic of Cyprus becomes a puppet of the United Kingdom
+ - If United Kingdom is at war, Republic of Cyprus joins the war
+
+|- id="Self Government For Africa"
+| FOCUS Self Government For Africa: The nations in Africa are ready to receive extensive autonomy in preparation for full independence. This is likely to result in an influx of immigrants desiring to obtain British nationality before independence is formalized.
+| United Kingdom:
+- Requires the following:
+ - Self-Government For the Mediterranean
+- Is fully independent
+- Has full control of either: ** 767 551 549 269 548 547 903 904 905 546 771 981 770 545 542 558 900 901 902 274 700 701 883 884 885 886 887 \n**_ 2
+- Does not own 767 551 549 269 548 547 903 904 905 546 771 981 770 545 542 558 900 901 902 274 700 883 884 885 886 887 \n*Does not own_
+| United Kingdom:
+- Gain Political Power : +100
+- Manpower : +100000
+- The below nations are released as a puppet of United Kingdom if they fully control all the states listed beside them
+ - If United Kingdom is at war the released nation will join the war
+ - Botswana: 542
+ - The Gambia: 701
+ - Ghana: 274
+ - Kenya: 547, 903, 904, 905
+ - Malawi: 770
+ - Nigeria:558, 900, 901, 902
+ - Kingdom of Sierra Leone: 700
+ - Somali Sultanate: 269
+ - Sudan: 549, 551, 767, 883, 884, 885, 886, 887
+ - Tanzania: 546
+ - Uganda: 548
+ - Zambia: 771, 981
+ - Zimbabwe: 545
+
+|- id="Self-Government For the Middle East"
+| FOCUS Self-Government For the Middle East: The nations in the Middle East are ready to receive extensive autonomy in preparation for full independence. This is likely to result in an influx of immigrants desiring to obtain British nationality before independence is formalized.
+| United Kingdom:
+- Requires the following:
+ - Withdraw from Contested Territories
+- Is fully independent
+- One of the following must be true:
+ - Has full control of 454 455 453 452 447 446 907 457 456 656 765 1014 658 992 \n**Has full control of_
+- Does not own 454 455 453 452 447 446 907 457 456 656 765 658 992 1014 \n*Does not own_
+| United Kingdom:
+- Gain Political Power : +50
+- Manpower : +50000
+- If Palestine is a subject of the United Kingdom and is not a Dominion
+ - Palestine becomes a Dominion
+- If has full control of 454
+ - Release Palestine
+ - Palestine becomes a puppet of the United Kingdom
+ - If United Kingdom is at war, Palestine joins the war
+- If has full control of 454 and the time date is > 1939.01.01
+ - Release Israel
+ - Israel becomes a puppet of the United Kingdom
+ - If United Kingdom is at war, Israel joins the war
+- If has full control of 455
+ - Release Jordan
+ - Jordan becomes a puppet of the United Kingdom
+ - If United Kingdom is at war, Jordan joins the war
+- If has full control of 453, 452, 447, 446, 457, 456
+ - Release Kingdom of Egypt
+ - Kingdom of Egypt becomes a puppet of the United Kingdom
+ - If United Kingdom is at war, Kingdom of Egypt joins the war
+- If has full control of 656
+ - Release Kuwait
+ - Kuwait becomes a puppet of the United Kingdom
+ - If United Kingdom is at war, Kuwait joins the war
+- If has full control of 765
+ - Release Republic of Qatar
+ - Republic of Qatar becomes a puppet of the United Kingdom
+ - If United Kingdom is at war, Republic of Qatar joins the war
+- If has full control of 1014
+ - Release Bahrain
+ - Bahrain becomes a puppet of the United Kingdom
+ - If United Kingdom is at war, Bahrain joins the war
+- If has full control of 658
+ - Release United Arab Emirates
+ - United Arab Emirates becomes a puppet of the United Kingdom
+ - If United Kingdom is at war, United Arab Emirates joins the war
+
+|- id="Self-Government For the Americas"
+| FOCUS Self-Government For the Americas: The nations in the Americas are ready to receive extensive autonomy in preparation for full independence. This is likely to result in an influx of immigrants desiring to obtain British nationality before independence is formalized.
+| United Kingdom:
+- Requires the following:
+ - Self-Government For the Middle East
+- Is fully independent
+- Has full control of either: ** 308 311 687 689 690 691 692 693 \n**_ 2
+- Does not own 311 690 693 689 691 692 308 687 \n*Does not own_
+| United Kingdom:
+- Gain Political Power : +50
+- Manpower : +50000
+- The below nations are released as a puppet of United Kingdom if they fully control all the states listed beside them
+ - If United Kingdom is at war the released nation will join the war
+ - Commonwealth of the Bahamas: 690, 693
+ - Belize: 311
+ - Co-operative Republic of Guyana: 687
+ - Jamaica: 689
+ - Republic of The British Antilles: 308, 692
+ - Republic of Trinidad and Tobago: 691
+
+|- id="Self-Government For Asia"
+| FOCUS Self-Government For Asia: The nations in Asia are ready to receive extensive autonomy in preparation for full independence. This is likely to result in an influx of immigrants desiring to obtain British nationality before independence is formalized.
+| United Kingdom:
+- Requires the following:
+ - Self-Government For the Americas
+- Is fully independent
+- One of the following must be true:
+ - Has full control of 422 281 636 643 39 725 711 712 \n**Has full control of_
+ - One of the following Must be true:
+ - British Raj:
+ - Is not a subject of the United Kingdom
+ - Has full control of 640
+ - Has full control of 288
+ - British Raj is not a subject of the United Kingdom
+ - Burma:
+ - Is not a subject of the United Kingdom
+ - Has full control of 640
+ - Has full control of 288
+ - United Kingdom
+ - Has full control of 640
+ - Has full control of 288
+- Does not own 422
+- All of the following must be true:
+ - British Raj:
+ - Is not a subject of the United Kingdom
+ - Does not own 640
+ - Does not own 288
+ - Burma:
+ - Is not a subject of the United Kingdom
+ - Does not own 640
+ - Does not own 288
+ - British Raj:
+ - Is a subject of another country
+ - United Kingdom
+ - Does not own 640
+ - Does not own 288}}
+| United Kingdom:
+- Gain Political Power : +75
+- Manpower : +75000
+- If has full control of 422
+ - Release Democratic Socialist Republic of Sri Lanka
+ - Democratic Socialist Republic of Sri Lanka becomes a puppet of the United Kingdom
+ - If United Kingdom is at war, Democratic Socialist Republic of Sri Lanka joins the war
+- If has full control of 281
+ - Release Maldives
+ - Maldives becomes a puppet of the United Kingdom
+ - If United Kingdom is at war, Maldives joins the war
+- If has full control of 636, 643, 639, 725
+ - Release Melanesian Federation
+ - Melanesian Federation becomes a puppet of the United Kingdom
+ - If United Kingdom is at war, Melanesian Federation joins the war
+- If British Raj:
+ - Has full control of 640
+ - Has full control of 288
+ - Release Burma
+ - Burma becomes a puppet of the United Kingdom
+ - If United Kingdom is at war, Burma joins the war
+- British Malaya:
+ - becomes a puppet of the United Kingdom
+ - Retires current country leader
+- If Burma is a subject of the United Kingdom and is not a Dominion
+ - Burma becomes a Dominion
+ - Retires current country leader
+- British Raj:
+ - Becomes Owner and controller of 733
+- Australia:
+ - Becomes Owner and controller of 711
+ - Becomes Owner and controller of 712
+
+|- id="Decolonization"
+| FOCUS Decolonization: It is the end of an era, but an end of our choosing. Rather than suffering the indignity of struggling in vain against the unstoppable rise of independence movements, we have held our heads high and, with pride, have guided those under our protection as far as we could. Now, all that remains is to cut our remaining ties and welcome our erstwhile dependents on the world scene as equals.
+| United Kingdom:
+- Requires the following:
+ - Towards Indian Independence
+ - Self Government For Africa
+ - Self-Government For Asia
+- Is fully Independent
+Fewer than 1 Subject nations
+| United Kingdom:
+- Gain Base Stability : +10.00%
+- Change in Popularity of Communism : 5.00%
+- Gain Political Power : +100
+- Manpower : +100000
+- Every country with the national spirit Guided by Britain or Guided by Britain:
+ - Removes the national spirit
+ - Countries that refused to remain a puppet:
+ - United Kingdom If the DLC GOE is enabled and the British Raj is a puppet:
+ - British Raj gets event The British RAJ administration falls
+ - Otherwise:
+ - become free.
+ - Countries with a surrender progress less than 10% have a 75 chance to:
+ - white peace with enemy country that is not originally British Raj and the British Raj does not have the flag RAJ_mughal_uprising
+ - Leave faction
+ - Remove from Commonwealth research tech sharing group
+- Every other country that is a subject of the United Kingdom and is:
+ - not Canada, South Africa, British Raj, Australia, New Zealand or British Malaya
+ - Has the same ideology as United Kingdom or is neutrality :
+ - Countries with a surrender progress less than 10% have a 50 chance to:
+ - white peace with enemy country that is not originally British Raj and the British Raj does not have the flag RAJ_mughal_uprising
+ - Leave faction
+- If United Kingdom is at war together with its subjects:
+ - The subjects create the faction Coalition of Free Commonwealth States
+ - Faction leader is determined by the order: Canada, Australia, British Raj, South Africa, New Zealand:
+ - If the country on the left side of the list is not at war, the next country on the list becomes faction leader.
+ - Otherwise, any other country who has the flag ENG_decolonization_left_faction that is not the above:
+ - create the faction Coalition of Free Commonwealth States
+- If Iraq has the National Spirit Iraq#Anglo-Iraqi Treaty, remove it.
+- If Decolonization has not been achieved within 2
+ years of becoming Communist, a civil war will start!
+|}
+
+# Steady As She Goes Branch [verified for 1.17]
+
+Democratic branch of the British national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+{| class="mildtable"
+! style="width: 30%;" | Focus
+! style="width: 30%;" | Prerequisites
+! style="width: 40%;" | Effects
+
+|- id="Steady As She Goes"
+| FOCUS Steady As She Goes: The mounting crisis is precisely why we must remain true to our roots. We will continue the course that we have sailed in recent years, rather than make any drastic political changes that may cause internal instability when we can least afford it.
+| United Kingdom:
+- ExclusiveM Mutually exclusive with:
+ - A Change in Course
+- Not: Edward VIII Refused to Abdicate
+| United Kingdom gets the national spirit for 365 days:
+
+Spirit Steady As She Goes: The mounting crisis is precisely why we must remain true to our roots. We will continue the course that we have sailed in recent years, rather than make any drastic political changes that may cause internal instability when we can least afford it.
+- Weekly Stability : +0.20%
+- Daily Democracy Support: +0.10
+
+|}
+
+## Global Defense Sub-branch [verified for 1.17]
+
+Agressive Democratic sub-branch of the British national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+{| class="mildtable"
+! style="width: 30%;" | Focus
+! style="width: 30%;" | Prerequisites
+! style="width: 40%;" | Effects
+
+|- id="Global Defense"
+| FOCUS Global Defense: Protecting the British people starts by preventing that which would threaten it from spreading in the first place. We must find the embers of conflict and put them out in the spot before they turn into a conflagration that spreads far and wide, burning us in our homes.
+| United Kingdom:
+- Requires the following:
+ - Steady As She Goes
+- ExclusiveM Mutually exclusive with:
+ - Home Defense
+| United Kingdom:
+- If
+ - is faction leader
+ - The DLC NCNS is enabled:
+ - Add 1 Medium Term goal slot to Allies
+ - Add faction goal Defend Vital Imperial Assets to Allies
+- If 1021 is controlled by United Kingdom or if British Malaya controls it and is in the same faction:
+ - Add 2 Air Base
+ - Add 2 naval base in a province in the state
+- If 446 is controlled by United Kingdom or if Egypt controls it and is in the same faction:
+ - Add 2 Air Base
+- If 447 is controlled by United Kingdom or if Egypt controls it and is in the same faction:
+ - Add 2 naval base in a province in the state
+- If 464 is controlled by United Kingdom or if Canada controls it and is in the same faction:
+ - Add 2 Air Base
+ - Add 2 naval base in a province in the state
+- If 116 is controlled by United Kingdom or if Malta controls it and is in the same faction:
+ - Add 1 Air Base
+- If 118 is controlled by United Kingdom:
+ - If more than 0 free slots for Land Fort in the province (4135):
+ - Add 1 Land Fort in a province in the state.
+
+|- id="Every Man Will Do His Duty"
+| FOCUS Every Man Will Do His Duty: In the spirit of Nelson's famous words we must instill a sense of duty in the people. Whether they like it or not, the nation requires their service in the face of the coming crisis.
+| United Kingdom:
+- Requires the following:
+ - Global Defense
+| United Kingdom:
+- Gain base Stability : -10.00%
+- loses the national spirit The War to End All Wars
+
+|- id="Motion of No Confidence"
+| FOCUS Motion of No Confidence: The current government has failed in its attempts to defuse the looming world crisis. Any further attempts to do so now are just signs of weakness. We require stronger leadership so that we may weather the coming storm.
+| United Kingdom:
+- Requires the following:
+ - Global Defense
+- Neville Chamberlain is the current country leader
+One of the following must be true:
+- Winston Churchill Is the current country leader
+- Lord Edward Halifax is the current country leader
+- Winston Churchill is not active in this country
+| United Kingdom:
+- Gain base Stability : -10.00%
+- Gain event Motion of No Confidence
+
+|- id="No Further Appeasement"
+| FOCUS No Further Appeasement: Appeasement has failed, and to continue this policy now is folly. It is clear our enemies will not back down, and insist on demanding more and more. We must stop them now, before we give them even more advantages.
+| United Kingdom:
+- Requires the following:
+ - Every Man Will Do His Duty
+ - Motion of No Confidence
+- United Kingdom is fully independent
+| United Kingdom:
+- Gain base Stability : -10.00%
+- Set the rule: Can justify and declare war on country with the same ideology group
+- Set the rule: Can puppet a country
+- Set the rule: Can send volunteer forces
+- gets the national spirit:
+
+Spirit No Further Appeasement: Appeasement has failed, and to continue this policy now is folly. It is clear our enemies will not back down, and insist on demanding more and more. We must stop them now, before we give them even more advantages.
+- Generate War Goal tension limit: -65.0%
+- Join faction tension limit: -50.0%
+- Lend-lease tension limit: -25.0%
+- Send volunteers tension limit: -25.0%
+- Guarantee tension limit: -10.0%
+
+|- id="Kickstart the War Industry"
+| FOCUS Kickstart the War Industry: Time is of the essence, and we cannot wait for a natural growth of our war industry. We must make a large investment for the quick construction of additional factories, if we are to be ready for war.
+| United Kingdom:
+- Requires the following:
+ - No Further Appeasement
+| United Kingdom:
+- Random Owned Controlled State in the home area:
+ - Add 2 building slot
+ - Add 2 mic
+- Random Owned Controlled State in the home area:
+ - Add 2 building slot
+ - Add 2 mic
+
+|- id="Secure the Oil Imports"
+| FOCUS Secure the Oil Imports: We cannot rely on the fickle nature of trade agreements with foreign governments for our oil imports. Better yet to wrest control of the oil fields, so that we may maintain full control of them regardless of the political leadership in other nations.
+| United Kingdom:
+- Requires the following:
+ - Kickstart the War Industry
+- Is fully independent
+- One of the following must be true:
+ - Iraq exists
+ - Iran exists
+ - Netherlands exists
+ - Venezuela exists
+ - Netherlands Antilles exists
+| United Kingdom:
+- Gains Puppet (Focus) war goal against Iraq
+- Gains Puppet (Focus) war goal against Iran
+- If 695 is owned by Netherlands: Gains Take State (Focus) war goal against Netherlands
+- If 695 is owned by Netherlands Antilles: Gains Take State (Focus) war goal against Netherlands Antilles
+- Gains claim on 489
+- Gains claim on 307
+- Gains claim on 309
+- Gains claim on 695
+- Gains claim on 413
+- Gains claim on 412
+
+|- id="Maintaining Imperial Integrity"
+| FOCUS Maintaining Imperial Integrity: The defense of our Empire begins with mastery of the seas and the loyalty of our Dominions. Other naval powers must be warned to not threaten our naval superiority, and at the same time we must exert increasing control over our subjects so that we are strong across the globe.
+| United Kingdom:
+- Requires the following:
+ - No Further Appeasement
+- ExclusiveM Mutually exclusive with:
+ - Maintaining the Balance of Power
+- Is fully independent
+{{Bypass|Any country:
+- Is not a subject of the United Kingdom
+
+Has not started Maintaining the Balance of Power
+| United Kingdom:
+- 3x 50% Cost Reduction for Naval Doctrine
+- If Canada, Australia, New Zealand, South Africa or British Raj is in a faction with the United Kingdom
+ - they get the national spirit:
+
+Spirit Maintaining Imperial Integrity: The defense of our Empire begins with mastery of the seas and the loyalty of our Dominions. Other naval powers must be warned to not threaten our naval superiority, and at the same time we must exert increasing control over our subjects so that we are strong across the globe.
+Daily autonomy progress gain: -0.5
+
+- If France, Italy, United States or Japan is not in a faction with the United Kingdom:
+ - They gain Maintaining Imperial Integrity ( Opinion of the United Kingdom: -50)
+
+|- id="Enforce the Naval Treaties"
+| FOCUS Enforce the Naval Treaties: It has come to our attention that certain powers have chosen to ignore the stipulations of the Washington Naval Treaty. This cannot be allowed to stand. If we are to maintain the advantage, and lest others get the same idea, we must strike quickly and make an example of those who would defy our will.
+| United Kingdom:
+- Requires the following:
+ - Maintaining Imperial Integrity
+- Is fully independent
+| United Kingdom:
+- Unlocks Enforce the Naval Treaties Decisions.
+ - These can be used to demand that countries who have too many Capital Ships compared to us
+ - Reduce their number of Capital Ships, and will give us a Puppet Wargoal if they refuse.
+
+|- id="Maintaining the Balance of Power"
+| FOCUS Maintaining the Balance of Power: The strength of the Empire lies in the weakness and paralysis of Europe. If we are to be able to focus on global matters, we must ensure that Europe is too busy with its own affairs to look at ours. We will remain aloof of European affairs, except to act against any expansionist regimes that might threaten this delicate balance of power that we desire.
+| United Kingdom:
+- Requires the following:
+ - No Further Appeasement
+- ExclusiveM Mutually exclusive with:
+ - Maintaining Imperial Integrity
+- Is fully independent
+| United Kingdom:
+- 2x 50% Cost Reduction for: Land Doctrine
+- If Germany, the Soviet Union or a country that is in Europe added more than 10% world tension and have more than 50 factories:
+ - is not in a faction with the United Kingdom:
+ - They gain Maintaining the Balance of Power ( Opinion of the United Kingdom: -50)
+- Every democracy Country in Europe:
+ - They gain Maintaining the Balance of Power ( Opinion of the United Kingdom: +15)
+
+|- id="Continental Intervention"
+| FOCUS Continental Intervention: It is clear that we will not be able to maintain the balance of power on the European continent without acting. We must crush the expansionist regimes that have cropped up recently, ensuring that we will never be faced with the threat of a unified Europe able to prepare an invasion of the British Isles without distractions.
+| United Kingdom:
+- Requires the following:
+ - Maintaining the Balance of Power
+- Is fully independent
+| United Kingdom:
+- Gives war goal against major European nations that have caused more than 10 World Tension
+|}
+
+## Home Defense Sub-branch [verified for 1.17]
+
+Defensive Democratic sub-branch of the British national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+{| class="mildtable"
+! style="width: 30%;" | Focus
+! style="width: 30%;" | Prerequisites
+! style="width: 40%;" | Effects
+
+|- id="Home Defense"
+| FOCUS Home Defense: A vast empire is of no use if we cannot protect the British people. We should focus our efforts on keeping the British Isles safe.
+| United Kingdom:
+- Requires the following:
+ - Steady As She Goes
+- ExclusiveM Mutually exclusive with:
+ - Global Defense
+| United Kingdom:
+- Gain Base War Support +5.00%
+- If The following States are controlled by The United Kingdom:
+ - 125:
+ - Add 2 Coastal Fort in a province in the state
+ - 126:
+ - Add 2 Coastal Fort in a province in the state
+ - 127:
+ - If more than 1 free slots for Coastal Fort in the province (3501):
+ - Add 2 Coastal Fort in a province in the state
+ - If more than 1 free slots for Coastal Fort in the province (9458):
+ - Add 2 Coastal Fort in a province in the state
+ - 123:
+ - If more than 1 free slots for Coastal Fort in the province (540):
+ - Add 2 Coastal Fort in a province in the state
+- Unlocks decisions to Defend the Homeland in the case of an invasion
+
+|- id="Secure Iraq"
+| FOCUS Secure Iraq: We granted Iraq independence in 1932, but considering the current global situation, that might have been a mistake. Iraqi oil must never be allowed to reach our enemies...
+| United Kingdom:
+- Requires the following:
+ - Home Defense
+- Iraq: One of the following must be true:
+ - More than 20% support for communism
+ - More than 20% support for fascism
+Iraq does not exist
+| United Kingdom:
+- Gains Conquer (Focus) War Goal against Iraq
+
+|- id="Secure Iran"
+| FOCUS Secure Iran: Iran is not just rich in oil that must be denied our enemies; it is also the strategic nexus between India, the Middle East and the Soviet Union.
+| United Kingdom:
+- Requires the following:
+ - Secure Iraq
+- Iran exists
+- At peace with Iran
+- Is fully independent
+- Any enemy country:
+ - Is considered a Major Country
+Iran does not exist
+| United Kingdom:
+- If the DLC GOE is enabled:
+ - Iran:
+ - Set country flag = SOV_ultimatum_sent_flag
+ - Gets event Pressure from the United Kingdom
+ - Effects if they accept
+ - Iran becomes a puppet of the United Kingdom
+ - Effects if they refuse
+ - Activates Mission: Preparations for Operation Countenance
+ - We will have 30 days to prepare before the begining of Operation Countenance and the declaration of war on Iran
+ - Once Operation Countenance mission is active, British troops will have 30 days to capitulate Iran, before they attempt to join another faction and our population start worrying about our military capabilities.
+ - Once Iran capitulates, we will puppet the country, integrating a few states in our border and getting resource rights in Iranian states rich in oil. We will be able ro request Soviet intervention to carry out a joint operation.
+- Otherwise:
+ - Gains Conquer (Focus) War Goal against Iran
+
+|- id="Embargo The Soviet Union"
+| FOCUS Embargo The Soviet Union: The Soviet Union is growing powerful and using British resources to fuel their military efforts. We should deprive them of access to our trade.
+| United Kingdom:
+- Requires one of the following:
+ - No Further Appeasement
+ - Secure Iran
+- Soviet Union:
+ - Exists
+ - One of the following must be true:
+ - In an offensive war
+ - Caused more than 15% World Tension
+ - Is not in faction with United Kingdom
+ - At peace with United Kingdom
+Is at war with Soviet Union
+| United Kingdom:
+- Embargo the Soviet Union
+- An Embargo will harm relations between two countries
+
+|- id="Operation Unthinkable"
+| FOCUS Operation Unthinkable: The threat of the Soviet Union continues to grow despite our objections. We cannot tolerate an aggressive Soviet Union and are left with no other choice than to go to war for a better tomorrow.
+| United Kingdom
+- Requires the following:
+ - Embargo The Soviet Union
+- Soviet Union:
+ - Exists
+ - One of the following must be true:
+ - In an offensive war
+ - Caused more than 30% World Tension
+ - Current ruling party is not Democracy
+ - Is not in faction with United Kingdom
+ - At peace with United Kingdom
+Is at war with Soviet Union
+| United Kingdom:
+- Gains Puppet (Focus) War Goal against Soviet Union
+
+|- id="Scandinavian Intervention"
+| FOCUS Scandinavian Intervention: Scandinavia would have little strategic import if it were not for one thing; Swedish iron exports. We must put pressure on both Sweden and Norway in order to prevent this vital resource from reaching Germany. If they refuse, we might have to be prepared to invade...
+| United Kingdom:
+- Requires the following:
+ - Home Defense
+- One of the following must be true:
+ - Sweden:
+ - Exists:
+ - One of the following must be true:
+ - More than 10% support for communism
+ - More than 10% support for fascism
+ - Norway:
+ - Exists:
+ - One of the following must be true:
+ - More than 10% support for communism
+ - More than 10% support for fascism
+ - Denmark:
+ - Exists:
+ - One of the following must be true:
+ - More than 10% support for communism
+ - More than 10% support for fascism
+| United Kingdom:
+- World Tension is increased by 1.0
+
+United States:
+- Gains Scandinavian Intervention ( Opinion of the United Kingdom: -20)
+
+Sweden and Norway:
+- Gains Unprovoked aggression ( Opinion of the United Kingdom: -50)
+- Gets event End trade with Germany
+
+Denmark and Finland:
+- Gains Unprovoked aggression ( Opinion of the United Kingdom: -50)
+
+|- id="Swedish Intervention"
+| FOCUS Swedish Intervention: Swedish movements against democracy have gained a worrying amount of influence. We cannot risk Swedish steel ending up as guns in the hands of our enemies. The Swedes shall remain free, but we need to secure a certain degree of influence over their country.
+| United Kingdom:
+- Requires the following:
+ - Scandinavian Intervention
+- Sweden:
+ - Exists:
+ - One of the following must be true:
+ - More than 20% support for communism
+ - More than 20% support for fascism
+| United Kingdom:
+- Gains Puppet (Focus) war goal against Sweden
+- If does not have the national spirit Continuation Of Politics, gain:
+
+Spirit Continuation Of Politics: It has proven easy to gain the people's support for intervention in key sountries where the political leanings differ from our own. We can use this to our advantage.
+Can boost popularity of other ideologies
+
+|- id="Norwegian Intervention"
+| FOCUS Norwegian Intervention: Norwegian movements against democracy continue to gain ground. We should ensure that their politics stay aligned with our own interests, even if we need to use force.
+| United Kingdom:
+- Requires the following:
+ - Scandinavian Intervention
+- Norway:
+ - Exists:
+ - One of the following must be true:
+ - More than 20% support for communism
+ - More than 20% support for fascism
+| United Kingdom:
+- Gains Puppet (Focus) war goal against Norway
+- If does not have the national spirit Continuation Of Politics, gain:
+
+Spirit Continuation Of Politics: It has proven easy to gain the people's support for intervention in key sountries where the political leanings differ from our own. We can use this to our advantage.
+Can boost popularity of other ideologies
+
+|- id="Danish Intervention"
+| FOCUS Danish Intervention: Danish support for the enemies of world peace have continued to grow. There is only one way to ensure they stay on our side. We should use Denmark to establish a strategic foothold in the region in case a land invasion in Europe becomes necessary.
+| United Kingdom:
+- Requires the following:
+ - Scandinavian Intervention
+- Denmark:
+ - Exists:
+ - One of the following must be true:
+ - More than 20% support for communism
+ - More than 20% support for fascism
+| United Kingdom:
+- Gains Puppet (Focus) war goal against Denmark
+- If does not have the national spirit Continuation Of Politics, gain:
+
+Spirit Continuation Of Politics: It has proven easy to gain the people's support for intervention in key sountries where the political leanings differ from our own. We can use this to our advantage.
+Can boost popularity of other ideologies
+
+|- id="Prepare for the Inevitable"
+| FOCUS Prepare for the Inevitable: It seems all but certain that our nation will be involved in yet another world conflict. We must increase our industrial expenditures to increase the rate of our rearmament.
+| United Kingdom:
+- Requires the following:
+ - Home Defense
+| United Kingdom:
+- If does not have the national spirit Wartime Industry get the following:
+
+Spirit Prepare for the Inevitable: It seems all but certain that our nation will be involved in yet another world conflict. We must increase our industrial expenditures to increase the rate of our rearmament.
+- Factory Output : +5.00%
+- mic Construction Speed: +5.00%
+
+- Otherwise swap the national spirit Wartime Industry with:
+
+Spirit Prepare for the Inevitable: It seems all but certain that our nation will be involved in yet another world conflict. We must increase our industrial expenditures to increase the rate of our rearmament.
+- cic to mic cost : -50.00%
+- Factory Output : +5.00%
+- mic Construction Speed: +10.00%
+
+|- id="Benelux Intervention"
+| FOCUS Benelux Intervention: The political environment in the Benelux Region is growing hostile towards us. We should send a clear warning that any enemy of democracy will not be tolerated and we are ready to use force if necessary.
+| United Kingdom:
+- Requires the following:
+ - Home Defense
+- One of the following must be true:
+ - Belgium:
+ - Exists:
+ - One of the following must be true:
+ - More than 15% support for communism
+ - More than 15% support for fascism
+ - Netherlands:
+ - Exists:
+ - One of the following must be true:
+ - More than 15% support for communism
+ - More than 15% support for fascism
+| United Kingdom:
+- World Tension is increased by 1.0
+
+United States:
+- Gains Benelux Intervention ( Opinion of the United Kingdom: -20)
+
+Belgium and Netherlands:
+- Gains Benelux Intervention ( Opinion of the United Kingdom: -50)
+
+|- id="Secure Belgium"
+| FOCUS Secure Belgium: A warning was clearly not enough. If political tendencies continues as they have this far, Belgium will pose a direct threat to our waters. We must intervene and establish a strategic foothold on mainland Europe.
+| United Kingdom:
+- Requires the following:
+ - Benelux Intervention
+- Belgium:
+ - Exists:
+ - One of the following must be true:
+ - More than 20% support for communism
+ - More than 20% support for fascism
+| United Kingdom:
+- Gains Puppet (Focus) war goal against Belgium
+- If does not have the national spirit Continuation Of Politics, gain:
+
+Spirit Continuation Of Politics: It has proven easy to gain the people's support for intervention in key sountries where the political leanings differ from our own. We can use this to our advantage.
+Can boost popularity of other ideologies
+
+|- id="Secure The Netherlands"
+| FOCUS Secure The Netherlands: Political movements in the Netherlands continues to support our enemies. The Netherlands will have to be subdued in order to ensure a free Europe.
+| United Kingdom:
+- Requires the following:
+ - Benelux Intervention
+- Netherlands:
+ - Exists:
+ - One of the following must be true:
+ - More than 20% support for communism
+ - More than 20% support for fascism
+| United Kingdom:
+- Gains Puppet (Focus) war goal against Netherlands
+- If does not have the national spirit Continuation Of Politics, gain:
+
+Spirit Continuation Of Politics: It has proven easy to gain the people's support for intervention in key sountries where the political leanings differ from our own. We can use this to our advantage.
+Can boost popularity of other ideologies
+
+|- id="Issue Gasmasks"
+| FOCUS Issue Gasmasks: The world is growing more dangerous every day. We should protect the civilian population from any poisonous gas attacks. Britain shall breathe easy.
+| United Kingdom:
+- Requires the following:
+ - Home Defense
+- One of the following must be true:
+ - More than 20% World Tension
+ - At war
+| United Kingdom:
+- Gain Base War Support : +5.00%
+- Gain Base Stability : +10.00%
+
+|- id="Military Training Act"
+| FOCUS Military Training Act: The Great War has left our people with an impression that they would not have to fight again. As the world grows dangerous, we must ensure that all capable young men receive basic military training.
+| United Kingdom:
+- Requires the following:
+ - Issue Gasmasks
+- One of the following must be true:
+ - More than 50% World Tension
+ - At war
+| United Kingdom:
+- loses the national spirit The War to End All Wars
+- Set the rule: Can send volunteer forces
+
+|- id="Embargo Germany"
+| FOCUS Embargo Germany: German rearmament is an insult and a great threat to world peace. We will not be supplying the resources they need to fuel their war machine.
+| United Kingdom:
+- Requires the following:
+ - Military Training Act
+- Germany:
+ - Exists
+ - One of the following must be true:
+ - In an offensive war
+ - Caused more than 15% World Tension
+ - Is not in faction with United Kingdom
+ - At peace with United Kingdom
+Is at war with Germany
+| United Kingdom:
+- Embargo the Germany
+- An Embargo will harm relations between two countries
+
+|- id="War with Germany"
+| FOCUS War with Germany: The Germans have left us with no other choice. For the sake of the free world and the future of our children. It is time for war.
+| United Kingdom:
+- Requires the following:
+ - Embargo Germany
+- Germany:
+ - Exists
+ - One of the following must be true:
+ - In an offensive war
+ - Caused more than 30% World Tension
+ - Current ruling party is not Democracy
+ - Is not in faction with United Kingdom
+ - At peace with United Kingdom
+Is at war with Germany
+| United Kingdom:
+- Gains Puppet (Focus) war goal against Germany
+|}
+
+# A Change in Course Branch [verified for 1.17]
+
+Change in politics branch of the British national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+{| class="mildtable"
+! style="width: 30%;" | Focus
+! style="width: 30%;" | Prerequisites
+! style="width: 40%;" | Effects
+
+|- id="A Change in Course"
+| FOCUS A Change in Course: As world tensions mount, it is clear our current political leadership is incapable of protecting the nation's interests. The time has come for a drastic departure from the politics of the last few decades.
+| United Kingdom:
+- ExclusiveM Mutually exclusive with:
+ - Steady As She Goes
+| United Kingdom gets the national spirit for 365 days:
+
+Spirit A Change in Course: As world tensions mount, it is clear our current political leadership is incapable of protecting the nation's interests. The time has come for a drastic departure from the politics of the last few decades.
+- Political Power gain: +10%
+- Weekly War Support : +0.20%
+- Daily Democratic support: -0.10
+
+|- id="The King's Party"
+| FOCUS The King's Party: Now that the crisis is over and the government has fallen, the King's most ardent supporters may be able to form a government of their own, much more... amenable... to the King's wishes. This King's Party would consist of David Lloyd George, Winston Churchill, and Oswald Mosley, thereby reaching across political parties and aiding in repairing the unity of our nation.
+| United Kingdom:
+- Requires the following:
+ - A Change in Course
+- ExclusiveM Mutually exclusive with:
+ - Organize the Blackshirts
+ - Concessions to the Trade Unions
+- Edward VIII married Wallis Simpson
+- Is fully independent
+- At peace
+| United Kingdom:
+- Set the rule: Can send volunteer forces
+- gets the national spirit:
+
+Spirit The King's Party: Now that the crisis is over and the government has fallen, the King's most ardent supporters may be able to form a government of their own, much more... amenable... to the King's wishes. This King's Party would consist of David Lloyd George, Winston Churchill, and Oswald Mosley, thereby reaching across political parties and aiding in repairing the unity of our nation.
+- Political Power gain: +15%
+- Generate War Goal tension limit: -50.0%
+- Lend-lease tension limit: -40.0%
+- Send volunteers tension limit: -40.0%
+- Guarantee tension limit: -40.0%
+- Ideology drift defense: +30.0%
+- Daily Support for neutrality : +0.10
+
+- The neutrality party will now be called "The King's Party"
+- Politics will change:
+ - The neutrality party becomes the ruling party
+ - Public elections will not be held
+ - Change in popularity in neutrality : 15.00%
+ - Remove National Spirit Edward VIII
+ - Edward VIII becomes leader of the neutrality party.
+ - Inexperienced Imperialist
+ - Political Power gain: -30%
+ - Stability : +5.00%
+ - Justify War Goal time: -25.0%
+- Available as Political Advisor:
+ - Winston Churchill (Royalist Bulldog):
+ - War Support : +10.00%
+ - Daily Support for neutrality : +0.10
+ - Oswald Mosley (Economic Reformer):
+ - Consumer Goods Factories: -5%
+ - Stability : +5.00%
+ - David Lloyd George (Old Figurehead):
+ - Political Power gain: +15%
+
+|- id="Reassess Continental Commitments"
+| FOCUS Reassess Continental Commitments: Though our recent political stance towards Europe has been to commit ourselves to our allies in the Great War, opposing a resurgent German Reich and a looming Soviet Union, political differences between ourselves and our old allies have become more notable. Perhaps the time has come to reconsider where our loyalties lie.
+Alternative Descriptions
+Game file description
+
+Though our recent political stance towards Europe has been to commit ourselves to our allies in the Great War, opposing a resurgent [GER.GetName] and a looming [SOV.GetName], political differences between ourselves and our old allies have become more notable. Perhaps the time has come to reconsider where our loyalties lie.
+| United Kingdom:
+- Requires the following:
+ - The King's Party
+- Is fully independent
+- Not fighting war on the same side as France
+| United Kingdom:
+- loses the national spirit The War to End All Wars
+- Gain base War Support : +5.00%
+- If the following is not in a faction with the United Kingdom:
+ - France, Poland, Czechoslovakia, Netherlands, Belgium or Luxembourg:
+ - Gains Reassessed Continental Committments ( Opinion of United Kingdom: -50)
+ - If Germany is Fascism or neutrality
+ - Gains Reassessed Continental Committments ( Opinion of United Kingdom: +15)
+
+|- id="Isolate the Mediterranean Threat"
+| FOCUS Isolate the Mediterranean Threat: The Italian navy threatens our shipping through the Mediterranean. We must begin a campaign of diplomatically isolating them to contain the threat.
+Alternative Descriptions
+Game file description
+
+The [ITA.GetAdjective] navy threatens our shipping through the Mediterranean. We must begin a campaign of diplomatically isolating them to contain the threat.
+| United Kingdom:
+- Requires the following:
+ - Reassess Continental Commitments
+- Is fully independent
+- Is not in faction with Italy
+One of the following must be true:
+- Italy does not exist
+- Italy:
+ - is in Faction
+ - Is not in Faction with Germany
+| Germany:
+- Gets event Isolate the Mediterranean Threat
+
+|- id="Alliance with Germany"
+| FOCUS Alliance with Germany: Our interests are aligned with the Germans - while they desire hegemony of the European continent, we desire a Europe that will not threaten the British Isles while we see to our global Empire. Perhaps an alliance, as per the King's wishes, would not be all that strange a cooperation.
+| United Kingdom:
+- Requires the following:
+ - Isolate the Mediterranean Threat
+- ExclusiveM Mutually exclusive with:
+ - Non-Interference Treaty with Germany
+- Is fully independent
+- Germany exists
+- At peace with Germany
+- Germany: Current ruling party is Fascism
+- Not: Germany refused to isolate the Mediterranean threat.
+Is in faction with Germany
+| United Kingdom:
+- Half of current Democracy support is applied as a Stability penalty
+- Germany gets event Alliance with United Kingdom
+
+|- id="Non-Interference Treaty with Germany"
+| FOCUS Non-Interference Treaty with Germany: Our Imperial ambitions rely on not having to worry about Europe. Perhaps this is easily achieved by giving the German Reich carte blanche in Europe, in return for continued peaceful relations and their promise to not interfere in matters that concern the British Empire.
+Alternative Descriptions
+Game file description
+
+Our Imperial ambitions rely on not having to worry about Europe. Perhaps this is easily achieved by giving [GER.GetNameDef] carte blanche in Europe, in return for continued peaceful relations and their promise to not interfere in matters that concern the British Empire.
+| United Kingdom:
+- Requires the following:
+ - Isolate the Mediterranean Threat
+- ExclusiveM Mutually exclusive with:
+ - Alliance with Germany
+- Is fully independent
+- Germany exists
+- At peace with Germany
+| Germany:
+- Gets event United Kingdom Asks for Non-Interference
+
+|- id="Take Out the Regia Marina"
+| FOCUS Take Out the Regia Marina: The time has come to take care of the threat in the Mediterranean. We will secure the shipping routes passing through the Suez, the lifeline of our Empire, by eliminating the navy that straddles it.
+| United Kingdom:
+- Requires one of the following:
+ - Alliance with Germany
+ - Non-Interference Treaty with Germany
+- Is fully independent
+- Italy exists
+- Is not in faction with Italy
+| United Kingdom:
+- Gains Puppet (Focus) war goal against Italy
+
+|- id="Pre-Empt the Ideological Threat"
+| FOCUS Pre-Empt the Ideological Threat: The Empire is beset internally by those who think differently. We know these fifth columnists take their orders from Moscow, and so we may silence their voices by striking at the source of this evil.
+| United Kingdom:
+- Requires one of the following:
+ - Take Out the Regia Marina
+ - Imperial Conscription
+- Is fully independent
+- Soviet Union exists
+- Is not in faction with Soviet Union
+- Soviet Union: Current ruling party is Communism
+| United Kingdom:
+- If Oswald Mosley is leader:
+ - Modify (or remove) trait Champion of Peace by:
+ - War Support : +6.00%
+ - Generate war goal tension limit: -20.0%
+- Gains Puppet (Focus) war goal against Soviet Union
+
+|- id="Expose the Belly of the Bear"
+| FOCUS Expose the Belly of the Bear: Taking on the Soviets without any beachheads is an incredible challenge. We will demand passage through the countries of Iran and Afghanistan, and strike at the Soviets where they least expect it; overland and into their exposed belly.
+Alternative Descriptions
+Game file description
+
+Taking on the Soviets without any beachheads is an incredible challenge. We will demand passage through the countries of [PER.GetName] and [AFG.GetName], and strike at the Soviets where they least expect it; overland and into their exposed belly.
+| United Kingdom:
+- Requires the following:
+ - Pre-Empt the Ideological Threat
+- Is fully independent
+- One of the following must be true:
+ - All of the following must be true:
+ - Iran exists
+ - Is not in faction with Iran
+ - All of the following must be true:
+ - Afghanistan exists
+ - Is not in faction with Afghanistan
+| United Kingdom:
+- If Oswald Mosley is leader:
+ - Modify (or remove) trait Champion of Peace by:
+ - War Support : +6.00%
+ - Generate war goal tension limit: -20.0%
+- Iran: Gets event The United Kingdom Demands Compliance if it exists and not in a faction with the United Kingdom
+- Afghanistan: Gets event The United Kingdom Demands Compliance if it exists and not in a faction with the United Kingdom
+
+|- id="God Save the King"
+| FOCUS God Save the King: Above all else stands our duty to the King and the Crown. A symbol of resistance and hope for the people, and of the unity of the Empire to our subjects and enemies, the King must be extolled within and feared without. We will make it so.
+| United Kingdom:
+- Requires one of the following:
+ - The King's Party
+ - Organize the Blackshirts
+- is fully independent
+- One of the following must be true:
+ - Current ruling party is neutrality
+ - Current ruling party is Fascism
+| United Kingdom:
+- Gain base Stability : +5.00%
+- If Edward VIII is leader:
+ - Lose trait Inexperienced Imperialist
+ - Political Power gain: -30%
+ - Stability : +5.00%
+ - Justify War Goal time: -25.0%
+ - Gain trait Autocratic Imperialist
+ - Stability : +5.00%
+ - War Support : +5.00%
+ - Justify War Goal time: -25.0%
+- Otherwise:
+ - Gain base War Support : +10.00%
+
+|- id="Ceylon Forward Operating Base"
+| FOCUS Ceylon Forward Operating Base: In preparation of the massive invasion that it will take to return the Crown's control over India, we must greatly expand the facilities on the island of Ceylon.
+| United Kingdom:
+- Requires the following:
+ - God Save the King
+- Has full control of 422
+- Hidden trigger:
+- If:
+ - the DLC goe is enabled
+ - Has event target:UK_INDIA (alternative British Raj)
+ - event target:UK_INDIA(alternative British Raj) is a subject of the United Kingdom
+One of the following must be true:
+- British Raj:
+ - Is in Faction with United Kingdom
+ - One of the following must be true:
+ - Stayed with Fascist Britain
+ - Britain enforced our loyalty
+- Has completed the focus Towards Indian Independence
+- If:
+ - the DLC goe is enabled
+ - Has event target:UK_INDIA (alternative British Raj)
+ - event target:UK_INDIA(alternative British Raj) does not exist
+ - Is not a subject of the United Kingdom
+| United Kingdom:
+- 422:
+ - Add 3 infra
+ - Add 5 Air Base
+ - Add 5 Naval Base in a province in the state
+
+|- id="Imperial Conscription"
+| FOCUS Imperial Conscription: We have long neglected the wealth of manpower our Empire provides. It is time we drastically improve conscription throughout the Empire, and ensure that we have an abundance of manpower to fight our war. All must do their duty to the Crown!
+| United Kingdom:
+- Requires the following:
+ - Ceylon Forward Operating Base
+| United Kingdom Gains National Spirit:
+
+Spirit Imperial Conscription: We have long neglected the wealth of manpower our Empire provides. It is time we drastically improve conscription throughout the Empire, and ensure that we have an abundance of manpower to fight our war. All must do their duty to the Crown!
+Non-Core Manpower : +10.00%
+
+Every Subject of the United Kingdom gains National Spirit:
+
+Spirit Imperial Conscription: We have long neglected the wealth of manpower our Empire provides. It is time we drastically improve conscription throughout the Empire, and ensure that we have an abundance of manpower to fight our war. All must do their duty to the Crown!
+Daily autonomy progress gain: -1.0
+
+|- id="Consolidate the British Isles"
+| FOCUS Consolidate the British Isles: The Irish continue to tote their silly notions of independence, and our tolerance is at an end. It is time we crush their resistance and bring the entire country back into the fold as an integral part of the United Kingdom.
+| United Kingdom:
+- Requires the following:
+ - God Save the King
+- Is fully independent
+- Ireland exists
+- Is not in Faction with Ireland
+- Owns 113 134 135 119 122 133 121 136 120 \n*Owns_
+| United Kingdom:
+- If Oswald Mosley is leader:
+ - Modify (or remove) trait Champion of Peace by:
+ - War Support : +6.00%
+ - Generate war goal tension limit: -20.0%
+- Gains claim on 113 134 135
+- Gains Annex War Goal against countries who own:
+ - 113 134 135 119 122 133 121 136 120 \n**
+
+|- id="Appeal to Imperial Loyalists"
+| FOCUS Appeal to Imperial Loyalists: Despite the now-nominal independence of the Dominions, there are still many among their citizens who are loyal to the Crown. If we can reach out to them, we may be able to subvert the Dominions' governments prior to the invasions that will be necessary to regain control of them.
+| United Kingdom:
+- Requires the following:
+ - God Save the King
+- Is fully independent
+- One of the following must be true:
+ - Canada exists
+ - South Africa exists
+ - Australia exists
+ - New Zealand exists
+One of the following must be true:
+- All of the following must be true:
+ - Is in faction with Canada
+ - Canada: One of the following must be true:
+ - Stayed with Fascist Britain
+ - Britain enforced our loyalty
+ - Is in faction with South Africa
+ - South Africa: One of the following must be true:
+ - Stayed with Fascist Britain
+ - Britain enforced our loyalty
+ - Is in faction with Australia
+ - Australia: One of the following must be true:
+ - Stayed with Fascist Britain
+ - Britain enforced our loyalty
+ - Is in faction with New Zealand
+ - New Zealand: One of the following must be true:
+ - Stayed with Fascist Britain
+ - Britain enforced our loyalty
+ - Canada does not exist
+ - South Africa does not exist
+ - Australia does not exist
+ - New Zealand does not exist
+- Has completed the focus Towards Dominion Independence
+| United Kingdom:
+- If Oswald Mosley is leader:
+ - Modify (or remove) trait Champion of Peace by:
+ - War Support : +6.00%
+ - Generate war goal tension limit: -20.0%
+- Unlocks Appeal to Imperial Loyalists Decisions:
+ - Allowing for the instigation of pro- British civil wars in former Dominions
+
+|- id="Bring the Dominions Back into the Fold"
+| FOCUS Bring the Dominions Back into the Fold: The board is set, and the pieces are in position. Now is the time to set our plan in motion and 'correct' the notion of independence present in the minds of the Dominions' leaders.
+| United Kingdom:
+- Requires the following:
+ - Appeal to Imperial Loyalists
+- Is fully independent
+One of the following must be true
+- All of the following must be true:
+ - Canada does not exist
+ - South Africa does not exist
+ - Australia does not exist
+ - New Zealand does not exist
+- All of the following must be true:
+ - Is in faction with Canada
+ - Canada: One of the following must be true:
+ - Stayed with Fascist Britain
+ - Britain enforced our loyalty
+ - Is in faction with South Africa
+ - South Africa: One of the following must be true:
+ - Stayed with Fascist Britain
+ - Britain enforced our loyalty
+ - Is in faction with Australia
+ - Australia: One of the following must be true:
+ - Stayed with Fascist Britain
+ - Britain enforced our loyalty
+ - Is in faction with New Zealand
+ - New Zealand: One of the following must be true:
+ - Stayed with Fascist Britain
+ - Britain enforced our loyalty
+- Has completed the focus Towards Dominion Independence
+| United Kingdom:
+- If Oswald Mosley is leader:
+ - Modify (or remove) trait Champion of Peace by:
+ - War Support : +6.00%
+ - Generate war goal tension limit: -20.0%
+- If Canada, South Africa, Australia or New Zealand are not in faction with United Kingdom:
+ - United Kingdom gains claims on all cored states
+ - Gains Annex War Goal on all of the above countries
+- Unlocks Ally the Imperial Uprising Decisions
+
+|- id="Reclaim the Jewel in the Crown"
+| FOCUS Reclaim the Jewel in the Crown: India's brief period of independence must now come to an end. Our forces are in position, ready to return the Crown's Jewel.
+| United Kingdom:
+- Requires the following:
+ - Imperial Conscription
+- Is fully independent
+- If the DLC GOE is enabled:
+ - British Raj is not a subject of the United Kingdom
+ - Hidden trigger:
+ - If:
+ - the DLC goe is enabled:
+ - Has event target:UK_INDIA (alternative British Raj)
+ - event target:UK_INDIA (alternative British Raj) is a subject of the United Kingdom
+One of the following must be true:
+- British Raj does not exist
+- British Raj:
+ - Is in faction with United Kingdom
+ - One of the following must be true:
+ - Stayed with Fascist Britain
+ - Britain enforced our loyalty
+- Has completed the focus Towards Indian Independence
+- If
+ - the DLC GOE is enabled
+ - Has event target:UK_INDIA (alternative British Raj)
+ - event target:UK_INDIA does not exist
+ - event target:UK_INDIA is in faction with United Kingdom
+| United Kingdom:
+- If Oswald Mosley is leader:
+ - Modify (or remove) trait Champion of Peace by:
+ - War Support : +6.00%
+ - Generate war goal tension limit: -20.0%
+- Every state that is a core of British Raj and Pakistan that is not 321 or 320:
+ - Claim gained by United Kingdom
+- Gain Annex War Goal against British Raj, Bangladesh and Pakistan
+
+|- id="Reclaim Burma"
+| FOCUS Reclaim Burma: British Burma's brief period of independence must now come to an end. Our forces are in position, ready to the country to its rightful overlord.
+Alternative Descriptions
+Game file description
+
+[BRM.GetName]'s brief period of independence must now come to an end. Our forces are in position, ready to the country to its rightful overlord.
+| United Kingdom:
+- Requires the following:
+ - Imperial Conscription
+- Is fully independent
+- British Burma
+ - Exists
+ - Is not a subject of the United Kingdom
+- One of the following must be true:
+ - British Burma Does not exist
+ - British Burma:
+ - Is in faction with United Kingdom
+ - One of the following must be true:
+ - Stayed with Fascist Britain.
+ - Britain enforced our loyalty.
+ - Has completed focus Towards Indian Independence
+| United Kingdom:
+- Every state that is a core of British Burma that is not 321 or 320:
+ - Claim gained by United Kingdom
+- Gain Annex War Goal against British Burma
+
+|- id="Unite the Anglosphere"
+| FOCUS Unite the Anglosphere: The legacy of our Golden Age is one of our culture and language being present across the globe. Rather than suffer the indignity and thanklessness of these areas remaining independent, we must once again unify them under our rule.
+| United Kingdom:
+- Requires the following:
+ - Imperial Conscription
+ - Bring the Dominions Back into the Fold
+- Is fully independent
+- United States exists
+- Is not in faction with the United States
+| If United Kingdom:
+- Owns 113 134 135 \n*Owns_
+ - They become cores of the United Kingdom
+- Gains Annex war goal against United States
+- If Oswald Mosley is leader:
+ - Modify (or remove) trait Champion of Peace by:
+ - War Support : +6.00%
+ - Generate war goal tension limit: -20.0%
+
+|- id="The Sun Never Sets"
+| FOCUS The Sun Never Sets: It is said that the British Empire is so vast, the sun never sets on it. Its strength is the Royal Navy, securing the trade- and supply routes that connect it and are so vital to our prosperity. This navy must learn to traverse these enormous distances with all due haste, so that we may react swiftly to any threat, anywhere.
+| United Kingdom:
+- Requires the following:
+ - Bring the Dominions Back into the Fold
+| United Kingdom:
+- 1x 100% research bonus for:
+ - Destroyer models
+ - Cruiser Models
+ - Battleship Models
+ - Carrier Models
+ - Submarine Models
+gets the national spirit:
+
+Spirit The Sun Never Sets: It is said that the British Empire is so vast, the sun never sets on it. Its strength is the Royal Navy, securing the trade- and supply routes that connect it and are so vital to our prosperity. This navy must learn to traverse these enormous distances with all due haste, so that we may react swiftly to any threat, anywhere.
+- Screen:
+ - Max Speed: +10%
+ - Max Range: +25%
+- Carrier:
+ - Max Speed: +10%
+ - Max Range: +25%
+- Capital Ship:
+ - Max Speed: +10%
+ - Max Range: +25%
+- Submarine:
+ - Max Speed: +10%
+ - Max Range: +25%
+- This Design Company will permanently affect capabilities on all equipment researched while they are active
+
+- These bonuses will be applied to any newly researched ship types.
+
+|- id="Pre-Empt the Strategic Threat"
+| FOCUS Pre-Empt the Strategic Threat: The Empire is beset externally by those who desire our wealth in resources. We know who and why, and so nothing prevents us from taking the fight to them before they pounce upon us in a moment of unfortunate weakness on our part.
+| United Kingdom:
+- Requires the following:
+ - Bring the Dominions Back into the Fold
+- Is fully independent
+- Japan exists
+- Is not in faction with Japan
+- One of the following must be true:
+ - Japan: Current ruling party is Fascism
+ - Japan: Current ruling party is Communism
+Is at war with Japan
+| United Kingdom:
+- If Oswald Mosley is leader:
+ - Modify (or remove) trait Champion of Peace by:
+ - War Support : +6.00%
+ - Generate war goal tension limit: -20.0%
+- Gains Puppet (Focus) war goal against Japan
+
+|- id="Organize the Blackshirts"
+| FOCUS Organize the Blackshirts: The success of the British Union of Fascists depends on its public image. We can show our movement's spirit of unity and personal strength by holding militarily-inspired marches throughout the country. We will attract more followers, while also cowing the opposition into inaction. The eventual goal will be a march on Downing Street itself, calling for a change in leadership.
+| United Kingdom:
+- Requires the following:
+ - A Change in Course
+- ExclusiveM Mutually exclusive with:
+ - The King's Party
+ - Concessions to the Trade Unions
+- Is fully independent
+- At peace
+- Not: Edward VIII refused to Abdicate
+| United Kingdom:
+- Political Power : +200
+- Unlocks Organize the Blackshirts Decisions
+
+|- id="The British Path to Fascism"
+| FOCUS The British Path to Fascism: Our path to fascism will be our own, and we will not bend the knee to those on the continent who consider themselves our ideological superiors. The people remember the last war, and any cooperation with the regime existing in the German Reich would be sure to incur their wrath.
+Alternative Descriptions
+Game file description
+
+Our path to fascism will be our own, and we will not bend the knee to those on the continent who consider themselves our ideological superiors. The people remember the last war, and any cooperation with the regime existing in [GER.GetName] would be sure to incur their wrath.
+| United Kingdom:
+- Requires the following:
+ - Organize the Blackshirts
+- Is fully independent
+- Current ruling party is Fascism
+| United Kingdom:
+- loses the national spirit The War to End All Wars
+- Gain base Stability : +5.00%
+- Gain base War Support : +5.00%
+- If Germany is Fascism :
+- Gains The British Path to Fascism ( Opinion of United Kingdom: -75)
+
+|- id="Secure the Italian Alliance"
+| FOCUS Secure the Italian Alliance: Mussolini has a far more palatable approach to fascism, and has long been admired by Mosley. It is only natural that our two countries should engage in a closer relationship, mutually beneficial to both our peoples.
+| United Kingdom:
+- Requires the following:
+ - The British Path to Fascism
+- Is fully independent
+- Italy Exists
+- Not fighting war on sames side as France
+- At peace with Italy
+- Italy is not in a faction
+One of the following must be true:
+- Italy does not exist
+- Italy is a subject of another country
+- Italy is in a faction
+- If the DLC By Blood Alone is enabled:
+ - Italy:
+ - One of the following must be true:
+ - Has completed the focus Defy the Duce
+ - Country is Regno del Sud
+| If France is in faction with The United Kingdom and not at war:
+- France leaves the faction
+
+Italy:
+- Gains Broke French Relations ( Opinion of United Kingdom: +15)
+- Gets event United Kingdom Requests Alliance
+
+|- id="Gibraltar for Spanish Support"
+| FOCUS Gibraltar for Spanish Support: Though long considered an integral part of our nation, perhaps it is worthwhile to arrange the return of Gibraltar to Spanish hands, in return for Franco's support for our cause.
+| United Kingdom:
+- Requires the following:
+ - Secure the Italian Alliance
+- ExclusiveM Mutually exclusive with:
+ - Pre-Empt Spanish Alignment
+- Is fully independent
+- If DLC La Résistance is not enabled:
+ - Any country:
+ - Original country is Spain
+ - Current ruling party is Fascism
+ - Exists
+ - Is not in faction with United Kingdom
+- If DLC La Résistance is enabled:
+ - Nationalist Spain:
+ - Exists
+ - Is not in faction with United Kingdom
+- The Spanish Civil War has ended
+| If DLC La Résistance is not enabled:
+- Original country is Spain and Current ruling party is Fascism :
+ - Gets event United Kingdom Offers Alliance
+
+Otherwise:
+- Nationalist Spain:
+ - Gets event United Kingdom Offers Alliance
+
+|- id="Pre-Empt Spanish Alignment"
+| FOCUS Pre-Empt Spanish Alignment: The risk exists that the Spanish will side with the Germans if we take any offensive action towards the latter. This cannot be allowed to happen - we must deal with this potential threat before we move on to the German Reich proper.
+Alternative Descriptions
+Game file description
+
+The risk exists that the Spanish will side with the Germans if we take any offensive action towards the latter. This cannot be allowed to happen - we must deal with this potential threat before we move on to [GER.GetName] proper.
+| United Kingdom:
+- Requires the following:
+ - Secure the Italian Alliance
+- ExclusiveM Mutually exclusive with:
+ - Gibraltar for Spanish Support
+- Is fully independent
+- If DLC La Résistance is not enabled:
+ - Any country:
+ - Original country is Spain
+ - Current ruling party is Fascism
+ - Exists
+ - Is not in faction with United Kingdom
+- If DLC La Résistance is enabled:
+ - Nationalist Spain:
+ - Exists
+ - Is not in faction with United Kingdom
+ - Is at peace with United Kingdom
+- The Spanish Civil War has ended
+If DLC La Résistance is not enabled:
+- Any country:
+ - Original country is not Spain
+ - Current ruling party is not Fascism
+ - Does not exist
+
+If DLC La Résistance is enabled:
+- Nationalist Spain does not exist
+The Spanish Civil War has ended
+| United Kingdom:
+- If Oswald Mosley is leader:
+ - Modify (or remove) trait Champion of Peace by:
+ - War Support : +6.00%
+ - Generate war goal tension limit: -20.0%
+
+If Any country:
+- Original country is Spain
+- Current ruling party is Fascism
+ - Then United Kingdom Gains Puppet (Focus) war goal against Spain
+
+|- id="Prevent a Continental Hegemony"
+| FOCUS Prevent a Continental Hegemony: It is clear that the German Reich has designs upon the entirety of the European continent. This cannot be allowed to come to pass. Together with our allies, we must take on the Germans before they pose too insurmountable of a challenge.
+Alternative Descriptions
+Game file description
+
+It is clear that [GER.GetNameDef] has designs upon the entirety of the European continent. This cannot be allowed to come to pass. Together with our allies, we must take on the Germans before they pose too insurmountable of a challenge.
+| United Kingdom:
+- Requires one of the following:
+ - Gibraltar for Spanish Support
+ - Pre-Empt Spanish Alignment
+- Is fully Independent
+- Germany exists
+- Is not in faction with Germany
+| United Kingdom:
+- If Oswald Mosley is leader:
+ - Modify (or remove) trait Champion of Peace by:
+ - War Support : +6.00%
+ - Generate war goal tension limit: -20.0%
+- Gains Puppet (Focus) war goal against Germany
+
+|- id="Enact the Mosley Manifesto"
+| FOCUS Enact the Mosley Manifesto: In previous years, Mosley has prepared a manifesto for sweeping economic reforms to cure poverty. It is time to put the Leader's proposals into effect.
+| United Kingdom:
+- Requires the following:
+ - The British Path to Fascism
+| United Kingdom:
+- If does not have trade law Limited Exports or Closed Economy :
+ - Change trade law to Limited Exports which grants:
+ - Construction Speed: +5.00%
+ - Research Speed: +1.00%
+ - Factory Output : +5.00%
+ - Dockyard Output : +5.00%
+ - Resources to Market: +25.00%
+gets the national spirit:
+
+Spirit The Mosley Memorandum:
+infra Construction Speed: +10.00%
+
+- Random Owned Controlled Cored State:
+ - Add 2 building slot
+ - Add 2 cic
+- Random Owned Controlled State in the home region:
+ - Add 2 building slot
+ - Add 2 mic
+
+|- id="Move to Secure the Dominions"
+| FOCUS Move to Secure the Dominions: The Dominions eye our ideological shift with suspicious eyes. It is not unlikely that they will reconsider their ties to Westminster if we let them... And so we must not. Acting swiftly, we may be able to forcibly affect a change in government before diplomatic relations become too strained.
+| United Kingdom:
+- Requires one of the following:
+ - Organize the Blackshirts
+ - Concessions to the Trade Unions
+- Is fully independent
+- At peace
+- One of the following must be true:
+ - Current ruling party is Fascism
+ - Current ruling party is Communism
+- One of the following must be true:
+ - British Raj is a subject of the United Kingdom
+ - Canada is a subject of the United Kingdom
+ - South Africa is a subject of the United Kingdom
+ - Australia is a subject of the United Kingdom
+ - New Zealand is a subject of the United Kingdom
+| United Kingdom:
+- Political Power : +120
+- If Canada, South Africa, British Raj, Australia or New Zealand are subjects:
+- They get event United Kingdom Moves to Secure Dominions
+|}
+
+## Concessions to the Trade Unions Sub-branch [verified for 1.17]
+
+Communist sub-branch of the British national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+{| class="mildtable"
+! style="width: 30%;" | Focus
+! style="width: 30%;" | Prerequisites
+! style="width: 40%;" | Effects
+
+|- id="Concessions to the Trade Unions"
+| FOCUS Concessions to the Trade Unions: Our efforts to rearm are continuously marred by conflicts with the trade unions. We may well have a much smoother transition if we elect to cooperate with them, rather than continue to struggle against them.
+| United Kingdom:
+- Requires the following:
+ - A Change in Course
+- ExclusiveM Mutually exclusive with:
+ - The King's Party
+ - Organize the Blackshirts
+- Is fully independent
+- Is at peace
+- Not: Edward VIII Refused to Abdicate
+| United Kingdom:
+- Gain Base Stability : +10.00%
+- Unlocks Concessions to the Trade Unions Decisions
+ - Which must be completed to become communism
+- Unlocks Trade Unions Support Decisions
+- If Decolonization has not been achieved within 2
+ years of becoming Communist, a civil war will start!
+
+|- id="The Fate of the Royal Family"
+| FOCUS The Fate of the Royal Family: The notion that one person is worth more than another, purely by birth, sickens us. The immense wealth the Royal Family continues to flaunt is a thorn in our eyes, and would undoubtedly be of much better use spent on rearmament and industrial expansion. Perhaps it is time we kill two birds with one stone...
+| United Kingdom:
+- Requires the following:
+ - Concessions to the Trade Unions
+- Current ruling party is Communism
+| United Kingdom:
+- Political Power : +60
+- Gets event The Fate of the Royal Family
+
+|- id="Eliminate the Upper Class"
+| FOCUS Eliminate the Upper Class: The workers must rise up and break the oppression of the upper classes. We will deal with them, and seize their companies for the state.
+| United Kingdom:
+- Requires the following:
+ - Concessions to the Trade Unions
+- Current ruling party is Communism
+| United Kingdom:
+- Political Power : +60
+- Removes aristocrat Field Marshals, Generals, and Admirals
+- Gets event Eliminate the Upper Class
+
+|- id="For the Good of the Revolution"
+| FOCUS For the Good of the Revolution: All must be willing to make sacrifices in comfort for the good of the state. The British people will keep their heads high in the face of rationing, confident that it will ensure our eventual victory.
+| United Kingdom:
+- Requires the following:
+ - The Fate of the Royal Family
+ - Eliminate the Upper Class
+| United Kingdom:
+- loses the national spirit The War to End All Wars
+- gets the national spirit:
+
+Spirit For the Good of the Revolution: All must be willing to make sacrifices in comfort for the good of the state. The British people will keep their heads high in the face of rationing, confident that it will ensure our eventual victory.
+Consumer Goods Factories: -5%
+
+|- id="The British Communist Alternative"
+| FOCUS The British Communist Alternative: Rather than side with Moscow, we will start our own cooperation of communist states. The British are second to none on the world scene, and we will not bow to Moscow, not now, nor ever.
+| United Kingdom:
+- Requires the following:
+ - For the Good of the Revolution
+- ExclusiveM Mutually exclusive with:
+ - Follow Moscow
+- Is fully independent
+- Is not in Faction with Soviet Union
+| United Kingdom:
+- Gain Base Stability : +5.00%
+- Remove Allies faction.
+- Create Faction: British Communist Alternative
+
+|- id="Enforce Decolonization"
+| FOCUS Enforce Decolonization: Just as we have decolonized, so too must the other nations of the world. We will issue an ultimatum, and those who do not see the wisdom of our words will be made to see that wisdom, instead.
+| United Kingdom:
+- Requires the following:
+ - The British Communist Alternative
+- ExclusiveM Mutually exclusive with:
+ - Reach Out Across the Channel
+- Is fully independent
+- Has completed focus: Decolonization
+| Every other country that is either:
+- United States:
+- All of the below:
+ - Not Puerto Rico
+ - Owns and fully controls state: 686
+
+- Puerto Rico's Overlord
+- Philippines' Overlord
+
+- France:
+- All of the below:
+ - Not Republic of Guadeloupe
+ - Owns and fully controls state: 694
+
+- All of the below:
+ - Not Syria
+ - Owns and fully controls state: 677
+ - Owns and fully controls state: 680
+ - Owns and fully controls state: 554
+
+- All of the below:
+ - Not Lebanon
+ - Owns and fully controls state: 553
+
+- All of the below:
+ - Not Republic of Madagascar
+ - Owns and fully controls state: 543
+
+- Owns and fully controls state: 670
+
+- Owns and fully controls state: 741
+
+- All of the below:
+ - Owns and fully controls state: 671
+ - Owns and fully controls state: 286
+ - Owns and fully controls state: 1017
+
+- Owns and fully controls state: 728
+
+- All of the above:
+ - Not Kingdom of Morocco
+ - Owns and fully controls state: 461
+ - Owns and fully controls state: 462
+
+- All of the below:
+ - Not Algeria
+ - Owns and fully controls state: 459
+ - Owns and fully controls state: 513
+ - Owns and fully controls state: 460
+ - Owns and fully controls state: 514
+
+- All of the below:
+ - Not Tunisia
+ - Owns and fully controls state: 458
+ - Owns and fully controls state: 665
+
+- All of the below:
+ - Not Djibouti
+ - Owns and fully controls state: 268
+
+- All of the below:
+ - Not Congo-Brazzaville
+ - Owns and fully controls state: 772
+
+- All of the below:
+ - Not Gabon
+ - Owns and fully controls state: 539
+
+- All of the below:
+ - Not Cameroon
+ - Owns and fully controls state: 773
+
+- All of the below:
+ - Not Central African Republic
+ - Owns and fully controls state: 660
+
+- All of the below:
+ - Not Chad
+ - Owns and fully controls state: 774
+ - Owns and fully controls state: 775
+
+- All of the below:
+ - Not Niger
+ - Owns and fully controls state: 781
+ - Owns and fully controls state: 515
+
+- All of the below:
+ - Not Dahomey
+ - Owns and fully controls state: 776
+
+- All of the below:
+ - Not Togo
+ - Owns and fully controls state: 777
+
+- All of the below:
+ - Not Upper Volta
+ - Owns and fully controls state: 778
+
+- All of the below:
+ - Not Côte d’Ivoire
+ - Owns and fully controls state: 779
+
+- All of the below:
+ - Not Guinea
+ - Owns and fully controls state: 780
+
+- All of the below:
+ - Not Mali
+ - Owns and fully controls state: 556
+ - Owns and fully controls state: 782
+
+- All of the below:
+ - Not Senegal
+ - Owns and fully controls state: 272
+
+- All of the below:
+ - Not Republic of Cayenne
+ - Owns and fully controls state: 310
+
+- Republic of Guadeloupe's Overlord
+- Syria's Overlord
+- Lebanon's Overlord
+- Republic of Laos's Overlord
+- Republic of Cambodia's Overlord
+- Republic of Vietnam's Overlord
+- Republic of Madagascar's Overlord
+- Kingdom of Morocco's Overlord
+- Algeria's Overlord
+- Tunisia's Overlord
+- Djibouti's Overlord
+- Congo-Brazzaville's Overlord
+- Gabon's Overlord
+- Cameroon's Overlord
+- Central African Republic's Overlord
+- Chad's Overlord
+- Niger's Overlord
+- Dahomey's Overlord
+- Togo's Overlord
+- Upper Volta's Overlord
+- Côte d’Ivoire's Overlord
+- Guinea's Overlord
+- Mali's Overlord
+- Senegal's Overlord
+- Republic of Cayenne's Overlord
+
+- Italy:
+- All of the below:
+ - Not Kingdom of Libya
+ - Owns and fully controls state: 448
+ - Owns and fully controls state: 661
+ - Owns and fully controls state: 449
+ - Owns and fully controls state: 662
+ - Owns and fully controls state: 450
+ - Owns and fully controls state: 451
+ - Owns and fully controls state: 663
+ - Owns and fully controls state: 273
+
+- All of the below:
+ - Not Ethiopia
+ - Owns and fully controls state: 271
+
+- All of the below:
+ - Not Eritrea
+ - Owns and fully controls state: 550
+
+- All of the below:
+ - Not Somali Sultanate
+ - Owns and fully controls state: 559
+
+- Kingdom of Libya's Overlord
+- Ethiopia's Overlord
+- Eritrea's Overlord
+- Somali Sultanate's Overlord
+
+- Japan:
+- All of the below:
+ - Not Korea
+ - Owns and fully controls state: 527
+ - Owns and fully controls state: 525
+
+- All of the below:
+ - Is Japan
+ - Owns and fully controls state: 609
+
+- All of the below:
+ - Is Japan
+ - Owns and fully controls state: 745
+
+- All of the below:
+ - Is Japan
+ - Owns and fully controls state: 524
+
+- Manchukuo's Overlord
+- Mengkukuo's Overlord
+- Korea's Overlord
+
+- Portugal:
+- All of the below:
+ - Not Angola
+ - Owns and fully controls state: 540
+ - Owns and fully controls state: 891
+ - Owns and fully controls state: 892
+
+- All of the below:
+ - Not Mozambique
+ - Owns and fully controls state: 544
+
+- All of the below:
+ - Is Portugal
+ - Owns and fully controls state: 729
+
+- All of the below:
+ - Not Dutch East Indies
+ - Owns and fully controls state: 721
+
+- All of the below:
+ - Not Guinea-Bissau
+ - Owns and fully controls state: 296
+
+- Angola's Overlord
+- Mozambique's Overlord
+- Guinea-Bissau's Overlord
+
+- Spain:
+- All of the below:
+ - Not Equatorial Guinea
+ - Owns and fully controls state: 297
+
+- All of the below:
+ - Not Sahrawi Arab Democratic Republic
+ - Owns and fully controls state: 699
+
+- All of the below:
+ - Is Kingdom of Morocco
+ - Owns and fully controls state: 783
+
+- All of the below:
+ - Not Kingdom of Morocco
+ - Owns and fully controls state: 290
+
+- Equatorial Guinea's Overlord
+- Sahrawi Arab Democratic Republic's Overlord
+
+- Netherlands:
+- All of the below:
+ - Not Netherlands Antilles
+ - Owns and fully controls state: 695
+
+- All of the below:
+ - Not Republic of Suriname
+ - Owns and fully controls state: 309
+
+- Netherlands Antilles's Overlord
+- Republic of Suriname's Overlord
+- Dutch East Indies's Overlord
+
+- All of the below:
+ - Not Dutch East Indies
+ - Owns and fully controls state: 335
+ - Owns and fully controls state: 672
+ - Owns and fully controls state: 334
+ - Owns and fully controls state: 673
+ - Owns and fully controls state: 667
+ - Owns and fully controls state: 309
+ - Owns and fully controls state: 668
+ - Owns and fully controls state: 738
+ - Owns and fully controls state: 669
+
+- Belgium:
+- All of the below:
+ - Not Zaire
+ - Owns and fully controls state: 295
+ - Owns and fully controls state: 538
+ - Owns and fully controls state: 718
+ - Owns and fully controls state: 888
+ - Owns and fully controls state: 889
+ - Owns and fully controls state: 890
+
+- Zaire's Overlord
+Gets event United Kingdom Demands Decolonization
+
+|- id="Reach Out Across the Channel"
+| FOCUS Reach Out Across the Channel: Communism has spread in the countries just across the English Channel. We will reach out to them, and offer them a guiding and helping hand that is far closer than distant Moscow.
+| United Kingdom:
+- Requires the following:
+ - The British Communist Alternative
+- ExclusiveM Mutually exclusive with:
+ - Enforce Decolonization
+- Is fully independent
+- One of the following must be true:
+ - France exists
+ - Netherlands exists
+ - Belgium exists
+ - Luxembourg exists
+- One of the following must be true:
+ - France: Current ruling party is Communism
+ - Netherlands: Current ruling party is Communism
+ - Belgium: Current ruling party is Communism
+ - Luxembourg: Current ruling party is Communism
+- One of the following must be true:
+ - Is at peace with France
+ - Is at peace with Netherlands
+ - Is at peace with Belgium
+ - Is at peace with Luxembourg
+| United Kingdom:
+- Invites France or the Low Countries to our faction, If they are Communism .
+
+|- id="Soviet Cooperation"
+| FOCUS Soviet Cooperation: Though we have our differences, we also share an enemy. We shall propose an attack from both sides, squashing the Germans before they realize what has happened.
+| United Kingdom:
+- Requires one of the following:
+ - Enforce Decolonization
+ - Reach Out Across the Channel
+- ExclusiveM Mutually exclusive with:
+ - The One True Revolution
+- Is fully independent
+- Soviet Union exists
+- At peace with Soviet Union
+- Soviet Union:
+ - Exists
+ - Is not in a civil war
+ - Current Ruling Party is communism
+Is in Faction with Soviet Union
+| If Soviet Union is not at war with Germany:
+- Soviet Union gets event Britain Suggests Cooperation
+- Otherwise:
+ - United Kingdom gets Puppet (focus) War goal against Germany
+
+|- id="The One True Revolution"
+| FOCUS The One True Revolution: No cooperation will ever be possible with Moscow. Corruption is rife in the Soviet Union, and the only hope is to cut out its heart and assume undisputed global leadership of the Worker's Cause.
+| United Kingdom:
+- Requires one of the following:
+ - Enforce Decolonization
+ - Reach Out Across the Channel
+- ExclusiveM Mutually exclusive with:
+ - Soviet Cooperation
+- Is fully independent
+- Soviet Union exists
+- is not in faction with Soviet Union
+- Soviet Union: Current Ruling Party is communism
+Is at war with Soviet Union
+| United Kingdom:
+- Gains Puppet (Focus) War Goal against Soviet Union
+
+|- id="Follow Moscow"
+| FOCUS Follow Moscow: In its roots, communism in Britain has always followed the orders of Moscow. To continue to do so now is not only logical, but also necessary. Between the Red Army and our Navy, we shall spread the word of Marx far and wide, and none can stop us.
+| United Kingdom:
+- Requires the following:
+ - For the Good of the Revolution
+- ExclusiveM Mutually exclusive with:
+ - The British Communist Alternative
+- Is fully independent
+- Soviet Union exists
+- is not in faction with Soviet Union
+- At peace with Soviet Union
+- Soviet Union:
+ - Current Ruling Party is communism
+ - Is not in a civil war
+- Is in Faction with Soviet Union
+- Has not started The British Communist Alternative
+| United Kingdom:
+- Gain Base Stability : +5.00%
+- Soviet Union Gets event United Kingdom Requests Alliance
+
+|- id="Tackle Fascism"
+| FOCUS Tackle Fascism: Fascism is the prime threat to the Worker's Cause. We must focus on eliminating this blight from the face of Europe.
+| United Kingdom:
+- Requires the following:
+ - Follow Moscow
+- ExclusiveM Mutually exclusive with:
+ - Tackle Capitalism
+- Is fully independent
+- One of the following must be true:
+ - Germany exists
+ - Italy exists
+- One of the following must be true:
+ - Germany: Current ruling party is Fascism
+ - Italy: Current ruling party is Fascism
+| United Kingdom:
+- gets the national spirit:
+
+Spirit Tackle Fascism: Fascism is the prime threat to the Worker's Cause. We must focus on eliminating this blight from the face of Europe.
+- Daily Fascism support: -0.02
+- Germany: Attack bonus against country: +10.0%
+- Germany: Defense bonus against country: +10.0%
+- Italy: Attack bonus against country: +10.0%
+- Italy: Defense bonus against country: +10.0%
+
+Germany Gains Tackle Fascism ( Opinion of United Kingdom -75)
+Italy Gains Tackle Fascism ( Opinion of United Kingdom -75)
+
+|- id="Preparing the Second Front"
+| FOCUS Preparing the Second Front: When the war begins, we must open a second front to aid our Soviet allies. Preparation for this must begin already now.
+| United Kingdom:
+- Requires the following:
+ - Tackle Fascism
+| United Kingdom:
+- 1x 100% research bonus for: Marine technology
+- 1x 100% research bonus for: Transport Models
+
+|- id="Liberate the Home of Marx"
+| FOCUS Liberate the Home of Marx: The birthplace of Karl Marx has been infested by fascism, not only tainting his memory, but also serving as a perpetual insult to all of socialism. It is time to vanquish this evil force from the German land, liberating their populace from the false prophets that lead them.
+| United Kingdom:
+- Requires one of the following:
+ - The One True Revolution
+ - Preparing the Second Front
+- Is fully independent
+- Germany exists
+- Is not in faction with Germany
+| United Kingdom:
+- Gains Puppet (Focus) War Goal against Germany
+
+|- id="Tackle Capitalism"
+| FOCUS Tackle Capitalism: Capitalism is the archnemesis of the Worker's Cause, and we cannot sit idly by as it thrives, even an ocean away. We must prepare to take it on in its heartland.
+| United Kingdom:
+- Requires the following:
+ - Follow Moscow
+- ExclusiveM Mutually exclusive with:
+ - Tackle Fascism
+- Is fully independent
+- United States exists
+- United States: current ruling party is democracy
+| United Kingdom:
+- gets the national spirit:
+
+Spirit Tackle Capitalism: Capitalism is the archnemesis of the Worker's Cause, and we cannot sit idly by as it thrives, even an ocean away. We must prepare to take it on in its heartland.
+- Daily Democracy support: -0.02
+- United States: Attack bonus against country: +10.0%
+- United States: Defense bonus against country: +10.0%
+
+United States Gains Tackle Capitalism ( Opinion of United Kingdom -75)
+
+|- id="Bermuda Invasion Launch Point"
+| FOCUS Bermuda Invasion Launch Point: An invasion of North America will not be an easy task. We must build up our possessions in Bermuda to be able to accomodate the invasion force for such a duration of time as is necessary, before it can then be sent to spread the Revolution directly to American shores.
+| United Kingdom:
+- Requires the following:
+ - Tackle Capitalism
+- has full control of 696
+| United Kingdom:
+- 696
+ - Add 2 infra
+ - Add 5 air base
+ - Add 5 Naval Base in a province in the state
+
+|- id="Crush the Dream"
+| FOCUS Crush the Dream: The Americans like to talk about their Dream; that anyone can 'make it' in America, if only they are willing to do so over the backs of their peers. We find this reprehensible; no man should be encouraged to prey on another for his own gain. We will liberate their people from these silly notions, crushing this dream so thoroughly that no trace of it remains.
+| United Kingdom:
+- Requires the following:
+ - Bermuda Invasion Launch Point
+- Is fully independent
+- Is not in a faction with United States
+- United States Current ruling party is democracy
+| United Kingdom:
+- Gains Puppet (Focus) War Goal against United States
+
+|- id="Socialist Science Pool"
+| FOCUS Socialist Science Pool: We must coordinate an exchange of technological knowledge so that all our allies may benefit from our advances, and so that we may benefit from theirs. This is the only way that the worker's struggle will succeed.
+| United Kingdom:
+- Requires the following:
+ - Follow Moscow
+- Is in faction with Soviet Union
+| United Kingdom and all countries in the same Faction as the United Kingdom:
+- Joins Socialist Science Pool
+
+|- id="Spirit of the Industrial Revolution"
+| FOCUS Spirit of the Industrial Revolution: The British Isles were the birthplace of the Industrial Revolution. In this spirit, we will show the world what liberated workers can achieve in a state-controlled economy.
+| United Kingdom:
+- Requires one of the following:
+ - Soviet Cooperation
+ - Liberate the Home of Marx
+ - Crush the Dream
+| United Kingdom gets the national spirit:
+
+Spirit Spirit of the Industrial Revolution: The British Isles were the birthplace of the Industrial Revolution. In this spirit, we will show the world what liberated workers can achieve in a state-controlled economy.
+- Factory Output : +10.00%
+- Dockyard Output : +10.00%
+
+|}

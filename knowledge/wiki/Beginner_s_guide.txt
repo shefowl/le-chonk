@@ -1,0 +1,218 @@
+TITLE: Beginner's guide
+URL: https://hoi4.paradoxwikis.com/Beginner's_guide
+REVISION: 2026-01-13T18:24:48Z (rev 96535)
+VERIFIED FOR: 1.8
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+This guide is intended as a beginner's tour of the interface and mechanics in Hearts of Iron IV. For more detailed information on the mechanics, including some of the detailed math behind some of the computer's calculations, follow the links to the articles dedicated specifically to those concepts.
+
+# Before Clicking the Game Play Button
+It may be a good idea to become familiar with the information displayed, the various button and tab names, and the functions of those buttons and tabs before clicking the game Play button.
+
+- Game version - Observe that the graphic shows game version 1.14.3 and checksum 21de. Saved games are set to the game version and checksum that are currently playing. If the saved game version and checksum do not match the game version and checksum, then the saved game will not work. Be aware that the game is normally on automatic updates and once a new version of the game is released, then previous version saved games will not work unless the game is rolled back to the matching version. This rollback procedure can be found on the Paradox Forums. Note that this procedure requires a game code for each owned game branch and that a Paradox Interactive account is needed to view those codes for input into Steam.
+- Video display button - Clicking the gear icon opens the video display menu. This menu has 3 dropdown menus; Display Mode, Resolution, and Refresh Rate. The Display Mode allows three choices: Fullscreen, Windowed, and Borderless. Fullscreen is recommended because Windowed and Borderless modes on some systems have been known to cause launch issues such as blackscreens and failure to launch the game (reference Troubleshooting the game). The Resolution allows a multitude of choices such as 1600x1024, 1680x1050, etc. Matching the game's resolution to the monitor's native resolution usually gives the optimum viewing experience. The Refresh Rate should also be set to match the monitor, if possible. The 60 Hz selection is recommended because it is quite common and the 50 Hz selection has been known to cause launch issues such as blackscreens and failure to launch the game.
+- Clear user directory button - Clicking on this button will clear your HOI4 user directory. Only click on this button if you are experiencing game crashes. Reference the Tooltip in the graphic.
+- Game Play button - Click the game Play button after choosing the video settings, DLC, and mods.
+- Create Account button - Click this button to create a Paradox Interactive account. It is recommended that you create an account as it will give you access to technical support in the event that the game becomes problematic. A Paradox Interactive account is also needed to log into the Paradox Plaza website to access the codes for previous branches of each game that is owned. This is due to the enactment of the General Data Protection Regulation (GDPR). Other benefits include access to bug reports, game suggestions, etc.
+- DLC tab - Clicking on the DLC tab will reveal all of the downloadable content purchased for this game. Clicking an item will place a green check mark next to the item indicating that it has been selected for inclusion in the game. No check mark indicates that the item was not selected for the game. The graphic shows that all purchased items (Anniversary Pack, Historical German Portraits, Poland: United and Ready, Rocket Launcher Unit Pack) have been selected. Note also that such DLC as Together For Victory, Death or Dishonor, and Waking the Tiger are not shown in the graphic as this user did not purchase those items.
+- Mods tab - Clicking on the Mods tab will show a pulldown menu capable of revealing all of the mods that have been downloaded for the game. Clicking an item will place a green check mark next to the item indicating that it has been selected for inclusion in the game. No check mark indicates that the item was not selected for the game. The graphic shows that the mods "Coloured Buttons" and "More Division Icons" have been selected. Mods can be downloaded from the Steam Workshop. Be aware that some mods will deactivate the ability to get achievements during gameplay and that some mods are not updated for the latest version of the game which can lead to a system crash. Reading the author's information about their mod will usually indicate if the mod is compatible with achievements and what version of HOI4 that their mod has been updated to.
+
+# Troubleshooting the game
+Try the solutions listed below if the game fails to launch, freezes, crashes to desktop (CTD), or "blackscreens". The most common causes and solutions are listed first. Contact technical support or visit the forums for additional help. A Paradox Interactive account is required to contact technical support.
+
+- Some anti-virus programs will automatically block executable files: try adding hoi4.exe and steam.exe to the anti-virus exception list.
+
+- Outdated graphics card drivers: try downloading and installing the latest drivers for the graphics card.
+
+- Incompatible OS settings: try Windows compatibility settings by navigating to the hoi4.exe file (typical file path C:\Program Files (x86)\Steam\SteamApps\common\Hearts of Iron IV), right clicking on the hoi4.exe file, clicking on Properties, clicking on the Compatibility tab, and experimenting with the different settings.
+
+- Incompatible graphics card settings: try running the game on Fullscreen instead of Windowed mode. From the game launch screen, click the gear icon to open the video display menu. This menu has 3 dropdown menus; Display Mode, Resolution, and Refresh Rate. The Display Mode allows three choices: Fullscreen, Windowed, and Borderless. Choose the Fullscreen option.
+
+- Incompatible graphics card settings: try manually editing the settings.txt file by first navigating to the settings.txt file (typical file path C:\Users\Documents\Paradox Interactive\Hearts of Iron IV\settings.txt). Then open the settings.txt file and manually change the text to read as follows: fullScreen=yes and borderless=no. Caution: Only change the fullScreen and borderless text settings. Do not change or erase the other settings unless you backup your file and know what you are doing.
+
+- Corrupt user files: Try clearing the user directory. From the game screen, click on the "Clear user directory" button. Then exit the game and relaunch it.
+
+- Corrupt game files: Try a clean reinstallation of the game.
+ - Move your important game files to a backup folder.
+ - Go to Steam and select the Hearts of Iron IV game from the Steam Library, then right click and select Uninstall...
+ - Navigate to C:\Program Files (x86)\Steam\SteamApps\common and manually delete the Hearts of Iron IV folder.
+ - Navigate to C:\User\Documents\Paradox Interactive and manually delete the Hearts of Iron IV folder.
+ - Go to Steam and select the Hearts of Iron IV game from the Steam Library, then click Install. Do not launch the game yet! Stay on Steam!
+ - While still on Steam right click the Hearts of Iron IV game, select Properties, click on the LOCAL FILES tab, then click on the VERIFY INTEGRITY OF GAME FILES button. This will validate the game files just installed. An "All files successfully validated" message should be seen.
+ - Start the game with no mods active.
+ - Test the game
+
+# Starting the game
+Single player offers the one-player game of Hearts of Iron IV. All other countries will be controlled by the computer. The Single Player menu allows for playing the Tutorial or to start a new game as well as to load a previous saved game.
+
+Playing the Tutorial gives a quick run-down of the game and is therefore highly recommended. The Tutorial game may be continued as if it was a standard playthrough after finishing it.
+
+Multiplayer enables Hearts of Iron IV players to play online with other people. Up to 32 players may play (both competitive and cooperative multiplayer) in one game of Hearts of Iron IV at the same time. The host of the game is able to start a fresh game or load a previous session that was not completed.
+
+Options allows for the customization of sound, appearance and gameplay details of Hearts of Iron IV. This includes adjustment of monitor resolution and user preferences for graphics and sound. The first tab includes very important "game settings."
+
+Once through basic setup, the player may choose a scenario and a nation to play for the duration of that play session.
+
+## The world in 1936
+The 1936 scenario begins on January 1, 1936. The 1936 scenario is the one most likely to lead to alternate versions of World War II, since it starts with fewer alliances or wars to start. 1936 is the place to begin in order to play through the organization and planning of an economy before the war starts. This scenario is about laying the groundwork for the armed forces and war plans, opening with a focus on production, research and diplomacy.
+
+## Choosing a nation
+Each scenario displays a menu with the seven major powers (France, the United States, the United Kingdom, the German Reich, Italy, Japan, and the Soviet Union), along with a list of minor countries with non-generic content. No matter which is selected, a map of the world is then displayed to allow changing the player's choice, including picking countries not previously listed.
+
+The starting countries fall into two broad categories:
+- The majors are the dominant powers of the period, with the largest militaries and economies. Picking a major thus gives the player more things to manage, and a greater role in deciding the outcome of World War II.
+- Minors have less to manage but can still possess decent military and economic power, allowing them to influence the course of the war in one or more regions of their choice. Some minors like Australia or Mexico will be largely insulated from the war and able to prepare at their own pace, while others like China and Czechoslovakia may find themselves at war with a much stronger power very quickly.
+
+Ultimately the player may select whatever country they wish, but one should be aware that countries like Bhutan may not be best suited as the first nation to play as. We recommend any nation you believe you know the most about, or what will be the most fun!
+
+## Game settings
+In the lower right corner of the map before starting the game are the game settings. Here the player can toggle ironman and historical focus on or off and use the difficulty settings to make the game harder or easier for the player and also boost the relative power of one or more of the more important nations (this makes them stronger, but not smarter). There is also an icon for showing if steam achievements can be earned in the game or not, they require ironman mode and regular or higher difficulty. When finished press the play button in the lower right hand corner to start the game.
+
+### Difficulty settings
+(Main article: Difficulty)
+Players have the option to define a general difficulty which will apply modifiers globally to themselves and/or the AI. In addition, a player may also apply different modifiers to the seven major countries, thereby buffing/debuffing only one entity and the front it plays in.
+
+# The interface
+(Main article: User interface)
+
+## Top Information Bar
+Top information bar
+
+## Primary map modes
+
+Land Map Mode - Comprises the following three levels of detail and is the mode that will be seen during the majority of game play. Also known as Default Map Mode.
+
+Nations represent the land borders of countries. Interactions with nations occurs within the scope of diplomacy. Nations have names.
+
+A nation is comprised of states. Factories, infrastructure, and most other improvements built using Civilian Factories are done at State level. Each state is limited in how many improvements it can have. States also have names!
+
+Within each state are provinces. Interaction with provinces is largely done via land units and a set of constructions that generally aid those units - i.e., forts and naval bases. Provinces do not have names unless they are worth a special amount of victory points and their details are visible in the bottom section of the state overview screen.
+
+There are three other map modes that players use and whose definitions of Region or Area largely ignore national borders and potentially encompass multiple states.
+
+Naval Map Mode - Sea regions of which up to three adjacent ones can be selected when giving orders to naval fleets. Totally independent of the land map mode. Sea regions all have names.
+
+Air Map Mode - Overlays the land and sea map modes. Air bases are assigned operational concern over a given Strategic Region and air wings are given missions. The air base will then have its planes perform their missions within the strategic region. Strategic regions also have names.
+
+Supply Map Mode - In the new update, The supply is now reworked to be built around rail systems. There are also supply hubs and a color map to show if it can support your troops on that state.
+
+All three of these regions use blue/green/yellow/red border highlighting to indicate neutral/good/moderate/bad conditions in the region relative to either supremacy (land/sea) or sufficiency (supply).
+
+## Main Menu Bar
+Main Menu Bar
+
+# Controlling the army
+(Main article: Warfare)
+The players can move their units by selecting them with the left mouse button and then clicking their destination with the right mouse button. If one draws a box around a group of units using left click and drag, all units inside the box can be commanded. One can move troops across the ocean to friendly territory, by sending the units to a province with a naval port and then shift-clicking on a destination port. For an overview of all divisions, including indications of their combat status, click on the Army View icon under the date or press hotkey "o". Right-click on a division's info bar to pan over to it or hold down shift and left click on multiple units to select them all.
+
+Troops are more effective when they are grouped into armies under a commander's command and given plans to execute.
+
+## Creating command groups/armies
+(Main article: Commander)
+The player can create armies of units by selecting a group of them and then clicking on the silhouetted portrait or green plus sign that one will see at the bottom of the screen. Then, go to the selected unit profile in the upper left and click on the silhouetted portrait. This will open up the list of generals to be assigned to armies.
+There are two types of military leaders – generals and field marshals, both of whom can normally only effectively command 24 units; but some up to 32. Commanders may also have attributes that give them bonuses in certain types of combat situations. If one promotes a general to field marshal, they lose their attributes (except "old guard") as field marshals have different attributes.
+
+## Experience and giving orders
+
+Countries will gain army experience mostly through combat, but one can start a trickle of early experience by having soldiers "exercise". To do this, select the army group. A Battle Plans toolbar will appear; click the exercise button in the far left of the toolbar. Be aware that this results in higher equipment attrition, which may not be desirable as a country with limited industrial capacity.
+
+One can spend experience to promote generals and allowing them to lead more troops, or to create and edit new division types in the unit production menu.
+
+An army group can be commanded like any other group of units and simply giving a right-click move order to a destination. However, they will fight better if they are given "battle plans" – a general order that is coordinated along a front, either to advance or defend.
+
+When the player selects an army group, they will see a row of general orders appear at the bottom of their screen, the aforementioned Battle Plans toolbar. Each of these has rollover text that explains in detail how to use this instruction. This guide will focus on the most important ones.
+
+Naval invasion: Use this for amphibious attacks on enemy territory. (One can move into friendly territory this way, but it is more efficient to simply use port to port movement as described above.)
+
+When one selects naval invasion, one will be asked to left-click on an origin point. This is where the army will gather for the assault. Right click on the enemy province one wants to invade. Note that one will need to have some naval intelligence of every sea lane they will be crossing, so one will have to have warships patrolling or hold naval superiority in those sea areas.
+
+All plans take time, and amphibious invasions take a lot of time to plan. Once the weeks (or months) of preparation are ready, the grey arrow above the army group will turn a faded green. Press that arrow to activate the plan.
+
+Land operations: To make a battle plan for offensive land operations, one must first define one's defensive front – this is the point from which the army group will begin their operations. Select the defensive front button and, on the map, draw a line to indicate where an army group will start. (In many cases, this will be a national border or the current line dividing enemy armies). Then, click the offensive front button (a line with an arrow) and draw the front to where the armies should advance.
+
+The army group units will begin to organize themselves along their defensive front. When they are in place and one is ready to begin, press the green arrow and the units will begin to execute the plan.
+
+One can research doctrines and hire advisors that will reduce the time for a military plan to be prepared or add bonuses to units that are operating with a plan.
+
+# Controlling the navy
+Ships will be automatically grouped into fleets at ports as they are constructed. If one does not like the way fleets are organized, one can drag-and-drop silhouettes of ships from one fleet to another.
+
+Assign commanders to your fleets by clicking on the silhouetted portrait and choosing from available naval commanders. You may recruit new admirals for the fleets. Like generals, admirals may have skills that are assets in particular battle situations or while commanding certain types of vessels. Admirals normally have a maximum amount of 10 fleets to lead.
+
+If a fleet is selected, a row of different orders will appear below in a Missions toolbar. These range from simple patrol missions to convoy escort duty. Choose a mission for the fleet (submarines, for example, are best used to interrupt convoys), and then right-click on up to three contiguous sea zones, i.e., sea zones that touch each other. This fleet will then carry out that mission over these areas. One can remove these orders by returning the fleet to port and assigning a new mission.
+
+So long as a fleet is operating in a sea zone, enough intelligence should be gathered about that zone to both route supply overseas through that region or to order an amphibious assault across that space, but if the enemy is active in the region, naval superiority is also required.
+
+# Controlling the air force
+(Main article: Air warfare)
+Unlike other units, airplanes that are constructed are sent to a reserves hangar. One can mobilize them by clicking on an air base, then creating an air wing using the button to the upper right of the resultant menu (it has a plus sign). The larger the airfield, the more planes it can efficiently use.
+
+Like naval units, air units operate over regions and are given specific missions relevant to the type of aircraft. Fighters can do air superiority or interception, strategic bombers can target industry or infrastructure, tactical bombers can do close support of land attacks, and so on. To assign an air wing to a region and a mission, click on an air field. This will open the air information map mode.
+
+Left click on an air wing and then right click on the region where it should operate. One can decide what mission it will perform. Planes have limited range depending on their type (strategic bombers have a much greater range than interceptors) and design (dependent on technology researched or experience spent to edit their abilities).
+
+# Supply
+Armies in the field will require supplies to remain in fighting shape. An army out of supply can take no offensive actions at all, including simple movement, even if unopposed. Supply is determined on a territorial basis (i.e., potentially larger than a single State) where each territory is able to support a specific number of troops. However, the final value of this supply to an actual unit is modified by the infrastructure of the State the unit is stationed within. If a territory can support 10 units easily, but if the army is in a province with very low or damaged infrastructure, a supply bottleneck will develop, so not every unit in that army will get what it needs.
+
+Supplies coming over land are also provided by adjacent territories - which forms a supply line back to the capital or an alternate territory if the capital territory is not in one's control. This is why it is particularly important to maintain and defend contiguous States between home and the front lines.
+
+When land paths are unavailable supplies will be transported via sea. Overseas supply is done through convoys and sea ports. Larger ports can funnel more supply across the ocean, though this will also require more convoy ships. For overseas convoys to be most effective, one will need to assign some of one's naval vessels to Escort duty in the regions that they will cross.
+
+The player can check the supply lines and capacities by clicking on the Supply map mode in the menu to the lower right of the main screen.
+
+# Special weapons
+#### Nuclear Attacks
+If all three nuclear technologies (Atomic Research , Nuclear Reactor , Nuclear Bombs ) have been unlocked and at least one nuclear reactor has been built, then you will slowly acquire nuclear bombs.
+
+To deliver a nuclear bomb the player must use a strategic bomber and have at least 75% air superiority over the strategic air region of the target province. Select the province one wants to attack and press the nuclear strike icon in the lower left of the province information menu. A nuclear bomb will destroy most of the infrastructure and industry of the target and will damage any units in that area.
+
+#### Rocket Attacks
+If one researches both Experimental Rockets and Rocket Engines and also builds a rocket site , then Basic Guided Missiles may be launched at distant States to damage their infrastructure. The main advantage of guided missiles is that they cost zero production and zero resources and do not tie up any military factories. Instead, guided missiles are automatically produced at each rocket launch site at the rate of one every 24 hours. Rocket sites have a maximum capacity of 100 guided missiles, which means that the launch site will be totally filled at the end of 101 days assuming no missiles have been launched. Further research into Improved Rocket Engines and Advanced Rocket Engines allows rocket sites to manufacture and launch Improved Guided Missiles and Advanced Guided Missiles respectively. At present it is not possible to launch nuclear bombs using rockets.
+
+To use your Rockets, hit F3 to bring up the Air Theater Interface. Under the "Ungrouped Air Wings" section, you will see an icon for your Rockets. Click the icon and a window will appear showing each region that has a Rocket Site, and the Rocket Air Wings. Select the Rocket Air Wing, click on the Strategic Bombing role, and select the target.
+
+When your Rocket Site begins making Basic Guided Missiles, they will be limited to the 500km range. As you research Improved Rocket Engines and Advanced Rocket Engines your original rockets will be replaced with the new, longer-range rockets, one per day.
+
+# Capitulation and winning the war [verified for 1.5]
+
+Once a country has lost owned territory above a certain threshold that depends on its war support, it will capitulate. All divisions they own in their core or occupied territory will be disbanded and their core territory will be instantly occupied by the aggressor, but they carry on as a government-in-exile and keep control of their colonies (non-core provinces) - for example, the Netherlands keeps control of the Dutch East Indies. Partisans in occupied territory will continue to be a problem as long as the country's fellow faction members carry on the war - after all, they can still hope for liberation.
+
+If more than one country is fighting on the losing side of the war, the entire faction will surrender when the last major country in it surrenders (you can see which countries are considered majors on the world diplomacy screen). When this happens, the game will pause and a peace conference will begin. The peace conference proceeds in stages based on the war effort expended by the victorious powers. So, for example, if the Allies defeat Germany and the United States achieved the most in the war followed by the United Kingdom, the United States will have the first chance to make demands on the Germans, followed by the United Kingdom. Then, the next most significant victor(s) will make their demands.
+
+This continues until all the victors are satisfied with the peace, all available demands have been made or no nation can afford to make additional demands on the defeated powers.
+
+War demands have a cost, and this cost is deducted from the war score of the victorious nation. Some demands, like making a nation a puppet, require having that as a war goal unless the rules of the nation allow puppeting without a war goal.
+
+# Tips to getting started
+As the player is learning Hearts of Iron IV, remember these important steps as one formulates their plans for world domination.
+
+- One will start the game with a few production lines of weapons already active. The most important of these will be one's infantry equipment, so, until more military factories have been built, put most of one's energy here.
+- When your country is training new divisions, have multiple lines of infantry going at once. If you don't, you will fall behind in army size.
+- Plan out National focuses early in the game. For instance Germany will want to move quickly along the paths that give it claims on Austria and Czechoslovakia. The USA will need to get itself out of the Great Depression. France has to watch its political stability. Have a long term goal in mind. Keep in mind you don't have to research all the National Focuses one after another. Sometimes it is best to wait a bit for the opportune moment, especially with research boosting focuses.
+- Each nation has access to extra research slots if they activate specific national focuses. These are easily identified by the beaker icons on the names (though some focuses with that icon give research bonuses instead - read the tooltips for details). The sooner these are unlocked, the better the army will fight.
+- When researching, try not to rush too far ahead since there are significant penalties to pursuing technology too early in the timeline. However, if one researches computing in the electrical engineering track, one can reduce their total research time by a significant margin.
+- If a powerful navy is not central to one's war plans, one can usually ignore this aspect of the war and research tree. However, convoys are always useful for trade and supply, so it's best to have whatever dockyards you own focus on them.
+- If one is at peace, armies should exercise so they can train until they reach regular status and earn experience. Adding an extra regiment, line battalion, or support company to an existing division design is an easy way to beef up one's forces – unless one doesn't have the equipment on hand to reinforce what one has.
+- In wartime, it is often better to let the new equipment fall into the hands of new units instead of reinforcing and upgrading old ones. Adjust the reinforcement and upgrading of troops with an eye to what one needs now – more active units in the field now or a stronger punch in a few months time.
+- Democracies should change their economic ideas as soon as they can in order to free up civilian factories that are otherwise dedicated to producing civilian goods.
+- Don't forget to rest armies after they have reached their objectives. A few days of inaction will help with organization, reinforcement and supply.
+
+# Advanced Tips
+- Remember infrastructure and fortifications. Should one be attacked, a line of land forts and a battle plan for a defensive hold along a strategic line (like mountains or a river) could give the player time to hold off an invasion as they wait for help from allies and/or their own reinforcements.
+- If you lack a resource, but produce it locally (i.e. steel is produced, but not enough of it), try to avoid trading for it unless absolutely necessary. You can research excavation under the industry tab, which will increase the amount of your produced resources by 10% for each tier, up to 50% bonus if all tiers of excavation are researched. This will free up your civilian factories from trade and allow you to construct more buildings.
+- When there is a lack of material, remember to check what is being produced. It won't do to have too many different recruits going at once (i.e both motorized and infantry) if what the factories are producing is going toward upgrades. An example would be to trim away motorized infantry for a while and focus on just regular infantry. If one lowers the production of motorized and focus that on upgrading an existing unit, the free factories can be moved to infantry equipment and by extension allow for the production of more units.
+- When Manpower is low, remember to change your conscription law and try attaching Field Hospitals as support companies or disbanding units you don't need, including air wings and ships. If you must maintain a large front and can't afford to reduce the number of divisions you have, you can consider making them smaller. Quite often you can afford to remove one infantry battalion from your default divisions and they will perform almost the same. Keep in mind that the Total Mobilization (Economy Law) gives you -3% recruitable population and generally isn't worth having, unless you can spare the manpower. The Mobile Warfare and Mass Assault Land Doctrines, as well as the Nationalist branch of the general National Focus tech tree give bonuses to your manpower pool. If you have concerns about your manpower in the long run, consider creating high-tech divisions with advanced equipment. Higher production cost is generally linked with manpower preservation - an infantry division will lose a lot more manpower than a mechanized division. Mountaineers and Marines will save you a little bit of manpower, compared to regular infantry, if deployed properly in their respective fields, due to their combat bonuses in mountains/hills and river crossings/naval invasions, as well as their slightly higher breakthrough stat, and they only cost more Infantry Weapons and training time to produce.
+- Doctrines should be picked carefully and with consideration. It is possible to switch from one doctrine to another, should the need arise, but it takes a lot of respective experience you will lose the old doctrine. The good part about doctrines is, that they don't require production and the bonuses come into play as soon as you unlock them. There are about 10 separate doctrines in Land Doctrines, 12 in Air, and 15 in Naval. The base cost is 100 experience for Land Doctrines/Air/Naval Doctrines, so it will take considerable amounts of experience to change a fully unlocked doctrine.
+- Remember to update, research and produce the next tier of equipment for units you find lacking in quality. Sometimes an upgraded version of a unit has a lot more hidden bonuses than one might expect.
+- Different Factions have different disadvantages and advantages when it comes to securing resources. The Allies begin with the majority of Rubber production, and anyone going to war with them will have serious troubles with securing rubber without a plan to attack Allied South-east Asia, or without a lot of Refineries. Rubber is needed for all aircraft, as well as motorized/motorized artillery and mechanized. Most of the world's Chromium can be found in the Soviet Union, Turkey, South Africa, France, Cuba and Yugoslavia. Chromium is needed for ships and heavy tanks, as well as modern tanks. The only ships that don't require Chromium are Destroyers I-III, Light Cruisers I-III, Heavy Cruisers I-III, Submarines I-III. If you want to maintain a fleet of capital or modern ships, you will need to secure those places for yourself, or as allies. Aluminium can be found in France, the United States, Hungary, the Soviet Union, and Yugoslavia. Aluminium is needed for all aircraft, as well as support equipment. When planning your strategy you have to plan to either skip mass production of units requiring resources you don't have, or to plan to steal those resources from the enemy to secure your production or deny the enemy production of a particular equipment type. If you are playing as a minor nation, you might want to consider which side to join, if any, depending on the resources you will need to power your economy.
+- Naval and Air combat seem confusing at first, but with a bit of research and understanding, turn out to be simpler than Land combat. Look up an in-depth guide if you have problems with Air or Naval battles and/or strategy. Have fun!
+
+# References
+
+hoi4de:Beginner&#39;s guide
+hoi4es:Beginner&#39;s guide
+hoi4fr:Beginner&#39;s guide
+hoi4pl:Beginner&#39;s guide
+hoi4pt:Beginner&#39;s guide
+hoi4ru:Beginner&#39;s guide

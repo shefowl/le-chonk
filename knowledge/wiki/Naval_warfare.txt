@@ -1,0 +1,79 @@
+TITLE: Naval warfare
+URL: https://hoi4.paradoxwikis.com/Naval_warfare
+REVISION: 2026-03-14T14:04:51Z (rev 98835)
+VERIFIED FOR: 1.12
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Naval warfare is conducted by ships which operate in the world's interconnected seas and oceans. Naval power is key to protection of convoy traffic, or disruption of enemy convoys. Control of the sea can facilitate naval invasions, or prevent the enemy from performing an invasion of their own. Ships can influence land combat by performing shore bombardment, or block straits to impair enemy movement.
+
+As naval warfare is a complex topic, it is divided among multiple articles. This page serves as a hub, providing a list of the articles which are relevant to naval warfare.
+
+# Concepts and mechanics
+## Navy
+(Main article: Navy)
+A navy is a country's collective naval force. It is divided among task forces, fleets and theaters.
+
+## Ship
+(Main article: Ship)
+Navies are fundamentally composed of ships.
+
+## Missions
+
+(Main article: Naval missions)
+Naval warfare is primarily conducted through naval missions, which may be assigned to task forces.
+
+## Battle
+(Main article: Naval battle)
+When two opposing navies meet, a naval battle unfolds.
+
+# Research
+## Technology
+(Main article: Naval technology, Naval support technology)
+Advances in naval technology can unlock more capable ship designs, or improve the performance of existing ships.
+
+## Doctrine
+(Main article: Naval doctrine)
+Naval doctrines provide bonuses for specific forms of naval warfare.
+
+# Strategy
+
+This section provides naval warfare strategies. These are not limited to instructions; the reasoning behind each strategy is also given, with links to articles in which the relevant mechanics are explained.
+
+## Minelaying
+Mines have powerful effects, and the AI pays little attention to mines. They will only perform minimal minesweeping efforts at most, regardless of how many mines there are. It is thereby possible to gain a strong naval advantage over the AI through extensive mining. The resulting naval supremacy can be useful for facilitating naval invasions, as well.
+
+Due to their stealth and low cost, submarines are well suited for minelaying. When equipped with minelaying tubes and given an engagement rule of 'Never engage', they can perform minelaying missions with near impunity. They remain vulnerable to naval bombers and may take some losses this way, but in practice the AI does not perform enough bombing of minelaying submarines to pose a problem for the player.
+
+Some countries start the game with primitive submarines based upon the 'Early Submarine Hull'. Refitting these submarines as minelayers can be a good way to put them to use, as their low combat performance will not affect their ability to lay mines.
+
+## Strike force composition
+Due to their relatively high fuel requirements, it is generally reasonable to assign capital ships to strike force missions so that they are only called to action when required.
+
+To ensure that the capital ships are protected from torpedoes, it is prudent to have sufficient screen ships in the strike force to achieve full screening efficiency. While a minimum of three screen ships per capital ship are required for 100% efficiency, it can be beneficial to have even more screen ships than this, to ensure that screening efficiency remains high even if positioning is poor or a few screen ships are destroyed in battle.
+
+It may be advantageous to have more than one strike force per fleet, as this will enable more than one enemy force to be intercepted by strike forces simultaneously.
+
+## Convoy escort composition
+When deciding upon the composition of convoy escort task forces, it may be helpful to consider the following points:
+
+- The AI uses the 'engage at medium risk' engagement rule for all of its convoy raiding task forces. Submarines with this engagement rule will tend to flee from a group of defending destroyers when the battle starts, regardless of how strong or weak the destroyers are.
+- To minimise convoy losses, it is important for a fleet performing convoy escort to achieve 100% escort efficiency. Escort efficiency is a function of quantity of ships rather than quality; the weakest possible destroyer will contribute exactly as much escort efficiency as a battleship would.
+- High screening efficiency is helpful for protecting convoys from torpedoes during battle. As with escort efficiency, screening efficiency is a function of quantity of ships rather than quality.
+- It is difficult for the defending side to detect submarines during a naval battle, even when the defending ships are equipped with sonar.
+- Depth charges are ineffective against undetected submarines.
+
+Given the above points, it is viable to use extremely cheap destroyers (early hull, level 1 battery, level 1 engine; the weakest destroyer that may be designed) for convoy escort duty. Such destroyers lack sonar and depth charge equipment and are thereby not particularly well suited for anti-submarine warfare, but convoy raiding submarines will flee from them regardless. Such destroyers can be economically produced in high numbers, providing high escort efficiency and screening efficiency to minimize the damage done to convoys.
+
+Under this scheme, the destruction of enemy submarines would be left to patrol and/or strike forces configured for anti-submarine warfare. Such forces could be deployed to regions in which convoys had recently been attacked by submarines. The attacking side is at a significant advantage when attacking submarines, as all defending submarines will be revealed for a period of time from the start of the battle (see the naval battle article for further details).
+
+If more expensive destroyers with sonar and/or depth charges were used for convoy escort, such destroyers would inflict slightly greater losses upon attacking submarines on average than the cheap convoy escort destroyers described earlier. However, due to their higher cost, it would be more difficult to amass such destroyers in the numbers required to achieve high escort efficiency and (in particular) high screening efficiency for each battle, which could lead to greater convoy losses. The value of expensive sonar and depth charge equipment would also be reduced in this situation, due to the difficulty of detecting submarines while on the defending side of a battle.
+
+# References
+
+hoi4de:Naval warfare
+hoi4es:Naval warfare
+hoi4fr:Naval warfare
+hoi4pl:Naval warfare
+hoi4pt:Naval warfare
+hoi4ru:Naval warfare

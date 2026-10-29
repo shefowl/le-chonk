@@ -1,0 +1,172 @@
+TITLE: Air combat
+URL: https://hoi4.paradoxwikis.com/Air_combat
+REVISION: 2025-05-02T09:10:53Z (rev 84110)
+VERIFIED FOR: 1.15
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Air combat is generally simulated every 8 hours (at 08:00, 16:00, and 24:00 local time).
+Each of the following phases is completed from the perspective of each country before the next phase begins.
+
+# Air to air combat phase
+In this phase, own air wings will try to attack all enemy air wings operating in the same air region, both by directly damaging them and in the case of enemy air wings on ground missions also disrupting them. Enemy countries are any that this country or the host country of air volunteers) is at war with.
+
+## Sub-phase 1: Detection
+The number of friendly planes that can attack is at most 3 the number of detected enemy planes, so good detection is important to fully utilize available air wings, especially when the enemy has fewer planes.
+
+The detection chance determines the percentage of enemy planes in an air region that will be visible. It depends on multiple factors:
+
+The following factors are additive:
+- Occupation: Occupying land in the strategic region enables spotting planes from the ground and yields a chance of up to +10% (when controlling the whole region).
+- Radar: Radar coverage yields up to +50% detection chance (at full radar coverage)
+- Air missions: Planes operating in the region yield up to +80% detection chance (with 3000 planes, non-fighters only count at 50% efficiency)
+
+Then, depending on the time of day and weather, detection is reduced:
+- Night-time: modifies detection by -20%
+- Bad weather: modifies detection by up to -90%
+
+Finally the number of visible planes is further modified by the following situational factors:
+- If the enemy side includes both ground missions and superiority (escorting) fighters, the latter will be fully visible. The fighters and bombers don't need to be from the same enemy country.
+- Regular bombers on strategic bombing mission and carrier-based bombers can reduce their visibility with the "Strategic bombing visibility" modifier (e.g., from the Infiltration Bombing air doctrine).
+- Planes on close air support mission are twice as visible, though cannot have more than 100% visibility.
+- Planes on port strikes are ten times more visible, though cannot have more than 100% visibility.
+
+Air wings sortie in descending order of air attack and agility against detected enemies, meaning more capable air wings get priority if not all planes get to participate due to limited enemy visibility.
+
+The planes of each sortieing wing are allocated against enemy wings proportional to their visibility (against all wings for damage and against ground missions also for disruption).
+
+For example, if eight full wings of fighters and one CAS wing (double visibility) face an equal opponent under full detection, each wing will send 10 planes against each enemy fighter wing and 20 against the enemy CAS wing. At lower detection, the CAS wing would face fewer attackers, while the escorting fighters retain full visibility. At even lower detection (~30%), visibility would be limited enough that some planes would not be able to attack anymore, starting with the CAS and then the fighter wings with the worst stats.
+
+## Sub-phase 2: Damage
+Unless the defender's air defense is zero, the number of planes destroyed is:
+
+Where:
+- {{#tag:math| \text{base damage} = \text{number of attackers} \cdot \text{air attack} \cdot 0.2 }}
+- {{#tag:math| \text{agility mitigation} = \text{round}\left(\text{base damage} \cdot 0.45 \cdot \max\left(\min\left(\frac {\text{defender agility} } {\text{attacker agility} }, 4\right) - 1, 0 \right) \right) }}
+- {{#tag:math| \text{bonus from relative speed} = \text{round}\left(\text{base damage} \cdot 0.65 \cdot \max\left(\min\left(\frac {\text{attacker speed} } {\text{defender speed} }, 3.5\right) - 1, 0 \right) \right) }}
+- {{#tag:math| \text{bonus from absolute speed} = \text{round}\left(\text{base damage} \cdot 0.025 \cdot \frac {\min\left(\text{attacker speed}, 800 \text{ km/h} \right)} {100 \text{ km/h} } \right) \text{if attacker speed} > \text{defender speed, otherwise } 0 }}
+- {{#tag:math| \text{carrier factor} = 5 \text{ if both attacker and defender are carrier-based, otherwise } 1 }}
+
+If the defender's air defense is zero, all planes are destroyed.
+
+## Sub-phase 3: Disruption
+Finally, air wings on air superiority or interception mission will disrupt enemy air wings on ground missions.The following components contribute to the final disruption value:
+- agility factor: attacker's agility multiplied by 0
+- attack factor: attacker's attack multiplied by 0
+- speed factor: attacker's speed divided by 800
+- detection factor: detection chance multiplied by 1
+- carrier factor: 4 for normal and 6 for carrier combat (if both the attacker and defender are carrier wings)
+
+In practice, this turns out to be:
+
+This makes detection critical for disruption as it increases both the number of fighters acting against enemy bombers as well as the disruption effect of each individual one.
+
+# Escort and equipment loss phase
+Here the aftermath of the previous phase is tallied
+
+## Sub-phase 1: Protection from escorts
+Fighters on air superiority/escort mission counteract the disruption that bombers received from the enemy in the disruption phase. Bombers of allied countries don't get escorted. The following components contribute to the escort's disruption reduction:
+- base: 2
+- speed factor: speed divided by 800
+- agility factor: agility divided by 100
+- attack factor: attack divided by 100
+- detection
+{{#tag:math| \text{disruption reduction ratio} = \frac{ 2 \cdot \text{number of escorts} \cdot \left(1 + \text{speed factor} \right) \cdot \left(1 + \text{agility factor} \right) \cdot \left(1 + \text{attack factor} \right) \cdot \left(1 + \text{detection} \right) } {\text{total disruption amount} } }}
+
+This ratio gets removed from the received disruption of all bomber wings. The number of active escort planes is not recalculated for this phase and is used as the last country in the previous phase left it in, causing some countries to have arbitrarily worse escort efficiency.
+
+## Sub-phase 2: Losses from air-to-air combat
+Each point of damage received in the previous phase results in the loss of one airplane. Damage is rounded statistically, e.g. 1.2 damage received causes 1 plane to be lost in 80% of combats and 2 planes in 20% of combats resulting in 1.2 average losses per sortie.
+
+If a wing lost at least one plane and has an ace, there is a chance that they die as a result of the air combat.
+
+# Ground Mission Phase
+Finally, planes performing ground missions, such as close air support, strategic bombing etc, will be simulated, assuming they have survived the previous phases. The disruption value calculated from before will now reduce the effectiveness of these missions. Wings may take additional losses in this phase from state, naval, or divisional anti-air.
+
+All ground missions except para drop and mine planting/sweeping require the selection of a specific target. If multiple missions are selected, they are tried in the following order:
+- close air support
+- strategic bombing
+- naval bomber/kamikaze
+- port strike
+- air supply
+
+Only the first category that produces a valid target is used, but a single wing can handle multiple targets within the same category in one sortie. It is not necessary to split up wings to support multiple land combats for example. But a large naval bomber wing can for example not send any remaining planes on a port strike when another part of the wing executed a naval strike.
+
+Night time's "Ground Bombing Targeting" modifier (-50%) causes a corresponding probability of the wing being unable to find their target. They are still subjected to static anti-air .
+
+## Sub-phase 1: State anti-air
+
+Strategic bombing, port strike and air supply missions are affected by static anti-air (AA).
+
+The probability that a damage event occurs (C) and the number of planes destroyed (D) depend on the following components:
+- damage base chance: 10%
+- hit chance modifier: the "Static Anti Air hit chance factor" modifier (e.g., +20% each from Centimetric Radar , Phased Array , and Monopulse Radar )
+- a random number R between 0.0% and 100.0%
+- damage factor: 80%
+- anti-air factor: for air supply missions, the AA value of their target's state (even when that state is friendly) divided by the maximum AA level (5). For the other two mission types, the average AA level in enemy states in the strategic region, divided by the maximum AA level (5).
+- effective number of planes
+
+- damage modifier: the "Static Anti Air damage factor" modifier (e.g., +10% each from Improved Anti-Air and Advanced Anti-Air )
+- air wing's defense stat
+{{#tag:math|C = 10 \% \cdot (1 + \text{hit chance modifier}) \cdot \text{anti-air factor} }}
+
+If R is smaller than C, a hit occurs with the following damage (in number of planes destroyed):
+
+{{#tag:math|D = max\left(1, \frac{ 0.8 \cdot \text{anti-air factor} \cdot \text{number of planes} \cdot R \cdot (1 + \text{damage modifier})}{C \cdot \text{air wing's defense} }\right) }}
+
+Or averaging the random number to :
+
+{{#tag:math|D = max\left(1, \frac{ 0.4 \cdot \text{anti-air factor} \cdot \text{number of planes} \cdot (1 + \text{damage modifier})}{\text{air wing's defense} }\right) }}
+
+Small bomber wings and especially strategic bombers (having high air defense) will be frequently affected by the minimum-one loss.
+
+## Sub-phase 2: Naval and divisional anti-air
+For air wings on close air support missions, they will have to contend with the enemy divisions' anti-air capabilities. More details are in the relevant section in the air mission article.
+
+And for air wings on naval/Kamikaze/port strike missions, they will have to contend with the enemy ships' anti-air capabilities. More details are in the relevant section in the naval battle article.
+
+## Sub-phase 3: Disruption negation
+The ground mission wing can reduce any disruption left over after the escort phase further using its own stats. A factor is calculated from said stats and the disruption value obtained from the previous phases. This final "disruption damage factor" tells us how much of the remaining disruption is negated (or "damaged"). It uses the following components:
+- disruption: value after the escort phase
+- defense factor: air wing's defense divide by 200
+- attack factor: air wing's attack divided by 200
+- speed factor: air wing's speed divided by 800
+- air wing's number of planes (not reduced by mission efficiency)
+The factor is defined as:
+
+The value that gets reported as "Planes disrupted" in the statistics of an air region is accumulated over all missions and sorties in the time frame.
+
+Guided missiles always have a disruption damage factor of 100%, negating all disruption applied against them.
+
+# Experience
+Wings executing their missions gain experience for themselves (wing experience) and their country (country air experience).
+
+All wings taking part in air-to-air combat (not just fighters and even if they don't get selected for damage dealing) gain 0.8 wing experience. This gain gets reduced if there are not enough enemy planes to allow all planes to attack.
+Wings completing their ground mission gain 0.28 wing experience.
+
+All wings taking part in air-to-air combat (as described above) produce 0.0004 country experience per effective plane.
+Additionally, they gain the same amount of experience for each country attacking them.
+This means an air force getting attacked by multiple countries gets a multiple of experience.
+
+Country air experience from other missions per effective plane:
+- Close air support: 0.0005 (only counting planes actually joining land combats)
+- Strategic bombing: 0.0002
+- Paradrop: 0.03 (only counting planes actually needed for drop)
+
+If the wing is lacking fuel , both types of experience get reduced proportionally.
+If the wing contains aircraft produced by another country and that country currently sends any lend-lease, it gains up to 50% as much country air experience, depending on the proportion of equipment present. This shared experience is not further shared with attachés and does not diminish the experience of the country operating the planes.
+
+## Example [verified for 1.12]
+
+The UK has a wing of 100 strategic bombers bombing West Germany at 90% mission efficiency. 40% of the bomber are US-made and the USA still have an active lend-lease to the UK. The bombers get intercepted by German and Italian fighters.
+
+The UK gains the following country air experience:
+- from air-to-air fight: 100 * 90% * 0.001 = +0.09
+- from being attacked by Germany: 100 * 90% * 0.001 = +0.09
+- from being attacked by Italy: 100 * 90% * 0.001 = +0.09
+- from strategic bombing: 100 * 90% * 0.0002 = +0.018
+- Total: 0.288
+
+The USA get 50% * 40% = 20% of this experience, i.e. 0.0576.
+
+# References

@@ -1,0 +1,498 @@
+TITLE: Engineering technology
+URL: https://hoi4.paradoxwikis.com/Engineering_technology
+REVISION: 2025-12-10T16:56:14Z (rev 94619)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Engineering technology unlocks technologies related to computing, radios, radar, fortifications, nuclear weapons, rockets, and rocket engines. Like industry technologies, engineering technologies tend to provide general bonuses on the country level, but unlike industry technologies, these bonuses tend to be ones related to research speed or unit stats, not economic benefits (at least, not directly). Without La Résistance , it also includes technologies that affect encryption and decryption.
+
+These technologies are heavily interlinked with special projects, with many of them either requiring or unlocking certain projects. Some engineering technologies are also tied to specific special project categories, providing breakthrough progress in them when being researched and benefitting from any scientist engaged in passive research in the field. Notably, technologies with a red ribbon in the bottom right-hand corner of their icons are tied to aerodynamics and avionics projects, those with a yellow ribbon in the bottom right-hand corner of their icons are tied to nuclear research projects, and those with both red and yellow ribbons (e.g. radar technologies) are tied to both special project categories.
+
+# Electronic Engineering [verified for 1.16]
+
+This tree improves research speeds, radar technology, and radio technology and unlocks. Electronic engineering is also sometimes referred to as Electronics.
+
+FOCUS Electronic mechanical engineering: We live in an age when electrical machines can no longer only warm and light us, but help us think and communicate. Electronics will be key to military intelligence in the coming century.
+1936
+110 days
+Upgrades
+ Research speed : +3%
+Enables
+ Central Rangefinding ship module
+Unlocks
+ Radar
+
+## Radio Technology
+
+Technology:
+FOCUS Radio: Adopting the inventions of amateur radio operators and extending the use of FM radio will reduce radio interference and allow us to find new uses for radio technology.
+Year: 1936
+Base time: 220 days
+Prerequisites: Electronic mechanical engineering
+Effects:
+Upgrades
+- Reinforce rate : +2%
+- Coordination: +2%
+Enables
+- No Step Back Basic Radio tank module
+- By Blood Alone Radio Navigation I airplane module
+- Götterdämmerung No Step Back Basic radio land cruiser module
+
+Technology:
+FOCUS Improved Radio: Improvements in signal strength has allowed Radios to be broadcasted further than ever before.
+Year: 1938
+Base time: 220 days
+Prerequisites: Radio
+Effects:
+Upgrades
+- Reinforce rate : +2%
+- Coordination: +2%
+Enables
+- No Step Back Improved Radio tank module
+- By Blood Alone Radio Navigation II airplane module
+- Götterdämmerung No Step Back Improved radio land cruiser module
+Unlocks
+ Götterdämmerung Proximity Fuze
+
+Technology:
+FOCUS Advanced Radio: Advancements in Radio technology has increased the range of radios, and even made some of them small enough to be carried. Some call it the Walkie-Talkie
+Year: 1941
+Base time: 220 days
+Prerequisites: Improved Radio
+Effects:
+Upgrades
+- Reinforce rate : +1%
+- Coordination: +2%
+Enables
+- No Step Back Advanced Radio tank module
+- Götterdämmerung No Step Back Advanced radio land cruiser module
+
+## RADAR Technology
+
+Technology:
+FOCUS Cavity Magnatron: Using a tube that generates microwaves called a Cavity Magnatron we can dramatically improve existing radar systems ability to detect objects by bouncing waves off of them.
+Year: 1938
+Base time: 137 days
+Prerequisites: Radar
+Effects:
+Upgrades
+- Coordination: +1%
+- Increases radar station limit to 2 per state
+Enables
+- Improved Decimetric Naval Search Radar ship module
+
+Technology:
+FOCUS Centimetric Radar: New radar operating in the microwave bands enable us to detect objects too small for previous radars to pick up.
+Year: 1940
+Base time: 137 days
+Prerequisites: Cavity Magnatron
+Effects:
+Upgrades
+- Coordination: +2%
+- Static anti air hit chance factor: +20%
+- Increases radar station limit to 4 per state
+Enables
+- By Blood Alone Air-Air Radar I airplane module
+- By Blood Alone Air-Ground Radar I airplane module
+
+Technology:
+FOCUS Phased Array: Unlike traditional radar that relies on mechanical rotation phased arrays use electronics to steer the beam, allowing it to perform multiple functions simultaneously, such as tracking multiple targets.
+Year: 1941
+Base time: 137 days
+Prerequisites: Centimetric Radar
+Effects:
+Upgrades
+- Coordination: +1%
+- Static anti air hit chance factor: +20%
+- Increases radar station limit to 5 per state
+Enables
+- By Blood Alone Air-Air Radar II airplane module
+- Centimetric Gunnery Radar ship module
+
+Technology:
+FOCUS Monopulse Radar: With monopulse radar we can determine the direction of a target by comparing signals from sevel antennas, improving detection.
+Year: 1942
+Base time: 137 days
+Prerequisites: Phased Array
+Effects:
+Upgrades
+- Coordination: +1%
+- Static anti air hit chance factor: +20%
+- Increases radar station limit to 6 per state
+Enables
+- By Blood Alone Air-Ground Radar II airplane module
+- Integrated Fire Control Radar ship module
+
+## Computing Technology
+
+Technology:
+FOCUS Mechanical Computing: Constructing machines capable of advanced differential analysis will radically change what sort of machine-assisted calculations can be made.
+Year: 1936
+Base time: 275 days
+Prerequisites: Electronic mechanical engineering
+Effects:
+Upgrades
+- Research speed : +4%
+Enables
+- By Blood Alone Bomb Sights I airplane module
+Unlocks
+- La Résistance Machine-Assisted Decryption intelligence agency upgrade
+- La Résistance Machine-Assisted Encryption intelligence agency upgrade
+
+Technology:
+FOCUS Computing Machine: Developing a theoretical groundwork for modern computers and constructing electromechanical machines to start putting them into practice will be the first steps into this realm of possibilities.
+Year: 1938
+Base time: 275 days
+Prerequisites: Mechanical computing
+Effects:
+Upgrades
+- Research speed : +5%
+
+Technology:
+FOCUS Improved Computing Machine: Electronic digital computers can now be made which are programmable. Although still expensive and large, these machines allow for intelligence analysis far beyond human capacity.
+Year: 1940
+Base time: 275 days
+Prerequisites: Computing machine
+Effects:
+Upgrades
+- Research speed : +8%
+Enables
+- No Step Back Stabilizer tank module
+- By Blood Alone Bomb Sights II airplane module
+
+Technology:
+FOCUS Advanced Computing Machine: Beginning to work on computers capable of storing programs and making use of transistors will put us on the path to a Digital Revolution where these machines may be used in nearly any field.
+Year: 1942
+Base time: 275 days
+Prerequisites: Improved computing machine
+Effects:
+Upgrades
+- Research speed : +8%
+
+### Fire Control Systems
+
+Technology:
+FOCUS Basic Fire Control System: All fire of the ship's guns is controlled from a central position, ensuring a tighter grouping of shots and increases accuracy.
+Year: 1936
+Base time: 110 days
+Prerequisites: Mechanical computing
+Effects:
+Enables
+- Director Fire ship module
+
+Technology:
+FOCUS Improved Fire Control System: By entering course, speed and distance of a target, a mechanical computer can accurately predict where the target will be when the next salvo is ready to fire.
+Year: 1936
+Base time: 110 days
+Prerequisites: Computing machine
+Effects:
+Enables
+- Mechanical Rangekeeper ship module
+
+Technology:
+FOCUS Advanced Fire Control System: By entering course, speed and distance of a target, a mechanical computer can accurately predict where the target will be when the next salvo is ready to fire.
+Year: 1936
+Base time: 110 days
+Prerequisites: Improved computing machine
+Effects:
+Enables
+- Ballistic Computer ship module
+
+### Encryption methods
+ La Résistance
+{| class="wikitable"
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Encryption - Polyalphabetical Ciphers: With new methods of communication comes new risks for interception. Rotor cipher machines can be used to allow for rapid, complex encryption.
+| 1938
+| 110 days
+| Computing machine
+|
+Upgrades
+Encryption: +1
+|-
+| FOCUS Encryption - Cyclic Permutations: Limitation in the randomization of cipher machines can be exploited to break the ciphers. By improving the randomness of the rotor mechanics, we can make this kind of cryptanalysis more difficult.
+| 1940
+| 110 days
+| Improved computing machine
+|
+Upgrades
+Encryption: +1
+|-
+| FOCUS Encryption - Pulse-code Modulation: Technological improvements and hard-earned experience allows us to implement more traffic flow security measures in our communication.
+| 1942
+| 110 days
+| Advanced computing machine
+|
+Upgrades
+Encryption: +1
+|}
+
+### Decryption methods
+ La Résistance
+{| class="wikitable"
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Decryption - Frequency Analysis: Cryptanalysis is increasingly becoming an advanced mathematical science. Systems like card catalogs and devices like cyclometers can aid the necessary work.
+| 1938
+| 165 days
+| Computing machine
+|
+Upgrades
+Decryption: +1
+|-
+| FOCUS Decryption - Side-channel Attack: The development of more sophisticated computers allows for new applications of cryptanalysis methods like differencing, which can be used to break advanced cyphers when combined with new hand codebreaking methods.
+| 1940
+| 165 days
+| Improved computing machine
+|
+Upgrades
+Decryption: +1
+|-
+| FOCUS Decryption - Automated Deduction: The increased computation power that improved our cryptanalysis so far threatens to create nearly unbreakable ciphers in the future. To stay ahead, we must be prepared to work more aggressively on gaining inside information on the technology.
+| 1942
+| 165 days
+| Advanced computing machine
+|
+Upgrades
+Decryption: +1
+|}
+
+# Fortification Engineering [verified for 1.16]
+
+{| class="wikitable"
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Basic Fortification: By using stronger materials and metal reinforcements within the structures, we can construct larger fortifications without having to worry about them collapsing.
+| 1936
+| 165 days
+
+|
+Upgrades
+- Maximum land fort level: +1
+- Maximum coastal fort level: +1
+Unlocks
+- Götterdämmerung Stronghold Network
+|-
+| FOCUS Improved Land Forts: By making better use of the land surrounding our fortifications, and incorporating new technology to boot, we can strengthen our existing structures and expand them even further.
+| 1938
+| 165 days
+| Basic Fortification
+|
+Upgrades
+- Maximum land fort level: +1
+Enables
+- Götterdämmerung No Step Back Bunker Emplacement land cruiser module
+|-
+| FOCUS Advanced Land Forts: By learning from past mistakes and reinforcing not only the structure itself, but also its base foundations, we will be able to construct much larger fortifications, that will be able to hold off even the most seasoned enemies.
+| 1940
+| 165 days
+| Improved Land Forts
+|
+Upgrades
+- Maximum land fort level: +1
+|-
+| FOCUS Improved Coastal Fortifications: By making better use of the land surrounding our coastal fortifications, and incorporating new technology to boot, we can strengthen our existing structures and expand them even further.
+| 1936
+| 165 days
+| Basic Fortification
+|
+Upgrades
+- Maximum coastal fort level: +1
+|-
+| FOCUS Advanced Coastal Fortifications: By building our bunkers and fortifications further into the cliff-sides and hills, we can construct even larger complexes that have the ability to repel even the greatest of naval invasion forces.
+| 1940
+| 165 days
+| Improved Coastal Fortifications
+|
+Upgrades
+- Maximum coastal fort level: +1
+|}
+
+# Atomic Research [verified for 1.16]
+
+This tree contains a single research that is required to unlock all current Nuclear Research special projects. Atomic research is also sometimes referred to as Nuclear Technology.
+{| class="wikitable"
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Atomic research: In nuclear fission, splitting the atom yields enormous amounts of energy and limitless destructive capability.
+| 1940
+| 550 days
+
+|
+Upgrades
+- Research speed : +4%
+Unlocks
+- Nuclear Reactor
+|}
+
+# Experimental Rockets [verified for 1.16]
+
+This tree is heavily intertwined with various Aerodynamics and Avionics special projects related to rockets and rocketry. Experimental rockets is also sometimes referred to as Rocketry Technology.
+{| class="wikitable"
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Experimental Rockets: Advancing the science of rocketry by improving the range and reliability of liquid-fuel rockets will teach us enough about the technology to allow the construction of launch sites for more advanced models.
+| 1942
+| 165 days
+
+|
+Enables
+ Rocket Site with a limit of 3 per state
+Unlocks
+- Flying Bomb
+- Ballistic Missile
+- Rocket Interceptor
+
+|-
+| FOCUS Improved Guidance: Advancing the science of rocketry by improving the range and reliability of liquid-fuel rockets will teach us enough about the technology to allow the construction of launch sites for more advanced models.
+| 1943
+| 110 days
+| * Flying Bomb
+- Experimental Rockets
+|
+Upgrades
+- Guided Missiles :
+ - Range: +25%
+- Support rocket artillery , Rocket artillery , Truck-drawn Rocket Artillery , Motorized rocket artillery :
+ - Soft attack: +10%
+Enables
+- With By Blood Alone :
+ - Guided Anti Ship Missile
+|-
+| FOCUS Dual Chamber Rocket Engines: By adding a second combustion chamber to the engine, we can improve flight time and effectiveness of our rocket engines.
+| 1944
+| 165 days
+| * Rocket Interceptor
+- Experimental Rockets
+|
+Enables
+- With By Blood Alone :
+ - Rocket Engine II airplane module
+- Without By Blood Alone :
+ - Rocket Interceptor II
+
+|-
+| FOCUS Advanced Dual Chamber Rocket Engines: Further refinements of the dual combustion engine may lead to even greater improvements in the design's effectiveness.
+| 1946
+| 165 days
+| Dual Chamber Rocket Engines
+|
+Enables
+- With By Blood Alone :
+ - Rocket Engine III airplane module
+- Without By Blood Alone :
+ - Rocket Interceptor III
+
+|-
+| FOCUS Rocket Propelled Bombs: Rocket propelled unguided bombs can inflict considerable damage on ships and similar armoured larger targets.
+| 1944
+| 110 days
+| * By Blood Alone
+- Flying Bomb
+- Experimental Rockets
+|
+Enables
+- Rocket-Propelled Bombs airplane module
+
+|-
+| FOCUS Heavy Rocket Propelled Bombs: Even larger rocket propelled unguided bombs, carrying a heavier payload, able to penetrate their targets even more effectively.
+| 1945
+| 110 days
+| * By Blood Alone
+- Rocket Propelled Bombs
+|
+Enables
+- Heavy Rocket-Propelled Bombs airplane module
+|}
+
+# Secret Techs [verified for 1.16]
+
+These techs are only available for certain countries under the appropriate conditions.
+
+{| class="wikitable"
+! Technology
+! style="width:30em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Decryption Bonus: We will gain +10 Decryption Speed.
+| Can unlock this tech:
+- Argentina via Department of Military Intelligence
+- Brazil via Department of Military Intelligence
+- Chile via Department of Military Intelligence
+- Paraguay via Department of Military Intelligence
+- Uruguay via Department of Military Intelligence
+- Poland via The Cyclometer
+- Iceland via Infiltration
+- United Kingdom via Cryptologic Bomb
+- Dominion of Canada via Camp X
+|
+Upgrades
+- Decryption Power: +10
+|}
+
+# Special Project Techs [verified for 1.16]
+
+These techs are only available by completing special projects.
+
+{| class="wikitable"
+! Technology
+! style="width:30em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Radio Detection: The development of RADAR, Radio Detection and Ranging, allows using radio waves to detect physical objects. Research is highly secretive, considering the impact these inventions could have on locating units.
+| Can unlock this tech:
+- Any country by completing Radar
+|
+Upgrades
+- Coordination: +1%
+Enables
+- Radar Station with a limit of 1 per state
+|-
+| FOCUS Nuclear Bombs: A project to construct an atomic bomb will be one of the most secretive and difficult tasks a nation can undertake, but, if successful, may change not only the course of today's wars but of the future of the world.
+| Can unlock this tech:
+- Any country by completing Nuclear Fission Bomb Project
+|
+Upgrades
+- Nuclear Bomb Production: +0.5
+- If is United States and is at war with Japan, play music A Warning to Japan
+|-
+| Thermonuclear Bombs
+| Can unlock this tech:
+- Any country by completing Thermonuclear Bomb
+|
+Upgrades
+- Thermonuclear Bomb Production: +1
+|-
+| isotope_separation_centrifugal
+| Can unlock this tech:
+- Any country via the Isotope Separation Facilities special project prototype outcome
+|
+Upgrades
+- Nuclear Fission Bomb Project Project Speed: +5%
+- Thermonuclear Bomb Project Speed: +5%
+- Nuclear Bomb Production Rate: +50%
+|}
+
+# References

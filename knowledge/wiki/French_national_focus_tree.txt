@@ -1,0 +1,3150 @@
+TITLE: French national focus tree
+URL: https://hoi4.paradoxwikis.com/French_national_focus_tree
+REVISION: 2026-03-19T09:33:39Z (rev 98949)
+VERIFIED FOR: 1.17
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+France, as one of the seven major powers, gets a unique national focus tree. It gets a rework with the La Résistance expansion adding a non-aligned sub-branch and expanded communist and fascist sub-branches.
+
+French national focus tree. Clicking on the branches leads to the appropriate section.
+
+The French national focus tree can be divided into 5 branches and 7 sub-branches:
+
+- Devalue the Franc Branch
+- This branch offers the possibility to develop Metropolitan France and the overseas colonies, as well as add two more research slots.
+
+- Begin Rearmament Branch
+- This branch focuses either on defensive or offensive expansion of the military. The defensive focuses give army or fortification bonuses while the offensive focuses give army or air bonuses. They end with the shared focus Army Reform which removes the starting national spirit Victors of the Great War .
+
+- Form the Popular Front/Revive the National Bloc Branch
+- This branch develops French industry. The left side of the branch adds factories to various states, completely removes Inefficient Economy and leads to the communist sub-branch. The right side of the branch develops construction speed, manipulates party popularity, and leads to the fascist and non-aligned sub-branch. Both sides lead to the historical democratic sub-branch of the focus tree and Intervention in Spain decisions.
+
+ - Invite Communist Ministers Sub-branch
+- This sub-branch allows France to become Communist , gain manpower and political power. The Reconciliation section gives stability and political power. It leads to the Anti-Fascist coalition section which allies with neighboring or Balkan Communist and Democratic nations and manpower. The Revolution to the Utmost gives war support and a civil war. It leads to the Loyalty to the Cause section which gives war goals against the United Kingdom, Spain, Germany, and Italy. Both the Reconciliation and the Revolution to the Utmost leads to the Loyalty to Moscow section which allows France to join the Comintern. This section and the Anti-Fascist coalition section leads to a focus that gives war goals against all neighboring Fascist nation.
+
+ - Leftist Rhetoric Sub-branch
+- This sub-branch is only available if the La Résistance DLC is not enabled. This allows France to become Communist .
+
+ - The Blum-Viollette Proposal Sub-branch
+- This sub-branch allows France to core Algeria, gain non-core manpower and compliance or lose the national spirit Full Employment. Depending on the choice of the colonies, the French Union focus allows France to annex and core its colonies or increase resistance.
+
+ - Review Foreign Policy Sub-branch
+- This sub-branch allows France to either create the Little Entente with Czechoslovakia, Yugoslavia, Romania, and Poland, support Finland in their war, join the Allies or create the Stresa Front with the United Kingdom and Italy.
+
+ - Utilize the Leagues Sub-branch
+- This sub-branch allows France to become Fascist , gain claims on various nations and make alliances with other European nations. The Latin Entente section allows France to ally with Spain, Portugal, and Italy for French Somaliland, gain claims on Greece and war goals on Germany, Belgium, Luxembourg and the Netherlands. The Towards a New Europe section allows France to join the Axis, gain claims and war goals on Belgium and Canada. Both sections lead to war goals claims and subjugation on the Middle East.
+
+ - The Council of Rambouillet Sub-branch
+- This sub-branch restores the French monarchy from either the House of Orléans (Orléaniste), Bourbon (Légitimistes) or Bonaparte (Bonapartiste). The Orléanist section gives war goals against Germany and Italy. The Légitimist section gives an alliance, an annexation or wargoal on Spain. The Bonapartist section gives war goals against United Kingdom, Belgium, Luxembourg Netherlands, Germany, and the Soviet Union. It also has a focus to split Germany into 7-9 different countries.
+
+ - Right Wing Rhetoric Sub-branch
+- This sub-branch is only available if the La Résistance DLC is not enabled. This allows France to become Fascist .
+
+- Naval Rearmament Branch
+- This branch includes focuses which grant experience and research bonuses that improve the navy.
+
+- Air Focus Branch
+- This branch includes focuses which grant experience and research bonuses that improve the air force.
+
+# Devalue the Franc Branch [verified for 1.17]
+
+Industrial branch of the French national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+Focus:
+FOCUS Devalue the Franc: While other countries allowed their currencies to become less valuable to help their economies, we have steadfastly refused to do so. As a result, our economy is lagging behind others. If we want to become more competitive and weather the coming storm, we must not dismiss a devaluation of our currency out of hand, even if it would prove to be an unpopular measure.
+Prerequisites: None
+Effects:
+France gets the national spirit for 365 days:
+
+Spirit Devalue the Franc: While other countries allowed their currencies to become less valuable to help their economies, we have steadfastly refused to do so. As a result, our economy is lagging behind others. If we want to become more competitive and weather the coming storm, we must not dismiss a devaluation of our currency out of hand, even if it would prove to be an unpopular measure.
+- Consumer Goods Factories: -5%
+- Stability : -5.00%
+
+Focus:
+FOCUS Develop the Metropole: Our first step in rebuilding our industries must be to improve our industrial base in our continental holdings.
+Prerequisites:
+France:
+- Requires the following:
+ - Devalue the Franc
+Effects:
+France:
+- Gain Base Stability : +5.00%
+
+Focus:
+FOCUS Autoroutes: The Germans have awed the world with their concept of limited access, high-speed roads connecting the various parts of their country. We can show the world that we can do just as well.
+Prerequisites:
+France:
+- Requires the following:
+ - Devalue the Franc
+- Any owned state:
+ - Is a core of France
+ - At most 3 Infra
+Effects:
+4 Random owned state that is a core of France and has less than 4 infra :
+- Add 1 infra
+
+Focus:
+FOCUS Develop the Colonies: Our industrial heartlands in Europe don't have the population and resources to sustain a large industrial expansion. If our economy is to be competitive with the rest of the world, we must utilize our colonies.
+Prerequisites:
+France:
+- Requires the following:
+ - Devalue the Franc
+- Any owned state:
+ - Is not a core of France
+ - Is not in Europe
+ - Controlled by France
+Effects:
+Every owned state that is not a core of France, has resistance and is not in Europe:
+- Compliance: +10.0%
+
+Focus:
+FOCUS Invest in Metropolitan France: La Métropole should always come first. We can start by improving our infrastructure to create jobs and enable faster troop deployment.
+Prerequisites:
+France:
+- Requires the following:
+ - Develop the Metropole
+- Any owned state:
+ - Is a core of France
+ - Can build 1 more cic
+Effects:
+2 Random owned cored neighboring states:
+- Add 2 Building Slot
+- Set state flag:
+ - FRA_industrial_expansion_target
+
+Focus:
+FOCUS Invest in Algerian France: Europe is facing dangerous times. We should focus on improving our lands to the south and ensure we can always support the mainland.
+Prerequisites:
+France:
+- Requires one of the following:
+ - Develop the Metropole
+ - Develop the Colonies
+- Any state:
+ - One of the following must be true:
+ - State is 459
+ - State is 460
+ - State is 513
+ - Owner: One of the following must be true:
+ - Country is France
+ - Is a subject of France
+ - Can build 1 more cic
+Effects:
+2 Building Slot and the state flags: FRA_industrial_expansion_target and FRA_colonial_industry_target are added to 2 Random neigboring states that:
+- either
+ - 459
+ - 460
+ - 513
+- does not have the state flags:
+ - FRA_industrial_expansion_target
+ - FRA_colonial_industry_target
+
+Focus:
+FOCUS Invest In West Africa: The vast reserves of workers and resources in western Africa make it a perfect candidate for investment.
+Prerequisites:
+France:
+- Requires the following:
+ - Develop the Colonies
+- Any state:
+ - One of the following must be true:
+ - State is 272 280 556 779 778 781 776 777 \n***State is_
+ - Owner: One of the following must be true:
+ - Country is France
+ - Is a subject of France
+Effects:
+2 Building Slot and the state flag: FRA_colonial_industry_target is added to 1 Random state that:
+- either:
+ - State is 272 280 556 779 778 781 776 777 \n**_
+- Owner is France or the subject of France
+- Does not have the state flag: FRA_colonial_industry_target
+
+Focus:
+FOCUS Invest In Indochina: The long distance between our holdings in Indochina and our heartland may seem like a drawback, but it also protects any industry there from enemy attack.
+Prerequisites:
+France:
+- Requires the following:
+ - Develop the Colonies
+- Any state:
+ - One of the following must be true:
+ - Is a core of Republic of Vietnam
+ - Is a core of Republic of Cambodia
+ - Is a core of Republic of Laos
+ - Controller: One of the following must be true:
+ - Country is France
+ - Is a subject of France
+Effects:
+2 Building Slot and the state flag: FRA_colonial_industry_target is added to 1 Random state that:
+- either:
+ - 741 286 671 670 1017 \n**_
+- Owner is France or the subject of France
+- Does not have the state flag: FRA_colonial_industry_target
+- If Vietnam is a subject of France:
+ - Add -150 autonomy
+- If Cambodia is a subject of France:
+ - Add -150 autonomy
+- If Laos is a subject of France:
+ - Add -150 autonomy
+
+Focus:
+FOCUS Invest In Syria: Syria is perfectly positioned to supply us in case of a war in Europe or Africa. Enhancing its industrial potential will also support our position in the area.
+Prerequisites:
+France:
+- Requires the following:
+ - Develop the Colonies
+- Any state:
+ - One of the following must be true:
+ - Is a core of Syria
+ - Is a core of Lebanon
+ - Controller: One of the following must be true:
+ - Country is France
+ - Is a subject of France
+Effects:
+2 Building Slot and the state flag: FRA_colonial_industry_target is added to 1 Random state that:
+- either:
+ - 677
+ - 680
+ - 554
+ - 553
+- Owner is France or the subject of France
+- Does not have the state flag: FRA_colonial_industry_target
+- If Syria is a subject of France:
+ - Add -150 autonomy
+- If Lebanon is a subject of France:
+ - Add -150 autonomy
+
+Focus:
+FOCUS Industrial Expansion: We need a stronger industrial presence at home. We have plenty of labor ready, but need more factory lines.
+Prerequisites:
+France:
+- Requires one of the following:
+ - Invest in Metropolitan France
+ - Invest in Algerian France
+Effects:
+France:
+- Adds 2 cic to metropolitan states previously invested in:
+ - Every owned state:
+ - Controlled by France
+ - Has state flag: FRA_industrial_expansion_target
+
+Focus:
+FOCUS Colonial Industry: We should focus on our industries in the colonies. Should tensions increase in Europe we will still have an industrial capacity outside the reach of enemy bombers.
+Prerequisites:
+France:
+- Requires one of the following:
+ - Invest in Algerian France
+ - Invest In West Africa
+ - Invest In Indochina
+ - Invest In Syria
+Effects:
+France:
+- Adds 2 cic to every colonial state previously invested in:
+ - Every state:
+ - Controlled by France or a subject
+ - Has state flag: FRA_colonial_industry_target
+
+Focus:
+FOCUS Support the Grandes Écoles: Promising young minds are popping up everywhere. We need to supply them with facilities to conduct their research. Advances in technology can give us the edge where we most need it.
+Prerequisites:
+France:
+- Requires the following:
+ - Industrial Expansion
+- Less than 5 Research Slots
+Effects:
+France:
+- Gain 1 Research Slot.
+
+Focus:
+FOCUS Military Factories: Our war-machine is falling behind in capacity. We need to focus on production of military equipment on home soil to make sure that our forces are constantly given new equipment.
+Prerequisites:
+France:
+- Requires one of the following:
+ - Industrial Expansion
+ - Colonial Industry
+Effects:
+France:
+- Adds 2 building slot and 2 mic to every state previously invested in.
+ - Every owned state:
+ - Controlled by France
+ - Has state flag:
+ - FRA_industrial_expansion_target
+ - FRA_colonial_industry_target
+
+Focus:
+FOCUS Form the National Research Center: Promising young minds are popping up everywhere. We need to supply them with facilities to conduct their research. Advances in technology can give us the edge where we most need it.
+Prerequisites:
+France:
+- Requires the following:
+ - Colonial Industry
+- Less than 5 Research Slots
+Effects:
+France:
+- Gain 1 Research Slot.
+
+Focus:
+FOCUS Global Integration: The British Empire is a finely-tuned system of mutually supporting parts. There is nothing saying that we can't do just as well with our colonies.
+Prerequisites:
+France:
+- Requires the following:
+ - Colonial Industry
+Effects:
+France gets the national spirit:
+
+Spirit Global Investments:
+Resource Gain Efficiency: +10.00%
+
+# Begin Rearmament Branch [verified for 1.17]
+
+Army branch of the French national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+Focus:
+FOCUS Begin Rearmament: The 20-year armistice Marshall Foch predicted in 1919 is rapidly coming to an end, and the world is looking increasingly likely to erupt into war in the next few years. We must be ready.
+Prerequisites:
+France:
+- More than 12% War Support
+Effects:
+France:
+- 2 Random owned cored controlled states:
+ - Add 2 building slot and 2 Mic each
+
+Focus:
+FOCUS Defensive Focus: In times like these, it is best to strengthen our defenses. If there are threats, let them come to us so that we can deal with them on our own land. We have a perfect candidate to lead our army, all we need is your word.
+Prerequisites:
+France:
+- Requires the following:
+ - Begin Rearmament
+- ExclusiveM Mutually exclusive with:
+ - Aggressive Focus
+Effects:
+France:
+- command power : +30
+- Available as Chief of Army:
+ - Maxime Weygand (Army Defense (Expert)):
+ - Division Defense: +10.0%
+
+Focus:
+FOCUS Firepower Kills: The lessons of the Great War were as simple as they were cruel: the days of men fighting one another over open sights are over. Today, killing is done on a mass scale with the most modern weapons at a long range.
+Prerequisites:
+France:
+- Requires the following:
+ - Defensive Focus
+- ExclusiveM Mutually exclusive with:
+ - Methodical Battle
+Effects:
+France gets the national spirit:
+
+Spirit Firepower:
+Towed Artillery: Production Cost : -10.00%
+
+Focus:
+FOCUS Levée en masse: All men and women who can fight will do so. Producing weapons en masse will lower the cost. We will put a rifle in the hands of everyone.
+Prerequisites:
+France:
+- Requires the following:
+ - Firepower Kills
+Effects:
+France:
+- army exp : +5
+- gets the national spirit:
+
+Spirit Levée en masse:
+Infantry Equipment: Production Cost : -10.00%
+
+Focus:
+FOCUS Grande Batterie: Our Artillery will form a single powerful unit to focus fire on specific points. One volley at a time and we will weaken the enemy line and punch our way through if we have to!
+Prerequisites:
+France:
+- Requires the following:
+ - Levée en masse
+Effects:
+France:
+- army exp : +5
+- 1x 100% Research bonus for: Support Artillery
+
+Focus:
+FOCUS Char de Bataille: Battle tanks are the way forward for the French Army. We want to control the battlefield and for this we will need new powerful tanks!
+Prerequisites:
+France:
+- Requires the following:
+ - Grande Batterie
+Effects:
+France:
+- army exp : +5
+- 1x 100% Research bonus for: Heavy Tank models
+
+Focus:
+FOCUS Division Cuirassée: An enterprising officer by the name of de Gaulle has proposed a new kind of division, combining heavy armor with infantry and medium tanks to fight as a combined whole.
+Prerequisites:
+France:
+- Requires the following:
+ - Char de Bataille
+- One of the following must be true:
+ - All of the following must be true:
+ - Has researched Renault B1 (Heavy Tank 1)
+ - Has researched Renault AMC 35 (Medium Tank 1)
+ - All of the following must be true:
+ - Has researched Basic Heavy Tank Chassis
+ - Has researched Basic Medium Tank Chassis
+Effects:
+France:
+- Create French Unit in 16 (capital state)
+- Create French Unit in 16 (capital state)
+
+Focus:
+FOCUS Methodical Battle: Some claim that battle is chaos, but they are fools. A battle is nothing but the methodical application of the right tools based on the overall plan. Plan well, and the enemy's intentions may as well be a historical footnote.
+Prerequisites:
+France:
+- Requires the following:
+ - Defensive Focus
+- ExclusiveM Mutually exclusive with:
+ - Firepower Kills
+Effects:
+France:
+- 2x 65% Cost Reduction for: Land Doctrine
+
+Focus:
+FOCUS Fortification Focus: As critical as our forts have been, we need to find ways to construct them more efficiently. The Maginot line has been a powerful deterrent of enemy forces, we could use the security of more defenses like it.
+Prerequisites:
+France:
+- Requires the following:
+ - Methodical Battle
+Effects:
+France gets the national spirit:
+
+Spirit Fortification Focus: As critical as our forts have been, we need to find ways to construct them more efficiently. The Maginot line has been a powerful deterrent of enemy forces, we could use the security of more defenses like it.
+- Land Fort construction speed: +10.00%
+- Coastal Fort construction speed: +10.00%
+
+Focus:
+FOCUS Alpine Forts: The Italians won't cross the border so easily once we finish covering the Alps with our newly planned line of defense. We will have time to respond and reinforce our position.
+Prerequisites:
+France:
+- Requires the following:
+ - Fortification Focus
+- 735: Controlled by France
+Effects:
+France:
+- Gets event Extention of the Alpine Line
+
+Italy:
+- Gains Alpine Forts ( Opinion of France -50)
+
+Focus:
+FOCUS Extend the Maginot Line: We cannot count on Belgium to hold their ground, if they let enemy armies through we might be in trouble. Extending the Maginot Line is crucial to keeping unwanted armies out of France!
+Prerequisites:
+France:
+- Requires the following:
+ - Alpine Forts
+- 18: Controlled by France
+- 29: Controlled by France
+- 785: Controlled by France
+- Has the national spirit Protected by the Maginot Line
+Effects:
+France:
+- Gets event Extention of the Maginot Line
+
+Belgium:
+- Gains Extend the Maginot Line ( Opinion of France -50)
+- Gains Extend the Maginot Line ( Opinion of Germany +25)
+
+Focus:
+FOCUS Infantry Tanks: Whatever else, the first and last duty of tanks is to enable infantry to take and hold ground. Therefore, we must always equip our infantry units with modern, capable tanks.
+Prerequisites:
+France:
+- Requires the following:
+ - Defensive Focus
+ - Aggressive Focus
+Effects:
+France:
+- If the DLC Arms Against Tyranny is enabled:
+ - Renault: Funds: +2000
+- Otherwise:
+ - Available as Design Company:
+ - Hotchkiss (Infantry Tank Designer):
+ - Armor Research Speed: +15
+ - Armor:
+ - Soft Attack: +5%
+ - Armor: +5%
+
+Focus:
+FOCUS Special Forces: In the future, the war will increasingly be fought in areas where the regular infantryman will meet his limit. We must create new and more capable formations that can perform in these conditions.
+Prerequisites:
+France:
+- Requires the following:
+ - Infantry Tanks
+Effects:
+gets the national spirit:
+
+Spirit Special Forces: We have need of elite forces; mountain troops and paratroopers should be our priority.
+Special Forces Capacity Multiplier: +2.0%
+
+- Adds 1 free Special Forces Branch Specialism
+
+Focus:
+FOCUS Fusiliers Marins: The days of coasts as impenetrable defenses are over. In the future, we must be able to take the fight to the enemy, wherever they may be, and seize a landing ground against any opposition.
+Prerequisites:
+France:
+- Requires the following:
+ - Special Forces
+Effects:
+France:
+- 2x 50% Research bonus for: Transport models and Marine technology
+- If the DLC Arms Against Tyranny is enabled:
+- 2x Cost reduction for: Special Forces Doctrine
+
+Focus:
+FOCUS Aggressive Focus: We cannot sit idly by as enemies move in on our borders. And we cannot leave our allies to fend for themselves in a war scenario. Prepare our army! Gamelin is the man for the job.
+Prerequisites:
+France:
+- Requires the following:
+ - Begin Rearmament
+- ExclusiveM Mutually exclusive with:
+ - Defensive Focus
+Effects:
+France:
+- Army Exp : +25
+- Available as Chief of Army:
+ - Maurice Gamelin (Army Offense (Expert)):
+ - Division Attack: +10.0%
+
+Focus:
+FOCUS Battle of Maneuver: The old notion of a battlefield as a small area in which armies clash is dead. With mass-motorization, airplanes and fast radio communications, battles move fast over hundreds of kilometers. The sooner we prepare for this, the better.
+Prerequisites:
+France:
+- Requires the following:
+ - Aggressive Focus
+- ExclusiveM Mutually exclusive with:
+ - Air Dominance
+Effects:
+France:
+- Available as Theorist:
+ - Charles de Gaulle (Blitzkrieg Theorist):
+ - Land Doctrine Research Speed: +10%
+ - Armor: Max Speed: +10%
+ - Army Exp Gain: +0.05 daily
+
+Focus:
+FOCUS Motorized Focus: Finding better ways to build our infantry vehicles will help our ability to support and reinforce the front lines.
+Prerequisites:
+France:
+- Requires the following:
+ - Battle of Maneuver
+Effects:
+France:
+- Army Exp : +5
+- gets the national spirit:
+
+Spirit Motorized Focus: Finding better ways to build our infantry vehicles will help our ability to support and reinforce the front lines.
+Motorized: Production Cost : -10.00%
+
+Focus:
+FOCUS Mechanized Focus: Armored vehicles play an increasingly important role in the war. While slightly less intimidating than your average tank, they give us an edge in communication, command, transport and urban warfare.
+Prerequisites:
+France:
+- Requires the following:
+ - Motorized Focus
+Effects:
+France:
+- Army Exp : +5
+- 1x 100% Research bonus for: Mechanized models.
+
+Focus:
+FOCUS Automitrailleuses: By law, the Infantry control all tank forces. The lighter, faster cavalry 'vehicles' or Automitrailleuses are better suited for travel and can still deal some damage with their mounted weapons.
+Prerequisites:
+France:
+- Requires the following:
+ - Mechanized Focus
+Effects:
+France:
+- Army Exp : +5
+- 1x 100% Research bonus for: Light Tank models and Medium Tank models.
+
+Focus:
+FOCUS Air Dominance: The development of the airplane has created a third flank for the army to worry about. We must secure this flank or face catastrophe.
+Prerequisites:
+France:
+- Requires the following:
+ - Aggressive Focus
+- ExclusiveM Mutually exclusive with:
+ - Battle of Maneuver
+Effects:
+France gets the national spirit:
+
+Spirit Air Dominance: The development of the airplane has created a third flank for the army to worry about. We must secure this flank or face catastrophe.
+- Fighter: Production Cost : -10.00%
+- Close Air Support: Production Cost : -10.00%
+
+Focus:
+FOCUS CAS Focus: Planes which provide support for our land forces and ships have been a very efficient addition at a relatively small investment. These planes now have several suggested improvements. Our engineers can develop the next generation of support aircraft.
+Prerequisites:
+France:
+- Requires the following:
+ - Air Dominance
+Effects:
+France:
+- 2x 100% Research bonus for: Close Air Support models.
+
+Focus:
+FOCUS Air-Ground Cooperation: Fighting in the air only ever creates actual military results if it is in pursuit of an objective on the ground. The better we integrate the battle in the air and the battle on the ground, the more effective we become.
+Prerequisites:
+France:
+- Requires the following:
+ - CAS Focus
+Effects:
+France:
+- 2x 50% Cost Reduction for: Air Doctrine.
+
+Focus:
+FOCUS Flying Artillery: In the fast-moving battles of today, the slow artillery pieces on the ground might not be able to keep up. Airplanes carrying bombs can take over their role.
+Prerequisites:
+France:
+- Requires the following:
+ - Air-Ground Cooperation
+Effects:
+France gets the national spirit:
+
+Spirit Flying Artillery: In the fast-moving battles of today, the slow artillery pieces on the ground might not be able to keep up. Airplanes carrying bombs can take over their role.
+- Tactical Bomber: Ground Attack: +15%
+- Close Air Support: Ground Attack: +15%
+
+Focus:
+FOCUS Army Reform: No infantry unit or high tech tank alone will win us the war. We must put our efforts into developing both our tactical and strategical capabilities. With the right people on the job we can evolve as an army.
+Prerequisites:
+France:
+- Requires one of the following:
+ - Char de Bataille
+ - Extend the Maginot Line
+ - Automitrailleuses
+ - Flying Artillery
+- Does not have national spirit Disjointed Government
+Effects:
+France:
+- loses the national spirit Victors of the Great War
+France:
+- army exp : +10
+- 2x 50% Cost Reduction for: Land Doctrine
+- If the DLC Arms Against Tyranny is enabled:
+ - Renault: Funds: +2000
+- Otherwise:
+- Available as Design Company:
+ - AMX (Mobile Tank Designer)
+ - Armor Research Speed: +15
+ - Armor:
+ - Max Speed: +5%
+ - Reliability: +5%
+
+# Form the Popular Front/Revive the National Bloc Branch [verified for 1.17]
+
+Political/ industrial branch of the French national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+Focus:
+FOCUS Form the Popular Front: With the rise of fascism in Germany and Italy, it has become clear that the infighting on the left has to stop if our cause is to survive. A broad, popular front made up of all the parties on the left will have the popular mandate to finally address the economic conditions that create fascism.
+Prerequisites:
+France:
+- ExclusiveM Mutually exclusive with:
+ - Revive the National Bloc
+Effects:
+France:
+- Léon Blum becomes leader for the Democratic party
+ - Reluctant Interventionist
+ - Stability : +5.00%
+ - Lend-lease tension limit: -20.0%
+ - Stout Defender
+ - AI Modifier: Focus on Defense: +50.0%
+
+Focus:
+FOCUS Reform the Labour Laws: The workers of France labour under harsh conditions, with low pay and few benefits. It is time to implement a comprehensive suite of reforms to improve their lot.
+Prerequisites:
+France:
+- Requires the following:
+ - Form the Popular Front
+Effects:
+France:
+- gets the national spirit:
+
+Spirit Matignon Agreements:
+- Consumer Goods Factories: 5%
+- Stability : +10.00%
+- Factory Output : -10.00%
+- Dockyard Output : -10.00%
+
+- loses the national spirit Factory Strikes
+
+Focus:
+FOCUS Nationalize Key Industries: In the present situation, we must not shy away from radically restructuring our economy to meet the oncoming threat. Time is short - we can not wait for the free market to solve the issue.
+Prerequisites:
+France:
+- Requires the following:
+ - Reform the Labour Laws
+Does not have the national spirit Inefficient Economy
+Effects:
+France:
+- Modify the national spirit Inefficient Economy by:
+
+Spirit Inefficient Economy: While still a major industrialized country, France has been left behind in terms of concentration of production capabilities. Major reforms are needed to make our economy more competitive in the global scale.
+Effective Change:
+- Factory Output : +10.00%
+- Dockyard Output : +10.00%
+
+Focus:
+FOCUS Reorganize the Aviation Industry: Split into dozens of tiny companies, our aviation industry is decades behind the industry in Germany and the US. Radical restructuring is needed.
+Prerequisites:
+France:
+- Requires the following:
+ - Nationalize Key Industries
+Effects:
+France:
+- Random owned controlled state (prioritize 16 24 15 20 31):
+ - Is core of France
+ - Fully controlled by France
+ - Can build 1 more mic
+ - Add 2 Building Slots
+ - Add 2 mic
+- Unlocks Decision: Reorganize Aviation Industry in the North
+- Unlocks Decision: Reorganize Aviation Industry in the West
+- Unlocks Decision: Reorganize Aviation Industry in the Center
+- Unlocks Decision: Reorganize Aviation Industry in the South-East
+- Unlocks Decision: Reorganize Aviation Industry in the South-West
+
+Focus:
+FOCUS Form the State Arsenals: To supply our army with modern weapons, we can not wait until private companies have developed the necessary production capacities.
+Prerequisites:
+France:
+- Requires the following:
+ - Nationalize Key Industries
+Effects:
+France:
+- Random controlled cored state:
+ - Add 2 Building Slot
+ - Add 2 mic
+- Random controlled cored state:
+ - Add 2 Building Slot
+ - Add 2 mic
+- If the DLC Arms Against Tyranny is enabled:
+ - Available as Military Industrial Organization:
+ - AMX (Standardized Production)
+ - AMX Gain +1 Size
+
+Focus:
+FOCUS General Work Council: We will create a national agency to handle disputes between employers and employees, and to ensure that our workers are employed in the most efficient manner possible.
+Prerequisites:
+France:
+- Requires the following:
+ - Reorganize the Aviation Industry
+ - Form the State Arsenals
+Does not have the national spirit Inefficient Economy
+Effects:
+France:
+- loses the national spirit Inefficient Economy.
+
+Focus:
+FOCUS Dirigisme: While the full-on planned economy of the Soviet model is clearly too extreme a measure, a certain measure of planning and direction is needed to optimize our economy.
+Prerequisites:
+France:
+- Requires the following:
+ - General Work Council
+Effects:
+France gets the national spirit:
+
+Spirit Dirigisme: While the full-on planned economy of the Soviet model is clearly too extreme a measure, a certain measure of planning and direction is needed to optimize our economy.
+- cic to mic cost : -50.00%
+- Economy Laws Cost: -50%
+
+Focus:
+FOCUS National Champions: By selecting a few companies that have the potential to compete on a global level and supporting them to the highest degree, we can create a modern economy that is the equal of any other.
+Prerequisites:
+France:
+- Requires the following:
+ - General Work Council
+Effects:
+France:
+- Random owned controlled cored state:
+ - Add 2 Building Slot
+ - Add 2 mic
+- Random owned controlled cored state:
+ - Add 2 Building Slot
+ - Add 2 mic
+- Random owned controlled cored state:
+ - Add 2 Building Slot
+ - Add 2 cic
+- Random owned controlled cored state:
+ - Add 2 Building Slot
+ - Add 2 cic
+
+Focus:
+FOCUS Ban the Leagues: The far-right leagues have been allowed to organize unchecked. While they are currently too weak to try a coup, there is no telling of what they might be able to do in the future. Best to dissolve them now.
+Prerequisites:
+France:
+- Requires the following:
+ - Form the Popular Front
+- Has the national spirit Political Violence
+Effects:
+France:
+- loses the national spirit Political Violence
+- Gain Base Stability : (Popularity of neutrality + Popularity of fascism ) x -0.5
+
+Focus:
+FOCUS Intervention in Spain: The civil war in Spain has brought the clash between ideologies to our very doorstep. We must tread carefully, lest the conflict spill over into our country.
+Prerequisites:
+France:
+- Requires one of the following:
+ - Form the Popular Front
+ - Revive the National Bloc
+- The Spanish Civil War has begun
+- Not: The Spanish Civil War has ended
+- Is fully independent
+Effects:
+France:
+- Unlocks Intervention in the Spanish Civil War Decisions.
+
+Focus:
+FOCUS Revive the National Bloc: The political landscape is growing more and more radical by the day. The left whispers of making common cause with the communists. What is needed now is strong, stable leadership.
+Prerequisites:
+France:
+- ExclusiveM Mutually exclusive with:
+ - Form the Popular Front
+Effects:
+France:
+- The Current country leader gains:
+ - Tenacious Negotiator
+ - Political Power Gain: +10%
+ - Trade deal opinion factor: +25.00%
+
+Focus:
+FOCUS Ban Communism: While it is inconceivable that anyone could seriously want to visit the chaos and bloodshed of a communist revolution upon their own fatherland, it appears that there are some amongst us who would do just that. We can not allow them to conspire agaist the state any longer. The harshest measures must be taken.
+Prerequisites:
+France:
+- Requires the following:
+ - Revive the National Bloc
+- Has the national spirit Political Violence
+- Current ruling party is not Communist
+Effects:
+France:
+- gets the national spirit:
+
+Spirit Communism Banned:
+Daily Communism Support: -0.25
+
+- Gain base Stability : Popularity of communism x -0.25
+- loses the national spirit Political Violence
+
+Focus:
+FOCUS Laissez-Faire: The Communists openly talk about remodelling the economic structure of our country in some radical way, of depriving the hard-working man of his rightful property. Against this, we will set the simple notion of freedom. A dynamic economy will always outperform a leftist nightmare of strangulating red tape.
+Prerequisites:
+France:
+- Requires the following:
+ - Revive the National Bloc
+- ExclusiveM Mutually exclusive with:
+ - Agricultural Protectionism
+Effects:
+France:
+- 3x 150% Research bonus for: Industry
+- Our economy will become more efficient after a period of about two years.
+
+Focus:
+FOCUS Protect the Rights of Man: They may never say it openly, but it is obvious to anyone with eyes to see: curtailing the right to property is just the first step to eliminating all the rights our proud ancestors fought so hard for. We will not have it!
+Prerequisites:
+France:
+- Requires one of the following:
+ - Laissez-Faire
+ - Agricultural Protectionism
+Effects:
+France:
+- Gain Base Stability : +5.00%
+
+Focus:
+FOCUS Freedom Front: When faced with the chaos and upheaval the communists promise, one must be willing to make alliances with other parties, even those that one might find personally reprehensible.
+Prerequisites:
+France:
+- Requires the following:
+ - Protect the Rights of Man
+Effects:
+France:
+- If the focus Utilize the Leagues is not complete:
+ - Change in popularity of Democracy : Popularity of Fascism
+ - Change in popularity of Fascism : above variable x -1
+- Otherwise:
+ - Change in popularity of Fascism : Popularity of Democracy x 0.3
+ - Change in popularity of Democracy : above variable x -1
+- If have the national spirit Political Violence:
+ - Gets event Protests descend into violence
+
+Focus:
+FOCUS Agricultural Protectionism: The world economy has grown more and more hostile to our traditional ways of production. If we do not take measures to protect our farmers, we will soon face a crisis of untold proportions as our farmers are unable to remain competitive in the face of mass-produced foodstuffs coming in from overseas.
+Prerequisites:
+France:
+- Requires the following:
+ - Revive the National Bloc
+- ExclusiveM Mutually exclusive with:
+ - Laissez-Faire
+Effects:
+France gets the national spirit:
+
+Spirit Agricultural Protectionism: The world economy has grown more and more hostile to our traditional ways of production. If we do not take measures to protect our farmers, we will soon face a crisis of untold proportions as our farmers are unable to remain competitive in the face of mass-produced foodstuffs coming in from overseas.
+cic Construction speed: +7.50%
+
+Focus:
+FOCUS Economic Devolution: It is absurd to think that some bureaucrat in Paris knows what is best for a company in Bordeaux. We must trust our entrepeneurs and empower them to create their own solutions.
+Prerequisites:
+France:
+- Requires one of the following:
+ - Laissez-Faire
+ - Agricultural Protectionism
+Does not have the national spirit Inefficient Economy
+Effects:
+France:
+- Modify the national spirit Inefficient Economy by:
+
+Spirit Inefficient Economy: While still a major industrialized country, France has been left behind in terms of concentration of production capabilities. Major reforms are needed to make our economy more competitive in the global scale.
+Effective Change:
+- Factory Output : +10.00%
+- Dockyard Output : +10.00%
+
+Focus:
+FOCUS Promote Entrepeneurship: The beating heart of a dynamic market has always been the individual who, upon seeing an opportunity, moves quickly to exploit it. In recent years, this spirit has been smothered with unnecessary regulations. We should roll them back.
+Prerequisites:
+France:
+- Requires the following:
+ - Economic Devolution
+Effects:
+France gets the national spirit:
+
+Spirit Entrepeneurship:
+- mic construction speed: +5.00%
+- nic construction speed: +5.00%
+
+Focus:
+FOCUS Stimulate the Dynamic Market: The dynamic market has been proven to be the most efficient form of economic organization. But it is still run by humans, and human beings sometimes need some reassurances that their hard work will not be in vain. By legislating away some restrictions and giving guarantees, we can help investors overcome their fears and help stimulate our economy.
+Prerequisites:
+France:
+- Requires one of the following:
+ - Freedom Front
+ - Promote Entrepeneurship
+Effects:
+France gets the national spirit:
+
+Spirit Market Dynamism:
+- Industrial Research Speed: +5%
+- Production Efficiency Cap : +10.00%
+- Production Efficiency Growth : +10.00%
+
+## Invite Communist Ministers Sub-branch [verified for 1.17]
+
+ La Résistance
+
+Communist branch of the French national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+Focus:
+FOCUS Invite Communist Ministers: Fear of backlash from the radical right prevented the inclusion of the communists in the actual government. But fear is a poor adviser. If we must have this clash, let them come.
+Prerequisites:
+France:
+- Requires the following:
+ - Form the Popular Front
+- Has not completed focus Review Foreign Policy
+- Is fully independent
+Current ruling party is Communist
+Effects:
+France:
+- If have the national spirit Political Violence:
+ - Gets event Protests descend into violence
+- Change in popularity of Communism : 5.00%
+- Gain base Stability : Popularity of Communism x 0.25
+
+Focus:
+FOCUS Strengthen the Unions: For far too long, the individual worker's right to band together with his comrades to bargain collectively has been left open to attack. No more.
+Prerequisites:
+France:
+- Requires the following:
+ - Invite Communist Ministers
+- Is fully independent
+Current ruling party is Communist
+Effects:
+France:
+- Change in popularity of Communism : 5.00%
+- If have the national spirit Political Violence:
+ - Gets event Protests descend into violence
+
+Focus:
+FOCUS Women's Suffrage: It is as absurd as it is shameful that the hard-working women of France, who time and time again have fought on the barricades to earn their rights, are not permitted to cast their vote in elections. We will eradicate this injustice.
+Prerequisites:
+France:
+- Requires the following:
+ - Invite Communist Ministers
+- Is fully independent
+Effects:
+France gets the national spirit:
+
+Spirit Women's Suffrage: It is as absurd as it is shameful that the hard-working women of France, who time and time again have fought on the barricades to earn their rights, are not permitted to cast their vote in elections. We will eradicate this injustice.
+Daily Political Power Gain: +0.25
+
+- Change in popularity of Communism : 5.00%
+
+Focus:
+FOCUS Celebrate the Commune: Short-lived though it may have been, the Paris Commune was the first attempt to create a communist society on French soil.
+Prerequisites:
+France:
+- Requires the following:
+ - Strengthen the Unions
+- Is fully independent
+Current ruling party is Communist
+Effects:
+France:
+- Change in popularity of Communism : 5.00%
+
+Focus:
+FOCUS Industrial Collectivization: The French economy today consists of tiny companies with few employees, forever competing against each other and sucking up resources in inefficient small-scale production. We will combine these small companies to finally create companies that can compete on the world stage.
+Prerequisites:
+France:
+- Requires the following:
+ - Strengthen the Unions
+ - Women's Suffrage
+Any owned state:
+- Is not a core of France
+- Not controlled by France
+- Cannot build 1 more Cic
+Effects:
+Random owned cored controlled state:
+- Add 2 building slot
+- Add 2 cic
+
+Focus:
+FOCUS Agricultural Collectivization: What applies to industry applies just as much to the farmers all across France. Tiny farms can't afford modern equipment, largely working as their great-grandfathers had. By combining them into agricultural production units, we will increase efficiency and output.
+Prerequisites:
+France:
+- Requires the following:
+ - Industrial Collectivization
+Effects:
+France gets the national spirit:
+
+Spirit Agricultural Collectivization: What applies to industry applies just as much to the farmers all across France. Tiny farms can't afford modern equipment, largely working as their great-grandfathers had. By combining them into agricultural production units, we will increase efficiency and output.
+manpower Factor: 15%
+
+- If has more than 40% popularity of Neutrality and Fascism :
+ - Gain Base Stability : -5.00%
+
+Focus:
+FOCUS Legal Equality: In every way that matters, women are still considered second-class citizens, always subject to a man's will. This nonsense ends now.
+Prerequisites:
+France:
+- Requires the following:
+ - Women's Suffrage
+- is fully independent
+Effects:
+France:
+- If have the national spirit Political Violence:
+ - Gets event Protests descend into violence
+- Change in popularity of Communism : 5.00%
+
+Focus:
+FOCUS Force the Issue: We have come far since we formed the Popular Front. But we can not leave our work half-done. It is time for everyone on the left to make a choice and take a stand - either with the revolution or against it.
+Prerequisites:
+France:
+- Requires one of the following:
+ - Celebrate the Commune
+ - Legal Equality
+- Is fully independent
+- More than 45% support for Communist
+Current ruling party is Communist
+Effects:
+France:
+- Gain Base Stability : Popularity of Democracy x -0.25
+- The stability penalty depends on the popularity of the Democratic Parties.
+- Politics will change:
+ - Communist becomes the ruling party.
+ - Public elections will not be held.
+- loses the national spirit Disjointed Government
+
+Focus:
+FOCUS Reconciliation: In the past, the French revolutions all too often hurled the country into endless spasms of revolutionary and counter-revolutionary terror. Perhaps it is time to build a republic in which everyone has their place, whether they supported the revolution or not.
+Prerequisites:
+France:
+- Requires the following:
+ - Force the Issue
+- ExclusiveM Mutually exclusive with:
+ - Revolution To the Utmost
+Effects:
+France:
+- Gain Base Stability : +10.00%
+
+Focus:
+FOCUS Constitutional Convention: A fundamental shift in the nature of our republic can not be done overnight, and it can not be done without negotiating a new constitution.
+Prerequisites:
+France:
+- Requires the following:
+ - Reconciliation
+Effects:
+France:
+- Political Power : +120
+
+Focus:
+FOCUS Anti-Fascist Coalition: The biggest threat to the march of progress is the spread of reactionary fascism. We must stand with every country that is willing to combat this threat, or there will not be a tomorrow for any of us.
+Prerequisites:
+France:
+- Requires the following:
+ - Constitutional Convention
+- ExclusiveM Mutually exclusive with:
+ - Loyalty To Moscow
+ - Loyalty To the Cause
+Is in Faction
+Effects:
+France:
+- René Nicod becomes leader for the Communist party
+ - René Nicod gains Reluctant Veteran
+ - Manpower factor: 5%
+ - War Support : +5.00%
+- The communist party will now be called Union populaire français
+If:
+- There are no faction leaders that are Communist or Democratic :
+ - Set the rule: Can create Factions
+ - Create faction: Anti-Fascist Coalition
+ - Every neighboring country that is not in a faction and is either Communist or Democratic :
+ - Gets the event France invites Country to the Anti-Fascist Coalition
+Otherwise:
+- If a neighboring country is a Communist Faction leader:
+ - They get the event France seeks to join the Faction
+Otherwise:
+- If a neighboring country is a Democratic Faction leader:
+ - They get the event France seeks to join the Faction
+
+Focus:
+FOCUS Invite Anti-Fascist Immigrants: The first step every fascist regime takes is to exile its critics and the people who could present an alternative vision of how the country could be organized. However, these people are also perfectly suited to form a government-in-exile to prepare for the day their country is liberated.
+Prerequisites:
+France:
+- Requires the following:
+ - Anti-Fascist Coalition
+- Is fully independent.
+Effects:
+France gets the national spirit:
+
+Spirit Anti-Fascist Immigrants:
+Weekly Manpower : +1000
+- Research Speed: +5.00%
+
+Focus:
+FOCUS Reconnect To the Balkans: France has long sought to counter-balance the powers of central Europe by reaching out to the countries of the Balkans. This connection is still there, even if it has been allowed to lapse more recently.
+Prerequisites:
+France:
+- Requires the following:
+ - Invite Anti-Fascist Immigrants
+- Is fully independent.
+Effects:
+The following countries, if they exist, are not in a faction, are not a subject, are at peace with France and are either Communist or Democratic :
+- Yugoslavia
+- Hungary
+- Romania
+- Greece
+- Czechoslovakia
+- Bulgaria
+- Albania
+- Serbia
+- Slovenia
+- Republic of Montenegro
+- Bosnia
+- Herzegovina
+- Macedonia
+- Independent State of Croatia
+- Transylvania
+- If France is a faction leader:
+ - The above countries get the event France invites Country to the Anti-Fascist Coalition
+- Otherwise:
+- If France is in a faction with another country who is faction leader:
+ - The above countries get the event France invites Country to the Anti-Fascist Coalition
+
+Focus:
+FOCUS Loyalty To Moscow: The model of Socialism practiced in the Soviet Union might not be perfect, but it is beyond any reasonable doubt that the Soviet Union has achieved the highest degree of implementation of socialist ideas. We would be fools to try and find our own way.
+Prerequisites:
+France:
+- Requires one of the following:
+ - Constitutional Convention
+ - Destroy the Counter-Revolution
+- ExclusiveM Mutually exclusive with:
+ - Anti-Fascist Coalition
+ - Loyalty To the Cause
+- At peace with Soviet Union
+- Soviet Union: Current ruling party is Communist
+- One of the following must be true:
+ - Is fully independent
+ - IS a subject of Soviet Union
+Is in Faction with Soviet Union
+Effects:
+Soviet Union or the leader of the faction that the Soviet Union is in:
+- Gets event: France seeks to join the Comintern
+
+Focus:
+FOCUS League of French Bolshevik Volunteers: When one socialist country is under threat by a foreign invader, all socialist countries are under threat. We must not sit idly by while our comrades fight for their lives.
+Prerequisites:
+France:
+- Requires the following:
+ - Loyalty To Moscow
+Effects:
+France gets the national spirit:
+
+Spirit League of French Bolshevik Volunteers: When one socialist country is under threat by a foreign invader, all socialist countries are under threat. We must not sit idly by while our comrades fight for their lives.
+Max volunteer force divisions: +3
+
+Focus:
+FOCUS Host the German Exiles: Germany, the home of Marx and Engels, was once at the forefront of communist thought and practice. Many German communists fled when the Nazis took power. If we give them a home, they can help us organize a more effective government of liberated territories.
+Prerequisites:
+France:
+- Requires the following:
+ - League of French Bolshevik Volunteers
+- Germany: Current ruling party is not Communist
+Effects:
+France:
+- Gains Host the German Exiles When dealing with Germany
+ - Daily Compliance Gain: +0.25%
+
+Focus:
+FOCUS Pre-Empt the Fascist Attack: Why should we allow the enemy to prepare in peace and pick the moment that the inevitable attack happens when it best suits them? We will strike first, and crush this threat before it has time to get ready.
+Prerequisites:
+France:
+- Requires one of the following:
+ - Reconnect To the Balkans
+ - Host the German Exiles
+- Any neighbor country:
+ - Current ruling party is Fascist
+ - At peace with France
+ - Is not in Faction with France
+Effects:
+France:
+- Gains Topple Government cb against every neighboring Fascist country that:
+ - does not have a Non-Aggression Pact with France
+ - Is not guaranteed by France
+ - Is not in faction with France
+ - Is not at war with France
+
+Focus:
+FOCUS Revolution To the Utmost: A revolution left half-finished is not a revolution at all. We must not stop until the deed is done and the new political system is safe. Whatever the cost.
+Prerequisites:
+France:
+- Requires the following:
+ - Force the Issue
+- ExclusiveM Mutually exclusive with:
+ - Reconciliation
+Effects:
+France:
+- Gain Base War Support : +10.00%
+
+Focus:
+FOCUS Destroy the Counter-Revolution: Even now, some people in France prepare to stab the dagger into the back of their own people when they show even a second of weakness. We will not let them, and will strike first.
+Prerequisites:
+France:
+- Requires the following:
+ - Revolution To the Utmost
+- Is fully independent
+Effects:
+France:
+- The Fascist supporters start a civil war:
+ - Size of the civil war is based on: (Popularity of fascism + Popularity of neutrality ) x 0.5
+- Politics will change:
+ - Communist becomes the ruling party.
+ - Public elections will not be held.
+
+Focus:
+FOCUS Loyalty To the Cause: Other countries may formulate their own visions of Communism, but there is no reason why we should compromise on ours. They may have stopped half-way, beset by doubt over whether the end justified the means. We won't.
+Prerequisites:
+France:
+- Requires the following:
+ - Destroy the Counter-Revolution
+- ExclusiveM Mutually exclusive with:
+ - Anti-Fascist Coalition
+ - Loyalty To Moscow
+- Is fully independent
+Effects:
+France:
+- René Nicod becomes leader for the Communist party
+ - René Nicod gains Proletariat Internationalist
+ - Non-core Manpower : 2.50%
+ - War Support : +5.00%
+- The communist party will now be called Union populaire français
+- Set the rule: Can Create Factions.
+- Create Faction: Paris Accords
+- Jacques Duclos becomes an operative
+
+Focus:
+FOCUS Carry the Revolution North: Across the Channel lies the birthplace of the industrial revolution, and with it, the home of modern capitalism. We can not allow this place to become the springboard for a counter-revolutionary enemy.
+Prerequisites:
+France:
+- Requires the following:
+ - Loyalty To the Cause
+- Is fully independent
+United Kingdom: One of the following must be true:
+- Does not exist
+- Is at war with France
+- Is a subject of France
+- Is in Faction with France
+- Current ruling party is Communist
+Effects:
+France:
+- Gains Topple Government cb against United Kingdom
+- Unlocks an Espionage Operation:
+ - Instigate Workers Revolution in Britain
+
+Focus:
+FOCUS Carry the Revolution West: The regimes of the Iberian peninsula are hanging on by a thread, ready to be swept away by a popular revolution. We will sever that thread.
+Prerequisites:
+France:
+- Requires the following:
+ - Carry the Revolution North
+- Is fully independent
+Any neighboring country:
+- Original country is Spain
+- Current ruling party is Communist
+Effects:
+France:
+- Gains Topple Government cb against Spain or any surviving non-communist factions of the Spanish Civil War
+- Unlocks an Espionage Operation:
+ - Instigate Workers Revolution in Spain
+
+Focus:
+FOCUS Carry the Revolution East: At our eastern border lies the biggest threat to our new order. The reactionary forces assembled there will strike when we can least afford it - but only if we give them the time to prepare for it.
+Prerequisites:
+France:
+- Requires the following:
+ - Carry the Revolution North
+- Is fully independent
+- Germany: Current ruling party is not Communist
+Germany: One of the following must be true:
+- Does not exist
+- Is in Faction with France
+- Is a subject of France
+- Is at war with France
+- Current ruling party is Communist
+Effects:
+France:
+- Gains Topple Government cb against Germany
+- Unlocks an Espionage Operation:
+ - Instigate Workers Revolution in Germany
+
+Focus:
+FOCUS Carry the Revolution South: The first country to fall to fascism was Italy. As a result, the ideology is firmly entrenched in Italy. Our world-views can not peacefully coexist. They know this as well as we do, and will no doubt prepare to act. So must we.
+Prerequisites:
+France:
+- Requires the following:
+ - Carry the Revolution West
+ - Carry the Revolution East
+- Italy
+ - One of the following must be true:
+ - Current ruling party is Fascist
+ - Current ruling party is Non-Aligned
+ - Is a Democracy
+- Is fully independent
+Italy: One of the following must be true:
+- Does not exist
+- Is at war with France
+- Is in Faction with France
+- Is a subject of France
+- Current ruling party is not Fascist
+- Current ruling party is not Non-Aligned
+- Is not a Democracy
+Effects:
+France:
+- Gains Topple Government cb against Italy
+- Unlocks an Espionage Operation:
+ - Instigate Workers Revolution in Italy
+
+Focus:
+FOCUS Egalité, Liberté, Solidarité: The first French Revolution swept away regimes that had lasted for a millennia, and changed the landscape of Europe forever. We will finish what they started.
+Prerequisites:
+France:
+- Requires the following:
+ - Carry the Revolution South
+Effects:
+France gets the national spirit:
+
+Spirit Egalité, Liberté, Solidarité: The first French Revolution swept away regimes that had lasted for a millennia, and changed the landscape of Europe forever. We will finish what they started.
+- Division Attack on core territory: +10.0%
+- Division Defense on core territory: +10.0%
+- Factory Output : +10.00%
+- Dockyard Output : +10.00%
+
+Focus:
+FOCUS Revolutionary Zeal: The French people have always possessed a particular fervor for eradicating the old order and raising up the new. This should not be discouraged.
+Prerequisites:
+France:
+- Requires the following:
+ - Destroy the Counter-Revolution
+Effects:
+France gets the national spirit:
+
+Spirit Revolutionary Zeal: The French people have always possessed a particular fervor for eradicating the old order and raising up the new. This should not be discouraged.
+- Division Attack: +10.0%
+- Division Defense on core territory: +10.0%
+
+## Leftist Rhetoric Sub-branch [verified for 1.17]
+
+ La Résistance Available only with the La Résistance DLC disabled.
+
+Communist sub-branch of the French national focus tree without the La Résistance DLC.
+Clicking on a national focus icon leads to the appropriate table row.
+
+Focus:
+FOCUS Leftist Rhetoric: The goal is clear. Equality for all. We do not want capitalist interests in french politics. It is imperative that we give optimal conditions for our communist organizations to flourish.
+Prerequisites:
+France:
+- Requires the following:
+ - Form the Popular Front
+Effects:
+France:
+- Gains Maurice Thorez (Communist Revolutionary)
+ - Daily Communism Support: +0.10
+
+Every other Communist country with more than 30 Factories:
+- Gains Leftist Rhetoric ( Opinion of France: +15)
+Every other Democratic country with more than 30 Factories:
+- Gains Leftist Rhetoric ( Opinion of France: -10)
+Every other Fascist country with more than 30 Factories:
+- Gains Leftist Rhetoric ( Opinion of France: -50)
+
+Focus:
+FOCUS National Mobilization: We finally have a government capable of taking action. Now it is time to strengthen our army and be prepared to fight for France.
+Prerequisites:
+France:
+- Requires the following:
+ - Leftist Rhetoric
+- One of the following must be true:
+ - Current ruling party is Communist
+ - More than 40% suport for Communist
+Effects:
+France:
+- loses the national spirit Disjointed Government
+- gets the national spirit:
+
+Spirit National Mobilization:
+- Manpower : 1.00%
+- Division Recovery Rate: +10.0%
+
+Focus:
+FOCUS Humanité Unie: The fat bankers and the powerhungry demagogues are strengthening their bloody grip on the world. With each passing day we see free men enslaved and the world plunged further into crisis, created by the greed of the individual. French ideals are needed more than ever! Humanity needs us and we need to unite humanity!
+Prerequisites:
+France:
+- Requires the following:
+ - National Mobilization
+- ExclusiveM Mutually exclusive with:
+ - Join Comintern
+- Is fully independent
+Effects:
+France:
+- Set the rule: Can Create Factions
+
+Focus:
+FOCUS Join Comintern: With enemies everywhere we turn, we need to strengthen our position with some powerful allies. Our ties with the Comintern has grown stronger and it is time to dedicate ourselves fully to their cause
+Prerequisites:
+France:
+- Requires the following:
+ - National Mobilization
+- ExclusiveM Mutually exclusive with:
+ - Humanité Unie
+- Is fully independent
+- Is not in faction
+- One of the following must be true
+ - Current ruling party is Communist
+ - More than 40% suport for Communist
+- At peace
+
+Soviet Union
+- Exists
+- Current ruling party is Communist
+- Is faction leader
+Is in faction with Soviet Union
+Effects:
+Soviet Union:
+- Gets event France wants to join the Comintern.
+
+## The Blum-Viollette Proposal Sub-branch [verified for 1.17]
+
+Colonial integration sub-branch of the French national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+{| class="mildtable"
+! style="width: 30%;" | Focus
+! style="width: 30%;" | Prerequisites
+! style="width: 40%;" | Effects
+
+|- id="The Blum-Viollette Proposal"
+| FOCUS The Blum-Viollette Proposal: The citizenship of the French Republic should be open to anyone who qualifies. Many of our loyal subjects in Algeria would like to become full citizens, but are not yet allowed to do so. By making them full citizens, we would bind Algeria much closer to France.
+| France:
+- Requires one of the following:
+ - Reform the Labour Laws
+ - Protect the Rights of Man
+- 459 Owner: All of the following must be true:
+ - Country is not France
+ - Is not a subject of France
+- 460 Owner: All of the following must be true:
+ - Country is not France
+ - Is not a subject of France
+- 513 Owner: All of the following must be true:
+ - Country is not France
+ - Is not a subject of France
+| France:
+- Gains core on 459
+- Gains core on 460
+- Gains core on 513
+- If have the national spirit Political Violence:
+ - Gets event Protests descend into violence
+If Algeria is a subject of France:
+- France annexes Algeria
+
+|- id="Expand the Citizenship"
+| FOCUS Expand the Citizenship: It is intolerable for a republic that some of the people living on her territory would not be allowed to become her citizens, yet this state of affairs has been allowed to persist in our own. We must rectify this at once.
+| France:
+- Requires the following:
+ - The Blum-Viollette Proposal
+- Any owned state:
+ - Is not in Europe
+ - Is not a core of France
+| France gets the national spirit:
+
+Spirit Expanded Citizenship:
+Non-core Manpower : +3.00%
+
+|- id="France Indivisible"
+| FOCUS France Indivisible: France must be formed into a single unit, under one flag. It is time we openly acknowledged this, if only to lay fears of division to rest.
+| France:
+- Requires the following:
+ - Expand the Citizenship
+- ExclusiveM Mutually exclusive with:
+ - Encourage Immigration
+| France:
+- Replace the national spirit Expanded Citizenship with:
+
+Spirit France Indivisible: France must be formed into a single unit, under one flag. It is time we openly acknowledged this, if only to lay fears of division to rest.
+Effective change:
+- Non-core Manpower : +5.00%
+
+- Every owned state that is controlled by France, not a core, and is not in Europe:
+ - Compliance: +10.0%
+
+|- id="French Union"
+| FOCUS French Union: It is time to proclaim a new France, a France that spans the globe, in which all parts of our realm are united. We will hold referendums in every part to confirm the people's will to become part of this new, greater France.
+| France:
+- Requires the following:
+ - France Indivisible
+- At peace
+| France:
+- If have the national spirit Political Violence:
+ - Gets event Right-Wing Riots
+- Referendums in various parts of our colonial empire will be held. Some parts may chose to become fully independent instead.
+
+|- id="Encourage Immigration"
+| FOCUS Encourage Immigration: Our homeland is in desperate need of workers to make up for the losses incurred in the Great War. By making it easier to settle in France, we can attract the skilled immigrants that can make up for this shortfall.
+| France:
+- Requires the following:
+ - Expand the Citizenship
+- ExclusiveM Mutually exclusive with:
+ - France Indivisible
+| France:
+- loses the national spirit Full Employment
+- loses the national spirit Worker Shortage
+|}
+
+## Review Foreign Policy Sub-branch [verified for 1.17]
+
+Democratic branch of the French national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+{| class="mildtable"
+! style="width: 30%;" | Focus
+! style="width: 30%;" | Prerequisites
+! style="width: 40%;" | Effects
+
+|- id="Review Foreign Policy"
+| FOCUS Review Foreign Policy: The continental order that was established in 1919 looks increasingly under threat. It is time that we review our foreign policy options to secure new alliances to weather the coming storm.
+| France:
+- Requires one of the following:
+ - Reform the Labour Laws
+ - Protect the Rights of Man
+- All of the following must be true:
+ - Has not completed focus Invite Communist Ministers
+ - Has not completed focus Utilize the Leagues
+| France:
+- Political Power : +120
+
+|- id="Confirm Eastern Commitments"
+| FOCUS Confirm Eastern Commitments: After the Great War, we set up a network of alliances in Eastern Europe, as a counter-weight to a resurgent Germany and an expansionist Soviet Union. Our allies in the region are now wondering if we would actually come to their aid if we were called. We should reassure them before they decide to seek help elsewhere.
+| France:
+- Requires the following:
+ - Review Foreign Policy
+- ExclusiveM Mutually exclusive with:
+ - Buy Time
+- One of the following must be true:
+ - Yugoslavia exists
+ - Czechoslovakia exists
+ - Romania exists
+ - Poland exists
+- Is fully independent
+- At peace with Yugoslavia
+- At peace with Czechoslovakia
+- At peace with Romania
+- At peace with Poland
+| If Yugoslavia, Czechoslovakia, Romania or Poland exists and not at war with France:
+- Gains Confirm Eastern Commitments ( Opinion of France +50)
+
+France:
+- Available as Political Advisor:
+ - René Massigli (Hawk):
+ - Stability : -5.00%
+ - War Support : +10.00%
+
+|- id="Strengthen the Little Entente"
+| FOCUS Strengthen the Little Entente: The Little Entente binds us to come to the aid of our allies in Eastern Europe and the Balkans. We have allowed this alliance to lapse, but it is needed now more than ever. It is time to revive it.
+| France:
+- Requires the following:
+ - Confirm Eastern Commitments
+- Czechoslovakia exists
+- Is fully independent
+| If Czechoslovakia is the same ideology as France and is faction leader:
+- Czechoslovakia gets event France seeks to join the Faction
+
+If Czechoslovakia is the same ideology as France, is either not a subject or a subject of France and France is faction leader:
+- Czechoslovakia gets event France invites Czechoslovakia to the Faction
+
+If Czechoslovakia is the same ideology as France, Is not in faction, is either not a subject or a subject of France and France is faction leader:
+- Set the rule: Can Create Factions
+- Create Faction: Little Entente
+- Czechoslovakia is invited into our faction.
+
+|- id="Invite Yugoslavia"
+| FOCUS Invite Yugoslavia: Yugoslavia has enough concerns without having to worry about expansionist neighbors. Bringing them back into the Little Entente would be a great service to both them and ourselves.
+| France:
+- Requires the following:
+ - Strengthen the Little Entente
+- Is fully independent
+- Is faction leader
+Yugoslavia:
+- One of the following must be true:
+ - Does not exist
+ - Is a subject of another country
+ - Is at war with France
+ - Is in Faction
+| Yugoslavia gets event Invitation to French Faction
+
+|- id="Invite Romania"
+| FOCUS Invite Romania: The Romanian democracy is fragile, caught between its internal fascist factions and Soviet communism. Bringing them into the Little Entente will allow them to retain stability with our backing.
+| France:
+- Requires the following:
+ - Invite Yugoslavia
+- Is fully independent
+- Is faction leader
+Romania:
+- One of the following must be true:
+ - Does not exist
+ - Is a subject of another country
+ - Is at war with France
+ - Is in Faction
+| Romania gets event Invitation to French Faction
+
+|- id="Invest in Our Weaker Allies"
+| FOCUS Invest in Our Weaker Allies: If we are to have capable allies in case of war, we must enable them to meet their own military needs. A program of moderate investments into their industry will allow them to produce the munitions they need locally.
+| France:
+- Requires the following:
+ - Invite Romania
+- Is in faction
+- Any other country:
+ - Is in faction with France
+ - Has fewer military factories than us
+| Every other country that is in faction with France, not a subject of France and has less military factories than France:
+- Random owned cored state:
+ - Add 2 Building Slot
+ - Add 2 Mic
+
+|- id="Coordinate Rearmament"
+| FOCUS Coordinate Rearmament: To match the unified development process of the Germans and our other opponents, we must also coordinate our efforts with our allies.
+|
+France:
+- Requires the following:
+ - Invest in Our Weaker Allies
+- Is in Faction
+| Every country in a faction with France:
+- Gains Coordinate Rearmament modifier towards France:
+ - License purchase cost: 0
+ - License production speed from technology difference: +25%
+ - License production speed: +25%
+ - Acceptance when requesting to buy license: +100
+- France gains Coordinate Rearmament modifier towards that country
+
+|- id="Join the Ententes"
+| FOCUS Join the Ententes: France can not sustain two commitments of mutual defense at the same time. Unless we can get the British to agree to honor our commitments as well, we would have to choose. By combining our disparate networks of alliances into a single whole, we increase the deterrence factor of our alliances by an order of magnitude.
+| France:
+- Requires the following:
+ - Strengthen the Little Entente
+- United Kingdom is faction leader
+- Is fully independent
+- At peace with United Kingdom
+| United Kingdom gets event France Suggests Strategic Alliance if France is in a faction.
+
+United Kingdom is invited into our faction
+
+|- id="Foreign Guest-Workers"
+| FOCUS Foreign Guest-Workers: Our lack of workers is a major bottleneck in expanding our industry and growing the size of our armed forces. Inviting skilled workers from our allies to work in our factories frees up manpower to send into the army.
+| France:
+- Requires the following:
+ - Strengthen the Little Entente
+- One of the following must be true:
+ - Has the national spirit Full Employment
+ - Has the national spirit Worker Shortage
+| France:
+- loses the national spirit Full Employment
+- loses the national spirit Worker Shortage
+
+|- id="Revive the Franco-Polish Alliance"
+| FOCUS Revive the Franco-Polish Alliance: France has always supported an independent Poland. In recent years, relations between our countries have cooled a little. With the threat of Germany on the horizon, it is time to rekindle our pact.
+| France:
+- Requires the following:
+ - Confirm Eastern Commitments
+- Poland exists
+- At peace with Poland
+ - Is fully independent
+| If France is Faction leader:
+- Poland gets event France invites Poland to the Faction
+
+Otherwise:
+- Guarantee Poland
+
+|- id="Support the Finns"
+| FOCUS Support the Finns: The Finnish are fighting for their lives. We must aid them.
+| France:
+- Requires the following:
+ - Review Foreign Policy
+- Finland
+ - At war
+ - At peace with France
+- Is fully independent
+| France:
+- Army exp : +10
+
+Finland:
+- Manpower : +10000
+- 2.50K units of French Infantry Equipment is added to the national stockpile.
+
+|- id="Buy Time"
+| FOCUS Buy Time: We are not ready to face the Germans in the field. Our allies are weak, our military is outdated. We might have to make some sacrifices if we want to survive.
+| France:
+- Requires the following:
+ - Review Foreign Policy
+- ExclusiveM Mutually exclusive with:
+ - Confirm Eastern Commitments
+| France:
+- Available as Political Advisor
+ - Georges Bonnet (Humble Appeaser)
+ - Stability : +10.00%
+ - War Support : -5.00%
+- If Yugoslavia is guaranteed by France:
+ - Cancel Guarantee Independence with Yugoslavia
+ - Yugoslavia gains Western Betrayal ( Opinion of France -50)
+- If Czechoslovakia is guaranteed by France:
+ - Cancel Guarantee Independence with Czechoslovakia
+ - Czechoslovakia gains Western Betrayal ( Opinion of France -50)
+
+|- id="Strengthen Government"
+| FOCUS Strengthen Government: We have made plans for the following year that will meet the wishes of people in all parts of France. Show them that we are capable of action and worthy to rule France, so we can once again stand united.
+| France:
+- Requires one of the following:
+ - Strengthen the Little Entente
+ - Buy Time
+| France gets the national spirit for 365 days:
+
+Spirit Strengthen Government Support:
+Weekly Stability : +0.20%
+
+|- id="Defensive Stratagems"
+| FOCUS Defensive Stratagems: If we want the people of France to fight a war for us it is more important than ever that we have a clear direction. We must stop fighting amongst ourselves and fight for France and "Liberté, égalité, fraternité" instead.
+| France:
+- Requires the following:
+ - Strengthen Government
+- Strengthen Government Support idea has run its course.
+| France:
+- loses the national spirit Disjointed Government
+- Set the rule: Can send volunteer forces.
+
+|- id="Go With Britain"
+| FOCUS Go With Britain: With Russia forever changed, only France and Britain remain of the old Triple Entente. If history is doomed to repeat itself, we must ensure that these two nations, bastions of democracy and liberty in Europe, remain Allies.
+| France:
+- Requires the following:
+ - Buy Time
+- ExclusiveM Mutually exclusive with:
+ - France Leads
+- Is fully independent
+- Current ruling party is Democratic
+- United Kingdom:
+ - Exists
+ - Current ruling party is Democratic
+- At peace with United Kingdom
+- Is not in a faction
+- Is in faction with United Kingdom
+- Has not completed focus Strengthen the Little Entente
+| United Kingdom Gets event France wants to join Allies
+
+|- id="Arms Purchases in the US"
+| FOCUS Arms Purchases in the US: Our military industry is simply not up to the task of supplying our forces with the necessary modern weapons. The US, however, has production capacity to spare. Unless they decide to return to their isolationism, it would seem that they could be persuaded to sell us the weapons we need.
+| France:
+- Requires the following:
+ - Go With Britain
+- United States exists
+- United States:
+ - One of the following must be true:
+ - Has not completed focus Neutrality Act
+ - Has completed focus Lend Lease Act
+ - At peace with France
+- United States is not in a civil war
+| United States gets event France wants to purchase weapons
+
+France: Unlocks Purchase Weapons in the United States Decisions.
+
+|- id="France Leads"
+| FOCUS France Leads: A nation with the proud history of France can not let other countries dictate her foreign policy. We will make our own choices, guided by our own interests.
+| France:
+- Requires the following:
+ - Buy Time
+- ExclusiveM Mutually exclusive with:
+ - Go With Britain
+- Is fully independent
+- Is not in a faction
+Is faction leader
+| France:
+- Set the rule: Can Create Factions
+- Political Power : +120
+
+|- id="Concessions to Italy"
+| FOCUS Concessions to Italy: Italy still dreams of an empire in Africa. If we were to offer some concessions - and approve of her conquest of Ethiopia - we might prevent the forming of an axis between Rome and Berlin.
+| France:
+- Requires the following:
+ - France Leads
+- Is fully independent
+- At peace with Italy
+- United Kingdom
+ - exists
+ - Current ruling party is the same as France
+ - At peace with Italy
+ - At peace with France
+- 268: Controller: One of the following must be true:
+ - Country is France
+ - Is a subject of France
+- One of the following must be true:
+ - Italy: owns 550
+ - Any country:
+ - Is a subject of Italy
+ - Controls 550
+- One of the following must be true:
+ - Italy: owns 559
+ - Any country:
+ - Is a subject of Italy
+ - Controls 559
+Italy:
+- Owns 268
+- Owns 269
+| United Kingdom Gets event France proposes territorial Compensation to Italy
+
+|- id="Ratify the Stresa Front"
+| FOCUS Ratify the Stresa Front: Italy has indicated that she would join our faction in return for territories in Africa. It is time to put pen to paper and ratify the necessary treaties.
+| France:
+- Requires the following:
+ - Concessions to Italy
+- is fully independent
+- At peace with Italy
+- At peace with United Kingdom
+- United Kingdom
+ - At peace with Italy
+ - Exists
+- One of the following must be true:
+ - Italy: owns 550
+ - Any country:
+ - Is a subject of Italy
+ - Controls 550
+- One of the following must be true:
+ - Italy: owns 559
+ - Any country:
+ - Is a subject of Italy
+ - Controls 559
+- Italy has agreed to join the Stresa Front in return for territorial concessions
+| Italy Gets event Ratification of the Stresa Front
+
+|- id="Franco-Soviet Treaty"
+| FOCUS Franco-Soviet Treaty: The Soviets are just as worried about the rise of fascism in Europe as we are. Perhaps we could convince them to support us if the time came.
+Alternative Names
+Game file name
+
+Franco-[SOV.GetAdjective] Treaty
+
+The [SOV.GetAdjective]s are just as worried about the rise of fascism in Europe as we are. Perhaps we could convince them to support us if the time came.
+| France:
+- Requires the following:
+ - France Leads
+- Is fully independent
+- Soviet Union
+ - Exists
+ - Is not Fascist
+ - At peace with France
+ - Is Faction Leader
+ - Not:Soviet Union agrees to sign the Molotov-Ribbentrop Pact
+| Soviet Union:
+- Gets event France proposes Treaty of Mutual Assistance
+- Guarantee France
+
+France:
+- Guarantee Soviet Union
+|}
+
+## Utilize the Leagues Sub-branch [verified for 1.17]
+
+ La Résistance
+
+Fascist sub-branch of the French national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+{| class="mildtable"
+! style="width: 30%;" | Focus
+! style="width: 30%;" | Prerequisites
+! style="width: 40%;" | Effects
+
+|- id="Utilize the Leagues"
+| FOCUS Utilize the Leagues: It is a sad fact that political violence has become commonplace in France. If the country is to survive the threat of communist revolution, we must not shy away from the help of people who can and will meet the communist thugs in the street if it comes to that.
+| France:
+- Requires the following:
+ - Revive the National Bloc
+- Has not completed focus Review Foreign Policy
+- Is fully independent
+One of the following must be true:
+- Current ruling party is Fascist
+- Current ruling party is Non-Aligned
+| France:
+- Political Power : +75
+- Gain Base Stability : -3.00%
+- Unlocks Decision: Rally the Leagues
+ - When Decision is selected:
+ - Change in popularity of Fascism : 5.00%
+ - Change in popularity of Non-Aligned : 5.00%
+ - Gain Base Stability : -3.00%
+- Unlocks Decision: Unleash 'La Cagoule'
+ - When Decision is selected:
+ - Change in popularity of Fascism : 10.00%
+ - Gain Base Stability : -7.50%
+
+|- id="National Regeneration"
+| FOCUS National Regeneration: An excess of democracy and misguided republicanism have poisoned our country and divided our people. It will take a long time to heal these wounds, but at last the first steps have been taken.
+| France:
+- Requires the following:
+ - Utilize the Leagues
+- ExclusiveM Mutually exclusive with:
+ - The Council of Rambouillet
+- The combined total of Unaligned and Fascist support is over 50%
+| France:
+- Politics will change:
+ - Fascism becomes the ruling party.
+ - Public elections will not be held
+- Hidden effect:
+- Pierre Laval becomes leader for the Fascist party
+ - Tenacious Negotiator
+ - Political Power Gain: +10%
+ - Trade deal opinion factor: +25.00%
+
+|- id="Destroy Decadence"
+| FOCUS Destroy Decadence: No country has ever been great if it allowed itself to debate even the tiniest issue for months. Some countries, secure behind oceans and supported by global empires, may believe that they can afford this luxury. We can not.
+| France:
+- Requires the following:
+ - National Regeneration
+| France gets the national spirit for 365 days:
+
+Spirit Anti-Decandence:
+Daily Democracy support: -0.10
+
+|- id="Integralism"
+| FOCUS Integralism: The ideology of integralism states that all aspects of society must come together and work as if they were one small piece of a larger whole. This society must be well ordered, to ensure that all parts of it work together in harmony.
+| France:
+- Requires the following:
+ - National Regeneration
+| France:
+- Political power : +50
+- Available as Political Advisor:
+ - Charles Maurras (National Integralist):
+ - Political Power gain: +15%
+ - Weekly Stability : +0.10%
+
+|- id="Work"
+| FOCUS Work: The craftsman is the most important component of the economy. When guided by the right people, there is no nobler call than to place one's labour in service of one's country.
+| France:
+- Requires the following:
+ - Integralism
+- ExclusiveM Mutually exclusive with:
+ - Family
+ - Fatherland
+| France gets the national spirit:
+
+Spirit Travail:
+Production Efficiency Growth : +10.00%
+
+|- id="Family"
+| FOCUS Family: The smallest unit in society is not the individual - it is the family. To dispute this simple and obvious fact was the biggest flaw of the old republic.
+| France:
+- Requires the following:
+ - Integralism
+- ExclusiveM Mutually exclusive with:
+ - Work
+ - Fatherland
+| France:
+- Gain Base Stability : +10.00%
+
+|- id="Fatherland"
+| FOCUS Fatherland: The duty of every French man, woman, and child is to defend and aid their neighbor. The only way this can be achieved is through order and unconditional loyalty to the nation. There can be no question about this, or we will meet the same fate as the old republic. We will do all that is needed to maintain order and national security. In the end, the people will understand this is in their best interest.
+Alternative Descriptions
+Game file description
+
+The duty of every [FRA.GetAdjective] man, woman, and child is to defend and aid their neighbor. The only way this can be achieved is through order and unconditional loyalty to the nation. There can be no question about this, or we will meet the same fate as the old republic. We will do all that is needed to maintain order and national security. In the end, the people will understand this is in their best interest.
+| France:
+- Requires the following:
+ - Integralism
+- ExclusiveM Mutually exclusive with:
+ - Work
+ - Family
+| France:
+- Gain Base War Support : +10.00%
+
+|- id="Political Unity"
+| FOCUS Political Unity: The history of France since the fall of absolutism has been a story of political infighting. When there was unity - France was victorious. When there was internal strife - France was defeated. For this reason, we can not allow the ambitions of the few to harm the livelihood of the many.
+| France:
+- Requires the following:
+ - National Regeneration
+| France:
+- loses the national spirit Disjointed Government
+- Change in popularity of Fascism : Popularity of neutrality
+- Change in popularity of Non-Aligned : -100.00%
+
+|- id="Diplomatic Freedom"
+| FOCUS Diplomatic Freedom: The republican governments have shackled themselves to artificial constructs in Eastern Europe who will fall the moment we withdraw our aid. They are liabilities, not assets, and as such we will divest ourselves of them.
+| France:
+- Requires the following:
+ - National Regeneration
+Any other country:
+- All of the following must be true:
+ - Country is not Poland
+ - Country is not Czechoslovakia
+ - Country is not Yugoslavia
+ - Country is not Romania
+ - Country is not Hungary
+- Is not guaranteed by France
+| France:
+- Cancel Guarantee Independence with:
+ - Poland
+ - Czechoslovakia
+ - Yugoslavia
+ - Romania
+ - Hungary
+
+|- id="Latin Entente"
+| FOCUS Latin Entente: The brotherhood that exists between the successor states of the Roman Empire is undeniable. The Germanic people of Europe have ruled the continent for too long. It is time that we reclaimed our national birthright.
+| France:
+- Requires the following:
+ - Diplomatic Freedom
+- ExclusiveM Mutually exclusive with:
+ - Towards a New Europe
+- Is fully independent
+| France:
+- Set the rule: Can Create Factions.
+- Create Faction: Latin Entente
+- François de La Rocque becomes leader for the Fascist party.
+ - Retired officer
+ - War Support : +5.00%
+ - Army Chief Cost: -25%
+ - Air Chief Cost: -25%
+ - Navy Chief Cost: -25%
+ - High Command Cost: -25%
+- The Fascist party will now be called Party Social Français
+
+|- id="Reach Out To Spain"
+| FOCUS Reach Out To Spain: Freshly recovered from its civil war, Spain is our natural ally in our attempt to reshape the continent.
+| France:
+- Requires the following:
+ - Latin Entente
+- Any other country:
+ - Original country is Spain
+ - One of the following must be true:
+ - Current ruling party is the same as France
+ - All of the following must be true:
+ - Francisco Franco is current country leader
+ - France: Current ruling party is Fascist
+- If is a subject:
+ - 41: Controller: Overlord: At peace with Spain
+41: Controller: Is in Faction with France
+| Spain is invited into our faction.
+
+|- id="Invite Portugal"
+| FOCUS Invite Portugal: While her colonial empire has been much diminished, the flame of exploration and conquest still burns in the heart of every Portuguese.
+| France:
+- Requires the following:
+ - Reach Out To Spain
+- Portugal:
+ - Exists
+ - At peace with France
+Portugal: One of the following must be true:
+- Does not exist
+- Is in faction with France
+| Portugal is invited into our faction.
+
+|- id="Compensate Italy"
+| FOCUS Compensate Italy: In the past, conflicts over some tiny stretches of desert have drawn our nations into conflict. Such nonsense is easily stopped, and a mutually agreeable outome can quickly be found.
+| France:
+- Requires the following:
+ - Latin Entente
+- Italy exists
+- Is not at war with Italy
+- Is not a subject of Italy
+- One of the following must be true:
+ - France is fully indpependent
+ - Is a subject of Italy
+Is in Faction with Italy
+| Italy:
+- Gets event France offers Colonial Compensation
+ - Italy must approve of the agreement for bonuses to take effect
+- Becomes owner and controller of 268
+- Joins faction.
+
+|- id="Intervention in Greece"
+| FOCUS Intervention in Greece: Greece controls some of the most valuable territory in the Mediterranean. We can not allow a hostile government to have control of it, and so we must act first.
+| France:
+- Requires the following:
+ - Compensate Italy
+- Is not in faction with Greece
+One of the following must be true:
+- Is at war with Greece
+- Is the overlord of Greece
+
+Any Country:
+- Is in faction with France
+- One of the following must be true:
+ - Is at war with Greece
+ - Is the overlord of Greece
+| Italy:
+- Gets event France proposes intervention in Greece
+ - Italy must approve of the agreement for bonuses to take effect
+- Gets claim on 185
+- Gets claim on 731
+- Gets claim on 184
+- Gets claim on 47
+- Gets claim on 186
+
+France:
+- Gets claim on 187
+- Gets claim on 182
+
+|- id="The Congress of Paris"
+| FOCUS The Congress of Paris: In the Congress of Berlin, the borders of Africa were shaped. But the map today looks like a patchwork. It is time to redraw the map, and thus form the basis for a new colonial empire.
+| France:
+- Requires the following:
+ - Invite Portugal
+ - Intervention in Greece
+- Is in a faction with Italy
+- Is in a faction with Portugal
+- Is in a faction with the controller of 41
+| France:
+- Gets event The Congress of Paris
+
+|- id="The Natural Borders of France"
+| FOCUS The Natural Borders of France: It is only natural that a country should look to its own interests first. We can not peacefully coexist with the Germans in our struggle, and so we must secure our natural borders to defend our heartlands.
+| France:
+- Requires the following:
+ - The Congress of Paris
+| France:
+- Gets claims on the following states:
+ - 8 980 34 6 977 35 51 42
+- Gains Annex cb against Belgium
+- Gains Annex cb against Luxembourg
+- If Netherlands owns 35
+ - Gains Conquer (focus) cb against Netherlands
+- If Germany owns 42 51
+ - Gains Conquer (focus) cb against Germany
+
+|- id="Expand to the Suez"
+| FOCUS Expand to the Suez: The division of control between us and Britain in the Levant is an unworkable compromise that we now, thankfully, no longer have to abide by.
+| France:
+- Requires one of the following:
+ - Intervention in Greece
+ - Grow the Empire
+- Owns 455
+- Owns 454
+- Owns 453
+- Owns 446
+| France:
+- Gains claim on 455
+- Gains claim on 454
+- Gains claim on 453
+- Gains claim on 446
+- Gains Conquer (focus) cb against owner of the above states.
+
+|- id="Dominate the Middle East"
+| FOCUS Dominate the Middle East: The countries of the middle east are artificial constructs, carved from the corpse of the Ottoman Empire. They are no more sovereign than the average French village, and it is time to remind them of that fact.
+| France:
+- Requires the following:
+ - Expand to the Suez
+| Every country that is in the Middle East, not a major, not a subject, not Turkey or Iran:
+- Gets event France demands Subjugation
+
+|- id="Towards a New Europe"
+| FOCUS Towards a New Europe: France is at a crossroads. We can shackle ourselves to the old order, or we can embrace the new. With the Germans poised to remake the continent, it would be beneficial for us to be on their good side.
+| France:
+- Requires the following:
+ - Diplomatic Freedom
+- ExclusiveM Mutually exclusive with:
+ - Latin Entente
+- One of the following must be true:
+ - is fully independent
+ - is a subject of Germany
+| France:
+- Gain Base Stability : -5.00%
+- Jacques Doriot becomes leader for the Fascist party.
+ - Eager Collaborator
+ - Improve relations maintain cost: -100%
+ - Max volunteer force division: +2
+ - Acceptance of Fascist Diplomacy: +75
+- The Fascist party will now be called Party Populaire Français
+
+|- id="Establish Spheres of Influence"
+| FOCUS Establish Spheres of Influence: For centuries, our people have lived in the belief that we were mortal, hereditary enemies. This belief was founded in the idea that our interests were incompatible. But we could surely come to an agreement if we just defined our spheres of influence and studiously refrained from interfering.
+| France:
+- Requires the following:
+ - Towards a New Europe
+- Germany:
+ - Current ruling party is the same as France's
+ - Is not at war with France
+- One of the following must be true:
+ - is fully independent
+ - Is a subject of Germany
+| Germany:
+- Gets event France wants to discuss spheres of influence
+- Effects if they accept:
+ - Gains claim on 8
+ - Gains claim on 7
+ - Gains claim on 35
+ - Gains claim on 36
+ - France Joins Axis
+
+France:
+- Gains claim on 34
+- Gains claim on 6
+- Gains claim on 977
+- Gains claim on 980
+
+|- id="Split Belgium"
+| FOCUS Split Belgium: With Belgium now in our sphere of influence, it is time to call the French-speaking parts of it home. The rest will be formed into a new state.
+| France:
+- Requires the following:
+ - Establish Spheres of Influence
+- ExclusiveM Mutually exclusive with:
+ - Align Belgium
+- One of the following must be true:
+ - Is fully independent
+ - Is a subject of Germany
+Belgium: One of the following must be true:
+- Does not exist
+- Is at war with France
+| Belgium Gets event Jacques Doriot demands Wallonia
+
+|- id="Align Belgium"
+| FOCUS Align Belgium: The Belgians owe their existence to us, and we can not let them forget that fact. If we let them remain independent, we will at the very least ensure that a friendly government is installed.
+| France:
+- Requires the following:
+ - Establish Spheres of Influence
+- ExclusiveM Mutually exclusive with:
+ - Split Belgium
+- Belgium
+ - Exists
+ - Is not in Faction
+ - At peace with france
+- One of the following must be true:
+ - Is fully independent
+ - Is a subject of Germany
+Belgium: Is a subject of France
+| Belgium Gets event France demands special rights
+
+|- id="Grow the Empire"
+| FOCUS Grow the Empire: It is absurd that a country the size of Belgium would be allowed to retain a colony many times its size. We are far better suited to administer such a territory.
+| France:
+- Requires one of the following:
+ - Split Belgium
+ - Align Belgium
+- One of the following must be true:
+ - Belgium is a subject of France
+ - Belgian Congo is a subject of France
+- One of the following must be true:
+ - Is fully independent
+ - Is a subject of Germany
+- All states:
+ - One of the following must be true:
+ - State is 295 538 718 769 768 890 888 889 \n*State is_
+ - Controller: One of the following must be true:
+ - All of the following must be true:
+ - Original country is Belgium
+ - Is a subject of France
+ - Is a subject of Belgium
+ - All of the following must be true:
+ - Original COuntry is the Belgian Congo
+ - Is a subject of France
+- Belgium: Does not exist
+- 295: Controller: All of the following must be true:
+ - One of the following must be true:
+ - Original country is not Belgium
+ - Is not a subject of France
+ - Is not a subject of Belgium
+ - One of the following must be true:
+ - Original country is not the Belgian Congo
+ - Is not a subject of France
+- 538: Controller: All of the following must be true:
+ - One of the following must be true:
+ - Original country is not Belgium
+ - Is not a subject of France
+ - Is not a subject of Belgium
+ - One of the following must be true:
+ - Original country is not the Belgian Congo
+ - Is not a subject of France
+- 718: Controller: All of the following must be true:
+ - One of the following must be true:
+ - Original country is not Belgium
+ - Is not a subject of France
+ - Is not a subject of Belgium
+ - One of the following must be true:
+ - Original country is not the Belgian Congo
+ - Is not a subject of France
+- 769: Controller: All of the following must be true:
+ - One of the following must be true:
+ - Original country is not Belgium
+ - Is not a subject of France
+ - Is not a subject of Belgium
+ - One of the following must be true:
+ - Original country is not the Belgian Congo
+ - Is not a subject of France
+- 768: Controller: All of the following must be true:
+ - One of the following must be true:
+ - Original country is not Belgium
+ - Is not a subject of France
+ - Is not a subject of Belgium
+ - One of the following must be true:
+ - Original country is not the Belgian Congo
+ - Is not a subject of France
+- 890: Controller: All of the following must be true:
+ - One of the following must be true:
+ - Original country is not Belgium
+ - Is not a subject of France
+ - Is not a subject of Belgium
+ - One of the following must be true:
+ - Original country is not the Belgian Congo
+ - Is not a subject of France
+- 888: Controller: All of the following must be true:
+ - One of the following must be true:
+ - Original country is not Belgium
+ - Is not a subject of France
+ - Is not a subject of Belgium
+ - One of the following must be true:
+ - Original country is not the Belgian Congo
+ - Is not a subject of France
+- 889: Controller: All of the following must be true:
+ - One of the following must be true:
+ - Original country is not Belgium
+ - Is not a subject of France
+ - Is not a subject of Belgium
+ - One of the following must be true:
+ - Original country is not the Belgian Congo
+ - Is not a subject of France
+| France:
+- Becomes owner and controller of 295
+- Becomes owner and controller of 538
+- Becomes owner and controller of 718
+- Becomes owner and controller of 769
+- Becomes owner and controller of 768
+
+- Becomes owner and controller of 890
+- Becomes owner and controller of 888
+- Becomes owner and controller of 889
+
+|- id="Bring Home Quebec"
+| FOCUS Bring Home Quebec: The province lost long ago will, in time, be ours again. All French-speaking people in the world will eventually be reunited with the fatherland.
+| France:
+- Requires the following:
+ - Grow the Empire
+- One of the following must be true:
+ - Is fully independent
+ - Is a subject of Germany
+- Owns 466 860 861 862 863 \n*Owns_
+| France:
+- Gets a claim on Every state:
+ - Is a core of Quebec
+- Gains Conquer (focus) cb against Canada
+|}
+
+## The Council of Rambouillet Sub-branch [verified for 1.17]
+
+ La Résistance
+
+Monarchist sub-branch of the French national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+{| class="mildtable"
+! style="width: 30%;" | Focus
+! style="width: 30%;" | Prerequisites
+! style="width: 40%;" | Effects
+
+|- id="The Council of Rambouillet"
+| FOCUS The Council of Rambouillet: With the country in turmoil, the people look for a strong leader. It has become clear that Republicanism has failed the French people, and it is time for the natural rulers of France to return. But first, the groundwork must be laid for a restoration of the monarchy.
+| France:
+- Requires the following:
+ - Utilize the Leagues
+- ExclusiveM Mutually exclusive with:
+ - National Regeneration
+- is fully independent
+| France:
+- Change in popularity of Non-Aligned : +10.00%
+
+|- id="Revise the Constitution"
+| FOCUS Revise the Constitution: The republican constitution was alwas intended to be a stopgap measure that has been allowed to persist for far too long. Now, we will rewrite it to allow a monarch to return.
+| France:
+- Requires the following:
+ - The Council of Rambouillet
+- Is fully independent
+| France gets the national spirit for 365 days:
+
+Spirit Constitutional Revision:
+Weekly Stability : +0.20%
+
+|- id="Repeal the Law of Exile"
+| FOCUS Repeal the Law of Exile: No head of a French royal family, nor their heir, are allowed on French soil without express permission. Before we can have the triumphant return of the monarchy, we must dispose of this annoying little obstacle.
+| France:
+- Requires the following:
+ - Revise the Constitution
+- Does not have national spirit Constitutional Revision.
+- Is fully independent
+| France:
+- Political Power : +120
+- loses the national spirit Disjointed Government
+
+|- id="Orléanist Restoration"
+| FOCUS Orléanist Restoration: The House of Orléans commands considerable support amongst the royalists in France. While some detractors would prefer a different candidate for the throne, there can be little doubt that the Orleanist heir has the best chances to peacefully unite the country behind him.
+| France:
+- Requires the following:
+ - Repeal the Law of Exile
+- ExclusiveM Mutually exclusive with:
+ - The Legitimate Heir
+ - Proclaim the Third Empire
+- Is fully independent
+| France:
+- If the time date is < 1940.8.25:
+ - Jean III becomes leader for the Non-Aligned party.
+ - Duke of Orléans:
+ - Daily support for Unaligned : +0.10
+- Otherwise
+ - Henri VI becomes leader for the Non-Aligned party.
+ - Count of Paris:
+ - Max Factories in a State: +5%
+- The Non-aligned party will now be called Parti orléaniste
+- Politics will change:
+ - Non-Aligned becomes the ruling party.
+ - Public elections will not be held.
+- France will be known as Orléanist France
+- Available as Political Advisor
+ - Charles Maurras (National Integralist)
+ - Political Power Gain: +15%
+ - Weekly Stability : +0.10%
+
+|- id="Guarantee the Constitution"
+| FOCUS Guarantee the Constitution: Before the republican press can even launch its unfounded campaigns against the legitimacy of royal rule, we must erode their standing by giving iron-clad guarantees to respect the individual rights of the people.
+| France:
+- Requires the following:
+ - Orléanist Restoration
+- Is fully independent
+| France:
+- Gain Base Stability : +10.00%
+
+|- id="The First Citizen of the State"
+| FOCUS The First Citizen of the State: The king, while imbued with considerable power, must never be seen as a tyrant or absolutist ruler of the old kind. Instead, a modern monarch must respect the law and be the first line of defense against those that would usurp power illegally.
+| France:
+- Requires the following:
+ - Orléanist Restoration
+- Is fully independent
+| France:
+- Jean III or Henri VI gains Constitutional Monarch:
+ - Daily Political Power Gain: +0.10
+ - Weekly Stability : +1.00%
+
+|- id="Counter-Action"
+| FOCUS Counter-Action: The Action Française has long been the strongest advocate for a return to the monarchy. Unfortunately, their views on other subjects are less palatable. It is time to inform them that they have served their purpose and dispose of them.
+| France:
+- Requires one of the following:
+ - Guarantee the Constitution
+ - The First Citizen of the State
+- Is fully independent
+| France gets the national spirit for 730 days:
+
+Spirit Counter-Action: The Action Française has long been the strongest advocate for a return to the monarchy. Unfortunately, their views on other subjects are less palatable. It is time to inform them that they have served their purpose and dispose of them.
+Daily Fascism Support: -0.10
+
+|- id="No Further Humiliations"
+| FOCUS No Further Humiliations: For years, successive republican governments have allowed the Germans to run roughshod over international treaties, some of which were brazenly broken before the ink was even dry. This ends now.
+| France:
+- Requires the following:
+ - Counter-Action
+- One of the following must be true:
+ - Germany: Current ruling party is Fascist
+ - Italy: Current ruling party is Fascist
+- Is fully independent
+| France:
+- Set the rule: Can Create Factions.
+- Create Faction: Anti-Fascist Bloc
+- Gains Topple Government cb against Germany if it is Fascist
+- Gains Topple Government cb against Italy if it is Fascist
+
+|- id="Slum Clearing"
+| FOCUS Slum Clearing: Despite being in one of the great powers of the world, the simple French worker often lives in appalling conditions of disgusting squalor. No king worthy of the title can tolerate his subjects living in such a state.
+| France:
+- Requires the following:
+ - Counter-Action
+| France:
+- Every fully controlled cored state with more than 7 factories:
+- Add 3 Building Slot
+
+|- id="Public Welfare"
+| FOCUS Public Welfare: A king who does not work for the least of his subjects is no king at all.
+| France:
+- Requires the following:
+ - Slum Clearing
+| France:
+- Gain Base Stability : +10.00%
+
+|- id="The Legitimate Heir"
+| FOCUS The Legitimate Heir: The Legitimists consider the Carlist branch to be the legitimate heir to the throne of France. Appointing their candidate to the throne opens up the tantalizing possibility of ruling Spain and France in a double-monarchy.
+| France:
+- Requires the following:
+ - Repeal the Law of Exile
+- ExclusiveM Mutually exclusive with:
+ - Orléanist Restoration
+ - Proclaim the Third Empire
+- Is fully independent
+| France:
+- If the time date is < 1941.2.28:
+ - Alphonse I becomes leader for the Non-Aligned party.
+- Otherwise
+ - Jacques II becomes leader for the Non-Aligned party.
+- The Non-aligned party will now be called Parti légitimiste
+- Politics will change:
+ - Non-Aligned becomes the ruling party.
+ - Public elections will not be held.
+
+|- id="Secure the Crown of Spain"
+| FOCUS Secure the Crown of Spain: The first step towards claiming the king's birthrights is to secure Spain from the various pretender governments that have sprung up. Their petty squabbles have thrown the country into a bloody civil war once already - we must not let them do so again.
+| France:
+- Requires the following:
+ - The Legitimate Heir
+- Is fully independent
+| If Carlist Spain exists:
+- Set the rule: Can Create Factions
+- Create Faction: Legitimist Alliance
+- Carlist Spain gets event Bourbon France invites Carlist Spain to the Legitimist Alliance.
+
+Otherwise:
+- Every country:
+ - Original country is Spain
+ - France Gains Annex cb against the previous country
+
+|- id="Unite the Crowns"
+| FOCUS Unite the Crowns: With Spain secured, we can now unite the crowns and create a new kingdom, the Kingdom of Franco-Spain.
+| France:
+- Requires the following:
+ - Secure the Crown of Spain
+- ExclusiveM Mutually exclusive with:
+ - Two Countries, Two Crowns
+- If Carlist Spain exists:
+ - Carlist Spain:
+ - At peace with Spanish Directory
+ - At peace with Regional Defense Council of Aragón
+ - At peace with Spain
+ - One of the following must be true:
+ - Is not in Faction
+ - At peace with France
+- Otherwise:
+ - Any controlled state:
+ - Is a core of Carlist Spain
+- is fully independent
+| France:
+- If Carlist Spain exists:
+ - Annexes Carlist Spain
+- Every state that is a core of Carlist Spain:
+ - State is now a core of France
+- Gain Base Stability: -10.00%
+- France will be known as The Kingdom of Franco-Spain
+
+|- id="Two Countries, Two Crowns"
+| FOCUS Two Countries, Two Crowns: There is no feasible way in which we could unite the countries where one would not consider itself a subject of the other. We will instead advise the king to rule both in a personal, but not a legal, union.
+| France:
+- Requires the following:
+ - Secure the Crown of Spain
+- ExclusiveM Mutually exclusive with:
+ - Unite the Crowns
+- Is fully independent
+- Carlist Spain exists
+- Carlist Spain:
+ - One of the following must be true:
+ - Is not in Faction
+ - Is in faction with France
+ - At peace with France
+| France:
+- If not in a faction:
+ - Set the rule: Can Create Factions
+ - Create Faction: Legitimist Alliance.
+- If Carlist Spain is not in a faction:
+ - Carlist Spain joins faction.
+- Gain Base Stability : +10.00%
+- Joins Royal Commission on Technology
+- Carlist Spain joins Royal Commission on Technology
+
+|- id="Proclaim the Third Empire"
+| FOCUS Proclaim the Third Empire: The Bonapartists may be considered the outsiders in the struggle for the throne, but they carry with them the dream of a time when all of Europe bowed to the Emperor of the French.
+| France:
+- Requires the following:
+ - Repeal the Law of Exile
+- ExclusiveM Mutually exclusive with:
+ - Orléanist Restoration
+ - The Legitimate Heir
+- Is fully independent
+- One of the following must be true:
+ - Is not in faction
+ - Is faction leader
+| France:
+- Napoléon VI becomes leader for the Non-Aligned party.
+- The Non-aligned party will now be called Parti bonapartiste
+- Politics will change:
+ - Non-Aligned becomes the ruling party.
+ - Public elections will not be held.
+- If is not in faction:
+ - Set the rule (s): Can Create Factions
+ - Create Faction: The Continental System
+- France will be known as the French Empire
+
+|- id="Avenge Waterloo"
+| FOCUS Avenge Waterloo: The history of Napoleon the First will forever be defined by his greatest defeat. If we want to succeed, we must show that we can win where he has lost.
+| France:
+- Requires the following:
+ - Proclaim the Third Empire
+- Is fully independent
+Belgium:
+- One of the following must be true:
+ - Does not exist
+ - Is a subject of France
+
+Netherlands:
+- One of the following must be true:
+ - Does not exist
+ - Is a subject of France
+
+United Kingdom:
+- One of the following must be true:
+ - Does not exist
+ - Is a subject of France
+
+Luxembourg:
+- One of the following must be true:
+ - Does not exist
+ - Is a subject of France
+
+| France:
+- Gains Annex cb against Belgium
+- Gains Annex cb against Luxembourg
+- Gains Annex cb against Netherlands
+- Gains Annex cb against United Kingdom
+
+|- id="Retribution For Sedan"
+| FOCUS Retribution For Sedan: For more than half a century, the Germans have celebrated the Battle of Sedan, and their triumph over Napoleon the Third there. In the future, every German will learn to curse the name of that place.
+| France:
+- Requires the following:
+ - Avenge Waterloo
+- Is fully independent
+One of the following must be true:
+- Is in faction with Germany
+- Is at war with Germany
+| France:
+- Gains Annex cb against Germany
+
+|- id="Reorganize the Dutch"
+| FOCUS Reorganize the Dutch: The Dutch, too, were once part of the French Empire. Now that they have been defeated, it is time to return to this natural state of affairs.
+| France:
+- Requires the following:
+ - Avenge Waterloo
+- Is fully independent
+- One of the following must be true:
+ - Netherlands: Is a subject of France
+ - Any controlled state:
+ - Is a core of Netherlands
+| France:
+- Gains Reorganized Departments when dealing with Netherlands - (Daily Compliance Gain: +0.25%)
+
+|- id="Return To Borodino"
+| FOCUS Return To Borodino: At Borodino, Napoleon came closest to achieving his victory in Europe. The Russian Army was all but destroyed, and had he been just a little faster, he could have brought the Russians to terms. We will show the world that it can be done.
+| France:
+- Requires the following:
+ - Retribution For Sedan
+- Is fully independent
+Is at war with Soviet Union
+| France:
+- Gains Annex cb against Soviet Union
+
+|- id="Disunite Germany"
+| FOCUS Disunite Germany: The triumph over France allowed Prussia to unite the smaller German states under her banner. It is only right that this process is reversed, now that the Germans have been defeated.
+| France:
+- Requires the following:
+ - Retribution For Sedan
+- Is fully independent
+- Is faction leader
+- Any controlled state:
+ - Is a core of Germany
+- Germany: One of the following must be true:
+ - Does not exist
+ - Has capitulated
+| France:
+- If:
+ - Is not in faction:
+ - Renames the Continental System to Confédération du Rhin
+- Otherwise:
+ - Rename faction to Confédération du Rhin
+- Becomes owner and controller of 51 if controlled.
+- Becomes owner and controller of 42 if controlled.
+Austria:
+- If France or a subject is owner of the following states, Austria becomes owner and controller of:
+ - 4
+ - 152
+ - 153
+ - 848
+ - 975
+ - 976
+- Austria becomes a puppet of France
+Kingdom of Wurtemberg:
+- If France or a subject is owner of the following states, Kingdom of Wurtemberg becomes owner and controller of and gains a core on:
+ - 50
+ - 978
+- Kingdom of Wurtemberg becomes a puppet of France
+Kingdom of Saxony:
+- If France or a subject is owner of the following states, Kingdom of Saxony becomes owner and controller of and gains a core on:
+ - 65
+- Kingdom of Saxony becomes a puppet of France
+Grand Duchy of Mecklenburg:
+- If France or a subject is owner of the following states, Grand Duchy of Mecklenburg becomes owner and controller of and gains a core on:
+ - 61
+- Grand Duchy of Mecklenburg becomes a puppet of France
+Duchy of Schleswig-Holstein:
+- If France or a subject is owner of the following states, Duchy of Schleswig-Holstein becomes owner and controller of and gains a core on:
+ - 58
+ - 909
+- Duchy of Schleswig-Holstein becomes a puppet of France
+Kingdom of Bavaria:
+- If France or a subject is owner of the following states, Kingdom of Bavaria becomes owner and controller of and gains a core on:
+ - 52
+ - 53
+ - 54
+- Kingdom of Bavaria becomes a puppet of France
+Kingdom of Westphalia:
+- If France or a subject is owner of the following states, Kingdom of Westphalia becomes owner and controller of and gains a core on:
+ - 59
+ - 56
+ - 57
+- Kingdom of Westphalia becomes a puppet of France
+Czechoslovakia:
+- If:
+ - Czechoslovakia exists
+ - Not at war with Czechoslovakia
+- Then:
+ - Every Czechoslovakia core that is owned by France or a subject is transferred to Czechoslovakia.
+- Otherwise:
+ - Every Czechoslovakia core that is owned by France or a subject is transferred to Czechoslovakia.
+ - Czechoslovakia becomes a puppet of France
+Kingdom of Prussia:
+- Kingdom of Prussia becomes owner, controller and gains a core on every Germany cored state that is owned by France or a subject that is:
+ - not controlled by:
+ - Kingdom of Bavaria
+ - Grand Duchy of Mecklenburg
+ - Kingdom of Saxony
+ - Kingdom of Westphalia
+ - Duchy of Schleswig-Holstein
+ - Kingdom of Wurtemberg
+ - Czechoslovakia
+ - not the following states:
+ - 42
+ - 51
+- Kingdom of Prussia becomes a puppet of France
+
+|- id="Je Suis Le Déluge"
+| FOCUS Je Suis Le Déluge: The French revolution was the flood that swept away the old and weak regimes that had controlled Europe for so long. Now, a new flood is here.
+| France:
+- Requires the following:
+ - Return To Borodino
+- Is fully independent
+| France gets the national spirit:
+
+Spirit Le Déluge:
+- Division training time: -20.0%
+- Manpower : 3.00%
+- Manpower Factor: 25%
+
+|}
+
+## Right Wing Rhetoric Sub-branch [verified for 1.17]
+
+ La Résistance Available only with the La Résistance DLC disabled.
+
+Fascist sub-branch of the French national focus tree without the La Résistance DLC.
+Clicking on a national focus icon leads to the appropriate table row.
+
+{| class="mildtable"
+! style="width: 30%;" | Focus
+! style="width: 30%;" | Prerequisites
+! style="width: 40%;" | Effects
+
+|- id="Right Wing Rhetoric"
+| FOCUS Right Wing Rhetoric: We must focus on reaching every French and lift their national spirit. Show them that we can be the powerful leaders they need and they will become proud citizens of our glourious nation.
+| France:
+- Requires the following:
+ - Revive the National Bloc
+| France:
+- Gains Marcel Bucard (Fascist Demagogue)
+ - Daily Fascism Support: +0.10
+
+Every other Fascist country with more than 30 Factories:
+- Gains Right Wing Rhetoric ( Opinion of France: +15)
+Every other Democratic country with more than 30 Factories:
+- Gains Right Wing Rhetoric ( Opinion of France: -10)
+Every other Communist country with more than 30 Factories:
+- Gains Right Wing Rhetoric ( Opinion of France: -50)
+
+|- id="Army of Aggression"
+| FOCUS Army of Aggression: We can no longer sit behind an obsolete wall, while our enemies run rampant across Europe. It is time to strengthen our army and push our borders to ensure France continues to be a grand nation.
+| France:
+- Requires the following:
+ - Right Wing Rhetoric
+- One of the following must be true:
+ - Current ruling party is Fascist
+ - More than 40% support for Fascist
+| France:
+- loses the national spirit Protected by the Maginot Line
+- loses the national spirit Disjointed Government
+- gets the national spirit:
+
+Spirit Army of Agression:
+- Division Organization: +5.0
+- Justify cb time: -25.0%
+
+- If in faction with United Kingdom and United Kingdom is faction leader:
+- Remove France from faction
+
+|- id="France First"
+| FOCUS France First: We are France! Victors of the Great War! Saviours of Europe! We are home of the greatest thinkers this world has seen. Too many nations seek to plunge the world into chaos. We are needed, and we will heed the call. We will take the helm, weather the storm, and steer humanity to safety under our rule!
+| France:
+- Requires the following:
+ - Army of Aggression
+- ExclusiveM Mutually exclusive with:
+ - Woo Italy
+ - Join Germany
+- Is fully independent
+| France:
+- Set the rule: Can create factions
+
+|- id="Woo Italy"
+| FOCUS Woo Italy: Italy has the potential to become a powerful nation. Thanks to the strong leadership of Mussolini the people of Italy are united and ready to fight for the right cause. Let that cause be ours.
+| France:
+- Requires the following:
+ - Army of Aggression
+- ExclusiveM Mutually exclusive with:
+ - France First
+ - Join Germany
+- Is fully independent
+- Is at peace with Italy
+- Current ruling party is Fascist
+- One of the following must be true:
+ - Is Faction Leader
+ - Is not in faction
+
+Italy:
+- Exists
+- Is not in Faction
+- Current ruling party is Fascist
+- Is fully independent
+| Italy:
+- Gets event Join the French faction
+
+If:
+- Germany:
+ - Has completed ger_reestablish_free_elections
+- Nationalist Spain:
+ - Is Fascist
+ - Then Nationalist Spain:
+ - loses the national spirit Recovering From the Civil War
+
+|- id="Dismantle the Democracies"
+| FOCUS Dismantle the Democracies: The new German democratic alliance in central Europe is threatening our new-found position. We must take action now, before they grow more powerful.
+| France:
+- Requires the following:
+ - Woo Italy
+- Is fully independent
+
+Germany:
+- Current ruling party is Democratic
+| France:
+- Gains Annex cb against Germany
+
+|- id="Join Germany"
+| FOCUS Join Germany: The German Reich is becoming a force to be reckoned with. Their vision of a better future can be aligned with our interests. We should support them and once the dust settles France will get its rightful piece of Europe.
+| France:
+- Requires the following:
+ - Army of Aggression
+- ExclusiveM Mutually exclusive with:
+ - France First
+ - Woo Italy
+- Is fully independent
+- Is not in faction
+- Is at peace with Germany
+- One of the following must be true:
+ - Current ruling party is Fascist
+ - More than 40% support for Fascist
+
+Germany:
+- Exists
+- Current ruling party is Fascist
+- Is faction leader
+| Germany:
+- Gets event France wants to join our faction.
+|}
+
+# Naval Rearmament Branch [verified for 1.17]
+
+Naval branch of the French national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+{| class="mildtable"
+! style="width: 30%;" | Focus
+! style="width: 30%;" | Prerequisites
+! style="width: 40%;" | Effects
+
+|- id="Naval Rearmament"
+| FOCUS Naval Rearmament: Our shipbuilding industry has been left to languish while we focused on keeping pace with developments in other fields. As a result, we are now very much in danger of being outclassed by our rivals in the mediterranean and the Atlantic. We must invest more to make up for lost time.
+| None
+| France:
+- Navy exp : +25
+- Random owned fully controlled state (prioritize 21):
+ - Add 2 building slot
+ - add 2 nic
+- Random owned fully controlled state (prioritize 14):
+ - Add 2 building slot
+- add 2 nic
+
+|- id="Colonial Naval Bases"
+| FOCUS Colonial Naval Bases: The key to global power projection is the ability to maintain a fleet far away from home waters. We have large colonial holdings already, now we must develop them to serve as refuelling and repair bases for our fleet.
+| France:
+- Requires the following:
+ - Naval Rearmament
+| France:
+- 459: add 3 naval base in a province in the state.
+- 272: add 3 naval base in a province in the state.
+- 539: add 3 naval base in a province in the state.
+- 286: add 3 naval base in a province in the state.
+
+|- id="Develop Colonial Dockyards"
+| FOCUS Develop Colonial Dockyards: With the naval bases in various parts of our Empire enlarged and modernized, we can look at settling the necessary heavy industry and build the large docks necessary to construct ships overseas.
+| France:
+- Requires the following:
+ - Colonial Naval Bases
+| France:
+- 459:
+ - Add 2 building slot
+ - add 2 nic .
+- 272:
+ - Add 2 building slot
+ - add 2 nic .
+- 286:
+ - Add 2 building slot
+ - add 2 nic .
+
+|- id="The Old School"
+| FOCUS The Old School: Despite all advances in naval technology, the key element of sea power is still the capital ship acting with the support of other fleet units. Whether this capital ship is still the battleship or is the new aircraft carrier, we must further increase the size of our shipbuilding industry to ensure we can keep pace with other naval powers.
+| France:
+- Requires the following:
+ - Naval Rearmament
+- ExclusiveM Mutually exclusive with:
+ - The Young School
+| France:
+- Random owned cored controled coastal state:
+ - Add 2 building slot
+ - Add 3 nic
+
+|- id="Capital Ship Focus"
+| FOCUS Capital Ship Focus: Improving the design of our Battleships would lead to great tactical advantages. With their range and power uncontested, no one will be able to outrun their guns.
+| France:
+- Requires the following:
+ - The Old School
+- ExclusiveM Mutually exclusive with:
+ - Carrier Focus
+| France:
+- 2x 100% Research bonus for: Battleship models and Battlecruiser models.
+
+|- id="Rush the Richelieus"
+| FOCUS Rush the Richelieus: With the situation in Europe becoming more and more desperate, we don't have time to build our new surface units through conventional means. We have to prioritize materials to get our new battleships into service as soon as possible.
+| France:
+- Requires the following:
+ - Capital Ship Focus
+| France:
+- If DLC Man the Guns is enabled:
+ - Add 2 productions of Richelieu Class (1936 Heavy Ship hull)
+- Otherwise:
+ - Add 2 productions of 1936 Battleships
+
+|- id="Carrier Focus"
+| FOCUS Carrier Focus: Naval theorists have directed our attention to our outdated Carriers. They have suggestions on how Carriers can be further utilized if development is pushed in the right direction. Real progress cannot be made without our full support.
+| France:
+- Requires the following:
+ - The Old School
+- ExclusiveM Mutually exclusive with:
+ - Capital Ship Focus
+| France:
+- 2x 100% Research bonus for: Carrier models.
+
+|- id="Carrier Planes"
+| FOCUS Carrier Planes: A carrier is only as good as its planes. Without modern planes, any carrier is a wasted investment.
+| France:
+- Requires the following:
+ - Carrier Focus
+| France:
+- 2x 100% Research bonus for: Naval aircraft.
+
+|- id="Prioritize the Joffre"
+| FOCUS Prioritize the Joffre: Our current carrier fleet is hopelessly outdated and outmatched by any potential enemy. We must ensure that a new carrier project is given top priority.
+| France:
+- Requires the following:
+ - Carrier Focus
+| France:
+- Adds a modern Carrier at 40% completion to the construction queue.
+ - If DLC Man the Guns is enabled:
+ - Add Technology: 1936 Carrier hull
+ - Add 2 productions of Joffre Class (1936 Carrier hull)
+ - Otherwise:
+ - Add 2 productions of 1936 Carriers
+
+|- id="The Young School"
+| FOCUS The Young School: Developments in aviation, submarines and torpedoes have made the capital ship obsolete. With our limited naval industry, we can not afford to waste time and money on building gigantic floating fortresses that are helpless against the threats of the modern naval battlefield. We should instead focus on improving efficiency to allow us to build more small vessels.
+| France:
+- Requires the following:
+ - Naval Rearmament
+- ExclusiveM Mutually exclusive with:
+ - The Old School
+| France gets the national spirit:
+
+Spirit The Young School: Developments in aviation, submarines and torpedoes have made the capital ship obsolete. With our limited naval industry, we can not afford to waste time and money on building gigantic floating fortresses that are helpless against the threats of the modern naval battlefield. We should instead focus on improving efficiency to allow us to build more small vessels.
+Dockyard Output : +5.00%
+
+|- id="Undersea Combat"
+| FOCUS Undersea Combat: The submarine has come to maturity in the last decade. It now poses a lethal threat to any and all surface ships, while being increasingly difficult to detect and destroy.
+| France:
+- Requires the following:
+ - The Young School
+| France:
+- navy exp : +25
+- 2x 100% Research bonus for: Submarine models.
+
+|- id="Surface Combat"
+| FOCUS Surface Combat: With advances in gunnery, it has become all but impossible to build a ship that can hope to survive a prolonged slugging match with another capital vessel. It is far better to have a fleet of modern destroyers and torpedo boats to overwhelm an enemy with massed salvos of torpedoes.
+| France:
+- Requires the following:
+ - The Young School
+| France:
+- navy exp : +25
+- 1x 200% Research bonus for: Destroyer models.
+
+|- id="Improved Screen Ships"
+| FOCUS Improved Screen Ships: Destroyers and Lighter Cruisers play a key role in defending our heavier Battleships or Carriers. If we lose our line of defense at sea we risk all ships and men. We must make sure our ships are built with the latest technology.
+| France:
+- Requires the following:
+ - Undersea Combat
+ - Surface Combat
+| France:
+- navy exp : +25
+- 1x 200% Research bonus for: Cruiser models.
+
+|- id="Naval Doctrine"
+| FOCUS Naval Doctrine: Recent progress in ship designs have opened up new options in tactical and strategical maneuvers. Before we take chances with these new theories we need to have them properly tested and plans solidified.
+| France:
+- Requires one of the following:
+ - Rush the Richelieus
+ - Prioritize the Joffre
+ - Improved Screen Ships
+| France:
+- 2x 50% Cost Reduction for: Naval Doctrine.
+|}
+
+# Air Focus Branch [verified for 1.17]
+
+Air research branch of the French national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+{| class="mildtable"
+! style="width: 30%;" | Focus
+! style="width: 30%;" | Prerequisites
+! style="width: 40%;" | Effects
+
+|- id="Air Focus"
+| FOCUS Air Focus: Time has come to expand on our air force! Plans have already been made to start construction of new Air Bases to support a big increase in both personnel and aircraft.
+| None
+Not enough building slots for Air Base
+| France:
+- Air exp : +25
+- 3 Random owned controlled state with more than 1 free Air Base building slot:
+ - Add 2 Air Base
+
+|- id="Fighter Focus"
+| FOCUS Fighter Focus: Some revolutionary civilian engineering can be applied on our Fighters to improve their speed, range and max altitude. We need to focus on this if we want to keep up with the advancements made by others.
+| France:
+- Requires the following:
+ - Air Focus
+- ExclusiveM Mutually exclusive with:
+ - Bomber Focus
+| France:
+- 1x 100% Research bonus for: Fighter models
+
+|- id="Bomber Focus"
+| FOCUS Bomber Focus: Air support is an important part of both our defensive and offensive capabilities. If we focus our efforts on developing fast, more agile and accurate bombers we will maintain an edge in any land battle.
+| France:
+- Requires the following:
+ - Air Focus
+- ExclusiveM Mutually exclusive with:
+ - Fighter Focus
+| France:
+- 1x 100% Research bonus for: Tactical Bomber models
+
+|- id="Heavy Fighter Focus"
+| FOCUS Heavy Fighter Focus: Our Heavy Fighters must be able to support the more vulnerable bomber airplanes. This requires heavier armament and longer range at the cost of some speed.
+| France:
+- Requires the following:
+ - Fighter Focus
+| France:
+- 2x 100% Research bonus for: Heavy Fighter models
+
+|- id="Air Doctrine"
+| FOCUS Air Doctrine: We have gained enough experience to test new theories in air warfare at a faster pace. This will allow us to explore new tactical and strategic possibilities. Air combat is the key in modern warfare.
+| France:
+- Requires one of the following:
+ - Fighter Focus
+ - Bomber Focus
+| France:
+- Air exp : +50
+- 2x 50% Cost Reduction for: Air Doctrine
+
+|- id="Heavy Bomber Focus"
+| FOCUS Heavy Bomber Focus: Modern heavy bombers will be armed to handle lesser aerial skirmishes on their own. If we allow our engineers to focus on developing the newest technology we will have a better chance of destroying enemy production facilities.
+| France:
+- Requires the following:
+ - Bomber Focus
+| France:
+- 2x 100% Research bonus for: Strategic Bomber models
+
+|- id="Naval Bomber Focus"
+| FOCUS Naval Bomber Focus: Ships have proven exceptionally vulnerable to aircraft. We should keep improving on their technology to ensure we stay ahead of any countermeasures.
+| France:
+- Requires the following:
+ - Bomber Focus
+| France:
+- 2x 100% Research bonus for: Naval Bomber models
+|}
+
+hoi4fr:Arbre des priorités nationales françaises

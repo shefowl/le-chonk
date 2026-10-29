@@ -1,0 +1,23 @@
+# derived data: scanner caches, porting work files, screenshots
+cache-*/
+shots/
+*.pkl
+__pycache__/
+# secrets
+.env
+# run journals and LLM call logs
+logs/
+# who plays what in a local game (harness/roster.py)
+roster.json
+
+# Private BYOK settings
+config/llm.json
+config/.llm-*
+config/.setup.lock
+
+# Local environments and generated game artwork are never public source.
+.venv/
+venv/
+mod/le_chonk/
+*.mp4
+*.webm

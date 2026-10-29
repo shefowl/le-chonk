@@ -1,0 +1,70 @@
+TITLE: Division designer
+URL: https://hoi4.paradoxwikis.com/Division_designer
+REVISION: 2026-03-27T17:44:13Z (rev 99345)
+VERIFIED FOR: 1.9
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+The division designer is a utility located in the "Recruit & Deploy" menu of the user interface. The division designer enables players to create organizational templates for divisions, which are units that can be assigned to command groups and engaged in land warfare. Once created, these templates can then be trained, equipped, and deployed. Modifications to templates are automatically applied to all divisions that utilize that template. In order to transition divisions to a new template on an individual or rolling basis rather than all at once, it is possible to make the template change in a duplicate template and then reassign the divisions to the modified template when desired.
+
+It is important for players to be aware of the potential for enhancing their forces by incorporating superior templates as they accrue experience in the game, given that the initial formations of most countries do not align with optimal standards. The initial units are typically smaller or composed exclusively of infantry, and their effectiveness is enhanced when additional troop types are incorporated.
+
+# Creating a template [verified for 1.9]
+
+## General options
+
+### Selecting Template
+As every nation starts with some form of basic template, it is often advisable to edit this as technology, army exp army experience, manpower and equipment become available. It is also possible to design a template from the ground up using the create new option in the template selection menu.
+
+### Selecting Name List
+With the 1.5 patch, templates can now have a name-list too, with historical unit names selected. This function (indicated by the "dog-tag" to its left) renames all templates of this type according to the list selected. The names appear in white type in contrast to green division names that are a custom function (despite some units with templates with historical names pre-selected starting the game with green type custom names). The name list itself is not editable except through mods.
+
+### Division Equipment
+To the right of the parachute icon is the Division Equipment button. Selecting this button will bring up a new menu showing all of the equipment stockpiled that the template can use. This allows the player to control what specific weapon types the units with this template may use, so it is valuable if the player is seeking to have certain units use older equipment and stockpile a reserve of new equipment for other units or other purposes such as lend-lease shipments. Equipment already in the field won't be returned unless it is replaced by an upgrade or the template changes so that type is no longer used.
+
+### Equipment priorities
+Below the division equipment button and to the right of the template name are the division priority options. Divisions with higher priorities will receive equipment and reinforcements before divisions with lower priorities. A template can have one of three priority options:
+- Reserves: Units with this template will receive equipment last and at the lowest priority once deployed. Perfect for units set to guard bases or control resistance.
+- Default: Units with this template get average priority for equipment and reinforcement once deployed. Recommended for the player's standard divisions.
+- Elite: Units with this template will receive equipment before anyone else once deployed and at the highest priority. Use it for the army's best men and where they can do the most good.
+
+## Battalions and companies
+Unit types
+
+### Battalions
+Battalions, sometimes called "combat battalions", "line battalions", or "line troops", are the frontline troops of a division. They are organized into at most 5 brigades (represented as vertical columns) that can have up to 5 battalions each (initially 4, but increased to 5 with land doctrines), totaling up to a maximum capacity of 25 battalions per division. Battalions fall into six broad categories: infantry, combat support, mobile, mobile combat support, armor, and armored combat support. Each brigade may only have battalions from the same category, but can have any combination of battalions within that category.
+
+It costs 5 army exp to add, remove, or replace a battalion. The first regiment is free, but each regiment of a different category costs 20 army exp - thus it is important to know which category of battalions you will have the most of and make sure your first battalion is of that category.
+
+### Support companies
+Support companies are auxiliary forces that stay behind the front line, providing general all-round bonuses to the divisions they're assigned to. There are many different support companies that can be unlocked through the Support Company research tree, the Artillery research tree, special projects, and country-specific national focuses. Up to 5 can be assigned to a division, but no more than one of each type. They do not affect a division's combat width, and they usually do not affect its max speed other than through terrain movement bonuses granted by some support companies. Most support companies of Paratrooper divisions can paradrop with their division, though some heavier support companies cannot do this.
+
+Each support company costs 10 army exp to add, replace, or remove from a template.
+
+## Stats
+
+The right side of the division designer show the stats of the currently selected template. These stats will change as battalions and companies are added or removed from the division.
+
+### Hardness
+Below the main stats window is a hardness indicator, shown as a bar with a tank icon to the left and an infantry helmet icon to the right. Some equipment, motorized and tanks in particular, have a hardness stat represented by a percentage. This stat contributes to the overall hardness of the division they are in. Divisions with high hardness take less damage from soft attacks, but receive more damage from hard attacks. To increase a template's hardness, add more units with higher hardness stats, or remove them to increase softness.
+
+### Adjusters
+The net adjuster for a division is the average of its combat battalions, plus the sum of the adjusters of its support battalions for the division as a whole. Every adjuster has three small icons that indicate the respective adjusters in the fields of mobility, attack and defense, red being a disadvantage and green being a bonus.
+
+### Cost
+The lower-right corner of the window, below the adjusters, shows what resources and the minimum and maximum production cost needed to produce the equipment to supply the division.
+
+# Subject forces [verified for 1.9]
+
+Countries that have subjects are able to recruit divisions using their subjects' templates. Subject forces draw equipment from their overlord and manpower from both their home country and their overlord. How much manpower comes from each depends on the subject's autonomy level. Colonies must provide for 70% of a division's manpower, puppets must provide 90%, and integrated puppets must provide 100%. Countries cannot recruit from a dominion, although they may still request the dominion to provide forces. Although subject forces are under complete control of their overlord, they can only be deployed in their home country, from which they may travel elsewhere. One cost of deploying them is that increases the subject's autonomy.
+
+In order to recruit subject forces, select the colonial templates button in the upper-right corner of the templates panel. This will bring up a list of available subjects where troops can be raised, as well as show their autonomy level. Select a subject to see a list of their division templates. From here the templates can be viewed or copied. Selecting the copy button will place a copy of that template into the home country's template list, where they can be edited using the overlord's Army Experience. Colonial templates will show the flag of their home country to the bottom-left of their icon.
+
+# Early Template Divisions
+Each country has a set of preliminary division templates, some of which will already be in use by existing divisions. A significant number of these templates encompass a single type of battalion and lack the inclusion of any support companies. It is possible that they may prove useful in the role of occupation or garrison troops, despite their lack of apparent combat capability. Mobile units are capable of outpacing infantry units and are a valuable asset for an army. Divisions that include cavalry (which is essentially mounted infantry) may prove valuable in this role for an extended period.
+
+It is often advantageous to retain a copy of the original form of a template that is being modified, as this allows it to be used as a base for subsequent designs, thereby saving experience points (XP). Furthermore, these templates can be readily replicated and stored under a distinct designation within the Division Designer.
+
+# References
+
+hoi4fr:Division designer

@@ -1,0 +1,3263 @@
+TITLE: Soviet national focus tree: industrial branches
+URL: https://hoi4.paradoxwikis.com/Soviet_national_focus_tree:_industrial_branches
+REVISION: 2026-03-19T09:34:16Z (rev 98950)
+VERIFIED FOR: 1.17
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+- For the main page of the Soviet focus tree, see Soviet national focus tree.
+- For the political branches of the Soviet focus tree, see Soviet national focus tree: political branches.
+
+Soviet national focus tree. Clicking on the branches leads to the appropriate section.
+
+# Infrastructure Effort/Heavy Industry Branch [verified for 1.17]
+
+Soviet Union 2D Art Pack
+
+Industrial branch of the Soviet national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+Focus:
+FOCUS Infrastructure Effort: Soviet Union is vast but mostly empty. We must ensure the ability to transport goods and equipment across the width of the country quickly.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+None
+Not enough building slots for Infrastructure
+Effects:
+- Random owned controlled state with less than 3 infrastructure:
+ - Add 2 Infrastructure
+- Random owned controlled state with less than 3 infrastructure:
+ - Add 2 Infrastructure
+- Random owned controlled state with less than 3 infrastructure:
+ - Add 2 Infrastructure
+- Random owned controlled state with less than 3 infrastructure:
+ - Add 2 Infrastructure
+
+Focus:
+FOCUS Heavy Industry: While our industrialization projects continue to gain speed, the time has come to shift towards a bigger emphasis on heavy industry in preparation for producing more war material.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites: None
+Effects:
+- Random owned controlled state:
+ - Add 1 Building Slot
+ - Add 1 cic
+- Random owned controlled state:
+ - Add 1 Building Slot
+ - Add 1 cic
+
+Focus:
+FOCUS Finish the Five Year Plan: The second Five Year Plan prioritizes the development of heavy industry. The Soviet Union must develop quickly in order to match the Capitalist and Fascist powers of the West.
+Alternative Names
+democratic Fascist Non-aligned Non-Communist name
+
+Abolish the Five Year Plan
+
+The five-year plans of the Soviet regime prioritized the intensive industrialization of the country over everything else, to the point that it has become one of the greatest symbols of Bolshevik oppression. We must eradicate this project and draw up a new national plan for industrialization.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Infrastructure Effort
+ - Heavy Industry
+- More than 100 controlled factories
+Effects:
+- Random Owned Controlled State:
+ - Add 2 Building Slot
+ - Add 1 cic
+- Random Owned Controlled State:
+ - Add 2 Building Slot
+ - Add 1 cic
+- Available as Political Advisor:
+ - Lazar Kaganovich (Iron Lazar)
+ - Train:
+ - production cost : +5.00%
+ - Reliability: +15%
+ - Supply hub construction speed: +5.00%
+ - railway construction speed: +5.00%
+ - Fuel gain per oil: +5.00%
+
+Focus:
+FOCUS Improve Railway Network: Our First Five year plan proved to be too successful. The massive expansion in heavy industry has left the Soviet Union in a much stronger position to defend herself but the soviet railway network has hit some critical bottlenecks. The People's Commissariat of Railways (NKPS) has an ambitious plan to close these bottlenecks and ensure that we can defend the motherland.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Finish the Five Year Plan
+Effects:
+- Build a level 1 railway from 254 to 218.
+- Build a level 1 railway from 217 to 245.
+- Build a level 1 railway from 217 to 239.
+- Build a level 1 railway from 217 to 236.
+- Build a level 1 railway from 231 to 230.
+- 230 Add 1 Supply hub in a province in the state.
+- 213 Add 1 Supply hub in a province in the state.
+- Available as Design Company:
+ - Soviet Railways (Railway Company)
+ - Trains and Railways Research Speed: +10%
+ - Train:
+ - production cost : -25.00%
+ - Reliability: +10%
+ - Supply hub construction speed: +15.00%
+ - railway construction speed: +15.00%
+ - Completing the focus National Specialists will improve this designer.
+
+Focus:
+FOCUS Third Five Year Plan: While peace lasts, we must drive our industrialization further and faster to meet the needs of our people and our military.
+Alternative Names
+democratic Fascist Non-aligned Non-Communist name
+
+New Project for National Industrialization
+
+We have devised a national industrialization program that will allow us to increase both our military and civilian production in the long term, without the need to oppress the population or put their basic needs at risk.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Finish the Five Year Plan
+- The Soviet Union is not at war with major power
+- This focus will be permanently locked once
+the Soviet Union enters a war against major
+power.
+- More controlled factories than 120
+- Has not completed focus Curtailment of the Collective Farms
+Effects:
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier Five Year Plan by:
+
+Spirit Five Year Plan:
+Effective Change:
+- Production Efficiency Growth : +5.00%
+- Industrial Concern Cost: -15%
+- Consumer Goods Factories factor: +5.0%
+
+- Otherwise:
+ - Replace Dynamic Modifier Five Year Plan with:
+
+Spirit New Project for National Industrialization:
+Effective Change:
+- Production Efficiency Growth : +5.00%
+- Industrial Concern Cost: -15%
+- Consumer Goods Factories factor: +5.0%
+
+- 2×75% Research bonus for: Construction technology
+
+Focus:
+FOCUS Increase State Reserves: Our growing industry hungers for more and more resources. We can not always ensure that the growth in resource production keeps pace, and must build up reserves where we can.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Third Five Year Plan
+- The Soviet Union is not at war with major power
+- This focus will be permanently locked once
+the Soviet Union enters a war against major
+power.
+- Has not completed focus Curtailment of the Collective Farms
+Effects:
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier Five Year Plan by:
+
+Spirit Five Year Plan:
+Effective Change:
+- Resource Gain Efficiency: +10.00%
+
+- If Reorganize the PC of Heavy Industry is selected beforehand:
+
+Spirit Five Year Plan:
+Effective Change:
+- Resource Gain Efficiency: +10.00%
+
+- If Shift To Armaments Production is selected beforehand:
+
+Spirit Five Year Plan:
+Effective Change:
+- Resource Gain Efficiency: +10.00%
+- Otherwise:
+ - Modify Dynamic Modifier New Project for National Industrialization by:
+
+Spirit New Project for National Industrialization:
+Effective Change:
+- Resource Gain Efficiency: +10.00%
+
+- If Reorganize the PC of Heavy Industry is selected beforehand:
+
+Spirit New Project for National Industrialization:
+Effective Change:
+- Resource Gain Efficiency: +10.00%
+
+- If Shift To Armaments Production is selected beforehand:
+
+Spirit New Project for National Industrialization:
+Effective Change:
+- Resource Gain Efficiency: +10.00%
+- 3 Random States:
+ - Add 1 Building Slot
+ - Add 1 Fuel silo
+
+Focus:
+FOCUS Reorganize the PC of Heavy Industry: Our previous shift towards heavy industry has caused some inefficiencies in the administration to become apparent. We must ensure that the right people are put in the right places to make operations run smoothly again.
+Alternative Names
+democratic Fascist Non-aligned Non-Communist name
+
+Reorganize the Ministry of Industry
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Third Five Year Plan
+- ExclusiveM Mutually exclusive with:
+ - Shift To Armaments Production
+- The Soviet Union is not at war with major power
+- This focus will be permanently locked once
+the Soviet Union enters a war against major
+power.
+- More controlled factories than 130
+- Has not completed focus Curtailment of the Collective Farms
+Effects:
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier Five Year Plan by:
+
+Spirit Five Year Plan:
+Effective Change:
+- Consumer Goods Factories factor: -5.0%
+
+- Otherwise:
+ - Modify Dynamic Modifier New Project for National Industrialization by:
+
+Spirit New Project for National Industrialization:
+Effective Change:
+- Consumer Goods Factories factor: -5.0%
+
+- 2×100% Research bonus for: Industry and Electronics
+
+Focus:
+FOCUS Industrial Modernization: Western countries are rapidly implementing new production methods and introducing new technologies. We can not be content with merely keeping pace with them - we must overtake them!
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Reorganize the PC of Heavy Industry
+- The Soviet Union is not at war with major power
+- This focus will be permanently locked once
+the Soviet Union enters a war against major
+power.
+- More controlled factories than 150
+- Has not completed focus Curtailment of the Collective Farms
+Effects:
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier Five Year Plan by:
+
+Spirit Five Year Plan:
+Effective Change:
+- Production Efficiency Cap : +5.00%
+- Production Efficiency Retention : +10.00%
+
+- Otherwise:
+ - Modify Dynamic Modifier New Project for National Industrialization by:
+
+Spirit New Project for National Industrialization:
+Effective Change:
+- Production Efficiency Cap : +5.00%
+- Production Efficiency Retention : +10.00%
+
+- Reduce ahead of time penalty by 2.0 years and give a 100% research bonus. Valid for the next 1 researches of these technologies: Industry
+
+Focus:
+FOCUS Shift To Armaments Production: War is brewing. We do not know who will strike first, but sooner or later we will find ourselves under attack. We must prepare for it now, to be ready when the time comes.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Third Five Year Plan
+- ExclusiveM Mutually exclusive with:
+ - Reorganize the PC of Heavy Industry
+- The Soviet Union is not at war with major power
+- This focus will be permanently locked once
+the Soviet Union enters a war against major
+power.
+- More controlled factories than 130
+- Has not completed focus Curtailment of the Collective Farms
+Effects:
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier Five Year Plan by:
+
+Spirit Five Year Plan:
+Effective Change:
+- cic construction speed: -5.00%
+- Mic construction speed: +10.00%
+
+- Otherwise:
+ - Modify Dynamic Modifier New Project for National Industrialization by:
+
+Spirit New Project for National Industrialization:
+Effective Change:
+- cic construction speed: -5.00%
+- Mic construction speed: +10.00%
+
+- 2x 100% Research bonus for: Infantry Weapons
+
+Focus:
+FOCUS Optimize Production Lines: Other countries have successfully implemented "Fordism" in their factories to maximize production. We must learn from their example.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Shift To Armaments Production
+- The Soviet Union is not at war with major power
+- This focus will be permanently locked once
+the Soviet Union enters a war against major
+power.
+- More controlled factories than 150
+- Has not completed focus Curtailment of the Collective Farms
+Effects:
+- If current ruling party is Communist :
+ - Modify Dynamic ModifierFive Year Plan by:
+
+Spirit Five Year Plan:
+Effective Change:
+- Factory Output : +2.00%
+- Production Efficiency Growth : +5.00%
+- Production Efficiency base: +5.00%
+
+- Otherwise:
+ - Modify Dynamic Modifier New Project for National Industrialization by:
+
+Spirit New Project for National Industrialization:
+Effective Change:
+- Factory Output : +2.00%
+- Production Efficiency Growth : +5.00%
+- Production Efficiency base: +5.00%
+
+- 2x 100% Research bonus for: Production
+
+Focus:
+FOCUS Steel Casting Industry: Our metalurgic industries have been at the forefront of our industrial growth, but they can be pushed even further with the adoption of new production methods.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires one of the following:
+ - Reorganize the PC of Heavy Industry
+ - Shift To Armaments Production
+- Any owned state:
+ - At least 1 steel
+ - Can build 1 more cic
+- The Soviet Union is not at war with major power
+- This focus will be permanently locked once
+the Soviet Union enters a war against major
+power.
+- Has not completed focus Curtailment of the Collective Farms
+Effects:
+- If Reorganize the PC of Heavy Industry is selected beforehand:
+ - If current ruling party is Communist :
+ - Modify Dynamic Modifier Five Year Plan by:
+
+Spirit Five Year Plan:
+Effective Change:
+- Factory Output : +5.00%
+- Dockyard Output : +5.00%
+
+ - Otherwise:
+ - Modify Dynamic Modifier New Project for National Industrialization by:
+
+Spirit New Project for National Industrialization:
+Effective Change:
+- Factory Output : +5.00%
+- Dockyard Output : +5.00%
+
+- If Shift To Armaments Production is selected beforehand:
+ - If current ruling party is Communist :
+ - Modify Dynamic Modifier Five Year Plan by:
+
+Spirit Five Year Plan:
+Effective Change:
+- Factory Output : +5.00%
+- Dockyard Output : +5.00%
+
+ - Otherwise:
+ - Modify Dynamic Modifier New Project for National Industrialization by:
+
+Spirit New Project for National Industrialization:
+Effective Change:
+- Factory Output : +5.00%
+- Dockyard Output : +5.00%
+- Random Owned Controlled State:
+ - If at least 1 steel
+ - Add 1 Building Slot
+ - Add 1 cic
+ - Add production of 5 steel
+- Random Owned Controlled State:
+ - If at least 1 steel
+ - Add 1 Building Slot
+ - Add 1 cic
+ - Add production of 5 steel
+
+Focus:
+FOCUS Synthetic Rubber: The day will come when we can no longer rely on the import of foreign rubber. When that day comes, we must be prepared to meet our rubber needs with domestic production.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Steel Casting Industry
+- Has researched Rubber Processing
+- Has full control of 219
+- Requires one of the following:
+ - Has full control of 260
+ - Has full control of 223
+- The Soviet Union is not at war with major power
+- This focus will be permanently locked once
+the Soviet Union enters a war against major
+power.
+- Has not completed focus Curtailment of the Collective Farms
+Effects:
+- Voronezh:
+ - Add 2 Building Slot
+ - Add 1 Synthetic Refinery
+ - Build a level 1 railway from 219 to 260.
+- Tula:
+ - Add 2 Building Slot
+ - Add 1 Synthetic Refinery
+ - Build a level 1 railway from '219 to 223.
+- 2×75% Research bonus for: Synthetic Rubber
+
+Focus:
+FOCUS Oil Production: The next logical step in our industral development as well as in our military modernization is to increase motorization. This will require huge stocks of lubricants and fuel. Thankfully, we posess ample reserves of oil that can be used for this if we develop the necessary industries.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Steel Casting Industry
+- The Soviet Union is not at war with major power
+- This focus will be permanently locked once
+the Soviet Union enters a war against major
+power.
+- Has not completed focus Curtailment of the Collective Farms
+Effects:
+- If Reorganize the PC of Heavy Industry is selected beforehand:
+ - If current ruling party is Communist :
+ - Modify Five Year Plan by:
+
+Spirit Five Year Plan:
+Effective Change:
+- Synthetic Oil: +5.00%
+- Fuel Gain from Refineries: +5.00%
+
+ - Otherwise:
+ - Modify Dynamic Modifier New Project for National Industrialization by:
+
+Spirit New Project for National Industrialization:
+Effective Change:
+- Synthetic Oil: +5.00%
+- Fuel Gain from Refineries: +5.00%
+
+- If Shift To Armaments Production is selected beforehand:
+ - If current ruling party is Communist :
+ - Modify Dynamic Modifier New Project for National Industrialization by:
+
+Spirit Five Year Plan:
+Effective Change:
+- Synthetic Oil: +5.00%
+- Fuel Gain from Refineries: +5.00%
+
+ - Otherwise:
+ - Modify Dynamic Modifier New Project for National Industrialization by:
+
+Spirit New Project for National Industrialization:
+Effective Change:
+- Synthetic Oil: +5.00%
+- Fuel Gain from Refineries: +5.00%
+- In these 6 states:
+ - Azerbaijan, Pechora, Nenets, Chechnya-Ingushetia, Dagestan, Surgut (these states have at least 1 oil )
+ - Add 1 Infrastructure
+ - Add 1 Fuel silo (Max 2, into random state(s))
+- Build a level 1 railway from Baku to Tbilisi.
+- Build a level 1 railway from Makhachkala to Grozny.
+
+Focus:
+FOCUS Restoration and Development: Now that the war has ended, we can return to developing our industries in peace and improve the life of our people.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires one of the following:
+ - Industrial Modernization
+ - Optimize Production Lines
+- The Soviet Union is at peace with the major power that disrupted the Third Five Year Plan.
+- This focus will be auto-completed once the condition is met.
+- Has not completed focus Curtailment of the Collective Farms
+Effects:
+- gets the national spirit for 365 days:
+
+Spirit Restoration and Development: Now that the war has ended, we can return to developing our industries in peace and improve the life of our people.
+- Consumer Goods Factories factor: 10.0%
+- Factory Repair Speed: +10.00%
+- Infra construction speed: +10.00%
+
+- If current ruling party is Communist :
+ - New Propaganda Campaign available: ()
+ - Unlocks Decision: We will Rebuild to Glory!
+ - Unlocks Decision: You will Live a Happy Life!
+ - Unlocks Decision: Long Live to Peace!
+ - Propaganda campaigns require having completed focus Expand the Agitprop.
+- ‘We will Rebuild to Glory!’:
+ - Prerequisites:
+ - Has an empty propaganda poster slot.
+ - Effects for 180 days when decision is selected:
+ - Construction Speed: +5.00%
+ - Factory Repair Speed: +15.00%
+- ‘You will Live a Happy Life!’:
+ - Prerequisites:
+ - Has an empty propaganda poster slot.
+ - Less than 1% surrender progress
+ - Effects for 180 days when decision is selected:
+ - Consumer Goods Factories: 10.0%
+ - Weekly stability : +1.00%
+ - Resistance Decay Speed: +5%
+ - Compliance Growth Speed: +5%
+ - Damage to Garrisons: +15.00%
+- ‘Long Live to Peace!’:
+ - Prerequisites:
+ - Has an empty propaganda poster slot.
+ - At peace
+ - Not:Has entered a war while this campaign was active. Breaking this will cause instability and lock this propaganda campaign forever.
+ - Effects for 180 days when decision is selected:
+ - Set the rule: no ‘Can send volunteer forces’.
+ - Consumer Goods Factories: -10.0%
+ - Weekly stability : +0.50%
+ - Weekly war support : -0.50%
+ - Improve relations opinion: +25.00%
+ - Factory Output : -5.00%
+ - Justify cb time on us: +50.0%
+ - Effects when failed:
+ - Will fail if we have entered a war while this campaign was active.
+ - If has entered a offensive war:
+ - gets the national spirit for 180 days:
+
+Spirit Broken Peace Dreams: This new war we find ourselves in, not so long after we publicly promised to pursue policies of peace, is causing instability and distrust amnog the population.
+- stability : -15.00%
+- Political Power Gain: -15%
+- War Penalty stability Modifier: -15.00%
+
+ - If has entered a defensive war:
+ - gets the national spirit for 180 days:
+
+Spirit Broken Peace Dreams: This new war we find ourselves in, not so long after we publicly promised to pursue policies of peace, is causing instability and distrust amnog the population.
+- stability : -10.00%
+- Political Power Gain: -5%
+- War Penalty stability Modifier: -5.00%
+
+Focus:
+FOCUS Fourth Five Year Plan: It will still take some time before the disruptions of the war have been fully made good, but by setting the right goals, we can already gain some productivity gains.
+Alternative Names
+democratic Fascist Non-aligned Non-Communist name
+
+A New Beginning
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Restoration and Development
+- The Soviet Union is not at war with major power
+- This focus will be permanently locked once
+the Soviet Union enters a war against major
+power.
+- More controlled factories than 200
+- Has not completed focus Curtailment of the Collective Farms
+Effects:
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier Five Year Plan by:
+
+Spirit Five Year Plan:
+Effective Change:
+- Consumer Goods Factories factor: -5.0%
+- Factory Repair Speed: +5.00%
+- Production Efficiency Cap : +5.00%
+
+- Otherwise:
+ - Modify Dynamic Modifier New Project for National Industrialization by:
+
+Spirit New Project for National Industrialization:
+Effective Change:
+- Consumer Goods Factories factor: -5.0%
+- Factory Repair Speed: +5.00%
+- Production Efficiency Cap : +5.00%
+
+Focus:
+FOCUS Found the COMECON: The war has shown that we need to improve our cooperation and the economic development of our friends and partners. To that end, we will form an organization to coordinate trade and economic development between our nations.
+Prerequisites:
+- Requires the following:
+ - Fourth Five Year Plan
+- current ruling party is Communism
+- More than 0 Subject nations
+- Has not completed focus Curtailment of the Collective Farms
+- If the DLC ncns is enabled:
+ - Has completed focus Curtailment of the Collective Farms
+Effects:
+- The Soviet Union gets the national spirit:
+
+Spirit COMECON: There are undergoing measures taken by The COMECON.
+Consumer Goods Factories factor: -10.0%
+
+- Every Soviet subject gets the national spirit:
+
+Spirit COMECON: There are undergoing measures taken by The COMECON.
+- Consumer Goods Factories factor: -15.0%
+- Master ideology drift: +0.05%
+- Subject manpower requirement: -100.00%
+- Extra trade for Overlord: +25.00%
+- Civilian Industry controlled by overlord: +50.00%
+- Military Industry controlled by overlord: +50.00%
+- Freedom gain by trade: -75.00%
+
+- The Soviet Union and every Soviet subject joins The COMECON or COMECON Techonology Sharing Principle
+- Unlocks The COMECON Decisions
+
+Focus:
+FOCUS Found the Warsaw Pact: As the winds of change are blowing over Europe, it is becoming ever more clear that we will need a collective defense treaty in order to stave off any aggression from the decadent west. To this end, we should formalize the Warsaw Pact Organization, a military complement to the COMECON.
+Prerequisites:
+- Requires the following:
+ - Fourth Five Year Plan
+- More than 0 Subject nations
+- Is fully independent
+- Is Faction leader
+- Current ruling party is Communist
+Effects:
+- Comintern will now be known as Warsaw Pact
+- Change manifesto of Comintern to An Iron Curtain
+- Add 1 Long Term goal slot to Comintern
+- Add faction goal Eastern European Security to Comintern
+- Add 1 Faction Initiative Points for Comintern
+
+Focus:
+FOCUS The Common Economic Space Initiative: Growing our economy is easier if we had access to new markets for our goods and to gain the resources our economy needs with fewer barriers to trade. We should form an organisation to promote this.
+Prerequisites:
+- current ruling party is not Communism
+- Requires the following:
+ - Fourth Five Year Plan
+- More than 0 Subject nations
+Effects:
+- Russia gets the national spirit:
+
+Spirit Common Economic Space: There are undergoing measures taken by The Common Economic Space.
+Consumer Goods Factories factor: -10.0%
+
+- Every Russian subject gets the national spirit:
+
+Spirit Common Economic Space: There are undergoing measures taken by The Common Economic Space.
+- Consumer Goods Factories factor: -15.0%
+- Master ideology drift: +0.05%
+- Subject manpower requirement: -100.00%
+- Extra trade for Overlord: +25.00%
+- Civilian Industry controlled by overlord: +50.0%
+- Military Industry controlled by overlord: +50.00%
+- Freedom gain by trade: -75.00%
+
+- Russia and every Russian subject joins The Common Economic Space or Techonological Cooperation Program
+- Unlocks The Common Economic Space Decisions
+
+Focus:
+FOCUS National Specialists: Our economic development must primarily be driven by people familiar with the state it is in. Foreigners would take a long time to gain that knowledge, and, perhaps even worse - would take it with them when they leave.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Finish the Five Year Plan
+- ExclusiveM Mutually exclusive with:
+ - Foreign Experts
+Effects:
+- Industrial Concern Cost: -50%
+- Modify the following Industrial Designers by:
+ - Stalingrad Tractor Factory:
+ - Effective Change:
+ - Industrial Research Speed: +10%
+ - Consumer Goods Factories factor: -2.0%
+ - Leningrad Industrial Institute:
+ - Effective Change:
+ - Electronics Research Speed: +10%
+ - Supply Consumption: -2.0%
+ - Soviet Railways:
+ - Effective Change:
+ - Trains and Railways Research Speed: +10%
+ - Mobilization speed: +2.0%
+
+Focus:
+FOCUS Foreign Experts: There are many foreign experts who could teach us a lot about how to improve our economy. Thankfully, many of them are capitalists and can therefore be bought.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Finish the Five Year Plan
+- ExclusiveM Mutually exclusive with:
+ - National Specialists
+Effects:
+- Available as Design Company:
+ - Gosproyektstroy (Construction Company)
+ - Infrastructure construction speed: +10.00%
+ - railway construction speed: +10.00%
+ - Mic construction speed: +5.00%
+ - cic construction speed: +5.00%
+ - nic construction speed: +5.00%
+ - This Designer can be upgraded to add new bonuses and improve existent ones.
+
+Focus:
+FOCUS Eastern Development: The areas of the Far East beyond the Ural mountains offer vast, untapped resources and wide areas for industrial development. We must ensure that they are prepared to power bigger projects.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires one of the following:
+ - National Specialists
+ - Foreign Experts
+- Requires one of the following:
+ - Has full control of 408
+ - Has full control of 409
+ - Has full control of 566
+ - Has full control of 564
+Effects:
+- Vladivostok or Irkutsk:
+ - Add 1 Infrastructure
+ - Add 1 Building Slot
+ - Add 1 cic
+- Khabarovsk or Ulan Ude:
+ - Add 1 Infrastructure
+ - Add 1 Building Slot
+ - Add 1 cic
+
+Focus:
+FOCUS Develop the Urals: The biggest threat against our nation will probably come from a nation in Europe. By developing the areas beyond the Ural mountains, we will create a reserve of industrial capacity that even the longest-ranged bomber will find difficult to reach.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires one of the following:
+ - National Specialists
+ - Foreign Experts
+- Requires one of the following:
+ - Has full control of 572
+ - Has full control of 573
+ - Has full control of 582
+ - Has full control of 653
+Effects:
+- 572 or 582:
+ - Add 1 Infrastructure
+ - Add 1 Building Slot
+ - Add 1 cic
+- 573 or 653:
+ - Add 1 Infrastructure
+ - Add 1 Building Slot
+ - Add 1 cic
+
+Focus:
+FOCUS The USSR Academy of Sciences: To remain competitive in the fields of applied sciences, we must also be on the forefront of the theoretical sciences. We already have a well-established academy of sciences, but with some additional funding, it would provide us with a truly world-class research infrastructure.
+Alternative Names
+democratic Fascist Non-aligned Non-Communist name
+
+The Imperial Academy Of Sciences
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Eastern Development
+ - Develop the Urals
+Effects:
+- List of Soviet Republic nations:
+ - Tannu Tuva
+ - Belarus
+ - Republic of Ukraine
+ - Kazakhstan
+ - Republic of Georgia
+ - Republic of Armenia
+ - Azerbaijan Democratic Republic
+ - Republic of Uzbekistan
+ - Republic of Turkmenistan
+ - Kyrgyzstan
+ - Republic of Tajikistan
+ - Don Republic
+ - Kuban Republic
+ - Bukharan Jadidist Republic
+ - Altai
+ - Kalmykia
+ - Karelia
+ - Crimea
+ - Tatarstan
+ - Chechen-Ingush Republic
+ - Mountainous Republic of Dagestan
+ - Republic of Buryatia
+ - Chukotka Republic
+ - Far Eastern Republic
+ - Sakha Republic
+ - Vladivostok Independent Republic
+ - Republic of Karakalpakstan
+ - Yamalian Republic
+ - Taymyria
+ - Ostyak-Vogul National Republic
+ - Nenetsia
+ - Komi Republic
+ - Abkhazia
+ - Federal Republic of Kabardins and Karachay-Balkars
+ - North Ossetia-Alania
+ - Republic of Volga Germany
+ - Bashkortostan
+ - Khivan Jadidist Republic
+ - Udmurtia
+ - Chuvashia
+ - Mari El
+- Logic: They can joins Soviet Academies of Sciences Joint Program or Imperial Academies of Sciences Program if is in faction with the Soviet Union
+- Gains 1 Research Slot
+- If current ruling party is Communist :
+ - The Soviet Union joins Soviet Academies of Sciences Joint Program
+ - Estonia,Latvia,Lithuania,Poland,Finland,Mongolia,Tannu Tuva* and every Soviet Republic nations*()
+ - If all of the following are true:
+ - current ruling party is Communist
+ - One of the following must be true:
+ - Is a subject of The Soviet Union
+ - Is in Faction with The Soviet Union *If is Soviet Republic nations()
+ - Joins Soviet Academies of Sciences Joint Program
+ - The Soviet Union gets the Dynamic Modifier:
+
+Spirit USSR Academy of Sciences:
+- Research Speed: +1.00%
+
+- Otherwise:
+ - Russia joins Imperial Academies of Sciences Program
+ - Estonia,Latvia,Lithuania,Poland,Finland,Mongolia,Tannu Tuva* and every Soviet Republic nations*()
+ - If all of the following are true:
+ - current ruling party is Communist
+ - One of the following must be true:
+ - Is a subject of Russia
+ - Is in Faction with Russia *If is Soviet Republic nations()
+ - Joins Imperial Academies of Sciences Program
+ - Russia gets the Dynamic Modifier:
+
+Spirit Imperial Academy of Sciences:
+- Research Speed: +1.00%
+
+Focus:
+FOCUS National Academies of Sciences: Modelling after our own Academy of Sciences, our partner nations should also be encouraged to establish similar institutes in order to boost their own research capabilities.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - The USSR Academy of Sciences
+Effects:
+- If current ruling party is Communist :
+ - Unlocks National Academies of Sciences Decisions
+ - allowing us to build Academies of Sciences in allied, puppet or integrated Soviet territories, increasing the research speed bonus provided by National Spirit USSR Academy of Sciences.
+- Otherwise:
+ - Unlocks National Academies of Sciences Decisions
+ - allowing us to build Academies of Sciences in allied, puppet or integrated Imperial territories, increasing the research speed bonus provided by National Spirit Imperial Academy of Sciences.
+
+Focus:
+FOCUS No Time For Peace: No matter how much we might wish for it, there is little hope for a lasting peace. New weapons and technologies will make war even more devastating than before, and, sadly, we must invest our hard-earned resources to ensure that we can keep pace with our enemies.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Fourth Five Year Plan
+ - National Academies of Sciences
+Effects:
+- Gain breakthrough progress:
+ - Nuclear Research: 75.00%
+- Gain breakthrough progress:
+ - Aerodynamics and Avionics: 75.00%
+- If has not researched Atomic Research
+ - 2×50% Research bonus for: Nuclear Technology
+- 1×50% Research bonus for: Rocketry Technology
+- gets the national spirit:
+
+Spirit No Time For Peace: No matter how much we might wish for it, there is little hope for a lasting peace. New weapons and technologies will make war even more devastating than before, and, sadly, we must invest our hard-earned resources to ensure that we can keep pace with our enemies.
+- Nuclear Production: +15%
+- Radar Station construction speed: +10.00%
+- Rocket site construction speed: +10.00%
+- Nuclear Reactor construction speed: +10.00%
+
+Focus:
+FOCUS Transformation of Nature: With our scientific community pushing the borders of what was previously thought possible, even the largest, most invasive projects are becoming feasible.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+current ruling party is Communism
+- Requires the following:
+ - Fourth Five Year Plan
+ - National Academies of Sciences
+- 196 251 217 245 is controlled by the Soviet Union or a subject
+Effects:
+- Hidden effect:
+ - If Iosif Stalin is current country leader:
+ - Province (3555) is renamed to Stalingrad Hydroelectric Station
+ - Otherwise:
+ - Province (3555) is renamed to Volgograd Hydroelectric Station
+ - Province (6275) is renamed to Kuybyshev Hydroelectric Station
+ - Province (737) is renamed to Kakhovka Dam
+ - Province (3478) is renamed to Tsimlyanskoye Hydroelectric Station
+- gets the national spirit:
+
+Spirit Transformation of Nature: With our scientific community pushing the borders of what was previously thought possible, even the largest, most invasive projects are becoming feasible.
+- Consumer Goods Factories factor: -6.0%
+- stability : +5.00%
+- Max Factories in a State: +1
+
+- 217:
+ - Add 1 Dam
+ - Dam state modifiers:
+ - Max Factories in State: +15%
+ - Local Factories Energy Consumption: -65%
+ - Local Available Resources: +10%
+ - Local Construction Speed: +15%
+- 196:
+ - Add 1 Dam
+ - Dam state modifiers:
+ - Max Factories in State: +15%
+ - Local Factories Energy Consumption: -65%
+ - Local Available Resources: +10%
+ - Local Construction Speed: +15%
+- 245:
+ - Add 1 Dam
+ - Dam state modifiers:
+ - Max Factories in State: +15%
+ - Local Factories Energy Consumption: -65%
+ - Local Available Resources: +10%
+ - Local Construction Speed: +15%
+- 251:
+ - Add 1 Dam
+ - Dam state modifiers:
+ - Max Factories in State: +15%
+ - Local Factories Energy Consumption: -65%
+ - Local Available Resources: +10%
+ - Local Construction Speed: +15%
+
+Focus:
+FOCUS Transformation of Nature: With our scientific community pushing the borders of what was previously thought possible, even the largest, most invasive projects are becoming feasible.
+Prerequisites:
+current ruling party is not Communism
+- Requires the following:
+ - Fourth Five Year Plan
+ - National Academies of Sciences
+Effects:
+- gets the national spirit:
+
+Spirit Transformation of Nature: With our scientific community pushing the borders of what was previously thought possible, even the largest, most invasive projects are becoming feasible.
+- Consumer Goods Factories factor: -6.0%
+- stability : +5.00%
+- Max Factories in a State: +1
+
+# Transpolar Flights Branch [verified for 1.17]
+
+Soviet Union 2D Art Pack
+
+Air force branch of the Soviet national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+Focus:
+FOCUS Transpolar Flights: Our bravest pilots are just beginning to prove that daring routes across the arctic are possible. By using unexpected shortcuts like these in our planning of aerial warfare, we will be able to surprise the enemy.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites: None
+Effects: * air exp : +50
+
+Focus:
+FOCUS Expand the Aircraft Industry: In the wars to come, our air force will have to secure the skies against enemies equipped with the most modern equipment. We must ensure that they not only have comparable planes, but also that they have enough of them.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Transpolar Flights
+- Any owned state:
+ - Can build 1 more mic
+Effects:
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier Soviet Air Force by:
+
+Spirit Soviet Air Force:
+Effective Change:
+- Aircraft Designer Cost: -25%
+
+- Otherwise:
+ - Modify Dynamic Modifier Russian Air Force by:
+
+Spirit Russian Air Force:
+Effective Change:
+- Aircraft Designer Cost: -25%
+
+- Random Owned Controlled State:
+ - Add 2 Building Slot
+ - Add 2 mic
+ - Add 2 air base
+
+Focus:
+FOCUS Modernize Aircraft Facilities: The best plane in the world will soon become useless if it has to take off from bumpy runways and be maintained in leaky sheds. To ensure the best possible performance, we must also have the best possible infrastructure.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Expand the Aircraft Industry
+Effects:
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier Soviet Air Force by:
+
+Spirit Soviet Air Force:
+Effective Change:
+- Air Range: +5%
+- Air Agility: +5%
+- Air Fuel Consumption: -5.00%
+
+- Otherwise:
+ - Modify Dynamic Modifier Russian Air Force by:
+
+Spirit Russian Air Force:
+Effective Change:
+- Air Range: +5%
+- Air Agility: +5%
+- Air Fuel Consumption: -5.00%
+
+- If there are no other Experimental Facilities in 260, we will gain 1 Aerodynamics and Avionics Facility in 260
+
+Focus:
+FOCUS Merge Aircraft Plants: While competition between designers creates a natural incentive to constantly improve, it also saps resources on duplicate efforts that we can ill-afford. We should merge our design bureaus to eliminate this waste.
+Prerequisites:
+- Requires the following:
+ - Modernize Aircraft Facilities
+- Not: Political Paranoia is active
+Effects:
+- If the DLC Arms Against Tyranny is enabled:
+ - Every aircraft military industrial organization:
+ - Unlock Trait Merge Plant No. 28:
+ - production cost : -5.00%
+ - Unlock Trait Merge Plant No. 150:
+ - Agility: +5%
+ - Unlock Trait Merge VEF Plant:
+ - Air Defense: +10%
+ - Surface detection: +15%
+ - Sub detection: +15%
+- Otherwise:
+ - Unlocks Merge Plant Decisions for Aircraft Designers
+ - allowing us to merge different plants into active Aircraft Designers to improve its bonuses.
+
+Focus:
+FOCUS Found the Jet Institute: The current piston engines can only be pushed so far. Future planes will have to rely on new methods of propulsion. We should found an institute to do research into jet engines to ensure that we will not be overtaken by foreign developments.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - The USSR Academy of Sciences
+ - Merge Aircraft Plants
+Effects:
+- Gain breakthrough progress:
+ - Aerodynamics and Avionics: 75.00%
+- 2x 50% Research bonus for: Jet Technology
+
+Focus:
+FOCUS Foster Flying Clubs: New pilots are expensive to train if they have never seen a plane before they start training. But many young people are fascinated by flying, and with some support, could grow into very capable pilots that could pick up the finer points of air combat very quickly if they already know the basics of piloting an aircraft.
+Prerequisites:
+- Requires the following:
+ - Transpolar Flights
+Effects:
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier Soviet Air Force by:
+
+Spirit Soviet Air Force:
+Effective Change:
+- Ace generation chance: +25.00%
+- Air Wing Training Experience Gain: +10%
+- Air Accidents Chance: -25.0%
+- Bad Weather Penalty: -10.00%
+
+- Otherwise:
+ - Modify Dynamic Modifier Russian Air Force by:
+
+Spirit Russian Air Force:
+Effective Change:
+- Ace generation chance: +25.00%
+- Air Wing Training Experience Gain: +10%
+- Air Accidents Chance: -25.0%
+- Bad Weather Penalty: -10.00%
+
+- air exp : +25
+
+Focus:
+FOCUS Women in Aviation: In the past, backwards elements in society have declared flying to be a man's field. However, women around the world have ignored this and have shown that they are every bit as good as their male colleagues. We should encourage our women to try their hand at flying, to select the most capable pilots among them.
+Prerequisites:
+- Requires the following:
+ - Foster Flying Clubs
+- One of the following must be true:
+ - Has completed focus The Path of Marxism Leninism
+ - Has completed focus The Women's Fascist Movement
+Effects:
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier Soviet Air Force by:
+
+Spirit Soviet Air Force:
+Effective Change:
+- Ace generation chance: +25.00%
+- Air Wing Training Experience Gain: +5%
+- Air Wing Mission Experience Gain: +5%
+- Bad Weather Penalty: -5.00%
+
+- Otherwise:
+ - Modify Dynamic Modifier Russian Air Force by:
+
+Spirit Russian Air Force:
+Effective Change:
+- Ace generation chance: +25.00%
+- Air Wing Training Experience Gain: +5%
+- Air Wing Mission Experience Gain: +5%
+- Bad Weather Penalty: -5.00%
+
+- Set the rule: yes ‘Women in your country are allowed to become military pilots.’
+
+Focus:
+FOCUS Raskova's Aviation Group: Marina Raskova has proven herself an extremely capable navigator and pilot. With our resources stretched thin in the current war, we can't afford to let someone as experienced as her sit by the sidelines. We should give her the resources to raise a number of aviation units to support the struggle.
+Alternative Names
+democracy fascism non-aligned Non-Communist name
+
+First All-Female Imperial Aviation Group
+
+We have extremely capable women navigators and pilots. With our resources stretched thin in the current war, we can't afford to let such experienced people sit by the sidelines. We should raise a number of all-female aviation units to support the struggle.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Women in Aviation
+- Any enemy country:
+ - Is considered a major
+- Has full control of 219
+Effects:
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier Soviet Air Force by:
+
+Spirit Soviet Air Force:
+Effective Change:
+- Air Wing Experience loss when killed: -10%
+- Night-time strategic boming penalty: -10.00%
+- Night Operations Penalty: -20.00%
+
+- Otherwise:
+ - Modify Dynamic Modifier Russian Air Force by:
+
+Spirit Russian Air Force:
+Effective Change:
+- Air Wing Experience loss when killed: -10%
+- Night-time strategic boming penalty: -10.00%
+- Night Operations Penalty: -20.00%
+
+- The 588.Night Bomber Regiment,587.Bomber Regiment and 586.Air Defense Fighter Regiment become active in Moscow
+- If the DLC By Blood Alone is enabled:
+ - Create U-2 CAS variant based on Inter-War Close Air Support Airframe.
+ - Create Pe-2 CAS variant based on Improved Close Air Support Airframe.
+ - Create Yak-1 Fighter variant based on Basic Small Airframe.
+- Gain 3 air regiments in 219: 588.Night Bomber Regiment,587.Bomber Regiment and 586.Air Defense Fighter Regiment
+- If the DLC By Blood Alone is enabled:
+ - If current ruling party is Communist :
+ - 588.Night Bomber Regiment
+ - Ace pilot: Yevdokiya 'Witch' Bershanskaya
+ - Skill: TAC Ace and CAS Ace
+ - Aircraft: 40 U-2
+ - 587.Bomber Regiment
+ - Ace pilot: Marina 'The Founder' Raskova
+ - Skill: Strategic Bomber Ace
+ - Aircraft: 40 Pe-2
+ - 586.Air Defense Fighter Regiment
+ - Ace pilot: Lidiya 'White Rose of Stalingrad' Litvyak
+ - Skill: Fighter Ace
+ - Aircraft: 40 Yak-1
+ - Otherwise:
+ - 588.Night Bomber Regiment
+ - Ace pilot: Lyubov 'Singing Cuckoo' Golanchikova
+ - Skill: TAC Ace and CAS Ace
+ - Aircraft: 40 U-2
+ - 587.Bomber Regiment
+ - Ace pilot: Sofiya 'Racing Princess' Dolgorukaya
+ - Skill: Strategic Bomber Ace
+ - Aircraft: 40 Pe-2
+ - 586.Air Defense Fighter Regiment
+ - Ace pilot: Nadezhda 'Eager Bird' Degtereva
+ - Skill: Fighter Ace
+ - Aircraft: 40 Yak-1
+- Otherwise:
+ - If current ruling party is Communist :
+ - 588.Night Bomber Regiment
+ - Ace pilot: Yevdokiya 'Witch' Bershanskaya
+ - Skill: TAC Ace and CAS Ace
+ - Aircraft: 40 Ilyushin-DB3 (Interwar Bomber)
+ - 587.Bomber Regiment
+ - Ace pilot: Marina 'The Founder' Raskova
+ - Skill: Strategic Bomber Ace
+ - Aircraft: 40 Pe-8 (Strategic Bomber I)
+ - 586.Air Defense Fighter Regiment
+ - Ace pilot: Lidiya 'White Rose of Stalingrad' Litvyak
+ - Skill: Fighter Ace
+ - Aircraft: 40 I-16 (Fighter I)
+ - Otherwise:
+ - 588.Night Bomber Regiment
+ - Ace pilot: Lyubov 'Singing Cuckoo' Golanchikova
+ - Skill: TAC Ace and CAS Ace
+ - Aircraft: 40 Ilyushin-DB3 (Interwar Bomber)
+ - 587.Bomber Regiment
+ - Ace pilot: Sofiya 'Racing Princess' Dolgorukaya
+ - Skill: Strategic Bomber Ace
+ - Aircraft: 40 Pe-8 (Strategic Bomber I)
+ - 586.Air Defense Fighter Regiment
+ - Ace pilot: Nadezhda 'Eager Bird' Degtereva
+ - Skill: Fighter Ace
+ - Aircraft: 40 I-16 (Fighter I)
+
+Focus:
+FOCUS Expand Aviation Institutes: The biggest bottleneck to increasing the size of our air force is our capacity for pilot training. By expanding our pilot schools, we will lay the foundation for a bigger and more competent air force.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires one of the following:
+ - Expand the Aircraft Industry
+ - Foster Flying Clubs
+Effects:
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier Soviet Air Force by:
+
+Spirit Soviet Air Force:
+Effective Change:
+- Air Wing Experience loss when killed: -15%
+- Air Wing Training Experience Gain: +5%
+- Air Accidents Chance: -25.0%
+- Bad Weather Penalty: -10.00%
+
+- Otherwise:
+ - Modify Dynamic Modifier Russian Air Force by:
+
+Spirit Russian Air Force:
+Effective Change:
+- Air Wing Experience loss when killed: -15%
+- Air Wing Training Experience Gain: +5%
+- Air Accidents Chance: -25.0%
+- Bad Weather Penalty: -10.00%
+
+Focus:
+FOCUS Increase Aircraft Production: There has been an overemphasis on safety lately, which has started to negatively affect the production numbers of new airplanes. We could save a significant amount of resources by eliminating the most excessive safety systems, while still maintaining a very safe and capable air force.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Expand the Aircraft Industry
+- ExclusiveM Mutually exclusive with:
+ - Intensify Pilot Training Program
+- Not: Political Paranoia is active
+Effects:
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier Soviet Air Force by:
+
+Spirit Soviet Air Force:
+Effective Change:
+- Air Accidents Chance: +5.0%
+- All types of aircraft: Production Cost: -5.00%
+
+- Otherwise:
+ - Modify Dynamic Modifier Russian Air Force by:
+
+Spirit Russian Air Force:
+Effective Change:
+- Air Accidents Chance: +5.0%
+- All types of aircraft: Production Cost: -5.00%
+
+- 2x 100% Research bonus for: Light Aircraft
+
+Focus:
+FOCUS Intensify Pilot Training Program: To be competitve, our Air Force must be able to fly and fight in all circumstances. The best way to achieve this is to train our pilots to the very highest standard. What we might lack in numbers or technical sophistication we will make up with sheer skill.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Foster Flying Clubs
+- ExclusiveM Mutually exclusive with:
+ - Increase Aircraft Production
+- Not: Political Paranoia is active
+Effects:
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier Soviet Air Force by:
+
+Spirit Soviet Air Force:
+Effective Change:
+- Ace generation chance: +15%
+- Air Wing Experience loss when killed: -15%
+- Air Accidents Chance: -25.0%
+- Night Operations Penalty: -10.00%
+- Bad Weather Penalty: -15.00%
+- Air Fuel Consumption: +10.00%
+
+- Otherwise:
+ - Modify Dynamic Modifier Russian Air Force by:
+
+Spirit Russian Air Force:
+Effective Change:
+- Ace generation chance: +15%
+- Air Wing Experience loss when killed: -15%
+- Air Accidents Chance: -25.0%
+- Night Operations Penalty: -10.00%
+- Bad Weather Penalty: -15.00%
+- Air Fuel Consumption: +10.00%
+
+- air exp : +50
+
+Focus:
+FOCUS Ground Support: The primary mission of our air force must be the support of our ground forces. This fundamental fact must inform every decision made.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires one of the following:
+ - Increase Aircraft Production
+ - Intensify Pilot Training Program
+- ExclusiveM Mutually exclusive with:
+ - Long Range Aircraft
+Effects:
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier Soviet Air Force by:
+
+Spirit Soviet Air Force:
+Effective Change:
+- Ground support: +10.00%
+
+- Otherwise:
+ - Modify Dynamic Modifier Russian Air Force by:
+
+Spirit Russian Air Force:
+Effective Change:
+- Ground support: +10.00%
+
+- 2x 75% Research bonus for: Fighter models and Close Air Support models
+
+Focus:
+FOCUS Long Range Aircraft: Technology has advanced to the point where our bombers can reach every point in the enemy's homeland and can destroy their capacity for making war in short order. The army exists primarily to hold the line until this is accomplished.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires one of the following:
+ - Increase Aircraft Production
+ - Intensify Pilot Training Program
+- ExclusiveM Mutually exclusive with:
+ - Ground Support
+Effects:
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier Soviet Air Force by:
+
+Spirit Soviet Air Force:
+Effective Change:
+- Strategic bombing visibility: -10%
+
+- Otherwise:
+ - Modify Dynamic Modifier Russian Air Force by:
+
+Spirit Russian Air Force:
+Effective Change:
+- Strategic bombing visibility: -10%
+
+- 2x 75% Research bonus for: Heavy Fighter Models, Tactical Bomber models and Strategic Bomber models
+
+Focus:
+FOCUS The Modern War In the Skies: Aerial Warfare has come a long way since the days of biplanes duelling over the trenches. Today, it is industrial in nature, with a high operational tempo to maintain pressure on the enemy around the clock. We must acknowledge this fact and plan accordingly.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires one of the following:
+ - Ground Support
+ - Long Range Aircraft
+Effects:
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier Soviet Air Force by:
+
+Spirit Soviet Air Force:
+Effective Change:
+- Air Mission Efficiency: +10.0%
+- Night Operations Penalty: -10.0%
+
+- Otherwise:
+ - Modify Dynamic Modifier Russian Air Force by:
+
+Spirit Russian Air Force:
+Effective Change:
+- Air Mission Efficiency: +10.0%
+- Night Operations Penalty: -10.0%
+
+- air exp : +50
+- Gain breakthrough progress:
+ - Aerodynamics and Avionics: 50.00%
+
+# Expand the Red Fleet Branch [verified for 1.17]
+
+Soviet Union 2D Art Pack
+
+Naval branch of the Soviet national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+Focus:
+FOCUS Expand the Red Fleet: The Red Fleet is pathetically weak compared to the navies of the imperialist powers. We must make its expansion a national priority!
+Alternative Names
+Democratic name
+
+Expand the Russian Fleet
+
+The Russian Fleet is pathetically weak compared to the navies of other major powers. We must make its expansion a national priority!
+
+Non-Aligned / Fascist name
+
+Expand the Imperial Fleet
+
+The Imperial Fleet is pathetically weak compared to the navies of other major powers. We must make its expansion a national priority!
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites: None
+Effects:
+- navy exp : +25
+- Random Owned Controlled State:
+ - Add 2 Building Slot
+ - Add 2 nic
+- 2x 100% Research bonus for: Ships
+
+Focus:
+FOCUS Reinforce Western Naval Bases: The Baltic Fleet is very exposed in its bases. We should invest some resources into protecting its anchorages and improve its repair capacities.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Expand the Red Fleet
+- 195: Owned and controlled by the Soviet Union
+Effects:
+- 195:
+ - Add 1 Building Slot
+ - Add 1 nic
+ - Add 2 static anti air
+ - Add 2 Coastal Fort in a province in the state.
+ - If Air radar special project has been researched:
+ - Add 1 radar station
+- Will also add Add 2 static anti air and 2 Coastal Fort in Uusimaa, Harju, Riga or Žemaitija if the Soviet Union has full control over any of those states.
+- If has full control of 111:
+ - Uusimaa:
+ - Add 2 static anti air
+ - Add 2 Coastal fort in a province in the state.
+- If has full control of 812:
+ - Harju:
+ - Add 2 static anti air
+ - Add 2 Coastal fort in a province in the state.
+- If has full control of 808:
+ - Riga:
+ - Add 2 static anti air
+ - Add 2 Coastal fort in a province in the state.
+- If has full control of 189:
+ - Žemaitija:
+ - Add 2 static anti air
+ - Add 2 Coastal fort in a province in the state.
+
+Focus:
+FOCUS Reinforce Northern Naval Bases: Despite being located north of the Arctic circle, Murmansk is ironically our only port that remains ice-free the entire year and has access to the open oceans. We should develop it further to allow better access to the rest of the world.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Expand the Red Fleet
+- One of the following must be true:
+ - 213: Owned and controlled by the Soviet Union
+ - 214: Owned and controlled by the Soviet Union
+Effects:
+- 213:
+ - Add 2 static anti air
+ - Add 2 naval base in a province in the state.
+ - Add 2 Coastal Fort in a province in the state.
+- 214:
+ - Add 2 static anti air
+ - Add 1 naval base in a province in the state.
+ - Add 2 naval base in a province in the state.
+ - Add 2 Coastal Fort in 2 province in the state.
+
+Focus:
+FOCUS Reinforce Southern Naval Bases: The Black Sea might look like a secondary theater. But if we lose control over it, we will open up our entire southern territories up to enemy invasion, as happened in the Crimean War. We must not let this happen again, and should strengthen the naval bases in the region.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Expand the Red Fleet
+- One of the following must be true:
+ - 192: Owned and controlled by the Soviet Union
+ - 137: Owned and controlled by the Soviet Union
+ - 218: Owned and controlled by the Soviet Union
+ - 234: Owned and controlled by the Soviet Union
+Effects:
+- 192:
+ - Add 1 static anti air
+ - Add 2 naval base in a province in the state.
+ - Add 2 Coastal Fort in a province in the state.
+- 137:
+ - Add 2 static anti air
+ - Add 3 Coastal Fort in a province in the state.
+- 218:
+ - Add 1 static anti air
+ - Add 2 naval base in a province in the state.
+ - Add 2 Coastal Fort in a province in the state.
+- 234:
+ - Add 1 static anti air
+ - Add 2 naval base in a province in the state.
+ - Add 2 Coastal Fort in a province in the state.
+
+Focus:
+FOCUS Reinforce Eastern Naval Bases: Even after the humiliation of 1905, the Japanese have not stopped making noises about encroaching on our territories. We must be ready for war against them, and that means strengthening our naval bases in the region.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Expand the Red Fleet
+- One of the following must be true:
+ - 408: Owned and controlled by the Soviet Union
+ - 409: Owned and controlled by the Soviet Union
+Effects:
+- 408:
+ - Add 2 static anti air
+ - Add 2 air base
+ - Add 2 naval base in a province in the state.
+ - Add 2 Coastal Fort in a province in the state.
+- 409:
+ - Add 1 static anti air
+ - Add 1 air base
+ - Add 2 naval base in a province in the state.
+ - Add 2 Coastal Fort in a province in the state.
+
+Focus:
+FOCUS Expand Shipbuilding Plants: Our geography forces us to have widely spread out shipyards to support our various fleets. Any attempt at increasing our shipbuilding capacity therefore has to be spread out as well.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires one of the following:
+ - Reinforce Western Naval Bases
+ - Reinforce Northern Naval Bases
+ - Reinforce Southern Naval Bases
+ - Reinforce Eastern Naval Bases
+Effects:
+- Add 1 Building Slot and 1 nic in every state in which naval bases have been reinforced by previous focuses. ()
+- Logic: We must has full control over any of those states at the moment and before completed the focus "Reinforce (....) Naval Bases" also those focus must has been completed before Expand Shipbuilding Plants
+- If has completed focus Reinforce Western Naval Bases
+ - 195:
+ - Add 2 Building Slot
+ - Add 2 nic
+ - Only Leningrad will get 2 Dockyards
+ - 111:
+ - Add 1 Building Slot
+ - Add 1 nic
+ - 812:
+ - Add 1 Building Slot
+ - Add 1 nic
+ - 808:
+ - Add 1 Building Slot
+ - Add 1 nic
+ - 189:
+ - Add 1 Building Slot
+ - Add 1 nic
+- If has completed focus Reinforce Northern Naval Bases
+ - 213:
+ - Add 1 Building Slot
+ - Add 1 nic
+ - 214:
+ - Add 1 Building Slot
+ - Add 1 nic
+- If has completed focus Reinforce Southern Naval Bases
+ - 192:
+ - Add 1 Building Slot
+ - Add 1 nic
+ - 137:
+ - Add 1 Building Slot
+ - Add 1 nic
+ - 218:
+ - Add 1 Building Slot
+ - Add 1 nic
+ - 234:
+ - Add 1 Building Slot
+ - Add 1 nic
+- If has completed focus Reinforce Eastern Naval Bases
+ - 408:
+ - Add 1 Building Slot
+ - Add 1 nic
+ - 409:
+ - Add 1 Building Slot
+ - Add 1 nic
+}}
+
+Focus:
+FOCUS Merge Naval Plants: Naval construction and ship design is a time-consuming process, in which excessive competition is simply inefficient. We should merge our design bureaus to eliminate this waste of effort.
+Prerequisites:
+- Requires the following:
+ - Expand Shipbuilding Plants
+- Not: Political Paranoia is active
+Effects:
+- If the DLC Arms Against Tyranny is enabled:
+ - Nevskoye Design Bureau:
+ - Unlock Trait Merge Plant No. 370:
+ - production cost : -5.00%
+ - Minelaying: +10%
+ - Unlock Trait Merge Plant No. 5:
+ - production cost : -10.00%
+ - Rubin Design Bureau:
+ - Unlock Trait Merge Plant No. 370:
+ - production cost : -5.00%
+ - Minelaying: +10%
+ - Unlock Trait Merge Plant No. 363:
+ - production cost : -10.00%
+ - Unlock Trait Merge Plant No. 190:
+ - production cost : -10.00%
+ - Black Sea Shipyard:
+ - Unlock Trait Merge Mariupol Plant:
+ - production cost : -5.00%
+ - Minelaying: +10%
+ - Unlock Trait Merge Leninskaya Kuznitsa Plant:
+ - production cost : -10.00%
+ - Unlock Trait Merge Plant No. 340:
+ - production cost : -10.00%
+ - Sevastopol Marine Plant:
+ - Unlock Trait Merge Mariupol Plant:
+ - production cost : -5.00%
+ - Minelaying: +10%
+ - Unlock Trait Merge Plant No. 200:
+ - production cost : -10.00%
+- Otherwise:
+ - Unlocks Merge Plant Decisions for Naval Designers
+ - allowing us to merge different plants into active Naval Designers to improve its bonuses.
+
+Focus:
+FOCUS PC of the USSR Navy: With our Navy becoming more modern and more capable, it is time to recognize it as a combat arm that is equal to the Army in importance. The first step is to allow the Navy to form an administration separate from the Army.
+Alternative Names
+democracy fascism non-aligned Non-Communist name
+
+Ministry of the Russian Navy
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Expand the Red Fleet
+Effects:
+- If current ruling party is Communist :
+ - gets the Dynamic Modifier:
+
+Spirit The Red Fleet:
+- Naval Equipment Refitting Cost: -5%
+- Ship Repair Speed: +5%
+
+- Otherwise:
+ - gets the national spirit:
+
+Spirit The Russian Fleet:
+- Naval Equipment Refitting Cost: -5%
+- Ship Repair Speed: +5%
+
+- 2x 100% Research bonus for: Ship modules
+
+Focus:
+FOCUS Surface Warfare: Capital ships require a significant investment of time and resources, and often end up being obsolete before they are even finished building. Smaller vessels can be built much faster and consequently can keep pace with technological developments much easier. We should focus on developing our light forces as the primary arm of naval warfare.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - PC of the USSR Navy
+- ExclusiveM Mutually exclusive with:
+ - Submarine Warfare
+Effects:
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier The Red Fleet by:
+
+Spirit The Red Fleet:
+Effective Change:
+- Screen: Production Cost : -10.00%
+
+- Otherwise:
+ - Modify The Russian Fleet by:
+
+Spirit The Russian Fleet:
+Effective Change:
+- Screen: Production Cost : -10.00%
+
+- navy exp : +15
+- 1x 100% Research bonus for: Destroyer models
+
+Focus:
+FOCUS Offensive Maritime Strategy: We can not afford to sit back and wait for the enemy to come to us. We must take the initiative and attack the enemy wherever we can.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Surface Warfare
+- Has researched 1936 Heavy Ship Hull
+Effects:
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier The Red Fleet by:
+
+Spirit The Red Fleet:
+Effective Change:
+- Capital Ship: Production Cost : -10.00%
+
+- Otherwise:
+ - Modify The Russian Fleet by:
+
+Spirit The Russian Fleet:
+Effective Change:
+- Capital Ship: Production Cost : -10.00%
+
+- navy exp : +25
+- 1x 100% Research bonus for: Cruiser models
+- Create Kronshtadt Class Capital Ship variant based on 1936 Heavy Ship Hull.
+- Add a production line of Kronshtadt Class (50%)
+- Add a production line of Kronshtadt Class (35%)
+
+Focus:
+FOCUS Submarine Warfare: Submarines offer significant advantages in naval combat. A well-designed modern submarine is practically undetectable before it fires its torpedoes, potentially crippling a capital ship many times its size and cost. We should focus on devloping these vessels as the main offensive power of our navy.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - PC of the USSR Navy
+- ExclusiveM Mutually exclusive with:
+ - Surface Warfare
+Effects:
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier The Red Fleet by:
+
+Spirit The Red Fleet:
+Effective Change:
+- Submarine: Production Cost : -10.00%
+
+- Otherwise:
+ - Modify The Russian Fleet by:
+
+Spirit The Russian Fleet:
+Effective Change:
+- Submarine: Production Cost : -10.00%
+
+- navy exp : +15
+- 1x 100% Research bonus for: Submarine models
+
+Focus:
+FOCUS Long Range Raiders: With the distance from our naval bases to the main shipping lanes, our current submarines will find difficult to reach the rich hunting grounds. We should develop longer-ranged submarines to ensure we can attack our enemies where it hurts the most.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Submarine Warfare
+Effects:
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier The Red Fleet by:
+
+Spirit The Red Fleet:
+Effective Change:
+- Submarine: Production Cost: -10.00%
+
+- Otherwise:
+ - Modify The Russian Fleet by:
+
+Spirit The Russian Fleet:
+Effective Change:
+- Submarine: Production Cost: -10.00%
+
+- navy exp : +25
+- 1x 2.0 years of ahead of time penalty reduction for: Submarine models
+- gets the national spirit:
+
+Spirit Long Range Hunters: Cruiser Submarines represent the pinnacle of heavy sub-surface raiding. What they lack in maneuverability and stealth, they certainly make up for in reach.
+- Cruiser Submarine Research Speed: +100%
+- Cruiser Submarine:
+ - Production Cost : -10.00%
+
+- Otherwise:
+ - gets the national spirit:
+
+Spirit Long Range Hunters: Cruiser Submarines represent the pinnacle of heavy sub-surface raiding. What they lack in maneuverability and stealth, they certainly make up for in reach.
+- Cruiser Submarine Research Speed: +100%
+- Cruiser Submarine:
+ - Production Cost : -10.00%
+
+Focus:
+FOCUS An Oceangoing Navy: Although the Union encompasses a greater land area than any nation on the planet, the oceans of the world are yet to be ruled by our ships. Heavily armored battleships will be a part of our future ocean going fleet.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires one of the following:
+ - Surface Warfare
+ - Submarine Warfare
+- Not: Political Paranoia is active
+- Has researched 1936 Heavy Ship Hull
+Effects:
+- navy exp : +25
+- 2x 100% Research bonus for: Battleship models
+- If Super heavy battleship special project is not researched:
+ - Gain breakthrough progress:
+ - Naval Engineering: 50.00%
+- If Super heavy battleship special project is researched:
+ - Create Sovetsky Soyuz Class Capital Ship variant based on Super Heavy Battleship Hull.
+ - Add a production line of Sovetsky Soyuz Class (50%)
+ - Add a production line of Sovetsky Soyuz Class (25%)
+ - Add a production line of Sovetsky Soyuz Class (25%)
+
+Focus:
+FOCUS Mine Warfare: It is uneconomic to try and defend our entire coastline with ships. By laying minefields in strategic locations we can deter or at least damage any enemy fleet trying to close to our coasts.
+Prerequisites:
+Soviet Union:
+- Requires one of the following:
+ - Surface Warfare
+ - Submarine Warfare
+Effects:
+Soviet Union:
+- Gets the national spirit:
+
+Spirit Mine Warfare: It is uneconomic to try and defend our entire coastline with ships. By laying minefields in strategic locations we can deter or at least damage any enemy fleet trying to close to our coasts.
+- Naval minelaying efficiency: +10%
+- Naval minesweeping efficiency: +10%
+- Naval mines damage: +5%
+- Chance to hit naval mine: -5.00%
+
+ - 2x 100% Research bonus for: Mine Warfare Technologies
+- Otherwise:
+ - 1x 50% Research bonus for: Submarine models and Destroyer models
+ - 1x 75% Cost reduction for: Naval Doctrine
+
+Focus:
+FOCUS Advanced Maneuvers: Having large and modern ships is pointless if their crews have no idea of how to use them. We must institute regular, large-scale naval exercises to train our crews and officers in modern naval warfare.
+Prerequisites:
+- Requires the following:
+ - Expand Shipbuilding Plants
+ - An Oceangoing Navy
+Effects:
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier The Red Fleet by:
+
+Spirit The Red Fleet:
+Effective Change:
+- Fleet Coordination: +10%
+- Visibility: -5.00%
+- Screening Efficiency: +10.0%
+- Positioning: +10.0%
+
+- Otherwise:
+ - Modify The Russian Fleet by:
+
+Spirit The Russian Fleet:
+Effective Change:
+- Fleet Coordination: +10%
+- Visibility: -5.00%
+- Screening Efficiency: +10.0%
+- Positioning: +10.0%
+
+- navy exp : +50
+
+Focus:
+FOCUS Expand the Morskaya Aviatsiya: Airplanes have already changed the nature of land warfare dramatically. In the future, they will pose significant dangers to even the most modern surface ships. We should ensure that we will always have a modern naval aviation arm to support our other vessels.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Advanced Maneuvers
+- Requires one of the following:
+ - Increase Aircraft Production
+ - Intensify Pilot Training Program
+Effects:
+- navy exp : +25
+- air exp : +25
+- 2x 100% Research bonus for: Carrier models and Naval aircraft
+- If 1944 Carrier Hull technology has been researched:
+ - Create Project 71 Class Carrier Variant based on 1944 Carrier Hull
+ - Add a production line of Project 71 Class (45%)
+- Otherwise:
+ - If 1940 Carrier Hull technology has been researched:
+ - Create Project 71 Class Carrier Variant based on 1940 Carrier Hull
+ - Add a production line of Project 71 Class (45%)
+- Otherwise:
+ - If 1936 Carrier Hull technology has been researched:
+ - Create Project 71 Class Carrier Variant based on 1936 Carrier Hull
+ - Add a production line of Project 71 Class (45%)
+- Otherwise:
+ - If Deck Conversions technology has not been researched:
+ - Add technology: Deck Conversions
+ - Create Project 71 Class Carrier Variant based on Converted Cruiser Hull
+ - Add a production line of Project 71 Class (45%)
+
+Focus:
+FOCUS Naval Infantry: While we have no intention to invade hostile shores in imperialistic endeavours, a force of dedicated naval infantry can be very useful to raid enemy shore installations and threaten the enemy's coastline.
+Alternative Descriptions
+democracy fascism non-aligned Non-Communist description
+
+If we are to expand our borders, a force of dedicated naval infantry can be very useful to raid enemy shore installations, threaten the enemy's coastline and support the main invasion force.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Advanced Maneuvers
+Effects:
+- navy exp : +25
+- army exp : +25
+- If the DLC Arms Against Tyranny is enabled:
+ - Adds 1 free Special Forces Branch Specialism
+ - 2x 25% Cost reduction for: Special Forces Doctrines
+- Otherwise:
+ - 1x 100% Research bonus for: Marine technology
+ - If current ruling party is Communist :
+ - Modify Dynamic Modifier The Red Fleet by:
+
+Spirit The Red Fleet:
+Effective Change:
+- Invasion Preparation Time: -10.0%
+- Naval Invasion Capacity: +10
+- Special Forces Capacity Multiplier: +10.0%
+
+ - Otherwise:
+ - Modify The Russian Fleet by:
+
+Spirit The Russian Fleet:
+Effective Change:
+- Invasion Preparation Time: -10.0%
+- Naval Invasion Capacity: +10
+- Special Forces Capacity Multiplier: +10.0%
+
+# Found the PCDI Branch [verified for 1.17]
+
+Soviet Union 2D Art Pack
+
+Armored army branch of the Soviet national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+Focus:
+FOCUS Found the PCDI: Our Armaments industry has grown very large, and now requires a dedicated government office to coordinate if it is to grow even further. We shall establish the People's Commissariat of Defense Industry.
+Alternative Names
+democracy fascism non-aligned Non-Communist name
+
+Found the Ministry of Defense Industry
+
+Our Armaments industry has grown very large, and now requires a dedicated government office to coordinate if it is to grow even further. We shall establish a Ministry of Defense Industry.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites: None
+Effects:
+- gets the Dynamic Modifier:
+
+Spirit Defense Industry:
+- cic to mic cost : -20.00%
+- Production Efficiency Retention : -10.00%
+- Production Efficiency Cap : +5.00%
+- Production Efficiency Growth : -5.00%
+
+Focus:
+FOCUS PC of Mechanical Engineering: Our industry has become capable of creating increasingly large and complex machine tools and other heavy machines, to the point where it would be justified to form a separate government entity to coordinate these projects.
+Alternative Names
+democracy fascism non-aligned Non-Communist name
+
+Ministry of Mechanical Engineering
+
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Found the PCDI
+- Has full control of 219
+Effects:
+- Modify Dynamic Modifier Defense Industry by:
+
+Spirit Defense Industry:
+- Effective Change:
+- Production Efficiency Cap : +5.00%
+- Production Efficiency Growth : -5.00%
+
+- 2x 100% Research bonus for: Truck and Infantry Weapons
+- 219:
+ - Add 1 Building Slot
+ - Add 1 mic
+
+Focus:
+FOCUS Superior War Machines: Tanks and armored vehicles have developed significantly over the past decade. With a large armaments industry to produce and supply them, we can create superior vehicles and employ them en masse against the enemy.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - PC of Mechanical Engineering
+- If DLC No Step Back is enabled:
+ - Has researched Basic Medium Tank Chassis
+- If DLC No Step Back is not enabled:
+ - Has researched T-28 (Medium Tank I)
+Effects:
+- Modify Dynamic Modifier Defense Industry by:
+
+Spirit Defense Industry:
+- Effective Change:
+- Tank Designer Cost: -25%
+
+- 2x 50% Research bonus for: Armor technology
+- If DLC No Step Back is enabled:
+ - Create T-34 Medium Tank variant on gaining technology Improved Medium Tank Chassis
+
+Focus:
+FOCUS Soviet Artillery: Today's wars are won through the scientific application of firepower in the right spots. We will focus our efforts on developing not just better guns, but also how to employ them in as effective a manner as possible.
+Alternative Names
+democracy fascism non-aligned Non-Communist name
+
+Russian Artillery
+
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Superior War Machines
+Effects:
+- Reduce ahead of time penalty by 2.0 years and give a 75% research bonus. Valid for the next 2 researches of these technologies: Support Artillery
+- 572 or Random Owned Controlled State:
+ - Add 1 Building Slot
+ - Add 1 mic
+- If current ruling party is Communist :
+ - gets the national spirit:
+
+Spirit Soviet Artillery: Today's wars are won through the scientific application of firepower in the right spots. We will focus our efforts on developing not just better guns, but also how to employ them in as effective a manner as possible.
+- Towed Artillery: Production Cost : -10.00%
+- Towed Rocket Artillery: Production Cost : -10.00%
+
+- Otherwise:
+ - gets the national spirit:
+
+Spirit Russian Artillery: Today's wars are won through the scientific application of firepower in the right spots. We will focus our efforts on developing not just better guns, but also how to employ them in as effective a manner as possible.
+- Towed Artillery: Production Cost : -10.00%
+- Towed Rocket Artillery: Production Cost : -10.00%
+
+- If DLC No Step Back is enabled:
+ - Create SU-85 Tank Destroyer variant on gaining technology Improved Medium Tank Chassis
+ - Create SU-122 Tank Destroyer variant on gaining technology Improved Medium Tank Chassis
+
+Focus:
+FOCUS PC of Mortar Armament: The humble mortar is quickly becoming the main form of indirect fire support for our units. We must therefore endeavour to produce as many mortars of all sizes as possible, and form a government agency whose only purpose is to do just that.
+Alternative Names
+democracy fascism non-aligned Non-Communist name
+
+Ministry of Mortar Armament
+
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - PC of Mechanical Engineering
+- Has full control of 219
+Effects:
+- Modify Dynamic Modifier Defense Industry by:
+
+Spirit Defense Industry:
+- Effective Change:
+- Breakthrough: +5.00%
+- Artillery Defense: +5.0%
+
+- 2x 75% Research bonus for: Support Artillery
+- 219:
+ - Add 1 Building Slot
+ - Add 1 mic
+
+Focus:
+FOCUS The Means to Wage War: While the planes, guns and tanks in the army often attract the highest attention and look best on parades, the common soldier cares a lot more about the quality of his rifle and the comfortability of his boots. We have to acknowledge that these things are at least as important to waging war as any fighter plane or heavy howitzer.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - PC of Mechanical Engineering
+Effects:
+- Modify Dynamic Modifier Defense Industry by:
+
+Spirit Defense Industry:
+- Effective Change:
+- Materiel Designer Cost: -25%
+
+- 2x 50% Research bonus for: Support technology
+
+Focus:
+FOCUS Development of Tankograd: Our country stretches over vast distances, which make it impractical to ship sub-components from factory to factory. We should instead integrate our tank factories vertically - steel goes in on one end, finished tanks come out the other end.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - The Means to Wage War
+- More controlled factories than 150
+Effects:
+- Modify Dynamic Modifier Defense Industry by:
+
+Spirit Defense Industry:
+- Effective Change:
+- Land Equipment Experience Cost: -10%
+
+- Adds 1 Building Slot and 1 mic in every state in the Urals or in the Far East with at least 3 mic . (Max 10 factories.)
+
+Focus:
+FOCUS Merge Tank and Materiel Plants: Tanks and artillery is probably the best suited for mass-production, making use of economy of scale. We should therefore force a consolidation of tank and material producers to capitalize on this.
+Prerequisites:
+- Requires one of the following:
+ - Soviet Artillery
+ - PC of Mortar Armament
+ - Development of Tankograd
+- Not: Political Paranoia is active
+Effects:
+- If the DLC Arms Against Tyranny is enabled:
+ - Every tank military industrial organization:
+ - Unlock Trait: Merge Plant No. 174:
+ - Max Speed: +5%
+ - Unlock Trait: Merge Plant No. 112:
+ - Factory Output : +5.00%
+ - Unlock Trait: Merge Ural Heavy Machine Building Plant:
+ - Soft attack: +5%
+ - Every materiel military industrial organization:
+ - Unlock Trait: Merge NKMZ Plant:
+ - pe cap : +10.00%
+ - Unlock Trait: Merge Magnitogorsk Metallurgical Plant:
+ - Factory Output : +10.00%
+ - Grabin Design Bureau:
+ - Unlock Trait: Merge Plant No. 172:
+ - production cost : -10.00%
+ - Tula Arms Plant:
+ - Unlock Trait: Merge Plant No. 622:
+ - production cost : -10.00%
+ - GAZ:
+ - Unlock Trait: Merge Automobile Tool Plant:
+ - production cost : -10.00%
+- Otherwise:
+ - Unlocks Merge Plant Decisions for Tank and Materiel Designers
+ - allowing us to merge different plants into active Tank and Materiel Designers to improve its bonuses.
+
+## Military Engineering University Sub-branch [verified for 1.17]
+
+Soviet Union 2D Art Pack
+
+Defensive sub-branch of the Soviet national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+Focus:
+FOCUS Military Engineering University: While many are proclaiming the end of trench warfare following the development of the tank and airplane, it is clear that military engineering still has a place on the modern battlefield. We should form an institute to study modern methods of constructing modern field fortifications.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Found the PCDI
+ - Strengthen the Mobilization Plan
+Effects:
+- Modify Dynamic Modifier Defense Industry by:
+
+Spirit Defense Industry:
+- Effective Change:
+- Max Entrenchment: +5.0%
+- Land fort construction speed: +5.00%
+- Coastal fort construction speed: +5.00%
+
+Focus:
+FOCUS Leningrad Polytechnical Institute: As our foremost engineering school, the Leningrad Polytechnical Institute has long provided our country with engineers and industrial designers. We should expand it further to ensure that we will always have the best people available to fill any new positions in our growing industries.
+Alternative Names
+Change by City name
+
+[195.city name] Polytechnical Institute
+
+As our foremost engineering school, the [195.city name] Polytechnical Institute has long provided our country with engineers and industrial designers. We should expand it further to ensure that we will always have the best people available to fill any new positions in our growing industries.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - The Means to Wage War
+ - Military Engineering University
+Effects: *Gains 1 Research Slot
+
+Focus:
+FOCUS Soviet Atomic Bomb Project: We know that scientists in other countries are hard at work to develop methods to turn the most fundamental forces in the universe into a new form of weapon. While we are behind, we can use their work to advance our own, and ensure the parity of destruction remains.
+Alternative Names
+democracy fascism non-aligned Non-Communist name
+
+Russian Atomic Bomb Project
+
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Leningrad Polytechnical Institute
+- Has built at least 7 Academies of Sciences
+- Is fully independent
+Effects:
+- If Atomic Research has not been researched
+ - Reduce ahead of time penalty by 1.0 years and give a 100% research bonus. Valid for the next 1 researches of these technologies: Nuclear Technology
+ - Gain breakthrough progress:
+ - Nuclear Research: 50.00%
+- Otherwise:
+ - Gain breakthrough progress:
+ - Nuclear Research: 80.00%
+- If there are no other Experimental Facilities in 588, we will gain 1 Nuclear Research in 588
+- If DLC La Résistance is enabled:
+ - Ursula Kuczynski becomes an operative
+ - Traits: Safe Cracker and Infiltrator
+ - Nationality: Soviet Union or Russian and germany
+ - If current ruling party is Communist :
+ - gets the national spirit:
+
+Spirit Soviet Atomic Bomb Project: We know that scientists in other countries are hard at work to develop methods to turn the most fundamental forces in the universe into a new form of weapon. While we are behind, we can use their work to advance our own, and ensure the parity of destruction remains.
+- Operative slots: +1
+
+ - Otherwise:
+ - gets the national spirit:
+
+Spirit Russian Atomic Bomb Project: We know that scientists in other countries are hard at work to develop methods to turn the most fundamental forces in the universe into a new form of weapon. While we are behind, we can use their work to advance our own, and ensure the parity of destruction remains.
+- Operative slots: +1
+
+ - Unlocks operations to infiltrate the atomic programs of major countries. (Requires having built an Intelligence Agency)
+
+Focus:
+FOCUS Move Industry To the Urals: War has come to us, and the homeland is under threat. While our forces will fight to the last bullet without giving a foot of ground, we can not ensure that this will be enough, given the forces arrayed against us. We must evacuate factories to safety before they are overrun.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Military Engineering University
+- Has full control of 219
+- At least 120 of Train in Stockpile
+- One of the following must be true:
+ - More than 85% World tension
+ - Any enemy country:
+ - All of the following must be true:
+ - Is considered a major
+ - Capital State: Is in Europe
+Effects:
+- add SOV_industrial_relocation_trains_focus_negative Soviet Trains to the national stockpile
+- 219:
+ - Remove 1 mic in 219
+ - Remove 1 cic in 219
+- If has full control of 195:
+ - 195:
+ - Remove 1 mic in 195
+ - Remove 1 cic in 195
+- If has full control of 202:
+ - 202:
+ - Remove 1 mic in 202
+ - Remove 1 cic in 202
+Immediate effect upon focus start:
+- 219:
+ - Remove 1 mic in 219
+ - Remove 1 cic in 219
+- If has full control of 195:
+ - 195:
+ - Remove 1 mic in 195
+ - Remove 1 cic in 195
+- If has full control of 202:
+ - 202:
+ - Remove 1 mic in 202
+ - Remove 1 cic in 202
+- 120 Train will be used for the duration of this focus.
+Effects upon focus completion:
+- Unlocks Industry Relocation Decisions
+- Random Owned Controlled State:
+ - Add 2 Building Slot
+ - Add 1 mic (gets 50% damage)
+ - Add 1 cic (gets 50% damage)
+- If has full control of 195:
+ - Random Owned Controlled State:
+ - Add 2 Building Slot
+ - Add 1 mic (gets 50% damage)
+ - Add 1 cic (gets 50% damage)
+- If has full control of 202:
+ - Random Owned Controlled State:
+ - Add 2 Building Slot
+ - Add 1 mic (gets 50% damage)
+ - Add 1 cic (gets 50% damage)
+- Some factories will need to be rebuilt
+
+Focus:
+FOCUS The Road of Life: With several of our cities threatened and under siege, we must focus on getting the fighting forces in those places the support they need to hold out, whatever the cost may be.
+Prerequisites:
+- Requires the following:
+ - Leningrad Polytechnical Institute
+ - Move Industry To the Urals
+- One of the following must be true: ()
+ - 195 or 219 or 217 or 137 or 202:
+ - Controlled by The Soviet Union
+ - Any neighbor state:
+ - Owned by The Soviet Union
+ - Not fully controlled by The Soviet Union
+- Full Request:
+- One of the following must be true:
+ - 195:
+ - Controlled by The Soviet Union
+ - Any neighbor state:
+ - Owned by The Soviet Union
+ - Not fully controlled by The Soviet Union
+ - 219:
+ - Controlled by The Soviet Union
+ - Any neighbor state:
+ - Owned by The Soviet Union
+ - Not fully controlled by The Soviet Union
+ - 217:
+ - Controlled by The Soviet Union
+ - Any neighbor state:
+ - Owned by The Soviet Union
+ - Not fully controlled by The Soviet Union
+ - 137:
+ - Controlled by The Soviet Union
+ - Any neighbor state:
+ - Owned by The Soviet Union
+ - Not fully controlled by The Soviet Union
+ - 202:
+ - Controlled by The Soviet Union
+ - Any neighbor state:
+ - Owned by The Soviet Union
+ - Not fully controlled by The Soviet Union
+Effects:
+- gets the national spirit for 730 days:
+
+Spirit The Road of Life: With several of our cities threatened and under siege, we must focus on getting the fighting forces in those places the support they need to hold out, whatever the cost may be.
+- Winter Attrition: -15.0%
+- Non-Combat Out of Supply Penalties: -10.0%
+- Supply Range: +10%
+
+Focus:
+FOCUS The Molotov Line: The recent changes to the political geography of Europe have moved our western border quite a bit further west. Any old fortification plans are outdated. We must create a new line along our new borders to slow down any enemy attack until we can mobilize our forces for a counter-attack.
+Alternative Names
+Communist name
+
+The Trotsky Line
+
+Communist name
+
+The Bukharin Line
+
+democracy fascism non-aligned Non-Communist name
+
+The Tsar Line
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Military Engineering University
+- ExclusiveM Mutually exclusive with:
+ - Improve the Stalin Line
+- One of the following must be true:
+ - Has full control of 188 189 814 97 94 93 91 89 80 78 766 \n**Has full control of_
+Effects:
+- Build a land fort fortification line in fully controlled Lithuania, poland, romania states.()
+- Lithuania states under our control:
+ - If has full control of 188:
+ - Add 3 Land Fort in a province in the state.
+ - If has not full control of 188 but has full control of 189:
+ - 189:
+ - Add 1 Land Fort in 3 province in the state.
+ - If has full control of 814:
+ - Add 1 Land Fort in 2 province in the state.
+- poland states under our control:
+ - If has full control of 97:
+ - Add 1 Land Fort in 6 province in the state.
+ - If has full control of 94:
+ - Add 1 Land Fort in 2 province in the state.
+ - If has full control of 93:
+ - Add 1 Land Fort in 2 province in the state.
+ - If has full control of 91:
+ - Add 1 Land Fort in 2 province in the state.
+ - If has full control of 89:
+ - Add 1 Land Fort in 4 province in the state.
+- Romania states under our control:
+ - If has full control of 80:
+ - Add 1 Land Fort in 2 province in the state.
+ - If has full control of 78:
+ - Add 1 Land Fort in 5 province in the state.
+ - If has full control of 766:
+ - Add 1 Land Fort in 2 province in the state.
+
+Focus:
+FOCUS Improve the Stalin Line: Our western border is far too long to fortify in its entirety. But we can build a set of fortifications that funnels any enemy attack into predictable areas, where we can easily counter-attack them with massed forces.
+Alternative Names
+democracy fascism non-aligned Non-Communist name
+
+Strengthen the Western Defensive Line
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Military Engineering University
+- ExclusiveM Mutually exclusive with:
+ - The Molotov Line
+- One of the following must be true:
+ - Has full control of 209
+Effects:
+- 209:
+ - Add 6 Land Fort in a province in the state.
+- 210:
+ - Add 4 Land Fort in a province in the state.
+- 207:
+ - Add 4 Land Fort in 3 province in the state.
+- 206:
+ - Add 4 Land Fort in a province in the state.
+- 202:
+ - Add 7 Land Fort in 2 province in the state.
+- 203:
+ - Add 7 Land Fort in a province in the state.
+- 834:
+ - Add 5 Land Fort in 2 province in the state.
+- 192:
+ - Add 5 Land Fort in a province in the state.
+
+Focus:
+FOCUS The Defense of Moscow: The enemy is standing on the gates of Moscow. This is the place to make our stand and throw them into retreat and into defeat, like we did with Napoleon!
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires one of the following:
+ - Move Industry To the Urals
+ - Improve the Stalin Line
+ - The Molotov Line
+- 219:
+ - Controlled by The Soviet Union
+ - One of the following must be true:
+ - Any neighbor state:
+ - Not controlled by The Soviet Union
+ - More than 10% surrender progress
+Effects:
+- army exp : +15
+- 219:
+ - Add 28 Land Fort in and around 219.
+ - in 219 add 4 Land Fort in a province.
+ - around 219 add 3 Land Fort in every province.
+
+Focus:
+FOCUS Impregnable Forts: Soviet engineering is now able to create truely fearsome fortifications, easily capable of standing up to even the heaviest bombardment and nearly impossible to take in an assault. With extensive stocks of ammunition and supplies, these forts would hold out against enemy attack for years, if necessary.
+Alternative Descriptions
+democracy fascism non-aligned Non-Communist description
+
+Russian engineering is now able to create truely fearsome fortifications, easily capable of standing up to even the heaviest bombardment and nearly impossible to take in an assault. With extensive stocks of ammunition and supplies, these forts would hold out against enemy attack for years, if necessary.
+Prerequisites:
+- Requires one of the following:
+ - Move Industry To the Urals
+ - Improve the Stalin Line
+ - The Molotov Line
+- One of the following must be true:
+ - Has full control of 195
+ - Has full control of 208
+ - Has full control of 137
+Effects:
+- 195:
+ - Add 1 static anti air
+ - Add 3 Land Fort in 2 province in the state.
+ - Add 3 Coastal Fort in 2 province in the state.
+ - Add Modifier Krasnaya Gorka Battery:
+ - Entrenchment speed: +25.0%
+ - Division Defense: +10.0%
+ - Max Entrenchment: +10.0%
+ - Encirclement penalty: -15.0%
+ - Damage Reduction Against CAS: +10.0%
+- 208:
+ - Add 1 static anti air
+ - Add 3 Land Fort in a province in the state.
+ - Add 3 Coastal Fort in a province in the state.
+ - Add Modifier Seraya Loshad Battery:
+ - Entrenchment speed: +25.0%
+ - Division Defense: +10.0%
+ - Max Entrenchment: +10.0%
+ - Encirclement penalty: -15.0%
+ - Damage Reduction Against CAS: +10.0%
+- 137:
+ - Add 1 static anti air
+ - Add 3 Land Fort in a province in the state.
+ - Add 3 Coastal Fort in a province in the state.
+ - Add Modifier Armored Battery 35:
+ - Entrenchment speed: +25.0%
+ - Division Defense: +10.0%
+ - Max Entrenchment: +10.0%
+ - Encirclement penalty: -15.0%
+ - Damage Reduction Against CAS: +10.0%
+
+Focus:
+FOCUS Protect the White Sea - Baltic Canal: The canal between the Baltic Sea and the White Sea is a marvel of modern engineering and can not be allowed to fall into enemy hands.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Military Engineering University
+- Has full control of 215
+- Has full control of 216
+- Has full control of 264
+- Has full control of 195
+Effects:
+- 215:
+ - Add 1 static anti air
+ - Add 1 Land Fort in 3 province in the state.
+ - Add 1 Coastal Fort in a province in the state.
+- 216:
+ - Add 1 static anti air
+ - Add 1 Land Fort in 2 province in the state.
+- 264:
+ - Add 1 static anti air
+ - Add 1 Land Fort in 3 province in the state.
+- 195:
+ - Add 1 static anti air
+ - Add 1 Land Fort in 3 province in the state.
+
+Focus:
+FOCUS Far East Fortification: Ever since the war with Japan in 1905, we have kept a weary eye on the region. It is no secret that elements of the Japanese military look at our far-eastern holdings with unashamed greed. We must prepare for a confrontation in that region, and have to take steps to slow down any enemy attack to gain time to deploy forces from western Russia into the region.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+Prerequisites:
+- Requires the following:
+ - Military Engineering University
+- One of the following must be true:
+ - Has full control of 563
+ - Has full control of 561
+ - Has full control of 657
+ - Has full control of 409
+ - Has full control of 408
+Effects:
+- 563:
+ - Add 4 Land Fort on the Japan.
+- 561:
+ - Add 4 Land Fort on the Japan.
+- 657:
+ - Add 10 Land Fort on the Japan.
+- 409:
+ - Add 4 Land Fort on the Japan.
+- 408:
+ - Add 10 Land Fort on the Japan.
+
+# Strengthen the Mobilization Plan Branch [verified for 1.17]
+
+Soviet Union 2D Art Pack
+
+Infantry army branch of the Soviet national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+{| class="mildtable"
+! style="width: 30%;" | Focus
+! style="width: 30%;" | Prerequisites
+! style="width: 40%;" | Effects
+
+|- id="Strengthen the Mobilization Plan"
+| FOCUS Strengthen the Mobilization Plan: Our biggest military advantage has always been the vastness of our country and the amount of people living in it. But when it comes to getting soldiers to the front, these two things can work against each other. We have to continuously improve and update our mobilization plans to ensure that in the event of war, we can concentrate our forces quickly.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+| None
+|
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier The Red Army by:
+
+Spirit The Red Army:
+Effective Change:
+- Mobilization speed: +5.00%
+- Recruitable Population Factor: 3.0%
+- Land Mastery Gain Factor: +5.0%
+
+- Otherwise:
+ - Modify Dynamic Modifier The Russian Army by:
+
+Spirit The Russian Army:
+Effective Change:
+- Mobilization speed: +5.00%
+- Recruitable Population Factor: 3.0%
+- Land Mastery Gain Factor: +5.0%
+
+|- id="Restore Cossack Units"
+| FOCUS Restore Cossack Units: In the hour of need, the motherland does not ask details about who wants to serve to defend it. Anyone willing to bear arms against the invader is welcome, and will be employed to the best of their abilities.
+|
+- Requires the following:
+ - Strengthen the Mobilization Plan
+- ExclusiveM Mutually exclusive with:
+ - Cohesion First
+|
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier The Red Army by:
+
+Spirit The Red Army:
+Effective Change:
+- Cavalry Attack: +5.0%
+- Cavalry Speed: +5.0%
+
+- Otherwise:
+ - Modify Dynamic Modifier The Russian Army by:
+
+Spirit The Russian Army:
+Effective Change:
+- Cavalry Attack: +5.0%
+- Cavalry Speed: +5.0%
+
+- Lev Dovator becomes a General
+- 4 Cavalry Divisions and 1 Infantry Division will be created in 219
+
+|- id="Cohesion First"
+| FOCUS Cohesion First: The last thing we need in this situation is to reduce our standards. Anyone who wants to serve in the military is welcome - but they will serve in existing units, and trained to proper military standards.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+|
+- Requires the following:
+ - Strengthen the Mobilization Plan
+- ExclusiveM Mutually exclusive with:
+ - Restore Cossack Units
+|
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier The Red Army by:
+
+Spirit The Red Army:
+Effective Change:
+- Division Organization: +5.0%
+- Training time: +10.00%
+
+- Otherwise:
+ - Modify Dynamic Modifier The Russian Army by:
+
+Spirit The Russian Army:
+Effective Change:
+- Division Organization: +5.0%
+- Training time: +10.00%
+
+|- id="Rehabilitated Military"
+| FOCUS Rehabilitated Military: It is clear now that the close watch we have kept on the military was perhaps a little overly zealous. While perfectly justified in peacetime, during the war we should let the professional make judgements based on the military situation, not based on political considerations. It is time to rein in the political officers a bit and give the commanders more latitude on how to run things.
+Alternative Descriptions
+democracy fascism non-aligned Non-Communist description
+
+The bolsheviks kept an extremely zealous watch on the military, and what use was it for them? While we must keep the figure of the political officer to ensure the eradication of communist-tinged thoughts, during the war we should let the military officers make judgements based on the military situation, not based on political considerations.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+|
+- Requires one of the following:
+ - Restore Cossack Units
+ - Cohesion First
+- Not: Political Paranoia is active
+|
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier The Red Army by:
+
+Spirit The Red Army:
+Effective Change:
+- Division Organization: +5.0%
+
+ - If has not completed focus SOV_lessons_of_war:
+ - Modify Dynamic Modifier The Red Army by:
+
+Spirit The Red Army:
+Effective Change:
+- Land Mastery Gain Factor: +15.0%
+
+- Otherwise:
+ - Modify Dynamic Modifier The Russian Army by:
+
+Spirit The Russian Army:
+Effective Change:
+- Division Organization: +5.0%
+
+ - If has not completed focus SOV_lessons_of_war:
+ - Modify Dynamic Modifier The Russian Army by:
+
+Spirit The Russian Army:
+Effective Change:
+- Land Mastery Gain Factor: +15.0%
+
+- gets the national spirit:
+
+Spirit Rehabilitated Military: It is time to rein in the political officers a bit and give the commanders more latitude on how to run things.
+- Division Recovery Rate: +10.0%
+- Reinforce Rate: +2.0%
+
+|- id="Military Reorganization"
+| FOCUS Military Reorganization: Our attempts to build a large mechanized army were noble, but more than we could afford. To win this war, we will have to focus on the arms that have carried Russian armies to victory for centuries: the Infantry and the Artillery. This will necessarily require us to disrupt the existing formations to a degree.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+|
+- Requires the following:
+ - Rehabilitated Military
+|
+Immediate effect upon focus start:
+- gets the national spirit:
+
+Spirit Military Reorganization: The Red/Russian/Imperial Army is undergoing a huge reorganization, which requires disrupting the existing formations to some extent for a hopefully short period of time. (Name of the army will change by Ideology)
+- army exp Gain: -100.0%
+- Division Organization: -10.0%
+- Army Organization Regain: -15.00%
+- This National Spirit will be removed upon completion of the focus Military Reorganization
+
+Effects upon focus completion:
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier The Red Army by:
+
+Spirit The Red Army:
+Effective Change:
+- Infantry Unit Design Cost: -10.00%
+- Artillery Unit Design Cost: -10.00%
+
+- Otherwise:
+ - Modify Dynamic Modifier The Russian Army by:
+
+Spirit The Russian Army:
+Effective Change:
+- Infantry Unit Design Cost: -10.00%
+- Artillery Unit Design Cost: -10.00%
+
+- army exp : +50
+- Command Power : +25.0
+
+|- id="Desperate Measures"
+| FOCUS Desperate Measures: In this desperate situation, we must take measures we had previously thought impossible. Anything that can be done to stem the invasion must be done.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+|
+- Requires the following:
+ - Strengthen the Mobilization Plan
+- Any enemy country:
+ - Is considered a major
+|
+- gets the national spirit for 365 days:
+
+Spirit Desperate Measures: In this desperate situation, we must take measures we had previously thought impossible. Anything that can be done to stem the invasion must be done.
+- Mobilization speed: +25.00%
+- Training time: -10.00%
+- Minimum training level: -5%
+
+- Unlocks several Great Patriotic War decisions
+
+|- id="An Adaptable Army"
+| FOCUS An Adaptable Army: This war is stretching across several climate zones and many varied terrains. We must be able to fight in every terrain and no matter the weather if we want to win this war.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+|
+- Requires the following:
+ - Rehabilitated Military
+ - Desperate Measures
+|
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier The Red Army by:
+
+Spirit The Red Army:
+Effective Change:
+- Winter Attrition: -10.0%
+- Heat Attrition: -10.0%
+- Cold acclimatization gain factor: +15.0%
+- Hot acclimatization gain factor: +15.0%
+- Terrain Penalty Reduction: +15.0%
+
+- Otherwise:
+ - Modify Dynamic Modifier The Russian Army by:
+
+Spirit The Russian Army:
+Effective Change:
+- Winter Attrition: -10.0%
+- Heat Attrition: -10.0%
+- Cold acclimatization gain factor: +15.0%
+- Hot acclimatization gain factor: +15.0%
+- Terrain Penalty Reduction: +5.0%
+
+|- id="Lessons of War"
+| FOCUS Lessons of War: Whatever plans we had before the war have largely not survived contact with the enemy. We must be open to the lessons this war is teaching us, and not stick to outdated dogma. Only then can we stop our retreat and start to go back on the offensive.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+|
+- Requires the following:
+ - Rehabilitated Military
+ - Desperate Measures
+- Does not have national spirit Desperate Measures
+|
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier The Red Army by:
+
+Spirit The Red Army:
+Effective Change:
+- Division Organization: +5.0%
+- Experienced soldier losses: Set to 0
+- Land Mastery Gain Factor: Set to 0
+
+- Otherwise:
+ - Modify Dynamic Modifier The Russian Army by:
+
+Spirit The Russian Army:
+Effective Change:
+- Division Organization: +5.0%
+- army exp Gain: +10.0%
+- Experienced soldier losses: Set to 0
+- Land Mastery Gain Factor: Set to 0
+
+- Unlocks Decision: Order 227
+ - Activating Order 227 will in turn unlock decisions to prepare and execute Military Offensives
+- Every army exp army and navy exp navy leader with the trait Cowed by Stalin:
+ - Loses Cowed by Stalin ( army exp Army)
+ - Division Recovery Rate: -10.0%
+ - Reinforce Rate: -2.0%
+ - Attack: -2
+ - Defense: -2
+ - Loses Cowed by Stalin ( navy exp Navy)
+ - Retreat Decision Chance: -25%
+ - Attack: -2
+ - Defense: -2
+
+|- id="Penal Battalions"
+| FOCUS Penal Battalions: During the retreats, many otherwise capable soldiers have shamed themselves by retreating before the position was lost, or by otherwise acting against the good conduct of our army. But in this situation, simply imprisoning or executing them would deprive us of very capable fighters. We should form special units in which these people can redeem themselves through combat.
+|
+- Requires the following:
+ - Desperate Measures
+- At war
+|
+- 4 Penal Divisions will be created in 219
+- Unlocks Decision: Raise Penal Units
+ - allowing to raise 4 Penal Divisions yearly
+
+|- id="Organization of the Partisans"
+| FOCUS Organization of the Partisans: After being overrun, many soldiers left behind enemy lines choose to continue the fight instead of humiliating captivity. Together with the peasants and workers of the occupied territories, they have continued the fight against the invader. We must send them support so they can tie down even more enemy units.
+|
+- Requires the following:
+ - Lessons of War
+- Any owned state:
+ - Controller: Is at war with the Soviet Union
+|
+- If current ruling party is Communist :
+ - Vasily Korzh becomes a General
+ - Sidor Kovpak becomes a General
+ - Modify Dynamic Modifier The Red Army by:
+
+Spirit The Red Army:
+Effective Change:
+- Operative slots: +1
+
+- Otherwise:
+ - Modify Dynamic Modifier The Russian Army by:
+
+Spirit The Russian Army:
+Effective Change:
+- Operative slots: +1
+
+- If DLC La Résistance is enabled:
+ - If current ruling party is Communist :
+ - Dmitry Medvedev becomes an operative
+ - Traits: Demolition Expert and Commando
+ - Nationality: Soviet Union
+ - gets the national spirit for 720 days:
+
+Spirit Central Headquarters of the Partisan Movement: After being overrun, many soldiers left behind enemy lines choose to continue the fight instead of humiliating captivity. Together with the peasants and workers of the occupied territories, they have continued the fight against the invader. We must send them support so they can tie down even more enemy units.
+- Damage to Enemy Garrisons in our states occupied by the enemy: +10.00%
+- Targeted Sabotage efficiency: +15%
+- Strengthen Resistance effectiveness: +15%
+- Make Resistance Contacts effectiveness: +15%
+
+- Otherwise:
+ - gets the national spirit for 720 days:
+
+Spirit Central Headquarters of the Partisan Movement: After being overrun, many soldiers left behind enemy lines choose to continue the fight instead of humiliating captivity. Together with the peasants and workers of the occupied territories, they have continued the fight against the invader. We must send them support so they can tie down even more enemy units.
+- Subversive activities cost: -15%
+- Damage to Enemy Garrisons in our states occupied by the enemy: +10.00%
+
+- If current ruling party is Communist :
+ - New Propaganda Campaign available: ()
+ - Unlocks Decision: Glory to the Partisan Heroes!
+ - Unlocks Decision: Death to the Invaders!
+ - Propaganda campaigns require having completed focus Expand the Agitprop.
+- ‘Glory to the Partisan Heroes!’:
+ - Prerequisites:
+ - Has an empty proganda poster slot.
+ - At war
+ - Any enemy country:
+ - Original country is not Soviet Union
+ - Any countrolled state:
+ - Is a core of The Soviet Union
+ - Effects for 180 days when decision is selected:
+ - Strengthen Resistance effectiveness: +25%
+ - Make Resistance Contacts effectiveness: +25%
+ - Sabotage Industry effectiveness: +25%
+ - Sabotage Infrastructure effectiveness: +25%
+ - Sabotage Resources effectiveness: +25%
+- ‘Death to the Invaders!’:
+ - Prerequisites:
+ - Has an empty proganda poster slot.
+ - At war
+ - Any enemy country:
+ - Original country is not Soviet Union
+ - Any countrolled state:
+ - Is a core of The Soviet Union
+ - Effects for 180 days when decision is selected:
+ - Every core state controlled by an enemy:
+ - Add Modifier: Invaders Must Die
+ - Invaders Must Die state modifier:
+ - Resistance Target: +15%
+ - Resistance Decay Speed: -30%
+ - Resistance Growth Speed: +5%
+ - Compliance Growth Speed: -5%
+ - Strategic Redeployment Disabled: Yes
+ - Local Available Resources: -25%
+
+|- id="SMERSH"
+| FOCUS SMERSH: We must make it clear to every single citizen that spies and enemy agents are present everywhere, and that any idle talk can give the enemy a crucial piece of information that gives them an advantage.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+|
+- Requires the following:
+ - Lessons of War
+|
+- If DLC La Résistance is enabled:
+ - gets the national spirit:
+
+Spirit SMERSH: We must make it clear to every single citizen that spies and enemy agents are present everywhere, and that any idle talk can give the enemy a crucial piece of information that gives them an advantage.
+- Counter intelligence: +0.50
+- Operative slots: +1
+
+- Otherwise:
+ - gets the national spirit:
+
+Spirit SMERSH: We must make it clear to every single citizen that spies and enemy agents are present everywhere, and that any idle talk can give the enemy a crucial piece of information that gives them an advantage.
+- Foreign subversive activities efficiency: -15%
+- Resistance Growth Speed in our states occupied by the enemy: +15%
+
+- If current ruling party is Communist :
+ - New Propaganda Campaign available: ()
+ - Unlocks Decision: The Enemy is Treacherous, Stay Alert!
+ - Unlocks Decision: Do not Blab!
+ - Propaganda campaigns require having completed focus Expand the Agitprop.
+- ‘The Enemy is Treacherous, Stay Alert!’:
+ - Prerequisites:
+ - Has an empty proganda poster slot.
+ - Effects for 180 days when decision is selected:
+ - Encryption: +1.00
+ - Enemy operative detection chance factor: +75%
+ - Enemy operative capture chance: +75%
+- ‘Do not Blab!’:
+ - Prerequisites:
+ - Has an empty proganda poster slot.
+ - Effects for 180 days when decision is selected:
+ - Foreign subversive activities efficiency: -25%
+ - Civilian intelligence to others: -50.0%
+ - Army intelligence to others: -50.0%
+ - Navy intelligence to others: -50.0%
+ - Airforce intelligence to others: -50.0%
+
+|- id="Barrier Troops"
+| FOCUS Barrier Troops: Battle is often chaotic, and it is understandable that sometimes soldiers lose contact with higher headquarters. We should institute units well behind the front who collect these stragglers and point them back towards the fighting - and arrest any who betray their comrades by trying to avoid their duty.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+|
+- Requires the following:
+ - SMERSH
+|
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier The Red Army by:
+
+Spirit The Red Army:
+Effective Change:
+- Army Organization Regain: +10.00%
+
+- Otherwise:
+ - Modify Dynamic Modifier The Russian Army by:
+
+Spirit The Russian Army:
+Effective Change:
+- Army Organization Regain: +10.00%
+
+|- id="Experts in Camouflage"
+| FOCUS Experts in Camouflage: To achieve and maintain the element of surprise, we must make absolutely sure that the enemy does not spot our troop positions or movements until it is too late. Every soldier must be trained in the art of camouflage.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+|
+- Requires the following:
+ - Military Reorganization
+|
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier The Red Army by:
+
+Spirit The Red Army:
+Effective Change:
+- Entrenchment speed: +5.0%
+- Max Entrenchment: +5.0
+- Damage Reduction Against CAS: +5.0%
+
+- Otherwise:
+ - Modify Dynamic Modifier The Russian Army by:
+
+Spirit The Russian Army:
+Effective Change:
+- Entrenchment speed: +5.0%
+- Max Entrenchment: +5.0
+- Damage Reduction Against CAS: +5.0%
+
+|- id="Keep Commissars Organization"
+| FOCUS Keep Commissars Organization: Even in our new organisation, there is a need for people to ensure that the army remains absolutely loyal to the government. If the soldiers lose their trust in the government, we will lose this war and we will lose it quickly.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+|
+- Current ruling party is Communist or Democratic
+- Requires the following:
+ - Military Reorganization
+ - Lessons of War
+- ExclusiveM Mutually exclusive with:
+ - Military Political Advisors
+Has completed focus Depoliticize the Military
+|
+- Modify national spirit Politicized Military by:
+
+Spirit Politicized Military: Military commissars often hold fervent ideological speeches and political discussions among the ranks, but in many cases they also engage in excessive administration, overzealous scrutiny of military officers, and even obstruction of the orders of unit commanders.
+- Effective Change:
+- Division Organization: +5.0%
+- Division Recovery Rate: -10.0%
+- Division Attack on core territory: +3.0%
+- Ideology drift defense: +5.0%
+- Maximum Command Power Increase: +50
+
+|- id="Adjoined Battle Priests"
+| FOCUS Adjoined Battle Priests: With its power and influence recently increasing in the country, the time may have come to allow the Church to become involved in military matters. Taking on the role of Battle Priests within our military units, the clergy will make sure that the troops know that God is on our side, which will potentially increase morale and make the common soldier fight more fervently for their country.
+|
+- Current ruling party is Fascist or Non-Aligned
+- Requires the following:
+ - Military Reorganization
+ - Lessons of War
+- ExclusiveM Mutually exclusive with:
+ - Military Political Advisors
+- Has completed focus Church Candidates
+- Has completed focus Depoliticize the Military
+- Has completed focus Socialist Humanism
+|
+- If has national spirit Politicized Military:
+ - Replaces national spirit Politicized Military with the following:
+
+Spirit Battle Priests in the Army: Taking on the role of Battle Priests within our military units, the clergy is now in charge of keeping morale high among the ranks, and making sure that the troops know that the Church, and God, are on our side.
+- Effective Change:
+- Division Organization: +5.0%
+- Division Recovery Rate: +10.0%
+- Division Attack on core territory: +5.0%
+- Division Defense on core territory: +2.0%
+- Ideology drift defense: +5.0%
+- Commander Abilities Cost: -10.00%
+
+- Otherwise:
+ - gets the national spirit:
+
+Spirit Battle Priests in the Army: Taking on the role of Battle Priests within our military units, the clergy is now in charge of keeping morale high among the ranks, and making sure that the troops know that the Church, and God, are on our side.
+- Division Organization: +5.0%
+- Division Recovery Rate: +10.0%
+- Division Attack on core territory: +5.0%
+- Division Defense on core territory: +5.0%
+- Ideology drift defense: +15.0%
+- air exp Air Doctrine Cost: +20.00%
+- army exp Land Doctrine Cost: +20.00%
+- navy exp Naval Doctrine Cost: +20.00%
+
+|- id="Military Political Advisors"
+| FOCUS Military Political Advisors: Our war is not merely a contest between nations about resources. it is a contest of political systems. While we shouldn't let political considerations dictate military decisions, we still have to ensure that these political considerations are accounted for when the decision is reached.
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+|
+- Requires the following:
+ - Military Reorganization
+ - Lessons of War
+- ExclusiveM Mutually exclusive with:
+ - Keep Commissars Organization
+ - Adjoined Battle Priests
+Has completed focus Depoliticize the Military
+|
+- Replaces national spirit Politicized Military with the following:
+
+Spirit Military Political Advisors: While we shouldn't let poltical considerations dictate military decisions, we slilil have to ensure that these political considerations are accounted for when the decision is reached.
+- Effective Change:
+- Division Organization: -5.0%
+- Division Recovery Rate: +10.0%
+- Daily Command Power Gain Multiplier: +10%
+- Commander Abilities Cost: -10.00%
+- air exp Air Doctrine Cost: -10.00%
+- army exp Land Doctrine Cost: -10.00%
+- navy exp Naval Doctrine Cost: -10.00%
+
+|- id="The Glory of the Red Army"
+| FOCUS The Glory of the Red Army: We have successfully held out against the enemy onslaught. Now is the time to go on the offensive, and carry the war back to where it came!
+Alternative Names
+Democratic name
+
+The Glory of the Russian Army
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+|
+- Current ruling party is Communist or Democratic
+- Requires one of the following:
+ - Keep Commissars Organization
+ - Adjoined Battle Priests
+ - Military Political Advisors
+- Any enemy country:
+ - Is considered a major
+- Less than 5% surrender progress
+|
+- If current ruling party is Communist :
+ - Modify Dynamic Modifier The Red Army by:
+
+Spirit The Red Army:
+Effective Change:
+- Special Forces Capacity Multiplier: +10.0%
+- army exp Land Doctrine Cost: -10.00%
+
+- If current ruling party is Democratic :
+ - Modify Dynamic Modifier The Russian Army by:
+
+Spirit The Russian Army:
+Effective Change:
+- Special Forces Capacity Multiplier: +10.0%
+- army exp Land Doctrine Cost: -10.00%
+
+- army exp : +75
+- Pavel Rybalko becomes a General
+- Enables Tactic: Masterful Blitz
+- Gain breakthrough progress:
+ - Land Warfare: 25.00%
+
+|- id="The Glory of the Imperial Army"
+| FOCUS The Glory of the Imperial Army: We have successfully held out against the enemy onslaught. Now is the time to go on the offensive, and carry the war back to where it came!
+Alternative Images
+Soviet Union 2D Art DLC
+
+FOCUS :
+|
+- Current ruling party is Fascist or Non-Aligned
+- Requires one of the following:
+ - Keep Commissars Organization
+ - Adjoined Battle Priests
+ - Military Political Advisors
+- Any enemy country:
+ - Is considered a major
+- Less than 5% surrender progress
+|
+- Modify Dynamic Modifier The Russian Army by:
+
+Spirit The Russian Army:
+Effective Change:
+- Special Forces Capacity Multiplier: +10.0%
+- army exp Land Doctrine Cost: -10.00%
+
+- army exp : +75
+- Pavel Rybalko becomes a General
+- Enables Tactic: Masterful Blitz
+
+|}
+
+# References

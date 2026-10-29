@@ -1,0 +1,3460 @@
+TITLE: Special project
+URL: https://hoi4.paradoxwikis.com/Special_project
+REVISION: 2026-02-03T13:50:29Z (rev 96956)
+VERIFIED FOR: 1.15
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Special Projects were introduced with the release of Götterdämmerung and the accompanying Patch 1.15. Each special project is a long-term project that is carried out in an appropriate experimental facility lead by an employed scientists. All special projects require scientific breakthroughs to start, and most special projects also have additional resource, technology, and/or special project requirements.
+
+# Categories
+
+There are four categories of special project research. Each category has a different experimental facility dedicated to it, its own class of scientist experts, and its own group of supporting technologies that help contribute to scientific breakthroughs.
+
+Nuclear Research special projects are available at any Nuclear Research Facility .
+They involve the development of nuclear weapons, civilian nuclear power, and nuclear power plants for military ships. They are interlinked with and earn breakthroughs from computing technologies and RADAR technologies.
+
+Naval Engineering special projects are available at any Naval Engineering Facility .
+They involve the development of new military ship designs, new modules and upgrades for submarines, and support technologies for navies. They are interlinked with and earn breakthroughs from naval technologies and naval support technologies.
+
+Aerodynamics and Avionics special projects are available at any Aerodynamics and Avionics Facility .
+They involve the development of new aircraft designs, new modules and upgrades for aircraft, early missile technology, and RADAR. They are interlinked with and earn breakthroughs from air technologies, anti-air technologies, rocket artillery technologies, rocketry technologies, radio technologies, and RADAR technologies.
+
+Land Warfare special projects are available at any Land Warfare Facility .
+They involve the development of new armored military vehicles, various new artillery designs, and advanced fortification systems. They are interlinked with and earn breakthroughs from armor technologies, motorized technologies, all artillery technologies except for rocket artillery, radio technologies, and RADAR technologies.
+
+# Breakthroughs
+
+Scientific breakthroughs are a necessary resource to start any new special project. Breakthroughs can be earned in one of six ways:
+
+- Spending time researching technologies related to one or more categories of special projects produces daily progress towards scientific breakthroughs in those categories. Every day of research provides +0.12% breakthrough progress per research slot being used. Research speed and bonuses are irrelevant for this, the only thing that matters is the raw amount of time and research slots spent researching these technologies.
+- Employing a scientist to perform basic research at an experimental facility will generate daily scientific breakthrough progress in the facility's category. A scientist performing basic research will provide +0.05% breakthrough progress times the scientist's skill, with some traits like Genius and Brilliant Theorist increasing this rate. Multiple scientists performing basic research do provide more daily breakthrough progress, but the effect is progressively multiplied by 0.5x for each scientist beyond the first.
+- Some prototype iterations for some special projects can provide breakthrough progress in the same special project category.
+- Completing certain national focuses on some countries can provide breakthrough progress in a certain category.
+- Rocket site and nuclear reactor provide daily breakthrough progress in the Aerodynamics and Avionics and Nuclear Research categories, respectively. Rocket site provide +0.01% Aerodynamics and Avionics breakthrough progress per site per day. nuclear reactor , heavy water nuclear reactor , and civilian nuclear reactor , provide +0.01% Nuclear Research breakthrough progress per reactor per day.
+- Capturing an enemy experimental facility while it is researching a special project will grant +10% breakthrough progress towards the breakthrough category of the associated facility. This is reduced by 60% for each special project capture beyond the first. I.e., every time a facility is captured that is researching a special project for which a facility was captured in the past, the amount of breakthrough progress gained is progressively reduced by this amount.
+
+# Managing Special Projects
+Each special project category has a number of potential special projects that can be pursued. Special projects have a breakthrough cost that must be paid to start them and go through three phases. The first, establishing phase happens every time a special project is started or restarted. The second, initial research phase only needs to happen one per special project, and if a project is stopped in the middle of this phase, progress is retained for if/when the project is restarted. The third, prototyping phase is the longest phase and involves the creation of successive prototypes that build progress until the phase has reached 100% completion. The amount of time it takes to develop each prototype depends on the special project, and the amount of progress each prototype produces both depends on the special project and is also somewhat random. When a prototype is finished, it can also produce one of many possible outcomes, some of which can add or remove progress, produce an assortment of effects, and/or prompt the player to make a decision about how to proceed with the project. When the prototyping phase is complete, the special project in question is complete.
+
+## Researching Special Projects
+When a special project is selected to be researched, it must be done so at an experimental facility matching its category that currently has a scientist employed to perform passive research. While pursuing the project, the scientist will not perform passive research, therefore, they will not provide the research speed bonuses, passive breakthrough progress, or passive experience gain that would happen when performing passive research. The scientist researching a given special project can be switched or reassigned after they have worked on the project for at least 10 days.
+
+A Scientist researching a special project does so by developing prototypes (sometimes called iterations or prototype iterations). The amount of time it takes to develop each prototype depends on the special project. Every time a protoype is finished, progress is added to the completion of the special project. The amount is random and its variability depends on the special project. When a prototype is finished, it can also produce one of many possible outcomes, some of which can add or remove progress, produce an assortment of effects, and/or prompt the player to make a decision about how to proceed with the project. The special project is completed, once overall progress reaches 100%.
+
+Progress on special projects can also be affected by resource shortages, supply shortages, injuries for its leading scientist, and damage to the experimental facility where the special project is being researched. For special projects with a resource cost, experimental facilities pursuing them must be provided with those resources the entire time that the special project is being researched. Resource shortages can progressively decrease special project research speed to up to 0.2x. Experimental facilities researching special projects also consume 3 supply, though this can be reduced with traits like Resourceful . Supply shortages caused by, e.g., a shortage of trains or damage to supply infrastructure, can progressively decrease special project research speed to up to 0.2x. If a facility that has less than 66% of its supply requirements met, the game will display a warning in its pane in the special projects research screen. Injured scientists reduce special project speed to 0x on special projects while they are injured, though they can still be reassigned if they have been working on the project for at least 10 days. Damaged experimental facilities also pause all progress on any special projects they are researching until the damage is repaired.
+
+Progress on special projects can also be gained or lost through the capture of experimental facilities. When an experimental facility that is currently researching a special project is captured by an enemy, current special project progress is lost by up to -20%. When an enemy experimental facility is captured that is researching a special project that has not been completed by the player and is further along in that research than what the player has completed, the player receives 20% of the progress difference as extra progress for their own special project. If this happens more than once for a special project, this effect is progressively reduced by 60% each time it happens after the first.
+
+## Stopping Special Projects
+Special projects can be ordered to be cancelled at any time. This may be pertinent if its resource costs have become unbearable, if it no longer seems to be necessary, if the player has realized that a different special project of the same category is more important, or if the facility where it is being researched might be captured in the near future. Once ordered to be canceled, a special project will take 10 days before it will actually be stopped. During this time, the experimental facility will still consume resources based on the special project's resource cost, and it will still be vulnerable to capture by enemy forces. It also cannot be used to start a new special project until the previous one has been fully stopped.
+
+Special projects can be resumed at any time and they save both the progress of the current prototype aswell as the overall project.
+
+# List of Available Special Projects
+## Nuclear Research Projects
+
+Nuclear Reactor
+- United Kingdom Tube Alloys
+- France EL-1
+- Soviet Union F-1
+- USA Pile-1
+- German Reich Uranmaschine
+- Sweden R1
+- Belgian Congo TRIGA 1 Project
+- Belgium BR1
+- South Africa Koeberg Project
+- Japan F-Go Project
+- Poland MSC-1 Projekt
+- Atomic research
+1
+- steel 8
+- tungsten 2
+- chromium 2
+- Nuclear Specialist
+- Nuclear Power Expert
+90
+10% to 15%
+- Depending on choice made in Reactor Design outcome, either all of:
+ - Unlock the construction of Nuclear Reactor
+ - Gain a free Nuclear Reactor in the state where the experimental facility is located
+- Or all of:
+ - Unlock the construction of Heavy Water Nuclear Reactor
+ - Gain a free Heavy Water Nuclear Reactor in the state where the experimental facility is located
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Isotope Separation Facilities
+ - First Successful Nuclear Reactor Test
+
+Commercial Nuclear Reactor
+- Sweden Civila Kärnkraftprogrammet
+- Götterdämmerung
+- Nuclear Reactor
+- Construction IV
+1
+- steel 6
+- tungsten 4
+- chromium 7
+- Nuclear Specialist
+- Nuclear Power Expert
+90
+10% to 15%
+- Unlock the construction of Civilian Nuclear Reactor
+- Remove any Nuclear Reactor or Heavy Water Nuclear Reactor from the state where the experimental facility is located
+- Gain a free Civilian Nuclear Reactor in the state where the experimental facility is located
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Concerns Over Nuclear Safety
+
+Nuclear Engines
+- Götterdämmerung
+- Commercial Nuclear Reactor
+1
+- steel 4
+- tungsten 2
+- chromium 5
+- Nuclear Specialist
+- Nuclear Power Expert
+90
+15% to 20%
+- Unlock the Nuclear Submarine Reactor , Nuclear Heavy Ship Reactor , and Nuclear Carrier Reactor ship modules
+
+Nuclear Fission Bomb Project
+- USA The Manhattan Project
+- Soviet Union RDS-1 Project
+- United Kingdom High Explosive Research
+- Communist China Project 596
+- British Raj Smiling Buddha
+- Pakistan Chagai-I
+- Sweden Kärnvapenprogrammet
+- South Africa Hamerkop Bomb Project
+- Poland Projekt Polonium
+- Japan Jin Project
+- Nuclear Reactor
+1
+- steel 2
+- tungsten 8
+- chromium 2
+- Nuclear Specialist
+- Nuclear Warfare Expert
+90
+10% to 15%
+- +1 Nuclear Bomb
+- Unlock the Nuclear Bombs hidden technology:
+ - Nuclear Bomb Production: +0.5
+ - If is United States and is at war with Japan, play music A Warning to Japan
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Prototype Bomb
+ - Espionage Threats
+ - Information Leak
+
+Thermonuclear Bomb
+- Soviet Union RDS-6S
+- USA Ivy Mike
+- United Kingdom Green Granite
+- Poland The Ulam Device
+- Götterdämmerung
+- Nuclear Fission Bomb Project
+1
+- steel 2
+- tungsten 10
+- chromium 3
+- Nuclear Specialist
+- Nuclear Warfare Expert
+90
+5% to 10%
+- Unlock the Thermonuclear Bombs hidden technology:
+ - Thermonuclear Bomb Production: +1
+
+Nuclear Warheads
+- Götterdämmerung
+- Nuclear Fission Bomb Project
+- MRBM
+1
+- aluminum 4
+- tungsten 4
+- chromium 2
+- Nuclear Specialist
+- Nuclear Warfare Expert
+90
+10% to 15%
+- Unlock Medium Range Nuclear Missile
+
+## Naval Engineering Projects
+
+Cruiser Submarine
+- Early Submarine Hull
+1
+- steel 8
+- Submarine Specialist
+60
+15% to 20%
+- Unlock Cruiser Submarine Hull
+- x1 -100% Design Cost for: Cruiser Submarine Hull
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Raiding Protocol
+
+Fleet Submarine
+- Cruiser Submarine
+- 1936 Submarine Hull
+1
+- steel 12
+- chromium 4
+- Submarine Specialist
+90
+15% to 20%
+- Unlock Fleet Submarine Hull
+- x1 -100% Design Cost for: Fleet Submarine Hull
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Design Principles
+
+Nuclear Submarine
+- United States USS Nautilus Program
+- United Kingdom HMS Dreadnought Program
+- Soviet Union Project 627 K-3
+- Götterdämmerung
+- Fleet Submarine
+- Nuclear Engines
+3
+- steel 20
+- chromium 8
+- tungsten 8
+- Submarine Specialist
+- Nuclear Power Expert
+90
+5% to 10%
+- Unlock Nuclear Submarine Hull
+- x1 -100% Design Cost for: Nuclear Submarine Hull
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Cost Concerns
+
+Missile Launching Submarine
+- Japan I-400-class Missile Submarine
+- Soviet Union Project 611
+- Communist China Type 094 Jin
+- Götterdämmerung
+- Fleet Submarine
+- Ballistic Missile
+2
+- steel 12
+- chromium 4
+- tungsten 12
+- Submarine Specialist
+- Rocket Specialist
+90
+15% to 20%
+- Unlock Submarine Missile Launcher module
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Question of Payload Delivery
+
+Nuclear Missile Submarine
+- British Raj Arihant-Class Submarine
+- France Triomphant Class Submarine
+- United States George Washington-Class Submarine
+- Korea KSS-III Submarine
+- United Kingdom Resolution-Class Submarine
+- Götterdämmerung
+- Nuclear Submarine
+- Missile Launching Submarine
+2
+- steel 16
+- chromium 16
+- Submarine Specialist
+- Nuclear Warfare Expert
+180
+10% to 15%
+- Unlock Submarine Nuclear Missile Launcher module
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Escaping the Hunt
+
+-
+Nuclear Torpedo
+- Götterdämmerung
+- Nuclear Submarine
+- Modern Ship Torpedo Launcher
+1
+- steel 8
+- chromium 12
+- tungsten 12
+- Submarine Specialist
+- Nuclear Warfare Expert
+90
+10% to 15%
+- Unlock Nuclear Torpedo module
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - New Torpedo Course
+
+Midget Submarine
+- Early Submarine Hull
+1
+- steel 6
+- Submarine Specialist
+45
+10% to 15%
+- Unlock Midget Submarine Hull
+- x1 -100% Design Cost for: Midget Submarine Hull
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Squeezeing in More
+
+Air-Independent Propulsion
+- Götterdämmerung
+- 1936 Submarine Hull
+2
+- steel 8
+- chromium 8
+- Submarine Specialist
+- Surface Ship Specialist
+60
+10% to 15%
+- Unlock Air-Independent Propulsion module
+ - Prerequisite for AIP-Diesel Combination Engines technology
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Independent Improvements
+
+Anechoic Tiles
+- Götterdämmerung
+- 1936 Submarine Hull
+1
+- rubber 12
+- steel 8
+- Submarine Specialist
+60
+15% to 20%
+- Unlock Anechoic Tiles module
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - New Learnings - Submarine Hull Construction
+
+Torpedo Cruiser
+- Japan Long-Lance Cruiser Integration
+- Early Cruiser Hull
+1
+- steel 8
+- tungsten 2
+- chromium 2
+- Surface Ship Specialist
+60
+15% to 25%
+- Unlock Torpedo Cruiser Hull
+ - x1 -100% Design Cost for: Torpedo Cruiser Hull
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Second Chance - Torpedo Cruiser
+
+Super Heavy Battleship
+- Japan Yamato-Class Battleship
+- United States Montana-Class Battleship
+- United Kingdom Jellicoe Class Battleship
+- Poland Orkan-Class Battleship
+- Early Heavy Ship Hull
+1
+- steel 12
+- chromium 6
+- tungsten 6
+- Surface Ship Specialist
+60
+15% to 20%
+- Unlock Super Heavy Battleship Hull
+- Unlock Super-Heavy Armor ship module
+- x1 -100% Design Cost for: Super Heavy Battleship Hull
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Matter of Priorities - Attack
+ - Matter of Priorities - Defense
+
+Modern Battleship
+- Poland Huragan-Class Battleship
+- Götterdämmerung
+- 1944 Heavy Ship Hull
+2
+- steel 24
+- chromium 18
+- tungsten 12
+- Surface Ship Specialist
+90
+10% to 15%
+- Unlock Modern Battleship Hull
+- x1 -100% Design Cost for: Modern Battleship Hull
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Modern Battleship - Hope
+ - Modern Battleship - Strikes Back!
+
+Modern Carrier
+- Götterdämmerung
+- 1944 Carrier Hull
+2
+- steel 24
+- chromium 16
+- Surface Ship Specialist
+90
+10% to 15%
+- Unlock Modern Carrier Hull
+- x1 -100% Design Cost for: Modern Carrier Hull
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Modern Carrier - Purpose
+ - Modern Carrier - Safety
+
+Ice Aircraft Carrier
+- United Kingdom Project Habakkuk
+- United States Project Habakkuk
+- Dominion of Canada Project Habakkuk
+- Götterdämmerung
+- 1940 Carrier Hull
+2
+- steel 32
+- Surface Ship Specialist
+180
+10% to 15%
+- Unlock Ice Carrier Hull
+- Unlock Floating Airfield Runway and Pykrete Runway Reinforcements ship modules
+- Prerequisite for Refined Pykrete technology
+- x1 -50% Design Cost for: Ice Carrier Hull
+- Create Ice Carrier Hull variant and 1 production line of it at 95% completion
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Reinforcing Ice-Aircraft Carrier
+
+Underway Replenishment
+- Götterdämmerung
+- One of:
+ - Base Strike
+ - Fleet In Being
+2
+- steel 8
+- Surface Ship Specialist
+60
+10% to 15%
+- Unlock Underway Replenishment for all naval task forces
+- Prerequisite for Multi-Product Supply Ship technology
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Scale of Resupply
+
+Proximity Fuze
+- Götterdämmerung
+- Improved Radio
+2
+- steel 12
+- chromium 4
+- tungsten 12
+- Surface Ship Specialist
+90
+10% to 15%
+- Naval Anti-Air: +25%
+- Prerequisite for Shock-Hardening Techniques technology
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Efficiency or Effectiveness
+
+Escort carrier
+- ncns
+- Basic Carrier
+1
+- steel 9
+- Surface Ship Specialist
+60
+15% to 20%
+-
+
+Submarine carrier
+- ncns
+- Basic Carrier
+- Improved Submarine
+2
+- steel 12
+- chromium 6
+- Submarine Specialist
+60
+10% to 15%
+-
+
+Support Ships
+- ncns
+- Transports
+1
+- steel 6
+- Surface Ship Specialist
+60
+15% to 20%
+-
+
+## Aerodynamics and Avionics Projects
+
+Bouncing Bomb
+- Götterdämmerung
+- With By Blood Alone :
+ - Heavy Bombs
+- Without By Blood Alone :
+ - One of:
+ - Tactical Bomber II
+ - Strategic Bomber II
+1
+- steel 4
+- aluminum 4
+- rubber 2
+- Bombs Expert
+- Aircraft Specialist
+60
+15% to 20%
+- Unlock Dam Bombing Raid and Lock Bombing Raid
+
+-
+Earthshaker Bomb
+- Götterdämmerung
+- With By Blood Alone :
+ - Heavy Bombs
+- Without By Blood Alone :
+ - Strategic Bomber II
+1
+- steel 4
+- tungsten 8
+- Bombs Expert
+- Aircraft Specialist
+90
+15% to 20%
+- Unlock Mega-Gun Emplacement Strike
+- With By Blood Alone :
+ - Unlock Earthshaker Bomb Release Mechanism module
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Design Direction
+
+Intercontinental Bomber
+- German Reich Amerikabomber
+- Götterdämmerung
+- With By Blood Alone :
+ - Improved Large Airframe
+- Without By Blood Alone :
+ - Strategic Bomber II
+2
+- aluminum 24
+- rubber 12
+- Aircraft Specialist
+180
+10% to 15%
+- Unlock Intercontinental Bomber
+- If is Germany, completed Amerikabomber, and chose Focke-Wulf as project lead:
+ - Intercontinental Bomber Max Speed: +10%
+ - Intercontinental Bomber Production Cost: +5%
+ - Focke-Wulf Military Industrial Organisation Research Bonus: +15% (Reverses Penalty from Project)
+ - Unlock Amerikabomber Learnings MIO trait (Medium Planes Range: +10%)
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Long-Range Delivery
+
+-
+Mothership Aircraft
+- Götterdämmerung
+- With By Blood Alone :
+ - Improved Large Airframe
+- Without By Blood Alone :
+ - Strat Bomber II
+2
+- aluminum 18
+- rubber 8
+- Aircraft Specialist
+90
+15% to 20%
+- Prerequisite for Reinforced Mothership Wings technology
+- Unlock Mothership Aircraft
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Peak Mothership Performance
+
+Jet Engine
+- Japan Ishikawajima Ne-20
+- With By Blood Alone :
+ - Engines II
+ - One of:
+ - Improved Small Airframe
+ - Improved Medium Airframe
+- Without By Blood Alone :
+ - One of:
+ - Fighter II
+ - Tactical Bomber II
+3
+- chromium 12
+- aluminum 4
+- steel 2
+- Jet Expert
+- Aircraft Specialist
+90
+10% to 15%
+- With By Blood Alone :
+ - Unlock 1x Jet Engine , 2x Jet Engine , 3x Jet Engine , 4x Jet Engine , and 6x Jet Engine modules
+ - x1 -75% Design Cost for: Aircraft
+ - x1 -50% Design Cost for: Aircraft
+- Without By Blood Alone :
+ - Prerequisite for Jet Fighter I and Jet Tactical Bomber I technologies
+- With Götterdämmerung :
+ - Prerequisite for Centrifugal Jet technology
+- With No Step Back :
+ - Unlock Gas Turbine tank module
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Development Priority
+
+Axial Jet Engine
+- Jet Engine
+- With By Blood Alone :
+ - Engines III
+ - One of:
+ - Advanced Small Airframe
+ - Advanced Medium Airframe
+- Without By Blood Alone :
+ - One of:
+ - Jet Fighter I
+ - Jet Tactical Bomber I
+2
+- chromium 12
+- aluminum 4
+- steel 2
+- Jet Expert
+- Aircraft Specialist
+90
+10% to 15%
+- With By Blood Alone :
+ - Unlock 1x Axial Jet Engine , 2x Axial Jet Engine , 3x Axial Jet Engine , 4x Axial Jet Engine , and 6x Axial Jet Engine modules
+ - x1 -75% Design Cost for: Aircraft
+ - x1 -50% Design Cost for: Aircraft
+ - Prerequisite for Modern Small Airframe , Modern Medium Airframe , and Modern Large Airframe technologies
+- Without By Blood Alone :
+ - Prequisite for Jet Fighter II , Jet Tactical Bomber II , and Jet Strategic Bomber I technologies
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Development Déjà Vu
+
+Supersonic Jet
+- Götterdämmerung
+- Axial Jet Engine
+2
+- aluminum 24
+- chromium 16
+- rubber 8
+- Jet Expert
+- Aircraft Specialist
+90
+10% to 15%
+- With By Blood Alone :
+ - Unlock Supersonic Small Airframe
+ - x1 -100% Design Cost for: Supersonic Small Airframe
+- Without By Blood Alone :
+ - Unlock Supersonic Fighter
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Cost Concerns
+
+Helicopter
+- Götterdämmerung
+2
+- aluminum 12
+- steel 8
+- Helicopter Expert
+- Aircraft Specialist
+90
+15% to 20%
+- Prerequisite for Helicopter Recon Company , Helicopter Med-Evac Company , and Helicopter Transport Company technologies
+- Unlock Helicopter equipment
+- Unlock Helicopter Brigade support company
+- With Götterdämmerung and No Step Back :
+ - Unlock Helipad land cruiser module
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Safety Concerns
+
+Radar
+- Poland Codename 'Hejnał'
+- Electronic Mechanical Engineering
+1
+- steel 6
+- aluminum 6
+- Electronics Specialist
+60
+15% to 20%
+- Unlock Radio Detection hidden technology:
+ - Unlock the construction of Radar Station
+ - Coordination: +1%
+- Prerequisite for Cavity Magnetron technology
+- Gain a free Level 1 Radar Station in the state where the experimental facility is located
+- With Götterdämmerung and No Step Back :
+ - Unlock Radar land cruiser module
+- Unlock Radar I ship module
+
+Flying Bomb
+- German Reich The V1 Project
+- Japan MXY-7 Ohka
+- United States Bomb MK 57 Project
+- Experimental Rockets
+2
+- steel 8
+- aluminum 8
+- tungsten 2
+- Guidance Systems Expert
+- Rocket Specialist
+60
+15% to 20%
+- Prerequisite for Improved Guidance technology
+- Prerequisite for Rocket Propelled Bombs technology
+- Unlock Basic Guided Missile
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Range versus Payload?
+
+Ballistic Missile
+- German Reich The V2 Project
+- United States PGM-11 Redstone Project
+- France SE4200 Project
+- Communist China Dong-Feng 15 Project
+- British Raj Prithvi Project
+- Persia Naze'at Project
+- Iraq Al Fat'h Project
+- Israel Jericho I Project
+- Korea Hwasong Project
+- Pakistan Hatf-I Project
+- Yugoslavia Šumadija Project
+- Serbia Šumadija Project
+- Soviet Union R-1 Project
+- China Sky Spear Project
+- Turkey J-600T Yıldırım I Project
+- Ukraine Hrim-2 Project
+- Yemen Qaher-1 Project
+- Experimental Rockets
+3
+- steel 9
+- aluminum 9
+- chromium 9
+- Rocket Specialist
+60
+10% to 15%
+- With Götterdämmerung :
+ - Unlock Basic Ballistic Missile
+- Without Götterdämmerung :
+ - Unlock Improved Guided Missile
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Guidance System
+
+MRBM
+- Communist China Dong-Feng 16 Project
+- France SSBS S1 Project
+- British Raj Agni-Prime Project
+- Persia Ghadr-110 Project
+- Iraq Badr-2000 Project
+- Israel Jericho II Project
+- Korea Pukguksong Project
+- Pakistan Ababeel Project
+- Turkey Cenk Project
+- Soviet Union RT-15 Project
+- United States PGM-19 Jupiter Project
+- Ballistic Missile
+1
+- steel 12
+- aluminum 9
+- chromium 9
+- Rocket Specialist
+60
+10% to 15%
+- With Götterdämmerung :
+ - Unlock Medium Range Ballistic Missile
+- Without Götterdämmerung
+ - Unlock Advanced Guided Missile
+
+ICBM
+- Israel Jericho III Project
+- British Raj Agni-V Project
+- United States Minuteman Project
+- Soviet Union R-16 Project
+- Communist China Dong Feng 31 Project
+- Götterdämmerung
+- MRBM
+- Nuclear Warheads
+1
+- steel 12
+- aluminum 12
+- chromium 12
+- Rocket Specialist
+- Nuclear Warfare Expert
+60
+10% to 15%
+- Unlock Intercontinental Nuclear Missile
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Launch Site Issues
+
+Surface to Air Missiles
+- German Reich The Wasserfall Project
+- Japan Funryū Project
+- Communist China Hóng Qí Project
+- France The Crotale Project
+- Greece Aris Project
+- British Raj Akash Project
+- Persia Sayyad Project
+- Iraq Al Arq Project
+- Israel The Iron Dome Project
+- Italy The Aster Project
+- British Burma GYD-1B Project
+- Romania CA-95 Project
+- South Africa Umkhonto Project
+- Sweden BAMSE Project
+- Switzerland RSA Project
+- China Sky Bow Project
+- Turkey HİSAR Project
+- Ukraine Dnipro Project
+- United Kingdom Bristol Bloodhound Project
+- United States Avenger Project
+- Soviet Union S-25 Berkut Project
+- Yugoslavia R-25 Vulkan Project
+- Korea KN-06 Project
+- Götterdämmerung
+- Ballistic Missile
+2
+- steel 6
+- aluminum 9
+- tungsten 6
+- Guidance Systems Expert
+- Rocket Specialist
+60
+10% to 15%
+- Unlock Surface to Air Missile I
+
+Rocket Interceptor
+- German Reich Me 163 Komet
+- Poland PZL Bielik
+- Japan Mitsubishi J8M Shūsui
+- Experimental Rockets
+1
+- tungsten 6
+- aluminum 12
+- chromium 6
+- Rocket Specialist
+60
+10% to 15%
+- Prerequisite for Dual Chamber Rocket Engines technology
+- With By Blood Alone :
+ - Unlock Rocket Engine I module
+ - Create Improved Small Airframe variant using Rocket Engine I based on available technology and country
+- Without By Blood Alone :
+ - Unlock Rocket Interceptor I
+
+## Land Warfare Projects
+
+Flamethrower Tank
+- German Reich Flammpanzer
+- Italy Lancia Fiamme
+- Japan Sōkō Sagyō Ki 'Otsu'
+- USA M3 Satan
+- Dominion of Canada Ram Badger Project
+- Soviet Union KhT-133 Project
+- United Kingdom Ronson Flamethrower Project
+- Sweden Nidhögg Project
+- Iceland Níðhöggr Project
+- Poland Wawel Dragon
+- No Step Back
+- Engineer Company I
+1
+- Armored Specialist
+45
+15% to 25%
+- Unlock Flamethrower tank module
+- x1 -100% Design Cost for: Light Flame Tank, Medium Flame Tank, Heavy Flame Tank
+- x2 -50% Design Cost for: Light Flame Tank, Medium Flame Tank, Heavy Flame Tank
+- Unlock Light Flame Tank Company , Medium Flame Tank Company , Heavy Flame Tank Company support companies
+- Prerequisite for Advanced Flamethrower technology
+- With Götterdämmerung :
+ - Unlock Flamethrower Turret land cruiser module
+- If is Italy and has completed Italian Tankettes:
+ - Create Basic Light Flame Tank variant L3 Lf
+
+Military Engineering Vehicles
+- United Kingdom Hobart's Funnies
+- Japan Sōkō Sagyō Ki
+- Austria SB-20 Greif
+- Argentina TAM VCRT
+- Dominion of Canada Ram ARV Project
+- Soviet Union Inzhenernaya Mashina Razgrashdeniya
+- Engineer Company I
+1
+- Armored Specialist
+45
+15% to 25%
+- Unlock Armored Support Vehicle equipment
+- Unlock Assault Engineer Company support company
+- Prerequisite for Armored Engineer Company , Motorized Military Police , Armored Maintenance Company , and Armored Signal Company technologies
+- With Götterdämmerung :
+ - Create Armored Support Vehicle variant based on the country
+
+Land Cruiser
+- German Reich Landkreuzer P. 1000 Ratte
+- United States T28 Super-Heavy Tank Project
+- United Kingdom Flying Elephant Project
+- Japan O-II Super-Heavy Tank Project
+- New Zealand Bigger Bob Tank Project
+- Götterdämmerung
+- With No Step Back :
+ - Super-Heavy Tank Chassis
+- Without No Step Back :
+ - Super Heavy Tank
+3
+- steel 16
+- chromium 8
+- Armored Specialist
+60
+5% to 10%
+- Prerequisite for Naval Engine Conversion , Transmission Improvements , and Specialized Field Manuals technologies
+- Unlock Land Cruiser support company
+- With No Step Back :
+ - Unlock Land Cruiser Chassis
+ - x1 -100% Design Cost for: Land Cruiser
+ - Prerequisite for High-Impact Obliterator Cannon technology
+ - Unlock Heavy Naval Guns, Medium Naval Guns, Super-Heavy Howitzer, Aircraft Catapult, Internal Fuel Tanks, Internal Ammunition Compartments, Wet Ammunition Storage, Smoke Generators, Stabilizers land cruiser modules
+- Without No Step Back :
+ - Unlock Land Cruiser
+ - Add 1 Land Cruiser
+ - Add 1 production line of Land Cruiser at 35% completion
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Chassis Stress Failure
+ - Engine Output Insufficient
+ - Complex Turret Mechanism
+ - Track System Failure
+ - Communication System Issue
+ - Precision Assembly
+ - Hydropneumatic Suspension System
+ - Ammunition Storage Solution
+
+Super-Heavy Howitzer
+- Austria 42 cm Haubitze M. 14/16
+- Belgium Mortier Monstre
+- United States M115 203 mm Howitzer
+- Götterdämmerung
+- Towed Artillery
+2
+- steel 8
+- tungsten 4
+- Artillery Specialist
+45
+15% to 20%
+- Unlock Super-Heavy Artillery support company
+- Unlock Super-Heavy Howitzer equipment
+- Prerequisite for Rocket-Assisted Projectiles technology
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Design Focus
+
+Self-Propelled Super-Heavy Howitzer
+- Iraq Al-Fao Project
+- South Africa G6 Rhino
+- Soviet Union 2A3 Kondensator 2P
+- Götterdämmerung
+- Super-Heavy Howitzer
+- Military Engineering Vehicles
+2
+- steel 8
+- tungsten 6
+- chromium 2
+- Artillery Specialist
+60
+15% to 20%
+- Unlock Self-Propelled Super-Heavy Artillery support company
+- Unlock Self-Propelled Super-Heavy Howitzer equipment
+- Prerequisite for Purpose-Built Gun Motor Carriages technology
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Design Focus
+
+-
+Super-Heavy Railway Gun
+- Japan 41H Experimental Howitzer
+- German Reich Schwerer Gustav
+- United Kingdom Boche Buster
+- No Step Back
+- Railway Gun
+1
+- steel 16
+- tungsten 8
+- chromium 8
+- Artillery Specialist
+90
+15% to 20%
+- Unlock Super-Heavy Railway Gun
+- Add 1 Super-Heavy Railway Gun
+ - If is German Reich, name it Dora
+- With Götterdämmerung :
+ - Unlock Super-Heavy Railway Gun land cruiser module
+
+Multi-Charge Large Caliber Gun
+- German Reich V3 Multi-Charge Large Caliber Gun
+- Iraq Project Babylon
+- Dominion of Canada Project HARP
+- United States Project HARP
+- United Kingdom Little David
+- Götterdämmerung
+- Super-Heavy Howitzer
+1
+- steel 6
+- tungsten 4
+- chromium 2
+- Artillery Specialist
+60
+15% to 25%
+- Unlock construction of Multi-Charge Large Caliber Gun
+
+Stronghold Network
+- Götterdämmerung
+- Basic Fortification
+2
+- steel 4
+- chromium 2
+- tungsten 1
+- Artillery Specialist
+60
+10% to 15%
+- Unlock construction of Stronghold Network
+- Additional effects may be possible from the following, very high likelihood prototype outcomes:
+ - Breakthrough in Concrete Reinforcement
+
+# Prototype Outcomes
+During their prototyping phase, special projects go through multiple prototypes before they are completed. The outcomes of these prototypes can vary depending on the project, the category of project, and previous choices made in the special project. Each outcome has a weighted random chance of firing, though some outcomes can only fire when the project has more than some amount of progress and/or less than some (other) amount of progress.
+## Nuclear Research Outcomes
+The following prototype outcomes are possible for nuclear research special projects.
+
+Name: Isotope Separation Facilities
+Eligible Projects: * Nuclear Reactor
+Minimum Progress: 0%
+Maximum Progress: 20%
+Weight for Randomness: 1000
+Effect:
+Choice between:
+- Nothing happens
+Or:
+- Unlock the Centrifugal Isotope Separation hidden technology:
+ - Nuclear Fission Bomb Project Project Speed: +5%
+ - Thermonuclear Bomb Project Speed: +5%
+ - Nuclear Bomb Production Rate: +50%
+- Secret Resource Procurement national spirit added for 365 days:
+ - Consumer Goods Factory factor: +10%
+Repeatable?: no
+
+Name: Reactor Design
+Eligible Projects: * Nuclear Reactor
+Minimum Progress: 25%
+Maximum Progress: 45%
+Weight for Randomness: 1000
+Effect:
+Choice between:
+- Country will use Nuclear Reactors in the future.
+Or:
+- Country will use Heavy Water Nuclear Reactors in the future.
+Repeatable?: no
+
+Name: First Successful Nuclear Reactor Test
+Eligible Projects: * Nuclear Reactor
+Minimum Progress: 60%
+Maximum Progress: 90%
+Weight for Randomness: 100 if first in world to get this outcome
+0 otherwise
+Effect:
+Choice between:
+- Nothing happens
+Or:
+- Governing ideology popularity: +10%
+- political power : +100
+- Publicize findings (affects the chances of certain, future outcomes)
+- Every other country in the world:
+ - If have Atomic research, Nuclear Reactor Project Progress: +10%
+ - Otherwise: 1x 25% Research bonus for: Atomic research
+Repeatable?: no
+
+Name: Major Breakthrough in Nuclear Reactions
+Eligible Projects: * Nuclear Reactor
+Minimum Progress: 10%
+Maximum Progress: 50%
+Weight for Randomness: 1
+Effect: * Active special project progress: +10%
+Repeatable?: no
+
+Name: Concerns Over Nuclear Safety
+Eligible Projects: * Commercial Nuclear Reactor
+Minimum Progress: 30%
+Maximum Progress: 90%
+Weight for Randomness: 1
+Effect:
+Choice between:
+- Governing ideology popularity: +5%
+- political power : +50
+- Active special project progress: -10%
+- Add filters (affects the chances of certain, future outcomes)
+Or:
+- Governing ideology popularity: -5%
+Repeatable?: no
+
+Name: Prototype Bomb
+Eligible Projects: * Nuclear Fission Bomb Project
+Minimum Progress: 70%
+Maximum Progress: 84%
+Weight for Randomness: 100
+Effect:
+Choice between:
+- Active special project progress: +10%
+Or:
+- +1 Nuclear Bomb
+Repeatable?: no
+
+Name: Espionage Threats
+Eligible Projects: * Nuclear Fission Bomb Project
+Minimum Progress: 0%
+Maximum Progress: 80%
+Weight for Randomness: 10 if at war
+1 otherwise
+Effect:
+Choice between:
+- Active scientist experience: +70
+- Low security option (affects the chances of certain, future outcomes)
+Or:
+- Active special project progress: -5%
+- High security option (affects the chances of certain, future outcomes)
+Repeatable?: no
+
+Name: Information Leak
+Eligible Projects: * Nuclear Fission Bomb Project
+Minimum Progress: 30%
+Maximum Progress: 100%
+Weight for Randomness:
+0.2
+- x0 if not at war
+- x0.5 if chose high security option at Espionage Threats
+- x5 if chose low security option at Espionage Threats
+- x2 if chose to publicize findings at First Successful Nuclear Reactor Test
+Effect:
+Random enemy country in 8-12 hours:
+- Nuclear Fission Bomb Project Project Progress: +10%
+Repeatable?: no
+
+Name: Breakthrough in Plutonium Production
+Eligible Projects: * Nuclear Fission Bomb Project
+Minimum Progress: 20%
+Maximum Progress: 60%
+Weight for Randomness: 0.5 if chose high security option at Espionage Threats
+1 otherwise
+Effect: * Active special project progress: +5%
+Repeatable?: no
+
+Name: Test Proposal
+Eligible Projects: * Thermonuclear Bomb
+Minimum Progress: 50%
+Maximum Progress: 80%
+Weight for Randomness: 1000 if have at least 5 Nuclear Bombs
+0 otherwise
+Effect:
+Choice between:
+- Nothing happens
+Or (requires at least 1 Nuclear Bomb):
+- -1 Nuclear Bomb
+- Active special project progress: +15%
+Repeatable?: no
+
+Name: Technological Advancements
+Eligible Projects: Any
+Minimum Progress: 0%
+Maximum Progress: 100%
+Weight for Randomness: 1
+Effect: * 1x 10% Research bonus for: Industry
+Repeatable?: yes
+
+Name: New Learnings
+Eligible Projects: Any
+Minimum Progress: 0%
+Maximum Progress: 100%
+Weight for Randomness: 1
+Effect: * Active scientist experience: +70
+Repeatable?: yes
+
+Name: Minor Breakthrough
+Eligible Projects: Any
+Minimum Progress: 0%
+Maximum Progress: 80%
+Weight for Randomness: 1
+Effect: * Active special project progress: +5%
+Repeatable?: yes
+
+Name: Technological Innovation
+Eligible Projects: Any
+Minimum Progress: 0%
+Maximum Progress: 100%
+Weight for Randomness: 1
+Effect:
+One of (random):
+- 10% chance: 1x 10% Research bonus for: Electronics
+- 70% chance: 1x 20% Research bonus for: Electronics
+- 20% chance: 1x 35% Research bonus for: Electronics
+Repeatable?: yes
+
+Name: Public Support
+Eligible Projects: Any
+Minimum Progress: 50%
+Maximum Progress: 100%
+Weight for Randomness: 1
+Effect: * war support : +2%
+Repeatable?: no
+
+Name: Major Political Interference
+Eligible Projects: Any
+Minimum Progress: 15%
+Maximum Progress: 85%
+Weight for Randomness: 1 if country is Fascist
+0.25 country is not Fascist
+Effect:
+Choice between:
+- political power : -50
+- Active special project progress: -10%
+- Active scientist experience: +100
+Or:
+- political power : +50
+- Active special project progress: -5%
+- Active scientist is permanently dismissed
+Repeatable?: no
+
+Name: Empty Outcome
+Eligible Projects: * Nuclear Reactor
+Minimum Progress: 0%
+Maximum Progress: 100%
+Weight for Randomness: 1
+Effect: * Nothing happens
+Repeatable?: yes
+
+Name: Empty Outcome
+Eligible Projects:
+- Commercial Nuclear Reactor
+- Nuclear Engines
+- Nuclear Fission Bomb Project
+- Thermonuclear Bomb
+- Nuclear Warheads
+Minimum Progress: 0%
+Maximum Progress: 100%
+Weight for Randomness: 0.5
+Effect: * Nothing happens
+Repeatable?: yes
+
+Name: Theoretical Breakthrough
+Eligible Projects:
+- Nuclear Fission Bomb Project
+- Thermonuclear Bomb
+- Nuclear Warheads
+Minimum Progress: 0%
+Maximum Progress: 70%
+Weight for Randomness: 0.5
+Effect:
+- Active special project progress: +10%
+- Active scientist experience: +100
+Repeatable?: no
+
+Name: Critical Mass Experiment Goes Wrong
+Eligible Projects:
+- Nuclear Fission Bomb Project
+- Thermonuclear Bomb
+- Nuclear Warheads
+Minimum Progress: 0%
+Maximum Progress: 60%
+Weight for Randomness: 0.5
+Effect:
+- Active special project progress: -5%
+- Active scientist experience: +70
+- Active experimental facility damaged 25%
+Repeatable?: no
+
+Name: Accidental Fire
+Eligible Projects:
+- Nuclear Fission Bomb Project
+- Thermonuclear Bomb
+- Nuclear Warheads
+Minimum Progress: 0%
+Maximum Progress: 100%
+Weight for Randomness:
+1
+- x0.2 if not at war
+- x0.1 if chose high security option at Espionage Threats
+- x1.5 if chose low security option at Espionage Threats
+- x2 if chose to add filters at Concerns Over Nuclear Safety
+Effect: * Active experimental facility damaged 10%
+Repeatable?: no
+
+Name: Radioactive Leak - Under Control
+Eligible Projects:
+- Nuclear Reactor
+- Commercial Nuclear Reactor
+- Nuclear Engines
+Minimum Progress: 40%
+Maximum Progress: 60%
+Weight for Randomness: 3.75 if chose to add filters at Concerns Over Nuclear Safety
+0.75 otherwise
+Effect:
+- Active special project progress: +5%
+- Active scientist experience: +100
+- Active experimental facility damaged 10%
+Repeatable?: no
+
+Name: Minor Explosion, No Injuries
+Eligible Projects:
+- Nuclear Reactor
+- Commercial Nuclear Reactor
+- Nuclear Engines
+Minimum Progress: 20%
+Maximum Progress: 40%
+Weight for Randomness: 0.75
+Effect:
+- Active scientist experience: +70
+- Active experimental facility damaged 10%
+Repeatable?: no
+
+## Naval Engineering Outcomes
+The following prototype outcomes are possible for naval engineering special projects.
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
+|+ style="text-align: left;" | List of Prototype Outcomes for Naval Engineering Special Projects
+|-
+! Name
+! Eligible Projects
+! Minimum Progress
+! Maximum Progress
+! Weight for Randomness
+! Effect
+! Repeatable?
+|-
+| Raiding Protocol
+|
+- Cruiser Submarine
+| 40%
+| 90%
+| 100
+| Choice between:
+- Unlock Fuel Tank ship module
+Or:
+- Unlock 200mm Battery ship module
+| no
+|-
+| Design Principles
+|
+- Fleet Submarine
+| 40%
+| 90%
+| 100
+| Choice between:
+- Fleet Submarine Speed: +5%
+- Fleet Submarine Torpedo Attack: +5%
+- Fleet Submarine Sub Visibility: -3%
+Or:
+- Fleet Submarine Reliability: +5%
+- Fleet Submarine HP: +5%
+- Fleet Submarine Weather Penalty: -10%
+| no
+|-
+| Cost Concerns
+|
+- Nuclear Submarine
+| 40%
+| 90%
+| 100
+| Choice between:
+- Nuclear Submarine Production Cost: -10%
+- Nuclear Submarine Reliability: -5%
+- Nuclear Submarine Sub Visibility: +10%
+- Nuclear Submarine Range: -10%
+Or:
+- Nothing happens
+Or:
+- Nuclear Submarine Production Cost: +10%
+- Nuclear Submarine HP: +10%
+- Nuclear Submarine Reliability: +5%
+- Nuclear Submarine Sub Visibility: -5%
+| no
+|-
+| Question of Payload Delivery
+|
+- Missile Launching Submarine
+| 40%
+| 90%
+| 100
+| Choice between:
+- Fleet Submarine Range: +10%
+- Fleet Submarine Sub Visibility: +5%
+- Fleet Submarine Production Cost: +7%
+Or:
+- Fleet Submarine Reliability: +5%
+Or:
+- Fleet Submarine Sub Visibility: -5%
+- Fleet Submarine Range: -5%
+- Fleet Submarine Production Cost: +10%
+| no
+|-
+| Escaping the Hunt
+|
+- Nuclear Missile Submarine
+| 40%
+| 90%
+| 100
+| Choice between:
+- Nuclear Submarine Sub Visibility: -5%
+- Nuclear Submarine Surface Detection: +2%
+- Nuclear Submarine Production Cost: +5%
+Or:
+- Nothing happens
+Or:
+- Nuclear Submarine HP: +2%
+- Nuclear Submarine Weather Penalty: -20%
+- Nuclear Submarine Production Cost: +5%
+| no
+|-
+| New Torpedo Course
+|
+- Nuclear Torpedo
+| 40%
+| 90%
+| 100
+| Choice between:
+- Submarine Torpedo Hit Chance: +2%
+- Submarine Torpedo Attack: +10%
+- Submarine Reliability: -10%
+Or:
+- Submarine Reliability: +10%
+- Submarine Production Cost: +10%
+| no
+|-
+| Squeezeing in More
+|
+- Midget Submarine
+| 40%
+| 90%
+| 100
+| Choice between:
+- Midget Submarine Range: -20%
+- Midget Submarine Sub Visibility: -10%
+Or:
+- Midget Submarine Reliability: +10%
+Or:
+- Midget Submarine Range: +20%
+- Midget Submarine Sub Visibility: +10%
+| no
+|-
+| Independent Improvements
+|
+- Air-Independent Propulsion
+| 40%
+| 90%
+| 100
+| Choice between:
+- Submarine Sub Visibility: -5%
+- Submarine Fuel Consumption: +10%
+Or:
+- Submarine Speed: +10%
+- Submarine Fuel Consumption: +10%
+Or:
+- Submarine Fuel Consumption: -5%
+| no
+|-
+| New Learnings - Submarine Hull Construction
+|
+- Anechoic Tiles
+| 40%
+| 90%
+| 100
+| Choice between:
+- Submarine Production Cost: +5%
+- Submarine Surface Detection: +10%
+Or:
+- Submarine Production Cost: +10%
+- Submarine Sub Visibility: -5%
+Or:
+- Submarine Production Cost: -5%
+| no
+|-
+| Second Chance - Torpedo Cruiser
+|
+- Torpedo Cruiser
+| 40%
+| 90%
+| 100
+| Choice between:
+- Torpedo Cruiser Torpedo Hit Chance: +10%
+- Torpedo Cruiser Torpedo Attack: +15%
+Or:
+- Torpedo Cruiser Light Gun Hit Chance: +15%
+- Torpedo Cruiser Light Attack: +10%
+- Torpedo Cruiser Light Attack Piercing: +10%
+| no
+|-
+| Matter of Priorities - Attack
+|
+- Super Heavy Battleship
+| 10%
+| 50%
+| 100
+| Choice between:
+- Super Heavy Battleship Hull Heavy Gun Hit Chance: +15%
+- Super Heavy Battleship Hull Heavy Attack: +15%
+- Super Heavy Battleship Hull Heavy Attack Piercing: +10%
+Or:
+- Super Heavy Battleship Hull Speed: +10%
+- Super Heavy Battleship Hull Surface Detection: +15%
+- Super Heavy Battleship Hull Surface Visibility: -5%
+Or:
+- Super Heavy Battleship Hull Light Gun Hit Chance: +10%
+- Super Heavy Battleship Hull Light Attack: +10%
+- Super Heavy Battleship Hull Light Attack Piercing: +10%
+| no
+|-
+| Matter of Priorities - Defense
+|
+- Super Heavy Battleship
+| 55%
+| 95%
+| 100
+| Choice between:
+- Super Heavy Battleship Hull Armor: +10%
+- Super Heavy Battleship Hull HP: +10%
+Or:
+- Super Heavy Battleship Hull Anti-Air: +25%
+- Super Heavy Battleship Hull Reliability: +5%
+Or:
+- Super Heavy Battleship Hull Incoming Torpedo Critical Hit Chance: -15%
+- Super Heavy Battleship Hull Incoming Torpedo Damage: -15%
+| no
+|-
+| Modern Battleship - Hope
+|
+- Modern Battleship
+| 10%
+| 50%
+| 100
+| Choice between:
+- Modern Heavy Hull Heavy Gun Hit Chance: +20%
+- Modern Heavy Hull Heavy Attack: +15%
+- Modern Heavy Hull Heavy Attack Piercing: +15%
+Or:
+- Modern Heavy Hull Speed: +10%
+- Modern Heavy Hull Surface Detection: +15%
+- Modern Heavy Hull Surface Visibility: -7%
+Or:
+- Modern Heavy Hull Light Gun Hit Chance: +10%
+- Modern Heavy Hull Light Attack: +10%
+- Modern Heavy Hull Light Attack Piercing: +15%
+| no
+|-
+| Modern Battleship - Strikes Back!
+|
+- Modern Battleship
+| 55%
+| 95%
+| 100
+| Choice between:
+- Modern Heavy Hull Armor: +15%
+- Modern Heavy Hull HP: +10%
+Or:
+- Modern Heavy Hull Anti-Air: +25%
+- Modern Heavy Hull Reliability: +7%
+Or:
+- Modern Heavy Hull Incoming Torpedo Critical Hit Chance: -15%
+- Modern Heavy Hull Incoming Torpedo Damage: -20%
+| no
+|-
+| Modern Carrier - Purpose
+|
+- Modern Carrier
+| 10%
+| 50%
+| 100
+| Choice between:
+- Modern Carrier Surface Detection: +20%
+- Modern Carrier Sub Detection: +20%
+Or:
+- Modern Carrier Speed: +10%
+- Modern Carrier Weather Penalty: -25%
+Or:
+- Modern Carrier Light Gun Hit Chance: +10%
+- Modern Carrier Light Attack: +15%
+- Modern Carrier Light Attack Piercing: +15%
+| no
+|-
+| Modern Carrier - Safety
+|
+- Modern Carrier
+| 55%
+| 95%
+| 100
+| Choice between:
+- Modern Carrier Armor: +15%
+- Modern Carrier HP: +10%
+Or:
+- Modern Carrier Anti-Air: +25%
+- Modern Carrier Reliability: +7%
+Or:
+- Modern Carrier Incoming Torpedo Critical Hit Chance: -15%
+- Modern Carrier Incoming Torpedo Damage: -20%
+| no
+|-
+| Reinforcing Ice-Aircraft Carrier
+|
+- Ice Aircraft Carrier
+| 55%
+| 95%
+| 100
+| Choice between:
+- Ice Carrier Hull Weather Penalty: -15%
+Or:
+- Ice Carrier Hull Production Cost: +5%
+- Ice Carrier Hull HP: +10%
+| no
+|-
+| Scale of Resupply
+|
+- Underway Replenishment
+| 40%
+| 90%
+| 100
+| Choice between:
+- Underway Replenishment Range: +20%
+- Underway Replenishment Convoy Cost: +10%
+Or:
+- Nothing happens
+Or:
+- Underway Replenishment Range: -10%
+- Underway Replenishment Convoy Cost: -20%
+| no
+|-
+| Efficiency or Effectiveness
+|
+- Proximity Fuze
+| 40%
+| 90%
+| 100
+| Choice between:
+- Anti-Air Production Cost: -5%
+Or:
+- Anti-Air Air Attack: +15%
+- Anti-Air Production Cost: +5%
+| no
+|-
+| Empty Outcome
+| Any
+| 0%
+| 100%
+| 1
+|
+- Nothing happens
+| yes
+|-
+| Swimming in Ideas
+| Any
+| 0%
+| 100%
+| 2
+0.5 if already obtained Drowning in Creativity or Bathtub - Eureka! for active project
+0 if active scientist has skill > 4
+|
+- Active scientist experience: +70
+| no
+|-
+| Drowning in Creativity
+| Any
+| 0%
+| 100%
+| 2
+0.5 if already obtained Swimming in Ideas or Bathtub - Eureka! for active project
+0 if active scientist has skill > 4
+|
+- Active scientist experience: +100
+| no
+|-
+| Bathtub - Eureka!
+| Any
+| 0%
+| 100%
+| 2
+0.5 if already obtained Swimming in Ideas or Drowning in Creativity for active project
+0 if active scientist has skill > 4
+|
+- Active scientist experience: +150
+- Naval Engineering breakthrough progress: +10%
+| no
+|-
+| Change in the Flow of Ideas
+| Any
+| 50%
+| 100%
+| 2
+0.5 if already obtained Wave of Ideas or Tsunami of Innovations! for active project
+|
+- +15 navy exp
+| no
+|-
+| Wave of Ideas
+| Any
+| 50%
+| 100%
+| 2
+0.5 if already obtained Change in the Flow of Ideas or Tsunami of Innovations! for active project
+|
+- +30 navy exp
+| no
+|-
+| Tsunami of Innovations!
+| Any
+| 50%
+| 100%
+| 2
+0.5 if already obtained Change in the Flow of Ideas or Wave of Ideas for active project
+|
+- +50 navy exp
+- Naval Engineering breakthrough progress: +10%
+| no
+|-
+| Major Breakthrough!
+| Any
+| 0%
+| 100%
+| 2
+0.5 if already obtained Great Success! or Massive Progress! for active project
+|
+- Active special project progress: +5%
+- Active scientist experience: +70
+| no
+|-
+| Great Success!
+| Any
+| 0%
+| 100%
+| 2
+0.5 if already obtained Major Breakthrough! or Massive Progress! for active project
+|
+- Active special project progress: +10%
+- Active scientist experience: +70
+| no
+|-
+| Massive Progress!
+| Any
+| 0%
+| 100%
+| 2
+0.5 if already obtained Major Breakthrough! or Great Success! for active project
+|
+- Active special project progress: +15%
+- Naval Engineering breakthrough progress: +10%
+- Active scientist experience: +70
+| no
+|-
+| Project Delay!
+| Any
+| 15%
+| 100%
+| 2
+0.5 if already obtained Merely a Setback! or Disastrous Results for active project
+|
+- Active special project progress: -5%
+- Active scientist experience: +70
+| no
+|-
+| Merely a Setback!
+| Any
+| 30%
+| 100%
+| 2
+0.5 if already obtained Project Delay! or Disastrous Results for active project
+|
+- Active special project progress: -10%
+- Active scientist experience: +70
+| no
+|-
+| Disastrous Results
+| Any
+| 50%
+| 100%
+| 2
+0.5 if already obtained Project Delay! or Merely a Setback! for active project
+|
+- Active special project progress: -15%
+- Naval Engineering breakthrough progress: +10%
+- Active scientist experience: +70
+| no
+|-
+| New Armor Studies
+|
+- Torpedo Cruiser
+- Super Heavy Battleship
+- Modern Battleship
+- Modern Carrier
+| 0%
+| 100%
+| 2
+0.5 if already obtained Naval Armor Innovations or Future Armor Insights for active project
+|
+- 1x 10% Research bonus for: Battleships, Battlecruisers, Naval Armor
+| no
+|-
+| Naval Armor Innovations
+|
+- Torpedo Cruiser
+- Super Heavy Battleship
+- Modern Battleship
+- Modern Carrier
+| 0%
+| 100%
+| 2
+0.5 if already obtained New Armor Studies or Future Armor Insights for active project
+|
+- 1x 20% Research bonus for: Battleships, Battlecruisers, Naval Armor
+| no
+|-
+| Future Armor Insights
+|
+- Torpedo Cruiser
+- Super Heavy Battleship
+- Modern Battleship
+- Modern Carrier
+| 0%
+| 100%
+| 2
+0.5 if already obtained New Armor Studies or Naval Armor Innovations for active project
+|
+- 1x 35% Research bonus for: Battleships, Battlecruisers, Naval Armor
+- Naval Engineering breakthrough progress: +10%
+| no
+|-
+| Ship Gunnery Learnings
+|
+- Torpedo Cruiser
+- Super Heavy Battleship
+- Modern Battleship
+| 0%
+| 100%
+| 2
+0.5 if already obtained Naval Guns Innovations or Ship Batteries Insights for active project
+|
+- 1x 10% Research bonus for: Naval Guns
+| no
+|-
+| Naval Guns Innovations
+|
+- Torpedo Cruiser
+- Super Heavy Battleship
+- Modern Battleship
+| 0%
+| 100%
+| 2
+0.5 if already obtained Ship Gunnery Learnings or Ship Batteries Insights for active project
+|
+- 1x 20% Research bonus for: Naval Guns
+| no
+|-
+| Ship Batteries Insights
+|
+- Torpedo Cruiser
+- Super Heavy Battleship
+- Modern Battleship
+| 0%
+| 100%
+| 2
+0.5 if already obtained Ship Gunnery Learnings or Naval Guns Innovations for active project
+|
+- 1x 35% Research bonus for: Naval Guns
+- Naval Engineering breakthrough progress: +10%
+| no
+|-
+| Contained Nuclear Accident
+|
+- Nuclear Submarine
+- Nuclear Missile Submarine
+- Nuclear Torpedo
+| 0%
+| 100%
+| 200
+|
+- Active experimental facility damaged 25%
+| no
+|-
+| Torpedo Explosion
+|
+- Cruiser Submarine
+- Fleet Submarine
+- Midget Submarine
+- Torpedo Cruiser
+| 0%
+| 100%
+| 2
+|
+- Active experimental facility damaged 15%
+| no
+|}
+
+## Aerodynamics and Avionics Outcomes
+The following prototype outcomes are possible for aerodynamics and avionics special projects.
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
+|+ style="text-align: left;" | List of Prototype Outcomes for Aerodynamics and Avionics Special Projects
+|-
+! Name
+! Eligible Projects
+! Minimum Progress
+! Maximum Progress
+! Weight for Randomness
+! Effect
+! Repeatable?
+|-
+| Backspin Mechanism
+|
+- Bouncing Bomb
+| 0%
+| 80%
+| 1
+|
+- Active special project progress: +10%
+- Active scientist experience: +150
+| no
+|-
+| Training Accidents
+|
+- Bouncing Bomb
+| 0%
+| 80%
+| 1
+|
+- Active special project progress: -2%
+- +25 air exp
+| no
+|-
+| Aircraft Modifications
+|
+- Bouncing Bomb
+| 0%
+| 80%
+| 1
+|
+- Active scientist experience: +150
+| no
+|-
+| Type of Explosives
+|
+- Bouncing Bomb
+| 0%
+| 80%
+| 1
+|
+- Active special project progress: +5%
+- +5 air exp
+| no
+|-
+| Design Direction
+|
+- Earthshaker Bomb
+| 40%
+| 90%
+| 100
+| With By Blood Alone , choice between:
+- Large Airframe Naval Targeting: +10%
+Or:
+- Large Airframe Naval Attack: +5%
+- Large Airframe Strategic Bombing: +5%
+Or:
+- Large Airframe Naval Targeting: +10%
+- Large Airframe Naval Attack: +5%
+- Large Airframe Strategic Bombing: +5%
+- Large Airframe Production Cost: +5%
+Without By Blood Alone , choice between:
+- Strategic Bomber Naval Targeting: +10%
+Or:
+- Strategic Bomber Naval Attack: +5%
+- Strategic Bomber Strategic Bombing: +5%
+Or:
+- Strategic Bomber Naval Targeting: +10%
+- Strategic Bomber Naval Attack: +5%
+- Strategic Bomber Strategic Bombing: +5%
+- Strategic Bomber Production Cost: +5%
+| no
+|-
+| Long-Range Delivery
+|
+- Intercontinental Bomber
+| 40%
+| 90%
+| 100
+| Choice between:
+- Intercontinental Bomber Reliability: +5%
+Or:
+- Intercontinental Bomber Strategic Bombing: +15%
+- Intercontinental Bomber Air Defense: -5%
+- Intercontinental Bomber Air Attack: -10%
+Or:
+- Intercontinental Bomber Air Defense: +15%
+- Intercontinental Bomber Air Attack: -10%
+- Intercontinental Bomber Strategic Bombing: -10%
+| no
+|-
+| Peak Mothership Performance
+|
+- Mothership Aircraft
+| 40%
+| 90%
+| 100
+| Choice between:
+- Mothership Aircraft Agility: +10%
+- Mothership Aircraft Speed: +10%
+- Mothership Aircraft Fuel Consumption: +15%
+Or:
+- Mothership Aircraft Reliability: +10%
+Or:
+- Mothership Aircraft Air Defense: +10%
+- Mothership Aircraft Air Attack: +10%
+- Mothership Aircraft Production Cost: +10%
+| no
+|-
+| Development Priority
+|
+- Jet Engine
+| 40%
+| 90%
+| 100
+| With By Blood Alone , choice between:
+- 1x 50% Research bonus for: Light Aircraft
+Or:
+- 2x 25% Research bonus for: Aircraft
+Or:
+- 1x 50% Research bonus for: Medium Aircraft
+Without By Blood Alone , choice between:
+- Jet Fighter Speed: +5%
+- Jet Fighter Agility: +5%
+- Jet Fighter Production Cost: -5%
+- Jet Tactical Bomber Ground Attack: -5%
+- Jet Tactical Bomber Range: -5%
+- Jet Tactical Bomber Production Cost: +5%
+Or:
+- Jet Fighter Reliability: +3%
+- Jet Tactical Bomber Reliability: +3%
+Or:
+- Jet Tactical Bomber Ground Attack: +5%
+- Jet Tactical Bomber Range: +5%
+- Jet Tactical Bomber Production Cost: -5%
+- Jet Fighter Speed: +5%
+- Jet Fighter Agility: -5%
+- Jet Fighter Production Cost: +5%
+| no
+|-
+| Development Déjà Vu
+|
+- Axial Jet Engine
+| 40%
+| 90%
+| 100
+| With By Blood Alone , choice between:
+- 1x 50% Research bonus for: Light Aircraft
+Or:
+- 2x 33% Research bonus for: Aircraft
+Or:
+- 1x 50% Research bonus for: Medium Aircraft
+Without By Blood Alone , choice between:
+- Jet Fighter Speed: +5%
+- Jet Fighter Agility: +5%
+- Jet Fighter Production Cost: -3%
+- Jet Tactical Bomber Ground Attack: -3%
+- Jet Tactical Bomber Range: -3%
+- Jet Tactical Bomber Production Cost: +3%
+Or:
+- Jet Fighter Reliability: +5%
+- Jet Tactical Bomber Reliability: +5%
+Or:
+- Jet Tactical Bomber Ground Attack: +3%
+- Jet Tactical Bomber Range: +3%
+- Jet Tactical Bomber Production Cost: -3%
+- Jet Fighter Speed: +3%
+- Jet Fighter Agility: -3%
+- Jet Fighter Production Cost: +3%
+| no
+|-
+| Cost Concerns
+|
+- Supersonic Jet
+| 40%
+| 90%
+| 100
+| With By Blood Alone , choice between:
+- Supersonic Small Airframe Range: -5%
+- Supersonic Small Airframe Speed: -5%
+- Supersonic Small Airframe Reliability: -10%
+- Supersonic Small Airframe Production Cost: -10%
+Or:
+- Supersonic Small Airframe Reliability: +3%
+Or:
+- Supersonic Small Airframe Reliability: +5%
+- Supersonic Small Airframe Production Cost: +10%
+- Supersonic Small Airframe Agility: +5%
+- Supersonic Small Airframe Defense: +5%
+Without By Blood Alone , choice between:
+- Supersonic Fighter Range: -5%
+- Supersonic Fighter Speed: -5%
+- Supersonic Fighter Reliability: -10%
+- Supersonic Fighter Production Cost: -10%
+Or:
+- Supersonic Fighter Reliability: +5%
+Or:
+- Supersonic Fighter Reliability: +5%
+- Supersonic Fighter Production Cost: +10%
+- Supersonic Fighter Agility: +5%
+- Supersonic Fighter Defense: +5%
+| no
+|-
+| Safety Concerns
+|
+- Helicopter
+| 40%
+| 90%
+| 100
+| Choice between:
+- Helicopter Speed: +10%
+- Helicopter Fuel Consumption: +5%
+- Helicopter Production Cost: +5%
+Or:
+- Helicopter Reliability: +5%
+Or:
+- Helicopter Armor: +10%
+- Helicopter Defense: +10%
+- Helicopter Breakthrough: +10%
+- Helicopter Fuel Consumption: +15%
+- Helicopter Production Cost: +10%
+| no
+|-
+| Range versus Payload?
+|
+- Flying Bomb
+| 0%
+| 50%
+| 50
+| Choice between:
+- Guided Missile Speed: +5%
+- Guided Missile Range: +10%
+- Guided Missile Strategic Bombing: -5%
+Or:
+- Guided Missile Strategic Bombing: +15%
+- Guided Missile Range: -5%
+| no
+|-
+| Technical Breakthrough in Pulse jet Design
+|
+- Flying Bomb
+| 0%
+| 50%
+| 1
+|
+- Guided Missile Speed: +3%
+- Guided Missile Range: +3%
+| no
+|-
+| Launch Ramp Innovations
+|
+- Flying Bomb
+| 0%
+| 75%
+| 1
+|
+- Active special project progress: +5%
+| no
+|-
+| Mass Production Scaling
+|
+- Flying Bomb
+| 0%
+| 75%
+| 1
+|
+- Guided Missile Production Cost: -5%
+| no
+|-
+| Engine Optimization Breakthrough
+|
+- Flying Bomb
+| 0%
+| 75%
+| 1
+|
+- Guided Missile Range: +3%
+| no
+|-
+| Technological Innovation in Guidance Systems
+|
+- Flying Bomb
+| 0%
+| 75%
+| 1
+|
+- Guided Missile Range: +3%
+- Guided Missile Strategic Bombing: +3%
+| no
+|-
+| Technological Innovation in Guidance Systems
+|
+- Flying Bomb
+| 0%
+| 75%
+| 1
+|
+- Active special project progress: -5%
+- Active scientist experience: +200
+| no
+|-
+| Engineers Request Wind Tunnel
+|
+- Ballistic Missile
+| 0%
+| 20%
+| 1000
+| Choice between:
+- Nothing happens
+Or:
+- Active special project progress: +10%
+- Secret Resource Procurement national spirit added for 365 days:
+ - Consumer Goods Factory factor: +5%
+| no
+|-
+| Ice Forming on Reentry
+|
+- Ballistic Missile
+| 70%
+| 90%
+| 10
+100 if is German Reich
+|
+- Active special project progress: -5%
+- Active scientist experience: +70
+| no
+|-
+| Guidance System
+|
+- Ballistic Missile
+| 30%
+| 60%
+| 1000
+0 if do not have both Radio and Mechanical Computing technologies
+| Choice between:
+- Ballistic Missile Production Cost: -10%
+Or:
+- Ballistic Missile Strategic Bombing: +5%
+- Ballistic Missile Production Cost: +10%
+| no
+|-
+| Turbopump Frothing Issue
+|
+- MRBM
+| 40%
+| 70%
+| 10
+|
+- Active special project progress: -10%
+- Active scientist experience: +70
+| no
+|-
+| Relay Failure
+|
+- MRBM
+| 70%
+| 95%
+| 10
+| Choice between:
+- Active special project progress: -5%
+Or:
+- Refuse to replace relay (increases the chance of getting Onsite Explosion outcome once for all future projects)
+| no
+|-
+| Rocket Rust
+|
+- ICBM
+| 40%
+| 90%
+| 50
+100 if is United States
+|
+- Active special project progress: +5%
+| no
+|-
+| Launch Site Issues
+|
+- ICBM
+| 30%
+| 60%
+| 10
+1000 if is Soviet Union
+| Choice between:
+- Active special project progress: -5%
+Or:
+- Active special project progress: +10%
+- Secret Resource Procurement national spirit added for 365 days:
+ - Consumer Goods Factory factor: +2.5%
+- Random owned state with at least 1 building slot and Rocket site level < 2:
+ - Rocket site level: +2
+- Build new facility (increases the chance of getting Onsite Explosion outcome for all future projects)
+| no
+|-
+| Ground Control Improvements
+|
+- Surface to Air Missiles
+| 0%
+| 75%
+| 1
+|
+- Active special project progress: +5%
+| no
+|-
+| Vertical Launch System
+|
+- Surface to Air Missiles
+| 0%
+| 30%
+| 1
+|
+- Active special project progress: +5%
+- Active scientist experience: +70
+| no
+|-
+| High Speed Flight Control
+|
+- Surface to Air Missiles
+| 25%
+| 80%
+| 1
+|
+- 1x 15% Research bonus for: Aircraft
+| no
+|-
+| Warhead Detonation Mechanisms
+|
+- Surface to Air Missiles
+| 30%
+| 100%
+| 1
+|
+- Surface to Air Missile Air Attack: +10%
+- Active scientist experience: +70
+| no
+|-
+| Technological Advancements
+|
+- Radar
+| 0%
+| 100%
+| 1
+|
+- 1x 10% Research bonus for: Industry
+| yes
+|-
+| Technological Innovation
+|
+- Radar
+| 0%
+| 100%
+| 1
+| One of (random):
+- 10% chance: 1x 10% Research bonus for: Electronics
+- 70% chance: 1x 20% Research bonus for: Electronics
+- 20% chance: 1x 35% Research bonus for: Electronics
+| yes
+|-
+| Empty Outcome
+| Any
+| 0%
+| 100%
+| 1
+|
+- Nothing happens
+| yes
+|-
+| Avionics Advancements
+| Any
+| 0%
+| 100%
+| 1
+|
+- +25 air exp
+| yes
+|-
+| New Learnings
+|
+- Helicopter
+- Flying Bomb
+- Ballistic Missile
+- MRBM
+- ICBM
+- Surface to Air Missiles
+- Rocket Interceptor
+| 0%
+| 100%
+| 1
+|
+- Active scientist experience: +200
+| yes
+|-
+| Major Breakthrough
+|
+- Helicopter
+- Flying Bomb
+- Ballistic Missile
+- MRBM
+- ICBM
+- Surface to Air Missiles
+- Rocket Interceptor
+| 0%
+| 100%
+| 1
+|
+- Active special project progress: +10%
+| yes
+|-
+| Political Interference
+|
+- Bouncing Bomb
+- Earthshaker Bomb
+- Intercontinental Bomber
+- Mothership Aircraft
+- Jet Engine
+- Axial Jet Engine
+- Supersonic Jet
+- Helicopter
+- Radar
+| 0%
+| 70%
+| 0.5
+1 if Fascist
+|
+- Active special project progress: -5%
+| yes
+|-
+| Valuable Insights
+|
+- Bouncing Bomb
+- Earthshaker Bomb
+- Intercontinental Bomber
+- Mothership Aircraft
+- Jet Engine
+- Axial Jet Engine
+- Supersonic Jet
+- Helicopter
+- Flying Bomb
+- Ballistic Missile
+- MRBM
+- ICBM
+- Surface to Air Missiles
+- Rocket Interceptor
+| 0%
+| 100%
+| 2
+0.5 if already obtained Increased Theoretical Knowledge or Limitless Discoveries for active project
+0 if active scientist has skill > 4
+|
+- Active scientist experience: +70
+| no
+|-
+| Increased Theoretical Knowledge
+|
+- Bouncing Bomb
+- Earthshaker Bomb
+- Intercontinental Bomber
+- Mothership Aircraft
+- Jet Engine
+- Axial Jet Engine
+- Supersonic Jet
+- Helicopter
+- Flying Bomb
+- Ballistic Missile
+- MRBM
+- ICBM
+- Surface to Air Missiles
+- Rocket Interceptor
+| 0%
+| 100%
+| 2
+0.5 if already obtained Valuable Insights or Limitless Discoveries for active project
+0 if active scientist has skill > 4
+|
+- Active scientist experience: +100
+| no
+|-
+| Limitless Discoveries
+|
+- Earthshaker Bomb
+- Intercontinental Bomber
+- Mothership Aircraft
+- Jet Engine
+- Axial Jet Engine
+- Supersonic Jet
+- Helicopter
+- Flying Bomb
+- Ballistic Missile
+- MRBM
+- ICBM
+- Surface to Air Missiles
+- Rocket Interceptor
+| 0%
+| 100%
+| 2
+0.5 if already obtained Valuable Insights or Increased Theoretical Knowledge for active project
+0 if active scientist has skill > 4
+|
+- Active scientist experience: +150
+- Aerodynamics and Avionics breakthrough progress: +10%
+| no
+|-
+| Breath of Fresh Air
+|
+- Bouncing Bomb
+- Earthshaker Bomb
+- Intercontinental Bomber
+- Mothership Aircraft
+- Jet Engine
+- Axial Jet Engine
+- Supersonic Jet
+- Helicopter
+- Flying Bomb
+- Ballistic Missile
+- MRBM
+- ICBM
+- Surface to Air Missiles
+- Rocket Interceptor
+| 50%
+| 100%
+| 2
+0.5 if already obtained Breeze of Innovation or Winds of Change for active project
+|
+- +15 air exp
+| no
+|-
+| Breeze of Innovation
+|
+- Bouncing Bomb
+- Earthshaker Bomb
+- Intercontinental Bomber
+- Mothership Aircraft
+- Jet Engine
+- Axial Jet Engine
+- Supersonic Jet
+- Helicopter
+- Flying Bomb
+- Ballistic Missile
+- MRBM
+- ICBM
+- Surface to Air Missiles
+- Rocket Interceptor
+| 50%
+| 100%
+| 2
+0.5 if already obtained Breath of Fresh Air or Winds of Change for active project
+|
+- +30 air exp
+| no
+|-
+| Winds of Change
+|
+- Earthshaker Bomb
+- Intercontinental Bomber
+- Mothership Aircraft
+- Jet Engine
+- Axial Jet Engine
+- Supersonic Jet
+- Helicopter
+- Flying Bomb
+- Ballistic Missile
+- MRBM
+- ICBM
+- Surface to Air Missiles
+- Rocket Interceptor
+| 50%
+| 100%
+| 2
+0.5 if already obtained Breath of Fresh Air or Breeze of Innovation for active project
+|
+- +50 air exp
+- Aerodynamics and Avionics breakthrough progress: +10%
+| no
+|-
+| Project Takeoff
+|
+- Bouncing Bomb
+- Earthshaker Bomb
+- Intercontinental Bomber
+- Mothership Aircraft
+- Jet Engine
+- Axial Jet Engine
+- Supersonic Jet
+- Helicopter
+- Flying Bomb
+- Ballistic Missile
+- MRBM
+- ICBM
+- Surface to Air Missiles
+- Rocket Interceptor
+| 0%
+| 100%
+| 2
+0.5 if already obtained Expert Landing or Stroke of Genius for active project
+|
+- Active special project progress: +5%
+- Active scientist experience: +70
+| no
+|-
+| Expert Landing
+|
+- Bouncing Bomb
+- Earthshaker Bomb
+- Intercontinental Bomber
+- Mothership Aircraft
+- Jet Engine
+- Axial Jet Engine
+- Supersonic Jet
+- Helicopter
+- Flying Bomb
+- Ballistic Missile
+- MRBM
+- ICBM
+- Surface to Air Missiles
+- Rocket Interceptor
+| 0%
+| 100%
+| 2
+0.5 if already obtained Project Takeoff or Stroke of Genius for active project
+|
+- Active special project progress: +10%
+- Active scientist experience: +70
+| no
+|-
+| Stroke of Genius
+|
+- Earthshaker Bomb
+- Intercontinental Bomber
+- Mothership Aircraft
+- Jet Engine
+- Axial Jet Engine
+- Supersonic Jet
+- Helicopter
+- Flying Bomb
+- Ballistic Missile
+- MRBM
+- ICBM
+- Surface to Air Missiles
+- Rocket Interceptor
+| 0%
+| 100%
+| 2
+0.5 if already obtained Project Takeoff or Expert Landing for active project
+|
+- Active special project progress: +15%
+- Aerodynamics and Avionics breakthrough progress: +10%
+- Active scientist experience: +70
+| no
+|-
+| Experiment Fell Flat
+|
+- Earthshaker Bomb
+- Intercontinental Bomber
+- Mothership Aircraft
+- Jet Engine
+- Axial Jet Engine
+- Supersonic Jet
+- Helicopter
+- Flying Bomb
+- Ballistic Missile
+- MRBM
+- ICBM
+- Surface to Air Missiles
+- Rocket Interceptor
+| 15%
+| 100%
+| 2
+0.5 if already obtained Breaking Bomb or Creative Disaster for active project
+|
+- Active special project progress: -5%
+- Active scientist experience: +70
+| no
+|-
+| Breaking Bomb
+|
+- Earthshaker Bomb
+- Intercontinental Bomber
+- Jet Engine
+- Axial Jet Engine
+- Supersonic Jet
+- Helicopter
+- Flying Bomb
+- Ballistic Missile
+- MRBM
+- ICBM
+- Surface to Air Missiles
+- Rocket Interceptor
+| 30%
+| 100%
+| 2
+0.5 if already obtained Experiment Fell Flat or Creative Disaster for active project
+|
+- Active special project progress: -10%
+- Active scientist experience: +70
+| no
+|-
+| Creative Disaster
+|
+- Earthshaker Bomb
+- Intercontinental Bomber
+- Mothership Aircraft
+- Jet Engine
+- Axial Jet Engine
+- Supersonic Jet
+- Helicopter
+- Flying Bomb
+- Ballistic Missile
+- MRBM
+- ICBM
+- Surface to Air Missiles
+- Rocket Interceptor
+| 50%
+| 100%
+| 2
+0.5 if already obtained Experiment Fell Flat or Breaking Bomb for active project
+|
+- Active special project progress: -15%
+- Aerodynamics and Avionics breakthrough progress: +10%
+- Active scientist experience: +70
+| no
+|-
+| Political Interference
+|
+- Flying Bomb
+- Ballistic Missile
+- MRBM
+- ICBM
+- Surface to Air Missiles
+- Rocket Interceptor
+| 0%
+| 70%
+| 0.5
+|
+- Active special project progress: -5%
+| yes
+|-
+| Onsite Explosion
+|
+- Flying Bomb
+- Ballistic Missile
+- MRBM
+- ICBM
+- Surface to Air Missiles
+- Rocket Interceptor
+| 0%
+| 70%
+| 0.5
+- x100 if chose to refuse to replace relay in Relay Failure
+- x30 if chose to build a new facility in Launch Site Issues
+|
+- Active experimental facility damaged 15%
+- Active scientist experience: +100
+- If chose to refuse to replace relay in Relay Failure, unset flag increasing the chance to get Onsite Explosion outcomes
+| yes
+|-
+| New Related Findings
+| None
+| 0%
+| 100%
+| 1
+|
+- 1x 25% Research bonus for: Aircraft
+| yes
+|}
+
+## Land Warfare Outcomes
+The following prototype outcomes are possible for land warfare special projects.
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
+|+ style="text-align: left;" | List of Prototype Outcomes for Land Warfare Special Projects
+|-
+! Name
+! Eligible Projects
+! Minimum Progress
+! Maximum Progress
+! Weight for Randomness
+! Effect
+! Repeatable?
+|-
+| Overheating during Trials
+|
+- Land Cruiser
+| 0%
+| 100%
+| 1
+|
+- Active special project progress: -5%
+| no
+|-
+| Chassis Stress Failure
+|
+- Land Cruiser
+| 20%
+| 70%
+| 4
+| Choice between:
+- Land Cruiser Reliability: +5%
+- Active special project progress: -10%
+Or:
+- Land Cruiser Reliability: -3%
+- Land Cruiser Armor: +5%
+- Active special project progress: -5%
+Or:
+- Land Cruiser Armor: -5%
+| no
+|-
+| Engine Output Insufficient
+|
+- Land Cruiser
+| 20%
+| 70%
+| 4
+| Choice between:
+- Active special project progress: -5%
+Or:
+- Land Cruiser Speed: +5%
+- Active special project progress: -10%
+Or:
+- Land Cruiser Reliability: +5%
+- Land Cruiser Speed: +5%
+- Active special project progress: -15%
+| no
+|-
+| Complex Turret Mechanism
+|
+- Land Cruiser
+| 50%
+| 100%
+| 4
+| Choice between:
+- Nothing happens
+Or:
+- Land Cruiser Breakthrough: -3%
+- Land Cruiser Production Cost: -2%
+- Active special project progress: +5%
+Or:
+- Land Cruiser Breakthrough: +3%
+- Land Cruiser Speed: +3%
+- Land Cruiser Production Cost: +5%
+- Active special project progress: -5%
+| no
+|-
+| Track System Failure
+|
+- Land Cruiser
+| 30%
+| 80%
+| 4
+| Choice between:
+- Active special project progress: -5%
+Or:
+- Land Cruiser Armor: -3%
+Or:
+- Land Cruiser Reliability: +5%
+- Land Cruiser Production Cost: +3%
+- Active special project progress: -10%
+| no
+|-
+| Communication System Issue
+|
+- Land Cruiser
+| 60%
+| 100%
+| 4
+| Choice between:
+- Nothing happens
+Or:
+- Land Cruiser Breakthrough: +3%
+- Active special project progress: -5%
+Or:
+- Land Cruiser Breakthrough: +3%
+- Land Cruiser Defense: +3%
+- Land Cruiser Production Cost: +2%
+- Active special project progress: -10%
+| no
+|-
+| Precision Assembly
+|
+- Land Cruiser
+| 20%
+| 60%
+| 4
+| Choice between:
+- Land Cruiser Reliability: +7%
+- Land Cruiser Production Cost: +5%
+- Active special project progress: -5%
+Or:
+- Land Cruiser Reliability: +3%
+| no
+|-
+| Hydropneumatic Suspension System
+|
+- Land Cruiser
+| 30%
+| 100%
+| 4
+| Choice between:
+- Land Cruiser Speed: +3%
+- Land Cruiser Reliability: +3%
+- Land Cruiser Production Cost: +5%
+- Active special project progress: +5%
+Or:
+- Land Cruiser Reliability: +3%
+| no
+|-
+| Ammunition Storage Solution
+|
+- Land Cruiser
+| 50%
+| 100%
+| 4
+| Choice between:
+- Nothing happens
+Or:
+- Land Cruiser Breakthrough: +3%
+- Land Cruiser Production Cost: +2%
+Or:
+- Land Cruiser Breakthrough: +5%
+- Land Cruiser Reliability: +3%
+- Land Cruiser Production Cost: +5%
+- Active special project progress: -5%
+| no
+|-
+| Design Focus
+|
+- Super-Heavy Howitzer
+| 30%
+| 100%
+| 50
+| Choice between:
+- Nothing happens
+Or:
+- Super-Heavy Howitzer Production Cost: +10%
+- Super-Heavy Howitzer Soft Attack: +5%
+- Super-Heavy Howitzer Collateral Damage: +10%
+Or:
+- Super-Heavy Howitzer Production Cost: -15%
+- Super-Heavy Howitzer Soft Attack: -5%
+- Super-Heavy Howitzer Collateral Damage: -10%
+| no
+|-
+| Design Focus
+|
+- Super-Heavy Self-Propelled Howitzer
+| 30%
+| 100%
+| 50
+| Choice between:
+- Nothing happens
+Or:
+- Super-Heavy Self-Propelled Howitzer Production Cost: +10%
+- Super-Heavy Self-Propelled Howitzer Soft Attack: +5%
+- Super-Heavy Self-Propelled Howitzer Collateral Damage: +10%
+Or:
+- Super-Heavy Self-Propelled Howitzer Production Cost: -15%
+- Super-Heavy Self-Propelled Howitzer Soft Attack: -5%
+- Super-Heavy Self-Propelled Howitzer Collateral Damage: -10%
+| no
+|-
+| Successful Firing Test
+|
+- Multi-Charge Large Caliber Gun
+| 0%
+| 70%
+| 5
+|
+- Active special project progress: +10%
+- Active scientist experience: +70
+| no
+|-
+| Catastrophical Explosion
+|
+- Multi-Charge Large Caliber Gun
+| 0%
+| 70%
+| 1
+|
+- Active experimental facility damaged 25%
+- State infrastructure of experimental facility damaged 15%
+- Active special project progress: -10%
+- Active scientist experience: +70
+- Active scientist injured for 60 days
+| no
+|-
+| Breakthrough in Propulsion Technology
+|
+- Multi-Charge Large Caliber Gun
+| 60%
+| 100%
+| 2
+|
+- Active special project progress: +15%
+- Land Warfare breakthrough progress: +10%
+- If active scientist is not Fast Learner :
+ - 30% chance: Active scientist gains Fast Learner
+- Otherwise, if active scientist is not Bright :
+ - 20% chance: Active scientist gains Bright
+| no
+|-
+| Structural Weakness Discovered
+|
+- Stronghold Network
+| 20%
+| 70%
+| 1
+|
+- Active special project progress: -10%
+- Prevents Collapse During Tunnel Construction outcome
+| no
+|-
+| Delayed by Concrete Shortage
+|
+- Stronghold Network
+| 0%
+| 90%
+| 1
+|
+- Active special project progress: -5%
+- Active scientist experience: +70
+| no
+|-
+| Underground Rail Systems
+|
+- Stronghold Network
+| 30%
+| 100%
+| 2
+|
+- Active special project progress: +5%
+- 1x 10% Research bonus for: Fortifications, Engineers
+| no
+|-
+| Integration of Anti-Blast Doors
+|
+- Stronghold Network
+| 30%
+| 100%
+| 2
+|
+- Active special project progress: +5%
+| no
+|-
+| Communication System Overhaul
+|
+- Stronghold Network
+| 50%
+| 100%
+| 5
+| Choice between:
+- 1x 25% Research bonus for: Fortifications, Construction
+Or:
+- Active scientist experience: +100
+| no
+|-
+| Leadership Approach
+|
+- Stronghold Network
+| 0%
+| 100%
+| 100
+Forced to maximum if no other outcome is being forced
+| Choice between:
+- Active special project progress: +5%
+- Active scientist experience: +70
+- Field work option (affects available options in certain, future outcomes)
+Or:
+- Land Warfare breakthrough progress: +5%
+- Office work option (affects available options in certain, future outcomes)
+| no
+|-
+| Breakthrough in Concrete Reinforcement
+|
+- Stronghold Network
+| 50%
+| 100%
+| 15
+| If chose field work option in Leadership Approach, choice between:
+- 1x 50% Research bonus for: Fortifications, Construction
+- Active special project progress: +5%
+Or:
+- Active scientist experience: +70
+- Active special project progress: +10%
+If chose office work option in Leadership Approach, choice between:
+- 1x 75% Research bonus for: Fortifications, Construction
+- Random land warfare scientist besides the active one experience: +150
+Or:
+- Random land warfare scientist besides the active one experience: +100
+- Active special project progress: +5%
+| no
+|-
+| Collapse During Tunnel Construction
+|
+- Stronghold Network
+| 60%
+| 100%
+| 0 if already received Structural Weakness Discovered
+10 otherwise
+| If chose field work option in Leadership Approach, choice between:
+- Active special project progress: -15%
+- Active scientist injured for 30 days
+Or:
+- Active special project progress: -10%
+- Active scientist injured for 60 days
+Or:
+- Active special project progress: -5%
+- Active scientist injured for 60 days
+- Emergency Labor Draft modifier added to active experimental facility's state for 60 days:
+ - Repair speed: -50%
+ - Free Repair: -50%
+ - Resource Gain Efficiency: -50%
+ - Local Construction Speed: -50%
+If chose office work option in Leadership Approach, choice between:
+- Active special project progress: -10%
+Or:
+- Active special project progress: -5%
+- Emergency Labor Draft modifier added to active experimental facility's state for 60 days:
+ - Repair speed: -50%
+ - Free Repair: -50%
+ - Resource Gain Efficiency: -50%
+ - Local Construction Speed: -50%
+| no
+|-
+| Empty Outcome
+| Any
+| 0%
+| 100%
+| 1
+|
+- Nothing happens
+| yes
+|-
+| New Learnings
+| Any
+| 0%
+| 100%
+| 2
+0.5 if already obtained Refined Expertise or Insightful Discovery for active project
+0 if active scientist has skill > 4
+|
+- Active scientist experience: +70
+| no
+|-
+| Refined Expertise
+| Any
+| 0%
+| 100%
+| 2
+0.5 if already obtained New Learnings or Insightful Discovery for active project
+0 if active scientist has skill > 4
+|
+- Active scientist experience: +100
+| no
+|-
+| Insightful Discovery
+| Any
+| 0%
+| 100%
+| 2
+0.5 if already obtained New Learnings or Refined Expertise for active project
+0 if active scientist has skill > 4
+|
+- Active scientist experience: +150
+- Land Warfare breakthrough progress: +10%
+| no
+|-
+| Battlefield Innovations
+| Any
+| 50%
+| 100%
+| 2
+0.5 if already obtained Operational Insight or Adapted Field Tactics for active project
+|
+- +15 army exp
+| no
+|-
+| Operational Insight
+| Any
+| 50%
+| 100%
+| 2
+0.5 if already obtained Battlefield Innovations or Adapted Field Tactics for active project
+|
+- +30 army exp
+| no
+|-
+| Adapted Field Tactics
+| Any
+| 50%
+| 100%
+| 2
+0.5 if already obtained Battlefield Innovations or Operational Insight for active project
+|
+- +50 army exp
+- Land Warfare breakthrough progress: +10%
+| no
+|-
+| Promising Prototype
+| Any
+| 0%
+| 100%
+| 2
+0.5 if already obtained Critical Test Successful or Pivotal Discovery for active project
+|
+- Active special project progress: +5%
+- Active scientist experience: +70
+| no
+|-
+| Critical Test Successful
+| Any
+| 0%
+| 100%
+| 2
+0.5 if already obtained Promising Prototype or Pivotal Discovery for active project
+|
+- Active special project progress: +10%
+- Active scientist experience: +70
+| no
+|-
+| Pivotal Discovery
+| Any
+| 0%
+| 100%
+| 2
+0.5 if already obtained Promising Prototype or Critical Test Successful for active project
+|
+- Active special project progress: +15%
+- Land Warfare breakthrough progress: +10%
+- Active scientist experience: +70
+| no
+|-
+| Testing Inconclusive
+| Any
+| 15%
+| 100%
+| 2
+0.5 if already obtained Design Flaw Detected or Minor Test Failure for active project
+|
+- Active special project progress: -5%
+- Active scientist experience: +70
+| no
+|-
+| Design Flaw Detected
+| Any
+| 30%
+| 100%
+| 2
+0.5 if already obtained Testing Inconclusive or Minor Test Failure for active project
+|
+- Active special project progress: -10%
+- Active scientist experience: +70
+| no
+|-
+| Minor Test Failure
+| Any
+| 50%
+| 100%
+| 2
+0.5 if already obtained Testing Inconclusive or Design Flaw Detected for active project
+|
+- Active special project progress: -15%
+- Land Warfare breakthrough progress: +10%
+- Active scientist experience: +70
+| no
+|-
+| Pioneering Techniques
+|
+- Military Engineering Vehicles
+- Land Cruiser
+| 0%
+| 100%
+| 2
+0.5 if already obtained Innovative Advancements or Experimental Methodology for active project
+|
+- 1x 10% Research bonus for: Tanks
+| no
+|-
+| Innovative Advancements
+|
+- Military Engineering Vehicles
+- Land Cruiser
+| 0%
+| 100%
+| 2
+0.5 if already obtained Pioneering Techniques or Experimental Methodology for active project
+|
+- 1x 20% Research bonus for: Tanks
+| no
+|-
+| Experimental Methodology
+|
+- Military Engineering Vehicles
+- Land Cruiser
+| 0%
+| 100%
+| 2
+0.5 if already obtained Pioneering Techniques or Innovative Advancements for active project
+|
+- 1x 35% Research bonus for: Tanks
+- Land Warfare breakthrough progress: +10%
+| no
+|-
+| Pioneering Techniques
+|
+- Super-Heavy Howitzer
+- Self-Propelled Super-Heavy Howitzer
+- Super-Heavy Railway Gun
+- Multi-Charge Large Caliber Gun
+| 0%
+| 100%
+| 2
+0.5 if already obtained Innovative Advancements or Experimental Methodology for active project
+|
+- 1x 10% Research bonus for: Artillery
+| no
+|-
+| Innovative Advancements
+|
+- Super-Heavy Howitzer
+- Self-Propelled Super-Heavy Howitzer
+- Super-Heavy Railway Gun
+- Multi-Charge Large Caliber Gun
+| 0%
+| 100%
+| 2
+0.5 if already obtained Pioneering Techniques or Experimental Methodology for active project
+|
+- 1x 20% Research bonus for: Artillery
+| no
+|-
+| Experimental Methodology
+|
+- Super-Heavy Howitzer
+- Self-Propelled Super-Heavy Howitzer
+- Super-Heavy Railway Gun
+- Multi-Charge Large Caliber Gun
+| 0%
+| 100%
+| 2
+0.5 if already obtained Pioneering Techniques or Innovative Advancements for active project
+|
+- 1x 35% Research bonus for: Artillery
+- Land Warfare breakthrough progress: +10%
+| no
+|-
+| Enhanced Plating
+|
+- Land Cruiser
+| 50%
+| 100%
+| 2
+0.5 if already obtained Ballistic Resistance Improvements or Improved Armor Alloys for active project
+|
+- Armor Armor: +2%
+| no
+|-
+| Ballistic Resistance Improvements
+|
+- Land Cruiser
+| 50%
+| 100%
+| 2
+0.5 if already obtained Enhanced Plating or Improved Armor Alloys for active project
+|
+- Armor Hardness: +2%
+| no
+|-
+| Improved Armor Alloys
+|
+- Land Cruiser
+| 50%
+| 100%
+| 2
+0.5 if already obtained Enhanced Plating or Ballistic Resistance Improvements for active project
+|
+- Armor Armor: +2%
+- Armor Hardness: +2%
+- Land Warfare breakthrough progress: +10%
+| no
+|-
+| Fuel Efficiency Engines
+|
+- Military Engineering Vehicles
+- Land Cruiser
+| 50%
+| 100%
+| 2
+0.5 if already obtained Enhanced Engine Reliability or Optimized Engine Performance for active project
+|
+- Armor Speed: +3%
+| no
+|-
+| Enhanced Engine Reliability
+|
+- Military Engineering Vehicles
+- Land Cruiser
+| 50%
+| 100%
+| 2
+0.5 if already obtained Fuel Efficiency Engines or Optimized Engine Performance for active project
+|
+- Armor Reliability: +3%
+| no
+|-
+| Optimized Engine Performance
+|
+- Military Engineering Vehicles
+- Land Cruiser
+| 50%
+| 100%
+| 2
+0.5 if already obtained Fuel Efficiency Engines or Enhanced Engine Reliability for active project
+|
+- Armor Speed: +3%
+- Armor Reliability: +3%
+- Land Warfare breakthrough progress: +10%
+| no
+|-
+| Improved Ranged Accuracy
+|
+- Super-Heavy Howitzer
+- Self-Propelled Super-Heavy Howitzer
+- Super-Heavy Railway Gun
+- Multi-Charge Large Caliber Gun
+| 50%
+| 100%
+| 2
+0.5 if already obtained New Recoil Reduction Systems or Advanced Muzzle Design for active project
+|
+- Artillery Soft Attack: +2%
+| no
+|-
+| New Recoil Reduction Systems
+|
+- Super-Heavy Howitzer
+- Self-Propelled Super-Heavy Howitzer
+- Super-Heavy Railway Gun
+- Multi-Charge Large Caliber Gun
+| 50%
+| 100%
+| 2
+0.5 if already obtained Improved Ranged Accuracy or Advanced Muzzle Design for active project
+|
+- Anti-Tank Hard Attack: +2%
+- Anti-Air Air Attack: +2%
+| no
+|-
+| Advanced Muzzle Design
+|
+- Super-Heavy Howitzer
+- Self-Propelled Super-Heavy Howitzer
+- Super-Heavy Railway Gun
+- Multi-Charge Large Caliber Gun
+| 50%
+| 100%
+| 2
+0.5 if already obtained Improved Ranged Accuracy or New Recoil Reduction Systems for active project
+|
+- Artillery Soft Attack: +2%
+- Anti-Tank Hard Attack: +2%
+- Anti-Air Air Attack: +2%
+- Land Warfare breakthrough progress: +10%
+| no
+|-
+| Resource Scarcity
+| Any
+| 25%
+| 80%
+| 0.5
+|
+- Active special project progress: -5%
+- Active scientist experience: +70
+| no
+|-
+| Critical Failure
+| Any
+| 25%
+| 80%
+| 0.25
+|
+- Active special project progress: -10%
+- Active scientist experience: +70
+- Active scientist injured for 30 days
+- Active experimental facility damaged 25%
+| no
+|}
+
+# References

@@ -1,0 +1,577 @@
+TITLE: Artillery technology
+URL: https://hoi4.paradoxwikis.com/Artillery_technology
+REVISION: 2025-12-11T20:16:26Z (rev 94745)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Artillery technology unlocks technologies related to different types of artillery, anti-air guns, and anti-tank guns. There are four larger branches in the tree: the artillery branch, the anti-air branch, the anti-tank branch, and the rocket artillery branch. The starting technology for each major branch unlocks a new piece of equipment, a line combat battalion, and a corresponding support company that can be used in templates in the division designer.
+
+All of these technologies are interlinked with special projects, providing breakthrough progress in one or more categories while being researched as well as benefiting benefitting from any scientist engaged in passive research in their fields. Most are tied to land warfare projects, indicated by green ribbons in the lower right-hand corner of their icons. Some of them are tied to aerodynamics and avionics projects, indicated by red ribbons in the lower right-hand corner of their icons.
+
+# Artillery [verified for 1.16]
+
+Back to Artillery research tree
+Normal artillery deals large amounts of soft damage, making them effective against infantry and lightly armored vehicles.
+
+Artillery technologies are all tied to the land warfare special project category, generating breakthrough progress in that category when they are being researched and benefitting from scientists engaged in passive research in that category.
+
+FOCUS Towed Artillery: Artillery refers to large-caliber weapons, such as cannons and howitzers that are operated by crews, which can project munitions far beyond the effective range of personal weapons.
+1934
+165 days
+Upgrades
+- Armored Car :
+ - Soft attack: +10%
+Enables
+- Towed Artillery
+- With Man the Guns :
+ - .50 cal. MG
+- With No Step Back :
+ - Small Cannon
+ - Small Cannon
+Unlocks
+- With Götterdämmerung :
+ - Super-Heavy Howitzer
+
+Technology:
+FOCUS Inter-War Artillery: Lessons learned in the development of different types of artillery can be cross-applied to the design of other pieces.
+Year: 1936
+Base time: 165 days
+Prerequisites: Towed Artillery
+Effects:
+Upgrades
+- Artillery , Motorized artillery , Support artillery :
+ - Soft attack: +10%
+- spgs:
+ - Soft attack: +15%
+Enables
+- With No Step Back :
+ - Improved Small Cannon
+ - Close Support Gun
+
+Technology:
+FOCUS Improved Artillery: New howitzer designs, taking advantage of new hydraulic recoil devices and longer barrels.
+Year: 1939
+Base time: 110 days
+Prerequisites: Inter-War Artillery
+Effects:
+Upgrades
+- Armored Car :
+ - Soft attack: +10%
+Enables
+- Improved Artillery
+- With No Step Back :
+ - Medium Cannon
+ - Medium Howitzer
+- With Götterdämmerung and No Step Back :
+ - Medium Cannon Turret
+ - Assault Gun
+
+Technology:
+FOCUS Improved Artillery Upgrade I: Upgrading old pieces can only get us so far. New howitzer designs will be needed, taking advantage of new hydraulic recoil devices and longer barrels.
+Year: 1940
+Base time: 110 days
+Prerequisites: Improved Artillery
+Effects:
+Upgrades
+- Artillery , Motorized artillery , Support artillery , spgs:
+ - Soft attack: +10%
+
+Technology:
+FOCUS Purpose-Built Gun Motor Carriages: Specialized vehicles designed to transport and support super-heavy howitzers, ensuring mobility and easiness of battlefield deployment.
+Year: 1940
+Base time: 165 days
+Prerequisites:
+- Self-Propelled Super-Heavy Howitzer
+- Improved Artillery
+Effects:
+Upgrades
+- Super-Heavy Howitzer, Self-Propelled Super-Heavy Howitzer:
+ - Supply Use: -10%
+ - Reliability: +7%
+
+Technology:
+FOCUS Rocket-Assisted Projectiles: Enhanced projectiles for super-heavy howitzers, designed to extend range and improve impact through rocket propulsion.
+Year: 1940
+Base time: 165 days
+Prerequisites:
+- Super-Heavy Howitzer
+- Improved Artillery
+- Experimental Rockets
+Effects:
+Upgrades
+- Super-Heavy Howitzer, Self-Propelled Super-Heavy Howitzer:
+ - Soft attack: +10%
+
+Technology:
+FOCUS Improved Artillery Upgrade II: To enable heavier guns on lighter carriages, muzzle brakes can be included in howitzer designs.
+Year: 1941
+Base time: 110 days
+Prerequisites: Improved Artillery Upgrade I
+Effects:
+Upgrades
+- Artillery , Motorized artillery , Support artillery :
+ - Soft attack: +10%
+- spgs:
+ - Soft attack: +5%
+Enables
+- With No Step Back :
+ - Improved Medium Howitzer
+
+Technology:
+FOCUS Advanced Artillery: Light-weight artillery capable of being broken down for transport, making it possible to bring artillery support to areas previously difficult to reach.
+Year: 1942
+Base time: 220 days
+Prerequisites: Improved Artillery Upgrade II
+Effects:
+Upgrades
+- Armored Car :
+ - Soft attack: +10%
+Enables
+- Advanced Artillery
+- With No Step Back :
+ - Improved Medium Cannon
+
+Technology:
+FOCUS Advanced Artillery Upgrade: Artillery designs with lower silhouettes will be more difficult for the enemy to target.
+Year: 1943
+Base time: 110 days
+Prerequisites: Advanced Artillery
+Effects:
+Upgrades
+- Artillery , Motorized artillery , Support artillery :
+ - Soft attack: +10%
+- spgs:
+ - Soft attack: +5%
+Enables
+- With No Step Back :
+ - Auto Loader
+ - Heavy Howitzer
+
+# Anti-air [verified for 1.16]
+
+Back to Artillery research tree
+Anti-air artillery has a very powerful air attack, allowing it to shoot down enemy aircraft. Their hard attack and piercing capabilities are significantly better than those of standard artillery, but inferior to anti-tank, and their soft attack is a fraction of standard artillery. This makes them better than standard artillery at attacking lightly armored vehicles, like motorized and mechanized infantry, but relatively poor against infantry (though they will still do a serviceable job). Units that deal air attack damage also help to counter enemy air superiority in the strategic region they are located in and shoot down enemy Close Air Support.
+
+Anti-air technologies are all tied to both the land warfare and aerodynamics and avionics special project categories, generating breakthrough progress in those categories when they are being researched and benefitting from scientists engaged in passive research in either category.
+
+Technology:
+FOCUS Towed Anti-Air: Anti-air artillery is primarily designed to shoot down hostile planes, although the rapid fire cannons can also be effective against ground targets.
+Year: 1936
+Base time: 165 days
+Prerequisites: Towed Artillery
+Effects:
+Upgrades
+- Armored Car :
+ - Hard attack: +10%
+Enables
+- Static Anti-Air
+- Towed Anti-Air
+- With Man the Guns :
+ - 20mm AA
+- With No Step Back :
+ - Automatic Cannon
+ - Basic Anti-Air Gun
+ - Basic Heavy Cannon
+- With Götterdämmerung and No Step Back :
+ - Light Anti-Air Battery
+
+Technology:
+FOCUS Anti-Air Upgrade: With faster reloading mechanisms, anti-air guns carrying large rounds can still maintain necessary firing rates.
+Year: 1939
+Base time: 110 days
+Prerequisites: Towed Anti-Air
+Effects:
+Upgrades
+- Anti-air bombing damage reduction: –2%
+- aa, Motorized Anti-Air :
+ - Air attack: +10%
+- spaa:
+ - Air attack: +15%
+
+Technology:
+FOCUS Improved Anti-Air: Anti-air guns with longer cartridges and barrels, able to target high-flying aircraft.
+Year: 1940
+Base time: 110 days
+Prerequisites: Anti-Air Upgrade
+Effects:
+Upgrades
+- Static Anti Air damage factor: +10%
+- Armored Car :
+ - Hard attack: +10%
+Enables
+- Improved Anti-Air
+- With Man the Guns :
+ - 37mm AA
+- With No Step Back :
+ - Improved Automatic Cannon
+ - Improved Anti-Air Gun
+- With Götterdämmerung and No Step Back :
+ - Heavy Anti-Air Battery
+
+Technology:
+FOCUS Improved Anti-Air Upgrade I: As radar systems improve, employing radar direction of anti-aircraft guns becomes more viable. Keeping up with this technology will allow us to make some of the most accurate anti-air systems available.
+Year: 1941
+Base time: 110 days
+Prerequisites: Improved Anti-Air
+Effects:
+Upgrades
+- Anti-air bombing damage reduction: –2%
+- aa, Motorized Anti-Air , spaa:
+ - Air attack: +15%
+Enables
+- With No Step Back :
+ - Improved Heavy Cannon
+
+Technology:
+FOCUS Improved Anti-Air Upgrade II: Combining modern systems of radar, computerization and autoloaders will be necessary to react quickly against faster aircraft.
+Year: 1942
+Base time: 110 days
+Prerequisites: Improved Anti-Air Upgrade I
+Effects:
+Upgrades
+- Anti-air bombing damage reduction: –2%
+- aa, Motorized Anti-Air :
+ - Air attack: +10%
+- spaa:
+ - Air attack: +5%
+
+Technology:
+FOCUS Advanced Anti-Air: An advanced mobile flak gun with greater reach and firing capacity, to combat even the fastest and highest-flying enemy aircraft.
+Year: 1943
+Base time: 110 days
+Prerequisites: Improved Anti-Air Upgrade II
+Effects:
+Upgrades
+- Static Anti Air damage factor: +10%
+- Armored Car :
+ - Hard attack: +10%
+Enables
+- Advanced Anti-Air
+- With Man the Guns :
+ - 40mm Quad AA
+- With No Step Back :
+ - Auto Loader
+ - Advanced Anti-Air Gun
+ - Advanced Heavy Cannon
+- With Götterdämmerung and No Step Back :
+ - Heavy Anti-Air Platform
+
+Technology:
+FOCUS Shock-Hardening Techniques: By using various Shock-Hardening Techniques, and utilizing stress equalizers for our components, we lowered the rate of premature detonations, making our projectiles more reliable and effective
+Year: 1941
+Base time: 165 days
+Prerequisites: Proximity Fuze
+ Improved Anti-Air
+Effects:
+Upgrades
+- Static Anti Air damage factor: +15%
+- Static Anti Air hit chance factor: +30%
+
+Technology:
+FOCUS Variable Time Fuze Shells: With adapting Variable Time Fuze Shells - we have made our field artillery devastating against our opponents. Shells explode before reaching the ground, thus creating much bigger kill-zone.
+Year: 1942
+Base time: 165 days
+Prerequisites: Shock-Hardening Techniques
+Effects:
+Upgrades
+- Support Artillery , spg:
+ - Soft attack: +10%
+- Artillery , Motorized artillery :
+ - Soft attack: +20%
+
+# Anti-tank [verified for 1.16]
+
+Back to Artillery research tree
+Anti-tank artillery deals a lot of hard damage and has high piercing, making them excel in taking out vehicles on the ground. However, their low soft attack means they are not very effective against softer targets, such as infantry.
+
+Anti-tank technologies are all tied to the land warfare special project category, generating breakthrough progress in that category when they are being researched and benefitting from scientists engaged in passive research in that category.
+
+Wise commanders should note that 40% of a division's piercing comes from the piercing of the brigade or support company with the highest piercing value in that division. Just a single line brigade or support company that uses anti-tank guns can therefore be incredibly valuable, as they can ensure that the division can pierce enemy armored divisions.
+
+Technology:
+FOCUS Towed Anti-Tank: Artillery specialized in defeating armored targets like Tanks, it generally fires armor piercing shells.
+Year: 1936
+Base time: 165 days
+Prerequisites: Towed Artillery
+Effects:
+Enables
+- Towed Anti-Tank
+- With By Blood Alone :
+ - Anti-Tank Cannon I
+- With No Step Back :
+ - Basic Heavy Cannon
+ - Basic High-Velocity Cannon
+- With Götterdämmerung and No Step Back :
+ - High Velocity Cannon Turret
+
+Technology:
+FOCUS Anti-Tank Upgrade: The importance of effective anti-tank weapons was established in the Great War. Introducing a new generation of these weapons will be necessary to combat modern tank designs.
+Year: 1939
+Base time: 110 days
+Prerequisites: Towed Anti-Tank
+Effects:
+Upgrades
+- Anti-Tank , Motorized Anti-Tank , Support Anti-Tank :
+ - Hard attack: +10%
+ - Piercing: +20%
+- td:
+ - Hard attack: +15%
+ - Piercing: +20%
+Enables
+- With No Step Back :
+ - Medium Cannon
+ - Squeeze-bore Adaptor
+
+Technology:
+FOCUS Improved Anti-Tank: Larger caliber guns to combat heavier tanks with sloped armor.
+Year: 1940
+Base time: 110 days
+Prerequisites: Anti-Tank Upgrade
+Effects:
+Upgrades
+- Motorized Anti-Tank :
+ - Hard attack: +10%
+ - Piercing: +10%
+- Armored Car :
+ - Piercing: +10%
+Enables
+- Improved Anti-Tank
+- With By Blood Alone :
+ - Anti-Tank Cannon II
+- With No Step Back :
+ - Improved Heavy Cannon
+
+Technology:
+FOCUS Improved Anti-Tank Upgrade I: HEAT (high-explosive anti-tank) rounds can be used in anti-tank artillery to make up for limited muzzle velocity.
+Year: 1941
+Base time: 110 days
+Prerequisites: Improved Anti-Tank
+Effects:
+Upgrades
+- Anti-Tank , Motorized Anti-Tank , Support Anti-Tank :
+ - Hard attack: +10%
+ - Piercing: +10%
+- td:
+ - Hard attack: +10%
+ - Piercing: +5%
+Enables
+- With No Step Back :
+ - Improved Medium Cannon
+
+Technology:
+FOCUS Improved Anti-Tank Upgrade II: New versatile anti-tank guns employing armored-piercing discarding sabot shots can penetrate the armor of nearly any tank.
+Year: 1942
+Base time: 110 days
+Prerequisites: Improved Anti-Tank Upgrade I
+Effects:
+Upgrades
+- Anti-Tank , Support Anti-Tank :
+ - Hard attack: +10%
+ - Piercing: +10%
+- Motorized Anti-Tank :
+ - Hard attack: +5%
+ - Piercing: +10%
+- td:
+ - Hard attack: +5%
+ - Piercing: +5%
+Enables
+- With No Step Back :
+ - Improved High-Velocity Cannon
+
+Technology:
+FOCUS Advanced Anti-Tank: Combining different kinds of new ammunition technology with guns with higher muzzle velocities, these anti-tank guns are prepared for whatever new armor our enemies may develop.
+Year: 1943
+Base time: 110 days
+Prerequisites: Improved Anti-Tank Upgrade II
+Effects:
+Upgrades
+- Armored Car :
+ - Piercing: +10%
+Enables
+- Advanced Anti-Tank
+- With No Step Back :
+ - Auto Loader
+ - Advanced Heavy Cannon
+ - Advanced High-Velocity Cannon
+- With Götterdämmerung and No Step Back :
+ - Heavy High-Velocity Cannons
+
+# Rocket artillery [verified for 1.16]
+
+Back to Artillery research tree
+Although slightly more expensive, rocket artillery tends to deal more soft damage and have much greater breakthrough than normal artillery, but is even less effective against armored vehicles.
+
+Rocket artillery technologies are all tied to the aerodynamics and avionics special project category, generating breakthrough progress in that category when they are being researched and benefitting from scientists engaged in passive research in that category.
+
+Technology:
+FOCUS Towed Rocket Artillery: Rocket artillery is less accurate and has a much lower sustained rate of fire than batteries of traditional artillery guns. However, they have the capability of simultaneously hitting a target with multiple rockets with devastating effect.
+Year: 1940
+Base time: 220 days
+Prerequisites: Improved Artillery Upgrade I
+Effects:
+Enables
+- Towed Rocket Artillery
+- With By Blood Alone :
+ - Rocket Rails
+- With No Step Back :
+ - Rocket Launcher
+- With Götterdämmerung and No Step Back :
+ - Rocket Launcher
+
+Technology:
+FOCUS Rocket Artillery Upgrade I: Self-propelled artillery utilizing multiple rockets will be able to cause large-scale destruction rapidly, while maintaining mobility to avoid counter-fire.
+Year: 1941
+Base time: 110 days
+Prerequisites: Towed Rocket Artillery
+Effects:
+- Support rocket artillery , Rocket artillery , Truck-drawn Rocket Artillery , Motorized rocket artillery :
+ - Soft attack: +15%
+
+Technology:
+FOCUS Rocket Artillery Upgrade II: Sacrificing range for impact, we can mount heavier rockets on larger vehicles. Operating in teams, these artillery batteries can cooperate to reload and relocate quickly.
+Year: 1942
+Base time: 110 days
+Prerequisites: Rocket Artillery Upgrade I
+Effects:
+Upgrades
+- Support rocket artillery , Rocket artillery , Truck-drawn Rocket Artillery , Motorized rocket artillery :
+ - Soft attack: +15%
+
+Technology:
+FOCUS Advanced Rocket Artillery: Spin-stabilized rockets, increasing the range of lighter artillery batteries.
+Year: 1943
+Base time: 110 days
+Prerequisites: Rocket Artillery Upgrade II
+Effects:
+Upgrades
+- Motorized Rocket Artillery :
+ - Soft attack: +30%
+Enables
+- Advanced Rocket Artillery
+- With No Step Back :
+ - Improved Rocket Launcher
+
+# Secret Techs [verified for 1.16]
+
+Back to Artillery research tree
+These techs are only available for certain countries under the appropriate conditions.
+
+Technology:
+FOCUS Mountain Gun: The mountainous terrain of Northern India led to the development of an artillery piece that could be dismantled and carried on muleback to wherever it was needed.
+Prerequisites:
+Can unlock this tech:
+- Afghanistan via Mountain Training
+- Austria via AUS_osterreichische_gebirgsjager
+- British Raj via Revive the Screw Guns or Mountain Guns
+- Chile via Invest in Mountain Guns or Expand the Mountain Regiments
+- Hungary via Transylvanian Mountaineers
+- Iraq via Invest in Ordnance Mountain Howitzers
+- Romania via Mountain Artillery
+- China via Invest in Mountain Guns
+Effects:
+- Artillery , Anti-Tank :
+ - Mountain :
+ - Speed: +15%
+ - Attack: +8%
+
+Technology: Bofors Anti Tank
+Prerequisites:
+Can unlock this tech:
+- Belgium via Excellent Anti-Tank Guns
+- Sweden via Bofors Anti-Tank Gun
+Effects:
+- Anti-Tank , Motorized Anti-Tank , Support Anti-Tank , td:
+ - Hard attack: +10%
+ - Piercing: +10%
+
+# Equipment [verified for 1.16]
+
+Towed Artillery Artillery refers to large-caliber weapons, such as cannons and howitzers that are operated by crews, which can project munitions far beyond the effective range of personal weapons. 1 tungsten 2 steel Defense 10
+Soft attack 25
+Piercing 5
+Production cost 3.5 Breakthrough 6
+Hard attack 2
+Reliability 80%
+
+Improved Artillery New howitzer designs, taking advantage of new hydraulic recoil devices and longer barrels. 1 tungsten 2 steel Defense 15
+Soft attack 30
+Piercing 5
+Production cost 4 Breakthrough 7
+Hard attack 2
+Reliability 80%
+
+Advanced Artillery Light-weight artillery capable of being broken down for transport, making it possible to bring artillery support to areas previously difficult to reach. 1 tungsten 3 steel Defense 18
+Soft attack 34
+Piercing 5
+Production cost 4.5 Breakthrough 8
+Hard attack 2
+Reliability 80%
+
+Towed Rocket Artillery Rocket artillery is less accurate and has a much lower sustained rate of fire than batteries of traditional artillery guns. However, they have the capability of simultaneously hitting a target with multiple rockets with devastating effect. 2 tungsten 1 steel Defense 12
+Soft attack 30
+Piercing 2
+Production cost 4 Breakthrough 9
+Hard attack 1
+Reliability 80%
+
+Advanced Rocket Artillery Spin-stabilized rockets, increasing the range of lighter artillery batteries. 2 tungsten 1 steel Defense 15
+Soft attack 38
+Piercing 2
+Production cost 5 Breakthrough 12
+Hard attack 1
+Reliability 80%
+
+Motorized Rocket Artillery Multiple rocket launchers such as these deliver explosives to a target area more quickly than conventional artillery, but with lower accuracy and requiring a longer time to reload. Being mounted on trucks, this version is able to launch attacks and change positions before the enemy can return fire. 2 tungsten 1 steel 1 rubber Defense 15
+Soft attack 36
+Piercing 2
+Production cost 12 Breakthrough 12
+Hard attack 1
+Reliability 80%
+
+Towed Anti-Air Anti-air artillery is primarily designed to shoot down hostile planes, although the rapid fire cannons can also be effective against ground targets. 2 steel Defense 4
+Soft attack 3
+Piercing 25
+Production cost 4 Breakthrough 1
+Hard attack 7
+Air attack 19
+Reliability 80%
+
+Improved Anti-Air Anti-air guns with longer cartridges and barrels, able to target high-flying aircraft. 2 steel Defense 4
+Soft attack 3.5
+Piercing 60
+Production cost 5 Breakthrough 1
+Hard attack 11
+Air attack 25
+Reliability 80%
+
+Advanced Anti-Air An advanced mobile flak gun with greater reach and firing capacity, to combat even the fastest and highest-flying enemy aircraft. 3 steel Defense 4
+Soft attack 4
+Piercing 88
+Production cost 6 Breakthrough 1
+Hard attack 15
+Air attack 32
+Reliability 80%
+
+Towed Anti-Tank Artillery specialized in defeating armored targets like Tanks, it generally fires armor piercing shells. 2 tungsten 2 steel Defense 4
+Soft attack 4
+Piercing 60
+Production cost 4 Hardness 10%
+Hard attack 20
+Reliability 80%
+
+Improved Anti-Tank Larger caliber guns to combat heavier tanks with sloped armor. 2 tungsten 2 steel 1 chromium Defense 4
+Soft attack 4
+Piercing 90
+Production cost 5 Hardness 10%
+Hard attack 22
+Reliability 80%
+
+Advanced Anti-Tank Combining different kinds of new ammunition technology with guns with higher muzzle velocities, these anti-tank guns are prepared for whatever new armor our enemies may develop. 2 tungsten 3 steel 1 chromium Defense 4
+Soft attack 4
+Piercing 125
+Production cost 6 Hardness 10%
+Hard attack 30
+Reliability 80%
+
+# References

@@ -1,0 +1,13 @@
+TITLE: Japanese events
+URL: https://hoi4.paradoxwikis.com/Japanese_events
+REVISION: 2025-08-24T17:42:59Z (rev 88864)
+VERIFIED FOR: 1.12
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+events added with the Waking the Tiger DLC Japanese events WtT
+This is a list of all Japan's events (from events/Japan.txt).
+
+# id 1 - 10
+
+# id 11 - 20

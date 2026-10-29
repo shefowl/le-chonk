@@ -1,0 +1,11 @@
+TITLE: Italian decisions
+URL: https://hoi4.paradoxwikis.com/Italian_decisions
+REVISION: 2026-02-18T20:00:27Z (rev 97428)
+VERIFIED FOR: 1.14
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+# Colonial Management
+The various tribes and people of Africa can not be handled like we might deal with other subject people. Administering these areas will require a different approach.
+
+# Balkan Diplomacy

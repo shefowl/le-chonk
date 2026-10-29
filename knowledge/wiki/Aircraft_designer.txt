@@ -1,0 +1,1727 @@
+TITLE: Aircraft designer
+URL: https://hoi4.paradoxwikis.com/Aircraft_designer
+REVISION: 2026-03-14T14:33:18Z (rev 98843)
+VERIFIED FOR: 1.15
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+By Blood Alone
+
+Aircraft are equipment that can be used to equip air wings and are produced in military factories . For details on how aircraft statistics affect air wing operation, see air missions and air wing.
+
+# Airframes
+All airframes have a Reliability of 80% unless otherwise specified.
+
+## Small Airframes
+Aircraft designed with these airframes can have the following roles depending on their primary armament (the weapon selected for the leftmost armament slot):
+- Fighter
+- Close Air Support
+- Naval Bomber
+
+Aircraft designed using carrier airframes can take be hosted on aircraft carriers.
+
+Airframe: Inter-war Small Airframe
+Agility: 35
+Air Defense: 7
+Naval Attack: 1
+Naval Targeting: 1
+Air Superiority: 1
+Speed (km/h): 400
+Range (km): 400
+Weight: 3
+Modules: 2/3
+Service Manpower: 20 manpower
+Fuel Usage: 0.05 fuel
+Production Cost: 4 production cost
+Resource Use per Factory: 2 aluminum 1 rubber
+Prerequisites: Inter-war Small Airframe
+
+Airframe: Basic Small Airframe
+Agility: 40
+Air Defense: 9
+Naval Attack: 1
+Naval Targeting: 1
+Air Superiority: 1
+Speed (km/h): 425
+Range (km): 550
+Weight: 4
+Modules: 2/3
+Service Manpower: 20 manpower
+Fuel Usage: 0.05 fuel
+Production Cost: 5 production cost
+Resource Use per Factory: 3 aluminum 1 rubber
+Prerequisites: Basic Small Airframe
+
+Airframe: Improved Small Airframe
+Agility: 45
+Air Defense: 11
+Naval Attack: 1
+Naval Targeting: 1
+Air Superiority: 1
+Speed (km/h): 450
+Range (km): 650
+Weight: 5
+Modules: 3/4
+Service Manpower: 20 manpower
+Fuel Usage: 0.05 fuel
+Production Cost: 6 production cost
+Resource Use per Factory: 3 aluminum 1 rubber
+Prerequisites: Improved Small Airframe
+
+Airframe: Advanced Small Airframe
+Agility: 50
+Air Defense: 12
+Naval Attack: 1
+Naval Targeting: 1
+Air Superiority: 1
+Speed (km/h): 475
+Range (km): 750
+Weight: 6
+Modules: 4/5
+Service Manpower: 20 manpower
+Fuel Usage: 0.05 fuel
+Production Cost: 7 production cost
+Resource Use per Factory: 4 aluminum 1 rubber
+Prerequisites: Advanced Small Airframe
+
+Airframe: Modern Small Airframe
+Agility: 55
+Air Defense: 18
+Naval Attack: 1
+Naval Targeting: 1
+Air Superiority: 1
+Speed (km/h): 500
+Range (km): 900
+Weight: 6
+Modules: 4/5
+Service Manpower: 20 manpower
+Fuel Usage: 0.05 fuel
+Production Cost: 10 production cost
+Resource Use per Factory: 4 aluminum 1 rubber
+Prerequisites: Modern Small Airframe
+
+Airframe: Supersonic Small Airframe
+Agility: 65
+Air Defense: 25
+Naval Attack: 1.5
+Naval Targeting: 1.3
+Air Superiority: 1
+Speed (km/h): 900
+Range (km): 1400
+Weight: 5
+Modules: 5/5
+Service Manpower: 20 manpower
+Fuel Usage: 0.05 fuel
+Production Cost: 14 production cost
+Resource Use per Factory: 4 aluminum 1 rubber 5 chromium
+Prerequisites: Götterdämmerung
+ Supersonic Jet
+
+Airframe: Inter-war Carrier Airframe
+Agility: 30
+Air Defense: 7
+Naval Attack: 1
+Naval Targeting: 1
+Air Superiority: 1
+Speed (km/h): 400
+Range (km): 400
+Weight: 4
+Modules: 2/3
+Service Manpower: 20 manpower
+Fuel Usage: 0.05 fuel
+Production Cost: 6 production cost
+Resource Use per Factory: 2 aluminum 1 rubber
+Prerequisites: Inter-war Small Airframe
+
+Airframe: Basic Carrier Airframe
+Agility: 35
+Air Defense: 9
+Naval Attack: 1
+Naval Targeting: 1
+Air Superiority: 1
+Speed (km/h): 425
+Range (km): 550
+Weight: 5
+Modules: 2/3
+Service Manpower: 20 manpower
+Fuel Usage: 0.05 fuel
+Production Cost: 8.5 production cost
+Resource Use per Factory: 3 aluminum 1 rubber
+Prerequisites: Basic Small Airframe
+
+Airframe: Improved Carrier Airframe
+Agility: 40
+Air Defense: 11
+Naval Attack: 1
+Naval Targeting: 1
+Air Superiority: 1
+Speed (km/h): 450
+Range (km): 650
+Weight: 6
+Modules: 3/4
+Service Manpower: 20 manpower
+Fuel Usage: 0.05 fuel
+Production Cost: 9.5 production cost
+Resource Use per Factory: 3 aluminum 1 rubber
+Prerequisites: Improved Small Airframe
+
+Airframe: Advanced Carrier Airframe
+Agility: 45
+Air Defense: 12
+Naval Attack: 1
+Naval Targeting: 1
+Air Superiority: 1
+Speed (km/h): 475
+Range (km): 750
+Weight: 6
+Modules: 4/5
+Service Manpower: 20 manpower
+Fuel Usage: 0.05 fuel
+Production Cost: 11 production cost
+Resource Use per Factory: 4 aluminum 1 rubber
+Prerequisites: Advanced Small Airframe
+
+Airframe: Modern Carrier Airframe
+Agility: 50
+Air Defense: 18
+Naval Attack: 1
+Naval Targeting: 1
+Air Superiority: 1
+Speed (km/h): 500
+Range (km): 900
+Weight: 6
+Modules: 4/5
+Service Manpower: 20 manpower
+Fuel Usage: 0.05 fuel
+Production Cost: 14.5 production cost
+Resource Use per Factory: 4 aluminum 1 rubber
+Prerequisites: Modern Small Airframe
+
+## Medium Airframes
+Aircraft designed with these airframes can have the following roles depending on their primary armament (the weapon selected for the leftmost armament slot):
+- Heavy Fighter
+- Tactical Bomber
+- Scout
+
+Airframe: Inter-war Medium Airframe
+Agility: 25
+Air Defense: 15
+Naval Attack: 1
+Naval Targeting: 1
+Air Superiority: 1
+Speed (km/h): 200
+Range (km): 750
+Weight: 8
+Modules: 4/5
+Service Manpower: 40 manpower
+Fuel Usage: 0 fuel
+Production Cost: 6 production cost
+Resource Use per Factory: 2 aluminum 1 rubber
+Prerequisites: Inter-war Medium Airframe
+
+Airframe: Basic Medium Airframe
+Agility: 30
+Air Defense: 18
+Naval Attack: 1
+Naval Targeting: 1
+Air Superiority: 1
+Speed (km/h): 325
+Range (km): 900
+Weight: 8
+Modules: 4/5
+Service Manpower: 40 manpower
+Fuel Usage: 0 fuel
+Production Cost: 8 production cost
+Resource Use per Factory: 3 aluminum 1 rubber
+Prerequisites: Basic Medium Airframe
+
+Airframe: Improved Medium Airframe
+Agility: 35
+Air Defense: 20
+Naval Attack: 1
+Naval Targeting: 1
+Air Superiority: 1
+Speed (km/h): 375
+Range (km): 1100
+Weight: 12
+Modules: 4/6
+Service Manpower: 40 manpower
+Fuel Usage: 0 fuel
+Production Cost: 10 production cost
+Resource Use per Factory: 4 aluminum 1 rubber
+Prerequisites: Improved Medium Airframe
+
+Airframe: Advanced Medium Airframe
+Agility: 40
+Air Defense: 24
+Naval Attack: 1
+Naval Targeting: 1
+Air Superiority: 1
+Speed (km/h): 425
+Range (km): 1300
+Weight: 14
+Modules: 5/6
+Service Manpower: 40 manpower
+Fuel Usage: 0 fuel
+Production Cost: 13 production cost
+Resource Use per Factory: 5 aluminum 1 rubber
+Prerequisites: Advanced Medium Airframe
+
+Airframe: Modern Medium Airframe
+Agility: 45
+Air Defense: 24
+Naval Attack: 1
+Naval Targeting: 1
+Air Superiority: 1
+Speed (km/h): 500
+Range (km): 1500
+Weight: 16
+Modules: 5/6
+Service Manpower: 40 manpower
+Fuel Usage: 0 fuel
+Production Cost: 14 production cost
+Resource Use per Factory: 5 aluminum 1 rubber
+Prerequisites: Modern Medium Airframe
+
+## Large Airframes
+Aircraft designed with these airframes can have the following roles depending on their primary armament (the weapon selected for the leftmost armament slot):
+- Strategic Bomber
+- Naval Patrol Bomber
+
+Airframe: Inter-war Large Airframe
+Agility: 20
+Air Defense: 20
+Naval Attack: 1
+Naval Targeting: 1
+Air Superiority: 0.01
+Speed (km/h): 200
+Range (km): 1000
+Weight: 16
+Modules: 4/6
+Service Manpower: 80 manpower
+Fuel Usage: 0.16 fuel
+Production Cost: 16 production cost
+Resource Use per Factory: 3 aluminum 2 rubber
+Prerequisites: Inter-war Large Airframe
+
+Airframe: Basic Large Airframe
+Agility: 25
+Air Defense: 25
+Naval Attack: 1
+Naval Targeting: 1
+Air Superiority: 0.01
+Speed (km/h): 225
+Range (km): 1500
+Weight: 18
+Modules: 4/6
+Service Manpower: 80 manpower
+Fuel Usage: 0.16 fuel
+Production Cost: 18 production cost
+Resource Use per Factory: 3 aluminum 2 rubber
+Prerequisites: Basic Large Airframe
+
+Airframe: Improved Large Airframe
+Agility: 30
+Air Defense: 35
+Naval Attack: 1
+Naval Targeting: 1
+Air Superiority: 0.01
+Speed (km/h): 300
+Range (km): 2000
+Weight: 20
+Modules: 5/7
+Service Manpower: 80 manpower
+Fuel Usage: 0.16 fuel
+Production Cost: 20 production cost
+Resource Use per Factory: 4 aluminum 2 rubber
+Prerequisites: Improved Large Airframe
+
+Airframe: Advanced Large Airframe
+Agility: 35
+Air Defense: 50
+Naval Attack: 1
+Naval Targeting: 1
+Air Superiority: 0.01
+Speed (km/h): 350
+Range (km): 3000
+Weight: 22
+Modules: 5/7
+Service Manpower: 80 manpower
+Fuel Usage: 0.16 fuel
+Production Cost: 22 production cost
+Resource Use per Factory: 5 aluminum 2 rubber
+Prerequisites: Advanced Large Airframe
+
+Airframe: Modern Large Airframe
+Agility: 40
+Air Defense: 54
+Naval Attack: 1
+Naval Targeting: 1
+Air Superiority: 0.01
+Speed (km/h): 400
+Range (km): 3600
+Weight: 24
+Modules: 5/7
+Service Manpower: 80 manpower
+Fuel Usage: 0.16 fuel
+Production Cost: 23 production cost
+Resource Use per Factory: 6 aluminum 2 rubber
+Prerequisites: Modern Large Airframe
+
+## Other Airframes
+These specialized airframes are self-contained designs that cannot be used with the aircraft designer.
+
+Airframe: Inter-War Transport Plane
+Agility: 10
+Air Defense: 20
+Air Superiority: 0
+Speed (km/h): 400
+Range (km): 1000
+Reliability: 80%
+Service Manpower: 80 manpower
+Fuel Usage: 1 fuel
+Production Cost: 38 production cost
+Resource Use per Factory: 3 aluminum 2 rubber
+Available Missions:
+- Air Supply
+- Paradrop
+Prerequisites: Inter-War Transport Plane
+
+Airframe: Improved Transport Plane
+Agility: 10
+Air Defense: 20
+Air Superiority: 0
+Speed (km/h): 450
+Range (km): 1300
+Reliability: 80%
+Service Manpower: 80 manpower
+Fuel Usage: 1 fuel
+Production Cost: 38 production cost
+Resource Use per Factory: 3 aluminum 2 rubber
+Available Missions:
+- Air Supply
+- Paradrop
+Prerequisites: Improved Transport Plane
+
+Airframe: Modern Transport Plane
+Agility: 10
+Air Defense: 20
+Air Superiority: 0
+Speed (km/h): 480
+Range (km): 1800
+Reliability: 80%
+Service Manpower: 80 manpower
+Fuel Usage: 1 fuel
+Production Cost: 38 production cost
+Resource Use per Factory: 3 aluminum 2 rubber
+Available Missions:
+- Air Supply
+- Paradrop
+Prerequisites: Modern Transport Plane
+
+Airframe: Intercontinental Bomber
+Agility: 12
+Air Defense: 55
+Air Superiority: 0.01
+Speed (km/h): 450
+Range (km): 12000
+Reliability: 75%
+Service Manpower: 100 manpower
+Fuel Usage: 1.25 fuel
+Production Cost: 140 production cost
+Resource Use per Factory: 8 aluminum 4 rubber
+Available Missions: * Strategic Bombing
+Prerequisites: Götterdämmerung
+ Intercontinental Bomber
+
+Airframe: Mothership Aircraft
+Agility: 44
+Air Defense: 60
+Air Superiority: 13
+Speed (km/h): 650
+Range (km): 3600
+Reliability: 80%
+Service Manpower: 100 manpower
+Fuel Usage: 1.32 fuel
+Production Cost: 200 production cost
+Resource Use per Factory: 8 aluminum 3 rubber
+Available Missions:
+- Air Superiority
+- Interception
+Prerequisites: Götterdämmerung
+ Mothership Aircraft
+
+# Engine modules
+Design Cost of changing engine is 6 air exp . When not changing number of engines, then directly upgrading engine for one level above costs only 3 air exp .
+
+Module: 1x Engine I
+Eligible Frames: * All Small except Supersonic
+Thrust: 11
+Fuel Usage: 0.16 fuel
+Production Cost: 12 production cost
+Prerequisites: Engines I
+
+Module: 1x Engine II
+Eligible Frames: * All Small except Supersonic
+Max Speed: +20%
+Thrust: 16
+Fuel Usage: 0.16 fuel
+Production Cost: 14 production cost
+Prerequisites: Engines II
+
+Module: 1x Engine III
+Eligible Frames: * All Small except Supersonic
+Max Speed: +30%
+Thrust: 25
+Fuel Usage: 0.16 fuel
+Production Cost: 16 production cost
+Prerequisites: Engines III
+
+Module: 1x Engine IV
+Eligible Frames: * All Small except Supersonic
+Max Speed: +45%
+Thrust: 30
+Fuel Usage: 0.16 fuel
+Production Cost: 18 production cost
+Prerequisites: Engines IV
+
+Module: 2x Engine I
+Eligible Frames:
+- All Small except Supersonic
+- All Medium
+Thrust: 19
+Fuel Usage: 0.32 fuel
+Production Cost: 24 production cost
+Prerequisites: Engines I
+
+Module: 2x Engine II
+Eligible Frames:
+- All Small except Supersonic
+- All Medium
+Max Speed: +20%
+Thrust: 25
+Fuel Usage: 0.32 fuel
+Production Cost: 28 production cost
+Prerequisites: Engines II
+
+Module: 2x Engine III
+Eligible Frames:
+- All Small except Supersonic
+- All Medium
+Max Speed: +30%
+Thrust: 38
+Fuel Usage: 0.32 fuel
+Production Cost: 32 production cost
+Prerequisites: Engines III
+
+Module: 2x Engine IV
+Eligible Frames:
+- All Small except Supersonic
+- All Medium
+Max Speed: +45%
+Thrust: 45
+Fuel Usage: 0.32 fuel
+Production Cost: 36 production cost
+Prerequisites: Engines IV
+
+Module: 3x Engine I
+Eligible Frames: * All Medium
+Thrust: 23
+Fuel Usage: 0.48 fuel
+Production Cost: 36 production cost
+Prerequisites: Engines I
+
+Module: 3x Engine II
+Eligible Frames: * All Medium
+Max Speed: +20%
+Thrust: 32
+Fuel Usage: 0.48 fuel
+Production Cost: 42 production cost
+Prerequisites: Engines II
+
+Module: 3x Engine III
+Eligible Frames: * All Medium
+Max Speed: +30%
+Thrust: 51
+Fuel Usage: 0.48 fuel
+Production Cost: 48 production cost
+Prerequisites: Engines III
+
+Module: 3x Engine IV
+Eligible Frames: * All Medium
+Max Speed: +45%
+Thrust: 60
+Fuel Usage: 0.48 fuel
+Production Cost: 54 production cost
+Prerequisites: Engines IV
+
+Module: 4x Engine I
+Eligible Frames:
+- All Medium
+- All Large
+Thrust: 32
+Fuel Usage: 0.64 fuel
+Production Cost: 48 production cost
+Prerequisites: Engines I
+
+Module: 4x Engine II
+Eligible Frames:
+- All Medium
+- All Large
+Max Speed: +20%
+Thrust: 40
+Fuel Usage: 0.64 fuel
+Production Cost: 56 production cost
+Prerequisites: Engines II
+
+Module: 4x Engine III
+Eligible Frames:
+- All Medium
+- All Large
+Max Speed: +30%
+Thrust: 64
+Fuel Usage: 0.64 fuel
+Production Cost: 64 production cost
+Prerequisites: Engines III
+
+Module: 4x Engine IV
+Eligible Frames:
+- All Medium
+- All Large
+Max Speed: +45%
+Thrust: 75
+Fuel Usage: 0.64 fuel
+Production Cost: 72 production cost
+Prerequisites: Engines IV
+
+Module: 6x Engine I
+Eligible Frames: * All Large
+Thrust: 41
+Fuel Usage: 0.8 fuel
+Production Cost: 68 production cost
+Prerequisites: Engines I
+
+Module: 6x Engine II
+Eligible Frames: * All Large
+Max Speed: +20%
+Thrust: 56
+Fuel Usage: 0.8 fuel
+Production Cost: 80 production cost
+Prerequisites: Engines II
+
+Module: 6x Engine III
+Eligible Frames: * All Large
+Max Speed: +30%
+Thrust: 90
+Fuel Usage: 0.8 fuel
+Production Cost: 92 production cost
+Prerequisites: Engines III
+
+Module: 6x Engine IV
+Eligible Frames: * All Large
+Max Speed: +45%
+Thrust: 105
+Fuel Usage: 0.8 fuel
+Production Cost: 108 production cost
+Prerequisites: Engines IV
+
+1x Jet Engine
+- All Small
+
++60%
+25
+0.3 fuel
+14 production cost
+1 chromium
+Jet Engine
+
+1x Axial Jet Engine
+- All Small
+
+30
+0.4 fuel
+20 production cost
+1 chromium
+Axial Jet Engine
+
+2x Jet Engine
+- All Small except Supersonic
+- All Medium
+
++60%
+38
+0.6 fuel
+28 production cost
+1 chromium
+Jet Engine
+
+2x Axial Jet Engine
+- All Small except Supersonic
+- All Medium
+
+45
+0.8 fuel
+40 production cost
+2 chromium
+Axial Jet Engine
+
+3x Jet Engine
+- All Medium
+
++60%
+51
+0.9 fuel
+42 production cost
+2 chromium
+Jet Engine
+
+3x Axial Jet Engine
+- All Medium
+
+60
+1.2 fuel
+60 production cost
+2 chromium
+Axial Jet Engine
+
+4x Jet Engine
+- All Medium
+- All Large
+
++60%
+64
+1.2 fuel
+56 production cost
+2 chromium
+Jet Engine
+
+4x Axial Jet Engine
+- All Medium
+- All Large
+
+75
+1.5 fuel
+80 production cost
+3 chromium
+Axial Jet Engine
+
+6x Jet Engine
+- All Large
+
++60%
+90
+1.8 fuel
+100 production cost
+3 chromium
+Jet Engine
+
+6x Axial Jet Engine
+- All Large
+
+105
+2.4 fuel
+120 production cost
+4 chromium
+Axial Jet Engine
+
+Rocket Engine I
+- All Small except Carrier Airframes
+-70%
++55%
+20
+0 fuel
+12 production cost
+2 tungsten
+Rocket Interceptor
+
+Rocket Engine II
+- All Small except Carrier Airframes
+-65%
++60%
+25
+0 fuel
+13 production cost
+2 tungsten
+Dual Chamber Rocket Engines
+
+Rocket Engine III
+- All Small except Carrier Airframes
+-60%
++65%
+30
+0 fuel
+14 production cost
+2 tungsten
+Advanced Dual Chamber Rocket Engines
+
+# Weapon modules
+## Fighter Weapons
+Aircraft designs that use one of these weapons for their main armament are classified as Fighters or Heavy Fighters.
+{| class="wikitable sortable plainlist"
+|+
+! class="unsortable" | !!Module
+!Eligible Frames
+!Air Attack
+!Agility
+!Ground Attack
+!Weight
+! Production Cost
+!Design Cost
+!Allows Mission
+! Prerequisites
+|-
+| || 2x Light Machine Gun
+|
+- All Small
+- All Medium
+|+5
+|
+|
+|1
+|1 production cost
+|1 air exp
+| rowspan="10" |
+- Air Superiority
+- Interception
+| rowspan="2" | Light MG
+|-
+| || 4x Light Machine Gun
+|
+- All Small
+- All Medium
+|+10
+|
+|
+|2
+|2 production cost
+|2 air exp
+|-
+| || 2x Heavy Machine Gun
+|
+- All Small
+- All Medium
+|+9
+|
+|
+|2.5
+|1.5 production cost
+|1 air exp
+| rowspan="2" | Heavy MG
+|-
+| || 4x Heavy Machine Gun
+|
+- All Small
+- All Medium
+|+18
+|
+|1 (on Close Air Support)
+|5
+|3 production cost
+|2 air exp
+|-
+| || 1x Cannon I
+|
+- All Small
+- All Medium
+|+10
+| -1
+|
+|3
+|2.5 production cost
+|1 air exp
+| rowspan="2" | Cannons I
+|-
+| || 2x Cannon I
+|
+- All Small
+- All Medium
+|+20
+| -2
+|2 (on Close Air Support)
+|6
+|5 production cost
+|2 air exp
+|-
+|
+|1x Large Cannon
+|
+- All Small
+- All Medium
+|+12
+|-2
+|
+|4
+|3 production cost
+|1 air exp
+| rowspan="2" | Large Cannons
+|-
+|
+|2x Large Cannon
+|
+- All Small
+- All Medium
+|+24
+|-4
+|2 (on Close Air Support)
+|8
+|6 production cost
+|2 air exp
+|-
+| || 1x Cannon II
+|
+- All Small
+- All Medium
+|+12
+| -0.5
+|
+|3
+|3 production cost
+|1 air exp
+| rowspan="2" | Cannons II
+|-
+| || 2x Cannon II
+|
+- All Small
+- All Medium
+|+24
+| -1
+|2 (on Close Air Support)
+|6
+|6 production cost
+|2 air exp
+|}
+
+## Close Air Support Weapons
+Aircraft designs that use one of these weapons for their main armament are classified as Close Air Support.
+{| class="wikitable sortable plainlist"
+|+
+! class="unsortable" | !! Type
+!Eligible Frames
+!Agility
+!Ground Attack
+!Naval Attack
+!Naval Targeting
+!Weight
+! Production Cost
+!Design Cost
+!Allows Mission
+!Prerequisites
+|-
+| || Small Bomb Bay
+|
+- All Small
+- All Medium as secondary armament
+| –15 (on Close Air Support, Logistic Strike, Port Strike)
+|+8 (on Close Air Support, Logistic Strike)
+|+2 (on Port Strike without any Naval Bomber weapons)
+|+4 (on Port Strike without any Naval Bomber weapons)
+|2
+6 (on Close Air Support, Logistic Strike, Port Strike)
+|3 production cost
+|2 air exp
+|
+- Close Air Support
+- Logistics Strike
+- Port Strike
+| rowspan="2" | Bombs
+|-
+| || Bomb Locks
+|
+- All Small
+- All Medium as secondary armament
+| –15 (on Close Air Support, Logistic Strike, Naval Strike)
+|+6 (on Close Air Support, Logistics Strike)
+|+2 (on Naval Strike without any Naval Bomber weapons)
+|+4 (on Naval Strike without any Naval Bomber weapons)
+|0
+4 (on Close Air Support, Logistic Strike, Naval Strike)
+|1 production cost
+|2 air exp
+|
+- Close Air Support
+- Logistics Strike
+- Naval Strike
+|-
+|
+|Armor Piercing Bomb Locks
+|
+- All Small
+- All Medium as secondary armament
+|–20 (on Close Air Support, Logistic Strike, Naval Strike)
+|+2 (on Close Air Support, Logistics Strike)
+|+6 (on Naval Strike without any Naval Bomber weapons)
+|+4 (on Naval Strike without any Naval Bomber weapons)
+|0
+6 (on Close Air Support, Logistic Strike, Naval Strike)
+|1 production cost
+|2 air exp
+|
+- Close Air Support
+- Logistics Strike
+- Naval Strike
+| Armor Piercing Bombs
+|-
+|
+|Heavy Bomb Locks
+|
+- All Small
+- All Medium as secondary armament
+|–20 (on Close Air Support, Logistic Strike, Naval Strike)
+|+8 (on Close Air Support, Logistics Strike)
+|+3 (on Naval Strike without any Naval Bomber weapons)
+|+4 (on Naval Strike without any Naval Bomber weapons)
+|0
+6 (on Close Air Support, Logistic Strike, Naval Strike)
+|1 production cost
+|2 air exp
+|
+- Close Air Support
+- Logistics Strike
+- Naval Strike
+| Heavy Bombs
+|-
+| || Anti-Tank Cannon I
+|
+- All Small
+- All Medium as secondary armament
+| –15
+|+8
+|
+|
+|8
+|5 production cost
+|2 air exp
+|
+- Close Air Support
+- Logistics Strike
+| Towed Anti-Tank
+|-
+| || Anti-Tank Cannon II
+|
+- All Small
+- All Medium as secondary armament
+| –20
+|+15
+|
+|
+|12
+|8 production cost
+|2 air exp
+|
+- Close Air Support
+- Logistics Strike
+| Improved Anti-Tank
+|-
+| || Rocket Rails
+|
+- All Small
+- All Medium as secondary armament
+|
+|+4 (on Close Air Support, Logistics Strike)
+|
+|
+|0
+1 (on Close Air Support, Logistics Strike)
+|1 production cost
+|2 air exp
+|
+- Close Air Support
+- Logistics Strike
+| Towed Rocket Artillery
+|}
+
+## Naval Bomber Weapons
+Aircraft designs that use one of these weapons for their main armament are classified as Naval Bombers or Naval Patrol Bombers.
+
+Designs equipped with at least one of these weapons will disable the conditional effects of other weapon types on Naval Strike and Port Strike missions.
+{| class="wikitable sortable plainlist"
+|+
+! class="unsortable" | !! Type
+!Eligible Frames
+!Agility
+!Air Defense
+!Naval Attack
+!Naval Targeting
+!Weight
+! Production Cost
+!Design Cost
+!Allows Mission
+!Prerequisites
+|-
+| || Light Torpedo Mountings
+|
+- All Small
+- All Medium as secondary armament
+- All Large
+| –12 (on Naval Strike, Port Strike)
+|
+|+12 (on Naval Strike, Port Strike)
+|+4 (on Naval Strike, Port Strike)
+| 0
+5 (on Naval Strike, Port Strike)
+|4 production cost
+|2 air exp
+|
+- Naval Strike
+- Port Strike
+- Naval Patrol
+| Air Launched Torpedoes
+|-
+|
+|Medium Torpedo Mountings
+|
+- All Small
+- All Medium as secondary armament
+- All Large
+|–12 (on Naval Strike, Port Strike)
+|
+|+17 (on Naval Strike, Port Strike)
+|+8 (on Naval Strike, Port Strike)
+|0
+8 (on Naval Strike, Port Strike)
+|4 production cost
+|2 air exp
+|
+- Naval Strike
+- Port Strike
+- Naval Patrol
+| Improved Air Launched Torpedoes
+|-
+|
+|Heavy Torpedo Mountings
+|
+- All Small
+- All Medium as secondary armament
+- All Large
+|–12 (on Naval Strike, Port Strike)
+|
+|+22 (on Naval Strike, Port Strike)
+|+10 (on Naval Strike, Port Strike)
+|0
+11 (on Naval Strike, Port Strike)
+|4 production cost
+|2 air exp
+|
+- Naval Strike
+- Port Strike
+- Naval Patrol
+| Advanced Air Launched Torpedoes
+|-
+| || Guided Anti Ship Missile
+|
+- All Small
+- All Medium as secondary armament
+- All Large
+| –20 (on Naval Strike, Port Strike)
+|
+|+25 (on Naval Strike, Port Strike)
+|+10 (on Naval Strike, Port Strike)
+| 0
+20 (on Naval Strike, Port Strike)
+|15 production cost
+|5 air exp
+|
+- Naval Strike
+- Port Strike
+- Naval Patrol
+| Improved Guidance
+|-
+| || Fixed Explosive Charge
+|
+- All Airframes
+|–5
+|–10
+|+6 (on Kamikaze Strike)
+|+10 (on Kamikaze Strike)
+|0
+| 4 production cost
+| 5 air exp
+|
+- Kamikaze Strike
+|
+- suicide_charge secret technology
+|}
+
+## Tactical Bomber Weapons
+Aircraft designs that use one of these weapons for their main armament are classified as Tactical Bombers.
+{| class="wikitable sortable plainlist"
+|+
+! class="unsortable" | !! Type
+!Eligible Frames
+!Agility
+!Ground Attack
+!Naval Attack
+!Strategic Bombing
+!Weight
+! Production Cost
+!Design Cost
+!Allows Mission
+! Prerequisites
+|-
+| || Medium Bomb Bay
+|
+- All Medium
+| –15 (on Close Air Support, Logistic Strike, Port Strike, Strategic Bombing)
+|+6 (on Close Air Support, Logistic Strike)
+|+6 (on Port Strike without any Naval Bomber weapons)
+|+6 (on Strategic Bombing)
+|1
+6 (on Close Air Support, Logistic Strike, Port Strike, Strategic Bombing)
+|6 production cost
+|2 air exp
+|
+- Close Air Support
+- Strategic Bombing
+- Nuclear Strike
+- Port Strike
+- Logistics Strike
+| Bombs
+|}
+
+## Strategic Bomber Weapons
+Aircraft designs that use one of these weapons for their main armament are classified as Strategic Bombers.
+{| class="wikitable sortable plainlist"
+|+
+! class="unsortable" | !! Type
+!Eligible Frames
+!Agility
+!Air Defense
+!Strategic Bombing
+!Naval Attack
+!Naval Targeting
+!Weight
+! Production Cost
+!Design Cost
+!Allows Mission
+! Prerequisites
+|-
+| || Large Bomb Bay
+|
+- All Large
+| –15
+|
+|+15 (on Strategic Bombing)
+|+2 (on Port Strike without any Naval Bomber weapons)
+|
+|2
+8 (on Port Strike, Strategic Bombing)
+|9 production cost
+|2 air exp
+|
+- Strategic Bombing
+- Nuclear Strike
+- Port Strike
+| Bombs
+|-
+|
+|Earthshaker Bomb Release Mechanism
+|
+- All Large
+|–20 (on Port Strike, Strategic Bombing)
+|
+|+15 (on Strategic Bombing)
+|+9 (on Port Strike without any Naval Bomber weapons)
+|+3 (on Port Strike without any Naval Bomber weapons)
+|1
+9 (on Port Strike, Strategic Bombing)
+|9 production cost
+|2 air exp
+|
+- Strategic Bombing
+- Nuclear Strike
+- Port Strike
+| * Götterdämmerung
+- Earthshaker Bomb
+|-
+|
+|Rocket-Propelled Bombs
+|
+- All Large
+|–15
+|+2
+|+14 (on Strategic Bombing)
+|+12 (on Port Strike without any Naval Bomber weapons)
+|
+|0
+12 (on Port Strike, Strategic Bombing)
+|12 production cost
+|2 air exp
+|
+- Strategic Bombing
+- Nuclear Strike
+- Port Strike
+| Rocket Propelled Bombs
+|-
+|
+|Heavy Rocket-Propelled Bombs
+|
+- All Large
+|–18
+|+2
+|+16 (on Strategic Bombing)
+|+18 (on Port Strike without any Naval Bomber weapons)
+|
+|0
+15 (on Port Strike, Strategic Bombing)
+|16 production cost
+|2 air exp
+|
+- Strategic Bombing
+- Nuclear Strike
+- Port Strike
+| Heavy Rocket Propelled Bombs
+|}
+
+## Recon Equipment
+ La Résistance
+Aircraft designs that use one of these weapons for their main armament are classified as Scout Planes.
+{| class="wikitable sortable plainlist"
+|+
+! class="unsortable" | !! Type
+!Eligible Frames
+!Weight
+! Production Cost
+!Design Cost
+!Allows Mission
+! Prerequisites
+|-
+| || Recon Camera
+|
+- All Small as secondary armament
+- All Medium
+- All Large as secondary armament
+|1
+|1 production cost
+|2 air exp
+| Air Recon
+| Photo Reconnaissance
+|}
+
+## Secondary Weapons
+These weapons cannot be used as a plane's main armament and therefore do not affect the classification of a design.
+{| class="wikitable sortable plainlist"
+|+
+! class="unsortable" | !! Type
+!Eligible Frames
+!Minelaying
+!Weight
+! Production Cost
+!Design Cost
+!Allows Mission
+! Prerequisites
+|-
+| || Airdropped Mines
+|
+- All Airframes
+| 0.05
+|2
+|2 production cost
+|2 air exp
+| Naval minelaying
+|* Aerial Minelaying
+|}
+
+# Auxiliary modules
+These modules can be equipped in the auxiliary, or special, module slots of an airframe.
+
+## Special modules
+Any number of the following modules can be equipped on an airframe.
+{| class="wikitable sortable plainlist"
+! class="unsortable" | !! Module
+! Eligible Frames
+! Air Defense
+! Range
+! Weight
+! Production Cost
+! Design Cost
+! Prerequisites
+|-
+| || Armor Plates
+|
+- All Small
+| +4 || -10%
+| 2
+| 1 production cost || 1 air exp
+| rowspan="3" | Survivability Studies
+|-
+| || Armor Plates
+|
+- All Medium
+| +6 || -10%
+| 6
+| 3 production cost || 1 air exp
+|-
+| || Armor Plates
+|
+- All Large
+| +8 || -10%
+| 15
+| 5 production cost || 1 air exp
+|-
+| || Extra Fuel Tanks
+|
+- All Small
+| –2 || +50%
+| 2
+| 1 production cost || 1 air exp
+| rowspan="3" | Range Improvements
+|-
+| || Extra Fuel Tanks
+|
+- All Medium
+| –6 || +50%
+| 5
+| 2 production cost || 1 air exp
+|-
+| || Extra Fuel Tanks
+|
+- All Large
+| –8 || +50%
+| 8
+| 4 production cost || 1 air exp
+|}
+
+## Unique special modules
+Only up to one of each module can be equipped on an airframe.
+{| class="wikitable sortable plainlist"
+! class="unsortable" | !! Module
+! Eligible Frames
+! Air Defense
+! Range
+!Naval Targeting
+! Weight
+! Production Cost
+! Resource Use per Factory
+! Design Cost
+! Prerequisites
+|-
+| || Dive Brakes
+|
+- All Small
+|+4 (on Close Air Support, Naval Strike without any Naval Bomber weapons, Port Strike without any Naval Bomber weapons)
+|
+|+6 (on Close Air Support, Naval Strike without any Naval Bomber weapons, Port Strike without any Naval Bomber weapons)
+|2
+|2 production cost
+|
+| 1 air exp
+| rowspan="4" | Aircraft Construction
+|-
+| || Non-Strategic Material Usage
+|
+- All Small
+| –6 ||
+|
+|
+| -7.5% production cost || –2 aluminum || 1 air exp
+|-
+| || Non-Strategic Material Usage
+|
+- All Medium
+| –8 ||
+|
+|
+| -7.5% production cost || –2 aluminum || 1 air exp
+|-
+| || Non-Strategic Material Usage
+|
+- All Large
+| –10 ||
+|
+|
+| -7.5% production cost || –3 aluminum || 1 air exp
+|-
+| || Drop Tanks
+|
+- All Small
+| || +25%
+|
+| 3
+| 1 production cost || || 1 air exp
+| Range Improvements
+|-
+| || Self Sealing Fuel Tanks
+|
+- All Small
+| +6 ||
+|
+| 1
+| 1 production cost || +1 rubber || 1 air exp
+| rowspan="3" | Survivability Studies
+|-
+| || Self Sealing Fuel Tanks
+|
+- All Medium
+| +8 ||
+|
+| 1
+| 1.5 production cost || +2 rubber || 1 air exp
+|-
+| || Self Sealing Fuel Tanks
+|
+- All Large
+| +10 ||
+|
+| 1
+| 2 production cost || +2 rubber || 1 air exp
+|}
+
+## Naval modules
+Only up to one of each module can be equipped on an airframe.
+{| class="wikitable sortable plainlist"
+|+
+! class="unsortable" | !! Type
+!Eligible Frames
+!Agility
+!Max Speed
+!Surface Detection
+!Sub Detection
+!Minesweeping
+!Weight
+!Production Cost
+!Design Cost
+!Allows Mission
+!Prerequisites
+|-
+| || Floats
+|
+- All Small except Carrier Airframes
+|–5
+|-30%
+|+5
+|+3
+|
+|1
+|1 production cost
+| 1 air exp
+|
+| rowspan="3" | Aircraft Construction
+|-
+| || Flying Boat
+|
+- All Medium
+|
+| -40%
+|+8
+|+3
+|
+|
+|4 production cost
+| 1 air exp
+|
+|-
+| || Flying Boat
+|
+- All Large
+|
+| -40%
+|+12
+|+5
+|
+|
+|4 production cost
+| 1 air exp
+|
+|-
+| || Demining Coil
+|
+- All Medium
+- All Large
+| –5
+|
+|
+|
+| +0.1
+|20
+|3 production cost
+|2 air exp
+| Naval minesweeping
+| * Aerial Minesweeping
+|}
+
+## Electronics
+Only one of each module type can be equipped on an airframe. E.g., if Radio Navigation II is equipped, then Radio Navigation I is also not available.
+{| class="wikitable sortable plainlist"
+! class="unsortable" | !! Module
+!Eligible Frames
+! Strategic Bombing
+! Night Penalty
+! Surface Detection
+! Sub Detection
+! Weight
+! Production Cost
+! Design Cost
+! Notes
+! Prerequisites
+|-
+| || Air-Air Radar I
+|
+- All Airframes
+| || -20%
+| ||
+| 1
+| 4 production cost || 1 air exp
+| On mission type: Interception
+| Centimetric Radar
+|-
+| || Air-Air Radar II
+|
+- All Airframes
+| || -40%
+| ||
+| 2
+| 6 production cost || 1 air exp
+| On mission type: Interception
+| Phased Array
+|-
+| || Air-Ground Radar I
+|
+- All Airframes
+| +4 || -30%
+| +10 || +5
+| 2
+| 2 production cost || 1 air exp
+| On mission type: Naval Patrol, Naval Strike, Port Strike, Strategic Bombing
+| Centimetric Radar
+|-
+| || Air-Ground Radar II
+|
+- All Airframes
+| +6 || -40%
+| +20 || +10
+| 2
+| 3.5 production cost || 1 air exp
+| On mission type: Naval Patrol, Naval Strike, Port Strike, Strategic Bombing
+| Monopulse Radar
+|-
+| || Bomb Sights I
+|
+- All Airframes
+| +4 ||
+| ||
+| 1
+| 1.5 production cost || 1 air exp
+|
+| Mechanical Computing
+|-
+| || Bomb Sights II
+|
+- All Airframes
+| +6 ||
+| ||
+| 1
+| 2 production cost || 1 air exp
+|
+| Improved Computing Machine
+|-
+| || Radio Navigation I
+|
+- All Airframes
+| +4 || -10%
+| ||
+| 1
+| 1 production cost || 1 air exp
+|
+| Radio
+|-
+| || Radio Navigation II
+|
+- All Airframes
+| +6 || -20%
+| ||
+| 1
+| 1.5 production cost || 1 air exp
+|
+| Improved Radio
+|}
+
+## Defense turrets
+Multiple of the following can be equipped on an airframe, with the exact limit based on the specific airframe used.
+{| class="wikitable sortable plainlist"
+! class="unsortable" | !! Module
+!Eligible Frames
+!Air Defense
+! Air Attack
+!Max Speed
+! Agility
+! Weight
+! Production Cost
+! Design Cost
+! Prerequisites
+|-
+| || Light MG Defense Turret
+|
+- All Small
+- All Medium
+- All Large
+|+1|| +1
+|-3%
+| +0.5 (on Close Air Support, Strategic Bombing, Naval Strike, Port Strike, Logistics Strike, Naval Minelaying, Naval Patrol)
+|1
+| 1 production cost || 1 air exp
+| rowspan="2" | Light MG
+|-
+| || Light MG Defense Turret 2x
+|
+- All Medium
+- All Large
+|+2|| +1.5
+|-6%
+| +1 (on Close Air Support, Strategic Bombing, Naval Strike, Port Strike, Logistics Strike, Naval Minelaying, Naval Patrol)
+|2
+| 2 production cost || 1 air exp
+|-
+| || Heavy MG Defense Turret
+|
+- All Small
+- All Medium
+- All Large
+|+2|| +1.5
+|-3.5%
+| +1 (on Close Air Support, Strategic Bombing, Naval Strike, Port Strike, Logistics Strike, Naval Minelaying, Naval Patrol)
+| 2
+| 2 production cost || 1 air exp
+| rowspan="2" | Heavy MG
+|-
+| || Heavy MG Defense Turret 2x
+|
+- All Medium
+- All Large
+|{{Green|+4|| +3
+|-7%
+| +2 (on Close Air Support, Strategic Bombing, Naval Strike, Port Strike, Logistics Strike, Naval Minelaying, Naval Patrol)
+| 4
+| 4 production cost || 1 air exp
+|-
+| || Cannon Defense Turret
+|
+- All Small
+- All Medium
+- All Large
+|+4|| +3
+|-3.7%
+| +2 (on Close Air Support, Strategic Bombing, Naval Strike, Port Strike, Logistics Strike, Naval Minelaying, Naval Patrol)
+| 4
+| 4 production cost || 1 air exp
+| rowspan="2" | One of the following:
+ - Large Cannons
+ - Cannons II
+|-
+| || Cannon Defense Turret 2x
+|
+- All Medium
+- All Large
+|+8|| +6
+|-7.5%
+| +4 (on Close Air Support, Strategic Bombing, Naval Strike, Port Strike, Logistics Strike, Naval Minelaying, Naval Patrol)
+| 8
+| 8 production cost || 1 air exp
+|}
+
+# References
+
+- For module data, see reference files in folder common/units/equipment/modules.
+- For flavor text, see reference files:
+ - plane_designer_l_english.yml.
+ - designer_l_english.yml.
+ - modifiers_l_english.yml.

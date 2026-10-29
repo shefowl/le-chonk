@@ -1,0 +1,305 @@
+TITLE: Commander
+URL: https://hoi4.paradoxwikis.com/Commander
+REVISION: 2025-09-07T22:37:14Z (rev 89648)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+A commander leads a number of units and provides bonuses to them based on the commander's skills and traits. For a list of commanders by country, see list of commanders.
+
+Divisions also have divisional commanders, or officers, assigned to them. These can be seen when viewing the details of a division, or, with By Blood Alone , when viewing the list of officers that can be promoted to generals. They are purely flavor when playing without By Blood Alone , but when playing with By Blood Alone , they can gain medals through earning experience with their division, and new generals are promoted from them instead of being purely randomly generated.
+
+# Hiring
+New generals can be recruited at a cost of NPolitics ARMY_LEADER_COST cp for each existing general, up to a maximum of NPolitics ARMY_LEADER_MAX_COST cp . New admirals can be recruited at a cost of 5 cp for each existing admiral, up to a maximum of 80 cp . Commanders cannot normally die or be dismissed, though some country-specific events will remove particular historical commanders.
+
+Newly recruited generals have a NEW_ARMY_LEADER_LEVEL_CHANCES chance to start at skill level 1 and a NEW_ARMY_LEADER_LEVEL_CHANCES chance to start at skill level 2. This can be increased through various bonuses, e.g., Academy Scholarships and Best of the Best Spirit of the Academy officer corps spirits.
+
+Newly recruited admirals have a NEW_NAVY_LEADER_LEVEL_CHANCES chance to start at skill level 1 and a NEW_NAVY_LEADER_LEVEL_CHANCES chance to start at skill level 2. This can be increased through various bonuses, e.g., Academy Scholarships and Best of the Best Spirit of the Naval Academy officer corps spirits.
+
+With By Blood Alone , new generals are promoted from divisional commanders instead of purely randomly generated. Doing so causes the newly promoted general's assigned division to lose 25% of its experience and to generate a new officer to replace their old divisional commander, though the experience loss is completely negated with the Accomplished Heritage officer corps spirit. Divisional commanders promoted to generals will keep the experience that they earned as divisional commanders. If they have at least 400 experience when they are promoted, they will also randomly get a trait like Infantry Officer , Cavalry Officer , Armor Officer , or Engineer Officer based on the battalions and support companies present in the division to which they were assigned.
+
+# General
+Generals can command up to 24 divisions effectively unless they are in "Garrison Area" mode, during which the limit is tripled to divisions. Above this limit, their bonuses and XP gain are reduced proportionally. The traits of generals are oriented towards specialization in different units (e.g., tanks, foot infantry), adverse terrain/climates and tactical situations (e.g., attacking forts). Generals may be promoted to field marshals at the cost of command power and the temporary loss of one skill level.
+
+# Field marshal
+A field marshal commands army groups, large formations composed of several armies. A field marshal initially may command up to 5 armies; with the Expert Delegator trait, this limit can be increased to seven. Their traits give general bonuses, helping any kind of unit, such as, for example, +10% recovery rate, or increasing maximum army sizes. All armies assigned to the field marshal's army group receive these bonuses.
+
+General's traits and the field marshal's skill levels apply to subordinate armies with a 0.5 penalty. Modifiers from Personality traits, such as Cautious or Old Guard , are passed down to generals with no penalty.
+
+They can still be used as generals, but their field marshal traits will be disabled when they are not commanding an army group. However, bonuses from field marshal traits to specialized skills, e.g., the +1 Attack from Offensive Doctrine , still apply even when a field marshal is commanding an army instead of an army group.
+
+# Admiral
+Admirals can command up to NNavy ADMIRAL_TASKFORCE_CAP task forces. Above this limit, their bonuses and experience gain are reduced proportionally.
+
+# Divisional Commander
+ By Blood Alone
+Divisional commanders, or officers, are commanders below the level of generals who are in charge of individual divisions. Just like other commanders, they gain experience when fighting in battles, though this experience does not provide any benefits until/unless they are promoted to generals. They can accrue up to 8000 experience as divisional commanders.
+
+All divisions will always have a divisional commander assigned to them. In the base game, there is a 0% chance that a divisional commander will be a woman, but this can be easily changed with modding.
+
+# Skill
+Commanders have a generic skill level and specialized skills for different aspects of warfare. Only admirals gain immediate benefits from their generic level.
+
+1
+100
+100
+DIVISIONAL_COMMANDER_RANK_XP_THRESHOLD
+100
++5%
++1%
+
+2
+300
+300
+DIVISIONAL_COMMANDER_RANK_XP_THRESHOLD
+200
++10%
++3%
+
+3
+500
+500
+DIVISIONAL_COMMANDER_RANK_XP_THRESHOLD
+400
++15%
++5%
+
+4
+1000
+1000
+DIVISIONAL_COMMANDER_RANK_XP_THRESHOLD
+800
++20%
++7%
+
+5
+1500
+1500 |
+1600
++25%
++9%
+
+6
+2500
+2500 |
+3200
++30%
++11%
+
+7
+5000
+5000 |
+6400
++35%
++13%
+
+8
+7500
+7500 |
+12800
++40%
++15%
+
+9
+10000
+10000 |
+25600
++45%
++17%
+
+The specialized skills for generals and field marshals and their effects are:
+- Attack, increasing soft attack and hard attack of divisions. +2.5% per level
+- Defense, increasing defense and breakthrough. +2.5% per level
+- Logistics, reducing supply consumption. +2.5% per level
+- Planning, increasing the speed and value of plan preparation. +5% planning speed, +2% max planning per level
+
+For admirals, they are:
+- Attack, increasing the damage done to enemy ships by your weapons. Attack: +5% per level
+- Defense, increasing ship armor and decreasing enemy damage. Defense: +5% per level
+- Maneuvering, getting ships into and out of combat faster. Fleet speed while retreating: +1%, Positioning: +2.5% per level
+- Coordination, improving mission execution. Fleet Coordination: (Level*2)-1%
+
+With By Blood Alone , divisional commanders (officers) do not provide any additional benefits to their division from their skill levels, but the experience they earn as divisional commanders is kept when they are promoted to generals, and they can gain a trait when this happens if they have earned enough experience.
+
+## Skill factor
+When leveling up, a commander gains 3 points in specialized skills. These points are distributed randomly, but many commanders' traits skew this distribution with a hidden in-game modifier called skill factor. The same specialized skill can be increased multiple times.
+
+For generals and field marshals, the default weights for Attack, Defense, Logistics, and Planning are COMMANDER_LEVEL_UP_STAT_WEIGHTS, COMMANDER_LEVEL_UP_STAT_WEIGHTS, COMMANDER_LEVEL_UP_STAT_WEIGHTS, and COMMANDER_LEVEL_UP_STAT_WEIGHTS, respectively. For admirals, the default weights for Attack, Defense, Maneuvering, and Coordination are NAVY_LEADER_LEVEL_UP_STAT_WEIGHTS, NAVY_LEADER_LEVEL_UP_STAT_WEIGHTS, NAVY_LEADER_LEVEL_UP_STAT_WEIGHTS, and NAVY_LEADER_LEVEL_UP_STAT_WEIGHTS, respectively. Various traits, such as Brilliant Strategist or Media Personality , can modify these weights, increasing the chance that certain specialized skills get increased over others.
+
+Certain officer corps spirits, such as Bold Attack or Signals Training , provide a chance to further increase one or more specialized skills whenever a commander gains a skill level. These are on top of the 3 points that would normally be gained when leveling up. They also apply when commanders gain skill levels from national focuses, such as with Improve the Motorized Troops for the German Reich, Honor the Great War Veterans for Hungary, or Indianize the Army for British Raj.
+
+# Traits
+(Main article: Commander trait)
+Each commander may have a number of traits, represented by medal icons. Traits are acquired when units do a certain action in combat. For example, if an army under a general manages to encircle and destroy an amount of enemy divisions, the general may acquire the Trickster trait, which boosts reconnaissance. Experience gained towards gaining traits is decreased the more earnable traits the general already has.
+
+# Abilities
+Generals and field marshals have a number of abilities, represented by icons on top of Battle plans. Abilities can be acquired through traits, and some can be upgraded through certain national focuses. All abilities cost cp (CP) to use, with the exact amount scaling based on the number of battalions in the divisions under the commander's control.
+
+Command Ability: Extra Supplies
+Effect on All Divisions:
+- Supply Grace: +168.0 h
+- Immediately add +2 days' worth of supplies
+Duration: 7 days
+Cooldown: 21 days
+cp Cost per Battalion: 0.20
+Notes:
+Available to commanders with the Logistics Wizard trait except those of the British Raj after having completed Quinine.
+
+Command Ability: Supply Quinine
+Effect on All Divisions:
+- Supply Grace: +240.0 h
+- Attrition: -12%
+- Chance of Commander Sickness : -100%
+- Heat Attrition factor: -35%
+- Immediately add +3 days' worth of supplies
+Duration: 10 days
+Cooldown: 21 days
+cp Cost per Battalion: 0.15
+Notes: Available to all commanders of the British Raj after having completed Quinine.
+
+Staff Office Plan
+Planning Speed : +400.0%
+7 days
+0.12
+Available to all commanders.
+
+Force Attack
+- Attack: +20.0%
+- Breakthrough: +25.0%
+- Organization damage taken: -100.0%
+- Strength damage taken: +60.0%
+- War Support reduction on damaged: +20.0%
+- Can retreat while attacking: no
+7 days
+0.22
+Available to all generals except those of China after having completed Dare-to-Die Corps.
+
+Force Attack
+(upgrade)
+- Attack: +25.0%
+- Breakthrough: +25.0%
+- Organization damage taken: -100.0%
+- Strength damage taken: +25.0%
+- War Support reduction on damaged: +20.0%
+- Can retreat while attacking: no
+7 days
+0.11
+Available to all generals of China after having completed Dare-to-Die Corps.
+
+Last Stand
+- Defense: +20.0%
+- Entrenchment: +25.0%
+- Organization damage taken: -100.0%
+- Strength damage taken: +60.0%
+- War Support reduction on damaged: +20.0%
+- Can retreat while defending: no
+7 days
+0.22
+Available to all generals except those of Japan after having completed Warrior Spirit, Nationalist Spain after having completed Cultivate Fanaticism, and Sweden after having completed Winter Drill.
+
+Last Stand
+(upgrade)
+- Defense: +20.0%
+- Entrenchment: +25.0%
+- Organization damage taken: -100.0%
+- Strength damage taken: +60.0%
+- Can retreat while defending: no
+7 days
+0.05
+Available to all generals of Japan after having completed Warrior Spirit.
+Available to all generals of Nationalist Spain after having completed Cultivate Fanaticism.
+
+Last Stand
+(Sweden)
+- Defense: +20.0%
+- Entrenchment: +25.0%
+- Organization damage taken: -100.0%
+- Strength damage taken: +60.0%
+- War Support reduction on damaged: +20.0%
+- Can retreat while defending: no
+7 days
+0.16
+Available to all generals of Sweden after having completed Winter Drill.
+
+Probing Attack
+- Attack: -20.00%
+- Keep Entrenchment on Attack: yes
+7 days
+0.10
+Available to commanders with the Skirmisher trait.
+
+Siege Artillery
+- Fort Damage from Combat: +200.0%
+- Fort Damage Chance from Combat: +200.0%
+- Fort Attack: +20.0%
+7 days
+0.10
+Available to commanders with the Fortress Buster trait.
+
+Glider Planes
+- Paratrooper Transport Space Factor: -10.0%
+- Paratrooper Organization After Paradropping: +200.0%
+- Paratrooper Anti Air Defense: +50.0%
+7 days
+0.10
+Available to commanders with the Paratroopers trait.
+
+Makeshift Bridges
+- River Crossing Speed Penalty: -40.00%
+- River Attack: +20.0%
+7 days
+0.10
+Available to commanders with the Improvisation Expert trait.
+
+Naval Assault Plan
+Naval Invasion Preparation Speed: +50.0%
+7 days
+0.10
+Available to commanders with the Amphibious trait.
+
+Requisition Winter Gear
+Cold Weather acclimatization factor: +50.0%
+7 days
+0.10
+Not available for anyone.
+
+# Experience [verified for 1.16]
+
+Commanders gain experience when the units under their command engage in combat. With enough experience, they will advance a skill level.
+For generals the amount of experience gained in each battle per hour depends on multiple factors:
+- The base value is NMilitary BASE_LEADER_TRAIT_GAIN_XP.
+- The number and size of actively fighting divisions under the general's command: Each division counts as NMilitary ARMY_LEADER_XP_GAIN_PER_UNIT_IN_COMBAT yes Small divisions (less than NMilitary DIVISION_SIZE_FOR_XP battalions and support companies) count proportionately for less, e.g. a division containing only 3 battalions would count only as 3.75%.
+- Damage comparison: the side dealing more damage (HP and organization combined) in the last 24 hours gains more XP while the opposite side gets less. The bonus is reduced if the battle lasted less than 24 hours yet.
+ - The side that dealt more damage gets up to XP_GAIN_FACTOR_FOR_MAX_RELATIVE_COMBAT_DAMAGE of normal XP when dealing up to NMilitary MAX_RELATIVE_COMBAT_DAMAGE_TO_MODIFY_XP yes as much damage as it received
+ - The side dealing less damage gets their XP gain scaled down by the average equipment ratio and average organization ratio of their divisions (including reserve), e.g. when all division are at half strength and have half of their organization, the experience is scaled to 25%.
+ - These two effects do not stack with each other, i.e. each side is only affected by one of them.
+- Decay over time: every hour of combat XP gain decays linearly by % until reaching MIN_XP_RATE_TO_DECAY (after 30 days).
+- If multiple generals fight on the same side, each one only gets NMilitary CONSTANT_XP_RATIO_FOR_MULTIPLE_LEADERS_IN_SAME_COMBAT yes + NMilitary CONSTANT_XP_RATIO_FOR_MULTIPLE_LEADERS_IN_SAME_COMBAT yes / (number of generals). This results in 100%, 75%, 67% etc. for each general of a total of 1, 2, 3 etc.
+- Command limit penalty: A general receives a scaling penalty when commanding too many units. The penalty reaches 100% when commanding twice as many units as the usual limit.
+- Modifiers: national ideas and leader traits (e.g. Old Guard and Politically Connected) can increase or reduce the XP gain. They all stack additively.
+
+If the battle matches any traits gainable through combat, the experience also counts towards those.
+
+Generals also gain XP_GAIN_PER_OVERRUN_UNIT experience for overrunning units and XP_GAIN_FOR_SHATTERING for shattering them.
+
+If the general is under the command of a field marshal, the latter also gains NMilitary FIELD_MARSHAL_XP_RATIO yes of the experience, including towards their applicable traits. A field marshal does not gain experience from units without a general.
+
+XP type: General trait
+Division-combat-hours per XP: 25
+
+XP type: General level
+Division-combat-hours per XP: 50
+
+XP type: Field Marshal trait
+Division-combat-hours per XP: 200
+
+XP type: Field Marshal level
+Division-combat-hours per XP: 400
+
+With By Blood Alone , divisional commanders initially gain 4% of the experience earned by their division in combat, but this is increased by +10% for each medal the division has earned. They do not gain experience earned from training the division, only from combat. Unlike experience on the division, experience for the divisional commander is not lost when their division suffers manpower losses.
+
+Most medals give a division's divisional commander an additional 100 XP when they are granted.
+
+# References
+
+hoi4fr:Commandant

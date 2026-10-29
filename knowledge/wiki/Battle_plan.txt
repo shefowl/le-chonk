@@ -1,0 +1,507 @@
+TITLE: Battle plan
+URL: https://hoi4.paradoxwikis.com/Battle_plan
+REVISION: 2026-03-27T17:44:44Z (rev 99346)
+VERIFIED FOR: 1.9
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+A Battle Plan is an important tool that helps players visualize how their divisions will advance, allows the AI to control the player's divisions automatically, and can confer a Planning bonus. Plans do not have to be drawn in order to give divisions orders, but are generally recommended as they reduce micromanagement, improve the flow of gameplay and provide bonuses to unit performance that can offset those enjoyed by heavily entrenched enemies.
+
+If desired, different divisions within a single army may be allocated to different battle plans. In this case, players will usually have to manually assign divisions to each front, or they will default to the first front drawn.
+
+An example of a battle plan would be a major invasion of Italy, north of enemy lines, designed to crush an enemy preoccupied with an engagement from the south. The player can set up and separately activate one or more amphibious landings, paradrops, and attacks by ground forces already facing the enemy, each at the time they think best. Some of these plan orders might be set up to be implemented by the player at the same time, while others may be set up to occur in sequence, in each case activated by the player as needed by shift-clicking only on that specific order to activate it, and with the ability to change that element of the plan or the troops assigned to it before or after activation. This allows different parts of an army to perform separate tasks for the player within an overall strategy, much as army corps performed different missions for WW2 armies. Use of such complex plans is optional, but occasionally very useful when a player has to launch multiple different operations at the same time or by stages.
+
+To make a battle plan for offensive land operations, the player must first define a Front Line – this is the point from which the army group will begin operations. Select the Front Line button or press Z, then click on or draw a line on the map along a national border or the current line between opposing forces to indicate where the army's currently selected divisions will assemble. Then click the Offensive Line button (a line with an arrow) or press X and draw the front to which the armies should advance from the current Front Line.
+
+# Drawing battle plans [verified for 1.9]
+
+The battle plan tools can be accessed via the battle plan toolbar that opens when an army (a general) or an army group (a field marshal) is selected.
+
+For the buttons
+- Exercise
+- Divisions assignment mode
+- Unassign divisions
+- Edit mode
+- Delete order
+see the article Hotkeys#Battleplan_hotkeys.
+
+With the button
+- Execute battle plans carefully
+the player can select if the battle plan is executed carefully, in a balanced manner or aggressively.
+
+The use of the buttons
+- Naval invasion
+- Naval invasion with floating harbor
+ - Same as Naval invasion above, but requires one No Step Back floating harbor in stockpile.
+- Paradrop
+- Front Line
+- Offensive Line
+- Spearhead
+- Fallback line
+- Area Defense
+is described in the following sections.
+
+# Naval invasion
+
+ A naval invasion is an amphibious attack on enemy territory. It is a very powerful tool to open up new fronts against an enemy where they least expect them.
+
+When selecting a naval invasion order, the player will be asked to left-click on a province with a naval base as a point of departure and right-click on the enemy province(s) to invade.
+The army will automatically gather at the naval base they will depart from for the assault.
+
+Naval invasions may be launched from any friendly port that the player has access to. This means that an invasion of enemy territory can be launched from the port of an ally that is not at war with the enemy.
+
+## Capacity
+
+The total number of divisions assigned to naval invasions of a country is limited by its Naval Invasion Capacity. The capacity is primarily determined by the naval technologies of the 'transports' branch, it can also be increased +5 by selecting the Marine Special Forces doctrine (requires No Step Back). The base value is zero, which means that the technology “Transport Ship” must be researched before divisions may be assigned to a naval invasion.
+
+Year: 1922
++10
+Technology: Transport Ship
+
+Year: 1940
++20
+Technology: Landing Craft
+
+Year: 1944
++100
+Technology: Advanced Landing Craft
+
+The naval invasion order that has more divisions assigned than the Naval Invasion Capacity limits will not take place. The arrow on the map appears but with the text “No divisions 0 Transports”. The assigned divisions keep their ! red exclamation mark which indicates that they have no orders.
+
+A country's invasion capacity is measured in division number, not in their total weight or combat width. Wider and more powerful division templates allow players to execute stronger invasions.
+
+## Preparation time
+Naval invasions require time to prepare before they may be executed. The exact time it will take is dependent on technology and the amount of divisions to be shipped over. With the first level of naval invasion technology, a 1-division invasion will take 7 days and 10-division invasion will take 70 days of planning. Landing Craft technology (1940) halves time required.
+
+The planning will proceed immediately, even while the divisions are still on their way to the departure port.
+
+It is possible to prepare several invasions from different ports in parallel, even to the same target province(s), saving on total preparation time.
+It is also possible to prepare several invasions to different target provinces from the same port.
+
+Note that the naval invasion capacity is shared among all player's naval invasions and is not per single naval invasion.
+
+## Convoys
+In order to ship units over to foreign lands, sufficient convoys are required to do so. The amount of convoys an individual division requires is dependent on its weight; the weight is equivalent with the amount of convoys required to ship over one division. The amount of convoys required is rounded up. Technology may decrease the amount of convoys required for an invasion.
+
+- Support companies
+- Anti-Air
+- Anti-Tank
+- Artillery
+- Bicycle
+- Cavalry
+- Infantry
+- Mountaineers
+- Marines
+- Motorized Anti-Tank
+- Motorized Anti-Air
+- Motorized Artillery
+- Motorized Rocket Artillery
+- Paratroopers
+- Penal Battalion
+- Rocket Artillery
+- Truck-drawn Rocket Artillery 2
+- Camelry
+- Motorized Infantry
+- Armored Car
+- Amphibious Tank Battalion
+- Amtrac Battalion
+- Heavy Amphibious Tank Battalion
+- Light Amphibious Tank Battalion
+- Light SP Anti-Air
+- Light SP Artillery
+- Light Tank
+- Light Tank Destroyer
+- Mechanized Infantry
+- Medium Amphibious Tank Battalion
+- Medium SP Anti-Air
+- Medium SP Artillery
+- Medium Tank
+- Medium Tank Destroyer
+- Heavy SP Anti-Air
+- Heavy SP Artillery
+- Heavy Tank
+- Heavy Tank Destroyer
+- Modern SP Anti-Air
+- Modern SP Artillery
+- Modern Tank
+- Modern Tank Destroyer 2
+- Superheavy SP Anti-Air
+- Superheavy SP Artillery
+- Superheavy Tank
+- Superheavy Tank Destroyer
+
+## Naval intel efficiency
+
+Naval supremacy gets reduced if naval intelligence efficiency is low. At 10% intel or less, supremacy gets reduced to 50%. The penalty linearly improves and disappears at 40% intel.
+
+The actual value of naval intel efficiency of a seazone can be seen in the seazone property window, that you get when you click a seazone. You have to hover with the mouse over the naval supremacy bar. Alternatively you can see it, when you hover with your mouse over a seazone in the strategic navy map mode (accessible with the F2 button).
+
+The naval intel efficiency of a seazone is calculated from the intel you have from nations you are at war with and that have ships in that seazone. If you are not at war, you have 100% naval intel efficiency everywhere. If you are at war with one country, you have 100% naval intel efficiency in all seazones in which this country has no ships assigned (the value Enemy supremacy is 0). In the seazones in which the country has ships assigned (Enemy supremacy > 0), the naval intel efficiency is the intel you have of that country. If you are at war with more countries, and more than one of these countries have ships in one seazone, the naval intel efficiency, is weighted towards the country that has more naval supremacy in that seazone.
+
+With the DLC La Résistance La Résistance, the intel you have of a country, can be seen in the intel ledger of that country. When you hover with the mouse over the naval section of the intel ledger, you see how the navy intel is calculated.
+
+There are several factors that contribute to naval intel efficiency. The naval intel efficiency against a specific enemy country, expressed as a percentage between 0 and 100, is the sum of each of the following factors:
+
+Common factors on naval intel efficiency: (With and without La Résistance)
+- Enemy Ideology (Democratic: 20%, Non aligned: 20%, Communist: 12.5%, Fascist: 10%)
+- Enemy Trade law (Free trade: 20%, Export focus: 10%, Limited exports: 5%, Closed economy: 0%)
+- Radar coverage (Radars that cover any seazone with enemy ships on missions, can provide up to 20% naval intel efficiency. Naval intel gathered per radar is only one value per country, not per seazone. Naval intel about the UK gathered per radar that covers the english channel can provide naval intel efficiency for a naval invasion in the Mediterranean Sea.)
+- Fighting the enemy navy (Naval intel gained from naval battles decays by around -0.2%/week.)
+
+Factors on naval intel efficiency only with the DLC La Résistance La Résistance:
+- Spy networks (up to 40%)
+- Operations (Infiltrate navy 10%)
+- Decrypted enemy ciphers (passive bonus 10% and 30 days bonus 50%)
+- Intel from faction members (30% of the intel difference)
+- Captured enemy operatives.
+
+The Naval Department upgrade to Intelligence agency boosts the naval intel efficiency by +25% of its total value, i.e. it is multiplied by 1.25.
+
+Factors on naval intel efficiency only without the DLC La Résistance:
+
+- Own Decryption level and enemy Encryption level
+
+- {| class="wikitable"
+|-
+!
+!
+! colspan="4" |Own Decryption level
+|-
+!
+| style="width: 3em;" |
+| style="width: 3em;" |0
+| style="width: 3em;" |1
+| style="width: 3em;" |2
+| style="width: 3em;" |
+3
+|-
+! rowspan="4" |Enemy Encryption level
+|0
+|0%
+|30%
+| 45%
+|60%
+|-
+|1
+|0%
+|15%
+|22.5%
+|30%
+|-
+|2
+|0%
+|10%
+|15%
+|20%
+|-
+|3
+| 0%
+|7.5%
+|11.25%
+|15%
+|}
+
+Example with the DLC La Résistance La Résistance:
+
+As illustrated by the picture opposite: Democratic ideology (20%), Export Focus trade law (10%), Radar coverage (16.9%) and Spy network (5.5%) adding up to 52.4%, then multiplied by 1.25 from the Naval Department, give the total naval intel efficiency of 65.5% against this particular instance of UK.
+
+Example without the DLC La Résistance:
+
+If you don't use the DLC La Résistance and want to naval invade a fascist country (10%) that has closed economy (0%) and has researched Encryption level 3 and you have Decryption Level 3 (15%) and have no radars that cover any enemy territory: You get a naval intel efficiency of 25%, reducing your naval supremacy to 75% of the normal value.
+
+## Naval supremacy [verified for 1.9]
+
+To execute a naval invasion, a country requires more than NAVAL_SUPREMACY_CAN_INVADE naval supremacy (also called 'naval superiority' in some tooltips) in all strategic regions (sea zones) in which the divisions will need to traverse the sea en-route to their destination. These are the regions the arrow of the naval invasion battle plan passes through.
+
+To be able to get naval supremacy, you have to have at least NAVAL_SUPREMACY_INTEL_LOW naval intel efficiency.
+
+Naval supremacy of a navy depends on what type of mission it is running, how effective it is on the region, how many ships it has and how large they are.
+Naval supremacy in a strategic region (sea zone) is the sum of naval supremacy of the taskforces assigned to it.
+
+Naval supremacy by naval missions:
+
+Mission: Patrol
+Naval supremacy: MISSION_SUPREMACY_RATIOS
+
+Mission: Strike Force
+Naval supremacy: MISSION_SUPREMACY_RATIOS
+
+Mission: Naval Invasion Support
+Naval supremacy: MISSION_SUPREMACY_RATIOS
+
+Mission: Convoy Raiding
+Naval supremacy: MISSION_SUPREMACY_RATIOS
+
+Mission: Convoy Escort
+Naval supremacy: MISSION_SUPREMACY_RATIOS
+
+Mission: Minelaying
+Naval supremacy: MISSION_SUPREMACY_RATIOS
+
+Mission: Minesweeping
+Naval supremacy: MISSION_SUPREMACY_RATIOS
+
+Mission: Naval Exercises
+Naval supremacy: MISSION_SUPREMACY_RATIOS
+
+Mission: Hold (in and out of port)
+Naval supremacy: MISSION_SUPREMACY_RATIOS
+
+Larger ships contribute more to naval supremacy. For example the italian early battleship RN Andrea Doria provides 356 naval supremacy on strike force mission. A single Curatone Class italian early destroyer provides 117 naval supremacy on strike force mission. Naval supremacy per ship is calculated as:
+
+- Naval supremacy of ship = SUPREMACY_PER_SHIP_BASE + SUPREMACY_PER_SHIP_PER_IC * ship naval production cost + SUPREMACY_PER_SHIP_PER_MANPOWER * ship manpower
+
+Task forces with Do Not Engage order do not contribute to naval supremacy.
+
+Air superiority and Minelaying provide a bonus for naval supremacy. Maximum possible bonus from air superiority is +100% to the ship amount, making each ship count for two. It is achieved when air superiority is 100% and there are enough planes to cover 100% of the sea region.
+
+Naval supremacy is only required for a short moment to launch the prepared invasion. After that the invasion will proceed even without sufficient supremacy.
+Once the naval invasion has been properly planned, naval supremacy and naval intel efficiency has been attained, and sufficient convoys are gathered, the plan may be activated.
+
+## Invasion in transit
+Invading divisions travel through the sea province by province on convoys, and can be intercepted by enemy fleets and bombers just like supply and trade convoys. It is recommended to use escorts for the convoys, lest the enemy rally their entire fleet to intercept the invading fleet.
+
+When invaders reach the shores and begin to disembark, the side being invaded gets a notification with an icon and a sound and has a brief moment to rally any defenders.
+
+Invasion speed is improved by technology, and is greatly delayed by attacks on the convoys.
+
+## Invasion combat
+
+If the invasion meets resistance, similar to attacking over a naval strait, the landing troops receive a default 70.7% penalty to attack and breakthrough in the ensuing combat (see Terrain#Terrain_features).
+The Amphibious adjuster of the division can modify this penalty.
+Heavy equipment generally makes it worse, while marines, engineers, Man the Guns amphibious vehicles, and No Step Back flame tanks perform better (see Terrain#Unit-specific_adjusters).
+
+Consider using Shore bombardment to support the invasion, as well as any close air support in range.
+
+Additionally, divisions have increased breakthrough (+50%) but reduced attack (-80%) while being protected by their transports.
+These effects fade away as the landing progresses and the troops leave their landing crafts, measured by movement progress (usually ending after 48 hours). The Amphibious Invasion Speed modifier gives units a head start in this landing progress and reaching normal combat effectiveness sooner.
+
+The Invasion Defense modifier primarily provided by later landing craft technologies has two separate effects:
+
+- it is additive with the +50% starting breakthrough bonus, but fades away as well
+- it multiplicatively improves the landing penalty like this:
+
+## Post invasion
+Unless invading divisions have captured a port or a city, they might be cut off from supply, and need to achieve these objectives within 72 hours before supplies run out. A floating harbor will provide a temporary supply hub in the landing province, giving the invaders a few weeks to secure an alternative supply source.
+
+# Paradrop
+
+ A paradrop is a battle plan order that uses transport planes to land one or more paradrop-capable divisions onto a target province. The paradrop order button is available in the battle plan toolbar for an army with at least one paradrop-capable division. After selecting the button, the player must left-click the province of an air base that contains a minimum of 50 transport planes and then right-click a province that is within transport range as the paradrop destination.
+
+Executing a paradrop order requires sufficient transport planes for the number of divisions assigned to the order (by default, 45 planes per division) and either neutral or 70% air superiority in all required regions.
+
+## Division Template Requirements
+
+In order to be paradrop-capable, a division must contain only paradrop-capable battalions among its line battalions and support companies. Paradrop-capable divisions will have a checkmark on the parachute icon at the top left of the division designer window. Paradrop-capable battalions are indicated by a parachute symbol in their unit icons during battalion selection. Currently, only the paratrooper battalion is paradrop-capable as a line battalion. Paradrop-capable support companies are listed below; all other support companies are not paradrop-capable.
+
+- Support Anti-Air
+- Support Anti-Tank
+- Support Artillery
+- Support Rocket Artillery
+- Cavalry Recon Detachment
+- Motorized Recon Company
+- Light Armored Recon Company
+- Engineer Company
+- Military Police
+- Maintenance Company
+- Field Hospital
+- Logistics Company
+- Signal Company
+- Helicopter Medevac Götterdämmerung
+- Airborne Light Armor Arms Against Tyranny
+- Pioneers Arms Against Tyranny
+- Rangers Arms Against Tyranny
+
+## Transport Plane Requirements
+
+Creating a paradrop order requires a minimum of 50 transport planes available at the originating air base. Air bases that have this minimum will be highlighted blue during paradrop order creation. To be considered available, transports must not be assigned to other air missions, must not be in transit, and must have sufficient fuel supply via the local supply system.
+
+After order creation, executing a paradrop order requires 45 transport planes available per division assigned to the order at the departure air base. This requirement may be modified as follows:
+
+1
+50
+50
+50
+50
+
+2
+90
+81
+50
+50
+
+3
+135
+122
+68
+61
+
+4
+180
+162
+90
+81
+
+5
+225
+203
+113
+102
+
+6
+270
+243
+135
+122
+
+7
+315
+284
+158
+142
+
+8
+360
+324
+180
+162
+
+9
+405
+365
+203
+183
+
+10
+450
+405
+225
+203
+
+11
+495
+446
+248
+223
+
+12
+540
+486
+270
+243
+
+- If the general commanding the divisions has the Paratroopers commander trait, he will have access to the Glider Planes ability, which decreases the transport plane requirement by 10% (i.e., base requirement * 0.9) for seven days at the expense of 0.1 command power per battalion.
+- With the DLC Arms Against Tyranny , the special forces doctrine Strategic Air Lift Corps reduces the transport plane requirement by 50% (i.e., base requirement * 0.5).
+- If both Glider Planes and Strategic Air Lift Corps are active, their benefits stack multiplicatively (i.e., base requirement * 0.9 * 0.5). Neither modifier overrides the 50 plane minimum for a given paradrop order, but they effectively discount the planes required for two divisions and up.
+The table at right provides a summary of transport plane requirements for up to 12 divisions given any active modifiers.
+
+If launching multiple orders from the same air base, the same transport planes will be used multiple times for different orders in waves if there are enough planes for individual orders but not enough for all orders to go simultaneously. Upon selecting the execute button, these orders will launch in waves automatically in the sequence that they were created and will continue to the last order unless the requirements for later paradrop orders are no longer met (e.g., insufficient air superiority in the required regions or insufficient planes for remaining orders due to aircraft losses). Each order takes about 4 to 8 hours to complete, so the biggest disadvantage of executing in waves with fewer planes is the extended time of the overall paradrop effort, which may give the enemy time to react.
+
+The transport wings assigned to a paradrop order must be adequately supplied in order to take off. When transport wings lack the fuel to fly, they will be treated as unavailable upon executing the paradrop order. Reducing supply consumption in the province of the air base or improving supply infrastructure should resolve this issue.
+
+## Target Province Requirement
+
+Each paradrop order is targeted on one destination province, whether in friendly or enemy territory. Paradrop orders targeting friendly (own or allied) territory may be executed at any time. Paradrop orders on non-allied territory require a state of war to execute.
+
+The destination province must be in range of the transport wing, which may vary depending on the technology level of the planes within the wing. In-range provinces are indicated with green highlighting during order creation after selecting the departure air base. Provinces belonging to an air region whose geographic center is outside of the transport wing's range will not be considered in range, even if the individual province is within the range ring of the transport wing.
+
+## Air Superiority Requirements
+
+There must be either neutral air or a minimum of 70% air superiority in the departure, enroute, and destination regions of paradrop orders in order to execute. Neutral air is defined as the absence of any friendly or enemy air missions in the air region.
+
+If multiple paradrop orders pass through different air regions, those that have sufficient air superiority in their applicable regions will launch, while those that do not have air superiority will not launch. It is possible to have momentary air superiority in some waves but lose it in later waves. When air superiority is regained in the required regions, the pending waves will automatically launch.
+
+## Paradrop Order Interface and Tooltips
+
+The paradrop mechanic provides several interface components that provide information about paradrop orders. Some of the information in this interface is non-intuitive, so the below guidance is provided.
+
+Execute Button – The green execute button above the army icon displays a tooltip on mouse hover with information that is common to all army orders. For paradrop orders, this tooltip will also indicate if insufficient air superiority in one or more affected regions will prevent order execution. Unlike naval invasions, there is no progress bar or countdown number as paradrop orders do not have an arbitrary preparation time and can launch as soon as assigned paratroopers are at the field along with transport planes.
+
+Paradrop Order Arrows – Paradrop orders appear on the map between the departure air base and the destination province. Text on the arrows display the name of the order, number of divisions, and transport planes assigned to the order. If no divisions are assigned to an order, it will appear ghosted. Prior to executing the order, the arrow will be solid and static. Upon executing, the arrow will become dashed and animated until the transport planes actually start launching, at which point it will be dashed and static. This may give the impression that the order is not working, but paratroopers should start landing in their drop-zones within a few hours.
+
+Paradrop Order Arrow Tooltip - Hovering over a paradrop arrow will display a tooltip with more detailed order information, as well as alerts if there are insufficient transport wings or the presence of division attrition. The tooltip will not display if hovering over a body of water, only over land.
+- The insufficient transport wings alert displays before and during order execution if there are not enough transport planes available at the air base for any reason (number of planes, planes on other missions, insufficient supply, etc.). The additional required transports is indicated in terms of wing numbers, rather than individual planes, so it tends to be a vague indicator. The insufficient transport wings alert may also display in the tooltip during order execution even if there are sufficient transports and paratroopers are dropping.
+- The division attrition alert indicates that the division is losing strength and will perform poorly if launched. Division attrition alone will not prevent launching the order, but presence of attrition may indicate poor supply in the area, which may prevent the transport planes from launching due to insufficient fuel.
+
+## Paradrop outcomes
+Once a paradrop executes, the division may suffer losses if its paradrop is disrupted. These losses will be between % to % of the division's strength, including % to % of its manpower and % to % of its equipment, with an additional potential 10% amount of randomness to all factors regardless of the actual amount of disruption. These losses can occur even when the target province is empty, i.e., when it does not have an enemy division in it. Based on repeated tests of the same drop (i.e., the same order form the same save file), such losses do not seem to be dependent on air superiority (i.e., it happens even when at 100% air superiority), but static aa can contribute to how much a division is disrupted. Such losses also seem to occur much more frequently when the drop is at higher latitudes (e.g., in Norway or Northern China), or into coastal provinces.
+
+Divisions are paradropped at 40% of their organization, regardless of whether they were disrupted or not. They receive a -80% penalty to their recovery rate for 120 hours afterward. They also receive a -30% penalty to their attack and defense in combat for 48 hours.
+
+To make paradrops more effective, a player can use the Glider Planes ability with a commander who has the Paratroopers trait. This allows paradropping divisions within the next 7 days to land with a lot more organization (up to 100%) and take fewer losses from disruption, though this comes at the cost of cp .
+
+# Front line and offensive line
+
+ A Front Line is the starting point of attacks into enemy territory. A player can either assign a whole country's border as a front line by clicking on the border or a player can assign a part of a country's border as a front line by holding the right mouse button and dragging the mouse over the provinces the player wants to belong to the front line deployment area. The AI will then move all the divisions into the position that the commander assigns to that front line. They are assigned either by having them selected when the front line button is clicked or added later by selecting them and Control-Clicking on that line. A player can also create several unconnected front lines and assign divisions between them, which may be particularly useful for a field marshal who may command an unlimited amount of divisions conducting various operations in different locations around the world. Divisions that are stationed at a front line that borders a non-ally will receive a planning bonus for their pre-attack preparation time. Front lines can only be positioned at a border, and the front line of battle between opposing forces counts as a border for this purpose.
+
+ An Offensive Line is a line that a player draws through enemy provinces that contain objectives for the assigned army units to move to and capture. From a front line, or from another offensive line, a player can draw one or several offensive lines or arrows that tell the AI how the player wants the selected plan's divisions to advance from the front line. The width and arc of the offensive line can be adjusted as described on the tooltip. If the mouse cursor is dragged over the offensive line or arrow the game will show the exact visualisation of how the AI will advance the divisions, step for step. ALT for edit mode and TAB to shift the arrow's base can be useful to direct the main effort.
+
+ The order to execute battle plans is given with the button above the commander portrait, along with a tooltip that provides information and advice from the staff regarding the battle plan. The AI then executes the battle plan until the troops reach their offensive line which has then become the new front line. If that front line has offensive line orders beyond it then the execute button has to be pressed again to resume the advance from the new front line. Pausing to rest, resupply, refit, regroup, and coordinate further plans was common between phases of a major offensive. This is also a good time to detach troops to consolidate control over occupied territory, which usually involves smaller divisions that specialize in discouraging unrest. The Garrison Area battle plan order is one used in such a situation.
+
+## More examples for front line and offensive line
+More examples for front line and offensive line
+
+# Spearhead
+
+ The spearhead order starts from a front line and can be used alongside or instead of the Offensive Line within an army. Unlike the normal battle plan that spreads out to cover its flanks and adjusts to circumstances, spearheads advance in a narrow path one province wide to their objective, exactly as it was when first defined. This makes them suitable for blitzkrieg-style armored penetrations that can capture a specific goal or work with another spearhead pincer to encircle enemy cities or armies in pockets, sealed in a ring of steel by the mobile and regular infantry divisions following behind. Encircled armies can thus be annihilated, as routed divisions which lack friendly territory to retreat to are destroyed.
+
+Spearheads (shortcut 'SHIFT + X') may be used only through territory past the attacking army's front line or territory assigned to a naval invasion (tanks rolling off the landing craft into battle). It may also only be used as an order for armies; Spearheads are unusable for any army group as a whole. Spearheads follow the exact paths traced on the map by right-clicking and dragging the mouse through successive provinces. This may enable the attacking forces to plan a path that bypasses forts, cities, or other undesirable terrain in order to maintain their momentum.
+
+# Fallback line
+
+ The player can draw fallback lines in controlled territory, and that will tell the AI upon order execution to move and deploy its divisions behind the fallback line in the same manner as with a front line, hold the line against enemy assaults, and counter-attack to restore the position if the line is broken. Unlike front lines, divisions stationed at fallback lines do not receive a planning bonus; however, divisions that are stationed a long time in a province can accumulate an entrenchment bonus while remaining in that position.
+
+# Area defense
+
+ Area Defense assigns the entire army to guard an area rather than a front line. It is mainly useful to protect against naval invasions and paratroopers. As the divisions are spread out over one or more states rather than concentrated in a position for defense, this posture is ill-suited near the front line. If part of the area is lost to the enemy, then the garrison units will automatically attempt to recover the lost territory.
+
+The defense command has multiple subsections (see graphic):
+- Protect Victory Points
+- Guard Ports
+- Guard Coast
+- Protect Airbases
+- Guard Forts
+- Guard Supply Hubs and Railway
+
+The player can choose which of these they wish to guard and the UI will tell the player how many divisions the AI considers necessary to satisfy the command. The garrison area order triples the limit of units under a commander to 72 without incurring a debuff.
+
+For defending an area against partisans, see garrison.
+
+# Planning bonus [verified for 1.9]
+
+When a division is at the starting position of an offensive battle plan (i.e. a battle plan containing at least one Offensive Line or Spearhead order) and is neither moving or fighting, it will accumulate a planning bonus at the start of each day, expressed as a percentage, until a maximum planning bonus is reached. This confers greater combat performance for the division. Planning can be accumulated even if the unit is not assigned to the frontline with the offensive battle plan, so long as the unit is under the command of the same commander to whom that frontline belongs. For example, if the player draws a field marshal frontline with an offensive battle plan and then manually moves some divisions that are under the command of a general under that field marshal next to the frontline, those divisions will start to accumulate planning even if they are not assigned to the field marshal's frontline.
+
+The planning bonus is a combat modifier that increases attack and breakthrough by 1%, per 1% planning.
+
+The max planning bonus for each division (initially capped at 30%), or the rate of daily planning bonus accumulation, can be increased by certain Land doctrine choices and National Spirits. The base daily gain is 2%, so it will take, e.g., 15 days to accumulate to the 30% cap. Using a general will also add both to the max planning bonus and the rate of daily planning bonus accumulation. Each point of a general's planning rating will contribute +2% of max planning bonus, and +5% to the daily planning bonus accumulation. However, the +5% to the daily planning bonus is multiplicative to the 2% daily base rate. So for example, when using a general with a planning rating of 4, they will add +8% to the max planning bonus (so 30% + 8% = 38%, assuming no other bonuses), and the daily planning bonus accumulation will be 2.4% (2% * (1 + (4 * 5% = 20%)) = 2.4%). Continuing the example, it will now take 16 days to complete the full planning bonus (38% / 2.4% = days). Commanders, especially field marshals, can also increase the max planning bonus and/or planning speed with certain traits, like Organizer , Fast Planner , and Thorough Planner . Various land doctrines can also increase planning speed or max planning bonus, as can officer spirits like Quick Improvisation and certain political advisors.
+
+To increase the planning bonus in a hurry, the player can use the Staff Office Plan ability, which can increase the planning speed by +400% for 7 days at the cost of cp .
+
+When a division with a planning bonus is moving or fighting, it will lose some of its planning bonus each day. The planning bonus for a division will decay by 1% per day if the division is being automatically managed by the battle plan AI. If a division is manually commanded by the human player, the planning bonus will decay 3% daily.
+
+Planning is normally not available for naval invasions, as naval invasion planning gain receives a 0% penalty despite there being a base gain of 2% planning per day. However, with Arms Against Tyranny , if the Expeditionary Units marine doctrine is taken, the first penalty is reduced to 20%, allowing all units assigned to naval invasions to slowly gain planning over time.
+
+## Strategy
+Since achieving the maximum planning bonus will take a number of days, it may be worthwhile to prepare battle plans during peacetime, so that each division will have a full planning bonus upon the outbreak of war.
+
+If the player wishes to minimise the rate of planning bonus decay, it may be helpful to prepare a complex battle plan containing multiple orders. This can enable divisions to achieve their objectives without requiring manual commands from the player.
+
+Alternatively, the human player can micromanage their divisions, to achieve finer control or the ability to react to changing circumstances. This presents a tradeoff, as planning bonus will be lost more quickly when manual commands are issued.
+
+# Manual control and battle plan; support attack
+Divisions that belong to a battle plan and receive a manual order will revert back to AI control after implementing the order.
+
+Once combat is joined, the player may select an unengaged division and then Ctrl+right click (or Ctrl+alt+right click) on the combat icon to make the selected division join in a support attack. This allows the division to assist in the attack without automatically advancing the division into the enemy-occupied area upon victory. The battle plan AI may automatically order such a support attack, as well.
+
+# Battle plan and allies [verified for Timeless]
+
+Players can see their allies' battle plans (an option that can be toggled on and off in the lower right corner of the screen). This may help in multiplayer to coordinate with allies and in single player to understand what the AI is doing because AI countries create their own battle plans.
+
+# References
+
+hoi4de:Battle plan
+hoi4es:Battle plan
+hoi4fr:Battle plan
+hoi4pl:Battle plan
+hoi4pt:Battle plan
+hoi4ru:Battle plan

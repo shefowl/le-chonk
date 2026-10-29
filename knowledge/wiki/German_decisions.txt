@@ -1,0 +1,8 @@
+TITLE: German decisions
+URL: https://hoi4.paradoxwikis.com/German_decisions
+REVISION: 2025-09-29T17:10:13Z (rev 90224)
+VERIFIED FOR: 1.15
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+# Reichskommissariat decisions

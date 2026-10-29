@@ -1,0 +1,247 @@
+TITLE: Variant
+URL: https://hoi4.paradoxwikis.com/Variant
+REVISION: 2023-09-11T21:00:18Z (rev 63581)
+VERIFIED FOR: 1.12
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Equipment variants are concrete, country-specific classes of equipment which are based on an equipment type. They may include customizations such as design companies, upgrades, or modules.
+
+# Base
+When a country unlocks an equipment type by researching the corresponding technology, a base variant of it gets created. Where applicable, it uses the design company the country has at that moment. It is not necessary to already have the design company when the research starts.
+
+# Module
+(Main article: Tank designer, Ship designer)
+(Main article: Aircraft designer)
+In games where the tank/ship/plane designer are enabled (with the appropriate DLC), equipment modules can be changed to create new variants of a specific model (for example, changing an engine within a tank).
+
+Modules extend the capabilities of an equipment variant in a more detailed manner than upgrades. Ship hulls, tank chassis, and plane airframes act as a base equipment types offering a number of module slots that can be used.
+The hulls, chassis, and airframes are researched individually and can mix different (researched) modules to create variants at the cost of naval/army/air experience in the appropriate designer.
+Without Man the Guns nor No Step Back , researched ship & tank equipment types automatically combine ship hulls and tank chassis and a standard configuration of modules that cannot be changed.
+
+# Equipment upgrade
+In games where the tank/ship/plane designer are disabled, there are several types of equipment which can have specific attributes upgraded using experience. Sometimes a small improvement in speed, protection, or firepower can make a significant difference in the field.
+
+Variants are expensive in XP, so their use should take into account the expected benefit, production volume, and service lifetime of the variant in deciding where to commit these resources. This is especially important for capital ships, as they take a very long time to build and there are large year-gaps between models.
+
+Each upgrade may be selected up to five times and may be made at different times. Existing equipment upgrades may be viewed in the Production screen. Upgrades in one area may reduce performance in another area - e.g., complexity reducing reliability or increased weight-reducing speed. Note that land units may use maintenance support companies that increase reliability for equipment in that division, and also that equipment stats and performance may also be affected by government staff with particular skills that provide modifiers.
+
+For land equipment, the first upgrade level costs NMilitary LAND_EQUIPMENT_BASE_COST experience, for air and naval equipment it costs NMilitary NAVAL_EQUIPMENT_BASE_COST. Each subsequent level costs NMilitary LAND_EQUIPMENT_RAMP_COST experience more.
+
+Upgrade: Armor
+Types: all armor, armored cars, mechanized
+Bonuses: +5% Armor
+Penalties: –2% Speed
+–5% Reliability
+
+Upgrade: Engine
+Types: all armor, mechanized
+Bonuses: +4% Speed
+
+Upgrade: Engine
+Types: armored cars
+Bonuses: +2% Speed
+
+Upgrade: Reliability
+Types: all armor, armored cars, mechanized
+Bonuses: +10% Reliability
+
+Upgrade: Main Gun
+Types: Tanks, armored cars
+Bonuses: +3% Soft Attack
++10% Hard Attack
++5% Piercing
+Penalties: –2% Speed
+–5% Reliability
+
+Upgrade: Production Cost
+Types: mechanized
+Bonuses: -10% Production Cost
+Penalties: –4% Reliability
+
+Upgrade: Anti-Air Armament
+Types: Self-propelled AA
+Bonuses: +15% Air Attack
+Penalties: –2% Speed
+–5% Reliability
+
+Upgrade: Anti-Tank Armament
+Types: Tank destroyer
+Bonuses: +10% Soft Attack
++10% Hard Attack
++5% Piercing
+Penalties: –2% Speed
+–5% Reliability
+
+Upgrade: Artillery Armament
+Types: Self-propelled artillery
+Bonuses: +3% Soft Attack
+Penalties: –2% Speed
+–5% Reliability
+
+Upgrade: Gun
+Types:
+CL
+CA
+torpedo cruiser
+heavy ships
+Bonuses:
++4% Light Attack
++5% Light Piercing
++4% Heavy Attack
++5% Heavy Piercing
+Penalties: –1% Max Speed
+–0.5% Reliability
+
+Upgrade: Torpedo
+Types: torpedo cruiser
+DD
+Bonuses: +7.5% Torpedo attack
+Penalties: –1% Max Speed
+–1% Max Range
+
+Upgrade: Armor
+Types: CA, heavy ships
+Bonuses: +5% Armor
+Penalties: –1% Speed
+
+Upgrade: Engine
+Types:
+CV, heavy ships
+CL, CA, torpedo cruiser
+Bonuses: +3% Speed
++5% Max Range
+Penalties: –0.5% Reliability
+
+Upgrade: Engine
+Types: DD
+Bonuses: +3% Speed
++5% Max Range
+
+Upgrade: Reliability
+Types:
+CV, heavy ships, SS
+CL, CA, torpedo cruiser
+Bonuses: +1.5% Reliability
+Penalties: –4% Max Range
+
+Upgrade: Anti-Air
+Types: CL, DD
+Bonuses: +5% Anti-air
+Penalties: –1% Max Speed
+
+Upgrade: ASW
+Types: DD
+Bonuses: +4% Sub Detection
++4% Depth Charge
+Penalties: –1% Torpedo Attack
+
+Upgrade: Torpedo
+Types: SS
+Bonuses: +4% Torpedo attack
+Penalties: –2% Max Speed
+
+Upgrade: Stealth
+Types: SS
+Bonuses: -5% Sub Visibility
+Penalties: –2% Max Speed
+
+Upgrade: EngineSS
+Bonuses: +5% Max Speed
++5% Max Range
+Penalties: +5% Sub Visibility
+–0.5% Reliability
+
+Upgrade: Deck Space
+Types: CV
+Bonuses: +7.5% Deck Space
+Penalties: –5% Armor
+
+Upgrade: Armor
+Types: CV
+Bonuses: +10% Armor
++1% HP
+Penalties: –4% Deck Space
+
+Upgrade: Weapons
+Types: (jet/heavy) fighter, rocket interceptor
+Bonuses: +10% Air Attack
+Penalties: –1% Speed
+–10% Reliability
+–5% Agility
+
+Upgrade: Weapons
+Types: carrier fighter
+Bonuses: +10% Air Attack
+Penalties: –1% Speed
+–10% Reliability
+–15% Agility
+
+Upgrade: Range
+Types: all non-carrier types
+Bonuses: +10% Range
+Penalties: –10% Reliability
+
+Upgrade: Range
+Types: all carrier types
+Bonuses: +15% Range
+Penalties: –10% Reliability
+
+Upgrade: Engine
+Types: all
+Bonuses: +2% Speed
++5% Agility
+
+Upgrade: Reliability
+Types: all
+Bonuses: +10% Reliability
+
+Upgrade: Attack
+Types: NAV
+Bonuses: +5% Naval Attack
+Penalties: –10% Reliability
+
+Upgrade: Attack
+Types: carrier NAV
+Bonuses: +5% Naval Attack
+Penalties: –15% Reliability
+
+Upgrade: Bombing
+Types: (jet) strategic bomber
+Bonuses: +5% Bombing
+Penalties: –10% Reliability
+–5% Range
+
+Upgrade: Bombing
+Types: (jet) TAC
+Bonuses: +2% Bombing
++2% Ground Attack
+Penalties: –10% Reliability
+–5% Agility
+
+Upgrade: Attack
+Types: (carrier) CAS
+Bonuses: +2% Air Attack
++5% Ground Attack
+Penalties: –10% Reliability
+–5% Agility
+
+Upgrade: Armor
+Types: scout plane
+Bonuses: +5% Air Defense
+Penalties: –5% Range
+
+# Statistics
+Equipment#Statistics
+The statistics of an equipment variant are based on the underlying equipment type, its design company, and upgrades or modules. Additive and averaged additive stats from modules are added to the stats of the equipment type. Multiplicative module stats as well as designer and upgrade stats stack additively among each other and are then applied as one factor.
+
+For example if Japan has Mitsubishi as its air design company (+20% agility, +10% speed) while completing research on the 1940 fighter equipment type (agility 65), the resulting equipment variant (Ki-43 Hayabusa) has 65 * 120% = 78 agility. If Japan upgrades this variant with five points into Engine upgrade (5 * 5%), the resulting variant Ki-43 Hayabusa Kai A has 65 * 145% = 94.25 agility.
+
+# References
+
+hoi4de:Variant
+hoi4es:Variant
+hoi4fr:Variant
+hoi4pl:Variant
+hoi4pt:Variant
+hoi4ru:Variant

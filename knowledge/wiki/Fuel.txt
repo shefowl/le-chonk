@@ -1,0 +1,78 @@
+TITLE: Fuel
+URL: https://hoi4.paradoxwikis.com/Fuel
+REVISION: 2025-12-10T00:35:55Z (rev 94544)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+fuel is a resource needed for the operation of vehicles with combustion engines, including trucks, tanks, aircraft, and ships.
+
+# Production [verified for 1.16]
+
+Fuel is primarily refined from oil . Each unit of oil produces 48 units of fuel per day. The effectiveness of the refining process can be significantly increased by researching fuel refining technologies. Economy laws below War Economy reduce the effectiveness of fuel production from oil.
+
+Each country has a small base production of fuel, 48 units per day.
+
+ synth buildings provide an additional source of fuel without requiring oil. They provide 48 units of fuel daily as a baseline, equivalent to fuel production from a single unit of oil, but this can be massively increased with fuel and oil refining technologies to up to 168 units per day. Their production is not negatively affected by economy laws.
+
+# Storage [verified for 1.16]
+
+In contrast to strategic resources, fuel can be stockpiled.
+This allows countries to run a deficit in fuel for some time without immediately incurring penalties to its forces.
+As a baseline, each country can store 50000 units of fuel.
+Each level of infrastructure built across all states provides +1500 capacity.
+Building fuel silo provides +100000 capacity per silo per level, but they are vulnerable to bombardment and capture.
+Some economy laws, like Civilian Economy , can reduce fuel storage capacity to varying degrees.
+
+Countries start with 25% of their fuel storage filled at the start of the game. When a country capitulates, 0.5 of its fuel stockpile gets captured and transfered to enemies. When a country is annexed, 0.25 of its fuel stockpile gets transferred to the annexing country.
+
+# Consumption [verified for 1.16]
+
+Depending on their mode of operation, units consume fuel proportional to their nominal fuel consumption, as shown in the unit details. If they run out of fuel, they suffer severe penalties to their movement and combat abilities.
+
+Fuel needs can be prioritized between the army, the navy, and the air force near the bottom of the Logistics window - at Fuel Prioritization section.
+## Army
+Land units need fuel if any of their combat battalions contain equipment that consumes fuel, such as trucks, half-tracks, tanks, and self-propelled guns.
+Some support companies, e.g., motorized recon or airborne light armor , also cause fuel consumption in units to which they are attached.
+Fuel-consuming units are marked with oil barrels next to their name in the unit selection panel.
+Their effective fuel use per day is x the fuel usage shown in the division's stats.
+ARMY_IDLE_FUEL_MULT fuel is consumed while standing idle, ARMY_STRATEGIC_DEPLOYMENT_FUEL_MULT fuel is consumed during strategic redeployment, and ARMY_NAVAL_TRANSFER_FUEL_MULT fuel is consumed during naval transfers.
+It is modified by x when fighting and moving at the same time, e.g., when attacking.
+
+Each division has an internal storage that can last for days of continued use, though this can be extended with certain modules like Fuel Drums .
+Units will start receiving penalties to their combat stats once their fuel reserves are at FUEL_PENALTY_START_RATIO their maximum capacity and will reach a maximum at 0% capacity.
+At 0% fuel reserves, units move at OUT_OF_FUEL_SPEED_MULT speed, and the combat stats of all fuel-consuming equipment in the unit are modified by OUT_OF_FUEL_EQUIPMENT_MULT.
+Training divisions earn OUT_OF_FUEL_TRAINING_XP_GAIN_MULT experience, including army exp , so long as they are out of fuel.
+
+Units that are not in combat can refuel at up to ARMY_MAX_FUEL_FLOW_MULT their consumption as long as there is appropriate supply in their province.
+If their supply zone is overloaded, the fuel flow is reduced and eventually stops at SURPLUS_SUPPLY_RATIO_FOR_ZERO_FUEL_FLOW overload.
+For example, a supply zone providing 20 supply containing units requiring 30 supply will deliver no fuel at all to those units as other supplies take priority.
+As long as the country has fuel available, they can refill via the supply system, at twice the normal consumption speed.
+
+## Aircraft
+All aircraft use fuel while on missions (except rocket interceptors, which don't run on oil-based fuel). The usage rate is determined by the plane's airframe and its engine module.
+The effective fuel use per plane per day is 8.4x the nominal fuel usage shown in the wing's details. When only operating at day or night, the fuel consumption is reduced accordingly.
+
+Some mission types have non-standard fuel consumption:
+- interception mission: MISSION_FUEL_COSTS
+- kamikaze: MISSION_FUEL_COSTS
+- port strike: MISSION_FUEL_COSTS
+- logistics strike: MISSION_FUEL_COSTS
+- training: MISSION_FUEL_COSTS
+
+When running out of fuel, air missions receive a 0.25 mission efficiency penalty.
+
+## Ships
+The effective fuel use per day is 2.4x the nominal fuel usage shown in the ship's stats.
+Ships have particularly high fuel consumption, so their mission assignments need to be carefully considered.
+Ships consume 2 fuel while in combat, but otherwise consume MISSION_FUEL_COSTS fuel when staying in position and 0 when in port.
+This includes task forces on naval invasion support and strike force missions, so long as they have nothing to do.
+The training mission only uses MISSION_FUEL_COSTS fuel for ships that are actively training and 0.15 fuel for escorts who are not training but are accompanying ships that are.
+
+Ships can refuel near naval base at a rate of 2 their consumption, multiplied by the supply status at their supplying naval base.
+
+When ships run out of fuel, they receive penalties of up to -0.75 to their speed, 0 to their range, and -0.5 to their attack. When submarines run out of fuel, they receive penalties of up to -0.8 to their torpedo attack.
+
+# References
+
+hoi4fr:Carburant

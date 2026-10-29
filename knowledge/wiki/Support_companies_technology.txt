@@ -1,0 +1,901 @@
+TITLE: Support companies technology
+URL: https://hoi4.paradoxwikis.com/Support_companies_technology
+REVISION: 2025-12-10T16:18:19Z (rev 94605)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Support companies technology unlocks and enhances support companies that can supplement divisions when assigned to them. It also includes technologies that unlock various trains and railway guns.
+
+For an in-depth overview of support companies, please see the corresponding section on their dedicated page.
+
+# Support Companies [verified for 1.16]
+
+The technology Support Equipment is the basis for the research of all support companies. It enables the equipment of the same name, which is needed for most other support companies.
+
+FOCUS Support Equipment: Radios, Jeeps, Pontoons & other equipment used to support troops.
+1918
+110 days
+Enables
+Support Equipment 1 aluminium 2 steel Reliability 80% production cost 4.00
+
+## Engineers [verified for 1.16]
+
+These technologies unlock and enhance Engineers and some of their variants. These support companies focus on providing additional entrenchment to their divisions, as well as various terrain bonuses on both the offense and defense.
+
+FOCUS Engineer Company I: Construction of fortifications and breaching obstacles make combat engineers vital in the field. Giving our engineers a versatile role enables us to deploy them in the diverse situations where they will be needed.
+1936
+137 days
+Support Equipment
+{{Collapse|
+Enables
+{{Equipment
+width=31em
+name=Engineer Company
+file=Engineer
+desc=Construction of fortifications and breaching obstacles make combat engineers vital in the field. Giving our engineers a versatile role enables us to deploy them in the diverse situations where they will be needed.
+left=manpower 300
+Recovery Rate 0.30
+Equipment Breakthrough +50%
+Entrenchment 2.0
+Organization 20
+Weight 0.1
+right=Training time 120
+Equipment Defense +10%
+Equipment Soft attack -50%
+Supply use 0.02
+HP 2.0
+adjusters=
+Forest
+Hills
+Jungle
+Marsh
+Fort
+River
+Amphibious
+
+}}
+Unlocks
+ Flamethrower Tank special project
+
+ Military Engineering Vehicles special project
+}}
+|-
+| FOCUS Armored Engineer Company: Combining engineering expertise with armored protection, armored engineer units are specialized on clearing obstacles and supporting front-line advances under heavy fire.
+| 1938
+| 220 days
+| * Military Engineering Vehicles
+- Engineer Company I
+|{{Collapse|
+Enables
+{{Equipment
+|width=31em
+|name=Armored Engineer Company
+|file=Armored engineer
+|desc=Versatile vehicles equipped for constructing fortifications, clearing obstacles and enhancing battlefield mobility under combat conditions.
+|left=manpower 300
+Recovery Rate 0.30
+Equipment Breakthrough +100%
+Entrenchment 3.0
+Organization 20
+Weight 0.1
+|right=Training time 120
+Equipment Defense +10%
+Equipment Soft attack -50%
+Supply use 0.03
+HP 2.0
+|adjusters=
+Forest
+Hills
+Plains
+Urban
+Jungle
+Marsh
+Desert
+Fort
+River
+Amphibious
+|}
+}}
+}}
+|-
+| FOCUS Engineer Company II: With modern equipment and high explosives, our engineers can go beyond their traditional tasks and surprise the enemy with their ingenuity, at land and sea.
+| 1939
+| 165 days
+| Engineer Company I
+|Enables* With No Step Back :
+ - Dozer Blade
+Upgrades
+- Engineers :
+ - Entrenchment: +50%
+ - Fort :
+ - Attack: +10%
+ - Defense: +10%
+- Assault Engineers :
+ - Breakthrough: +10%
+ - Fort :
+ - Attack: +15%
+- Armored Engineers :
+ - Entrenchment: +100%
+ - Fort :
+ - Defense: +15%
+|-
+| FOCUS Engineer Company III: Military engineering projects are approaching a larger scale. The construction of advanced infrastructural aid enables operations requiring supplies beyond what is normally available in the field.
+| 1942
+| 220 days
+| Engineer Company II
+|Enables* With Götterdämmerung and No Step Back :
+ - Obstacle-Clearance Gear land cruiser module
+Upgrades
+- Engineers :
+ - Entrenchment: +50%
+ - River :
+ - Attack: +10%
+ - Defense: +10%
+- Assault Engineers :
+ - Breakthrough: +10%
+ - River :
+ - Attack: +10%
+- Armored Engineers :
+ - Entrenchment: +100%
+ - River :
+ - Attack: +5%
+ - Defense: +5%
+ - Movement: +15%
+- light flame tank , medium flame tank , heavy flame tank :
+ - Urban :
+ - Attack: +10%
+ - Fort :
+ - Attack: +10%
+|-
+| FOCUS Engineer Company IV: Maintaining local mobility while constructing what would previously have been considered permanent fortifications and supply systems, combat engineers of the future will ensure that no matter where our troops are attacked, they will be prepared.
+| 1945
+| 220 days
+| Engineer Company III
+|Upgrades
+- Engineers :
+ - Entrenchment: +50%
+ - Urban :
+ - Attack: +10%
+ - Defense: +10%
+- Assault Engineers :
+ - Breakthrough: +10%
+ - Urban :
+ - Attack: +15%
+- Armored Engineers :
+ - Entrenchment: +100%
+ - Urban :
+ - Defense: +15%
+ - Movement: +15%
+- light flame tank , medium flame tank , heavy flame tank :
+ - Urban :
+ - Attack: +10%
+ - Fort :
+ - Attack: +10%
+|}
+
+## Recon [verified for 1.16]
+
+These technologies unlock and enhance reconnaissance support companies, like Recon and Motorized Recon . These support companies focus on providing the Recon stat to their divisions, which can allow them to be more likely to select advantageous combat tactics in battle. They also provide various terrain movement bonuses and are some of the few support companies whose movement speeds can decrease the speed of their divisions.
+
+FOCUS Recon Company I: Sending smaller groups to scout ahead before moving in the main force allows us to gather intelligence about where the enemy is and how many we are facing.
+1936
+137 days
+- Support Equipment
+{{Collapse|
+Enables
+{{Equipment
+width=31em
+name=Cavalry Recon Detachment
+file=Recon
+desc=Sending smaller groups to scout ahead before moving in the main force allows us to gather intelligence about where the enemy is and how many we are facing.
+left=manpower 500
+Recovery Rate 0.30
+Equipment Breakthrough -50%
+Equipment Hard Attack -90%
+Supply use 0.02
+HP 2.0
+Weight 0.1
+right=Training time 120
+Equipment Defense -50%
+Equipment Soft Attack -90%
+Reconnaissance 1.0
+Organization 20
+Max Speed 6.4 km/h
+adjusters=
+Forest
+Hills
+Mountain
+Plains
+Jungle
+Marsh
+Desert
+River
+
+}}
+{{Equipment
+|width=31em
+|name=Motorized Recon Company
+|file=Motorized Recon
+|desc=Utilizing light trucks and motorcycles, recon companies can range further ahead and cover more ground to protect the flanks.
+|left=manpower 500
+Recovery Rate 0.30
+Equipment Breakthrough -50%
+Equipment Hard Attack -90%
+Supply use 0.02
+HP 2.0
+|right=Training time 120
+Equipment Defense -50%
+Equipment Soft Attack -90%
+Reconnaissance 1.5
+Organization 20
+Weight 0.1
+|adjusters=
+Forest
+Hills
+Mountain
+Plains
+Jungle
+Marsh
+Desert
+River
+|}
+}}
+{{Equipment
+|width=31em
+|name=Armored Recon Company
+|file=Light Tank Recon
+|desc=Using light tanks in a recon role, we can conduct reconnaisance by fire and get a better understanding of what we are facing.
+|left=manpower 500
+Recovery Rate 0.30
+Equipment Breakthrough -60%
+Equipment Hard Attack -60%
+Supply use 0.02
+HP 2.0
+Weight 0.1
+|right=Training time 120
+Equipment Defense -60%
+Equipment Soft Attack -60%
+Reconnaissance 1.0
+Organization 20
+Equipment Armor -60%
+|adjusters=
+Forest
+Hills
+Mountain
+Plains
+Jungle
+Marsh
+Desert
+River
+|}
+}}
+With La Résistance :
+{{Equipment
+|width=31em
+|name=Light Armored Recon Company
+|file=Armored Car Recon
+|desc=Equipped with armored cars, a recon company can take the fight to the enemy, and prevent enemy scouts from gaining any valuable information.
+|left=manpower 500
+Recovery Rate 0.30
+Equipment Breakthrough -20%
+Equipment Hard Attack -50%
+Supply use 0.02
+HP 2.0
+|right=Training time 120
+Equipment Defense -50%
+Equipment Soft Attack -50%
+Reconnaissance 2.0
+Organization 20
+Weight 0.1
+|adjusters=
+Forest
+Hills
+Mountain
+Plains
+Jungle
+Desert
+River
+|}
+}}
+}}
+|-
+| FOCUS Helicopter Recon Company: Helicopters are able get a good vantage point of the battlefield regardless of the actual terrain, and thus make excellent forward scouts to provide accurate feedback to artillery barrages.
+| 1938
+| 220 days
+| * Helicopter
+- Recon Company I
+|{{Collapse|
+Enables
+{{Equipment
+|width=31em
+|name=Helicopter Recon
+|file=Helicopter recon
+|desc=Specially trained observers mounted on helicopters, able to rapidly scout the area regardless of terrain, and call in precision strikes where needed.
+|left=manpower 500
+Recovery Rate 0.30
+Equipment Breakthrough -20%
+Supply use 0.07
+HP 2.0
+|right=Training time 120
+Reconnaissance 2.0
+Organization 20
+Weight 0.1
+|adjusters=
+Forest
+Hills
+Mountain
+Plains
+Jungle
+Marsh
+Desert
+River
+|}
+}}
+}}
+|-
+| FOCUS Recon Company II: Reconnaissance missions are often dangerous and casualties are high. Preparing our patrols to move and withdraw rapidly and equipping them to clear obstacles placed by the enemy will increase their chances of coming back alive.
+| 1939
+| 165 days
+| Recon Company I
+|Upgrades
+- recon:
+ - Reconnaissance: +200%
+- Helicopter Recon :
+ - Reconnaissance: +100%
+|-
+| FOCUS Recon Company III: Improvements in radio technology change the way reconnaissance missions can be executed, enabling rapid communication of the gathered intelligence.
+| 1942
+| 220 days
+| Recon Company II
+|Upgrades
+- recon:
+ - Reconnaissance: +200%
+- Helicopter Recon :
+ - Reconnaissance: +100%
+- Helicopter Brigade :
+ - Reconnaissance: +200%
+|-
+| FOCUS Recon Company IV: Deep reconnaissance operations, mixing espionage, guerilla operations and commando training, will aid our tactical choices and allow us to adapt our decision-making rapidly.
+| 1945
+| 220 days
+| Recon Company III
+|Upgrades
+- recon:
+ - Reconnaissance: +200%
+- Helicopter Recon :
+ - Reconnaissance: +100%
+|}
+
+## Military Police [verified for 1.16]
+
+These technologies unlock and enhance Military Police companies and their variants. These support companies focus on increasing the suppression of their divisions, making them more effective at handling occupation as off-map garrisons. They also somewhat improve the recovery rate of infantry brigades, allowing them to regain organization faster.
+
+Technology:
+FOCUS Military Police I: Regular troops may be able to manage occupation for a shorter period of time, but they are first and foremost soldiers. Integrating military police into our forces will ensure we have people on the ground to respond to resistance and investigate sabotage.
+Year: 1936
+Base time: 137 days
+Prerequisites: Support Equipment
+Effects:
+Enables
+Military Police Maintains order and suppresses resistance in occupied territories. manpower 500
+Recovery Rate 0.30
+Suppression Bonus +20%
+Weight 0.1 Training time 180
+Supply use 0.02
+HP 1.0
+
+Technology:
+FOCUS Motorized Military Police: Equipped with military motorbikes, these units are tasked with maintaining order behind the lines, escorting convoys, and conducting patrols. Their speed and mobility allow them to quickly respond to disruptions and, if needed, perform reconnaissance in active combat zones.
+Year: 1938
+Base time: 220 days
+Prerequisites:
+- Military Engineering Vehicles
+- Military Police I
+Effects:
+Upgrades
+- Military Police :
+ - Suppression Bonus: +10%
+- Motorized Military Police :
+ - Suppression Bonus: +10%
+ - vehicle_infantry:
+ - Recovery Rate: +5%
+
+Technology:
+FOCUS Military Police II: By engaging in regular police duties in occupied territories, such as traffic control and maintaining public order, our military police can minimize the chaos and confusion in which partisan movements can thrive in.
+Year: 1939
+Base time: 220 days
+Prerequisites: Military Police I
+Effects:
+Upgrades
+- Military Police :
+ - Suppression Bonus: +10%
+- Motorized Military Police :
+ - Suppression Bonus: +10%
+ - vehicle_infantry:
+ - Recovery Rate: +5%
+
+Technology:
+FOCUS Military Police III: Cooperating with local spy networks and informers established before occupation, our military police can proactively prepare for where resistance is likely to arise.
+Year: 1942
+Base time: 220 days
+Prerequisites: Military Police II
+Effects:
+Upgrades
+- Military Police :
+ - Suppression Bonus: +10%
+- Motorized Military Police :
+ - Suppression Bonus: +10%
+ - vehicle_infantry:
+ - Recovery Rate: +5%
+
+Technology:
+FOCUS Military Police IV: Safely policing occupied territory is as much about returning to normalcy as it is about ruthlessly eliminating opposition. Our military police must ensure that this process starts early, to ensure safety for soldiers and civilians alike.
+Year: 1945
+Base time: 220 days
+Prerequisites: Military Police III
+Effects:
+Upgrades
+- Military Police :
+ - Suppression Bonus: +10%
+- Motorized Military Police :
+ - Suppression Bonus: +10%
+ - vehicle_infantry:
+ - Recovery Rate: +5%
+
+## Maintenance [verified for 1.16]
+
+These technologies unlock and enhance Maintenance companies and their variants. These support companies focus on increasing the reliability of all equipment in their divisions, preventing losses to attrition and increasing recovery rates after battles. They also provide additional equipment capture ratio to their divisions, allowing them to steal some enemy equipment that would otherwise be lost in battles.
+
+Technology:
+FOCUS Maintenance Company I: Maintenance, repair and overhaul are important to keep military equipment reliable and safe to use. Having companies dedicated to this will ensure that it's given appropriate attention.
+Year: 1936
+Base time: 137 days
+Prerequisites: * Support Equipment
+Effects:
+Enables
+Maintenance Company Performs various forms of maintenance on division equipment to prevent failure. manpower 500
+Recovery Rate 0.30
+Equipment Capture Ratio 5%
+HP 1.0
+Weight 0.1 Training time 120
+Supply use 0.03
+Organization 20
+Reliability Bonus +5%
+
+Technology:
+FOCUS Armored Maintenance Company: The use of armored recovery vehicles enables our maintenance personnel to recover and repair all kinds of equipment, ensuring maximum operational readiness on the battlefield.
+Year: 1938
+Base time: 220 days
+Prerequisites:
+- Military Engineering Vehicles
+- Maintenance Company I
+Effects:
+Enables
+Armored Maintenance Company Specialized vehicles designed to recover and repair damaged tanks and other armored units directly on the battlefield. manpower 500
+Recovery Rate 0.30
+Equipment Capture Ratio 10%
+Organization 20
+Reliability Bonus +2% Training time 120
+Supply use 0.03
+Equipment Recovery +10%
+HP 1.0
+Weight 0.1
+
+Technology:
+FOCUS Maintenance Company II: Routine operational maintenance procedures minimize the risks of equipment breaking down and alerts troops to replace it before it does.
+Year: 1939
+Base time: 165 days
+Prerequisites: Maintenance Company I
+Effects:
+Enables
+- With No Step Back :
+ - Easy Maintenance
+Upgrades
+- Maintenance :
+ - Equipment Capture Ratio: +5%
+ - Reliability Bonus: +5%
+- Armored Maintenance Company :
+ - Equipment Capture Ratio: +10%
+ - Equipment Recovery: +3%
+ - Reliability Bonus: +2%
+
+Technology:
+FOCUS Maintenance Company III: Making sure that our troops always have the basic materials in the field to perform common repairs will prevent the continued use of equipment known to be damaged.
+Year: 1942
+Base time: 220 days
+Prerequisites: Maintenance Company II
+Effects:
+Upgrades
+- Maintenance :
+ - Reliability Bonus: +5%
+ - all_armor:
+ - Equipment Capture Ratio: +1%
+- Armored Maintenance Company :
+ - Equipment Recovery: +3%
+ - Reliability Bonus: +2%
+ - all_armor:
+ - Equipment Capture Ratio: +2%
+
+Technology:
+FOCUS Maintenance Company IV: Experiences with designing for active redundancy in the Great War can be renewed to work with more modern equipment to make maintenance easier.
+Year: 1945
+Base time: 220 days
+Prerequisites: Maintenance Company III
+Effects:
+Upgrades
+- Maintenance :
+ - Equipment Capture Ratio: +5%
+ - Reliability Bonus: +5%
+- Armored Maintenance Company :
+ - Equipment Capture Ratio: +10%
+ - Equipment Recovery: +3%
+ - Reliability Bonus: +2%
+
+## Field Hospital [verified for 1.16]
+
+These technologies unlock and enhance Field Hospital companies and their variants. These support companies focus on reducing both the amount of casualties a division takes, especially in manpower, and protecting their divisions' experience and their country's war support from the affects of casualties.
+
+These technologies are also classified as motorized technologies, and can therefore benefit from corresponding military industrial organizations and technology bonuses.
+
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Field Hospital I: A casualty doesn't need to mean a dead soldier. Having immediate medical attention available for our wounded brought back to the rear is the first step towards ensuring this.
+| 1936
+| 137 days
+| * Support Equipment
+- Truck
+|Enables
+Field Hospital Provides emergency medical attention to wounded soldiers in the field. manpower 500
+Recovery Rate 0.30
+Supply Use 0.05
+Organization 20
+Weight 0.1 Training time 120
+Manpower Trickleback +20%
+Exp. loss from casualties -15%
+HP 2.0
+|-
+| FOCUS Helicopter Med-Evac Company: Incoming wounded! We have incoming wounded! Helicopters provide even faster casualty evacuation than regular ambulances.
+| 1938
+| 220 days
+| * Helicopter
+- Field Hospital I
+|Enables
+Helicopter Med-Evac Attention all personel! Incoming chappers with wounded! Med-Evac helicopters are able to get casualites off the battlefield far more quickly than a regular ambulance. manpower 500
+Recovery Rate 0.30
+Supply Use 0.07
+Organization 20
+Weight 0.1 Training time 120
+Manpower Trickleback +25%
+Exp. loss from casualties -10%
+HP 2.0
+|-
+| FOCUS Field Hospital II: By establishing the use of portable hospitals, bringing the medical care to where it is needed, we can stop many unnecessary deaths and permanent injuries.
+| 1939
+| 165 days
+| Field Hospital I
+|Upgrades
+- Field Hospital :
+ - Manpower Trickleback: +10%
+ - Experience loss from casualties: -10%
+- Helicopter Med-Evac :
+ - Manpower Trickleback: +12%
+ - Experience loss from casualties: -8%
+ - all_infantry:
+ - Recovery Rate: +5%
+|-
+| FOCUS Field Hospital III: Surgery is among the most common emergency procedures needed in the field. Procedures and tools for this must be available closer to the front, and we must ensure that skilled surgeons are part of the military medical units.
+| 1942
+| 220 days
+| Field Hospital II
+|Upgrades
+- Field Hospital :
+ - Manpower Trickleback: +10%
+ - Experience loss from casualties: -10%
+- Helicopter Med-Evac :
+ - Manpower Trickleback: +12%
+ - Experience loss from casualties: -8%
+ - all_infantry:
+ - Recovery Rate: +5%
+- Helicopter Brigade :
+ - Manpower Trickleback: +15%
+ - Experience loss from casualties: -10%
+ - all_infantry:
+ - Recovery Rate: +5%
+|-
+| FOCUS Field Hospital IV: Although many improvements have been made in field medicine, many advances are improvised and we lack an established doctrine. With more experience, we can explain the role of these units more clearly and make improvised innovations permanent fixtures.
+| 1945
+| 220 days
+| Field Hospital III
+|Upgrades
+- Field Hospital :
+ - Manpower Trickleback: +10%
+ - Experience loss from casualties: -10%
+- Helicopter Med-Evac :
+ - Manpower Trickleback: +12%
+ - Experience loss from casualties: -8%
+ - all_infantry:
+ - Recovery Rate: +5%
+|}
+
+## Logistics [verified for 1.16]
+
+These technologies unlock and enhance Logistics companies and their variants. These support companies focus on reducing the supply and fuel usage of divisions to which they are attached, reducing the impacts of poor supply and allowing more of them to safely operate in the same area without overloading the supply network.
+
+These technologies are also classified as motorized technologies, and can therefore benefit from corresponding military industrial organizations and technology bonuses.
+
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Logistics Company I: Having specialized Logistics Officers among our ranks will ensure that support networks are leveraged to minimize waste.
+| 1936
+| 137 days
+| * Support Equipment
+- Truck
+|Enables
+Logistics Company Handles planning, requesting and distributing resources for the division. manpower 500
+Recovery Rate 0.30
+Organization 10
+Weight 0.1 Training time 120
+Division Supply Usage -10%
+HP 1.0
+Division Fuel Usage -5%
+|-
+| FOCUS Helicopter Transport Company: Helicopters equipped with transport pods or towing goods beneath them on a line can move supplies and equipment quickly and without regard for terrain. Getting stuck in the mud is a thing of the past!
+| 1938
+| 220 days
+| * Helicopter
+- Logistics Company I
+|{{Collapse|
+Enables
+{{Equipment
+|width=31em
+|name=Helicopter Transports
+|file=Helicopter transport
+|desc=Helicopters with cargo capacity modifications or lifting supplies by cable beneath, getting equipment to where it needs to be quickly and without regard to terrain.
+|left=manpower 500
+Recovery Rate 0.30
+Organization 12
+Weight 0.1
+|right=Training time 120
+Division Supply Usage -10%
+HP 1.0
+|adjusters=
+Forest
+Hills
+Mountain
+Plains
+Jungle
+Marsh
+Desert
+River
+|}
+}}
+}}
+|-
+| FOCUS Logistics Company II: Adapting our risk analyses to the new circumstances of war will improve the safety of our logistical support.
+| 1939
+| 165 days
+| Logistics Company I
+|Upgrades
+- Logistics :
+ - Division Supply Usage: -10%
+ - Division Fuel Usage: -5%
+- Helicopter Transports :
+ - Division Supply Usage: -12%
+|-
+| FOCUS Logistics Company III: Continued statistical evaluation of troop supply needs contribute to maximizing the utility of our resources.
+| 1942
+| 220 days
+| Logistics Company II
+|Upgrades
+- Logistics :
+ - Division Supply Usage: -10%
+ - Division Fuel Usage: -5%
+- Helicopter Transports , Helicopter Brigade :
+ - Division Supply Usage: -12%
+|-
+| FOCUS Logistics Company IV: Developing standardized classifications for supplies will minimize confusion and make planning more efficient.
+| 1945
+| 220 days
+| Logistics Company III
+|Upgrades
+- Logistics :
+ - Division Supply Usage: -10%
+ - Division Fuel Usage: -5%
+- Helicopter Transports :
+ - Division Supply Usage: -15%
+|}
+
+## Signal [verified for 1.16]
+
+These technologies unlock and enhance Signal companies and their variants. These support companies focus on increasing their divisions' Initiative, which allows them to gain planning bonus faster and be more likely to reinforce into available combat width in ongoing battles. The latter can be especially helpful when performing naval invasions or when trying to hold a defensive line with multiple divisions in the same province.
+
+These technologies are also classified as both motorized and electronics technologies, and can therefore benefit from corresponding military industrial organizations and technology bonuses.
+
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Signal Company I: Establishing and maintaining communications in the field has always required special skills. With the advent of new communications and detection technology in the Great War, new possibilities for the practice lie ahead.
+| 1936
+| 137 days
+| * Support Equipment
+- Truck
+- Radio
+|Enables
+Signal Company Responsible for local communications working in the division. manpower 500
+Recovery Rate 0.30
+Supply use 0.02
+HP 1.0 Training time 120
+Initiative 10.00%
+Organization 20
+Weight 0.1
+|-
+| FOCUS Armored Signal Company: Equipping our units with command vehicles will ensure secure and reliable battlefield communications and coordination under armored protection.
+| 1938
+| 220 days
+| * Military Engineering Vehicles
+- Signal Company I
+|Enables
+Armored Signal Company Specialized vehicles providing battlefield leadership and coordination, equipped with advanced communication systems to direct operations from the front lines. manpower 500
+Recovery Rate 0.30
+Supply use 0.03
+HP 1.0 Training time 120
+Initiative 12.00%
+Organization 20
+Weight 0.1
+- With No Step Back :
+ - Command Center land cruiser module
+|-
+| FOCUS Signal Company II: Signal companies focusing on communication between the different branches of the military can ensure that ground forces are able to coordinate efforts with sea and air operations and plan their movements more rapidly.
+| 1939
+| 165 days
+| Signal Company I
+|Upgrades
+- Signal :
+ - Initiative: +12%
+- Armored Signal Company :
+ - Initiative: +8%
+ - all_armor:
+ - Breakthrough: +1%
+|-
+| FOCUS Signal Company III: Increasingly portable communications technology is more viable to be personally carried as a backpack. This increased mobility of signal corps must be utilized.
+| 1942
+| 220 days
+| Signal Company II
+|Upgrades
+- Signal :
+ - Initiative: +12%
+- Armored Signal Company :
+ - Initiative: +8%
+ - all_armor:
+ - Breakthrough: +1%
+|-
+| FOCUS Signal Company IV: Among our signal specialists are people with unparalleled first-hand knowledge of field use of this equipment. By involving them in the research of new communication technologies, we can make use of their expertise.
+| 1945
+| 220 days
+| Signal Company III
+|Upgrades
+- Signal :
+ - Initiative: +12%
+- Armored Signal Company :
+ - Initiative: +8%
+ - all_armor:
+ - Breakthrough: +1%
+|}
+
+# Trains [verified for 1.16]
+
+Trains technologies are used to unlock various types of trains, including railway artillery. Trains move supplies to supply nodes via railways , while railway artillery can bombard enemy units and assist in land combat from a distance.
+
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Civilian Train: Taken over by the military from regular civilian freight duty, this train engine is well-suited to move a large amount of supplies over long distances. However, its civilian construction makes it vulnerable.
+| 1910
+| 165 days
+
+|Enables
+Civilian Train 1 steel production cost 70.00
+Unlocks
+Commandeer Civilian Trains decision
+|-
+| FOCUS Armored Train: A train engine encased in heavy armor to make it less vulnerable to enemy attack. It can carry as much cargo as any other design, but is more expensive to produce.
+| 1936
+| 165 days
+|* No Step Back
+- Civilian Train
+|Enables
+Armored Train 2 steel Air Attack 18.0
+production cost 105.00 Armor 250.0
+|-
+| FOCUS Railway Gun: A heavy cannon mounted on a railway carriage for transportation.
+| 1936
+| 165 days
+|* No Step Back
+- Armored Train
+|Enables
+Railway Gun Railways offer an opportunity to move heavy guns far inland at a reasonable speed, allowing us to bombard enemy position at great range and with good effect. 4 steel 2 tungsten 2 chromium manpower 1000
+Annex Ratio 50%
+Max Speed 5.0 km/h
+production cost 105.00 Bombardment 25.0
+Hours between redistribution 24
+Reliability 80.0%
+Unlocks* With Götterdämmerung :
+ - Hull-Mounted Railway Gun land cruiser module
+- Super-Heavy Railway Gun special project
+|-
+| FOCUS War Austerity Train: A simplified design that ommits many features commonly found on regular freight trains for the sake of cheaper production. It is still every bit as vulnerable as a regular train, but can more easily be replaced.
+| 1939
+| 165 days
+|* Civilian Train
+|Enables
+War Austerity Train 1 steel production cost 50.00
+|}
+
+Names of trains not included in the game:
+- Dominion of Canada - Civilian Train: Hudson H1e
+- Belgium - Civilian Train: SNCB Type 12
+
+# Secret Techs [verified for 1.16]
+
+These techs are only available for certain countries under the appropriate conditions.
+
+{| class="wikitable"
+! Technology
+! style="width:30em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| Camicie Nere
+|Can unlock this tech:
+- Italy via ITA_security_militias
+|Upgrades
+- Military Police :
+ - Suppression Bonus: +5%
+|-
+| SWI_saint_bernard_tech
+|Can unlock this tech:
+- Switzerland via SWI_spirit_of_saint_bernard
+|Upgrades
+- Field Hospital :
+ - manpower Trickleback: +30%
+ - Experience loss from casualties: -30%
+|-
+| NORDIC_supportCollaboration_tech
+
+|Upgrades
+- support:
+ - Organization: +10
+ - Soft Attack: +25%
+ - Experience loss from casualties: -5%
+|-
+| tech_recon_focus_bonus
+|Can unlock this tech:
+- British Raj via RAJ_help_from_the_nagas
+|Upgrades
+- recon:
+ - Reconnaissance: +2
+|}
+
+# References

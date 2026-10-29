@@ -1,0 +1,2630 @@
+TITLE: Japanese Empire
+URL: https://hoi4.paradoxwikis.com/Japanese_Empire
+REVISION: 2026-03-25T06:56:41Z (rev 99265)
+VERIFIED FOR: 1.5
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+The Japanese Empire was the leader of the Axis powers in the Pacific Theater. They have a population of 64.86 M (core) and an additional 33.19 M (non-core). Japan seeks to further expand its dominion in East Asia, its "Greater East Asian Co-Prosperity Sphere" at the expense of all caught in its way. Its military has countless plans drawn up for its conquest of Asia, some involve an invasion of the Chinese mainland and splitting up China into loyal puppets, others calling for an invasion of India and others involve invading European possessions in Indonesia and Indochina. Even more tenuous plans call for an invasion of Soviet Siberia, to claim its vast resources and wealth, another plan involves targeting Australia and New Zealand with Japan's biggest ambition being the concept of an invasion of the United States in order to secure the nation's resources and industry and to topple Japan's perhaps biggest rival in the Pacific.
+
+# Historical background
+After Japan's unification during the Meiji Restoration of 1868, the Japanese Empire had undergone a period of rapid westernization and industrialization, with the goal of making Japan a power on par with the other western nations. With its newfound power, Japan sought to make up for its lack of resources by securing them overseas, through invading neighboring nations, starting with its invasion of Korea in 1895, the First Sino-Japanese War in 1894-1895, where Japan conquered Taiwan. Succeeding in this, Japan later fought and won the Russo-Japanese War against the Russian Empire in 1904-1905, cementing itself as one of the world's great powers and first non-European nation to achieve this status. Allying itself with the United Kingdom in 1902, Japan joined World War I on the side of the Entente, conquering Germany's possessions in the Pacific and China.
+
+During the Great Depression, the Japanese government had become increasingly militaristic, leading to the conquest of Manchuria in 1931, creating the puppet state of Manchukuo. In 1933, further Chinese border territories were also conquered, leading to further puppet states, like Mengjiang.
+
+Some consider that World War II actually began with the invasion of China by Japan, first by taking Manchuria and installing their puppet the Manchukuo regime. In 1937, after the Marco Polo Bridge Incident, Japan declared war on China, beginning the Second Sino-Japanese War in which Japan invaded and conquered much of eastern China, installing additional puppet regimes along the way, including Mengjiang and the "Reorganized National Government of the Republic of China". After invading China, Japan struck southwards, invading and conquering British Malaya and the Dutch East Indies (Indonesia), in hopes of securing their resources, followed by an invasion of the British Raj.
+
+On August 6, 1945, the United States dropped a nuclear bomb on Hiroshima, flattening the center of the city. Late in the evening of August 8, according to the Yalta agreements, the Soviet Union declared war on Japan, and shortly after midnight on August 9, attacked Manchukuo and Mengjiang. Only hours later, the Americans dropped a second nuclear bomb on Nagasaki, destroying a small portion of it. The total shock of these events forced Emperor Hirohito to intervene and compel the big six to agree on the terms of ending the war, taken by the Allies in the Potsdam Conference. After several days of backroom negotiations and failed attempts to destroy the stockpiles of biological and chemical weapons of Unit 731 in Manchuria, which were captured by Soviet paratroopers, and the collapse of the Kwantung Army, in August 15, Hirohito addressed the nation by radio and announced the surrender of Japan. The signing ceremony of the Act of Capitulation took place on September 2 aboard the United States Navy battleship USS Missouri (BB-63).
+
+# Events
+(Main article: Japanese events)
+
+# National focus
+
+(Main article: Japanese national focus tree)
+Japan, as one of the seven major powers, has a unique national focus tree. It is set to receive its own unique expansion of their national focus tree in the "No Compromise, No Surrender" Expansion Pack DLC.
+branches desc
+
+# National spirits [verified for 1.17]
+
+Japan starts with the following national spirits:
+
+Spirit Militarism: Militarism dominates the political and social life of the nation, and the belief that the strength of the military is equal to the strength of a nation is prominent. Beginning with the introduction of conscription during the Meiji Restoration, it has now become a core tenant in our national beliefs.
+- Research Speed: -5.00%
+- Justify cb time: -20.0%
+- Conscription Laws Cost: -25%
+- cic construction speed: -10.00%
+
+Spirit London Naval Treaty Signatory: We have signed the London Naval Treaty and accordingly are restricted in the size of our capital ships.
+- Carrier Max Cost: 9500 production cost n
+- Cruiser Max Cost: 5300 production cost n
+- Heavy Ship Max Cost: 10000 production cost n
+
+Spirit State Shintoism: Since the Meiji Restoration we have sought to use the worship in Shinto shrines to promote imperial loyalty and aid in nation building. This has allowed us to build up a country that is ready to sacrifice much in the name of the state.
+- Surrender Limit: +10.00%
+- War Support : +20.00%
+
+Spirit Imperial Army: The IJA is our principal ground force, having played a central role in our rapid modernization during the Meiji era, and having fought in numerous conflicts including the Japan–Qing War, the Russo-Japanese War as well as the Great War. Initially formed from domain armies after the Meiji Restoration, it evolved into a powerful modern military influenced by French and German models.
+- Japanese Armor Doctrine, which grants
+ - Armor Research Speed: -10%
+ - All Tank Equipment:
+ - Production Cost : +10.00%
+ - Armor Division Attack: -10.0%
+ - Tanks & Armor Variants:
+ - Jungle:
+ - Attack Effective Change: +10%
+ - Defense Effective Change: +10%
+- Supply Consumption: +20.0%
+- Division Recovery Rate: +5.0%
+- Division Defense: -5.0%
+- Artillery Attack: -10.0%
+- Initiative: +10.0%
+
+Spirit Imperial Navy: The IJN was formed in 1868 at the beginning of the Meiji Restoration, and was already by 1920 the third largest navy in the world. Now, our mighty navy is being rapidly expanded, in order for our nation to be able to face the times ahead.
+- Naval Detection: -10%
+- Number of ships in the first contact: +10%
+- Naval Max Range Factor: +10.00%
+- Escort efficiency: -15.0%
+- Accident chance: +10.00%
+- Torpedo hit chance: +15.00%
+
+Spirit Army and Naval Air Services: Our air force is currently divided between the Imperial Japanese Army Air Service and the Imperial Japanese Navy Air Service, being divided both in operation, production as well as research and development between our navy and army. Due to this it faces large logistical bottlenecks, some of which can only be overcome by the merging of our air forces.
+- Separate Air Services, which grants
+ - Air Research Speed: -10%
+- Air Wing Experience loss when killed: +10%
+- Naval Mission Efficiency: +10%
+- Untrained pilots penalty for new Air Wings: +10%
+
+Spirit Early Industrialization Efforts: Our Industrial Revolution only really got started in the 1870s during the Meiji Restoration, after the Iwakura Mission brought home the knowledge needed to get our industrialization projects off the ground. Ever since then, our economy has expanded greatly, and modern industries have been established. Despite this however, our economy is still far behind those in the western world, largely due to our lack of natural resources.
+- Consumer Goods Factories factor: 30.0%
+- Lack of Resources Penalty: +10.00%
+- Research Speed: -3.00%
+- Factory Bomb Vulnerability: +25.00%
+
+## Imperial Influence
+
+(Main article: Imperial influence)
+ Imperial Influence mechanic introduced in ncns simulates Japan internal factions vying for control in the country and the influence of the Emperor. In this mechanic, Japan is affected by a dynamic modifier containing bonuses and penalties pertaining to the influence each faction has in the nation. The factions are the Army, the Navy, the Zaibatsu and Civic factions. These factions gain or decrease influence through events, decisions and focuses.
+
+Spirit Imperial Influence: The various factions within the nation are all vying for power and influence over the Emperor, a tradition dating back to the oligarchs and military cliques founded during the Meiji and Taisho eras.
+- Current Faction Levels:
+
+- Meddling Army Faction, which grants
+ - All Infantry and Support Equipment:
+ - Production Cost : +2.50%
+ - All Artillery Equipment:
+ - Production Cost : +2.50%
+ - Fighter and CAS:
+ - Production Cost : +2.50%
+ - Army Fuel Capacity: -2.50%
+
+- Meddling Navy Faction, which grants
+ - All Carrier Aircraft:
+ - Production Cost : +2.50%
+ - All Warships:
+ - Production Cost : +2.50%
+ - Navy Fuel Consumption: +2.50%
+
+- Meddling Zaibatsu Faction, which grants
+ - Economy Laws Cost: +20%
+ - infra : construction speed: +10.00%
+ - cic construction speed: +10.00%
+
+- Meddling Civic Faction, which grants
+ - Daily Political Power Gain: +0.05
+ - Recruitable Population Factor: -5%
+ - Stability : +5.00%
+ - War Support : -10.00%
+ - Trade Laws Cost: +25%
+
+# Technology [verified for 1.17]
+
+## Research
+Japanese Empire begins with 3 research slots available; 2 more can be unlocked through the national focus tree.
+
+- Infantry Equipment I
+- Truck
+- Inter-War Armored Car La Résistance
+- Paratroopers I
+- Marines I
+- Bicycle Infantry
+- The Silver Wheels
+----
+- Engineer Company I
+- Recon Company I
+- Civilian Train
+- Military Police I
+----
+- Towed Artillery
+----
+- Improved Light Tank
+- Basic Medium Tank (39)
+- Lightweight Tank Designs
+----
+Armor without No Step Back :
+- Light Tank II
+- Medium Tank I (39) * Basic Destroyer (36)
+- Improved Destroyer (39)
+- Basic Depth Charges
+- Basic Cruiser (36)
+- Improved Cruiser (39)
+- Basic Cruiser Armor Scheme
+- Basic Heavy Ship
+- Basic Carrier (36)
+- Improved Carrier (39)
+- Basic Submarine (36)
+- Improved Submarine (39)
+- Coastal Defense Ships
+----
+- Basic Light Battery
+- Basic Heavy Battery
+- Basic Dual-Purpose Light Battery
+- Improved Ship Torpedo Launcher
+- Transport Ship
+- Contact Mine
+- Minelaying Submarine * Basic Small Airframe
+- Inter-War Medium Airframe (36)
+- Basic Medium Airframe (39)
+- Inter-War Transport Plane
+- Bombs
+- Light MG
+- Air Launched Torpedoes
+- Aircraft Construction
+- Range Improvements (39)
+- Engines II
+----
+Without By Blood Alone :
+- Inter-War Fighter (36)
+- Inter-War Carrier Fighter
+- Fighter I (39)
+- Carrier Fighter I (39)
+- Close Air Support I
+- Carrier Close Air Support I
+- Naval Bomber I
+- Carrier Naval Bomber I
+- Inter-War Bomber (36)
+- Tactical Bomber I (39)
+- Inter-War Transport Plane * Advanced Machine Tools (39)
+- Concentrated Industry III (39)
+- Construction III (39)
+- Fuel Storage
+- Synthetic Oil Experiments
+- Oil Processing (39)
+- Fuel Refining I (36)
+- Fuel Refining II (39)
+---- (39)
+- Radio (39)
+- Computing Machine (39)
+---- (39)
+Without La Résistance : (39)
+- Encryption - Polyalphabetical Ciphers (39)
+- Decryption - Frequency Analysis (39) * Grand Battleplan
+ - Defensive Postures ( mastery : 200) (39)
+ - Infiltration Tactics ( mastery : 200) (39)
+ - Field Engineering ( mastery : 150) (39) * Base Strike
+ - Massed Carrier Fleet ( mastery : 200) (39) * Operational Integrity
+
+## Cosmetic names
+Japanese Empire has a number of unique names for various technologies and equipment, listed here. Note that generic names are not listed.
+
+Type: Support Weapons
+1918: Type 3 Heavy Machine Gun & Type 11 mortar
+1938: Type 11 LMG & Type 10 grenade discharger
+1940: Type 99 LMG & Type 94 mortar
+1942: Type 1 HMG & Type 2 12 cm Mortar
+
+Type: Infantry Equipment
+1918: Type 38
+1936: Type 99
+1939: Type 100/40
+1942: Type 100/44
+
+Type: Infantry Anti-Tank
+1942: Type 2 Rifle Grenade
+1943: Type 4 AT Rocket Launcher
+
+Type: Motorized
+1936: Isuzu Type 94
+
+Type: Mechanized
+1940: Type 1 Ho-Ki
+1942: Type 1 Ho-Ha
+1944: Type 4 Ka-Tsu
+
+Type: Amphibious Tractors
+1941: Ka-Tsu
+1943: Ka-Tsu Kai
+
+Type: Armored Car La Résistance
+1936: Osaka
+1940: Chiyoda
+1942: Kokusan
+
+Tech year: 1918
+Light (TD/SPG/AA): Ko-Gata
+
+Tech year: 1934
+Light (TD/SPG/AA): Type 94
+Heavy (TD/SPG/AA): Type 95 (Ka-To / Ji-Ro / NA)
+
+Tech year: 1936
+Light (TD/SPG/AA): Ha-Go (NA / Ke-Nu / Ko-Hi AA)
+
+Tech year: 1938
+Amphibious: Type 2 Ka-Mi
+Medium (TD/SPG/AA): Chi-Ha (Ho-Ni I / Ho-I / NA)
+
+Tech year: 1940
+Medium (TD/SPG/AA): Chi-Nu (Ho-Ni III / Ho-Ro / NA)
+Heavy (TD/SPG/AA): Iwakuro (Ho-Ri / Ho-Chi / NA)
+
+Tech year: 1941
+Light (TD/SPG/AA): Ke-Ni (Ho-Ru / Ku-Se / Ta-Se)
+Super-Heavy: Type 2604
+
+Tech year: 1943
+Medium (TD/SPG/AA): Chi-Ri (Na-To / Ha-To / NA)
+Heavy (TD/SPG/AA): O-I
+
+Tech year: 1945
+Modern: Type 61
+
+Note: Without No Step Back, Medium Tank I and II are unlocked one year later. Amphibious tanks are then unlocked in 1940 and 1942, the second one is called Type 3 Ka-Chi.
+
+Tech year: 1934
+Artillery: Type 38 75 mm
+
+Tech year: 1936
+Anti-Air: Type 98 20 mm
+Anti-Tank: Type 94 37 mm
+
+Tech year: 1939
+Artillery: Type 91 10 cm
+
+Tech year: 1940
+Anti-Air: Type 2 20 mm
+Rocket Artillery: Type 4 20 cm
+Anti-Tank: Type 1 37 mm
+
+Tech year: 1942
+Artillery: Type 96 15 cm
+
+Tech year: 1943
+Anti-Air: Type 99 88 mm
+Rocket Artillery: Type 4 40 cm
+Anti-Tank: Type 1 47 mm
+
+1933
+Type 91
+G3M Rikko
+NA
+Ki-56
+
+1936
+Ki-32 (D1A2)
+Ki-27 (A5M)
+G3M1 (B5N)
+Ki-38
+Ki-21
+Ki-20
+Ki-46
+
+1940
+Ki-51 (D3A)
+Ki-43 Hayabusa (A6M Zero-sen)
+G4M (B6N)
+Ki-45 Toryu
+Ki-48
+Ki-49 Donryu
+J1N1-C
+Ki-57
+
+1944
+Ki-66 (D4Y Suisei)
+Ki-84 Hayate (A7M Reppu)
+P1Y Ginga (B7A)
+Ki-102
+Ki-67
+G8N Renzan
+Ki-74
+
+1945
+Kikka
+NA
+
+1950
+J7W Shinden-Kai
+NA
+NA
+
+# Geography [verified for 1.17]
+
+Japan is located in the far east of Asia. It is mainly made up of the four major islands: Kyushu, Shikoku, Honshu, and Hokkaido. Japan also owns the Korean peninsula, East Hebei, the city of Dalian, South Sakhalin and a lot of strategic islands in the Pacific including: Taiwan, Okinawa, Saipan, Guam and Iwo Jima. Japan also controls the puppet states of Manchukuo and Mengjiang (1939 only).
+
+Mainland Japan is dominated by mountains, which run through almost the entire country. It has a couple of urban areas, namely Tokyo, Hiroshima, and Nagasaki. Flat, arable land can be found around the major cities of Japan.
+
+Japan borders with the Soviet Union, both directly through the Sakhalin island and the northern Korean border as well as the northern border of their puppet Manchukuo. They also border Hebei-Chahar through East Hebei. Mainland Japan is surrounded by sea, with the Sea of Japan to the west, the East China Sea to the south, and the Pacific Ocean to the east.
+
+Japanese Empire owns 19 core and 12 colonial states.
+
+State: Caroline Islands
+Cities: Truk
+Yap
+vp: 5
+1
+Terrain (# prov): Plains (11)
+Region: Small Island
+population: 42,357
+Is core: no
+
+State: Chungcheong-Jeolla
+Cities: Gunsan
+Jeju
+Kōshū
+Seishū
+Taiden
+Zenshū
+vp: 0
+0
+1
+1
+1
+1
+Terrain (# prov): Hills (3)
+ Plains (7)
+Region: Rural Region
+population: 3,761,368
+Is core: no
+
+State: Dalian
+Cities: Ryojun
+Zhuanghe
+vp: 1
+0
+Terrain (# prov): Hills (1)
+ Urban (1)
+Region: Sparse Urban Region
+population: 1,034,074
+Is core: no
+
+State: East Hebei
+Cities: Tangshan
+Tongzhou
+vp: 1
+2
+Terrain (# prov): Forest (2)
+ Plains (5)
+Region: Developed Rural Region
+population: 6,960,000
+Is core: no
+
+State: Gangwon
+Cities: Shunsen
+vp: 1
+Terrain (# prov): Hills (8)
+Region: Rural Region
+population: 1,328,410
+Is core: no
+
+State: Gyeonggi
+Cities: Keijō
+vp: 3
+Terrain (# prov): Plains (3)
+ Urban (1)
+Region: Developed Rural Region
+population: 6,961,368
+Is core: no
+
+State: Gyeongsang
+Cities: Fuzan
+Taikyū
+vp: 5
+1
+Terrain (# prov): Hills (7)
+ Urban (1)
+Region: Developed Rural Region
+population: 4,761,368
+Is core: no
+
+State: Hamgyong
+Cities: Kankō
+Seishin
+vp: 1
+1
+Terrain (# prov): Forest (1)
+ Hills (12)
+ Mountain (7)
+Region: Rural Region
+population: 2,258,066
+Is core: no
+
+State: Hokkaido
+Cities: Asahikawa
+Hakodate
+Nemuro
+Sapporo
+Wakkanai
+vp: 5
+2
+0
+15
+0
+Terrain (# prov): Hills (9)
+ Plains (3)
+Region: Rural Region
+population: 3,012,000
+Is core: yes
+
+State: Hokuriku
+Cities: Kanazawa
+vp: 15
+Terrain (# prov): Hills (3)
+ Plains (1)
+Region: Urban Region
+population: 3,871,000
+Is core: yes
+
+State: Iwo Jima
+Cities: Iwo Jima
+vp: 5
+Terrain (# prov): Plains (1)
+Region: Small Island
+population: 1,018
+Is core: yes
+
+State: Kansai
+Cities: Himeji
+Ise
+Kushimoto
+Kyoto
+Maizuru
+Osaka
+Suzuka
+Wakayama
+vp: 0
+0
+0
+20
+1
+40
+0
+0
+Terrain (# prov): Hills (9)
+ Urban (2)
+Region: Metropolis Region
+population: 12,015,000
+Is core: yes
+
+State: Kanto
+Cities:
+Chiba
+Hitachi
+Iwaki
+Saitama
+Takasaki
+Tokyo
+Utsunomiya
+Yokohama
+vp: 0
+0
+0
+0
+0
+50
+0
+25
+Terrain (# prov): Hills (1)
+ Mountain (3)
+ Plains (5)
+ Urban (2)
+Region: Megalopolis Region
+population: 15,773,000
+Is core: yes
+
+State: Kita-Tohoku
+Cities: Akita
+Aomori
+Hachinohe
+Morioka
+Mutsu
+vp: 2
+5
+0
+1
+0
+Terrain (# prov): Forest (3)
+ Hills (6)
+ Plains (2)
+Region: Developed Rural Region
+population: 4,266,278
+Is core: yes
+
+State: Kitakyūshū
+Cities:
+Aso
+Beppu
+Fukuoka
+Kokura
+Kumamoto
+Kurume
+Nagasaki
+Oita
+Sasebo
+Tsushima
+vp: 0
+0
+5
+10
+5
+0
+15
+0
+0
+0
+Terrain (# prov): Hills (5)
+ Plains (3)
+ Urban (2)
+Region: Urban Region
+population: 6,046,000
+Is core: yes
+
+State: Koshinetsu
+Cities: Nagano
+Niigata
+Sado
+Toyama
+vp: 10
+10
+0
+1
+Terrain (# prov): Hills (3)
+ Mountain (3)
+ Plains (1)
+Region: Urban Region
+population: 2,064,402
+Is core: yes
+
+Kuril Islands
+Plains (3)
+Tiny Island
+15,000
+yes
+
+Marcus Island
+Plains (1)
+Tiny Island
+42
+yes
+
+State: Marshall Islands
+Cities: Eniwetok
+Kwajalein
+vp: 1
+3
+Terrain (# prov): Plains (9)
+Region: Small Island
+population: 52,517
+Is core: no
+
+State: Minami Kyūshū
+Cities: Kagoshima
+Miyazaki
+vp: 15
+2
+Terrain (# prov): Hills (7)
+ Plains (1)
+Region: Rural Region
+population: 3,023,000
+Is core: yes
+
+State: Minami Tohoku
+Cities: Fukushima
+Sakata
+Sendai
+vp: 2
+0
+15
+Terrain (# prov): Hills (3)
+ Mountain (2)
+ Urban (1)
+Region: Developed Rural Region
+population: 2,796,521
+Is core: yes
+
+State: Okinawa
+Cities: Naha
+vp: 10
+Terrain (# prov): Plains (4)
+Region: Small Island
+population: 578,000
+Is core: yes
+
+State: Palau
+Cities: Koror
+Ngaraard
+vp: 2
+1
+Terrain (# prov): Plains (2)
+Region: Small Island
+population: 12,100
+Is core: no
+
+State: Pyongan-Hwanghae
+Cities: Heijō
+Kaishū
+Shingishū
+vp: 3
+1
+1
+Terrain (# prov): Forest (4)
+ Hills (6)
+ Mountain (2)
+ Plains (6)
+ Urban (1)
+Region: Developed Rural Region
+population: 4,516,134
+Is core: no
+
+State: Saipan
+Cities: Saipan
+vp: 1
+Terrain (# prov): Plains (3)
+Region: Small Island
+population: 21,657
+Is core: yes
+
+State: San'in
+Cities: Matsue
+Tottori
+vp: 0
+1
+Terrain (# prov): Hills (5)
+Region: Rural Region
+population: 1,111,000
+Is core: yes
+
+State: San'yo
+Cities:
+Fukuyama
+Hiroshima
+Okayama
+Shimonoseki
+Taishakugawa Dam
+Yamaguchi
+vp: 0
+20
+10
+2
+0
+0
+Terrain (# prov): Hills (5)
+ Plains (1)
+ Urban (1)
+Region: Dense Urban Region
+population: 4,431,000
+Is core: yes
+
+State: Shikoku
+Cities: Kochi
+Matsuyama
+Takamatsu
+Tokushima
+vp: 8
+10
+0
+0
+Terrain (# prov): Hills (7)
+Region: Developed Rural Region
+population: 3,310,000
+Is core: yes
+
+State: South Sakhalin
+Cities: Shikuka
+Toyohara
+vp: 0
+1
+Terrain (# prov): Hills (2)
+ Plains (1)
+Region: Rural Region
+population: 331,943
+Is core: yes
+
+State: Taiwan
+Cities: Taihoku
+Takao
+vp: 5
+1
+Terrain (# prov): Hills (4)
+ Mountain (2)
+ Plains (4)
+Region: Sparse Urban Region
+population: 5,291,537
+Is core: no
+
+State: Tokai
+Cities: Hamamatsu
+Nagoya
+Ōi Dam
+Shizuoka
+vp: 0
+25
+0
+3
+Terrain (# prov): Hills (4)
+ Mountain (3)
+ Plains (1)
+ Urban (1)
+Region: Dense Urban Region
+population: 7,174,000
+Is core: yes
+
+# Politics [verified for 1.17]
+
+## Ideology
+ non-aligned Non-Aligned (Despotic)
+
+- yes Can impose its ideology on other countries
+- no Can send volunteer forces
+- yes Can puppet a country
+- Yes Can prepare collaboration governments
+
+## Political parties
+{| class="wikitable"
+|-
+! Political Party !! Ideology !! Popularity !! Party Leader !! Country Name !! Is Ruling?
+|-
+| Kokumin Dōmei || fascism Fascist || 35% || Kenzō Adachi || Imperial Japan || No
+|-
+| Nihon Kyōsan-tō (JCP) / Kōza-ha || communism Communist || 2% || Kyuichi Tokuda || Japanese People's Republic || No
+|-
+| Rikken Minseito || democracy Democratic || 23% || Tetsu Katayama || State of Japan || No
+|-
+| Kyokoku Itchi Naikasu || neutrality Non-Aligned || 40% || Keisuke Okada || Japanese Empire || Yes
+|-
+|}
+
+## Country leaders
+Possible country leaders of Japan.
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Country leaders
+! Ideology
+! class="unsortable" | Portrait
+! Name
+! style="width:1em;" | Party
+! Traits
+! Effects
+! Possible
+|-
+! style="text-align: center;" | Democratic
+Liberalism
+|
+| Tetsu Katayama
+| Rikken Minseito
+| resolute_social_democrat
+| Starting leader
+|-
+! style="text-align: center;" | Democratic
+Conservatism
+|
+| Keisuke Okada
+| Rikken Miseitō
+| jap_moderate_politician_dem
+| Can power via focus Okada's Military Purge Speech
+|-
+! style="text-align: center;" | Democratic
+Liberalism
+|
+| Chuji Machida
+| Rikken Miseitō / Rikken Seiyūkai / Kyokoku Itchi Naikaku
+| jap_minseito_leader
+| Can come to power via focus Machida Chuji's Premiership or via event The Emperor Nominates a new Prime Minister or via event Conclusion of the 1936 General Election
+|-
+! style="text-align: center;" | Democratic
+Socialism
+|
+| Isoo Abe
+| Rikken Miseitō / Rikken Seiyūkai / Kyokoku Itchi Naikaku
+| jap_socialist_politician
+| Can come to power via focus Abe Isoo's Premiership or via event The Emperor Nominates a new Prime Minister
+|-
+! style="text-align: center;" | Democratic
+Conservatism
+|
+| Iesato Tokugawa
+| Rikken Miseitō / Rikken Seiyūkai / Kyokoku Itchi Naikaku
+| jap_popular_diplomat
+| Can come to power via focus Tokugawa Iesato's Premiership or via event The Emperor Nominates a new Prime Minister
+|-
+! style="text-align: center;" | Democratic
+Liberalism
+|
+| Ichirō Hatoyama
+| Rikken Seiyūkai / Jiyū-Minshutō
+| jap_rikken_seiyukai_leader
+| Can come to power via focus Ichiro Hatoyama's Premiership
+|-
+! style="text-align: center;" | Democratic
+Conservatism
+|
+| Mitsumasa Yonai
+| Rikken Seiyūkai
+| jap_moderate_navy_leader
+| Can come to power via focus Mitsumasa Yonai's Premiership
+|-
+! style="text-align: center;" | Communist
+Marxism
+|
+| Kyuichi Tokuda
+| Nihon Kyōsan-tō (JCP) / Kōza-ha
+| jap_chairman_of_the_jcp_trait
+| Starting leader
+|-
+! style="text-align: center;" | Communist
+Marxism
+|
+| Sanzō Nozaka
+| Kōza-ha
+| guerilla_warfare_expert
+| Can can come to power via event A leader for the Kōza-ha
+|-
+! style="text-align: center;" | Communist
+Marxism
+|
+| Hitoshi Yamakawa
+| Rōnō-ha
+| jap_socialist_revolutionary
+| Can come to power via event A leader for the Rōnō-ha
+|-
+! style="text-align: center;" | Communist
+Marxism
+|
+| Kikue Yamakawa
+| Rōnō-ha
+| arg_feminist_revolutionary
+| Can come to power via event A leader for the Rōnō-ha
+|-
+! style="text-align: center;" | Communist
+Buddhist Socialism
+|
+| Girō Seno'o
+| Shinkō Bukkyō Seinen Dōmei
+| jap_nichiren_marxist_trait
+| Can come to power via event The Revitalization of Buddhism
+|-
+! style="text-align: center;" | Fascism
+Fascism
+|
+| Kenzō Adachi
+| Kokumin Dōmei
+
+| Starting leader
+|-
+! style="text-align: center;" | Fascism
+Emperor Fascism
+|
+| Hirohito
+| Kōdōha / Taisei Yokusankai
+| emperor_showa_2
+| Can come to power via focus Empower the Emperor if he isn't assassinated and the nation has become fascist Fascist or via focus The Chrysanthemum Throne
+|-
+! style="text-align: center;" | Fascism
+Emperor Fascism
+|
+| Yasuhito
+| Kōdōha
+| emperor_genka
+| Can come to power via focus Empower the Emperor if Hirohito is assassinated and the nation has become fascist Fascist
+|-
+! style="text-align: center;" | Fascism
+Emperor Fascism
+|
+| Isoroku Yamamoto
+| Taisei Yokusankai
+| jap_ijn_prime_minister_trait
+| Can come to power via focus Yamamoto's Premiership
+|-
+! style="text-align: center;" | Fascism
+Emperor Fascism
+|
+| Hideki Tojo
+| Taisei Yokusankai
+| jap_ija_prime_minister_trait
+| Can come to power via focus Tojo's Premiership
+|-
+! style="text-align: center;" | Fascism
+Emperor Fascism
+|
+| Seigō Tagano
+| Taisei Yokusankai / Tōhōkai
+| jap_tohokai_leader
+| Can come to power via event A Joint Demand from the Tokkō and the Bureaucrats
+|-
+! style="text-align: center;" | Fascism
+Emperor Fascism
+|
+| Sadao Araki
+| Kōdōha
+| jap_staunch_traditionalist_trait
+| Can come to power via event The Question of Morality, Bushido and Fascism
+|-
+! style="text-align: center;" | Fascism
+Emperor Fascism
+|
+| Kazushige Ugaki
+| Taisei Yokusankai
+| jap_diplomatic_prime_minister
+| Can come to power via focus The Imperial Rule Assistance Association if he is the leader previously
+|-
+! style="text-align: center;" | Fascism
+Emperor Fascism
+|
+| Fumimaro Konoe
+| Taisei Yokusankai
+| jap_noble_prime_minister
+| Can come to power via focus The Imperial Rule Assistance Association if he is the leader previously
+|-
+! style="text-align: center;" | Non-Aligned
+Militarism
+|
+| Keisuke Okada
+| Kyokoku Itchi Naikasu
+| jap_moderate_politician_neu
+| Starting leader
+|-
+! style="text-align: center;" | Non-Aligned
+Militarism
+|
+| Hirohito
+| Kōdōha / Taisei Yokusankai
+| emperor_showa_2
+| Can come to power via focus Empower the Emperor if he isn't assassinated and the nation has remained non-aligned Non-Aligned or via event Young Officer Coup (NCNS Disabled)
+|-
+! style="text-align: center;" | Non-Aligned
+Despotism
+|
+| Nagako
+| Kōdōha
+
+| Can come to power via event Kōdōha Officers Indicted for Hirohito's Murder
+|-
+! style="text-align: center;" | Non-Aligned
+Despotism
+|
+| Yasuhito
+| Kōdōha
+| emperor_genka
+| Can come to power via focus Empower the Emperor if Hirohito is assassinated and the nation has remained non-aligned Non-Aligned
+|-
+! style="text-align: center;" | Non-Aligned
+Militarism
+|
+| Jinzaburō Misaki
+| Kōdōha
+| jap_military_prime_minister
+| Can come to power via focus Revere the Emperor, Destroy the Traitors
+|-
+! style="text-align: center;" | Non-Aligned
+Militarism
+|
+| Senjūrō Hayashi
+| Renritsu Seiken
+| jap_military_prime_minister
+| Can come to power via focus The Harakiri Debate
+|-
+! style="text-align: center;" | Non-Aligned
+Militarism
+|
+| Kōki Hirota
+| Kyokoku Itchi Naikasu
+| jap_anti_communist_pm
+| Can come to power via focus The Military Ministers' Attaché System
+|-
+! style="text-align: center;" | Non-Aligned
+Militarism
+|
+| Sadao Araki
+| Kōdōha
+| jap_staunch_traditionalist_trait
+| Can come to power via event Question of the Military Clique Leadership
+|-
+! style="text-align: center;" | Non-Aligned
+Militarism
+|
+| Kazushige Ugaki
+| Kyokoku Itchi Naikasu
+| jap_diplomatic_prime_minister
+| Can come to power via focus Reprimand Hamada Kunimatsu
+|-
+! style="text-align: center;" | Non-Aligned
+Militarism
+|
+| Fumimaro Konoe
+| Renritsu Seiken
+| jap_noble_prime_minister
+| Can come to power via focus Konoe's First Cabinet
+|}
+
+## Country names
+Possible country names for Japan.
+{| class="wikitable"
+|+
+! Id. !! Country name !! Condition
+|-
+| democracy ||State of Japan
+|-
+| communism ||Japanese People's Republic
+|-
+| fascism ||Imperial Japan
+|-
+| neutrality ||Japanese Empire
+|-
+| unknownid ||Occupied Japan || Subject of United States
+|}
+
+## Diplomacy
+Puppets: Japan has a puppet at the start of the 1936 startup; Manchukuo and by 1939 it also has Mengjiang as a puppet. Both of these countries are located in Northern China and are quite lackluster in terms of industry and military.
+
+# Staff and designers
+## Personnel [verified for 1.16]
+
+Ministers and military staff of Japan.
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Political Advisors
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Sanzo Nosaka
+| communist_revolutionary
+|
+- Has completed focus JAP_the_unthinkable_option
+- Is not Supervised State
+| align="center" | 150
+|-
+|
+| Kijuro Shidehara
+| democratic_reformer
+|
+- Has completed focus JAP_strengthen_civilian_government
+- Is not Supervised State
+| align="center" | 150
+|-
+|
+| Kingoro Hashimoto
+| fascist_demagogue
+|
+- Is not Supervised State
+| align="center" | 150
+|-
+|
+| Mitsumasa Yonai
+| silent_workhorse
+
+| align="center" | 150
+|-
+|
+| Hiroshi Oshima
+| prince_of_terror
+
+| align="center" | 150
+|-
+|
+| Chiune Sugihara
+| compassionate_gentleman
+
+| align="center" | 150
+|-
+|
+| Takuo Godo
+| war_industrialist
+
+| align="center" | 150
+|-
+|
+| Tsugumichi Arisugawa (R)
+| head_of_intelligence
+|
+- Has created an Intelligence Agency
+| align="center" | 150
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Theorists
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Tomoyuki Yamashita
+| grand_battle_plan_expert
+
+| align="center" | 150
+|-
+|
+| Hisaichi Terauchi
+| military_theorist
+
+| align="center" | 100
+|-
+|
+| Isoroku Yamamoto
+| naval_aviation_pioneer
+
+| align="center" | 150
+|-
+|
+| Minoru Genda
+| naval_theorist
+
+| align="center" | 100
+|-
+|
+| Yoshitoshi Tokugawa
+| assault_avaition
+
+| align="center" | 150
+|-
+|
+| Hino Kumazo
+| air_warfare_theorist
+
+| align="center" | 100
+|-
+|
+| Yoshio Nishina
+| nuclear_scientist
+- Nuclear Research Speed: +15%
+
+| align="center" | 100
+|-
+|
+| Hideo Itokawa
+| rocket_scientist
+- Rocket Research Speed: +15%
+
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Chief of Army
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Prince Kan'in Kotohito
+| army_chief_offensive_1
+
+| align="center" | 50
+|-
+|
+| Hajime Sugiyama
+| army_chief_drill_3
+|
+- Has completed focus Enact the National Conscription Law
+| align="center" | 200
+|-
+|
+| Hideki Tojo
+| army_chief_morale_2
+
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Chief of Navy
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Prince Fushimi Hiroyasu
+| navy_chief_naval_aviation_2
+
+| align="center" | 100
+|-
+|
+| Osami Nagano
+| navy_chief_commerce_raiding_1
+
+| align="center" | 50
+|-
+|
+| Shigetaro Shimada
+| navy_chief_decisive_battle_2
+
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Chief of Airforce
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Torashiro Kawabe
+| air_chief_night_operations_1
+
+| align="center" | 50
+|-
+|
+| Korechika Anami
+| air_chief_ground_support_1
+
+| align="center" | 50
+|-
+|
+| Kenji Doihara
+| air_chief_all_weather_1
+
+| align="center" | 50
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Military High Command
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Hitoshi Imamura
+| army_logistics_2
+
+| align="center" | 100
+|-
+|
+| Yasuji Okamura
+| army_infantry_2
+
+| align="center" | 100
+|-
+|
+| Shunroku Hata
+| army_concealment_2
+
+| align="center" | 100
+|-
+|
+| Mitsuo Fuchida
+| air_tactical_bombing_2
+
+| align="center" | 100
+|-
+|
+| Tateo Kato
+| air_air_combat_training_3
+
+| align="center" | 200
+|-
+|
+| Chuichi Nagumo
+| navy_carrier_2
+
+| align="center" | 100
+|-
+|
+| Nishizo Tsukahara
+| air_naval_strike_1
+
+| align="center" | 50
+|-
+|
+| Soemu Toyoda
+| navy_capital_ship_1
+
+| align="center" | 50
+|-
+|
+| Matome Ugaki
+| navy_naval_air_defense_2
+
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ style="width: 46em; text-align:left;" | Field Marshals
+! class="unsortable" | Portrait
+! Name
+!
+Skill
+!
+ATK
+!
+DEF
+!
+PLN
+!
+LOG
+! class="unsortable" | Traits
+! class="unsortable" | Requirements
+|-
+|
+| align="left" | Prince Kan'in Kotohito
+| 4 || 5 || 3 || 3 || 3
+| align="left" | Politically Connected
+ Royal Lineage
+ Samurai Lineage
+ Offensive Doctrine
+
+|-
+|
+| align="left" | Prince Nashimoto Morimasa
+| 4 || 4 || 4 || 3 || 4
+| align="left" | Old Guard
+ Inflexible Strategist
+ Politically Connected
+ Royal Lineage
+ Samurai Lineage
+
+|-
+|
+| align="left" | Yasuhito
+| 3 || 4 || 2 || 3 || 2
+| align="left" | Politically Connected
+ Infantry Leader
+ Royal Lineage
+ Samurai Lineage
+ Offensive Doctrine
+| align="left" |
+- Yasuhito is the country leader
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ style="width: 46em; text-align: left;" | Generals
+! width="1px" class="unsortable" | Portrait
+! Name
+! width="1px" | Skill
+! width="1px" | ATK
+! width="1px" | DEF
+! width="1px" | PLN
+! width="1px" | LOG
+! class="unsortable" | Traits
+! class="unsortable" | Requirements
+|-
+|
+| align="left" | Akira Mutō
+| 2 || 2 || 2 || 2 || 1
+| align="left" | Career Officer
+
+|-
+|
+| align="left" | Asaichi Isobe
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Reckless
+ Cavalry Officer
+ Kodoha Sympathiser
+| align="left" | ncns
+- One of the following must be true:
+ - Has completed focus The Grand Army Purge
+ - Has completed focus Sway Disillusioned Young Officers
+|-
+|
+| align="left" | Harukichi Hyakutake
+| 3 || 2 || 2 || 3 || 3
+| align="left" | Infantry Officer
+
+|-
+|
+| align="left" | Hatazō Adachi
+| 2 || 1 || 2 || 2 || 2
+| align="left" | Reckless
+ Infantry Officer
+ Samurai Lineage
+ Trickster
+
+|-
+|
+| align="left" | Hayao Tada
+| 3 || 3 || 2 || 2 || 3
+| align="left" | Infantry Leader
+ Samurai Lineage
+| align="left" |
+- Has completed the decision Promote Hayao Tada to Lieutenant General
+|-
+|
+| align="left" | Hideki Tōjō
+| 3 || 4 || 2 || 4 || 2
+| align="left" | Brilliant Strategist
+ Career Officer
+ Infantry Officer
+ Samurai Lineage
+
+|-
+|
+| align="left" | Hideo Iwakuro
+| 2 || 2 || 2 || 2 || 1
+| align="left" | Armor Officer
+ Engineer
+
+|-
+|
+| align="left" | Hitoshi Imamura
+| 3 || 3 || 1 || 3 || 3
+| align="left" | Career Officer
+ Infantry Officer
+ Commando
+
+|-
+|
+| align="left" | Hisaichi Terauchi
+| 4 || 4 || 4 || 3 || 2
+| align="left" | Politically Connected
+ Armor Officer
+ Samurai Lineage
+
+|-
+|
+| align="left" | Isamu Chō
+| 2 || 2 || 1 || 2 || 2
+| align="left" | Cavalry Leader
+| align="left" | ncns
+- Has completed focus Contact Former Sakurakai Members
+|-
+|
+| align="left" | Iwane Matsui
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Old Guard
+ Reckless
+
+|-
+|
+| align="left" | Jinzaburō Masaki
+| 2 || 2 || 1 || 2 || 2
+| align="left" | Politically Connected
+ Kodoha Sympathiser
+ Trickster
+| align="left" | ncns
+- Has completed focus Revere the Emperor, Destroy the Traitors
+|-
+|
+| align="left" | Jō Iimura
+| 2 || 1 || 2 || 2 || 2
+| align="left" | Career Officer
+
+|-
+|
+| align="left" | Kanji Ishiwara
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Samurai Lineage
+
+|-
+|
+| align="left" | Keisuke Fujie
+| 3 || 1 || 3 || 3 || 3
+| align="left" | Politically Connected
+ Career Officer
+ Fortress Buster
+
+|-
+|
+| align="left" | Kenji Doihara
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Career Officer
+ Substance Abuser
+
+|-
+|
+| align="left" | Kenkichi Ueda
+| 4 || 3 || 2 || 4 || 4
+| align="left" | Old Guard
+ Reckless
+ Cavalry Officer
+
+|-
+|
+| align="left" | Kiichirō Higuchi
+| 2 || 2 || 2 || 2 || 1
+| align="left" | Career Officer
+ Cautious
+
+|-
+|
+| align="left" | Kingoro Hashimoto
+| 2 || 2 || 1 || 2 || 2
+| align="left" | Politically Connected
+ Militia Officer
+| align="left" | ncns
+- One of the following must be true:
+ - Has completed focus Integrate the Great Japan Youth Party
+ - Has completed focus Contact Former Sakurakai Members
+|-
+|
+| align="left" | Kiyosada Koda
+| 2 || 3 || 2 || 1 || 1
+| align="left" | Kodoha Sympathiser
+ Organizer
+| align="left" | ncns
+- One of the following must be true:
+ - Has completed focus The Grand Army Purge
+ - Has completed focus Sway Disillusioned Young Officers
+|-
+|
+| align="left" | Kuniaki Koiso
+| 2 || 2 || 2 || 2 || 1
+| align="left" | Old Guard
+ Politically Connected
+ Samurai Lineage
+
+|-
+|
+| align="left" | Masaharu Homma
+| 2 || 2 || 2 || 1 || 2
+| align="left" | Cautious
+ Media Personality
+
+|-
+|
+| align="left" | Masakazu Kawabe
+| 3 || 3 || 2 || 2 || 3
+| align="left" | Career Officer
+ Infantry Officer
+ Trickster
+
+|-
+|
+| align="left" | Masanobu Tsuji
+| 2 || 3 || 1 || 2 || 2
+| align="left" | harsh Leader
+ Organizer
+
+|-
+|
+| align="left" | Masatane Kanda
+| 2 || 2 || 2 || 1 || 2
+| align="left" | Cautious
+
+|-
+|
+| align="left" | Michitarō Komatsubara
+| 2 || 2 || 2 || 1 || 2
+| align="left" | Cavalry Leader
+ Trickster
+
+|-
+|
+| align="left" | Naruhiko Higashikuni
+| 3 || 3 || 3 || 2 || 2
+| align="left" | Politically Connected
+ Royal Lineage
+ Samurai Lineage
+
+|-
+|
+| align="left" | Otozō Yamada
+| 3 || 3 || 1 || 3 || 3
+| align="left" | Career Officer
+ Cavalry Officer
+
+|-
+|
+| align="left" | Prince Tsuneyoshi Takeda
+| 2 || 2 || 1 || 2 || 2
+| align="left" | Politically Connected
+ Infantry Officer
+ Royal Lineage
+ Samurai Lineage
+
+|-
+|
+| align="left" | Prince Yasuhiko Asaka
+| 3 || 3 || 1 || 3 || 3
+| align="left" | Politically Connected
+ Infantry Officer
+ Infantry Leader
+ Royal Lineage
+ Samurai Lineage
+
+|-
+|
+| align="left" | Rikichi Andō
+| 3 || 1 || 3 || 3 || 3
+| align="left" | Career Officer
+
+|-
+|
+| align="left" | Saburō Aizawa
+| 2 || 2 || 1 || 2 || 2
+| align="left" | Reckless
+ Kodoha Sympathiser
+ Organizer
+| align="left" | ncns
+- One of the following must be true:
+ - Has completed focus The Grand Army Purge
+ - Has completed focus Sway Disillusioned Young Officers
+|-
+|
+| align="left" | Sadao Araki
+| 2 || 1 || 2 || 2 || 2
+| align="left" | Old Guard
+ Kodoha Sympathiser
+ Samurai Lineage
+ Organizer
+| align="left" |
+- Has not completed focus Purge the Kodoha Faction
+|-
+|
+| align="left" | Seishirō Itagaki
+| 3 || 3 || 4 || 2 || 3
+| align="left" | Inflexible Strategist
+ Reckless
+ Samurai Lineage
+
+|-
+|
+| align="left" | Senjūrō Hayashi
+| 3 || 3 || 2 || 3 || 2
+| align="left" | Politically Connected
+ Infantry Leader
+ Trickster
+| align="left" |
+- Current ruling party is not Communist
+- Current ruling party is not Democratic
+|-
+|
+| align="left" | Shigeru Honjō
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Old Guard
+ War Hero
+ Kodoha Sympathiser
+| align="left" |
+- Has not completed focus Purge the Kodoha Faction
+|-
+|
+| align="left" | Shirō Nonaka
+| 2 || 2 || 2 || 2 || 1
+| align="left" | Infantry Officer
+ Kodoha Sympathiser
+ Trickster
+| align="left" | ncns
+- One of the following must be true:
+ - Has completed focus The Grand Army Purge
+ - Has completed focus Sway Disillusioned Young Officers
+|-
+|
+| align="left" | Shizuichi Tanaka
+| 4 || 4 || 3 || 2 || 4
+| align="left" | Career Officer
+ Trickster
+
+|-
+|
+| align="left" | Shunroku Hata
+| 4 || 4 || 4 || 3 || 4
+| align="left" | Brilliant Strategist
+ Samurai Lineage
+
+|-
+|
+| align="left" | Tadaichi Wakamatsu
+| 3 || 2 || 2 || 3 || 3
+| align="left" | Career Officer
+ Infantry Leader
+
+|-
+|
+| align="left" | Takaji Muranaka
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Kodoha Sympathiser
+ Ranger
+| align="left" | ncns
+- One of the following must be true:
+ - Has completed focus The Grand Army Purge
+ - Has completed focus Sway Disillusioned Young Officers
+|-
+|
+| align="left" | Takashi Sakai
+| 3 || 2 || 2 || 3 || 3
+| align="left" | Reckless
+ Infantry Officer
+
+|-
+|
+| align="left" | Teruzō Andō
+| 2 || 2 || 1 || 2 || 2
+| align="left" | Politically Connected
+ Kodoha Sympathiser
+ Trickster
+| align="left" | ncns
+- One of the following must be true:
+ - Has completed focus The Grand Army Purge
+ - Has completed focus Sway Disillusioned Young Officers
+|-
+|
+| align="left" | Tomoyuki Yamashita
+| 5 || 5 || 5 || 4 || 4
+| align="left" | Brilliant Strategist
+ Politically Connected
+ Trickster
+ Engineer
+
+|-
+|
+| align="left" | Toshizō Nishio
+| 3 || 4 || 2 || 4 || 2
+| align="left" | Brilliant Strategist
+ Infantry Officer
+
+|-
+|
+| align="left" | Yasuhide Kurihara
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Reckless
+ Infantry Officer
+ Kodoha Sympathiser
+| align="left" | ncns
+- One of the following must be true:
+ - Has completed focus The Grand Army Purge
+ - Has completed focus Sway Disillusioned Young Officers
+|-
+|
+| align="left" | Yasuji Okamura
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Reckless
+
+|-
+|
+| align="left" | Yoshijirō Umezu
+| 3 || 3 || 3 || 1 || 3
+| align="left" | Politically Connected
+ Cautious
+
+|-
+|
+| align="left" | Yoshitoshi Tokugawa
+| 2 || 2 || 1 || 3 || 1
+| align="left" | Engineer
+
+|-
+|
+| align="left" | Yoshiyuki Kawashima
+| 2 || 1 || 1 || 3 || 2
+| align="left" | Infantry Leader
+ Kodoha Sympathiser
+| align="left" | ncns
+- One of the following must be true:
+ - Has completed focus The Grand Army Purge
+ - Has completed focus Sway Disillusioned Young Officers
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ style="width: 46em; text-align:left;" | Admirals
+! class="unsortable" | Portrait
+! Name
+!
+Skill
+!
+ATK
+!
+DEF
+!
+MNV
+!
+COR
+! class="unsortable" | Traits
+! class="unsortable" | Requirements
+|-
+|
+| align="left" | Chūichi Nagumo
+| 3 || 2 || 3 || 3 || 2
+| align="left" | Old Guard
+ Superior Tactician
+ Lancer
+
+|-
+|
+| align="left" | Gengo Hyakutake
+| 2 || 1 || 2 || 2 || 2
+| align="left" | Gentlemanly
+
+|-
+|
+| align="left" | Hiroaki Abe
+| 2 || 3 || 1 || 2 || 1
+| align="left" | Battleship Adherent
+
+|-
+|
+| align="left" | Isoroku Yamamoto
+| 5 || 5 || 2 || 3 || 6
+| align="left" | Bold
+ Aviation Enthusiast
+ Spotter
+ Superior Tactician
+ Air Controller
+ Flight Deck Manager
+
+|-
+|
+| align="left" | Jisaburo Ozawa
+| 5 || 5 || 3 || 3 || 4
+| align="left" | Bold
+ Career Officer
+ Aviation Enthusiast
+ Blockade Runner
+ Superior Tactician
+
+|-
+|
+| align="left" | Kiyoshi Hasegawa
+| 2 || 2 || 2 || 1 || 2
+| align="left" | Gentlemanly
+
+|-
+|
+| align="left" | Masafumi Arima
+| 3 || 3 || 2 || 3 || 3
+| align="left" | Bold
+ Career Officer
+ Air Controller
+ Flight Deck Manager
+
+|-
+|
+| align="left" | Mineichi Koga
+| 4 || 4 || 2 || 4 || 3
+| align="left" | Bold
+ Battleship Adherent
+ Spotter
+ Superior Tactician
+
+|-
+|
+| align="left" | Mitsumasa Yonai
+| 2 || 2 || 1 || 2 || 2
+| align="left" | Gentlemanly
+ Naval Lineage
+| align="left" |
+- One of the following must be true:
+ - Has completed focus Sway the Navy Moderates
+ - Has completed focus End the Inter-service Rivalry
+|-
+|
+| align="left" | Nobutake Kondō
+| 3 || 4 || 2 || 2 || 2
+| align="left" | Battleship Adherent
+ Naval Lineage
+ Fly Swatter
+
+|-
+|
+| align="left" | Shigeyoshi Inoue
+| 2 || 2 || 1 || 1 || 3
+| align="left" | Career Officer
+ Aviation Enthusiast
+
+|-
+|
+| align="left" | Soemu Toyoda
+| 3 || 5 || 1 || 2 || 2
+| align="left" | Old Guard
+ Bold
+ Ironside
+
+|-
+|
+| align="left" | Tadashige Daigo
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Career Officer
+ Sea Wolf
+
+|-
+|
+| align="left" | Takeo Takagi
+| 3 || 3 || 1 || 3 || 3
+| align="left" | Spotter
+
+|-
+|
+| align="left" | Tamon Yamaguchi
+| 4 || 5 || 2 || 4 || 3
+| align="left" | Cuts Corners
+ Bold
+ Aviation Enthusiast
+
+|-
+|
+| align="left" | Teijirō Toyoda
+| 2 || 2 || 2 || 2 || 3
+| align="left" | Career Officer
+ Naval Lineage
+
+|-
+|
+| align="left" | Yuzuru Hiraga
+| 3 || 3 || 3 || 3 || 2
+| align="left" | Gunnery Expert
+ Bold
+ Career Officer
+ Naval Lineage
+
+|-
+|
+| align="left" | Zengo Yoshida
+| 2 || 2 || 2 || 1 || 2
+| align="left" | Old Guard
+
+|}
+
+## Companies [verified for 1.14]
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Industrial concerns
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Kawasaki
+| industrial_concern
+- Industrial Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Sumitomo
+| electronics_concern
+- Electronics Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Idemitsu Kosan
+| refinery_concern
+- Industrial Research Speed: +5%
+- Synthetic Resources Research Speed: +10%
+
+| align="center"|150
+|}
+
+### Designers
+ Arms Against Tyranny
+Design companies of Japan.
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Tank designers
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Osaka Army Arsenal
+| tank_manufacturer
+- Armor Research Speed: +15%
+
+|align="center"| 150
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Ship designers
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Kure Naval Arsenal
+| battlefleet_designer
+- Naval Research Speed: +15%
+
+|
+- Has completed focus Expand Hiratsuka Navy Ammunitions Arsenal
+|align="center"| 75
+|-
+|
+| Yokosuka Naval Arsenal
+| pacific_fleet_naval_manufacturer
+- Naval Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Maizuru Naval Arsenal
+| convoy_escort_naval_manufacturer
+- Naval Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Sasebo Naval Arsenal
+| coastal_defence_naval_manufacturer
+- Naval Research Speed: +15%
+
+| align="center" | 150
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Aircraft designers
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Mitsubishi
+| light_aircraft_manufacturer_2
+- Air Research Speed: +15%
+
+|
+- Has completed focus 7075 Aluminum Alloy
+| align="center" | 150
+|-
+|
+| Aichi
+| fuel_efficient_aircraft_manufacturer
+- Air Research Speed: +15%
+
+|
+- Has completed focus Long Operational Range
+| align="center" | 150
+|-
+|
+| Nakajima
+| heavy_aircraft_manufacturer
+- Air Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Yokosuka
+| naval_aircraft_manufacturer
+- Air Research Speed: +15%
+
+| align="center" | 150
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Materiel designers
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Tokyo Arsenal
+| infantry_equipment_manufacturer
+- Weapons and Equipment Research Speed: +15%
+
+| align="center"| 150
+|-
+|
+| Nissan
+| motorized_equipment_manufacturer
+- Motorization Research Speed: +15%
+
+| align="center"| 150
+|}
+
+### Organizations
+ Arms Against Tyranny
+Japan has access to these Military industrial organizations.
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Tank organizations
+|
+
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Ship organizations
+|
+
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Plane organizations
+|
+
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Materiel organizations
+|
+
+|}
+
+# Economy [verified for 1.17]
+
+## Laws
+Japanese Empire starts with the following laws:
+
+1936
+Limited Conscription Partial Mobilization Limited Exports
+1939
+Service by Requirement Total Mobilization Closed Economy
+
+## Industry [verified for 1.17]
+
+{| class="wikitable" style="text-align: center"
+|+
+! style="width: 10%" |
+Year
+! style="width: 13%" | Military factory
+Military Factories
+! style="width: 13%" | Naval dockyard
+Naval Dockyards
+! style="width: 13%" | Civilian factory
+Civilian Factories
+! style="width: 13%" | Fuel Silo
+Fuel Silos
+! style="width: 13%" | Refinery
+Refineries
+! style="width: 13%" | Building Slot
+Building Slots
+|-
+| 1936
+| 16
+| 14
+| 24 (-13)
+| 4
+| 1
+| 116
+|}
+- Numbers in red indicate the number of civilian factories required to produce consumer goods, based on economy laws and the total number of military and civilian factories, rounded up.
+
+## Resources [verified for 1.17]
+
+{| class="wikitable" style="text-align: center"
+|+
+! style="width: 9%" |
+Year
+! style="width: 13%" | oil
+Oil
+! style="width: 13%" | aluminum
+Aluminum
+! style="width: 13%" | rubber
+Rubber
+! style="width: 13%" | tungsten
+Tungsten
+! style="width: 13%" | steel
+Steel
+! style="width: 13%" | chromium
+Chromium
+! style="width: 13%" | coal
+Coal
+|-
+| 1936
+| 17 (-4)
+| 12 (-3)
+| 0
+| 26 (-6)
+| 103 (-26)
+| 94 (-23)
+| 74 (-18)
+|}
+- These numbers represent the available resources one hour into the game. Numbers in red indicate how many resources are reserved for export due to trade laws.
+
+# Military [verified for 1.17]
+
+## Army
+{| class="wikitable sortable" style="width: 300px;"
+|+ style="color:black;"| Army of Japan
+! width=1% class="unsortable" | !! width=80% | Type !! width=15% | # 1936 !! | # 1939
+|-
+| || Infantry
+| align="center" | 45
+| align="center" | 76
+|-
+| || Bicycle Units
+| align="center" | 0
+| align="center" | 3
+|-
+| || Marine
+| align="center" | 1
+| align="center" | 3
+|-
+| || Cavalry
+| align="center" colspan="2" | 9
+|-
+| || Motorized Infantry
+| align="center" colspan="2" | 2
+|-
+| || Light Tank
+| align="center" | 0
+| align="center" | 3
+|-
+| || Medium Tank
+| align="center" | 3
+| align="center" | 14
+|-
+! !! style="text-align: left;" | Total divisions || 60 || 110
+|-
+! !! style="text-align: left;" | Manpower used || 489.10K || 888.20K
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | Division composition list
+! Division !! Name list !! # 1936 !! # 1939 !! Support companies !! Combat battalions
+|-
+| Hohei Shidan* || Infantry Division || 15 || 0 || || 12x
+|-
+| Hohei Shidan^ || Infantry Division || 0 || 21 || || 12x
+|-
+| Dokuritsu Konsei Ryodan || Mixed Brigade || 3 || 14 || || 5x 2x
+|-
+| Kihei Shidan || Cavalry Division || 9 || 9 || || 6x
+|-
+| Jidousha Shidan* || Motorized Division || 2 || 0 || || 12x
+|-
+| Jidousha Shidan^ || Motorized Division || 0 || 2 || || 12x
+|-
+| Rikusentai || Marine Division || 1 || 3 || || 6x
+|-
+| Chuton-chi Shidan || Garrison Units || 30 || 37 || || 6x
+|-
+| Ginrinbutai || Bicycle Units || 0 || 3 || || 4x
+|-
+| Kutei Shidan || Paratrooper Division || 0 || 0 || || 3x
+|-
+| Chugata Hohei Shidan^ || Infantry Division || 0 || 18 || || 9x
+|-
+| Senshadan^ || Armored Division || 0 || 3 || || 3x
+|-
+| colspan="6" | * marks a division that is removed in the 1939 start.
+^ marks a division that is only available in the 1939 start.
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | No Step Back Tank variants list
+! Type !! Chassis !! Role !! Main Armament !! Turret !! Suspension !! Armor (level) !! Engine (level) !! Special Modules
+|-
+| Type 95 Ha-Go || Improved Light || Light Tank || Small Cannon || One Man || Bogie || Riveted (2) || Gasoline (4) || Additional Machineguns
+|-
+| Type 97 Chi-Ha^ || Basic Medium || Medium Tank || Close Support Gun || Two Man || Bogie || Riveted (2) || Diesel (4) || Basic Radio
+|-
+| Type 94 Tankette* || Basic Light || Light Tank || Heavy Machine Gun || One Man || Bogie || Riveted || Gasoline ||
+|-
+| Type 89 I-Go || Inter-War Medium || Medium Tank || Close Support Gun || Two Man || Bogie || Riveted || Diesel (4) || Additional Machineguns
+|-
+| Type 92 Tankette* || Inter-War Light || Light Tank || Heavy Machine Gun || One Man || Bogie || Riveted || Gasoline || Heavy Machine Gun
+|-
+| colspan="9" | * marks a variant as "outdated".
+^ marks a variant that is only available in the 1939 start.
+|}
+
+## Navy
+{| class="wikitable sortable" style="width: 300px;"
+|+ style="color:black;"| Navy of Japan
+! width=1% class="unsortable" | !! width=80% | Type !! width=15% | # 1936 !! | # 1939
+|-
+| || Carrier
+| align="center" | 4
+| align="center" | 6
+|-
+| || Battlecruiser
+| align="center" colspan="2" | 3
+|-
+| || Battleship
+| align="center" colspan="2" | 6
+|-
+| || Heavy Cruiser
+| align="center" | 14
+| align="center" | 16
+|-
+| || Light Cruiser
+| align="center" | 21
+| align="center" | 24
+|-
+| || Destroyer
+| align="center" | 94
+| align="center" | 101
+|-
+| || Submarine
+| align="center" | 52
+| align="center" | 59
+|-
+| || Convoy
+| align="center" colspan="2" | 400
+|-
+! !! style="text-align: left;" | Total ships || 194 || 215
+|-
+! !! style="text-align: left;" | Manpower used || 118.47K || 138.93K
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | Naval units list
+! Type !! Class !! Hull !! Engine !! # 1936 !! 1936 !! # 1939 !! 1939 !! Design note
+|-
+|CV || Akagi* || Converted Battleship || Heavy II || 1 || || 1 || || 3x Hangar Space, Secondary Battery II, Anti-Air I, Cruiser Armor I
+|-
+|CV || Hosho* || Converted Cruiser || Carrier I || 1 || || 1 || || Hangar Space, Secondary Battery I
+|-
+|CV || Kaga* || Converted Battleship || Heavy II || 1 || || 1 || || 3x Hangar Space, Secondary Battery II, Anti-Air I, Cruiser Armor I
+|-
+|CV || Ryujo* || Basic Carrier || Carrier I || 1 || || 1 || || 2x Hangar Space, Secondary Battery I, Anti-Air I
+|-
+|CV || Soryu || Basic Carrier || Carrier II || || 2 || 2 || || 3x Hangar Space, Secondary Battery I, Anti-Air I
+|-
+|CV || Zuiho* || Converted Cruiser || Carrier II || || 2 || || || 2x Hangar Space, Secondary Battery I, Anti-Air I
+|-
+|CV || Shokaku^ || Improved Carrier || Carrier II || || || || 1 || 4x Hangar Space, Dual-Purpose Secondary Battery I, Anti-Air II
+|-
+|SHBB || Yamato^ || Super Heavy Battleship || Heavy II || || || || 1 || 2x Super-Heavy Battery, Dual-Purpose Secondary Battery II, 2x Secondary Battery II, Anti-Air I, Anti-Air II, Fire Control I, Super-Heavy Armor, Floatplane Catapult I
+|-
+|BB || Fuso* || Early Heavy Ship || Heavy II || 2 || || 2 || || 3x Heavy Battery I, 2x Secondary Battery I, Anti-Air I, Fire Control 0, Battleship Armor I, Floatplane Catapult I
+|-
+|BB || Ise* || Early Heavy Ship || Heavy II || 2 || || 2 || || 3x Heavy Battery I, 2x Secondary Battery I, Anti-Air I, Fire Control 0, Battleship Armor I, Floatplane Catapult I
+|-
+|BB || Nagato || Early Heavy Ship || Heavy II || 2 || || 2 || || 2x Heavy Battery II, 2x Secondary Battery I, 2x Anti-Air I, Fire Control 0, Battleship Armor I, Floatplane Catapult I
+|-
+|BC || Kongo || Early Heavy Ship || Heavy II || 3 || 1 || 3 || 1 || 2x Heavy Battery I, 2x Secondary Battery I, 2x Anti-Air I, Fire Control 0, Battlecruiser Armor II, Floatplane Catapult I
+|-
+|CA || Izumo* || Coastal Defense Ship || Cruiser I || 2 || || 2 || || Medium Battery I, 2x Secondary Battery I, Fire Control 0, Cruiser Armor II, Torpedo Launcher I
+|-
+|CA || Tokiwa* || Coastal Defense Ship || Cruiser I || || || || || Medium Battery I, 2x Secondary Battery I, Fire Control 0, Cruiser Armor II, Minelaying Rails
+|-
+|CA || Furutaka/Aoba* || Basic Cruiser || Cruiser I || 4 || || 4 || || Medium Battery II, Secondary Battery I, Fire Control 0, Cruiser Armor I, 2x Torpedo Launcher II
+|-
+|CA || Myoko* || Basic Cruiser || Cruiser II || 8 || || 8 || || 2x Medium Battery II, Secondary Battery I, Fire Control 0, Cruiser Armor II, 2x Torpedo Launcher II, Floatplane Catapult I
+|-
+|CA || Takao* || Basic Cruiser || Cruiser II || || || || || 2x Medium Battery II, Secondary Battery I, Fire Control 0, Cruiser Armor II, 2x Torpedo Launcher I, Floatplane Catapult I
+|-
+|CA || Tone^ || Basic Cruiser || Cruiser II || || || 2 || || Medium Battery I, Medium Battery II, Secondary Battery I, Anti-Air I, Fire Control 0, Cruiser Armor II, Torpedo Launcher II, 2x Floatplane Catapult I
+|-
+|CL || Chikuma* || Early Cruiser || Cruiser I || 2 || || 2 || || Light Cruiser Battery I, Secondary Battery I, Fire Control 0, Cruiser Armor I, Torpedo Launcher I
+|-
+|CL || Chitose/Mizuho* || Basic Cruiser || Cruiser I || || 2 || || || Light Battery I, Anti-Air I, Fire Control 0, 2x Floatplane Catapult I
+|-
+|CL || Kuma/Nagara* || Early Cruiser || Cruiser II || 11 || || 11 || || Light Cruiser Battery I, Fire Control 0, Cruiser Armor I, Torpedo Launcher I, Minelaying Rails
+|-
+|CL || Mogami || Basic Cruiser || Cruiser II || 2 || 2 || 4 || || 2x Light Cruiser Battery II, Secondary Battery I, Anti-Air I, Fire Control 0, Cruiser Armor II, 2x Torpedo Launcher II, Floatplane Catapult I
+|-
+|CL || Okinoshima || Early Cruiser || Cruiser I || || 1 || 1 || || Light Cruiser Battery I, Anti-Air I, Fire Control 0, Minelaying Rails
+|-
+|CL || Sendai* || Early Cruiser || Cruiser II || 3 || || 3 || || Light Cruiser Battery I, Secondary Battery I, Fire Control 0, Cruiser Armor I, Torpedo Launcher I, Floatplane Catapult I, Minelaying Rails
+|-
+|CL || Tenryu* || Early Cruiser || Cruiser II || 2 || || 2 || || Light Cruiser Battery I, Fire Control 0, Cruiser Armor I, Torpedo Launcher I
+|-
+|CL || Yubari* || Basic Cruiser || Cruiser I || 1 || || 1 || || Light Cruiser Battery I, Fire Control 0, Cruiser Armor I, Torpedo Launcher I, Minelaying Rails
+|-
+|CL || Katori*^ || Basic Cruiser || Cruiser I || || || || 2 || Light Cruiser Battery I, Secondary Battery I, Anti-Air I, Fire Control 0, Torpedo Launcher I, Floatplane Catapult I
+|-
+|DD || Asashio || Basic Destroyer || Light II || || 3 || 10 || || Dual-Purpose Main Battery II, Anti-Air II, Fire Control 0, 2x Torpedo Launcher II, Depth Charge I
+|-
+|DD || Chidori/Otori* || Early Destroyer || Light I || || 4 || || || Light Battery I, Fire Control 0, Torpedo Launcher I, Depth Charge I
+|-
+|DD || Fubuki || Basic Destroyer || Light II || 29 || || 39 || || Light Battery II, Fire Control 0, 2x Torpedo Launcher II, Depth Charge I
+|-
+|DD || Minekaze* || Early Destroyer || Light I || 6 || || || || Light Battery I, Fire Control 0, 2x Torpedo Launcher I, Depth Charge I
+|-
+|DD || Momi* || Early Destroyer || Light I || 25 || || 7 || || Light Battery I, Fire Control 0, Torpedo Launcher I
+|-
+|DD || Mutsuki* || Early Destroyer || Light II || 31 || || 41 || || Light Battery I, Fire Control 0, 2x Torpedo Launcher I, Depth Charge I
+|-
+|DD || Shiratsuyu* || Basic Destroyer || Light II || || 10 || || || Light Battery II, Fire Control 0, Torpedo Launcher I, Torpedo Launcher II, Depth Charge I
+|-
+|DD || Sokuten || Early Destroyer || Light I || 3 || || 4 || || Light Battery I, 2x Minelaying Rails
+|-
+|DD || Hatsuharu* || Basic Destroyer || Light II || || || || || Light Battery II, Fire Control 0, Torpedo Launcher I, Depth Charge I
+|-
+|DD || Hatsutaka^ || Basic Destroyer || Light I || || || || 2 || Light Battery I, Fire Control 0, 2x Minelaying Rails
+|-
+|DD || Kagero^ || Basic Destroyer || Light II || || || || 9 || Dual-Purpose Main Battery II, Anti-Air I, Fire Control 0, 2x Torpedo Launcher II, Depth Charge I
+|-
+|DD || Momo* || Early Destroyer || Light I || || || || || Light Battery I, Fire Control 0, 2x Torpedo Launcher I
+|-
+|SS || Kaichū IV || Early Submarine || Submarine I || 21 || 1 || 22 || || Torpedo Tubes I
+|-
+|SS || Kaidai III || Basic Submarine || Submarine I || 27 || 6 || 33 || || 2x Torpedo Tubes I
+|-
+|SS || Kiraisen || Basic Submarine || Submarine I || 4 || || 4 || || Torpedo Tubes I, Minelaying Tubes
+|-
+|SS || A1/B1^ || Cruiser Submarine || Submarine I || || || || 7 || Torpedo Tubes I, Floatplane Catapult I
+|-
+|SS || I-1 || Cruiser Submarine || Submarine I || || || || || 2x Torpedo Tubes I, Light Battery I
+|-
+| colspan="9" | * marks a variant as "outdated".
+^ marks a variant that is only available in the 1939 start.
+
+Ship type terminology:
+- CV - Carrier
+- SHBB - Super-heavy battleship
+- BB - Battleship
+- BC - Battlecruiser
+- CA - Heavy cruiser
+- CL - Light cruiser
+- DD - Destroyer
+- SS - Submarine
+|}
+
+## Air force
+{| class="wikitable sortable" style="width: 400px;"
+|+ style="color:black;"| Air force of Japan
+! width=1% class="unsortable" | !! width=80% | Type !! width=15% | hoi4 1936 !! | By Blood Alone 1936 !! | hoi4 1939 !! | By Blood Alone 1939
+|-
+| || Fighter
+| align="center" | 339
+| align="center" | 337
+| align="center" colspan="2" | 606
+|-
+| || Close Air Support
+| align="center" colspan="2" | 327
+| align="center" colspan="2" | 314
+|-
+| || Naval Bomber
+| align="center" | 101
+| align="center" | 113
+| align="center" | 440
+| align="center" | 152
+|-
+| || Tactical Bomber
+| align="center" colspan="2" | 54
+| align="center" | 54
+| align="center" | 342
+|-
+! !! style="text-align: left;" | Total planes || 821 || 831 || 1414 || 1414
+|-
+! !! style="text-align: left;" | Manpower used || 17.50K || 17.70K || 29.36K || 35.12K
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | By Blood Alone Aircraft variants list
+! Type !! Airframe !! Role !! Main Armament !! Secondary Weapons !! Engine !! Special Modules
+|-
+| B4Y || Basic Carrier || Naval Bomber || Light Torpedo Mountings || Bomb Locks || 1x Engine II || Light MG Defense Turret
+|-
+| B2M* || Inter-War Carrier || Naval Bomber || Light Torpedo Mountings || || 1x Engine I || Light MG Defense Turret
+|-
+| A4N || Inter-War Carrier || Fighter || 2x Light Machine Gun || || 1x Engine I ||
+|-
+| Aichi D1A2 || Inter-War Carrier || CAS || Bomb Locks || || 1x Engine I || Dive Brakes, Light MG Defense Turret
+|-
+| Ki-3 || Inter-War Small || CAS || Bomb Locks || || 1x Engine I || Light MG Defense Turret
+|-
+| Ki-1 || Inter-War Medium || Tactical Bomber || Medium Bomb Bay || || 2x Engine I || Light MG Defense Turret
+|-
+| Ki-2 || Inter-War Small || CAS || Small Bomb Bay || || 2x Engine I || Light MG Defense Turret
+|-
+| Ki-10 || Inter-War Small || Fighter || 2x Light Machine Gun || || 1x Engine I ||
+|-
+| G3M2^ || Basic Medium || Tactical Bomber || Medium Bomb Bay || Light Torpedo Mountings || 2x Engine III || Light MG Defense Turret 2x, Extra Fuel Tanks
+|-
+| Ki-21^ || Basic Medium || Tactical Bomber || Medium Bomb Bay || || 2x Engine II || Light MG Defense Turret 2x
+|-
+| Ki-30/32^ || Basic Small || CAS || Small Bomb Bay || || 1x Engine II || Light MG Defense Turret
+|-
+| B5N^ || Basic Carrier || Naval Bomber || Light Torpedo Mountings || Bomb Locks || 1x Engine II || Extra Fuel Tanks, Light MG Defense Turret
+|-
+| A5M^ || Basic Carrier || Fighter || 2x Light Machine Gun || || 1x Engine II ||
+|-
+| Ki-27^ || Basic Small || Fighter || 2x Light Machine Gun || || 1x Engine II ||
+|-
+| A6M Zero-Sen
+Requires JAP_develop_new_fighters
+ || Improved Carrier || Fighter || 2x Light Machine Gun || 2x Cannon I || 1x Engine III || Drop Tanks, Extra Fuel Tanks
+|-
+| Ki-43 Hayabusa
+Requires JAP_develop_new_fighters
+ || Improved Small || Fighter || 2x Light Machine Gun || Bomb Locks || 1x Engine III || Drop Tanks, Extra Fuel Tanks
+|-
+| colspan="7" | * marks a variant as "outdated".
+^ marks a variant that is only available in the 1939 start.
+|}
+
+# Strategies and guides
+
+## Puppet Juggling
+In 1936, Japan can release Korea, Taiwan, Micronesia and Palau as Puppets without losing any core territory. Palau must be released before Micronesia. These puppets have the Generic national focus tree, with which they can provide additional factories.
+
+## General
+Japan The Empire of Japan is by far the strongest nation in East Asia when it comes to military strength and has plenty of options for expanding its sphere of influence. That being said, Japan suffers from a chronic lack of resources, given the size of its military, and will, as it realized in real life, become very dependent on trade to fuel its war machine unless the problem is properly addressed.
+
+Japan starts the game with a total of 54 factories (16 military, 24 civilian and 14 naval dockyards) which is comparable to most of the other major nations and this gives Japan the biggest industrial capacity in East Asia.
+
+The Imperial Japanese army consists of a rather colorful mix of units, ranging from Regular to Green in experience and with varying levels of equipment. Many of the division templates are also somewhat questionable when it comes to composition. A lot of rearming and reorganizing will be needed in order to bring up the military to par with the other major powers.
+
+The Imperial Japanese Navy is the third-largest navy in the world and the largest one in East Asia. Because Japan is an island nation and also controls a large matrix of smaller islands throughout the pacific ocean, the navy will be vital to ensure that the Japanese Empire remains properly connected and that supply lines remain open. As such, Japan will need to build up its naval dockyard capacity in order to allow it to expand its naval force and replace lost ships.
+
+Once the initial buildup is completed there are several paths for Japan to take:
+
+## Initial conquest options
+### The Second Sino-Japanese War
+Located to Japan's Southwest, China presents a relatively early conquest goal for Japan. The Japanese national focus tree contains the necessary focuses to grant a war goal against China very early on in the game and this makes China a perfectly logical conquest option in the early game.
+When taking on China, the Japanese player must be aware of two crucial facts: first, China has the second highest (highest after unification) starting core population in the game and this grants it a near-bottomless manpower supply. As such, a war of attrition is not an option for Japan as Japan will run out of manpower long before China. Instead, the recommended path is for Japan to strike fast and strike hard, using equipment such as artillery and either heavy fighters or tanks to deal maximum damage to the Chinese forces. Second, it is recommended that the player strike China from multiple directions by opening new fronts through naval invasions. Once the war starts, two possible option for additional strikes would be a naval invasion of the Shandong peninsula through Qingdao, followed by a rush inland to cut off supply line to Beijing or an invasion of Southern China to capture a large portion of China's resources.
+
+Once China falls, the player is left with two options: Annexation or Puppeting. Annexing China will grant Japan a good amount of build slots for construction (which is mostly useless as you have enough construction slots in your capital and way better infrastructure) as well as providing a boost to Japan's resource pool but an immense penalty will be applied to the local recruitable population, greatly reducing available manpower.
+
+If the Japanese player elects to puppet China, they will be able to fully exploit China's immense manpower pool by recruiting colonial divisions or by requesting forces from China at any point, as China will retain full access to its manpower pool as a Japanese puppet. If the player elects this path, they should only fully annex coastal states, and perhaps even all states except Sichuan (which is the highest population state). China should still be left with enough manpower. Annexing the state of Hainan is highly recommended as this state can serve as a staging area for the Japanese Navy when fighting in Southern Asia.
+
+With 1.9 alongside La Resistance, the Sino-Japanese War can easily turn into a meat grinder for Japan. You want to end the war as quickly as possible as garrison requirement will wear you down by attrition. You can set up collaboration government via espionage beforehand to make things easier and give you an alternative to puppeting China. Be sure to complete Develop Chinese Resources focus first before allowing the collaboration government to form or you will lose out on its bonuses. You can form the Collaboration Government with either Nationalist China or Communist China. Using Communist China as collaboration government might be a preferable option given their better national spirits and conscription laws but you will need more garrison during the time you are completing the focus as the compliance will only form in their starting area. Keep in mind that just like normal puppets, collaboration government will not give you access to their docks and the collaboration puppet will immediately form over all their core territory you possess during their formation which including Dalian, East Hebei, and Taiwan.
+
+Some additional tips:
+
+- United Chinese Front has a very large standing army (upwards of 150 divisions, or easily twice the size of the Japanese army in 1937-38) and it helps to grind it down through encirclements.
+
+- The two northern faction members (Shanxi and Communist China) are very difficult to conquer, because of a combination of high terrain defense bonuses and AI's inclination to station up to 40 divisions there. They may be left entirely alone (just station some troops along the border after taking Beijing area): the war ends when "China proper" capitulates, even if all other faction members are still intact. One trick that sometimes works is to start by declaring on Shanxi alone (it also seems to help not to call Manchukuo; you have to call Mengkukuo, since Japan does not have a land border with Shanxi.) Then you can rush your troops through its territory (Shanxi starts with almost no army) and, if you're lucky, you can force it to surrender before it calls China (the war can be ended in as little as 30 days.) You will have time to reconnect their supply hub and to position your troops before declaring war on China. At that point you will be able to strike along the Yellow River toward Jinan from two directions (from the west out of Shanxi and from the east via a naval invasion), encircling the army that defends Beijing.
+
+- If you intend to assault the Soviet Union, start building supply hubs along the border of Mongolia while you're still fighting China.
+
+- China has virtually no navy and Japan's starting navy is more than enough to maintain total naval dominance. Switch carriers from naval bombers to CAS planes, station a carrier group near the shore, upgrade some of the subs with mine laying tubes and start mining everything in sight. You can get close to 1000 mines laid in every region from the Philippines to Kamchatka to Midway at minimal expense, and it will help naval operations later.
+
+- Keep a close eye on logistics. You start with relatively few military factories compared to the size of your army. Shortages of Infantry Equipment and Support Equipment are common, tend to get worse during periods of heavy combat, and will degrade the effectiveness of your troops if left unchecked. It may be necessary to pause the fighting from time to time to cover the shortages. It helps somewhat to raise equipment reliability via Military Industrial Organization traits, and to add "Maintenance Company" battalions to division templates. If you are still having shortages after mid-1940, you can request lend-lease from German Reich, and the AI may offer you as much as 15k units of infantry equipment in a single shipment. Be warned that accepting a shipment of this size will tie up all your convoys for several months, during which time you will be unable to use them for either trade or supply (your armies in mainland China may suddenly find themselves out of supply and out of oil.)
+
+- The war ends when Nationalist China is down to 5% victory points (this typically happens after you push far enough inland to take Chongqing and/or Chengdu). Repeatedly executing the "collaboration government" spy operation will raise this threshold and therefore end the war sooner.
+
+### Southern strike
+Just south of Japan lies Indonesia and Indochina. These territories are very valuable for Japan as they contain large amounts of rubber as well as a moderate amount of oil, both which Japan sorely needs for tanks, trucks, planes and ships for its military.
+
+Unfortunately for Japan, these territories are controlled by European colonial nations (the Dutch East Indies and British Malaya) and as such Japan will likely not be able to achieve full control of these areas until later in the game unless the player can somehow force through a peace treaty. Still, simply occupying the areas will be enough to extract the resources needed. As far as enemy opposition is concerned, the colonial nations are usually not very well defended so Japan's starting military power alone should be sufficient to capture the colonies if one acts fast enough. Invading the colonies will likely involve a lot of naval invasions or paratrooper drops (depending on personal preference) as well maintaining naval superiority around the islands.
+
+Once the colonies are occupied, a good course of action would be to fortify the coast and station troops in the area to repel enemy attempts at retaking the areas. This is where puppet troops can come in handy, recruiting colonial troops or, if the division templates are good enough, requesting forces from puppets can allow the player to station puppet troops to garrison occupied areas for reducing resistance and repelling or at least delaying enemy incursions.
+
+In La Resistance, it is possible to form Collaboration Government on both Malaya and Dutch East Indies using espionage and it might be well worth the effort as your puppets will form immediately once they capitulated without the need of subduing the rest of the Allies. Likewise, be sure to complete Exploit the Southern Resource Area focus first before allowing the collaboration government to form or you will lose its bonuses, though this is only possible in the Fascist path.
+
+Japan's national focus tree also contains focuses to aid in this path, allowing Japan to ally Siam as well as pressuring France to give up Indochina.
+
+Alternatively it's possible to justify on Dutch East Indies or Netherlands in the beginning and temporarily join Axis to take out Netherlands before they can join Allies.
+
+## Mid-game conquest options
+
+### Indian subjugation
+After securing China, one possible alternative is to continue onward to India (the British Raj) as having both India and China as puppets will more or less make Japan immune to casualties. India, unlike China, is a puppet of the United Kingdom so attacking them will likely lead to war with the British. Given that India is very similar to China, possessing near-bottomless manpower but lacking in industry early on, the recommended approach for Japan would be a two-front invasion of India. Specifically, one example would be a land invasion of eastern India through southwestern China (and through Siam if said country has been puppeted) alongside a simultaneous naval invasion of the island of Ceylon and from there to southern India. Another option could be securing Tibet, Nepal and Bhutan and attacking from that direction as well although this comes with the disadvantage of offering a very chokepoint-heavy attack path due to the Himalayas.
+
+Once again, Japan should preferably strike fast and strike hard in order to not give India any chance to mount an effective defense. This time, however, it is possible that the player may run into British and other Allied troops which presents a challenge in itself as these troops will (typically) be better equipped which can make them harder to fight than the typical Indian division.
+
+### Oil rush
+Beyond India (the British Raj) lies the fifth biggest oil producer in the world - Iran. Capturing it will secure twice as much oil as the Dutch East Indies, providing for Japan's medium-term oil needs as it expands in the Pacific.
+
+Though small and non-aligned, Iran's border with India is very short and very mountainous, making the invasion surprisingly tough (but still a matter of weeks).
+
+Iran also give you access to the Soviet Union. If the German Reich are already close to Stalingrad, an invasion via Armenia could roll up the entire front. If not, you could blitz straight to Stalingrad or even Moscow while the bulk of Soviet forces are tied up in the West (which will collapse when half the front is deployed to deal with your invasion). You can end the war by Christmas.
+
+### Continue down under
+After securing Indonesia and Indochina, Japan has the option to invade and capture Australia and New Zealand. Capturing these territories will round out Japan's dominance of Oceania and will also remove the Allies' ability to effectively project power in the south Pacific. Australia and New Zealand are comparable to most European minor nations, possessing good technology but limited manpower. How well defended these nations are if attacked varies greatly; if Australia and/or New Zealand stay loyal to the United Kingdom, it is likely that they will send some of their troops overseas to help their overlord on other fronts. However, if they choose to sever ties and become independent, they will be less inclined to send their troops elsewhere and may therefore be able to mount a more solid defense. In addition to that, going down the national focus trees can lead to Australia and/or New Zealand joining the Axis or Comintern and Australia can even form a faction with the USA, puppet/annex New Zealand and attack Japan.
+
+### Strike north
+The Soviet Union is relatively easy to invade once China is conquered (if you do it early enough), since it is too busy defending against the German invasion to offer significant opposition. You start with a preexisting claim on North Sakhalin which can be used to declare war with almost no wait or political power cost, and it has no allies (apart from Mongolia and Tannu Tuva). The biggest challenge is manning a very long land border with almost no supply along most of its length. You will need to build your own supply depots and allocate a minimum of 100 divisions to the invasion. The supply situation will improve somewhat once you take Ulaanbaatar and Tashkent. Once the Soviet Union capitulates, you can expect to get the entire Siberia and Central Asia as far as the Urals.
+
+## Bringing Democracy to the Pacific
+While you can go for the traditional historical path, going Democratic is arguably a more interesting option - not only does this let the European powers focus on their home front, it also allows you to bring the western colonies in Asia closer to self rule - the US can still join the allies once tension gets high enough.
+
+First, one should strengthen the civilian government, and prepare for a civil war. You'll lose your most highly skilled generals but keep Admiral Yamamoto. Your forces will be split, so disband your army, take Army Expansion Law, and use 5 of the army XP you get to create a unit with a single artillery division, then train as many as possible (divert the majority of your military factories to produce artillery), and when the war begins, deploy the ones you kept and convert them to infantry/cavalry (because of how frail this template is, it'll fall relatively easy - a single untrained cavalry unit alone can defeat a stack of 24 of these units). If you wish to get into one additional war aside from the ones against Manchukuo and Germany, justify a war goal on Siam before the civil war fires - you'll keep on justifying after flipping to democracy, and of the nations you can attack, Siam is the only one that has no difficulties (Nepal, Tibet, and Bhutan don't have anywhere you can attack from, Mongolia is allied with the Soviets, the Raj, Indies, Australia, New Zealand, and Malaya are attached to the Allies, and you can't attack China/any of the warlords) - Purge the Militarists before you justify, since the more time you have to prepare, the better.
+
+After winning the war, you have two options - you can either create the West Pacific Treaty Organization, or join the Allies; if you're playing on ahistorical, the former might be worth pursuing (especially if the US is the only other major democracy), but on historical, go for the latter. After joining the Allies, save up 150 PP and take the Pacific Guardian focus - this will allow you to assume stewardship over the western colonies (Dutch East Indies, French Indochina, and British Malaya) in Asia (which transfers control over them, either as puppets or occupied territory) - the AI will always accept. Note that the Indies alone grants you an insane amount of manpower if you use colonial divisions, so feel free to drain them of manpower before letting them go free. By this point, your war goal on Siam should have finished if you decided to go after it - attack from French Indochina; Siam will go down easy against a land invasion. Turn them into a supervised state or annex them (it's entirely your choice). Take Liberate Manchuria, but don't return the territory you already have to China just yet.
+
+However, we still have one leftover of Japan's ugly past left - Manchukuo and Mengkuko. Stationing troops on the territory you hold on mainland China, use the war goal you get from Liberate Manchuria to go to war with Manchukuo and it's puppet. This will kick off World War 2 early - either Germany will invite Manchukuo to the Axis when you go to war with them, allowing you to call the Allies in, or the Soviet Union will attack Manchukuo while you're at war with them, which will cause them to join the Axis, allowing you to get Britain and France involved, kicking off WW2 before Germany can make most of its territorial demands. Send some troops to Europe (help protect the French until they can remove the Disjointed Government spirit). The Allies will always refuse the German demands for Sudetenland because they're at war (resulting in the Czechs joining the Allies), and if Germany does Danzig or war while attacking the French, the Polish will be in a better place to fight back (if Germany gets into a war before doing Reassert Eastern Claims and is doing badly when it finishes the focus, Lithuania will reject Germany's demands, resulting in them joining the Allies as well) - this can also lead to the USSR getting military access from Poland, allowing the Soviets to help fight the Germans. Focus on pushing through (consider launching naval invasions from the UK onto Northern Germany), and capitulate the Germans. Take all of Manchukuo and Mengkukuo in the peace deal, then use the decision to return all of the territory to the Chinese, righting a major wrong.
+
+For the more ... hypocritical Democratic Japan player Korea, Manchukuo, and even all of China can be kept under Japan's thumb while still completing the focus tree. To keep Korea, release it as independent and justify a war goal on it right before the Preemptive Coup focus finishes. After conquering and annexing Korea, it can be released as a puppet when you get the "Korean Independence" mission. You still get the mission reward. Manchukuo can also be released as a puppet instead of returned to China. If you get really lucky, Manchukuo has focuses which puppet all the Chinese warlords and give them all the Chinese cores. You can also get a free war goal on China from communist sabotage, even as a democracy. Just remember to invite the UK to the war to prevent the Panay incident from firing.
+
+# Achievements [verified for 1.17]
+
+Sunrise Invasion As Japan, conquer Mexico then Europe before 1945. png
+Tojo Shot First As Japan, Nuke a core territory of the US before the US develops nuclear weapons png
+Paradisus Paradoxum As Japan, proclaim the creation of a Pure Buddhist Land. png
+An Equivalent Exchange As Democratic Japan, complete the focus Foreign Exchange Allocation Policy and capitulate Fascist Germany. png
+The Sun Will Never Set As Japan, proclaim the Eternal Empire and control all of your core states. png
+
+Asia

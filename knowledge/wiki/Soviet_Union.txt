@@ -1,0 +1,3867 @@
+TITLE: Soviet Union
+URL: https://hoi4.paradoxwikis.com/Soviet_Union
+REVISION: 2026-03-22T16:04:35Z (rev 99129)
+VERIFIED FOR: 1.12
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Number of States/Provinces = 50?
+The Soviet Union (officially “Union of Soviet Socialist Republics” or “USSR”) is a major country and the leader of the Comintern faction. It is rich in natural resources and has decent technology and an exponentially growing industry, alongside a population of 161.6 M. It controls almost the entire northern third of Asia as well as the eastern edges of Europe.
+
+In many ways, the USSR is the epicenter of Communist ideology, which finds itself at odds with many of their neighbors. With various territorial disputes with the Non-Aligned Finland, Baltic States and Poland to the west, and frequent border clashes with the Fascist Japan to the East (not to mention their Fascist allies Germany and Italy to the further West/Southwest of Poland becoming more and more ambitious in their aims), it seems all but likely that a war will start in one way or another, and only through extensive preparations can the worst be avoided, and perhaps pushback and triumph over their enemies.
+
+Despite their large amount of manpower and natural resources, the USSR (in 1936) starts off suffering from a variety of drawbacks.
+
+Their country's stability is torn apart as a result of old power struggles and paranoia, with purges on a regular basis intended to root out all conspirators with often detrimental side effects to the efficiency of management, production and command. Their military is in need of rapid modernization in multiple aspects to keep up with their European neighbors. And the Five Year Plan has only just started recently and would still require effort and time to reap the fruits.
+
+With time, effort, and a wise management many of these obstacles can be overcome or redirected, and USSR could potentially become a grand superpower similar to the real-life equivalent.
+
+# Historical background
+
+The Russian Empire’s collapse in the chaos of the 1917 revolutions and the ensuing civil war gave rise to the Union of Soviet Socialist Republics in 1922. Born from the Bolshevik victory over the White forces and foreign intervention, the new Soviet state emerged under the leadership of Vladimir Lenin and the Communist Party, committed to building a socialist society and spreading revolutionary ideology abroad. The early years were marked by economic hardship, reconstruction, and the suppression of political dissent.
+
+Following Lenin’s death in 1924, Joseph Stalin gradually consolidated power, outmaneuvering rivals within the party. By the early 1930s, the Soviet Union had embarked on a program of rapid industrialization and forced collectivization of agriculture, transforming the nation’s economic base at the cost of widespread famine, suffering, and political repression. The Great Purge of 1936–1938 further tightened Stalin’s grip, eliminating perceived enemies within the military, party, and intelligentsia, but leaving the Red Army weakened on the eve of global conflict.
+
+In foreign affairs, the Soviet Union initially sought collective security against the rise of fascism, engaging in negotiations with the United Kingdom and France. However, Western reluctance to commit to firm guarantees led Moscow to sign the Molotov-Ribbentrop Pact with the German Reich in August 1939, a non-aggression treaty that secretly divided Eastern Europe into spheres of influence. Following the pact, the USSR annexed eastern Poland, the Baltic states, and Bessarabia, and fought the Winter War against Finland, gaining territory but revealing serious deficiencies in its armed forces.
+
+This uneasy arrangement with Germany ended abruptly on 22 June 1941, when the Wehrmacht launched Operation Barbarossa, the largest invasion in history. The Soviet Union, caught off guard, suffered devastating early losses but gradually halted the German advance through immense sacrifice and the mobilization of its vast resources. The turning points at Moscow, Stalingrad, and Kursk shifted the momentum, and by 1945 the Red Army had pushed deep into Eastern Europe, capturing Berlin in May. Victorious yet scarred by immense human and material losses, the Soviet Union emerged from the war as a superpower, dominating Eastern Europe and entering into a global rivalry with the United States that would define the Cold War.
+
+# Events
+(Main article: Soviet events, Soviet events WtT, Soviet events NSB, Soviet events NSB 2)
+
+# Decisions
+(Main article: Soviet decisions)
+
+# National focus
+
+(Main article: Soviet national focus tree)
+Soviet Union, as one of the seven major powers, has a unique national focus tree.
+branches desc
+
+# National spirits [verified for 1.16]
+
+The Soviet Union starts with the following national spirits:
+
+Spirit Home of the Revolution: Comrades, with the defeat of the vile Trotskyite counter revolutionaries we were able to focus on defending the revolution. Our goal, our hope, our slogan is Socialism in One Country. We will build a bountiful socialist utopia here in the Soviet Union and the rest of the world will inevitably embrace it.
+- Ideology drift defense: +50.0%
+- Can create factions
+
+Spirit Trotskyite Plot?: Paranoia and pathological distrust stemming from old power struggles impact the leadership of this nation.
+- Political Power gain: -15%
+- Stability : -20.00%
+
+Spirit Politicized Military: Military commissars often hold fervent ideological speeches and political discussions among the ranks, but in many cases they also engage in excessive administration, overzealous scrutiny of military officers, and even obstruction of the orders of unit commanders.
+- Division Defense on core territory: +3.0%
+- Ideology drift defense: +10.0%
+- Commander Abilities Cost: +10.00%
+- air exp Air Doctrine Cost: +20.00%
+- army exp Land Doctrine Cost: +20.00%
+- navy exp Naval Doctrine Cost: +20.00%
+
+Spirit Five Year Plan:
+- Consumer Goods Factories factor: +10.0%
+- Production Efficiency Cap: +5%
+- Production Efficiency Growth: -15%
+- cic construction speed: +5%
+
+Spirit Soviet Air Force:
+- Air Wing Experience loss when killed: +30%
+- Ace generation chance: -50.00%
+- Air Wing Training Experience Gain: -10%
+- Air Accidents Chance: +75.0%
+- Night Operations Penalty: +30.00%
+- Bad Weather Penalty: +30.00%
+- Air Wing Mission Experience Gain: +10%
+
+Spirit The Red Army:
+- army exp Gain: -10.0%
+- Division Organization: -15.0%
+- Experienced soldier losses: +25.0%
+- Conscription Laws Cost: -10%
+
+# Technology [verified for 1.17]
+
+## Research
+The Soviet Union begins with 3 research slots available; 3 more can be unlocked through the national focus tree.
+
+- Infantry Equipment I
+- Improved Infantry Equipment I (39)
+- Support Weapons II (39)
+- Truck
+- Inter-War Armored Car La Résistance
+- Paratroopers I
+- Mountain Infantry I
+----
+- Engineer Company I
+- Recon Company I
+- Civilian Train
+- Military Police I
+----
+- Towed Artillery
+- Towed Anti-Air
+- Inter-War Artillery (39)
+- Towed Anti-Tank (39)
+----
+- Improved Light Tank
+- Basic Medium Tank (39)
+- Basic Heavy Tank (39)
+- Basic Engine
+- Engine Tech II
+----
+Armor without No Step Back :
+- Light Tank I (36)
+- Light Tank II (39)
+- Medium Tank I (39)
+- Heavy Tank I (39) * Basic Destroyer (36)
+- Improved Destroyer (39)
+- Basic Depth Charges
+- Basic Cruiser
+- Early Heavy Ship
+- Basic Submarine (36)
+- Improved Submarine (39)
+----
+- Basic Light Battery
+- Basic Torpedo
+- Transport Ship
+- Contact Mine
+- Minelaying Submarine * Basic Small Airframe
+- Basic Medium Airframe
+- Inter-War Large Airframe (36)
+- Basic Large Airframe (39)
+- Inter-War Transport Plane
+- Bombs
+- Light MG
+- Cannons I
+- Air Launched Torpedoes
+- Aircraft Construction
+- Engines II
+----
+Without By Blood Alone :
+- Fighter I
+- Close Air Support I (39)
+- Naval Bomber I
+- Inter-War Bomber (36)
+- Tactical Bomber I (39)
+- Strategic Bomber I
+- Inter-War Transport Plane * Advanced Machine Tools (39)
+- Concentrated Industry III (39)
+- Construction III (39)
+- Fuel Storage
+- Synthetic Oil Experiments
+- Oil Processing (39)
+- Fuel Refining I (36)
+- Fuel Refining II (39)
+---- (39)
+- Radio (39)
+- Computing Machine (39)
+---- (39)
+Without La Résistance : (39)
+- Encryption - Polyalphabetical Ciphers (39)
+- Decryption - Frequency Analysis (39) * Mass Assault
+ - Large Unit Tactics ( mastery : 200) (39)
+ - Fire Concentration ( mastery : 100) (39)
+ - Deep Battle ( mastery : 100) (39) * Fleet in Being * Battlefield Support
+ - Knights of the Air ( mastery : 75) (39)
+
+## Cosmetic names
+Soviet Union has a number of unique names for various technologies and equipment, listed here. Note that generic names are not listed.
+
+Type: Support Weapons
+1918: PM M1910 & 9 cm GR
+1938: DP & RM-38
+1940: DS-39 & 82-PM-41
+1942: SG-43 Goryunov & 120-PM-43
+
+Type: Infantry Equipment
+1918: M-N 1891/30
+1936: SVT-38/40
+1939: PPSh-41
+1942: PPS-43
+
+Type: Infantry Anti-Tank
+1942: PTRD
+1943: RPG-43
+
+Type: Motorized
+1936: ZIS-5
+
+Type: Mechanized
+1940: BTR-1941
+1942: BTR-1943
+1944: BTR-152
+
+Type: Armored Car La Résistance
+1936: BA-20
+1940: BA-10
+1942: BA-64
+
+Tech year: 1918
+Light (TD/SPG/AA): T-18
+
+Tech year: 1934
+Light (TD/SPG/AA): T-26 (AT-1 / SU-1 / ZSU-12.7)
+Heavy (TD/SPG/AA): T-35 (SMK / SU-14 / ZSU-12.7-4)
+
+Tech year: 1936
+Light (TD/SPG/AA): BT-7 (SU-5 / SU-26 / ZSU-12.7-2)
+
+Tech year: 1938
+Amphibious: T-40
+Medium (TD/SPG/AA): T-32 (SU-85-32 / SU-76-32 / ZSU-37-32)
+
+Tech year: 1940
+Medium (TD/SPG/AA): T-34 (SU-85 / SU-122 / ZSU-37-34)
+Heavy (TD/SPG/AA): KV-1 (SU-152 / KV-2 / ZSU-37-2)
+
+Tech year: 1941
+Light (TD/SPG/AA): T-60 (ZiS-30 / SU-76 / ZSU-37)
+Super-Heavy (TD/SPG/AA): IS-7 (ISU-130 / ISU-203 / ISU-57-4)
+
+Tech year: 1943
+Medium (TD/SPG/AA): T-44 (SU-100 / SU-152-44 / ZSU-57-44)
+Heavy (TD/SPG/AA): IS (ISU-122 / ISU-152 / ISU-57-2)
+
+Tech year: 1945
+Modern (TD/SPG/AA): T-54 (SU-122-54 / SU-152-54 / ZSU-57-2)
+
+Note: Without No Step Back, Medium Tank I and II are unlocked one year later. Amphibious tanks are then unlocked in 1940 and 1942, the second one is called PT-76.
+
+Tech year: 1934
+Artillery: 76 mm F-22
+
+Tech year: 1936
+Anti-Air: M1939 37 mm AA
+Anti-Tank: M1934
+
+Tech year: 1939
+Artillery: 122-mm Howitzer M-30
+
+Tech year: 1940
+Anti-Air: M1940 25 mm AA
+Rocket Artillery: M-8-6
+Anti-Tank: 57 mm anti-tank gun M1943
+
+Tech year: 1942
+Artillery: 152-mm Howitzer D-1
+
+Tech year: 1943
+Anti-Air: KS-19 100 mm
+Rocket Artillery: M-20-6
+Anti-Tank: 76-mm divisional gun M1942
+
+1933
+I-15
+DB-3
+TB-3
+ANT-9
+
+1936
+LBSh (PM-88)
+I-16 (I-153)
+Il-4 (PIl-4)
+Pe-2
+SB-2M
+Pe-8
+R-10
+
+1940
+IL-2 Sturmovik (Il-2T)
+LaGG-3 (Yak-1M)
+ANT-62T (PANT-62T)
+Pe-3
+Tu-2
+Pe-10
+Yak-2
+Li-2
+
+1944
+IL-10 (IL-10T)
+Yak-3 (Yak-9T)
+Il-6 (PIl-6)
+Tu-2
+Tu-8
+Tu-4
+Ilyushin Il-12
+
+1945
+MiG-9
+Il-28
+
+1950
+MiG-15
+Tu-16
+M-4
+
+# Geography [verified for 1.17]
+
+The Soviet Union is a massive country, stretching from the barren wastelands of Kamchatka to the warm, fertile fields of Ukraine. Much of the north and east is forest, with polar regions of Siberia marshlands and plains. There is little mountains or hills besides the Caucasus and Ural ranges. The south is primarily plains, with a few urban provinces dispersed throughout the country.
+
+The Soviet Union owns 152 states.
+
+State: Abkhazia
+Cities: Sukhumi
+vp: 1
+Terrain (# prov): Hills (1)
+ Mountain (2)
+ Plains (1)
+Region: Rural Region
+population: 491,569
+
+State: Akhtubinsk
+Cities: Aktobe
+vp: 1
+Terrain (# prov): Desert (23)
+ Forest (1)
+ Mountain (2)
+ Plains (7)
+Region: Rural Region
+population: 282,245
+
+State: Akmolinsk
+Cities: Akmolinsk
+vp: 1
+Terrain (# prov): Desert (2)
+ Plains (25)
+ Urban (1)
+Region: Pastoral Region
+population: 980,533
+
+State: Alma-Ata
+Cities: Alma-Ata
+vp: 3
+Terrain (# prov): Desert (7)
+ Mountain (2)
+ Urban (1)
+Region: Urban Region
+population: 2,563,404
+
+State: Altai Krai
+Cities: Barnaul
+vp: 1
+Terrain (# prov): Forest (5)
+ Hills (1)
+ Plains (6)
+Region: Sparse Urban Region
+population: 2,107,451
+
+State: Amur
+Cities: Albazino
+vp: 1
+Terrain (# prov): Forest (13)
+ Plains (1)
+Region: Rural Region
+population: 454,281
+
+State: Arkhangelsk
+Cities: Archangelsk
+vp: 5
+Terrain (# prov): Forest (1)
+ Plains (14)
+Region: Developed Rural Region
+population: 577,985
+
+State: Armenia
+Cities: Goris
+Gyumri
+Nakhchivan
+Yerevan
+vp: 0
+1
+0
+3
+Terrain (# prov): Hills (1)
+ Lake (1)
+ Mountain (7)
+ Urban (1)
+Region: Developed Rural Region
+population: 1,250,082
+
+State: Ashkhabad
+Cities: Ashkhabad
+vp: 2
+Terrain (# prov): Desert (23)
+ Mountain (3)
+Region: Pastoral Region
+population: 931,458
+
+State: Astrakhan
+Cities: Astrakhan
+vp: 3
+Terrain (# prov): Desert (2)
+ Hills (2)
+ Plains (10)
+ Urban (1)
+Region: Rural Region
+population: 647,208
+
+State: Ayaguz
+Cities: Ayaguz
+vp: 1
+Terrain (# prov): Desert (17)
+ Lake (2)
+Region: Pastoral Region
+population: 535,191
+
+State: Azerbaijan
+Cities: Astara
+Baku
+Ganja
+Lankaran
+Zaqatala
+vp: 0
+10
+1
+0
+0
+Terrain (# prov): Hills (5)
+ Mountain (7)
+ Plains (4)
+ Urban (1)
+Region: Sparse Urban Region
+population: 2,881,049
+
+State: Balakovo
+Cities: Balakovo
+vp: 1
+Terrain (# prov): Forest (2)
+ Hills (7)
+ Plains (8)
+Region: Rural Region
+population: 309,530
+
+State: Balta-Tiraspol
+Cities: Balta
+Tiraspol
+vp: 2
+1
+Terrain (# prov): Forest (1)
+ Plains (3)
+Region: Rural Region
+population: 183,748
+
+State: Belgorod
+Cities: Belgorod
+vp: 1
+Terrain (# prov): Forest (1)
+ Plains (12)
+Region: Developed Rural Region
+population: 1,364,537
+
+Birobidzhan
+Forest (9)
+ Mountain (1)
+ Plains (9)
+Pastoral Region
+308,380
+
+State: Bobruysk
+Cities: Bobruysk
+Salihorsk
+vp: 3
+0
+Terrain (# prov): Marsh (3)
+ Plains (5)
+Region: Rural Region
+population: 1,041,084
+
+Bodaybo
+Forest (1)
+ Hills (2)
+ Mountain (7)
+Rural Region
+195,325
+
+Bratsk
+Forest (17)
+ Plains (1)
+Rural Region
+410,183
+
+State: Bryansk
+Cities: Bryansk
+Lokot
+vp: 10
+0
+Terrain (# prov): Forest (11)
+ Plains (5)
+ Urban (1)
+Region: Developed Rural Region
+population: 1,707,567
+
+State: Bukhara
+Cities: Bukhara
+Samarkand
+vp: 2
+1
+Terrain (# prov): Desert (7)
+ Hills (3)
+Region: Rural Region
+population: 2,189,596
+
+State: Buryatia
+Cities: Barguzin
+Ulan Ude
+vp: 1
+2
+Terrain (# prov): Forest (6)
+ Hills (4)
+ Lake (1)
+ Mountain (7)
+Region: Rural Region
+population: 370,893
+
+State: Chechnya-Ingushetia
+Cities: Grozny
+vp: 5
+Terrain (# prov): Hills (3)
+ Mountain (2)
+ Plains (1)
+Region: Rural Region
+population: 731,985
+
+State: Chelyabinsk
+Cities: Chelyabinsk
+vp: 5
+Terrain (# prov): Forest (3)
+ Plains (11)
+ Urban (1)
+Region: Developed Rural Region
+population: 2,074,932
+
+State: Cherkasy
+Cities: Cherkasy
+vp: 5
+Terrain (# prov): Forest (4)
+ Plains (10)
+Region: Sparse Urban Region
+population: 2,405,190
+
+State: Chernigov
+Cities: Chernigov
+vp: 3
+Terrain (# prov): Forest (5)
+ Plains (9)
+Region: Urban Region
+population: 1,373,637
+
+State: Chita
+Cities: Chita
+vp: 1
+Terrain (# prov): Forest (16)
+ Mountain (4)
+ Plains (1)
+Region: Rural Region
+population: 1,044,310
+
+State: Chukchi Peninsula
+Cities: Lavrentiya
+vp: 1
+Terrain (# prov): Forest (2)
+Region: Pastoral Region
+population: 30,000
+
+State: Chukotka
+Cities: Anadyr
+vp: 1
+Terrain (# prov): Plains (4)
+Region: Pastoral Region
+population: 31,182
+
+State: Chuvashia
+Cities: Cheboksary
+vp: 1
+Terrain (# prov): Forest (3)
+ Hills (2)
+ Plains (4)
+Region: Developed Rural Region
+population: 786,030
+
+State: Crimea
+Cities: Dzhankoi
+Feodosia
+Kerch
+Sevastopol
+Simferopol
+Yalta
+vp: 0
+0
+1
+20
+3
+1
+Terrain (# prov): Forest (1)
+ Hills (1)
+ Plains (6)
+ Urban (1)
+Region: Urban Region
+population: 1,061,607
+
+State: Dagestan
+Cities: Derbent
+Makhachkala
+vp: 1
+3
+Terrain (# prov): Forest (2)
+ Hills (4)
+ Mountain (3)
+ Plains (7)
+Region: Rural Region
+population: 1,358,292
+
+State: Dnipropetrovsk
+Cities: Dnipropetrovsk
+Krivoy Rog
+vp: 10
+1
+Terrain (# prov): Forest (6)
+ Plains (4)
+ Urban (2)
+Region: Developed Rural Region
+population: 2,391,047
+
+State: Dudinka
+Cities: Dudinka
+vp: 1
+Terrain (# prov): Forest (4)
+ Hills (4)
+ Plains (4)
+Region: Pastoral Region
+population: 6,004
+
+State: Engels-Marxstadt
+Cities: Engels
+Marksshtadt
+vp: 2
+1
+Terrain (# prov): Hills (8)
+ Plains (4)
+Region: Rural Region
+population: 618,530
+
+State: Georgia
+Cities: Batumi
+Gori
+Poti
+Tbilisi
+vp: 3
+0
+0
+5
+Terrain (# prov): Hills (8)
+ Mountain (5)
+ Plains (1)
+ Urban (1)
+Region: Developed Rural Region
+population: 2,457,844
+
+State: Gomel
+Cities: Gomel
+vp: 10
+Terrain (# prov): Forest (2)
+ Plains (10)
+ Urban (1)
+Region: Rural Region
+population: 943,422
+
+State: Gorky
+Cities: Gorky
+vp: 10
+Terrain (# prov): Forest (19)
+ Plains (17)
+ Urban (1)
+Region: Urban Region
+population: 3,378,176
+
+State: Guryev
+Cities: Guryev
+vp: 1
+Terrain (# prov): Desert (19)
+Region: Wasteland
+population: 146,494
+
+State: Irkutsk
+Cities: Irkutsk
+vp: 3
+Terrain (# prov): Forest (7)
+ Plains (4)
+Region: Rural Region
+population: 755,237
+
+State: Ivanovo
+Cities: Ivanovo
+vp: 3
+Terrain (# prov): Forest (19)
+ Plains (12)
+Region: Developed Rural Region
+population: 2,585,987
+
+State: Kabardino-Balkaria
+Cities: Nalchik
+vp: 1
+Terrain (# prov): Mountain (4)
+Region: Pastoral Region
+population: 387,990
+
+State: Kalinin
+Cities: Kalinin
+vp: 10
+Terrain (# prov): Forest (15)
+ Plains (1)
+ Urban (1)
+Region: Developed Rural Region
+population: 1,331,211
+
+State: Kalmykia
+Cities: Elista
+vp: 1
+Terrain (# prov): Desert (3)
+ Hills (4)
+ Plains (21)
+Region: Rural Region
+population: 169,620
+
+State: Kaluga
+Cities: Kaluga
+vp: 1
+Terrain (# prov): Forest (4)
+ Hills (3)
+ Plains (9)
+Region: Developed Rural Region
+population: 1,121,004
+
+Kamchatka
+Forest (3)
+ Mountain (2)
+ Plains (2)
+Pastoral Region
+48,831
+
+Karagandy
+Desert (22)
+Pastoral Region
+227,016
+
+State: Karakalpakstan
+Cities: Nukus
+vp: 1
+Terrain (# prov): Desert (10)
+ Lake (1)
+ Plains (1)
+Region: Rural Region
+population: 258,430
+
+State: Kargopol
+Cities: Kargopol
+vp: 1
+Terrain (# prov): Forest (14)
+ Plains (3)
+Region: Rural Region
+population: 210,177
+
+State: Kazan
+Cities: Kazan
+vp: 10
+Terrain (# prov): Forest (20)
+ Hills (3)
+ Plains (4)
+ Urban (1)
+Region: Developed Rural Region
+population: 2,761,291
+
+State: Khabarovsk
+Cities: Khabarovsk
+vp: 1
+Terrain (# prov): Forest (2)
+ Hills (7)
+ Mountain (10)
+ Plains (6)
+ Urban (1)
+Region: Rural Region
+population: 295,605
+
+State: Khakassia
+Cities: Abakan
+Kemerovo
+Novokuznetsk
+vp: 2
+1
+1
+Terrain (# prov): Forest (10)
+ Plains (3)
+Region: Developed Rural Region
+population: 1,567,322
+
+State: Kharkov
+Cities: Kharkov
+vp: 10
+Terrain (# prov): Forest (2)
+ Plains (8)
+ Urban (1)
+Region: Urban Region
+population: 2,227,520
+
+Khatangsky
+Forest (5)
+ Plains (1)
+Pastoral Region
+15,974
+
+State: Kherson
+Cities: Kherson
+vp: 1
+Terrain (# prov): Plains (8)
+Region: Rural Region
+population: 728,363
+
+State: Khiva
+Cities: Khiva
+vp: 1
+Terrain (# prov): Desert (1)
+ Plains (4)
+Region: Rural Region
+population: 258,430
+
+State: Kiev
+Cities: Kiev
+vp: 25
+Terrain (# prov): Forest (1)
+ Plains (9)
+ Urban (1)
+Region: Urban Region
+population: 2,495,352
+
+Kirensk
+Forest (13)
+Wasteland
+146,494
+
+State: Kirov
+Cities: Kirov
+vp: 1
+Terrain (# prov): Forest (35)
+ Plains (30)
+Region: Developed Rural Region
+population: 2,115,475
+
+State: Kolyma
+Cities: Srednekolymsk
+vp: 1
+Terrain (# prov): Mountain (2)
+ Plains (4)
+Region: Wasteland
+population: 13,090
+
+State: Kostanay
+Cities: Kostanay
+vp: 1
+Terrain (# prov): Desert (6)
+ Plains (21)
+Region: Rural Region
+population: 315,450
+
+State: Kotlas
+Cities: Kotlas
+vp: 1
+Terrain (# prov): Forest (11)
+ Plains (8)
+Region: Rural Region
+population: 262,721
+
+State: Krasnodar
+Cities: Krasnodar
+Maykop
+Novorossysk
+vp: 5
+1
+3
+Terrain (# prov): Hills (9)
+ Marsh (4)
+ Mountain (1)
+ Plains (11)
+ Urban (1)
+Region: Urban Region
+population: 2,903,371
+
+State: Krasnoyarsk
+Cities: Krasnoyarsk
+vp: 1
+Terrain (# prov): Forest (11)
+ Mountain (1)
+ Plains (4)
+Region: Developed Rural Region
+population: 1,726,427
+
+State: Kursk
+Cities: Kursk
+vp: 5
+Terrain (# prov): Forest (12)
+ Plains (1)
+ Urban (1)
+Region: Urban Region
+population: 1,680,086
+
+State: Kuybyshev
+Cities: Kuybyshev
+vp: 3
+Terrain (# prov): Forest (8)
+ Hills (1)
+ Plains (9)
+ Urban (1)
+Region: Developed Rural Region
+population: 1,391,819
+
+State: Kyzyl Orda
+Cities: Kzyl-Orda
+vp: 1
+Terrain (# prov): Desert (15)
+ Mountain (1)
+ Plains (2)
+Region: Pastoral Region
+population: 447,020
+
+State: Leningrad
+Cities: Leningrad
+vp: 30
+Terrain (# prov): Forest (3)
+ Plains (1)
+ Urban (1)
+Region: Metropolis Region
+population: 3,750,158
+
+State: Lipetsk
+Cities: Lipetsk
+vp: 1
+Terrain (# prov): Forest (1)
+ Plains (11)
+Region: Developed Rural Region
+population: 1,282,096
+
+State: Luga
+Cities: Luga
+vp: 1
+Terrain (# prov): Forest (10)
+ Marsh (1)
+ Plains (1)
+Region: Rural Region
+population: 341,819
+
+State: Magadan
+Cities: Magadan
+vp: 1
+Terrain (# prov): Mountain (2)
+ Plains (1)
+Region: Pastoral Region
+population: 63,481
+
+State: Magnitogorsk
+Cities: Beloretsk
+Magnitogorsk
+vp: 1
+3
+Terrain (# prov): Mountain (6)
+ Plains (11)
+Region: Rural Region
+population: 1,044,991
+
+State: Mari El
+Cities: Yoshkar-Ola
+vp: 1
+Terrain (# prov): Forest (16)
+ Plains (1)
+Region: Developed Rural Region
+population: 786,030
+
+State: Mikhaylovka
+Cities: Mikhaylovka
+vp: 1
+Terrain (# prov): Forest (6)
+ Plains (14)
+Region: Rural Region
+population: 468,781
+
+State: Millerovo
+Cities: Millerovo
+vp: 1
+Terrain (# prov): Forest (9)
+ Plains (10)
+Region: Rural Region
+population: 761,769
+
+State: Minsk
+Cities: Minsk
+Mogilev
+vp: 20
+5
+Terrain (# prov): Forest (3)
+ Marsh (1)
+ Plains (5)
+ Urban (1)
+Region: Urban Region
+population: 1,163,163
+
+State: Moscow
+Cities: Moscow
+vp: 50
+Terrain (# prov): Forest (14)
+ Hills (10)
+ Urban (1)
+Region: Megalopolis Region
+population: 8,335,992
+
+State: Mozyr
+Cities: Mozyr
+vp: 1
+Terrain (# prov): Marsh (10)
+Region: Rural Region
+population: 934,632
+
+State: Murmansk
+Cities: Kandalaksha
+Murmansk
+vp: 1
+5
+Terrain (# prov): Forest (12)
+ Marsh (9)
+ Mountain (4)
+ Plains (8)
+Region: Rural Region
+population: 275,751
+
+State: Mykolaiv
+Cities: Nikolayev
+vp: 3
+Terrain (# prov): Plains (8)
+Region: Rural Region
+population: 896,311
+
+State: Navoi
+Cities: Navoi
+vp: 1
+Terrain (# prov): Desert (6)
+Region: Rural Region
+population: 465,174
+
+State: Nenets
+Cities: Naryan Mar
+vp: 1
+Terrain (# prov): Forest (2)
+ Plains (8)
+Region: Rural Region
+population: 21,795
+
+State: Nevel
+Cities: Velikiye Luki
+vp: 1
+Terrain (# prov): Forest (8)
+ Hills (1)
+ Marsh (3)
+ Plains (1)
+Region: Rural Region
+population: 830,133
+
+Nikolayevsk
+Forest (12)
+ Mountain (4)
+Rural Region
+97,663
+
+State: North Ossetia
+Cities: Ordzhonikidze
+vp: 3
+Terrain (# prov): Hills (1)
+ Mountain (1)
+ Plains (1)
+Region: Rural Region
+population: 387,990
+
+North Sakhalin
+Hills (1)
+ Plains (2)
+Pastoral Region
+94,759
+
+Northern Urals
+Forest (2)
+ Mountain (3)
+Pastoral Region
+48,831
+
+State: Novgorod
+Cities: Novgorod
+vp: 5
+Terrain (# prov): Forest (9)
+ Hills (3)
+ Marsh (2)
+Region: Developed Rural Region
+population: 1,092,577
+
+State: Novosibirsk
+Cities: Novosibirsk
+vp: 3
+Terrain (# prov): Forest (6)
+ Plains (10)
+Region: Developed Rural Region
+population: 1,765,369
+
+State: Odessa
+Cities: Odessa
+Yuzhne
+vp: 10
+0
+Terrain (# prov): Forest (2)
+ Plains (3)
+ Urban (1)
+Region: Urban Region
+population: 1,286,238
+
+Okhotsk
+Forest (2)
+ Hills (4)
+ Mountain (4)
+ Plains (1)
+Pastoral Region
+63,480
+
+State: Olonets
+Cities: Lower Svir Hydroelectric Station
+Petrozavodsk
+vp: 0
+1
+Terrain (# prov): Forest (16)
+ Lake (3)
+ Plains (3)
+Region: Rural Region
+population: 229,564
+
+State: Omsk
+Cities: Omsk
+vp: 3
+Terrain (# prov): Forest (5)
+ Plains (6)
+Region: Developed Rural Region
+population: 1,317,157
+
+Onega
+Forest (30)
+ Lake (1)
+ Marsh (3)
+ Plains (3)
+Rural Region
+214,858
+
+State: Orel
+Cities: Orel
+vp: 10
+Terrain (# prov): Forest (4)
+ Plains (8)
+ Urban (1)
+Region: Rural Region
+population: 1,218,607
+
+Orenburg
+Forest (7)
+ Hills (3)
+ Plains (15)
+Urban Region
+1,225,870
+
+State: Oyrot Region
+Cities: Oyrot-Tura
+vp: 1
+Terrain (# prov): Forest (2)
+ Hills (2)
+ Mountain (1)
+Region: Wasteland
+population: 153,510
+
+State: Pamir
+Cities: Frunze
+vp: 1
+Terrain (# prov): Desert (3)
+ Lake (1)
+ Mountain (13)
+ Plains (2)
+Region: Wasteland
+population: 230,000
+
+State: Pavlodar
+Cities: Pavlodar
+vp: 1
+Terrain (# prov): Forest (2)
+ Plains (7)
+Region: Rural Region
+population: 230,210
+
+Pechora
+Forest (7)
+ Marsh (2)
+Rural Region
+21,795
+
+State: Penza
+Cities: Penza
+vp: 3
+Terrain (# prov): Forest (7)
+ Hills (6)
+ Plains (19)
+Region: Developed Rural Region
+population: 2,342,937
+
+State: Perm
+Cities: Perm
+vp: 1
+Terrain (# prov): Forest (18)
+ Mountain (4)
+ Plains (10)
+ Urban (1)
+Region: Rural Region
+population: 2,135,879
+
+State: Poltava
+Cities: Poltava
+vp: 3
+Terrain (# prov): Forest (2)
+ Plains (8)
+Region: Rural Region
+population: 1,442,584
+
+State: Proskuriv
+Cities: Proskuriv
+vp: 3
+Terrain (# prov): Forest (2)
+ Plains (4)
+Region: Developed Rural Region
+population: 1,424,022
+
+State: Pskov
+Cities: Pskov
+vp: 3
+Terrain (# prov): Forest (6)
+ Marsh (3)
+ Plains (3)
+Region: Developed Rural Region
+population: 639,587
+
+State: Roslavl
+Cities: Roslavl
+vp: 1
+Terrain (# prov): Forest (4)
+ Plains (5)
+Region: Rural Region
+population: 576,210
+
+State: Rostov
+Cities: Rostov
+Taganrog
+vp: 15
+0
+Terrain (# prov): Plains (7)
+ Urban (1)
+Region: Urban Region
+population: 1,501,076
+
+State: Ryazan
+Cities: Oban
+Ryazan
+vp: 0
+1
+Terrain (# prov): Forest (16)
+ Plains (8)
+Region: Developed Rural Region
+population: 1,824,120
+
+State: Rzhev
+Cities: Rzhev
+vp: 1
+Terrain (# prov): Forest (16)
+ Hills (2)
+ Marsh (1)
+ Plains (4)
+ Urban (1)
+Region: Rural Region
+population: 1,025,458
+
+State: Salekhard
+Cities: Salekhard
+vp: 1
+Terrain (# prov): Forest (3)
+ Marsh (4)
+ Mountain (1)
+ Plains (1)
+Region: Pastoral Region
+population: 45,484
+
+State: Saratov
+Cities: Saratov
+vp: 5
+Terrain (# prov): Forest (2)
+ Hills (5)
+ Plains (16)
+ Urban (1)
+Region: Developed Rural Region
+population: 1,226,088
+
+State: Semipalatinsk
+Cities: Kurchatov
+Semipalatinsk
+vp: 0
+2
+Terrain (# prov): Desert (4)
+ Hills (8)
+ Lake (1)
+ Mountain (2)
+ Plains (5)
+Region: Rural Region
+population: 429,213
+
+State: Smolensk
+Cities: Smolensk
+vp: 15
+Terrain (# prov): Forest (11)
+ Plains (4)
+ Urban (1)
+Region: Sparse Urban Region
+population: 1,300,028
+
+State: Sochi
+Cities: Sochi
+vp: 1
+Terrain (# prov): Mountain (7)
+Region: Rural Region
+population: 387,990
+
+State: Stalinabad
+Cities: Stalinabad
+vp: 1
+Terrain (# prov): Hills (1)
+ Mountain (11)
+Region: Wasteland
+population: 230,000
+
+State: Stalingrad
+Cities: Stalingrad
+vp: 30
+Terrain (# prov): Forest (3)
+ Hills (2)
+ Plains (9)
+ Urban (1)
+Region: Urban Region
+population: 1,135,070
+
+State: Stalino
+Cities: Mariupol
+Stalino
+vp: 0
+10
+Terrain (# prov): Forest (1)
+ Plains (8)
+ Urban (1)
+Region: Urban Region
+population: 3,767,336
+
+State: Stavropol
+Cities: Stavropol
+vp: 3
+Terrain (# prov): Hills (2)
+ Mountain (1)
+ Plains (18)
+Region: Rural Region
+population: 1,316,516
+
+State: Sumy
+Cities: Shostka
+Sumy
+vp: 1
+3
+Terrain (# prov): Forest (1)
+ Plains (10)
+Region: Developed Rural Region
+population: 1,338,280
+
+Surgut
+Forest (9)
+ Marsh (11)
+Pastoral Region
+29,299
+
+State: Sverdlovsk
+Cities: Sverdlovsk
+vp: 5
+Terrain (# prov): Forest (14)
+ Plains (5)
+ Urban (1)
+Region: Urban Region
+population: 2,161,650
+
+State: Syktyvkar
+Cities: Syktyvkar
+vp: 1
+Terrain (# prov): Forest (22)
+Region: Pastoral Region
+population: 137,203
+
+State: Tambov
+Cities: Tambov
+vp: 1
+Terrain (# prov): Forest (6)
+ Plains (13)
+Region: Rural Region
+population: 1,779,583
+
+State: Tashauz
+Cities: Tashauz
+vp: 1
+Terrain (# prov): Desert (4)
+Region: Pastoral Region
+population: 133,065
+
+State: Tashkent
+Cities: Kokand
+Tashkent
+vp: 1
+3
+Terrain (# prov): Desert (1)
+ Mountain (2)
+ Plains (1)
+ Urban (1)
+Region: Urban Region
+population: 4,137,910
+
+State: Tikhvin
+Cities: Tikhvin
+vp: 1
+Terrain (# prov): Forest (24)
+ Lake (1)
+ Plains (3)
+Region: Rural Region
+population: 185,559
+
+State: Tobolsk
+Cities: Khanty-Mansysk
+vp: 1
+Terrain (# prov): Forest (7)
+ Marsh (8)
+ Plains (4)
+Region: Pastoral Region
+population: 88,126
+
+State: Tomsk
+Cities: Tomsk
+vp: 1
+Terrain (# prov): Forest (13)
+ Marsh (1)
+ Plains (7)
+Region: Rural Region
+population: 609,304
+
+State: Tula
+Cities: Tula
+vp: 3
+Terrain (# prov): Forest (5)
+ Hills (1)
+ Plains (7)
+ Urban (1)
+Region: Developed Rural Region
+population: 1,635,549
+
+State: Tyumen
+Cities: Tyumen
+vp: 1
+Terrain (# prov): Forest (11)
+ Plains (8)
+Region: Rural Region
+population: 939,067
+
+Udachny
+Forest (5)
+Wasteland
+12,182
+
+State: Udmurtia
+Cities: Izhevsk
+vp: 1
+Terrain (# prov): Forest (8)
+ Plains (8)
+Region: Rural Region
+population: 1,324,935
+
+State: Ufa
+Cities: Sterlitamak
+Ufa
+vp: 1
+5
+Terrain (# prov): Forest (6)
+ Hills (1)
+ Mountain (2)
+ Plains (12)
+Region: Urban Region
+population: 2,552,075
+
+State: Ulyanovsky
+Cities: Ulyanovsk
+vp: 1
+Terrain (# prov): Forest (10)
+ Hills (8)
+ Plains (2)
+Region: Developed Rural Region
+population: 1,630,524
+
+State: Ural'sk
+Cities: Ural'sk
+vp: 1
+Terrain (# prov): Desert (25)
+ Forest (4)
+ Hills (5)
+ Plains (5)
+Region: Rural Region
+population: 268,572
+
+State: Ust Urt
+Cities: Mangystau
+vp: 1
+Terrain (# prov): Desert (12)
+Region: Rural Region
+population: 245,133
+
+State: Verkhoyansk
+Cities: Verkhoyansk
+vp: 1
+Terrain (# prov): Forest (3)
+ Mountain (3)
+Region: Wasteland
+population: 13,055
+
+State: Vinnytsia
+Cities: Vinnytsia
+vp: 3
+Terrain (# prov): Plains (6)
+Region: Sparse Urban Region
+population: 1,893,391
+
+State: Vitebsk
+Cities: Vitebsk
+vp: 5
+Terrain (# prov): Forest (3)
+ Plains (7)
+ Urban (1)
+Region: Developed Rural Region
+population: 1,217,854
+
+State: Vladivostok
+Cities: Vladivostok
+vp: 15
+Terrain (# prov): Hills (21)
+ Lake (1)
+ Mountain (6)
+ Plains (8)
+ Urban (1)
+Region: Developed Rural Region
+population: 841,465
+
+State: Volgodonsk
+Cities: Salsk
+vp: 1
+Terrain (# prov): Forest (4)
+ Plains (13)
+Region: Rural Region
+population: 556,677
+
+State: Volkhov
+Cities: Volkhov
+vp: 1
+Terrain (# prov): Forest (8)
+Region: Rural Region
+population: 195,325
+
+State: Vologda
+Cities: Vologda
+vp: 3
+Terrain (# prov): Forest (54)
+ Plains (16)
+Region: Developed Rural Region
+population: 2,352,100
+
+State: Voronezh
+Cities: Voronezh
+vp: 5
+Terrain (# prov): Forest (10)
+ Plains (10)
+ Urban (1)
+Region: Developed Rural Region
+population: 2,567,983
+
+State: Voroshilovgrad
+Cities: Voroshilovgrad
+vp: 1
+Terrain (# prov): Forest (5)
+ Plains (4)
+ Urban (1)
+Region: Developed Rural Region
+population: 2,167,411
+
+State: Yakutsk
+Cities: Yakutsk
+vp: 1
+Terrain (# prov): Forest (19)
+ Hills (4)
+ Mountain (1)
+Region: Pastoral Region
+population: 407,866
+
+Yamalia
+Forest (2)
+ Marsh (8)
+Pastoral Region
+21,974
+
+State: Yaroslavl
+Cities: Yaroslavl
+vp: 5
+Terrain (# prov): Forest (19)
+ Lake (1)
+ Plains (3)
+ Urban (1)
+Region: Sparse Urban Region
+population: 1,664,541
+
+State: Yeniseisk
+Cities: Tura
+vp: 1
+Terrain (# prov): Forest (25)
+Region: Wasteland
+population: 117,195
+
+State: Zaporozhe
+Cities: Melitopol
+Zaporozhe
+vp: 0
+1
+Terrain (# prov): Plains (8)
+ Urban (1)
+Region: Developed Rural Region
+population: 1,294,082
+
+State: Zhytomyr
+Cities: Zhytomyr
+vp: 3
+Terrain (# prov): Marsh (2)
+ Plains (10)
+Region: Developed Rural Region
+population: 1,417,834
+
+State: Zlatoust
+Cities: Zlatoust
+vp: 1
+Terrain (# prov): Forest (2)
+ Hills (1)
+ Mountain (7)
+Region: Pastoral Region
+population: 556,677
+
+# Politics
+Soviet Union starts with 50% and 30% base. These are changed to 28.2% and 40% after modifiers.
+
+## Political parties
+{| class="wikitable"
+|-
+! Political party !! Ideology !! Popularity !! Party leader !! Country name !! Is ruling?
+|-
+| Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov) || communism Communist || 88% || Iosif Stalin || Soviet Union || Yes
+|-
+| Trudoviks || democracy Democratic || 10% || Aleksandr Kerensky || Russian Federation || No
+|-
+| Vserossyskaya Fashistskaya Partiya || fascism Fascist || 2% || Konstantin Rodzaevsky || Russian Empire || No
+|-
+| Non-Aligned || neutrality Non-Aligned || 0% || The Provisional Goverment || Russia || No
+|}
+
+## Political leaders
+{| class="wikitable sortable mw-collapsible mw-collapsed" width=80%
+|+
+!Portrait
+!Leader
+!Ideology
+!Party
+!In power(1936)
+!Leader trait
+|-
+|
+|Iosif Stalin
+|Communism/Stalinism
+|Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov)
+|Yes
+|Heart of Steel
+
+- Political Power Gain +5%
+- Stability -10.00%
+- War Support +5.00%
+- Improve relations opinion -5.00%
+- Master impact -0.1
+|-
+|
+|Lavrenty Beriya
+|Communism/Stalinism
+|Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov)
+|No, but can come to power via decision Eliminate Stalin
+|Unscrupulous Orchestrator
+- Stability -10.00%
+- Counter intelligence +0.10
+- Intel network strength gain factor +15%
+- Own operative detection chance factor -10%
+|-
+|
+|Nikolay Bukharin
+|Communism/Marxism
+|Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov)
+|No, but can come to power via focus Coup d'etat
+|Defender of the Peasantry
+- Political Power Gain +10%
+- Stability +5.00%
+- Research Speed +2.00%
+- Factory Output -5.00%
+- Civilian intelligence to others +15.0%
+- Acceptance of Democratic Diplomacy +50
+|-
+|
+|Aleksey Rykov
+|Communism/Marxism
+|Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov)
+|No, but can come to power via focus Coup d'etat
+|Organizer of Labor and Defense
+- Army Experience Gain +5.0%
+- Consumer Goods Factories factor -15.0%
+- Division Defense on core territory +5.0%
+- Research Speed -3.00%
+|-
+|
+|Grigory Zinoviev
+|Communism/Marxism
+|Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov)
+|No, but can come to power via focus Ignite the Flames or Coup d'etat after completing focus Align the Zinovyevites
+|Born Agitator
+- Political Power Gain +10%
+- Recruitable Population Factor 15%
+- Division Recovery Rate +5.0%
+- Stability -5.00%
+- Compliance Growth Speed -5%
+|-
+|
+|Lev Kamenev
+|Communism/Marxism
+|Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov)
+|No, but can come to power via focus Ignite the Flames or Coup d'etat after completing focus Align the Zinovyevites
+|The Faded Star
+- Political Power Gain -10%
+- Stability +10.00%
+- Research Speed +3.00%
+- Ideology drift defense -10.0%
+- Daily Compliance Gain +0.05%
+|-
+|
+|Lev Trotsky
+|Communism/Marxism
+|Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov)
+|No, but can come to power via focus Ignite the Flames
+|Permanent Revolutionary
+- Political Power Gain -15%
+- Subversive activities cost -30%
+- Justify war goal time +15.0%
+- Maximum Command Power Increase +30
+|-
+|
+|Ivan Smirnov
+|Communism/Marxism
+|Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov)
+|No, but can come to power via focus Ignite the Flames
+|The Siberian Lenin
+- Stability -5.00%
+- Resistance Decay Speed +10%
+- Damage to Garrisons -10.00%
+- Resistance Activity Chance -10.0%
+- Operative slots +1
+|-
+|
+|The Supreme Soviet
+|Communism/Marxism
+|Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov)
+|No, but can come to power via focus The Supreme Soviet
+|Strong Party Discipline
+- Stability +10.00%
+- Surrender Limit +10.00%
+- Ideology drift defense +15.0%
+- Resistance Decay Speed +10%
+- Daily Compliance Gain +0.05%
+|-
+|
+|Aleksandr Kerensky
+|Democracy/Socialism
+|Trudoviks
+|No, but can come to power via coup
+|---
+|-
+|
+|Konstantin Rodzayevsky
+|Fascism
+|Vserossyskaya Fashistskaya Partiya
+|No, but can come to power via coup or focus Dismantle the Zemsky Sobor
+|Fascist Orchestrator
+- Master impact -0.3
+- Political Advisor Cost -33%
+- Army Chief Cost -33%
+- Navy Chief Cost -33%
+- Air Chief Cost -33%
+- High Command Cost -33%
+- Military Factory constrcution speed +5.00%
+- Dockyard construction speed +5.00%
+|-
+|
+|The Provisional Government
+|Non-Aligned/Despotism
+|Non-Aligned
+|No, but can come to power via coup or focus ...The Hands Do or event The 2nd Russian Civil War!
+|if released via focus or event:
+Internal Rivalry
+
+- Political Power Gain -5%
+- Improve relations opinion -25.00%
+- Encryption -15.00%
+- Join faction tension limit +50.0%
+
+if released via coup:
+
+Émigré Connections
+
+- Weekly Manpower +2000
+- Consumer Goods Factories factor -10.0%
+
+Desperate Gambit
+
+- Division Attack on core territory +10.0%
+- Division Defense on core territory +10.0%
+- Resistance Growth Speed in our states occupied by the enemy +25%
+
+Dysfunctional Assembly
+
+- Daily Political Power Gain -0.50
+- Weekly Stability -0.20%
+|-
+|
+|Vladimir III
+|Non-Aligned/Despotism
+|Non-Aligned
+|No, but can come to power via focus Reconvene the Zemsky Sobor
+|Emperor and Autocrat of All the Russias
+- War Support +5.00%
+- Resistance Growth Speed in our states occupied by the enemy +10%
+- Required Garrisons -15%
+|-
+|
+|Patriarch Meletius
+|Non-Aligned/Despotism or
+Fascism
+|Non-Aligned or Vserossyskaya Fashistskaya Partiya
+|No, but can come to power via focus The Third Rome
+|Defier of the Sun God
+- Division Recovery Rate +5.0%
+- Compliance Growth Speed +5%
+- ( Japan) Attack bonus against country +10.0%
+- ( Japan) Defense bonus against country +10.0%
+
+Supreme Representative of God on Earth
+
+- Stability +10.00%
+- War Support +10.00%
+- Ideology drift defense +100.0%
+|}
+
+## Diplomacy
+As the premier communist nation in 1936, the Soviet Union is the head of the Comintern, consisting of Tannu Tuva and Mongolia. Meanwhile, Communist China, and Sinkiang are the only other countries that have a favorable view of the USSR.
+
+Should Republican Spain prevail in the Spanish Civil War, it may be amenable to joining, as would a communist-aligned France.
+
+# Staff and designers
+## Personnel [verified for 1.17]
+
+Ministers and military staff of the Soviet Union.
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Political Advisors
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+
+|
+| Metropolitan Meletius
+| the_masses_opium
+|
+- Has completed focus ...The Hands Do
+- Has not completed focus The Third Rome
+- Has completed focus Beaten, but not Defeated
+- Has not completed focus The Third Rome
+| align="center" | 150
+
+|-
+|
+| Mikhail Kalinin
+| popular_figurehead
+|
+- Mikhail Kalinin is not in exile.
+- Mikhail Kalinin is not purged.
+| align="center" | 150
+
+|-
+|
+| Nikita Khrushchyov
+| political_commissar
+|
+- Nikita Khrushchyov is not in exile.
+- Nikita Khrushchyov is not purged.
+- Is not Supervised State
+| align="center" | 150
+
+|-
+|
+| Nikolay Voznesensky
+| captain_of_industry
+|
+- Nikolay Voznesensky is not purged.
+| align="center" | 150
+
+|-
+|
+| Lazar Kaganovich
+| iron_lazar
+|
+- Has completed focus Finish the Five Year Plan
+- Lazar Kaganovich is not purged.
+| align="center" | 150
+
+|-
+|
+| Genrikh Yagoda
+| head_of_the_nkvd_yagoda_initial
+|
+- Genrikh Yagoda is not purged.
+| align="center" | 150
+
+|-
+|
+| Nikolay Yezhov
+| head_of_the_nkvd_yezhov_initial
+|
+- Genrikh Yagoda is not hired as an advisor
+- Lavrenty Beriya is not hired as an advisor
+| align="center" | 150
+
+|-
+|
+| Lavrenty Beriya
+| head_of_the_nkvd_beriya_initial
+|
+- Nikolay Yezhov is not hired as an advisor
+- Genrikh Yagoda is not hired as an advisor
+- Lavrenty Beriya is not the country leader
+- Lavrenty Beriya is not purged.
+| align="center" | 150
+
+|-
+|
+| Vsevolod Merkulov
+| head_of_intelligence
+| La Résistance
+- Vsevolod Merkulov is not in exile.
+- Has created an Intelligence Agency
+- Lavrenty Beriya is not purged.
+| align="center" | 150
+
+|-
+|
+| Vyacheslav Molotov
+| pc_for_foreign_affairs_molotov
+|
+- Has completed focus Policy of Individual Security
+- Vyacheslav Molotov is not purged.
+| align="center" | 150
+
+|-
+|
+| Maksim Litvinov
+| pc_for_foreign_affairs_litvinov
+|
+- Has completed focus Policy of Individual Security
+- Maksim Litvinov is not purged.
+| align="center" | 150
+
+|-
+|
+| Lev Trotsky
+| pc_military_naval_affairs
+|
+- The Soviet Civil War has started or is over.
+- One of the following must be true:
+ - Has completed focus Integrate Smirnov's Bloc
+ - Has completed focus Return Democracy to the Party
+- Lev Trotsky is not the country leader.
+- Lev Trotsky is not in exile.
+- Lev Trotsky is not the country leader of Mexico.
+- Lev Trotsky is not dead.
+- Lev Trotsky is not purged.
+| align="center" | 150
+
+|-
+|
+| Ivan Smirnov
+| head_directorate_of_new_buildings
+|
+- The Soviet Civil War has started or is over.
+- One of the following must be true:
+ - Has completed focus Integrate Smirnov's Bloc
+ - Has completed focus Return Democracy to the Party
+- Ivan Smirnov is not the country leader.
+- Ivan Smirnov is not in exile.
+- Ivan Smirnov is not in prison.
+- Ivan Smirnov is not purged.
+| align="center" | 150
+
+|-
+|
+| Ivar Smilga
+| soviet_economist
+|
+- One of the following must be true:
+ - Has completed focus Integrate Smirnov's Bloc
+ - Has completed focus Return Democracy to the Party
+- Ivar Smilga is not in exile.
+- Ivar Smilga is not in prison.
+- Ivar Smilga is not purged.
+| align="center" | 150
+
+|-
+|
+| Karl Radek
+| international_revolutionary
+|
+- One of the following must be true:
+ - All of the following must be true:
+ - Has completed focus The Left Opposition
+ - Has completed focus Bring Old Trotskyists Back
+ - All of the following must be true:
+ - Has completed focus The Right Opposition
+ - Has completed focus Cooperation Against Stalin
+- Karl Radek is not in exile.
+- Karl Radek is not purged.
+| align="center" | 150
+
+|-
+|
+| Yevgeni Preobrazhensky
+| ecomonist_publicist
+|
+- One of the following must be true:
+ - All of the following must be true:
+ - Has completed focus The Left Opposition
+ - Has completed focus Bring Old Trotskyists Back
+ - All of the following must be true:
+ - Has completed focus The Right Opposition
+ - Has completed focus Cooperation Against Stalin
+- Yevgeni Preobrazhensky is not in exile.
+- Yevgeni Preobrazhensky is not purged.
+| align="center" | 150
+
+|-
+|
+| Aleksandr Shlyapnikov
+| left_trade_unionist
+|
+- One of the following must be true:
+ - Has completed focus The Left Opposition
+ - Has completed focus Return Democracy to the Party
+- Aleksandr Shlyapnikov is not in prison.
+- Aleksandr Shlyapnikov is not in exile.
+- Aleksandr Shlyapnikov is not purged.
+| align="center" | 150
+
+|-
+|
+| Nikolay Bukharin
+| economy_reformer
+|
+- One of the following must be true:
+ - Has completed focus The Right Opposition
+ - All of the following must be true:
+ - Has completed focus The Left Opposition
+ - Has completed focus Cooperation Against Stalin
+- Nikolay Bukharin is not the country leader.
+- Nikolay Bukharin is not in exile.
+- Nikolay Bukharin is not purged.
+| align="center" | 150
+
+|-
+|
+| Aleksey Rykov
+| peoples_commissar_for_posts_and_telegraphs
+|
+- One of the following must be true:
+ - Has completed focus The Right Opposition
+ - All of the following must be true:
+ - Has completed focus The Left Opposition
+ - Has completed focus Cooperation Against Stalin
+- Aleksey Rykov is not the country leader.
+- Aleksey Rykov is not in exile.
+- Aleksey Rykov is not purged.
+| align="center" | 150
+
+|-
+|
+| Mikhail Tomsky
+| right_trade_unionist
+|
+- One of the following must be true:
+ - Has completed focus The Right Opposition
+ - Has completed focus Return Democracy to the Party
+- Mikhail Tomsky is not in exile.
+- Mikhail Tomsky is not purged.
+| align="center" | 150
+
+|-
+|
+| Grigory Sokolnikov
+| peoples_commissar_of_finance
+|
+- One of the following must be true:
+ - Has completed focus The Need for Policy Changes
+ - Has completed focus Return Democracy to the Party
+- Grigory Sokolnikov is not in exile.
+- Grigory Sokolnikov is not purged.
+| align="center" | 150
+
+|-
+|
+| Grigory Zinovyev
+| communist_theorist
+|
+- Has completed focus Align the Zinovyevites
+- One of the following must be true:
+ - The Soviet Civil War has started or is over.
+ - All of the following must be true:
+ - Has completed focus Plan for the Coup
+ - Has completed focus Coup d'etat
+- Grigory Zinovyev is not in prison.
+- Grigory Zinovyev is not in exile.
+- Grigory Zinovyev is not purged.
+| align="center" | 150
+
+|-
+|
+| Lev Kamenev
+| appeasing_technocrat
+|
+- Has completed focus Align the Zinovyevites
+- The Soviet Civil War has started or is over
+- Lev Kamenev is not in prison.
+- Lev Kamenev is not in exile.
+- Lev Kamenev is not purged.
+| align="center" | 150
+
+|-
+|
+| Martemyan Ryutin
+| anti_stalinist_propagandist
+|
+- Has completed focus Liberate Ryutin
+- The Soviet Civil War has started or is over
+- Martemyan Ryutin is not in prison.
+- Martemyan Ryutin is not in exile.
+- Martemyan Ryutin is not purged.
+| align="center" | 150
+
+|-
+|
+| Patriarch Sergy
+| patriarch_of_moscow_and_all_russia
+|
+- One of the following must be true:
+ - Has completed focus Patriarch of All Russia
+ - Has completed focus The Declaration
+| align="center" | 150
+
+|-
+|
+| Metropolitan Anastasy
+| orthodox_rabblerouser
+| No Step Back
+- Has completed focus Return of the ROCOR
+- Has completed focus Beaten, but not Defeated
+| align="center" | 150
+
+|-
+|
+| Metropolitan Nikolay
+| theocratic_diplomat
+| No Step Back
+- Has completed focus Return of the ROCOR
+- Has completed focus Beaten, but not Defeated
+| align="center" | 150
+
+|-
+|
+| Metropolitan Aleksy
+| driver_of_the_faithful
+| No Step Back
+- Has completed focus Return of the ROCOR
+- Has completed focus Beaten, but not Defeated
+| align="center" | 150
+
+|-
+|
+| Anastasy Vonsyatsky
+| the_foreign_connection
+| No Step Back
+- Anastasy Vonsyatsky is not in exile
+- Anastasy Vonsyatsky is not purged.
+| align="center" | 150
+
+|-
+|
+| Grigory Semyonov
+| ataman_transbaikal_host
+| No Step Back
+- Has completed focus Approach Semyonov and the 2nd Russian Civil War has started.
+- Grigory Semyonovy is not in exile.
+- Grigory Semyonovy is not purged.
+| align="center" | 150
+
+|-
+|
+| Nikolay Ustryalov
+| political_chameleon
+| {expansion|nsb}}
+- Has completed focus Consolidate Power
+| align="center" | 150
+
+|-
+|
+| Aleksandr Kazembek
+| mladorossi_theorist
+| No Step Back
+- Has completed focus Reconvene the Zemsky Sobor
+- Aleksandr Kazembek is not in exile.
+- Aleksandr Kazembek is not purged.
+| align="center" | 150
+
+|-
+|
+| Konstantin Rodzayevsky
+| fascist_demagogue
+| No Step Back
+- Is not Supervised State
+- Konstantin Rodzayevsky is not in exile.
+- Konstantin Rodzayevsky is not purged.
+| align="center" | 150
+
+|-
+|
+| Aleksandr Kerensky
+| democratic_reformer
+|
+- Is not Supervised State
+- Aleksandr Kerensky is not in exile.
+- Aleksandr Kerensky is not purged.
+| align="center" | 150
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Theorists
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Georgy Zhukov
+| mass_assault_expert
+|
+- Has completed focus Positive Heroism
+- Georgy Zhukov is not exiled
+|-
+|
+| Boris Shaposhnikov
+| military_theorist
+
+| align="center" | 100
+|-
+|
+| Mikhail Tukhachevsky
+| mass_assault_expert
+|
+- Mikhail Tukhachevsky is not exiled
+| align="center" | 150
+|-
+|
+| Sergey Gorshkov
+| naval_theorist
+|
+- Sergey Gorshkov is not exiled
+| align="center" | 100
+|-
+|
+| Vladimir Tributs
+| grand_fleet_proponent
+
+| align="center" | 150
+|-
+|
+| Sergei Rudenko
+| close_air_support_proponent
+
+| align="center" | 150
+|-
+|
+| Alexander Golovanov
+| air_warfare_theorist
+
+| align="center" | 100
+|-
+|
+| Aleksandr Prokofyev-Seversky
+| victory_through_airpower
+| No Step Back
+- The Soviet Civil War has started or is over
+- Aleksandr Prokofyev-Seversky is not exiled
+
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Chief of Army
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Semyon Timoshenko
+| army_chief_reform_2
+|
+- Semyon Timoshenko is not exiled
+| align="center" | 100
+|-
+|
+| Kliment Voroshilov
+| army_chief_drill_1
+|
+- Kliment Voroshilov is not exiled
+| align="center" | 50
+|-
+|
+| Aleksandr Yegorov
+| army_chief_defensive_2
+
+| align="center" | 100
+|-
+|
+| Vasily Blücher
+| army_chief_maneuver_2
+
+| align="center" | 100
+|-
+|
+| Anton Denikin
+| army_chief_drill_1
+| No Step Back
+- Anton Denikin is not exiled
+| align="center" | 50
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Chief of Navy
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Ivan Yumashev
+| navy_chief_decisive_battle_2
+
+| align="center" | 100
+|-
+|
+| Nikolay Kuznetsov
+| navy_chief_reform_2
+
+| align="center" | 100
+|-
+|
+| Mikhail Frinovsky
+| navy_chief_commerce_raiding_1
+
+| align="center" | 50
+|-
+|
+| Pyotr Smirnov
+| navy_chief_naval_aviation_1
+
+| align="center" | 50
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Chief of Airforce
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Konstatin Vershinin
+| air_chief_ground_support_2
+
+| align="center" | 100
+|-
+|
+| Yakov Smushkevich
+| air_chief_safety_2
+
+| align="center" | 100
+|-
+|
+| Pavel Rychagov
+| air_chief_all_weather_2
+
+| align="center" | 100
+|-
+|
+| Aleksandr Novikov
+| air_chief_reform_3
+
+| align="center" | 200
+|-
+|
+| Vyacheslav Tkachyov
+| air_chief_reform_2
+| No Step Back
+- The Soviet Civil War has started or is over
+- Aleksandr Prokofyev-Seversky is not exiled
+
+| align="center" | 100
+|-
+|
+| Yan Nagursky
+| air_chief_all_weather_2
+| No Step Back
+- The Soviet Civil War has started or is over
+- Aleksandr Prokofyev-Seversky is not exiled
+
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Military High Command
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Konstatin Rokossovsky
+| army_armored_3
+|
+- Has completed focus Positive Heroism
+- Konstatin Rokossovsky is not exiled
+| align="center" | 200
+|-
+|
+| Aleksandr Vasilevsky
+| army_regrouping_2
+|
+- Aleksandr Vasilevsky is not exiled
+| align="center" | 100
+|-
+|
+| Ivan Konev
+| army_concealment_2
+|
+- Ivan Konev is not exiled
+| align="center" | 100
+|-
+|
+| Gordey Levchenko
+| navy_capital_ship_2
+|
+- Gordey Levchenko is not exiled
+| align="center" | 100
+|-
+|
+| Arseniy Golovko
+| navy_amphibious_assault_2
+|
+- Arseniy Golovko is not exiled
+| align="center" | 100
+|-
+|
+| Vladimir Kasatonov
+| navy_submarine_2
+|
+- Vladimir Kasatonov is not exiled
+| align="center" | 100
+|-
+|
+| Stepan Krasovsky
+| air_air_combat_training_2
+
+| align="center" | 100
+|-
+|
+| Sergei Khudyakov
+| air_close_air_support_2
+
+| align="center" | 100
+|-
+|
+| Pavel Zhigarev
+| air_airborne_1
+
+| align="center" | 50
+|-
+|
+| Vasily Yanchenko
+| air_air_superiority_2
+| No Step Back
+- The Soviet Civil War has started or is over
+- Aleksandr Prokofyev-Seversky is not exiled
+
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ style="width: 46em; text-align:left;" | Field Marshals
+! class="unsortable" | Portrait
+! Name
+!
+Skill
+!
+ATK
+!
+DEF
+!
+PLN
+!
+LOG
+! class="unsortable" | Traits
+! class="unsortable" | Requirements
+|-
+|
+| align="left" | Aleksandr Yegorov
+| 3 || 2 || 3 || 4 || 3
+| align="left" | Inflexible Strategist
+ Career Officer
+ Reckless
+
+|-
+|
+| align="left" | Iosif Stalin
+| 3 || 3 || 3 || 3 || 3
+| align="left" | Old Guard
+ Media Personality
+ Harsh Leader
+ Politically Connected
+| align="left" |
+- Has completed focus Great Commander
+|-
+|
+| align="left" | Lev Trotsky
+| 4 || 3 || 1 || 4 || 4
+| align="left" | Media Personality
+ Organization First
+| align="left" |
+- Has completed focus Builder of the Red Army
+|-
+|
+| align="left" | Kliment Voroshilov
+| 1 || 1 || 2 || 1 || 2
+| align="left" | Old Guard
+ Inflexible Strategist
+ Politically Connected
+
+|-
+|
+| align="left" | Mikhail Tukhachevsky
+| 4 || 5 || 4 || 5 || 2
+| align="left" | Brilliant Strategist
+ Career Officer
+ Reckless
+ Infantry Officer
+ Offensive Doctrine
+
+|-
+|
+| align="left" | Semyon Budyonny
+| 1 || 1 || 2 || 1 || 2
+| align="left" | Old Guard
+ Inflexible Strategist
+ Politically Connected
+
+|-
+|
+| align="left" | Vasily Blyukher
+| 3 || 2 || 1 || 3 || 4
+| align="left" | Old Guard
+ Career Officer
+ Infantry Officer
+ Organizer
+
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ style="width: 46em; text-align:left;" | Generals
+! class="unsortable" | Portrait
+! Name
+!
+Skill
+!
+ATK
+!
+DEF
+!
+PLN
+!
+LOG
+! class="unsortable" | Traits
+! class="unsortable" | Requirements
+|-
+|
+| align="left" | Aleksandr Cherepanov
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Career Officer
+ Infantry Officer
+
+|-
+|
+| align="left" | Aleksandr Gorbatov
+| 3 || 2 || 3 || 2 || 3
+| align="left" | Career Officer
+ Cavalry Officer
+
+|-
+|
+| align="left" | Aleksandr Vasilevsky
+| 4 || 4 || 4 || 3 || 2
+| align="left" | Politically Connected
+ Armor Officer
+
+|-
+|
+| align="left" | Andrey Grechko
+| 3 || 1 || 3 || 3 || 3
+| align="left" | Cavalry Officer
+
+|-
+|
+| align="left" | Andrey Vlasov
+| 3 || 3 || 3 || 1 || 3
+| align="left" | Infantry Officer
+ Winter Specialist
+| align="left" |
+- Not captured by Germany (in an event)
+|-
+|
+| align="left" | Andrey Yeryomenko
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Reckless
+ Cavalry Officer
+
+|-
+|
+| align="left" | Boris Shaposhnikov
+| 3 || 2 || 3 || 2 || 3
+| align="left" | Career Officer
+ Cautious
+
+|-
+|
+| align="left" | Dmitry Lelyushenko
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Reckless
+ Armor Officer
+
+|-
+|
+| align="left" | Enrique Líster
+| 3 || 2 || 4 || 2 || 2
+| align="left" | Politically Connected
+ Infantry Leader
+ Trickster
+| align="left" |
+- Has completed focus Send Military Advisors To Spain
+|-
+|
+| align="left" | Filipp Golikov
+| 3 || 3 || 3 || 3 || 1
+| align="left" | Career Officer
+
+|-
+|
+| align="left" | Georgy Zakharov
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Career Officer
+
+|-
+|
+| align="left" | Georgy Zhukov
+| 5 || 5 || 2 || 4 || 5
+| align="left" | Media Personality
+ Armor Officer
+ War Hero
+ Winter Specialist
+
+|-
+|
+| align="left" | Grigory Kulik
+| 1 || 1 || 2 || 1 || 2
+| align="left" | Old Guard
+ Inflexible Strategist
+ Career Officer
+ Politically Connected
+
+|-
+|
+| align="left" | Issa Pliyev
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Cavalry Officer
+
+|-
+|
+| align="left" | Ivan Chernyakhovsky
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Armor Officer
+
+|-
+|
+| align="left" | Ivan Fedyuninsky
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Infantry Officer
+
+|-
+|
+| align="left" | Ivan Konev
+| 5 || 5 || 5 || 2 || 5
+| align="left" | Politically Connected
+ Harsh Leader
+ Armor Officer
+
+|-
+|
+| align="left" | Kirill Meretskov
+| 3 || 2 || 2 || 3 || 3
+| align="left" | Reckless
+ Infantry Officer
+
+|-
+|
+| align="left" | Kirill Moskalenko
+| 3 || 2 || 2 || 3 || 3
+|
+
+|-
+|
+| align="left" | Konstantin Rokossovsky
+| 4 || 4 || 4 || 3 || 4
+| align="left" | Brilliant Strategist
+ Cautious
+ Armor Officer
+
+|-
+|
+| align="left" | Kuzma Galitsky
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Infantry Officer
+
+|-
+|
+| align="left" | Leonid Govorov
+| 3 || 3 || 2 || 3 || 2
+|
+
+|-
+|
+| align="left" | Lev Dovator
+| 3 || 3 || 2 || 2 || 3
+| align="left" | Reckless
+ Cavalry Officer
+ Cavalry Leader
+ Trickster
+ Ranger
+| align="left" |
+- Has completed focus Restore Cossack Units
+|-
+|
+| align="left" | Maks Reyter
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Career Officer
+
+|-
+|
+| align="left" | Maksim Purkayev
+| 3 || 2 || 3 || 2 || 3
+| align="left" | Career Officer
+
+|-
+|
+| align="left" | Markian Popov
+| 2 || 3 || 1 || 3 || 2
+| align="left" | Brilliant Strategist
+ Infantry Officer
+ Winter Specialist
+
+|-
+|
+| align="left" | Nikandr Chibisov
+| 3 || 1 || 3 || 3 || 3
+| align="left" | Trickster
+
+|-
+|
+| align="left" | Nikolay Berzarin
+| 3 || 3 || 3 || 2 || 2
+| align="left" | Infantry Officer
+
+|-
+|
+| align="left" | Nikolay Vatutin
+| 3 || 1 || 3 || 3 || 3
+| align="left" | Reckless
+ Infantry Officer
+
+|-
+|
+| align="left" | Pavel Rybalko
+| 3 || 4 || 1 || 2 || 3
+| align="left" | Cavalry Officer
+ Armor Officer
+ Panzer Leader
+ Panzer Expert
+| align="left" |
+- Has completed focus The Glory of the Red Army
+|-
+|
+| align="left" | Rodion Malinovsky
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Old Guard
+ Politically Connected
+ Career Officer
+ Cautious
+
+|-
+|
+| align="left" | Semyon Timoshenko
+| 3 || 3 || 2 || 2 || 3
+| align="left" | Politically Connected
+ Career Officer
+ Cavalry Officer
+
+|-
+|
+| align="left" | Sidor Kovpak
+| 3 || 2 || 2 || 3 || 3
+| align="left" | Reckless
+ War Hero
+ Commando
+| align="left" |
+- Has completed focus Organization of the Partisans
+|-
+|
+| align="left" | Vasily Chuykov
+| 1 || 2 || 1 || 2 || 1
+| align="left" | Brilliant Strategist
+ Career Officer
+
+|-
+|
+| align="left" | Vasily Korzh
+| 3 || 3 || 1 || 3 || 3
+| align="left" | Cautious
+ War Hero
+ Trickster
+| align="left" |
+- Has completed focus Organization of the Partisans
+|-
+|
+| align="left" | Vasily Kuznetsov
+| 3 || 3 || 3 || 2 || 2
+| align="left" | Infantry Officer
+ Commando
+
+|-
+|
+| align="left" | Vitaly Primakov
+| 3 || 3 || 2 || 2 || 3
+| align="left" | Reckless
+ Cavalry Officer
+ War Hero
+ Cavalry Leader
+
+|-
+|
+| align="left" | Yakov Cherevichenko
+| 3 || 3 || 3 || 2 || 2
+| align="left" | Cavalry Officer
+
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ style="width: 46em; text-align:left;" | Admirals
+! class="unsortable" | Portrait
+! Name
+!
+Skill
+!
+ATK
+!
+DEF
+!
+MNV
+!
+COR
+! class="unsortable" | Traits
+! class="unsortable" | Requirements
+|-
+|
+| align="left" | Arseny Golovko
+| 4 || 3 || 4 || 3 || 3
+| align="left" | Spotter
+ Cold Water Expert
+
+|-
+|
+| align="left" | Filipp Oktyabrsky
+| 2 || 3 || 2 || 1 || 1
+| align="left" | Ironside
+ Ground Pounder
+
+|-
+|
+| align="left" | Gordey Levchenko
+| 2 || 2 || 2 || 1 || 2
+| align="left" | Green Water Expert
+
+|-
+|
+| align="left" | Sergey Gorshkov
+| 3 || 3 || 2 || 3 || 2
+| align="left" | Bold
+ Career Officer
+
+|-
+|
+| align="left" | Vladimir Kasatonov
+| 2 || 1 || 2 || 2 || 2
+| align="left" | Sea Wolf
+
+|}
+
+ No Step Back
+The following commanders are only available to the Provisional Russian Government, formed when the 2nd Russian Civil War starts.
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ style="width: 46em; text-align:left;" | Field Marshals
+! class="unsortable" | Portrait
+! Name
+!
+Skill
+!
+ATK
+!
+DEF
+!
+PLN
+!
+LOG
+! class="unsortable" | Traits
+! class="unsortable" | Requirements
+|-
+|
+| align="left" | Alexander Rodzyanko
+| 2 || 2 || 2 || 1 || 2
+| align="left" | Cavalry Officer
+| No Step Back
+|-
+|
+| align="left" | Anton Denikin
+| 1 || 1 || 2 || 1 || 2
+| align="left" | Old Guard
+ Inflexible Strategist
+| No Step Back
+|-
+|
+| align="left" | Konstantin Nechayev
+| 3 || 3 || 2 || 2 || 3
+| align="left" | Infantry Officer
+ War Hero
+| No Step Back
+|-
+|
+| align="left" | Vladimir Kosmin
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Mountaineer
+ Winter Expert
+| No Step Back
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ style="width: 46em; text-align:left;" | Generals
+! class="unsortable" | Portrait
+! Name
+!
+Skill
+!
+ATK
+!
+DEF
+!
+PLN
+!
+LOG
+! class="unsortable" | Traits
+! class="unsortable" | Requirements
+|-
+|
+| align="left" | Andrey Shkuro
+| 3 || 3 || 1 || 4 || 2
+| align="left" | Reckless
+ Cavalry Officer
+| align="left" | No Step Back
+|-
+|
+| align="left" | Boris Shteifon
+| 1 || 1 || 2 || 1 || 2
+| align="left" | Inflexible Strategist
+ Guerilla Fighter
+| No Step Back
+|-
+|
+| align="left" | Grigory Semyonov
+| 3 || 4 || 2 || 1 || 3
+| align="left" | Cavalry Officer
+ Cavalry Leader
+| align="left" | No Step Back
+- Has completed focus Approach Semyonov
+|-
+|
+| align="left" | Ivanis Vasily Nikolaevich
+| 2 || 3 || 2 || 1 || 1
+| align="left" | Cavalry Leader
+ Hill Fighter
+| align="left" | No Step Back
+- Kuban National Republic does not exist at the start of the 2nd Russian Civil War
+|-
+|
+| align="left" | Pyotr Krasnov
+| 2 || 3 || 1 || 1 || 2
+| align="left" | Cavalry Leader
+| align="left" | No Step Back
+|-
+|
+| align="left" | Vasily Flug
+| 2 || 2 || 2 || 1 || 2
+| align="left" | Old Guard
+ Infantry Leader
+| align="left" | No Step Back
+|-
+|
+| align="left" | Vladimir Sidorin
+| 2 || 3 || 2 || 1 || 1
+| align="left" | Cavalry Leader
+ Ranger
+| align="left" | No Step Back
+- Don Cossack Host does not exist at the start of the 2nd Russian Civil War
+|}
+
+## Companies [verified for ?]
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" |Industrial concerns
+!Icon
+!Designer
+!Type
+!Effect
+!Cost ( political power )
+|-
+|
+|Stalingrad Tractor Factory
+|Industrial Concern
+|
+- Industrial Research Speed: +10%
+
+Completing the focus National Specialists will improve this designer.
+
+- Industrial Research Speed: +10%
+- Consumer Goods Factories: -2.0%
+| align="center" |150
+|-
+|
+|Leningrad Industrial Institute
+|Electronics Concern
+|
+- Electronics Research Speed: +10%
+
+Completing the focus National Specialists will improve this designer.
+- Electronics Research Speed: +10%
+- Supply Consumption: -2.0%
+| align="center" |150
+|-
+|
+|Soviet Railways
+|Railway Company
+|Has completed focus: Improve Railway Network
+
+- Trains and Railways Research Speed: +10%
+
+- Train:
+ - Production Cost: -25.00%
+ - Reliability: +10%
+- Supply Hub construction speed: +15.00%
+- Railway construction speed: +15.00%
+
+Completing the focus National Specialists will improve this designer.
+- Trains and Railways Research Speed: +10%
+- Mobilization speed: +2.0%
+|150
+|-
+|
+|Gosproyektstroy
+|Construction Company
+|Has completed focus: 'Foreign Experts
+
+- Infra construction speed: +10.00%
+- Railway construction speed: +10.00%
+- Mic construction speed: +5.00%
+- cic construction speed: +5.00%
+- nic construction speed: +5.00%
+This Designer can be upgraded to add new bonuses and improve existent ones.
+|100
+|}
+
+ Arms Against Tyranny
+Design companies of the Soviet Union.
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" |Tank designers
+!Icon
+!Designer
+!Type
+!Effect
+!Cost ( political power )
+|-
+|
+|Morozov Design Bureau
+|Mobile Tank Designer
+|
+- Armor Research Speed: +15 %
+- Armor:
+ - Max Speed: +5 %
+ - Reliability: +10 %
+
+| align="center" |150
+|-
+|
+|Astrov Design Bureau
+|Medium Tank Designer
+|
+- Armor Research Speed: +15 %
+- Armor:
+ - Reliability: +5 %
+ - Soft attack: +5 %
+
+| align="center" |150
+|-
+|
+|OKMO
+|Infantry Tank Designer
+|
+- Armor Research Speed: +15 %
+- Armor:
+ - Soft attack: +5 %
+ - Armor: +5 %
+
+| align="center" |150
+|-
+|
+|Mytishchy Machine Building Plant
+|Tank Refurbishment Plant
+|
+- Armor Research Speed: +10 %
+- Conversion speed bonus: +15 %
+- Equipment Capture Ratio Modifier: +15 %
+- Land Equipment Experience Cost: -10 %
+- Armor:
+ - Reliability: +5 %
+
+| align="center" |150
+|-
+|
+|Kirov
+|Heavy Tank Designer
+|
+- Armor Research Speed: +15 %
+- Armor:
+ - Armor: +5 %
+ - Hard attack: +5 %
+
+| align="center" |150
+|}
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" |Ship designers
+!Icon
+!Designer
+!Type
+!Effect
+!Cost ( political power )
+|-
+|
+|Nevskoye Design Bureau
+|Battlefleet Designer
+|
+- Naval Research Speed: +15 %
+- Naval Aircraft Research Speed: +10 %
+- Capital Ships:
+ - Armor: +15 %
+ - Heavy Attack: +15 %
+- Screens:
+ - Torpedo attack: +25 %
+ - Sub detection: -25 %
+
+| align="center" |150
+|-
+|
+|Rubin Design Bureau
+|Raiding Fleet Designer
+|
+- Naval Research Speed: +15 %
+- Carriers:
+ - Surface visibility: -10 %
+ - Speed: +10 %
+ - Deck size: -10 %
+- Capital Ships:
+ - Surface visibility: -10 %
+ - Speed: +10 %
+ - Heavy Attack: -10 %
+- Screens:
+ - Surface visibility: -10 %
+ - Speed: +10 %
+- Submarine:
+ - Sub visibility: -10 %
+ - Surface visibility: -10 %
+ - Speed: +10 %
+
+| align="center" |150
+|-
+|
+|Black Sea Shipyard
+|Black Sea Naval Designer
+|
+- Naval Research Speed: +15 %
+- Screens:
+ - Production Cost: -15 %
+ - Sub detection: +10 %
+ - Max Range: -25 %
+- Submarine:
+ - Production Cost: -15 %
+ - Sub visibility: -10 %
+ - Max Range: -25 %
+- Carriers:
+ - Production Cost: +15 %
+ - Max Range: -25 %
+
+| align="center" |150
+|-
+|
+|Sevastopol Marine Plant
+|Repair-Refurbishment Plant
+|
+- Naval Research Speed: +10 %
+- Accident chance: -15 %
+- Refitting Speed: +10 %
+- Refitting Cost: -10 %
+- Ship Repair Speed: +10 %
+- Screens:
+ - Production Cost: -5 %
+- Submarine:
+ - Production Cost: -5 %
+- Capital Ships:
+ - Production Cost: -5 %
+- Carriers:
+ - Production Cost: -5 %
+
+| align="center" |150
+|}
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" |Aircraft designers
+!Icon
+!Designer
+!Type
+!Effect
+!Cost ( political power )
+|-
+|
+|MiG Design Bureau
+|Light aircraft designer
+|
+- Air Research Speed: +15 %
+Fighter:
+- Agility: +10 %
+- Max Speed: +10 %
+Carrier Fighter:
+- Agility: +10 %
+- Max Speed: +10 %
+By selecting this Design Company it will permanently affect capabilities on all equipment researched while they are hired.
+| align="center" |150
+|-
+|
+|Ilyushin Design Bureau
+|Medium aircraft designer
+|
+- Air Research Speed: +15 %
+
+- Heavy Fighter: Reliability: +20 %
+
+- Tactical Bomber: Reliability: +20 %
+By selecting this Design Company it will permanently affect capabilities on all equipment researched while they are hired.
+| align="center" |150
+|-
+|
+|Tupolev Design Bureau
+|Heavy aircraft designer
+|
+- Air Research Speed: +15 %
+
+- Strategic Bomber: Strategic Bombing: +10 %
+By selecting this Design Company it will permanently affect capabilities on all equipment researched while they are hired.
+| align="center" |150
+|-
+|
+|Yakovlev Design Bureau
+|Naval aircraft designer
+|
+- Air Research Speed: +15 %
+Naval Bomber:
+- Range: +10 %
+- Naval Attack: +10 %
+CV Naval Bomber:
+- Range: +10 %
+- Naval Attack: +10 %
+Carrier Fighter:
+- Range: +10 %
+- Agility: +10 %
+Carrier CAS:
+- Range: +10 %
+- Naval Attack: +10 %
+By selecting this Design Company it will permanently affect capabilities on all equipment researched while they are hired.
+| align="center" |150
+|}
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" |Materiel designers
+!Icon
+!Designer
+!Type
+!Effect
+!Cost ( political power )
+|-
+|
+|GAZ
+|Motorized Equipment Designer
+|
+- Motorization Research Speed: +15 %
+- Motorized Rocket Artillery Research Speed: +50 %
+| align="center" |150
+|-
+|
+|Tula Arms Plant
+|Infantry Equipment Designer
+|
+- Weapons and Equipment Research Speed: +15 %
+| align="center" |150
+|-
+|
+|Grabin Design Bureau
+|Artillery Equipment Designer
+|
+- Artillery Research Speed: +15 %
+| align="center" |150
+|}
+
+### Organizations
+ Arms Against Tyranny
+The Soviet Union has access to these Military industrial organizations.
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Tank organizations
+|
+
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Ship organizations
+|
+
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Plane organizations
+|
+
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Materiel organizations
+|
+
+|}
+
+# Economy [verified for 1.17]
+
+## Laws
+The Soviet Union starts with the following laws:
+
+1936
+
+1939
+Extensive Conscription War Economy
+
+## Industry [verified for 1.17]
+
+{| class="wikitable" style="text-align: center"
+|+
+! style="width: 10%" |
+Year
+! style="width: 13%" | Military factory
+Military Factories
+! style="width: 13%" | Naval dockyard
+Naval Dockyards
+! style="width: 13%" | Civilian factory
+Civilian Factories
+! style="width: 13%" | Fuel Silo
+Fuel Silos
+! style="width: 13%" | Refinery
+Refineries
+! style="width: 13%" | Building Slot
+Building Slots
+|-
+| 1936
+| 33
+| 6
+| 46 (-30)
+| 2
+| 2
+| 438
+|}
+- Numbers in red indicate the number of civilian factories required to produce consumer goods, based on economy laws and the total number of military and civilian factories, rounded up.
+
+## Resources [verified for 1.17]
+
+{| class="wikitable" style="text-align: center"
+|+
+! style="width: 9%" |
+Year
+! style="width: 13%" | oil
+Oil
+! style="width: 13%" | aluminum
+Aluminum
+! style="width: 13%" | rubber
+Rubber
+! style="width: 13%" | tungsten
+Tungsten
+! style="width: 13%" | steel
+Steel
+! style="width: 13%" | chromium
+Chromium
+! style="width: 13%" | coal
+Coal
+|-
+| 1936
+| 223 (-111)
+| 140 (-70)
+| 2 (-1)
+| 69 (-34)
+| 593 (-296)
+| 383 (-191)
+| 236 (-118)
+|}
+- These numbers represent the available resources one hour into the game. Numbers in red indicate how many resources are reserved for export due to trade laws.
+
+# Military [verified for 1.17]
+
+The Soviet Union has the largest army in the world in 1936, with over a million men deployed in 138 divisions. Its navy is thinly spread across multiple naval theaters with a strong focus on submarines, while its air force is among the strongest on the globe.
+
+## Army
+{| class="wikitable sortable" style="width: 300px;"
+|+ style="color:black;"| Army of the Soviet Union
+! width=1% class="unsortable" | !! width=80% | Type !! width=15% | # 1936 !! | # 1939
+|-
+| || Infantry
+| align="center" | 91
+| align="center" | 164
+|-
+| || Mountaineers
+| align="center" | 13
+| align="center" | 20
+|-
+| || Cavalry
+| align="center" | 22
+| align="center" | 25
+|-
+| || Motorized Infantry
+| align="center" | 1
+| align="center" | 0
+|-
+| || Light Tank
+| align="center" | 11
+| align="center" | 28
+|-
+| || Paratrooper
+| align="center" | 0
+| align="center" | 5
+|-
+! !! style="text-align: left;" | Total divisions || 138 || 242
+|-
+! !! style="text-align: left;" | Manpower used || 1.13M || 2.05M
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | Division composition list
+! Division !! Name list !! # 1936 !! # 1939 !! Support companies !! Combat battalions
+|-
+| Strelkovaya Diviziya || Rifle Division || 73 || 145 || || 9x
+|-
+| Gornostrelkovaya Diviziya || Mountain Rifle Division || 13 || 20 || || 12x
+|-
+| Motostrelkovaya Diviziya* || Motor Rifle Division || 1 || 0 || || 6x
+|-
+| Motostrelkovaya Diviziya^ || Motor Rifle Division || 0 || 6 || || 3x 6x
+|-
+| Kavaleriyskaya Diviziya* || Cavalry Division || 22 || 0 || || 4x
+|-
+| Kavaleriyskaya Diviziya^ || Cavalry Division || 0 || 25 || || 4x
+|-
+| NKVD Pogranichnaya Diviziya || Garrison Division || 18 || 19 || || 6x
+|-
+| Mekhanizirovaniy Korpus* || Mechanized Division || 11 || 0 || || 5x 4x
+|-
+| Vozdushno-Desantnaya Brigada* || Paratrooper Division || 0 || 0 || || 2x
+|-
+| Vozdushno-Desantnaya^ || Paratrooper Division || 0 || 5 || || 6x
+|-
+| Tankovaya Korpus^ || Tank Corps || 0 || 4 || || 6x 4x
+|-
+| Legko-Tankovaya Brigada^ || Tank Brigade || 0 || 8 || || 6x 2x
+|-
+| Tankovaya Brigada^ || Tank Brigade || 0 || 3 || || 2x 4x 2x
+|-
+| Tyazolaya-Tankovaya Brigada^ || Tank Brigade || 0 || 3 || || 2x 4x 2x
+|-
+| Kazachya Kavaleryskaya Diviziya^ || Kazachya Kavaleryskaya Diviziya || 0 || 4 || || 4x 1x Mot Artillery Brigade 1x
+|-
+| colspan="6" | * marks a division that is removed in the 1939 start.
+^ marks a division that is only available in the 1939 start.
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | No Step Back Tank variants list
+! Type !! Chassis !! Role !! Main Armament !! Turret !! Suspension !! Armor (level) !! Engine (level) !! Special Modules
+|-
+| BT-7 || Improved Light || Light Tank || Improved Small Cannon || Two Man || Christie || Welded (2) || Gasoline (10) ||
+|-
+| KV-1^ || Basic Heavy || Heavy Tank || Medium Cannon || Three Man || Torsion Bar || Welded (9) || Diesel (10) ||
+|-
+| A-20^ || Basic Medium || Medium Tank || Improved Small Cannon || Two Man || Christie || Welded (2) || Diesel (8) || Sloped Armor
+|-
+| T-26TU mod. 1933 || Basic Light || Light Tank || Improved Small Cannon || Two Man || Bogie || Riveted (2) || Gasoline (2) || Basic Radio
+|-
+| BT-5 || Basic Light || Light Tank || Improved Small Cannon || One Man || Christie || Riveted (1) || Gasoline (8) ||
+|-
+| T-35 || Inter-War Heavy || Heavy Tank || Close Support Gun || Three Man || Bogie || Riveted (3) || Gasoline (10) || Basic Radio, 2x Heavy Machine Gun, Secondary Cannon Turret
+|-
+| T-28 || Inter-War Medium || Medium Tank || Close Support Gun || Three Man || Bogie || Riveted (3) || Gasoline (10) || Basic Radio, 2x Heavy Machine Gun
+|-
+| T-27* || Inter-War Light || Light Tank || Heavy Machine Gun || Superstructure || Bogie || Riveted (1) || Gasoline (1) ||
+|-
+|-
+| T-34
+Requires SOV_superior_war_machines
+ || Improved Medium || Medium Tank || Improved Medium Cannon || Two Man || Christie || Welded (7) || Diesel (10) || Sloped Armor
+|-
+| T-34
+Requires SOV_superior_war_machines
+ || Improved Medium || Medium Tank || Medium Cannon || Two Man || Christie || Welded (5) || Diesel (7) || Sloped Armor
+|-
+| T-34
+Requires SOV_superior_war_machines
+ || Improved Medium || Medium Tank || Improved Small Cannon || Two Man || Christie || Welded (5) || Diesel (5) || Sloped Armor
+|-
+| T-34
+Requires SOV_superior_war_machines
+ || Improved Medium || Medium Tank || Small Cannon || Two Man || Christie || Welded (3) || Diesel (5) || Sloped Armor
+|-
+| SU-100
+Requires SOV_soviet_artillery
+ || Improved Medium || Medium Tank Destroyer || || Superstructure || Christie || Welded (8) || Diesel (10) || Sloped Armor
+|-
+| SU-85
+Requires SOV_soviet_artillery
+ || Improved Medium || Medium Tank Destroyer || High Velocity Cannon || Superstructure || Christie || Welded (8) || Diesel (10) || Sloped Armor
+|-
+| SU-85
+Requires SOV_soviet_artillery
+ || Improved Medium || Medium Tank Destroyer || Heavy Cannon || Superstructure || Christie || Welded (8) || Diesel (10) || Sloped Armor
+|-
+| SU-122
+Requires SOV_soviet_artillery
+ || Improved Medium || Medium SP Artillery || || Superstructure || Bogie || Riveted (8) || Diesel (10) || Sloped Armor
+|-
+| SU-122
+Requires SOV_soviet_artillery
+ || Improved Medium || Medium SP Artillery || Medium Howitzer || Superstructure || Bogie || Riveted (8) || Diesel (10) || Sloped Armor
+|-
+| IS-2
+Requires SOV_they_will_know_fear
+ || Advanced Heavy || Heavy Tank || Improved Heavy Cannon || Three Man || Torsion Bar || Welded (6) || Diesel (8) || Basic Radio, Sloped Armor, Smoke Launchers
+|-
+| IS-2
+Requires SOV_they_will_know_fear
+ || Advanced Heavy || Heavy Tank || Heavy Cannon || Three Man || Torsion Bar || Welded (6) || Diesel (8) || Basic Radio, Sloped Armor, Smoke Launchers
+|-
+| A-20
+Requires SOV_approach_germany
+ || Basic Medium || Medium Tank || Improved Small Cannon || Two Man || Christie || Welded (2) || Diesel (8) || Sloped Armor
+|-
+| KV-1
+Requires SOV_approach_germany
+ || Basic Heavy || Heavy Tank || Medium Cannon || Three Man || Torsion Bar || Welded (9) || Diesel (10) ||
+|-
+| colspan="9" | * marks a variant as "outdated".
+^ marks a variant that is only available in the 1939 start.
+|}
+
+## Navy
+{| class="wikitable sortable" style="width: 300px;"
+|+ style="color:black;"| Navy of the Soviet Union
+! width=1% class="unsortable" | !! width=80% | Type !! width=15% | # 1936 !! | # 1939
+|-
+| || Battleship
+| align="center" colspan="2" | 3
+|-
+| || Heavy Cruiser
+| align="center" | 0
+| align="center" | 1
+|-
+| || Light Cruiser
+| align="center" colspan="2" | 5
+|-
+| || Destroyer
+| align="center" | 18
+| align="center" | 34
+|-
+| || Submarine
+| align="center" | 59
+| align="center" | 110
+|-
+| || Convoy
+| align="center" colspan="2" | 50
+|-
+! !! style="text-align: left;" | Total ships || 85 || 153
+|-
+! !! style="text-align: left;" | Manpower used || 31.30K || 47.50K
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | Naval units list
+! Type !! Class !! Hull !! Engine !! # 1936 !! 1936 !! # 1939 !! 1939 !! Design note
+|-
+|BB || Marat || Early Heavy Ship || Heavy I || 3 || || 3 || || 2x Heavy Battery I, Secondary Battery I, Anti-Air I, Fire Control 0, Battleship Armor I
+|-
+|CA || Kirov || Basic Cruiser || Cruiser II || || 2 || 1 || 3 || 2x Medium Battery I, 2x Anti-Air I, Fire Control 0, Cruiser Armor I, Floatplane Catapult I
+|-
+|CL || Chervona Ukraina || Early Cruiser || Cruiser I || 3 || || 3 || || 2x Light Cruiser Battery I, Anti-Air I, Fire Control 0, Torpedo Launcher I, Minelaying Rails
+|-
+|CL || Komintern* || Early Cruiser || Cruiser I || 1 || || 1 || || 2x Light Cruiser Battery I, Fire Control 0, Minelaying Rails
+|-
+|CL || Marti || Early Cruiser || Cruiser I || 1 || || 1 || || Light Cruiser Battery I, Anti-Air I, Fire Control 0, Minelaying Rails
+|-
+|DD || Bug || Early Destroyer || Light II || 1 || || 1 || || Light Battery I, Fire Control 0, 2x Minelaying Rails
+|-
+|DD || Fidonisi* || Early Destroyer || Light I || 6 || || 6 || || Light Battery I, Fire Control 0, 2x Torpedo Launcher I, Depth Charge I
+|-
+|DD || Leningrad & Minsk || Basic Destroyer || Light II || || 4 || 4 || 2 || Light Battery II, Anti-Air I, Fire Control 0, Torpedo Launcher I, Depth Charge I
+|-
+|DD || Orfey* || Early Destroyer || Light I || 11 || || 11 || || Light Battery I, Fire Control 0, 2x Torpedo Launcher I
+|-
+|DD || Gnevnyy*^ || Basic Destroyer || Light II || || || 12 || 11 || Light Battery II, Fire Control 0, Depth Charge I
+|-
+|DD || Soobrazitelnyi^ || Improved Destroyer || Light II || || || || 10 || Light Battery II, Anti-Air I, Fire Control 0, Depth Charge I
+|-
+|DD || Tashkent^ || Improved Destroyer || Light III || || || || 1 || Light Battery II, 2x Anti-Air I, Fire Control 0, Torpedo Launcher I, Depth Charge I
+|-
+|SS || AG* || Early Submarine || Submarine I || 5 || || 5 || || Torpedo Tubes I
+|-
+|SS || Series I Debakrist* || Early Submarine || Submarine I || 8 || || 8 || || 2x Torpedo Tubes I
+|-
+|SS || Series II Leninets || Basic Submarine || Submarine I || 9 || || 12 || || Torpedo Tubes I, Minelaying Tubes
+|-
+|SS || Series IX Srednyaya || Basic Submarine || Submarine II || || 5 || 6 || 19 || Torpedo Tubes II
+|-
+|SS || Series V Shchuka* || Early Submarine || Submarine I || 37 || 6 || 42 || || Torpedo Tubes II
+|-
+|SS || Series X Shchuka || Early Submarine || Submarine II || || 24 || 32 || || Torpedo Tubes II
+|-
+|SS || Series XIII Leninets^ || Basic Submarine || Submarine II || || || 5 || || Torpedo Tubes II, Minelaying Tubes
+|-
+|SS || Series XIV K-Class^ || Improved Submarine || Submarine III || || || || 8 || 2x Torpedo Tubes II, Minelaying Tubes
+|-
+| colspan="9" | * marks a variant as "outdated".
+^ marks a variant that is only available in the 1939 start.
+
+Ship type terminology:
+- BB - Battleship
+- CA - Heavy cruiser
+- CL - Light cruiser
+- DD - Destroyer
+- SS - Submarine
+|}
+
+## Air force
+{| class="wikitable sortable" style="width: 400px;"
+|+ style="color:black;"| Air force of the Soviet Union
+! width=1% class="unsortable" | !! width=80% | Type !! width=15% | hoi4 1936 !! | By Blood Alone 1936 !! | hoi4 1939 !! | By Blood Alone 1939
+|-
+| || Fighter
+| align="center" colspan="2" | 658
+| align="center" colspan="2" | 1143
+|-
+| || Close Air Support
+| align="center" colspan="2" | 0
+| align="center" | 225
+| align="center" | 192
+|-
+| || Naval Bomber
+| align="center" | 108
+| align="center" | 0
+| align="center" | 192
+| align="center" | 0
+|-
+| || Tactical Bomber
+| align="center" | 240
+| align="center" | 348
+| align="center" | 768
+| align="center" | 993
+|-
+| || Strategic Bomber
+| align="center" colspan="2" | 72
+| align="center" colspan="2" | 220
+|-
+| || Transport Plane
+| align="center" colspan="2" | 0
+| align="center" colspan="2" | 60
+|-
+! !! style="text-align: left;" | Total planes || 1078 || 1078 || 2608 || 2608
+|-
+! !! style="text-align: left;" | Manpower used || 30.68K || 32.84K || 84.30K || 88.80K
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | By Blood Alone Aircraft variants list
+! Type !! Airframe !! Role !! Main Armament !! Secondary Weapons !! Engine !! Special Modules
+|-
+| ANT-40 || Basic Medium || Tactical Bomber || Medium Bomb Bay || Bomb Locks || 2x Engine II || Light MG Defense Turret 2x
+|-
+| TB-3 || Inter-War Large || Strategic Bomber || Large Bomb Bay || || 4x Engine I || Light MG Defense Turret 2x
+|-
+| DB-3 || Inter-War Medium || Tactical Bomber || Medium Bomb Bay || Bomb Locks || 2x Engine II || Light MG Defense Turret
+|-
+| I-16 || Basic Small || Fighter || 2x Light Machine Gun || || 1x Engine I ||
+|-
+| I-15* || Inter-War Small || Fighter || 4x Light Machine Gun || || 1x Engine I ||
+|-
+| Pe-8^ || Basic Large || Strategic Bomber || Large Bomb Bay || Large Bomb Bay || 4x Engine III || Light MG Defense Turret, Cannon Defense Turret 2x
+|-
+| MBR-2^ || Basic Small || CAS || Bomb Locks || || 1x Engine II || Floats, Extra Fuel Tanks
+|-
+| I-16 Type 10^ || Basic Small || Fighter || 4x Light Machine Gun || || 1x Engine II ||
+|-
+| I-153^ || Inter-War Small || Fighter || 4x Light Machine Gun || Rocket Rails || 1x Engine I ||
+|-
+| U-2
+Requires SOV_raskovas_aviation_group
+ || Inter-War Small || CAS || Bomb Locks || || 1x Engine I || Non Strategic Materials Small
+|-
+| Pe-2
+Requires SOV_raskovas_aviation_group
+ || Improved Small || CAS || Small Bomb Bay || 2x Light Machine Gun || 2x Engine II || Light MG Defense Turret, Dive Brakes
+|-
+| Yak-1
+Requires SOV_raskovas_aviation_group
+ || Basic Small || Fighter || 1x Cannon I || 2x Heavy Machine Gun || 1x Engine II || Non Strategic Materials Small
+|-
+| colspan="7" | * marks a variant as "outdated".
+^ marks a variant that is only available in the 1939 start.
+|}
+
+# Strategies and guides
+
+## Stalin's Great Purges
+This is a guide about Stalins great purges, which happens when the appropriate focuses (The Zinovyevite Terrorist Center, The Anti-Soviet Trotskyist Center, The Military Conspiracy, The Bloc of Rights and Trotskyites) finish (and it assumes you follow the centre path, some of the other paths might change who gets purged). After each one you get an unavoidable purge of several characters. The characters purged are always the same, unless a random purge already purged one of those characters earlier via the paranoia system, or if they are exiled. If the character was already purged, a random character will be picked. So the amount of people purged cannot be reduced.
+
+- The first purge kills: Grigory Zinovyev, Lev Kamenev, Ivan Smirnov, Grigory Sokolnikov, Aleksandr Shlyapnikov
+- The second purge kills: Karl Radek, Ivar Smilga, Yevgeny Preobrazhensky, Martemyan Ryutin, and if you own No Step Back, Nikolay Ustryalov
+- The third purge, the military purge kills: Mikhail Tukhachevsky, Aleksandr Yegorov, Vasily Blyukher, Vitaly Primakov
+- The last purge kills: Nikolay Bukharin, Aleksey Rykov, Mikhail Tomsky, Maksim Litvinov
+After a great purge event fires, a random purge event cannot happen for 15 days.
+
+## Overthrowing Stalin and putting Bukharin in charge
+With No Step Back released, one notable option available to players who stay communist is the ability to get rid of Stalin without a civil war if they go down the Right Opposition Path. However, this is very risky, since you need to assassinate Stalin before Beria becomes head of the NKVD, and should Paranoia get above 90, the civil war will fire. But if you want Russia to avoid another civil war, read on.
+
+First, one should decide one thing: if they want to be cooperative with the Left Opposition, or if they wish to save the generals Stalin historically purges. This will determine focus order. Regardless, the first 3 focuses one should take are The Path of Marx-Leninism, Right Opposition, and The Need for Policy Changes - for the political power you get, either hire Mikhail Kalinin or take Improved Worker Conditions for a much needed stability boost (note that until Bukharin is in charge, you will not be able to earn much political power - although you can somewhat offset this by infiltrating the civilian governments of other countries; if playing on ahistorical, there's a chance Turkey might back down when you mobilize the armed forces in response to them remilitarizing the Bosporus, thus giving you some stability and political power). After that, take Infiltrate the NKVD and Gain Support from Party Members, then go up to Partial Mobilization, and round it off with Divert Attention Towards the Military - while you might think that Eliminate the Left is a good idea if not working with the Left Opposition, doing so will boost Paranoia, so it's best avoided. However, if you want to attack another country, consider holding off to see if you can go for War Economy instead of Partial Mobilization after justifying.
+
+While this may seem like you will not finish the latter before the Zinovyevite Terror Center finishes, the game will prioritize the player's focus as long as it completes on the same day (and both of the latter focuses will bypass the Terror Center). Additionally, if we take the focus that bypasses the aforementioned Center focus before, Stalin will merely speed up his focuses, whereas if we let it play out but not finish, he'll be on the same track but we'll be closer. While it might seem ideal to purge army officers because of how many you have, if you need to lower paranoia, focus on purging the navy - while you have more generals, the navy is not as important to the Soviet Union as it is to the British or Japanese. Generate new admirals as needed, and also forge production reports if you don't have the option to purge an admiral. Only purge officers if you have no other choice.
+
+It should be noted that while Beria will be the one who can lock off the bloodless coup, if Yagoda is purged, he will be replaced with Nikolay Yezhov - this is both good and bad, since while doing so will significantly lower paranoia, Yezhov will generate more paranoia on a weekly basis than Yagoda does (and he also lowers Stability more). The best case scenario would be Yagoda getting purged late (if he gets purged at all), but as long as you can attempt to eliminate Stalin before Yezhov is purged, you're in the clear. Note that you can decline to purge Yezhov, but doing so will boost paranoia and cost you some political power.
+
+Anyways, what happens next also depends on who you want to save.
+- If you are going to save the generals who get purged, rush towards Plan for the Coup.
+- If you are planning on saving the advisors, take Cooperation against Stalin, and either Align the Zinovyevites or Liberate Ryuten - you hypothetically have time for both, but the more time you waste, the more chance you risk of Stalin purging advisors who you otherwise would save. Afterwards, rush Plan for the Coup.
+
+Regardless, as soon as Plan for the Coup is finished, immediately click the decision to sway the head of the NKVD to your cause, and take Dissent in the Party. It should finish before the NKVD head is swayed to your cause, so go straight for Coup 'etat, and clicking the decision to eliminate Stalin. You have an 80% chance of Stalin dying this way - consider disbanding the entire army beforehand if he survives, since you'll likely get a civil war afterwards. However, if he does die, congrats! But you're not out of the woods just yet - Lavrentiy Beria, who will replace Stalin, will continue down the Centre path, and should he finish Secure the Administration, the Bloodless coup option will be locked out, in which case, all your work will have been for naught. Afterwards, all that's left is to take either Return Democracy to the Party or The Enemies of the State to remove the Trotskyite Plot debuff.
+
+## First Strike
+
+One relatively easy way to deal with the Germany problem as the Soviet Union is to strike early and to strike hard. You start with nearly triple the manpower of Germany, though you have various debuffs and equipment shortages. Use your first political power to justify on Poland. Build military factories, run exercises to generate Army Experience, hire Chief of Army, switch to War Economy when your war support is over 50%. Update your infantry template to 9 infantry / 1 artillery + support artillery, engineers, recon, logistics. (You'll need to produce lots of artillery and supply equipment.) Disband units as necessary (in particularly, get rid of all NKVD Pogranichnaya Diviziya ASAP) to put 80-ish fully equipped infantry divisions on the Polish border. Likewise, disband some of your mechanized divisions. Declare on Poland, then start justifying on Germany. If all goes well, you'll capitulate Germany by early 1938, earning you "We don't really like statistics", "The Revolution Triumphant" (if you puppet some part of Germany instead of annexing it), a good shot at "Not a Step Back". (NOTE: you won't get "One Step Forward" unless you declare on Germany while you're still fighting Poland, which is risky.) Everyone will hate you (you'll generate 100% world tension all by yourself), and the UK will guarantee any Democratic country you attempt to justify on after Germany, but you'll be out of immediate danger. You can immediately follow by justifying on Austria (which, being unaligned/fascist, is fair game, as far as the UK is concerned), and then either justifying or using the "Eradicate Western Fascism" focus to attack Italy for "The Pope? How many Divisions does he have?". (Don't dawdle: with Germany gone and the Axis dismantled, the Allies may decide to invade and take Rome as early as 1940.)
+
+## Japan War
+
+It's possible to drag Soviet Union into Sino-Japanese war, by guaranteeing Communist China and Sinkiang. As such, when Japan invades China, Soviet Union ends up dragged in it. Don't forget to move divisions to Japan front beforehand in this case. Since you have more divisions (both if directly comparing USSR and Japan - and if factoring in puppets, China, and Volunteers from German Reich and Italy), and other Axis factions don't participate in this - defeating Japan should be rather easy. The only tricky part may be invasion of Japan mainland - as USSR's navy is small, and starts on opposite side of the globe.
+
+That can allow to remove debuffs sooner, protect Communist China, and defeat Japan if played correctly. Japan, Manchukuo, Mengkukuo, Korea, Federated States of Micronesia, Mariana Federation can be turned into Puppets - don't forget to take their industry and resources - though, China countries would also try to get parts of Japan during peace conference. You must also consider the time needed to move divisions to China and back - in case you're planning to bum-rush elsewhere, or otherwise go to war with someone.
+
+# Achievements
+FOCUS The Revolution Triumphant: Have Germany as a puppet of the Soviet Union.
+FOCUS The Pope? How many Divisions does he have?: As the Soviet Union take Rome.
+FOCUS Not a step back!: As the Soviet Union never lose 1 core territory to anyone before 1945.
+FOCUS One Step Forward: As the Soviet Union declare a war on Poland and Germany before Germany attacks Poland.
+FOCUS The Soviet Onion: As the Soviet Union, have only puppets as neighbors.
+FOCUS The Romanovs laugh last: Restore the Romanovs to the throne and conquer Germany, Hungary, Austria, Czechoslovakia,Turkey, and Bulgaria.
+FOCUS We don't really like statistics: As the Soviet Union under Stalin, conquer Germany while suffering less than 1 million casualties total.
+FOCUS Race for Germany: As the Soviet union, capitulate Germany after the fall of France before the allies control one German core state.
+FOCUS Just proper gander: As the Soviet Union, activate 30 propaganda campaigns before 1945.
+Tsar Bomba As Tsarist Russia complete the Special Project for Thermonuclear bombs. png
+
+# References

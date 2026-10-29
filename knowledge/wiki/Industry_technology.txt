@@ -1,0 +1,341 @@
+TITLE: Industry technology
+URL: https://hoi4.paradoxwikis.com/Industry_technology
+REVISION: 2025-12-17T11:13:38Z (rev 95276)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Industry technology unlocks technologies related to industrial output, construction speed, repair speed, resource gain efficiency, fuel gain efficiency, and the construction of fuel infrastructure and synthetic refineries. Like engineering technologies, industry technologies tend to provide general bonuses on the country level, but unlike engineering technologies, these bonuses are all strictly related to economic bonuses, both direct and indirect.
+
+ Industry research tree
+
+# Production [verified for 1.16]
+
+FOCUS Basic machine tools: A variety of newly developed milling machines can be used in military production, from the small and versatile types available to any machine shop to the large scale, advanced models that push the technological limits.
+1936
+165 days
+Production efficiency cap : +10%
+
+Technology:
+FOCUS Improved machine tools: Turret lathes are proving indispensable for mass production. Ensuring efficient construction and use of the lathes themselves will give us a significant industrial advantage.
+Year: 1937
+Base time: 165 days
+Prerequisites: Basic machine tools
+Modifiers: Production efficiency cap : +10%
+
+Technology:
+FOCUS Advanced machine tools: Automating machine tools using servomechanisms has been discussed before. Putting these ideas into practice allows making use of other advancements in automation, such as computers.
+Year: 1939
+Base time: 220 days
+Prerequisites: Improved machine tools
+Modifiers: Production efficiency cap : +10%
+
+Technology:
+FOCUS Assembly line production: The powered assembly line, already in use in many industries, can change the course of war by allowing an unprecedented avalanche of production.
+Year: 1941
+Base time: 220 days
+Prerequisites: Advanced machine tools
+Modifiers: Production efficiency cap : +10%
+
+Technology:
+FOCUS Flexible line: As well-oiled a machine as the assembly line may be, it is still manned by humans, which allows for adaptation when needed. We should make use of this in our industrial production.
+Year: 1943
+Base time: 275 days
+Prerequisites: Assembly line production
+Excludes Streamlined line
+Modifiers:
+- Production efficiency cap : +10%
+- Production efficiency retention : +20%
+
+Technology:
+FOCUS Streamlined line: The standardization and rigid structure of the assembly line are keys to its efficiency and safety. These should be the key aspects to develop in our industrial production.
+Year: 1943
+Base time: 275 days
+Prerequisites: Assembly line production
+Excludes Flexible line
+Modifiers:
+- Production efficiency cap : +10%
+- Production efficiency growth : +10%
+
+Technology: FOCUS Pulverized Coal-Firing Boilers: .
+Year: 1937
+Base time: 220 days
+Prerequisites: Improved machine tools
+Modifiers: Energy gain per coal: +15%
+
+Technology: FOCUS High-Efficiency Turbines: .
+Year: 1939
+Base time: 220 days
+Prerequisites: Pulverized Coal-Firing Boilers
+Modifiers: Energy gain per coal: +15%
+
+# Industry [verified for 1.16]
+
+These technologies are grouped into two mutually exclusive branches.
+
+Technology:
+FOCUS Concentrated industry I: Focusing our industrial production to a few key sites will allow us to dramatically improve its efficiency.
+Year: 1936
+Base time: 220 days
+Prerequisites: Basic machine tools
+Excludes Dispersed industry I
+Modifiers:
+Each technology with:* Factory output : +15%
+- Dockyard output : +10%
+- Max factories in a state: +20%
+
+FOCUS Concentrated industry II: Further concentrating manufacturing will help driving down the costs.
+1937
+220 days
+Concentrated industry I
+
+FOCUS Concentrated industry III: Infrastructural expenses can be lowered by adapting networks to our more focused industry.
+1939
+220 days
+Concentrated industry II
+
+FOCUS Concentrated industry IV: Keeping the key points in our industry close to each other increases the impact of these concentrated sites.
+1941
+220 days
+Concentrated industry III
+
+FOCUS Concentrated industry V: Major industrial complexes now combine many parts of our industry, minimizing the costs of transports and labor.
+1943
+220 days
+Concentrated industry IV
+
+Technology:
+FOCUS Dispersed industry I: By spreading out our industries, we can ensure that it becomes difficult for the enemy to target in times of war.
+Year: 1936
+Base time: 220 days
+Prerequisites: Basic machine tools
+Excludes Concentrated industry I
+Modifiers:
+- Factory output : +10%
+- Dockyard output : +10%
+- Production efficiency retention : +10%
+- Production Efficiency : +5%
+- Factory bomb vulnerability : −15%
+- Max factories in a state: +20%
+
+Technology:
+FOCUS Dispersed industry II: Further decentralizing our manufacturing makes it harder to strike at specific parts of it.
+Year: 1937
+Base time: 220 days
+Prerequisites: Dispersed industry I
+Modifiers:
+Each technology with:* Factory output : +10%
+- Dockyard output : +10%
+- Production efficiency retention : +10%
+- Production efficiency : +5%
+- Factory bomb vulnerability : −10%
+- Max factories in a state: +20%
+
+FOCUS Dispersed industry III: Having factories operate under the guise of other operations will decrease the risk of direct attacks.
+1939
+220 days
+Dispersed industry II
+
+FOCUS Dispersed industry IV: Camouflaging and scattering our factories creates a network which is very difficult to completely disrupt.
+1941
+220 days
+Dispersed industry III
+
+FOCUS Dispersed industry V: By having not only our industry, but the infrastructure tying it together operate in secrecy, we can make it even more difficult to destroy through aerial attacks.
+1943
+220 days
+Dispersed industry IV
+
+## Concentrated vs. Dispersed industry [verified for 1.16]
+
+Both the concentrated or dispersed industry branches have their advantages and drawbacks, and the choice for which one to use depends on the player's play style. Should situations change in-game, players can also always switch from one branch to another, though doing so will force them to have to research all of the technologies in that branch from scratch.
+
+- Concentrated industry
+- Has 5 levels that can be researched which span from 1936 to 1943. Each new level provides the same bonus as previous levels. By choosing Concentrated Industry , the player increases the output of their military factories more than what they would get by choosing Dispersed Industry . This allows the player to make both new and existing military factories more efficient, though only if they are assigned to producing the same equipment for a while.
+
+- Dispersed industry
+- Has 5 levels that can be researched which span from 1936 and 1943. Each new level provides the same bonuses besides the first one, which provides slightly more Factory bomb vulnerability reduction than the rest. By choosing Dispersed Industry , the player reduces the vulnerability of their factories to strategic bombing, as well as increasing the base production efficiency of all of their production lines and the retention of said efficiency compared to what they would get by choosing Concentrated Industry . This reduces the player's susceptibility to strategic bombing, makes newly built military factories more efficient for the first couple of months of production, and allows the player more leeway in reacting to changes in production needs, including when switching them to upgraded versions of newly outdated equipment.
+
++75%
++50%
+
++50%
++50%
+
++100%
++100%
+
++50%
+
++25%
+
+−55%
+
+One can think of the two styles as maximizing potential production at any given production efficiency vs. decreasing time to achieve 100% production efficiency. In general, the concentrated option produces more output after about a year to a year-and-a-half producing the same equipment on the same production line, while the dispersed option produces more output in the first year to year-and-a-half of a new production line and the first two to three years for an existing production line that has been switched to produce an upgraded version of the same equipment type.
+
+# Construction [verified for 1.16]
+
+## Construction technologies
+
+FOCUS Construction I: Improved methods and materials allow us to construct buildings, both civilian and military, faster.
+1936
+220 days
+Each technology with:* Construction speed: +10%
+- Factory repair speed: +10%
+
+FOCUS Construction II: Modernizing our tools and equipment will further aid our construction efforts.
+1937
+220 days
+Construction I
+
+FOCUS Construction III: Adoption of modern vehicles and experience from our advancements in construction can be applied to make repairs vastly quicker.
+1939
+220 days
+Construction II
+
+FOCUS Construction IV: A higher degree of mechanization and better routines further improves building construction speeds.
+1941
+220 days
+Construction III
+
+FOCUS Construction V: The future of efficient construction will require more extensive planning for individual projects as well as standardized solutions wherever possible.
+1943
+220 days
+Construction IV
+
+## Excavation technologies [verified for 1.16]
+
+Technology:
+FOCUS Excavation I: Advancements in drilling techniques allows us to excavate resources that were impossible to reach earlier.
+Year: 1936
+Base time: 220 days
+Prerequisites: Construction I
+Modifiers: Each technology with:* Resource gain efficiency: +10%
+
+FOCUS Excavation II: New techniques help us collect resources more efficiently. We no longer taint the resources upon extraction, leading to a greater yield.
+1937
+220 days
+Construction II
+
+FOCUS Excavation III: Progress in geology helps us determine the location of resources. We can now focus our extraction efforts in places where there is a greater chance that large amounts of natural resources will be found.
+1939
+220 days
+Construction III
+
+FOCUS Excavation IV: Automation of key processes and advancement within mechanics makes all our resource sites much more efficient.
+1941
+220 days
+Construction IV
+
+FOCUS Excavation V: Advancements in fields such as surface mining gives us a greater yield of resources from our current extraction sites.
+1943
+220 days
+Construction V
+
+# Synthetic resources [verified for 1.16]
+
+{| class="wikitable"
+! style="width:25em;" | Technology
+! Year
+! Base time
+! Prerequisites
+! Effects
+|-
+| FOCUS Fuel storage: Mass Storage of fuel requires a complex set of tanks, pipes, and valves to ensure it is both secure and readily available.
+| 1936
+| style="text-align: center;" | 110 days
+
+| * Unlocks fuel silo with a limit of 3 per state
+
+|-
+| FOCUS Fuel refining I: Advancements in chemical cracking allow for better yield of light fuels from oil.
+| 1936
+| style="text-align: center;" | 330 days
+| Fuel storage
+| rowspan=5; | Each technology with:* Fuel gain per oil: +20%
+- Fuel gain from refineries: +10%
+
+|-
+| FOCUS Fuel refining II: Better planning of refinery layouts reduce wastage of fuels.
+| 1937
+| style="text-align: center;" | 330 days
+| Fuel refining I
+
+|-
+| FOCUS Fuel refining III: Improved reclamation methods allow refining fuel from by-products.
+| 1939
+| style="text-align: center;" | 330 days
+| Fuel refining II
+
+|-
+| FOCUS Fuel refining IV: New developments in chemical engineering allow the refining of fuel from new sources.
+| 1941
+| style="text-align: center;" | 330 days
+| Fuel refining III
+
+|-
+| FOCUS Fuel refining V: Using new methods and improved layouts in the construction of refineries dramatically increases throughput while reducing wastage.
+| 1943
+| style="text-align: center;" | 330 days
+| Fuel refining IV
+
+|-
+| FOCUS Synthetic oil experiments: To reduce dependence on oil, processes to manufacture substitutes from other substances and materials can be researched.
+| 1936
+| style="text-align: center;" | 330 days
+| Fuel storage
+| * Unlocks synthetic refinery with a limit of 3 per state
+
+|-
+| FOCUS Oil processing: A network of factories for synthetic distillation and refining of oil products is the next step towards ensuring the fuel supply for our nation.
+| 1937
+| style="text-align: center;" | 165 days
+| Synthetic oil experiments
+| rowspan=4; | Each technology with:* Fuel gain from refineries: +50%
+
+|-
+| FOCUS Improved oil processing: Moving previously experimental methods for distillation to large-scale operations will allow us to adapt better to available materials and needs.
+| 1939
+| style="text-align: center;" | 165 days
+| Oil processing
+
+|-
+| FOCUS Advanced oil processing: New experimental purification techniques like hydrotreating can be used in oil manufacturing to greatly improve the final product.
+| 1941
+| style="text-align: center;" | 165 days
+| Improved oil processing
+
+|-
+| FOCUS Modern oil processing: Our oil refinineries can be further improved with new advanced oil processing methods like hydrocracking, alkylation, mercaptan oxidation and isomerization.
+| 1943
+| style="text-align: center;" | 165 days
+| Advanced oil processing
+
+|-
+| FOCUS Rubber processing: Industrial processing of synthetic rubber is needed to reduce our dependency on natural rubber.
+| 1937
+| style="text-align: center;" | 165 days
+| Synthetic oil experiments
+| rowspan=4; | Each technology with:* Modifies synthetic refinery rubber output by: +1
+
+|-
+| FOCUS Improved rubber processing: Large scale production of synthetic rubber is possible with new processes to accelerate dehydrogenation reactions.
+| 1939
+| style="text-align: center;" | 165 days
+| Rubber processing
+
+|-
+| FOCUS Advanced rubber processing: A general purpose synthetic rubber recipe with improved processes such as dodecyl mercaptan polymerization modifiers will allow us to expand synthetic rubber production.
+| 1941
+| style="text-align: center;" | 165 days
+| Improved rubber processing
+
+|-
+| FOCUS Modern rubber processing: Moving to more optimized polymerization processes will result in lower costs and higher output.
+| 1943
+| style="text-align: center;" | 165 days
+| Advanced rubber processing
+
+|}
+
+# References

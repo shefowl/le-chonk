@@ -1,0 +1,1662 @@
+TITLE: Tank designer
+URL: https://hoi4.paradoxwikis.com/Tank_designer
+REVISION: 2026-03-14T14:00:27Z (rev 98834)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+No Step Back
+
+Tank equipment modules are being unlocked through the armor technology tree for the base chassis, engine and armor modules. The main weapon modules are unlocked through the artillery technology.
+Additional supporting or special modules become available via the common tech trees (such as radios from the engineering tech tree).
+
+# Chassis [verified for 1.16]
+
+The chassis is the frame of the vehicle on top of which all other modules are built.
+## Tank Chassis [verified for 1.16]
+
+There are three main types of tank chassis: light, medium, and heavy. These correspond to Light Tank , Medium Tank , and Heavy Tank tanks, respectively, as well as their armor variants, such as spaa, spg, and td, and armored support companies. New versions of these chassis can be unlocked through research. Research can also unlock some more specialized tank chassis types. Among other limitations, a chassis' type determines the largest size of turret the tank can handle, thus limiting the armaments the tank can use. This can be bypassed only by switching a design's main turret for a fixed superstructure.
+
+Chassis: Inter-War Light Tank Chassis
+Type: Light
+Year: 1922
+Max Speed: 4 km/h
+Armor: 10
+Hardness: 80%
+Reliability: 80%
+Production Cost: 2 production cost
+Resource Use per Factory: 1 steel
+Service Manpower: 2 manpower
+Prerequisites: Inter-War Tank Development
+
+Chassis: Basic Light Tank Chassis
+Type: Light
+Year: 1934
+Max Speed: 5 km/h
+Armor: 15
+Hardness: 80%
+Reliability: 95%
+Production Cost: 2.35 production cost
+Resource Use per Factory: 1 steel
+Service Manpower: 2 manpower
+Prerequisites: Basic Light Tank Chassis
+
+Chassis: Improved Light Tank Chassis
+Type: Light
+Year: 1936
+Max Speed: 6 km/h
+Armor: 20
+Hardness: 80%
+Reliability: 110%
+Production Cost: 2.7 production cost
+Resource Use per Factory: 1 steel
+Service Manpower: 2 manpower
+Prerequisites: Improved Light Tank Chassis
+
+Chassis: Advanced Light Tank Chassis
+Type: Light
+Year: 1942
+Max Speed: 7 km/h
+Armor: 25
+Hardness: 80%
+Reliability: 130%
+Production Cost: 3 production cost
+Resource Use per Factory: 2 steel
+Service Manpower: 2 manpower
+Prerequisites: Advanced Light Tank Chassis
+
+Chassis: Inter-War Medium Tank Chassis
+Type: Medium
+Year: 1922
+Max Speed: 4 km/h
+Armor: 20
+Hardness: 85%
+Reliability: 75%
+Production Cost: 3.5 production cost
+Resource Use per Factory: 1 steel
+Service Manpower: 2 manpower
+Prerequisites: Inter-War Tank Development
+
+Chassis: Basic Medium Tank Chassis
+Type: Medium
+Year: 1938
+Max Speed: 5 km/h
+Armor: 30
+Hardness: 85%
+Reliability: 80%
+Production Cost: 3.75 production cost
+Resource Use per Factory: 1 steel
+Service Manpower: 2 manpower
+Prerequisites: Basic Medium Tank Chassis
+
+Chassis: Improved Medium Tank Chassis
+Type: Medium
+Year: 1940
+Max Speed: 6 km/h
+Armor: 40
+Hardness: 85%
+Reliability: 100%
+Production Cost: 4 production cost
+Resource Use per Factory: 1 steel
+Service Manpower: 2 manpower
+Prerequisites: Improved Medium Tank Chassis
+
+Chassis: Advanced Medium Tank Chassis
+Type: Medium
+Year: 1943
+Max Speed: 6 km/h
+Armor: 50
+Hardness: 85%
+Reliability: 120%
+Production Cost: 4.25 production cost
+Resource Use per Factory: 2 steel
+Service Manpower: 2 manpower
+Prerequisites: Advanced Medium Tank Chassis
+
+Chassis: Inter-War Heavy Tank Chassis
+Type: Heavy
+Year: 1922
+Max Speed: 3 km/h
+Armor: 35
+Hardness: 95%
+Reliability: 75%
+Production Cost: 9 production cost
+Resource Use per Factory: 1 steel
+Service Manpower: 2 manpower
+Prerequisites: Inter-War Tank Development
+
+Chassis: Basic Heavy Tank Chassis
+Type: Heavy
+Year: 1934
+Max Speed: 5 km/h
+Armor: 55
+Hardness: 95%
+Reliability: 80%
+Production Cost: 10 production cost
+Resource Use per Factory: 1 steel
+Service Manpower: 2 manpower
+Prerequisites: Basic Heavy Tank Chassis
+
+Chassis: Improved Heavy Tank Chassis
+Type: Heavy
+Year: 1940
+Max Speed: 5 km/h
+Armor: 60
+Hardness: 95%
+Reliability: 110%
+Production Cost: 11 production cost
+Resource Use per Factory: 1 steel 1 chromium
+Service Manpower: 2 manpower
+Prerequisites: Improved Heavy Tank Chassis
+
+Chassis: Advanced Heavy Tank Chassis
+Type: Heavy
+Year: 1943
+Max Speed: 5 km/h
+Armor: 75
+Hardness: 95%
+Reliability: 120%
+Production Cost: 12 production cost
+Resource Use per Factory: 2 steel 1 chromium
+Service Manpower: 2 manpower
+Prerequisites: Advanced Heavy Tank Chassis
+
+Chassis: Modern Tank Chassis
+Type: Modern
+Year: 1945
+Max Speed: 7 km/h
+Armor: 65
+Hardness: 95%
+Reliability: 120%
+Production Cost: 6 production cost
+Resource Use per Factory: 2 steel 1 chromium
+Service Manpower: 2 manpower
+Prerequisites: Modern Tank Chassis
+
+Chassis: Super-Heavy Tank Chassis
+Type: Super-Heavy
+Year: 1943
+Max Speed: 4 km/h
+Armor: 90
+Hardness: 100%
+Reliability: 100%
+Production Cost: 28 production cost
+Resource Use per Factory: 3 steel 2 chromium
+Service Manpower: 2 manpower
+Prerequisites: Super-Heavy Tank Chassis
+
+Chassis: Amphibious Tank Chassis
+Type: Amphibious
+Year: 1938
+Max Speed: 5 km/h
+Armor: 15
+Hardness: 85%
+Reliability: 110%
+Production Cost: 4.5 production cost
+Resource Use per Factory: 1 steel
+Service Manpower: 2 manpower
+Prerequisites: Amphibious Tank Chassis
+
+## Land Cruiser Chassis
+ Götterdämmerung
+These chassis correspond to the Land Cruiser support company. They use unique modules that are different from those used by tanks.
+
+Chassis: Land Cruiser Chassis
+Type: Land Cruiser
+Year: 1943
+Max Speed: 5 km/h
+Armor: 150
+Reliability: 100%
+Production Cost: 330 production cost
+Resource Use per Factory: 8 steel 4 chromium
+Service Manpower: 30 manpower
+Prerequisites: Land Cruiser
+
+# Engine [verified for 1.16]
+
+Engine modules represent the type of propulsion system used to drive the tank, as well as how powerful that propulsion system is.
+
+## Engine types [verified for 1.16]
+
+A tank design must have an engine type module selected to be valid. Gasoline Engine is the default engine type module for tanks.
+
+Diesel Engine
++25%
+2 fuel
+1 production cost
+6 army exp
+
+Module: Gas Turbine
+Max Speed: +0.5 km/h, +25%
+Reliability: –10%
+Fuel Usage: 4 fuel
+Production Cost: 3 production cost
+Design Cost: 6 army exp
+Prerequisites: Jet Engine
+
+Module: Gasoline Engine
+Max Speed: +0.5 km/h, +15%
+Fuel Usage: 2 fuel
+Production Cost: 1 production cost
+Design Cost:
+Default type
+(otherwise 6 army exp )
+
+Module: Petrol-Electric Engine
+Breakthrough: +2, +15%
+Defense: +2, +15%
+Reliability: –50%
+Fuel Usage: 2 fuel
+Production Cost: 2 production cost , +15% production cost
+Design Cost: 6
+
+## Engine upgrades [verified for 1.16]
+
+It is possible to improve the stats of the engine by upgrading its level. Each level provides the same stacking effects.
+
+0 - 4
+- Max Speed: +0.1 km/h
+- Fuel Usage: +0.05 fuel
+- Reliability: –1.5%
+- Production Cost: +0.1 production cost
+- Design Cost: +1 army exp
+
+5 - 9
+Basic Engine
+
+10 - 14
+Improved Engine
+
+15 - 17
+Advanced Engine
+
+18 - 20
+Modern Engine
+
+# Suspension [verified for 1.16]
+
+Suspension modules represent the type of suspension system used to support the weight of the tank and its crew while making sure the tank remains stable enough while moving to use its weapons reliably. A tank design must have a suspension module selected to be valid. Bogie Suspension is the default suspension module for tanks.
+
+## Tracked suspension [verified for 1.16]
+
+Tracked suspension are available for all chassis types.
+
+Bogie Suspension
+Default type
+(otherwise 6 army exp )
+
+Christie Suspension
++20%
+1 production cost
+6 army exp
+
+Interleaved Roadwheels
+4
+2 production cost
+6 army exp
+
+Torsion Bar
++15%
+1 production cost
+6 army exp
+
+## Non-tracked suspension [verified for 1.16]
+
+Non-tracked suspensions are only available for light chassis. They decrease production cost, decrease reliability, and lower hardness.
+{| class="wikitable sortable plainlist"
+! class="unsortable" | !! Module!! Hardness !! Reliability
+! Production Cost
+! Design Cost
+! Prerequisites
+|- id="Half-track Suspension"
+| || Half-track Suspension|| –30%|| –10%
+| –5% production cost
+| 6 army exp
+| Mechanized Equipment I
+|- id="Wheeled Suspension"
+| || Wheeled Suspension|| –40%|| –20%
+| –10% production cost
+| 6 army exp
+| Early Truck
+|}
+
+# Armor [verified for 1.16]
+
+Armor modules represent the processes used during the construction of the tank's chassis and its armor.
+
+## Armor types [verified for 1.16]
+
+A tank design must have an armor type module selected to be valid. Rivered Armor is the default armor type for tanks.
+{| class="wikitable sortable plainlist"
+! class="unsortable" | !! Module
+! Armor !! Breakthrough !! Defense !! Hardness
+! Production Cost
+! Resource Use per Factory
+! Design Cost
+! Prerequisites
+|- id="Riveted Armor"
+| || Riveted Armor
+| || 2 || 2 ||
+| –20% production cost || || Default type
+(otherwise 8 army exp )
+|
+|- id="Cast Armor"
+| || Cast Armor
+| +30%|| 3 || 3 || +2%
+| +20% production cost || || 8 army exp
+||
+|- id="Welded Armor"
+| || Welded Armor
+| +30%|| 4 || 4 ||
+| || 1 chromium || 8 army exp
+| Basic Armor Protection
+|- id="Makeshift Armor"
+| || Makeshift Armor
+| || 0 || 1 || –30%
+| –30% production cost || || 8 army exp
+| Norway via Rikstanken
+|}
+
+## Armor upgrades [verified for 1.16]
+
+It is possible to improve the armor stats by upgrading its level. Each level provides the same stacking effects.
+
+{| class="wikitable plainlist"
+! Armor Upgrade Levels
+! Effects per Upgrade Level
+! Resource Use per Factory
+! Prerequisites
+|-
+| 0 - 4
+| rowspan=5 |
+- Breakthrough: +1.2
+- Max Speed: −0.1 km/h
+- Armor +2.5
+- Reliability: –1.5%
+- Production Cost: +0.2 production cost
+- Design Cost: +1 army exp
+
+|-
+| 5 - 9
+| rowspan="4" |
+- At level 5 and above: +1 Steel
+| Basic Armor Protection
+|-
+| 10 - 14
+| Improved Armor Protection
+|-
+| 15 - 17
+| Advanced Armor Protection
+|-
+| 18 - 20
+| Modern Armor Protection
+|}
+
+# Turret [verified for 1.16]
+
+Turrets are the main source of breakthrough, representing visibility from vehicle, size of crew workspace and their workload. Type of chassis determine maximus size of turret. Size of turret determines size of the weapon it can mount. Smaller weapons can be always mounted. Fixed super-structure allows mounting of larger sized guns and provides a higher reliability rate though it comes at the cost of breakthrough. Fixed super-structure cannot mount AA guns as it cannot track the target or elevate the gun far enough to hit planes.
+
+{| class="wikitable sortable plainlist"
+! class="unsortable" |
+! Module
+! Allowed Chassis
+! Allowed Roles
+! Max Armament Size
+! Max Speed !! Soft Attack !! Hard Attack
+! Breakthrough !! Defense !! Reliability
+! Production Cost
+! Design Cost
+|- id="Light Fixed Superstructure"
+|
+| Light Fixed Superstructure
+| rowspan="4" |
+- Light
+- Medium
+- Heavy
+- Super-Heavy
+| no Anti-air
+| Medium
+| || ||
+| −25%|| 3 || +20%
+| 1 production cost || 2 army exp
+|- id="Light One Man Turret"
+| || Light One Man Turret
+|
+| Small
+| || ||
+| 7 || ||
+| 1 production cost || 2 army exp
+|- id="Light Two Man Turret"
+| || Light Two Man Turret
+|
+| Small
+| || ||
+| 10 || ||
+| 1.25 production cost || 2 army exp
+|- id="Light Three Man Turret"
+| || Light Three Man Turret
+|
+| Small
+| −0.1 km/h|| ||
+| 14 || ||
+| 1.5 production cost || 2 army exp
+|- id="Medium Fixed Superstructure"
+|
+| Medium Fixed Superstructure
+| rowspan="4" |
+- Medium
+- Heavy
+- Super-Heavy
+| no Anti-air
+| Heavy
+| || ||
+| −25%|| 3 || +20%
+| 1.5 production cost || 2 army exp
+
+|- id="Medium One Man Turret"
+| || Medium One Man Turret
+|
+| Medium
+| || –5%|| –5%
+| 8 || ||
+| 1.25 production cost || 2 army exp
+|- id="Medium Two Man Turret"
+| || Medium Two Man Turret
+|
+| Medium
+| || ||
+| 16 || ||
+| 1.75 production cost || 2 army exp
+|- id="Medium Three Man Turret"
+| || Medium Three Man Turret
+|
+| Medium
+| −0.2 km/h|| ||
+| 24 || ||
+| 2.25 production cost || 2 army exp
+|- id="Heavy Fixed Superstructure"
+|
+| Heavy Fixed Superstructure
+| rowspan="3" |
+- Heavy
+- Super-Heavy
+| no Anti-air
+| Super-Heavy
+| || ||
+| −25%|| 3 || +20%
+| 5 production cost || 2 army exp
+
+|- id="Heavy Two Man Turret"
+| || Heavy Two Man Turret
+|
+| Heavy
+| || ||
+| 18 || ||
+| 5 production cost || 2 army exp
+|- id="Heavy Three Man Turret"
+| || Heavy Three Man Turret
+|
+| Heavy
+| −0.2 km/h|| ||
+| 22 || ||
+| 5.5 production cost || 2 army exp
+|- id="Super-Heavy Three Man Turret"
+|
+| Super-Heavy Three Man Turret
+| rowspan="2" |Super-Heavy
+|
+| Super-Heavy
+| −0.2 km/h|| || –10%
+| 24 || || –10%
+| 10 production cost , +50% production cost || 2 army exp
+|- id="Super-Heavy Four Man Turret"
+| || Super-Heavy Four Man Turret
+|
+| Super-Heavy
+| −0.5 km/h|| ||
+| 35 || || −25%
+| 12 production cost , +50% production cost || 2 army exp
+|- id="Modern Turret"
+|
+| Modern Turret
+| Modern
+|
+| Heavy
+| || ||
+| 24 || ||
+| 8 production cost || 2 army exp
+
+|- id="Improvised Turret"
+|
+| Improvised Turret
+|Light
+|
+| Small
+| || ||
+| 1 || || −25%
+| 0.1 production cost || 2 army exp
+|}
+
+# Weapons [verified for 1.16]
+
+## Tank Weapons [verified for 1.16]
+
+A tank's weapon is one of its most distinguishing features. In addition to providing most, if not all, of the firepower of the vehicle, the main gun also determines which roles the design can fill. For example, mounting an anti-air gun will prevent the tank design from being used as a "tank".
+
+Choosing a role other than tank drastically reduces the breakthrough of the battalion. Other than that, there are only minor differences in the base stats depending on the chosen role. It is important to note that different may receive different bonuses depending on researched technologies, doctrines or leaders.
+
+### Small Armaments [verified for 1.16]
+
+These weapons can be mounted on any tank chassis with an appropriately-sized turret.
+
+{| class="wikitable sortable plainlist"
+! class="unsortable" | !! Module
+! Allowed Roles !! Weapon Size !! Breakthrough
+! Soft Attack !! Hard Attack
+! Air Attack !! Max Speed!! Piercing!! Reliability
+! Production Cost
+! Resource Use per Factory
+! Design Cost
+! Prerequisites
+|- id="Heavy Machine Gun"
+| || Heavy Machine Gun
+| || data-sort-value="1" | Small ||
+| 8 || 2
+| || || 6||
+| 0.5 production cost || || 1 army exp
+| Basic Infantry equipment
+|- id="Automatic Cannon"
+| || Automatic Cannon
+| || data-sort-value="1" | Small ||
+| 15 || 5
+| || −0.1 km/h|| 20|| –10%
+| 1.5 production cost || || 1 army exp
+| Towed Anti-Air
+|- id="Improved Automatic Cannon"
+| || Improved Automatic Cannon
+| || data-sort-value="1" | Small ||
+| 20 || 7
+| || −0.1 km/h|| 35|| –10%
+| 2 production cost || || 1 army exp
+| Improved Anti-Air
+|- id="Basic Anti-Air Gun"
+| || Basic Anti-Air Gun
+| rowspan=3 | Anti-air
+ no Tank || data-sort-value="1" | Small ||
+| 6 || 2
+| 18 || || 10|| –10%
+| 2 production cost || || 1 army exp
+| Towed Anti-Air
+|- id="Improved Anti-Air Gun"
+| || Improved Anti-Air Gun
+| data-sort-value="1" | Small ||
+| 8 || 5
+| 32 || || 18|| –10%
+| 3 production cost || 2 steel 1 tungsten || 1 army exp
+| Improved Anti-Air
+|- id="Advanced Anti-Air Gun"
+| || Advanced Anti-Air Gun
+| data-sort-value="2" | Medium ||
+| 10 || 5
+| 46 || || 24|| –10%
+| 4 production cost || 3 steel 1 tungsten || 1 army exp
+| Advanced Anti-Air
+|- id="Small Cannon"
+| || Small Cannon
+| || data-sort-value="1" | Small ||
+| 10 || 6
+| || −0.1 km/h|| 25|| –10%
+| 1.5 production cost || || 1 army exp
+| Towed Artillery
+|- id="Improved Small Cannon"
+| || Improved Small Cannon
+| || data-sort-value="1" | Small ||
+| 15 || 15
+| || −0.1 km/h|| 50|| –10%
+| 3 production cost || || 1 army exp
+| Inter-War Artillery
+|- id="Medium Cannon"
+| || Medium Cannon
+| Tank destroyer
+ no Light Tank
+| data-sort-value="2" | Medium || +2
+| 20 || 15
+| || −0.2 km/h|| 60|| –15%
+| 3 production cost || 1 steel 1 tungsten || 1 army exp
+| Improved Artillery
+|- id="Improved Medium Cannon"
+| || Improved Medium Cannon
+| Tank destroyer
+ no Light Tank
+| data-sort-value="2" | Medium || +4
+| 32 || 20
+| || −0.3 km/h|| 90|| –15%
+| 4 production cost || 2 steel 1 tungsten 1 chromium || 1 army exp
+| One of:** Advanced Artillery
+ - Improved Anti-Tank Upgrade I
+|- id="Close Support Gun"
+| || Close Support Gun
+| Artillery || data-sort-value="1" | Small ||
+| 22 || 5
+| || −0.2 km/h|| 10|| –10%
+| 4 production cost || 1 steel || 1 army exp
+| Inter-War Artillery
+|- id="Medium Howitzer"
+| || Medium Howitzer
+| Artillery
+ no Light Tank
+| data-sort-value="2" | Medium || –2
+| 35 || 1
+| || −0.3 km/h|| 20|| –20%
+| 4 production cost || 2 steel 1 tungsten || 1 army exp
+| Improved Artillery
+|- id="Improved Medium Howitzer"
+| || Improved Medium Howitzer
+| Artillery
+ no Light Tank
+| data-sort-value="2" | Medium || –2
+| 45 || 2
+| || −0.4 km/h|| 30|| –20%
+| 5.5 production cost || 3 steel 1 tungsten 1 chromium || 1 army exp
+| Improved Artillery Upgrade II
+|- id="Rocket Launcher"
+| || Rocket Launcher
+| rowspan=2 |Artillery
+ no Tank || data-sort-value="2" | Medium || –4
+| 25 || 1
+| || −0.1 km/h|| 2|| –10%
+| 4 production cost || 1 steel 2 tungsten || 1 army exp
+| Towed Rocket Artillery
+|- id="Improved Rocket Launcher"
+| || Improved Rocket Launcher
+| data-sort-value="2" | Medium || –4
+| 35 || 1
+| || −0.2 km/h|| 2|| –10%
+| 5 production cost || 1 steel 2 tungsten || 1 army exp
+| Advanced Rocket Artillery
+|- id="Basic High-Velocity Cannon"
+| || Basic High-Velocity Cannon
+| Tank destroyer || data-sort-value="1" | Small ||
+| 10 || 26
+| || −0.1 km/h|| 68|| –5%
+| 3 production cost || 2 steel 2 tungsten || 1 army exp
+| Towed Anti-Tank
+|- id="Improved High-Velocity Cannon"
+| || Improved High-Velocity Cannon
+| Tank destroyer
+ no Light Tank
+| data-sort-value="2" | Medium ||
+| 20 || 35
+| || −0.3 km/h|| 125|| –17.5%
+| 5 production cost || 2 steel 2 tungsten 1 chromium || 1 army exp
+| Improved Anti-Tank Upgrade II
+|- id="Advanced High-Velocity Cannon"
+| || Advanced High-Velocity Cannon
+| Tank destroyer
+ no Medium Tank
+| data-sort-value="3" | Heavy ||
+| 25 || 45
+| || −0.4 km/h|| 200|| –20%
+| 7 production cost || 3 steel 2 tungsten 1 chromium || 1 army exp
+| Advanced Anti-Tank
+|- id="Basic Heavy Cannon"
+| || Basic Heavy Cannon
+| Tank destroyer
+ no Medium Tank
+| data-sort-value="3" | Heavy ||
+| 20 || 20
+| || −0.3 km/h|| 90|| –25%
+| 6 production cost || 2 steel 1 tungsten 1 chromium || 1 army exp
+| One of:** Towed Anti-Air
+ - Towed Anti-Tank
+|- id="Improved Heavy Cannon"
+| || Improved Heavy Cannon
+| Tank destroyer
+ no Medium Tank
+| data-sort-value="3" | Heavy ||
+| 25 || 35
+| || −0.4 km/h|| 125|| –25%
+| 7 production cost || 2 steel 2 tungsten 1 chromium || 1 army exp
+| One of:** Improved Anti-Air Upgrade I
+ - Improved Anti-Tank
+|- id="Advanced Heavy Cannon"
+| || Advanced Heavy Cannon
+| Tank destroyer
+ no Medium Tank
+| data-sort-value="3" | Heavy ||
+| 30 || 40
+| || −0.5 km/h|| 170|| –30%
+| 8 production cost || 3 steel 3 tungsten 1 chromium || 1 army exp
+| One of:** Advanced Anti-Air
+ - Advanced Anti-Tank
+|- id="Heavy Howitzer"
+| || Heavy Howitzer
+| Artillery
+ no Medium Tank
+| data-sort-value="3" | Heavy || −4
+| 55 || 2
+| || −0.5 km/h|| 60|| –30%
+| 7 production cost || 3 steel 1 tungsten 1 chromium || 1 army exp
+| Advanced Artillery Upgrade
+|- id="Super-Heavy Cannon"
+| || Super-Heavy Cannon
+| Tank destroyer
+
+ no Heavy Tank
+
+ no Modern Tank
+| data-sort-value="4" | Super-heavy ||
+| 35 || 45
+| || −0.6 km/h|| 225|| –35%
+| 12.5 production cost || 5 tungsten 2 chromium || 1 army exp
+| Super-Heavy Tank Chassis
+|}
+
+### Flamethrowers [verified for 1.16]
+
+These weapons can only be mounted on light, medium, or heavy chassis.
+
+{| class="wikitable sortable plainlist"
+! class="unsortable" | !! Module
+! Allowed Roles
+! Weapon Size
+! Breakthrough
+! Soft Attack
+! Reliability
+! Production Cost
+! Design Cost
+! Prerequisites
+|- id="Flamethrower"
+| || Flamethrower
+| Flame
+| data-sort-value="1" | Small
+|
+| 5
+| –5%
+| 0.5 production cost
+| 1 army exp
+| Flamethrower Tank
+|-
+|
+|Advanced Flamethrower
+| Flame
+| Small
+| +6
+| 12
+|–5%
+|1.2 production cost
+|1 army exp
+| Advanced Flamethrower
+|}
+
+## Land Cruiser Weapons [verified for 1.16]
+
+ Götterdämmerung
+These are the weapon modules that can only be mounted on a Land Cruiser Chassis.
+
+### Main Armament [verified for 1.16]
+
+{| class="wikitable sortable plainlist"
+! class="unsortable" | !! Module
+! Weapon Size !! Breakthrough
+! Soft Attack !! Hard Attack
+! Air Attack !! Max Speed!! Piercing!! Reliability
+! Production Cost
+! Resource Use per Factory
+! Design Cost
+! Prerequisites
+|- id="Heavy Anti-Air Platform"
+|
+| Heavy Anti-Air Platform
+| Land Cruiser || 20
+| 20 || 10
+| 80 || || 50 || –5%
+| 10.0 production cost || 5 steel 3 tungsten || 1 army exp
+| Advanced Anti-Air
+|- id="Heavy Naval Guns"
+|
+| Heavy Naval Guns
+| Land Cruiser || 40
+| 60 || 55
+| || −0.6 km/h || 240 || –20%
+| 20.0 production cost || 7 tungsten 4 chromium || 1 army exp
+|
+|- id="Super-Heavy Railway Gun"
+|
+| Super-Heavy Railway Gun
+| Land Cruiser || 30
+| 80 || 8
+| || −0.5 km/h || 80 || –15%
+| 16.0 production cost || 5 steel 5 tungsten 3 chromium || 1 army exp
+| Super-Heavy Railway Gun
+|- id="High-Impact Obliterator Cannon"
+|
+| High-Impact Obliterator Cannon
+| Land Cruiser || 25
+| 35 || 75
+| || −0.4 km/h || 280 || –10%
+| 15.0 production cost || 4 steel 7 tungsten 3 chromium || 1 army exp
+| High-Impact Obliterator Cannon
+|}
+
+### Secondary Armament [verified for 1.16]
+
+{| class="wikitable sortable plainlist"
+! class="unsortable" | !! Module
+! Weapon Size !! Breakthrough
+! Soft Attack !! Hard Attack
+! Extra Collateral Damage
+! Air Attack !! Max Speed!! Piercing!! Reliability
+! Production Cost
+! Resource Use per Factory
+! Design Cost
+! Prerequisites
+|- id="Heavy Anti-Air Battery"
+|
+| Heavy Anti-Air Battery
+| Land Cruiser || 10
+| 14 || 7
+|
+| 60 || || 40 ||
+| 7.0 production cost || 4 steel 2 tungsten || 1 army exp
+| Improved Anti-Air
+|- id="Medium Naval Guns"
+|
+| Medium Naval Guns
+| Land Cruiser || 25
+| 42 || 52
+|
+| || −0.4 km/h || 230 || –10%
+| 16.0 production cost || 6 tungsten 3 chromium || 1 army exp
+|
+|- id="Hull-Mounted Railway Gun"
+|
+| Hull-Mounted Railway Gun
+| Land Cruiser || 15
+| 70 || 5
+|
+| || −0.4 km/h || 70 || –10%
+| 14.0 production cost || 4 steel 3 tungsten 2 chromium || 1 army exp
+| Railway Gun
+|- id="Heavy High-Velocity Cannon"
+|
+| Heavy High-Velocity Cannon
+| Land Cruiser || 15
+| 30 || 55
+|
+| || −0.3 km/h || 250 || –5%
+| 12.0 production cost || 4 steel 4 tungsten 2 chromium || 1 army exp
+| Advanced Anti-Tank
+|- id="Super-Heavy Howitzer"
+|
+| Super-Heavy Howitzer
+| Land Cruiser || 20
+| 65 || 4
+| 500
+| || −0.4 km/h || 65 || –10%
+| 12.0 production cost || 4 steel 3 tungsten 2 chromium || 1 army exp
+|
+|}
+
+### Additional Armament [verified for 1.16]
+
+{| class="wikitable sortable plainlist"
+! class="unsortable" | !! Module
+! Weapon Size !! Breakthrough
+! Soft Attack !! Hard Attack
+! Extra Collateral Damage
+! Air Attack !! Max Speed!! Piercing!! Reliability
+! Production Cost
+! Resource Use per Factory
+!Design Cost
+!Prerequisites
+|- id="Flamethrower Turret"
+|
+| Flamethrower Turret
+| Land Cruiser || 8
+| 8 ||
+|
+| || || || –5%
+| 1.0 production cost || 1 steel || 1 army exp
+| Flamethrower Tank
+|- id="Light Anti-Air Battery"
+|
+| Light Anti-Air Battery
+| Land Cruiser ||
+| 10 || 5
+|
+| 46 || || 30 ||
+| 4.0 production cost || 3 steel 1 tungsten || 1 army exp
+| Towed Anti-Air
+|- id="Medium Cannon Turret"
+|
+| Medium Cannon Turret
+| Land Cruiser || 8
+| 32 || 20
+|
+| || −0.2 km/h || 90 || –5%
+| 4.0 production cost || 2 steel 1 tungsten 1 chromium || 1 army exp
+| Improved Artillery
+|- id="High-Velocity Cannon Turret"
+|
+| High-Velocity Cannon Turret
+| Land Cruiser || 4
+| 25 || 45
+|
+| || −0.3 km/h || 200 || –5%
+| 7.0 production cost || 3 steel 2 tungsten 1 chromium || 1 army exp
+| Towed Anti-Tank
+|- id="Assault Gun"
+|
+| Assault Gun
+| Land Cruiser || 16
+| 55 || 2
+| 250
+| || −0.3 km/h || 40 || –10%
+| 8.0 production cost || 3 steel 1 tungsten 1 chromium || 1 army exp
+| | Improved Artillery
+|- id="Rocket Launcher"
+|
+| Rocket Launcher
+| Land Cruiser || 4
+| 35 || 1
+|
+| || −0.2 km/h || 2 || –5%
+| 5.0 production cost || 1 steel 2 tungsten || 1 army exp
+| Towed Rocket Artillery
+|}
+
+# Auxiliary Modules [verified for 1.16]
+
+These modules can be equipped in the auxiliary, or special, module slots of a chassis.
+
+## Tank Auxiliary Modules [verified for 1.16]
+
+All tank chassis have four slots for special modules that can either be filled with the following modules or be left empty.
+### Secondary Turrets [verified for 1.16]
+
+Secondary turrets increase the attack power of the vehicle. The number of additional mountable turrets depend on chassis type:
+- Light chassis can only mount up to 1 secondary turret.
+- Medium chassis can only mount up to 2 secondary turrets.
+- Heavy and super-heavy chassis can mount up to 4 secondary turrets.
+- Amphibious and modern chassis cannot mount secondary turrets at all.
+
+{| class="wikitable sortable plainlist"
+! class="unsortable" | !! Module!! Breakthrough
+! Soft Attack !! Hard Attack !! Reliability
+! Production Cost
+! Design Cost
+! Prerequisites
+|- id="Heavy Machine Gun (Secondary Turret)"
+| || Heavy Machine Gun||
+| 4 || ||
+| 1.5 production cost || 1 army exp
+| Basic Infantry equipment
+|- id="Small Cannon (Secondary Turret)"
+| || Small Cannon|| 2
+| 5 || 3 || –10%
+| 3 production cost || 1 army exp
+| Towed Artillery
+|}
+
+### Tank Radios [verified for 1.16]
+
+Radios increase the breakthrough and defense of vehicles. Only one radio module can be equipped on a chassis.
+
+{| class="wikitable sortable plainlist"
+! class="unsortable" | !! Module!! Defense
+! Breakthrough
+! Production Cost !! Design Cost
+! Prerequisites
+|- id="Basic Radio"
+| || Basic Radio|| +20%
+| +15%
+| 0.5 production cost || 1 army exp
+| Radio
+|- id="Improved Radio"
+| || Improved Radio|| +40%
+| +25%
+| 1.5 production cost || 1 army exp
+| Improved Radio
+|- id="Advanced Radio"
+| || Advanced Radio|| +60%
+| +40%
+| 2.5 production cost || 1 army exp
+| Advanced Radio
+|}
+
+### Tank Special Modules [verified for 1.16]
+
+Any number of the following modules can be equipped on a chassis.
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! Soft Attack
+! Defense
+! Breakthrough
+! Fuel Capacity
+! Max Speed
+! Reliability
+! Production Cost
+! Design Cost
+! Prerequisites
+|- id="Additional Machineguns"
+| || Additional Machineguns
+| 1
+| 2
+|
+|
+|
+|
+| 0.5 production cost
+| 1 army exp
+| Basic Infantry equipment
+|- id="Extra Ammunition Storage"
+| || Extra Ammunition Storage
+|
+| 4
+| 2
+|
+|
+| –10%
+|
+| 1 army exp
+|
+|- id="Fuel Drum"
+| || Fuel Drum
+|
+|
+|
+| +100 fuel
+| −0.2 km/h
+|
+| 1 production cost
+| 3 army exp
+|- id="Smoke Launchers"
+| || Smoke Launchers
+|
+| 2
+| 1
+|
+|
+|
+| 0.5 production cost
+| 1 army exp
+|
+|}
+
+### Tank Unique Special Modules [verified for 1.16]
+
+Only up to one of each module can be equipped on a chassis.
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! Allowed Chassis
+! Allowed Roles
+! Defense
+! Piercing
+! Armor
+! Breakthrough
+! Entrenchment
+! Reliability
+! Production Cost
+! Resource Use per Factory
+! Design Cost
+! Prerequisites
+|- id="Amphibious Drive"
+| || Amphibious Drive
+| * Light
+- Medium
+- Heavy
+| Amphibious
+ no Any besides Amphibious
+|
+|
+|
+|
+|
+| –15%
+| 2 production cost , +10% production cost
+|
+| 1 army exp
+| Amphibious Drive
+|- id="Armor Skirts"
+| || Armor Skirts
+| rowspan=8 | * Light
+- Medium
+- Heavy
+- Super-Heavy
+- Modern
+|
+|
+|
+| 3
+| 3
+|
+|
+| 0.5 production cost
+|
+| 1 army exp
+| Improved Armor Protection
+|- id="Auto Loader"
+| || Auto Loader
+|
+| 4
+|
+|
+| 4
+|
+|
+| 1.5 production cost
+|
+| 1 army exp
+| One of:** Advanced Artillery Upgrade
+ - Advanced Anti-Air
+ - Advanced Anti-Tank
+|- id="Dozer Blade"
+| || Dozer Blade
+|
+|
+|
+|
+|
+| 1
+|
+| 1 production cost
+|
+| 1 army exp
+| Engineer Company II
+|- id="Easy Maintenance"
+| || Easy Maintenance
+|
+|
+|
+|
+|
+|
+| +10%
+| -7.5% production cost || || 30 army exp
+| Maintenance Company II
+|- id="Squeeze-bore Adaptor"
+| || Squeeze-bore Adaptor
+|
+|
+| +10%
+|
+|
+|
+|
+|
+| +1 tungsten
+| 1 army exp
+| Anti-Tank Upgrade
+|- id="Sloped Armor"
+| || Sloped Armor
+|
+|
+|
+| +25%
+|
+|
+|
+| +10% production cost
+|
+| 10 army exp
+|
+|- id="Stabilizer"
+| || Stabilizer
+|
+|
+|
+|
+| 5
+|
+|
+| 2 production cost
+|
+| 1 army exp
+| Improved Computing Machine
+|- id="Wet Ammunition Storage"
+| || Wet Ammunition Storage
+|
+|
+|
+|
+|
+|
+| +15%
+| 1 production cost
+|
+| 1 army exp
+|
+|}
+
+## Land Cruiser Special Features [verified for 1.16]
+
+ Götterdämmerung
+These modules can only be mounted on a Land Cruiser Chassis.
+
+### Aerial Deployment [verified for 1.16]
+
+{| class="wikitable sortable plainlist"
+! class="unsortable" | !! Module!! Defense
+! Reconnaissance
+! Air Attack !! Fuel Usage
+! Production Cost !! Design Cost
+! Prerequisites
+|- id="Aircraft Catapult"
+| || Aircraft Catapult || 1
+| 5
+| 2 || 2
+| 6 production cost || 1 army exp
+|
+|- id="Helipad"
+| || Helipad || 1
+| 8
+| 2 || 1
+| 4 production cost || 1 army exp
+| Helicopter
+|}
+
+### Structural Features [verified for 1.16]
+
+{| class="wikitable sortable plainlist"
+! class="unsortable" | !! Module!! Defense
+! Breakthrough
+! Soft Attack
+! Max Speed !! Armor
+! Fuel Usage !! Fuel Capacity
+! Reliability
+! Production Cost !! Design Cost
+! Prerequisites
+|- id="Bunker Emplacement"
+| || Bunker Emplacement || 10
+| 10
+| 10
+| || 8
+| 1 ||
+|
+| 8 production cost || 1 army exp
+| Improved Land Forts
+|- id="Internal Ammunition Compartments"
+| || Internal Ammunition Compartments || 4
+| 2
+|
+| ||
+| ||
+| –5%
+| || 1 army exp
+|
+|- id="Internal Fuel Tanks"
+| || Internal Fuel Tanks ||
+|
+|
+| −0.2 km/h ||
+| || 150
+|
+| 2 production cost || 3 army exp
+|
+|- id="Stabilizers"
+| || Stabilizers ||
+| 6
+|
+| ||
+| ||
+|
+| 3 production cost || 1 army exp
+| Improved Computing Machine
+|- id="Wet Ammunition Storage"
+| || Wet Ammunition Storage ||
+|
+|
+| ||
+| ||
+| +15%
+| 2 production cost || 1 army exp
+|
+|}
+
+### External Features [verified for 1.16]
+
+{| class="wikitable sortable plainlist"
+! class="unsortable" | !! Module!! Defense
+! Breakthrough !! Air Attack
+! Production Cost !! Design Cost
+! Prerequisites
+|- id="Armored Skirts"
+| || Armored Skirts || 6
+| 6 ||
+| 8 production cost || 1 army exp
+| Advanced Armor Protection
+|- id="Radar"
+| || Radar || +10%
+| || +50%
+| 10 production cost || 1 army exp
+| Radar
+|- id="Smoke Generators"
+| || Smoke Generators || 2
+| 3 ||
+| 2 production cost || 1 army exp
+|
+|}
+
+### Radio Systems [verified for 1.16]
+
+{| class="wikitable sortable plainlist"
+! class="unsortable" | !! Module!! Defense
+! Breakthrough
+! Production Cost !! Design Cost
+! Prerequisites
+|- id="Basic Radio"
+| || Basic Radio|| +20%
+| +15%
+| 2 production cost || 1 army exp
+| Radio
+|- id="Improved Radio"
+| || Improved Radio|| +40%
+| +25%
+| 4 production cost || 1 army exp
+| Improved Radio
+|- id="Advanced Radio"
+| || Advanced Radio|| +60%
+| +40%
+| 6 production cost || 1 army exp
+| Advanced Radio
+|- id="Command Center"
+| || Command Center|| +75%
+| +50%
+| 8 production cost || 1 army exp
+| Armored Signal Company
+|}
+
+# Tank Roles [verified for 1.16]
+
+In tank designer you can specify the role of a design. This allows it to be used in certain armored combat support battalions or specialized support companies instead of in ordinary armored battalions. Changing the role of a design also inherently changes some of its stats, even if nothing else about the design changes. For example, a player can have two completely identical armored vehicle designs where one is designated a medium tank and the other a medium tank destroyer , and the medium tank destroyer version of the identical design will have more hard attack and piercing just from the fact that it has been designated as such.
+{| class="wikitable sortable"
+!Tank variant
+!Battalion Type
+!Supply Use
+!Soft Attack
+!Hard Attack
+!Piercing
+!Armor
+!Breakthough
+!Defense
+!Suppression
+|-
+|Light Tank
+| Light Tank
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+|Medium Tank
+| Medium Tank
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+|Heavy Tank
+| Heavy Tank
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+|Modern Tank
+| Modern Tank
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+| rowspan="4" |Amphibious Tank
+| Amphibious Tank
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+| Light Amphibious Tank
+| -0.02
+|
+|
+|
+|
+| –15%
+|
+| –250%
+|-
+| Medium Amphibious Tank
+| -0.05
+|
+|
+|
+|
+| –15%
+|
+| –250%
+|-
+| Heavy Amphibious Tank
+| -0.12
+|
+|
+|
+|
+| –15%
+|
+| –250%
+|-
+| rowspan="5" |Tank Destroyer
+| Light Tank Destroyer
+| -0.02
+|
+| +30%
+| +30%
+|
+| –57%
+|
+| –150%
+|-
+| Medium Tank Destroyer
+| -0.03
+|
+| +30%
+| +30%
+|
+| –40%
+|
+| –125%
+|-
+| Heavy Tank Destroyer
+| -0.02
+|
+| +30%
+| +30%
+|
+| –40%
+|
+| –125%
+|-
+| Super Heavy Tank Destroyer
+|
+|
+| +30%
+| +30%
+|
+| –25%
+|
+| –125%
+|-
+| Modern Tank Destroyer
+|
+|
+| +30%
+| +30%
+|
+| –40%
+|
+| –125%
+|-
+| rowspan="5" |Artilery
+| Light SP Artillery
+|+0.2
+| +35%
+|
+|
+|
+| –57%
+|
+| –125%
+|-
+| Medium SP Artillery
+|+0.21
+| +35%
+|
+|
+|
+| –40%
+|
+| –100%
+|-
+| Heavy SP Artillery
+|+0.28
+| +35%
+|
+|
+|
+| –40%
+|
+| –100%
+|-
+| Super Heavy SP Artillery
+|+0.4
+| +35%
+|
+|
+|
+| –25%
+|
+| –125%
+|-
+| Modern SP Artillery
+|+0.25
+| +35%
+|
+|
+|
+| –40%
+|
+| –100%
+|-
+| rowspan="5" |Anti-Air
+| Light SP Anti-Air
+| -0.12
+|
+|
+|
+|
+| –70%
+|
+| –175%
+|-
+| Medium SP Anti-Air
+| -0.15
+|
+|
+|
+|
+| –68%
+|
+| –170%
+|-
+| Heavy SP Anti-Air
+| -0.22
+|
+|
+|
+|
+| –50%
+|
+| –175%
+|-
+| Super Heavy SP Anti-Air
+| -0.3
+|
+|
+|
+|
+| –35%
+|
+| –175%
+|-
+| Modern SP Anti-Air
+| -0.15
+|
+|
+|
+|
+| –68%
+|
+| –50%
+|-
+| rowspan="3" |Flame
+| Light Flame Tank
+| -0.2
+| –75%
+| –75%
+|
+| –75%
+| –90%
+| –75%
+| –250%
+|-
+| Medium Flame Tank
+| -0.22
+| –70%
+| –70%
+|
+| –70%
+| –85%
+| –70%
+| –250%
+|-
+| Heavy Flame Tank
+| -0.29
+| –62.5%
+| –62.5%
+|
+| –62.5%
+| –77.5%
+| –62.5%
+| –250%
+|}
+
+# References
+
+- For module data, see reference file common/units/equipment/modules/00_tank_modules.txt.
+- For chassis data, see reference file common/units/equipment/tank_chassis.txt.
+- For tank upgrade data, see reference file common/units/equipment/upgrades/land_upgrades.txt.
+- For flavor text, see reference files:
+ - tank_modules_l_english.yml.
+ - modifiers_l_english.yml.

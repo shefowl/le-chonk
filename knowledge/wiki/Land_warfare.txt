@@ -1,0 +1,73 @@
+TITLE: Land warfare
+URL: https://hoi4.paradoxwikis.com/Land_warfare
+REVISION: 2025-05-17T13:32:25Z (rev 84735)
+VERIFIED FOR: 1.9
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+# Theater [verified for 1.9]
+
+A theater is a player-defined high-level group of command groups. Alerts such as being in low supply, and a summary of combat progress, are provided for an entire theater, and reinforcement priority can be set for an entire theater.
+
+Air and sea region names will also appear below the command theaters to provide alerts such as impending invasions, ongoing sea battles, and enemy air superiority.
+
+For example, as Germany, assigning units to Eastern and Western theaters will enable easy evaluation of armies on both fronts. Some players may also wish to use a training theater to exercise Trained units after deployment until they reach the maximum training level with Regular experience and are ready to be reassigned to a combat theater, or a garrison theater for defense of ports and victory points.
+
+To create a new theater, if none exist, simply create a new command group (see below). Otherwise, first select a command group. A "New Theater" button will appear. Clicking this creates a new theater and moves the selected group to it. A selected group can be moved to a different theater by right-clicking on the theater.
+
+Theaters may be named as desired by clicking on the gear icon to the left of the name (clicking on the existing name is not sufficient). Players may add as many theaters as they like.
+
+You can analyze the performance of each theater through the Combat Log, which is opened by clicking on the document icon to the right of the theater name. This displays the results of recent battles. You can filter the data by time (using the slider on the top left) or command group (by toggling the icons with haloes on the top right). The Combat Log also displays equipment losses and analyses performance by template.
+
+Caution: The theater interface shows only divisions that are assigned to a command group. Unassigned divisions are shown in the armies list.
+
+# Command group
+(Main article: Command group)
+A command group is a collection of divisions that can be led by a single commander. Each command group is part of a theater and can be moved to a different theater at will.
+
+Command groups allow divisions to be given orders through the battle plans interface, such as assigning to a front and giving a plan of attack, specifying an area to garrison, or giving a fallback line. The commander of each group in the currently selected theater (or a vague silhouette if it has no commander) appears at the bottom of the screen. If it has one or more attack plans assigned, this portrait will have a button to activate the plans, a button to halt the execution of the plan, and a bar below it showing the AI's assessment of relative strength.
+
+# Border conflicts
+
+(Main article: Border war)
+This is enabled by certain events or decisions. In areas where borders are disputed by neighboring rivals, a decision may become available (Requires Waking the Tiger), or an event may fire triggering a border conflict.
+
+A victorious invader gains the disputed state and some PP (e.g., +100 PP in China). In a stalemate, the border remains unchanged, both sides get some Army Experience, and the defender is rewarded with substantial PP for holding on. A defender that defeats the invader gains additional PP, Army Experience, and Land Doctrine research bonus as a reward. A failed invader must wait for a time before trying again. This version of the conflict is used by warlords in the Waking the Tiger DLC.
+
+There are Decisions for the attacker and defender to choose to escalate the scope of fighting one step further to allow adding troops and taking things a step closer to full war. Lend-lease is only available for countries in full war, so is not available based on just a border war. The vanilla game is configured to limit opposing countries to one border conflict at a time between them.
+
+# Strategic redeployment [verified for 1.12]
+
+Divisions can be moved by Strategic Redeployment . The divisions on strategic redeployment will automatically make use of roads/bridges (infrastructure) and railroads to increase their movement speed at a cost to organization. The divisions will move at a base infrastructure speed of 5 km/h with a potential bonus up to +10 km/h depending on the state's infrastructure and will travel at a base railroad speed of 15 km/h with a potential bonus up to +25 km/h depending on the railroad level. Division organization will drop 90% while using strategic redeployment. Divisions using strategic redeployment suffer no attrition, use zero fuel, and are not subject to terrain/weather movement penalties.
+
+# Naval transport [verified for 1.9]
+
+Troops can be transported across the water and between two friendly ports. When a division is standing at a port, simply right-click another port to have them attempt to transport themselves there. Transporting troops requires convoys equal to the division's weight rounded up, and if the country or its allies do not have naval supremacy over the sea region, they may be intercepted resulting in casualties. If a division is not standing in a port, right-clicking on the port province, then shift-clicking on the destination port symbol will allow it to be transported in a single order.
+
+Alternatively, a battle planner command (frontline, fallback line, naval invasion or garrison) will automatically move a unit across an ocean tile if there is no accessible land path to the target and enough convoys are available to transport the unit.
+
+## Naval invasion
+(Main article: Naval invasion)
+Naval invasions are launched via the naval invasion order in the battle planner.
+
+There is a limit to the number of divisions that a single country may assign to naval invasions at one time. With the basic Transport Ship technology, only 10 divisions can plan an invasion at once; with Landing Craft this increases to 50. Multiple invasion plans can be set up from a single command group; each plan must start from a friendly port and the total number of divisions must not exceed the level of transport technology.
+
+An army can also move into friendly territory using an invasion, but it is more efficient to simply use port-to-port movement as described above.
+
+# Statistics
+For land unit base stats reference base stats.
+
+For land unit combat stats reference combat stats.
+
+# Battle
+(Main article: Land battle)
+When divisions of opposing countries meet, a battle takes place.
+
+# References
+
+hoi4de:Land warfare
+hoi4es:Land warfare
+hoi4fr:Land warfare
+hoi4pl:Land warfare
+hoi4pt:Land warfare
+hoi4ru:Land warfare

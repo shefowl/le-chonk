@@ -1,0 +1,621 @@
+TITLE: Recruitable population
+URL: https://hoi4.paradoxwikis.com/Recruitable_population
+REVISION: 2024-08-19T21:06:39Z (rev 72013)
+VERIFIED FOR: 1.9
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+This page is about the ratio, for the absolute number in a state, see State#Population, for free manpower of a country, see manpower#Free_manpower.
+Recruitable population is a ratio that divides the population of states into available recruits and civilians.
+The ratio depends on laws and ideas of a country, the political situation of the respective states the country
+controls, and the mobilization speed. Changing conscription laws is the main way to control the ratio.
+Ignoring mobilization, the overall formula for a particular state is:
+-
+
+# Recruitable population [verified for 1.10]
+
+The Recruitable population modifier is mainly determined by conscription law.
+Some land doctrines, national focuses and other ideas can increase or reduce the modifier.
+Values stack additively.
+
+Conscription Law: Disarmed Nation
+Recruitablepopulation: 1.00%
+
+Conscription Law: Volunteer Only
+Recruitablepopulation: 1.50%
+Prerequisites: * Does not have the Economy law Undisturbed Isolation or Isolation
+
+Conscription Law: Limited Conscription
+Recruitablepopulation: 2.50%
+Prerequisites:
+- Does not have the Economy law Undisturbed Isolation or Isolation
+- More than 10% War Support
+
+Conscription Law: Extensive Conscription
+Recruitablepopulation: 5.00%
+Prerequisites:
+- One of the following must be true:
+ - Current ruling party is Fascist or Communist
+ - All of the following must be true:
+ - At war
+ - Any enemy country has an estimated army strength ratio of 50% or more compared to this country
+- More than 20% War Support
+
+Conscription Law: Service by Requirement
+Recruitablepopulation: 10.00%
+Prerequisites:
+- One of the following must be true:
+ - Current ruling party is Fascist or Communist.
+ - All of the following must be true:
+ - At war
+ - Estimated enemies strength ratio of 60% or more compared to this country
+- One of the following must be true:
+ - More than 60% War Support
+ - More than 0% surrender progress
+
+Conscription Law: All Adults Serve
+Recruitablepopulation: 20.00%
+Prerequisites:
+- At war
+- One of the following must be true:
+ - More than 70% War Support
+ - More than 0% surrender progress
+- Estimated enemies strength ratio of 75% or more compared to this country
+
+Conscription Law: Scraping the Barrel
+Recruitablepopulation: 25.00%
+Prerequisites:
+- At war
+- One of the following must be true:
+ - More than 85% War Support
+ - More than 25% surrender progress
+- Estimated enemies strength ratio of 100% or more compared to this country
+
+Conscription Law: The Chitet
+Recruitablepopulation: 4.50%
+
+Conscription Law: The Chitet (peace time)
+Recruitablepopulation: 0.50%
+
+Conscription Law: Swiss Citizen Militias
+Recruitablepopulation: 10.00%
+
+Conscription Law: Expanded Swiss Citizen Militias
+Recruitablepopulation: 20.00%
+
+Economy law: Total Mobilization
+Recruitablepopulation: -3.00%
+Prerequisites:
+- At war
+- More than 80% War Support
+- Has more than 50% of enemy country total number of factories.
+
+Land Doctrine: Volkssturm
+Recruitablepopulation: 2.00%
+Branch: Mobile Warfare Doctrine
+
+Land Doctrine: Non-Discriminatory Conscription
+Recruitablepopulation: 3.00%
+Branch: Mobile Warfare Doctrine
+
+Land Doctrine: Human Wave Offensive
+Recruitablepopulation: 5.00%
+Branch: Mass Assault Doctrine
+
+National Spirit: Militarism
+Recruitablepopulation: 5.00%
+National Focus requirement: Generic National Spirit from National Focus: Militarism
+
+National Spirit: Military Youth
+Recruitablepopulation: 2.00%
+National Focus requirement: Generic National Spirit from National Focus: Military Youth
+
+National Spirit: Victors of the Great War
+Recruitablepopulation: -0.30%
+National Focus requirement: French starting National Spirit
+
+National Spirit: National Mobilization
+Recruitablepopulation: 1.00%
+National Focus requirement:
+no La Résistance French National Spirit from National Focus: National Mobilization
+
+National Spirit: Spiritual Mobilization
+Recruitablepopulation: 2.50%
+National Focus requirement: Japanese National Spirit from National Focus: Spiritual Mobilization
+
+National Spirit: Militarized Schools
+Recruitablepopulation: 0.50%
+National Focus requirement: Soviet National Spirit from National Focus: Militarized Schools
+
+National Spirit: Socialist Science
+Recruitablepopulation: 3.00%
+National Focus requirement: Soviet National Spirit from National Focus: Socialist Science
+
+National Spirit: Women's Armed Service Integration Act
+Recruitablepopulation: 2.00%
+National Focus requirement:
+American National Spirit from National Focus: Women's Armed Service Integration Act
+
+National Spirit: Polish Militarism
+Recruitablepopulation: 2.50%
+National Focus requirement: Polish National Spirit from National Focus: Polish Militarism
+
+National Spirit: Military Youth
+Recruitablepopulation: 2.00%
+National Focus requirement: Polish National Spirit from National Focus: Military Youth
+
+National Spirit: Send in the Zombies
+Recruitablepopulation: 1.00%
+National Focus requirement: Canadian National Spirit from National Focus: Send in the Zombies
+
+National Spirit: Swastika Clubs
+Recruitablepopulation: 2.00%
+National Focus requirement:
+Canadian National Spirit Swastika Clubs modified by National Focus: Support the Blue Shirts
+
+National Spirit: Social Security Act
+Recruitablepopulation: 2.00%
+National Focus requirement: New Zealand National Spirit from National Focus: Social Security Act
+
+National Spirit: Maori Conscription
+Recruitablepopulation: 1.00%
+National Focus requirement: New Zealand National Spirit from National Focus: Maori Conscription
+
+National Spirit: Waitangi Tribunal
+Recruitablepopulation: 2.00%
+National Focus requirement: New Zealand National Spirit from National Focus: Waitangi Tribunal
+
+National Spirit: Voortrekker Monument
+Recruitablepopulation: 0.50%
+National Focus requirement:
+South African National Spirit Voortrekker Monument modified by National Focus: Commemorate the Battle of Blood River
+
+National Spirit: Black Volunteers
+Recruitablepopulation: 1.00%
+National Focus requirement:
+South African National Spirit from National Focus: Repeal the Native Representation Act
+
+National Spirit: Divided Nation
+Recruitablepopulation: -0.50%
+National Focus requirement: Czechslovak starting National Spirit
+
+National Spirit: Fortification focus
+Recruitablepopulation: 0.30%
+National Focus requirement: Czechslovak National Spirit from National Focus: Fortification Studies
+
+National Spirit: Fortification focus
+Recruitablepopulation: 0.60%
+National Focus requirement:
+Czechslovak National Spirit Fortification focus modified by National Focus: Sudetenland Early Fortifications
+
+National Spirit: Fortification focus
+Recruitablepopulation: 0.90%
+National Focus requirement:
+Czechslovak National Spirit Fortification focus modified by National Focus: Sudetenland Advanced Fortifications
+
+National Spirit: Fortification focus
+Recruitablepopulation: 1.20%
+National Focus requirement:
+Czechslovak National Spirit Fortification focus modified by National Focus: Sudetenland Final Fortifications
+
+National Spirit: Communism with a Human Face
+Recruitablepopulation: 3.00%
+National Focus requirement: Czechslovak National Spirit from National Focus: Communism with a Human Face
+
+National Spirit: Czech Fascism
+Recruitablepopulation: -0.50%
+National Focus requirement:
+Czechslovak National Spirit Divided Nation modified by National Focus: Czech Consolidation
+
+National Spirit: Treaty of Trianon
+Recruitablepopulation: -0.50%
+National Focus requirement: Hungarian starting National Spirit
+
+National Spirit: The Hungarian Red Army
+Recruitablepopulation: 5.00%
+National Focus requirement: Hungarian National Spirit from National Focus: The Hungarian Red Army
+
+National Spirit: Secret Rearmament
+Recruitablepopulation: 0.25%
+National Focus requirement: Hungarian National Spirit from National Focus: Secret Rearmament
+
+National Spirit: A Deal with the Devil
+Recruitablepopulation: 1.00%
+National Focus requirement: Romanian National Spirit from National Focus: Form Peasant Militias
+
+National Spirit: The Sentinel of the Motherland
+Recruitablepopulation: 1.00%
+National Focus requirement: Romanian National Spirit from National Focus: Revise the Constitution
+
+National Spirit: The Sentinel of the Motherland
+Recruitablepopulation: 2.00%
+National Focus requirement:
+Romanian National Spirit The Sentinel of the Motherland modified by National Focus: Militarize the Sentinels
+
+National Spirit: All-Yugoslavian Regiments
+Recruitablepopulation: 1.00%
+National Focus requirement: Yugoslavian National Spirit from National Focus: All-Yugoslavian Regiments
+
+National Spirit: Local Militias
+Recruitablepopulation: 2.00%
+National Focus requirement: Yugoslavian National Spirit from National Focus: Local Militias
+
+National Spirit: National Revitalization
+Recruitablepopulation: 0.50%
+National Focus requirement:
+German National Spirit National Revitalization modified by National Focus: Fan Prussian Militarism
+
+National Spirit: Red Brigades
+Recruitablepopulation: 2.00%
+National Focus requirement: Japanese National Spirit from National Focus: Red Brigades
+
+National Spirit: Forced Conscription
+Recruitablepopulation: 2.00%
+National Focus requirement: Chinese National Spirit from National Focus: Forced Conscription
+
+National Spirit: Five People Armies
+Recruitablepopulation: 2.00%
+National Focus requirement: Manchu National Spirit from National Focus: Five People Armies
+
+National Spirit: Labor Reform
+Recruitablepopulation: 0.50%
+National Focus requirement: Chinese Warlord National Spirit from National Focus: Labor Reform
+
+National Spirit: Rural Militias
+Recruitablepopulation: 1.00%
+National Focus requirement: Chinese Warlord National Spirit from National Focus: Rural Militias
+
+National Spirit: Armed Forces Desegregation
+Recruitablepopulation: 2.00%
+National Focus requirement:
+Man the Guns American National Spirit from National Focus: Desegregate the Armed Forces
+
+National Spirit: Ejido Worker Militias
+Recruitablepopulation: 2.00%
+National Focus requirement:
+Man the Guns Mexican National Spirit from National Focus: Ejido Worker Militias
+
+National Spirit: Caudillo Private Armies
+Recruitablepopulation: 1.00%
+National Focus requirement:
+Man the Guns Mexican National Spirit from National Focus: Caudillo Private Armies
+
+National Spirit: Synarchist Youth
+Recruitablepopulation: 1.00%
+National Focus requirement: Man the Guns Mexican National Spirit from National Focus: Synarchist Youth
+
+National Spirit: De Jeugdstorm
+Recruitablepopulation: 1.00%
+National Focus requirement: Man the Guns Dutch National Spirit from National Focus: De Jeugdstorm
+
+National Spirit: Implement the "Program"
+Recruitablepopulation: 1.00%
+National Focus requirement:
+Man the Guns Dutch National Spirit from National Focus: Implement the "Program"
+
+National Spirit: Mobilize the Masses
+Recruitablepopulation: 3.00%
+National Focus requirement: Man the Guns Dutch National Spirit from National Focus: Mobilize the Masses
+
+National Spirit: Enemies on All Fronts
+Recruitablepopulation: 5.00%
+National Focus requirement: Man the Guns Dutch National Spirit from National Focus: Enemies on All Fronts
+
+National Spirit: Depillarization
+Recruitablepopulation: 1.00%
+National Focus requirement: Man the Guns Dutch National Spirit from National Focus: Depillarization
+
+National Spirit: De Vaarplicht
+Recruitablepopulation: 2.50%
+National Focus requirement: Man the Guns Dutch National Spirit from National Focus: De Vaarplicht
+
+National Spirit: Responsibility For Our Own Defense
+Recruitablepopulation: 1.00%
+National Focus requirement:
+Man the Guns Dutch National Spirit from National Focus: Responsibility For Our Own Defense
+
+National Spirit: Le Déluge
+Recruitablepopulation: 3.00%
+National Focus requirement: La Résistance French National Spirit from National Focus: Le Déluge
+
+National Spirit: Carlism
+Recruitablepopulation: 1.00%
+National Focus requirement:
+La Résistance Nationalist Spanish National Spirit Carlism modified by National Focus: Integrate the Requetés
+
+National Spirit: Expand Conscription
+Recruitablepopulation: 2.00%
+National Focus requirement:
+La Résistance Nationalist Spanish National Spirit from National Focus: Expand Conscription
+
+National Spirit: Mandatory Pre-Military Training
+Recruitablepopulation: 2.00%
+National Focus requirement:
+La Résistance Nationalist Spanish National Spirit Mandatory Pre-Military Training modified by National Focus: All Shall Serve
+
+National Spirit: Crusade Against Democracy
+Recruitablepopulation: 3.00%
+National Focus requirement:
+La Résistance Nationalist Spanish National Spirit Crusade Against Democracy modified by National Focus: Expand the Requetés
+
+National Spirit: Crusade Against Democracy
+Recruitablepopulation: 5.00%
+National Focus requirement:
+La Résistance Nationalist Spanish National Spirit Crusade Against Democracy modified by National Focus: Militarize the Masses
+
+National Spirit: Anarchist Society
+Recruitablepopulation: 3.00%
+National Focus requirement:
+La Résistance Republican Spanish National Spirit Anarchist Society modified by National Focus: Mujeres Libres
+
+National Spirit: Anarchist Society
+Recruitablepopulation: 8.00%
+National Focus requirement:
+La Résistance Republican Spanish National Spirit Anarchist Society modified by National Focus: All Must Bear the Torch
+
+National Spirit: The Threats Abound
+Recruitablepopulation: 2.00%
+National Focus requirement:
+La Résistance Republican Spanish National Spirit modified by National Focus: Militarize the People
+
+National Spirit: Class War
+Recruitablepopulation: 2.00%
+National Focus requirement:
+La Résistance Republican Spanish National Spirit from National Focus: Class War
+
+National Spirit: Class War
+Recruitablepopulation: 5.00%
+National Focus requirement:
+La Résistance Republican Spanish National Spirit Class War modified by National Focus: The Red Tide
+
+National Spirit: An Army of All Classes
+Recruitablepopulation: 3.00%
+National Focus requirement:
+La Résistance Republican Spanish National Spirit from National Focus: An Army of All Classes
+
+National Spirit: Professional Military
+Recruitablepopulation: 1.00%
+National Focus requirement:
+La Résistance Republican Spanish National Spirit from National Focus: Re-professionalize the Military
+
+National Spirit: Government Reforms
+Recruitablepopulation: 2.00%
+National Focus requirement: Battle for the Bosporus Bulgarian National Spirit
+
+National Spirit: Military Dictatorship
+Recruitablepopulation: 1.00%
+National Focus requirement: Battle for the Bosporus Bulgarian National Spirit
+
+National Spirit: The Hellenic Army
+Recruitablepopulation: 0.20%
+National Focus requirement: Battle for the Bosporus Greek National Spirit
+
+National Spirit: The Byzantine Army
+Recruitablepopulation: 0.40%
+National Focus requirement: Battle for the Bosporus Greek National Spirit
+
+National Spirit: Red Militias / Red Army
+Recruitablepopulation: 2.00%
+National Focus requirement: Battle for the Bosporus Greek National Spirit
+
+National Spirit: Red Enforcers
+Recruitablepopulation: 3.00%
+National Focus requirement: Battle for the Bosporus Greek National Spirit
+
+National Spirit: The Redshirts
+Recruitablepopulation: 2.00%
+National Focus requirement: Battle for the Bosporus Turkish National Spirit
+
+National Spirit: Turkish Workers' Militia
+Recruitablepopulation: 1.00%
+National Focus requirement: Battle for the Bosporus Turkish National Spirit
+
+# Recruitable population factor [verified for 1.9]
+
+Recruitable Population Factor refers to additional, nation-specific modifiers that are multiplicative with the recruitable percentage. These are usually penalties. For example, the USA gets -50% from its "Great Depression" national spirit until removed, so if it has Volunteer Only conscription law it will have an effective recruitable percentage of 0.75% (1.5% [from the law] * 50%).
+
+National Spirit: Full Employment
+Recruitablepopulation factor: -25%
+Requirement: French starting National Spirit
+
+National Spirit: Worker Shortage
+Recruitablepopulation factor: -25%
+Requirement:
+French National Spirit obtained after changing conscription law to Extensive Conscription and beyond
+
+National Spirit: Defeatism
+Recruitablepopulation factor: -50%
+Requirement: French National Spirit obtained upon capitulation
+
+National Spirit: Agricultural Collectivization
+Recruitablepopulation factor: 15%
+Requirement: French National Spirit from National Focus: Agricultural Collectivization
+
+National Spirit: Le Déluge
+Recruitablepopulation factor: 25%
+Requirement: French National Spirit from National Focus: Le Déluge
+
+National Spirit: The War to End All Wars
+Recruitablepopulation factor: -30%
+Requirement: British starting National Spirit
+
+National Spirit: The Great Depression
+Recruitablepopulation factor: -50%
+Requirement: American starting National Spirit
+
+National Spirit: Slow Recovery
+Recruitablepopulation factor: -40%
+Requirement: American National Spirit The Great Depression modified by various focuses
+
+National Spirit: Slow Economic Growth
+Recruitablepopulation factor: -20%
+Requirement: American National Spirit Slow Recovery modified by various focuses
+
+National Spirit: Full Desegregation
+Recruitablepopulation factor: 20%
+Requirement: American National Spirit from National Focus: Full Desegregation
+
+National Spirit: Spirit of Rebellion
+Recruitablepopulation factor: 25%
+Requirement: American National Spirit obtained if the Confederacy forms
+
+National Spirit: Australian Women's Army Service
+Recruitablepopulation factor: 10%
+Requirement: Australian National Spirit from National Focus: Australian Women's Army Service
+
+National Spirit: Agrarian Society
+Recruitablepopulation factor: -69%
+Requirement: British Raj starting National Spirit
+
+National Spirit: Marginalized Muslim Community
+Recruitablepopulation factor: -20%
+Requirement: British Raj starting National Spirit
+
+National Spirit: Marginalized Muslim Community
+Recruitablepopulation factor: -10%
+Requirement:
+British Raj National Spirit Marginalized Muslim Community modified by National Focus: Two-Nation Theory
+
+National Spirit: Famine
+Recruitablepopulation factor: -10%
+Requirement: British Raj National Spirit obtained if famine strikes
+
+National Spirit: Princely States
+Recruitablepopulation factor: 5%
+Requirement:
+British Raj National Spirit Princely States modified by National Focus: Imperial Service Troops
+
+National Spirit: Indian Gurkhas
+Recruitablepopulation factor: 2%
+Requirement: British Raj National Spirit from National Focus: Indian Gurkhas
+
+National Spirit: Lions of the Great War
+Recruitablepopulation factor: 2%
+Requirement: British Raj National Spirit from National Focus: Lions of the Great War
+
+National Spirit: Conscription Crisis among French Canadians
+Recruitablepopulation factor: -30%
+Requirement: Canadian starting National Spirit
+
+National Spirit: Conscription Crisis Mended
+Recruitablepopulation factor: -10%
+Requirement:
+Canadian National Spirit Conscription Crisis among French Canadians modified by National Focus: Compromise with Quebec
+
+National Spirit: National Resources Mobilization Act
+Recruitablepopulation factor: 5%
+Requirement:
+Canadian National Spirit from National Focus: National Resources Mobilization Act
+
+National Spirit: Commit to the War
+Recruitablepopulation factor: 5%
+Requirement: Canadian National Spirit from National Focus: Commit to the War
+
+National Spirit: Send in the Zombies
+Recruitablepopulation factor: 15%
+Requirement: Canadian National Spirit from National Focus: Send in the Zombies
+
+National Spirit: The Manpower Act
+Recruitablepopulation factor: 7%
+Requirement: New Zealand National Spirit from National Focus: The Manpower Act
+
+National Spirit: Stomp out Pacifism
+Recruitablepopulation factor: 5%
+Requirement: New Zealand National Spirit from National Focus: Arrest Pacifist Leaders
+
+National Spirit: History of Segregation
+Recruitablepopulation factor: -55%
+Requirement: South African starting National Spirit
+
+National Spirit: History of Segregation
+Recruitablepopulation factor: -40%
+Requirement:
+South African National Spirit History of Segregation modified by National Focus: Reconstitute the Cape Corps
+
+National Spirit: Cheap Labor
+Recruitablepopulation factor: -5%
+Requirement: South African National Spirit from National Focus: Native Laws Amendment Act
+
+National Spirit: Reserve Divisions
+Recruitablepopulation factor: 7%
+Requirement: Romanian National Spirit from National Focus: Reserve Divisions
+
+National Spirit: Ineffective Bureaucracy
+Recruitablepopulation factor: -35%
+Requirement: Chinese starting National Spirit
+
+National Spirit: Shell-shocked Spectator of the Great War
+Recruitablepopulation factor: -50%
+Requirement: Man the Guns Dutch starting National Spirit
+
+National Spirit: Unreliable Army
+Recruitablepopulation factor: -25%
+Requirement: La Résistance Portuguese starting National Spirit
+
+National Spirit: Colonial Assimilation Policy
+Recruitablepopulation factor: 15%
+Requirement:
+La Résistance Portuguese National Spirit Colonial Assimilation Policy modified by overseas colonies integration decisions
+
+National Spirit: Colonial Assimilation Policy
+Recruitablepopulation factor: 30%
+Requirement:
+La Résistance Portuguese National Spirit Colonial Assimilation Policy modified by overseas colonies integration decisions
+
+National Spirit: Nation in Arms
+Recruitablepopulation factor: 10%
+Requirement: La Résistance Portuguese National Spirit from National Focus: Nation in Arms
+
+National Spirit: Portuguese Legion
+Recruitablepopulation factor: 5%
+Requirement:
+La Résistance Portuguese National Spirit from National Focus: Portuguese Legion
+
+National Spirit: Camisas Azuis
+Recruitablepopulation factor: 5%
+Requirement: La Résistance Portuguese National Spirit from National Focus: Camisas Azuis
+
+National Spirit: Crusade Against Democracy
+Recruitablepopulation factor: 20%
+Requirement:
+La Résistance Nationalist Spanish National Spirit Crusade Against Democracy modified by National Focus: Cultivate Fanaticism
+
+# Non-core states
+Core
+
+Non-core states have a base penalty of -98%.
+This means that the manpower of countries comes almost entirely from their core states.
+The Prince of Terror advisor gives a +2% offset to recruitable non-core manpower, reducing the penalty to -96%.
+
+Creating puppet states is a possibility to avoid this penalty, as the puppet will have full access to the manpower of its own cores.
+
+# Occupation [verified for 1.9]
+
+If a non-core state is occupied, a further penalty of -98% applies, which is mitigated by compliance:
+
+The average compliance level between states of an occupied nation yields flat bonuses to manpower
+
+{|class = "wikitable"
+! Name
+! Compliance level needed
+! Effect
+|-
+| Local Police Force
+| 25%
+| Additional Recruitable Population: +0.5%
+|-
+| Volunteer Program
+| 60%
+| Recruitable Population: +20%
+|-
+|}
+This results in a maximum manpower pool of
+
+# Mobilization [verified for 1.9]
+
+Changes in the recruitable population modifier and recruitable population factor do not apply instantaneously.
+Instead the value drifts towards the new target according to the mobilization speed.
+The base mobilization speed is 0.01% per day.
+For example, at 50% war support it takes 250 days to fully shift from limited to extensive conscription.
+War support and some national spirits can modify the base value.
+The recruitable population ratio only changes in steps of 0.1%/day, so it takes between a week and a month before any new manpower becomes available, depending on mobilization speed.

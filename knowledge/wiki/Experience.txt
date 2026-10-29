@@ -1,0 +1,1035 @@
+TITLE: Experience
+URL: https://hoi4.paradoxwikis.com/Experience
+REVISION: 2025-04-22T13:18:18Z (rev 83611)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Experience, often abbreviated to XP, is gained at the national, commander, and unit level, and is mainly earned through combat. At a national level, it is used to modify land divisions, ships, and planes. At a commander level, it allows commanders to increase their skills and earn traits to enhance their performance. At a unit level, it can provide bonuses when it is high and penalties when it is low, and it can be lost when units experience losses.
+
+# National experience [verified for 1.16]
+
+There are three types of national experience: army exp , navy exp , and air exp . Each can be used to modify equipments, designs, and/or templates associated with their field, and can be used to unlock doctrines and officer corps spirits associated with land, sea, and air combat. At a national level, the maximum amount of experience that can be stored is capped at 500 army exp , 500 navy exp , and 500 air exp .
+
+National experience is gained during combat and training, including from attachés, volunteer forces, and lend-leased equipment. Military chief advisors, as well as some political advisors, give a fixed amount of experience per day. Some national focuses and ideas can also give national experience.
+
+## Army experience
+
+ army exp is used to modify division templates, to unlock land doctrines, and to create variants of land equipment . It can sometimes be used as a resource in certain decisions. With No Step Back , it is used by the tank designer to create different armored vehicle designs and can be used to unlock Army spirits at the officer corps. With Arms Against Tyranny , it can be used to unlock Mountaineer special forces doctrines.
+
+## Navy experience
+ navy exp is used to unlock naval doctrines and can be spent to obtain single-use research bonuses for some naval technologies and naval support technologies. It can sometimes be used as a resource in certain decisions. With Man the Guns , it is used for the ship designer, otherwise it is used to create ship variants. With No Step Back , it can be used to unlock Navy spirits at the officer corps. With Arms Against Tyranny , it can be used to unlock Marine special forces doctrines.
+
+## Air experience
+ air exp is used to unlock air doctrines. It can sometimes be used as a resource in certain decisions. With By Blood Alone , it is used for the aircraft designer, otherwise it is used to create aircraft variants. With No Step Back , it also can be used to unlock Air force spirits at the officer corps. With Arms Against Tyranny , it can be used to unlock Paratrooper special forces doctrines.
+
+# Commander experience [verified for 1.16]
+
+(Main article: Commander#Experience)
+
+Commanders gain experience as the forces under their command engage in combat, with generals and field marshals giving bonuses to land units and admirals giving bonuses to naval units. There are no air commanders, however, air combat may generate aces, who can boost the air wing to which they are assigned so long as they remain alive.
+
+# Unit experience [verified for 1.16]
+
+Individual land divisions, air wings, and naval units also gain experience. This gives them a modifier to combat:
+
+Green
+0%
+0%
+−25%
+Damage: -10%
+Defense: -10%
+Fighters sortie efficiency: -10%
+Air Attack: -15%
+ Agility: -15%
+Night Operations Penalty: +15%
+Air Accidents Chance: +10%
+
+Fresh
+
+Rookies
+
+Trained
+UNIT_EXP_LEVELS
+%
+0%
+0%
+0%
+
+Regular
+UNIT_EXP_LEVELS
+%
++25%
+Damage: +9.90%
+ Defense: +6.60%
+Fighters sortie efficiency: +6.60%
+Air Attack: +4%
+ Agility: +6%
+Night Operations Penalty: -4%
+Air Accidents Chance: -20%
+
+Seasoned
+UNIT_EXP_LEVELS
+%
++50%
+Damage: +19.90%
+Defense: +13.30%
+Fighters sortie efficiency: +13.30%
+Air Attack: +14%
+Agility: +21%
+Night Operations Penalty: -14%
+Air Accidents Chance: -70%
+
+Veterans
+UNIT_EXP_LEVELS
+%
++75%
+Damage: +30%
+Defense: +20%
+Fighters sortie efficiency: +20%
+Air Attack: +20%
+Agility: +30%
+Night Operations Penalty: -20%
+Air Accidents Chance: -100%
+
+Air units scale the experience effects between levels according to experience progress, so that 99% progress on the 'trained' level gives the same bonuses as 0% progress on the 'seasoned' level.
+Note that scout planes receive significantly lower bonuses and penalties.
+
+Newly deployed land units normally begin with 'trained' experience, but can be deployed early with 'green' experience. Naval and air units always start on the 'fresh' and 'rookies' levels, respectively. Exercising units in the field allows them to advance up to regular experience level, at the cost of time and equipment (and fuel in case of fuel-consuming units). Higher levels can only be gained through combat.
+
+Replacing casualties reduces the experience of a unit. This loss can be reduced with Field Hospitals and certain national focuses. Air units lose -30% less experience over friendly territory. For navies, some terrain types increase the amount of casualties, and therefore XP loss, they suffer.
+
+Changes to the template of a land unit can produce additional experience losses beyond those incurred for any manpower reinforcements that the new template might require. Converting a division from one template to another incurs 0% experience lost if all battalions are the same between the old and new templates, but up to an additional 50% experience lost for any changed battalions.
+
+Naval units will lose 75% of their experience when they are transferred in a peace conference.
+
+# Medals [verified for 1.16]
+
+ By Blood Alone
+Medals can be assigned to land units using political power after they have achieved certain, notable performances on the battlefield. They bestow their recipient division with modifiers unique to each medal. In addition to effects unique to each medal, each medal also increases the experienced earned by divisional commanders attached to the division by +10%, as well as the political power cost of assigning future medals by +25%. The cost of assigning medals can be decreased through the Accomplished Heritage officer corps spirit.
+
+When they are assigned to a division, most medals give 100 experience to that division's divisional commander.
+
+## List of Medals
+
+Name: Medal for Gallantry
+political power Cost: 30
+Unit Modifiers: * Recovery Rate: +10%
+Prerequisites:
+- Democratic
+- Is none of:** German Reich or a successor
+ - United States or a successor
+ - Soviet Union or a successor
+ - United Kingdom or a successor
+ - France or a successor
+ - Italy or a successor
+ - Japan or a successor
+ - Ethiopia or a successor
+ - Finland or a successor
+ - Norway or a successor
+ - Chile or a successor
+ - Denmark or a successor
+ - Hungary or a successor
+
+Name: Legion of Honor
+political power Cost: 30
+Unit Modifiers: * Supply Consumption: -15%
+Prerequisites:
+- Democratic
+- Is none of:** German Reich or a successor
+ - United States or a successor
+ - Soviet Union or a successor
+ - United Kingdom or a successor
+ - France or a successor
+ - Italy or a successor
+ - Japan or a successor
+ - Ethiopia or a successor
+ - Finland or a successor
+ - Norway or a successor
+ - Chile or a successor
+ - Denmark or a successor
+ - Hungary or a successor
+
+Name: War Cross
+political power Cost: 30
+Unit Modifiers:
+- Defense: +5%
+- Reconnaissance: +10%
+Prerequisites:
+- Democratic
+- Is none of:** German Reich or a successor
+ - United States or a successor
+ - Soviet Union or a successor
+ - United Kingdom or a successor
+ - France or a successor
+ - Italy or a successor
+ - Japan or a successor
+ - Ethiopia or a successor
+ - Finland or a successor
+ - Norway or a successor
+ - Chile or a successor
+ - Denmark or a successor
+ - Hungary or a successor
+
+Name: Order of the Lion
+political power Cost: 30
+Unit Modifiers: * Experience loss from casualties: -25%
+Prerequisites:
+- Democratic
+- Is none of:** German Reich or a successor
+ - United States or a successor
+ - Soviet Union or a successor
+ - United Kingdom or a successor
+ - France or a successor
+ - Italy or a successor
+ - Japan or a successor
+ - Ethiopia or a successor
+ - Finland or a successor
+ - Norway or a successor
+ - Chile or a successor
+ - Denmark or a successor
+ - Hungary or a successor
+
+Name: Distinguished Service Medal
+political power Cost: 30
+Unit Modifiers:
+- Supply Consumption: -15%
+- Fuel Usage: -15%
+Prerequisites:
+- Communist
+- Is none of:** German Reich or a successor
+ - United States or a successor
+ - Soviet Union or a successor
+ - United Kingdom or a successor
+ - France or a successor
+ - Italy or a successor
+ - Japan or a successor
+ - Ethiopia or a successor
+ - Finland or a successor
+ - Norway or a successor
+ - Chile or a successor
+ - Denmark or a successor
+ - Hungary or a successor
+
+Name: Red Star
+political power Cost: 30
+Unit Modifiers:
+- Recovery Rate: +10%
+- Defense: +5%
+Prerequisites:
+- Communist
+- Is none of:** German Reich or a successor
+ - United States or a successor
+ - Soviet Union or a successor
+ - United Kingdom or a successor
+ - France or a successor
+ - Italy or a successor
+ - Japan or a successor
+ - Ethiopia or a successor
+ - Finland or a successor
+ - Norway or a successor
+ - Chile or a successor
+ - Denmark or a successor
+ - Hungary or a successor
+
+Name: Medal of Military Merit
+political power Cost: 30
+Unit Modifiers: * Organization: +10%
+Prerequisites:
+- Communist
+- Is none of:** German Reich or a successor
+ - United States or a successor
+ - Soviet Union or a successor
+ - United Kingdom or a successor
+ - France or a successor
+ - Italy or a successor
+ - Japan or a successor
+ - Ethiopia or a successor
+ - Finland or a successor
+ - Norway or a successor
+ - Chile or a successor
+ - Denmark or a successor
+ - Hungary or a successor
+
+Name: Hero of the Revolution
+political power Cost: 30
+Unit Modifiers: * HP: +10%
+Prerequisites:
+- Communist
+- Is none of:** German Reich or a successor
+ - United States or a successor
+ - Soviet Union or a successor
+ - United Kingdom or a successor
+ - France or a successor
+ - Italy or a successor
+ - Japan or a successor
+ - Ethiopia or a successor
+ - Finland or a successor
+ - Norway or a successor
+ - Chile or a successor
+ - Denmark or a successor
+ - Hungary or a successor
+
+Name: Medal for Bravery
+political power Cost: 30
+Unit Modifiers: * Organization: +10%
+Prerequisites:
+- Fascist
+- Is none of:** German Reich or a successor
+ - United States or a successor
+ - Soviet Union or a successor
+ - United Kingdom or a successor
+ - France or a successor
+ - Italy or a successor
+ - Japan or a successor
+ - Ethiopia or a successor
+ - Finland or a successor
+ - Norway or a successor
+ - Chile or a successor
+ - Denmark or a successor
+ - Hungary or a successor
+
+Name: Military Merit Cross
+political power Cost: 30
+Unit Modifiers: * Attack: +5%
+Prerequisites:
+- Fascist
+- Is none of:** German Reich or a successor
+ - United States or a successor
+ - Soviet Union or a successor
+ - United Kingdom or a successor
+ - France or a successor
+ - Italy or a successor
+ - Japan or a successor
+ - Ethiopia or a successor
+ - Finland or a successor
+ - Norway or a successor
+ - Chile or a successor
+ - Denmark or a successor
+ - Hungary or a successor
+
+Name: Order of the Brave
+political power Cost: 30
+Unit Modifiers:
+- Armor: +10%
+- Reconnaissance: +10%
+Prerequisites:
+- Fascist
+- Is none of:** German Reich or a successor
+ - United States or a successor
+ - Soviet Union or a successor
+ - United Kingdom or a successor
+ - France or a successor
+ - Italy or a successor
+ - Japan or a successor
+ - Ethiopia or a successor
+ - Finland or a successor
+ - Norway or a successor
+ - Chile or a successor
+ - Denmark or a successor
+ - Hungary or a successor
+
+Name: Cross of Heroism
+political power Cost: 30
+Unit Modifiers: * Breakthrough: +10%
+Prerequisites:
+- Fascist
+- Is none of:** German Reich or a successor
+ - United States or a successor
+ - Soviet Union or a successor
+ - United Kingdom or a successor
+ - France or a successor
+ - Italy or a successor
+ - Japan or a successor
+ - Ethiopia or a successor
+ - Finland or a successor
+ - Norway or a successor
+ - Chile or a successor
+ - Denmark or a successor
+ - Hungary or a successor
+
+Name: Cross of Bravery
+political power Cost: 30
+Unit Modifiers:
+- Defense: +5%
+- Max Entrenchment : +10%
+Prerequisites:
+- Non-Aligned
+- Is none of:** German Reich or a successor
+ - United States or a successor
+ - Soviet Union or a successor
+ - United Kingdom or a successor
+ - France or a successor
+ - Italy or a successor
+ - Japan or a successor
+ - Ethiopia or a successor
+ - Finland or a successor
+ - Norway or a successor
+ - Chile or a successor
+ - Denmark or a successor
+ - Hungary or a successor
+
+Name: The Military Order
+political power Cost: 30
+Unit Modifiers:
+- Supply Consumption: -15%
+- Recovery Rate: +10%
+Prerequisites:
+- Non-Aligned
+- Is none of:** German Reich or a successor
+ - United States or a successor
+ - Soviet Union or a successor
+ - United Kingdom or a successor
+ - France or a successor
+ - Italy or a successor
+ - Japan or a successor
+ - Ethiopia or a successor
+ - Finland or a successor
+ - Norway or a successor
+ - Chile or a successor
+ - Denmark or a successor
+ - Hungary or a successor
+
+Name: Order of the Sword
+political power Cost: 30
+Unit Modifiers: * Attack: +5%
+Prerequisites:
+- Non-Aligned
+- Is none of:** German Reich or a successor
+ - United States or a successor
+ - Soviet Union or a successor
+ - United Kingdom or a successor
+ - France or a successor
+ - Italy or a successor
+ - Japan or a successor
+ - Ethiopia or a successor
+ - Finland or a successor
+ - Norway or a successor
+ - Chile or a successor
+ - Denmark or a successor
+ - Hungary or a successor
+
+Name: Order of Military Virtue
+political power Cost: 30
+Unit Modifiers:
+- Experience loss from casualties: -20%
+- Recovery Rate: +5%
+Prerequisites:
+- Non-Aligned
+- Is none of:** German Reich or a successor
+ - United States or a successor
+ - Soviet Union or a successor
+ - United Kingdom or a successor
+ - France or a successor
+ - Italy or a successor
+ - Japan or a successor
+ - Ethiopia or a successor
+ - Finland or a successor
+ - Norway or a successor
+ - Chile or a successor
+ - Denmark or a successor
+ - Hungary or a successor
+
+Name: Krigskorset
+political power Cost: 30
+Unit Modifiers:
+- Recovery Rate: +10%
+- Experience loss from casualties: -7%
+Prerequisites: Norway or a successor
+
+Name: Haakon VII's Cross of Freedom
+political power Cost: 30
+Unit Modifiers:
+- Supply Consumption: -10%
+- Reconnaissance: +5%
+Prerequisites:
+- Norway or a successor
+- Democratic or Non-aligned
+
+Name: Krigsmedaljen
+political power Cost: 30
+Unit Modifiers:
+- Max Entrenchment : +10%
+- Defense: +5%
+Prerequisites: Norway or a successor
+
+Name: Haakon VII's Medal of Freedom
+political power Cost: 30
+Unit Modifiers:
+- Breakthrough: +10%
+- Attack: +5%
+Prerequisites:
+- Norway or a successor
+- Democratic or Non-aligned
+
+Name: Norwegian Peoples Cross
+political power Cost: 30
+Unit Modifiers:
+- Organization: +8%
+- Experience loss from casualties: -10%
+Prerequisites:
+- Norway or a successor
+- Communist
+
+Name: Norgeskors
+political power Cost: 30
+Unit Modifiers:
+- Organization: +10%
+- Breakthrough: +7%
+Prerequisites:
+- Norway or a successor
+- Fascist
+
+Name: Deltagermedaljen
+political power Cost: 30
+Unit Modifiers:
+- Fuel Usage: -10%
+- Supply Consumption: -5%
+Prerequisites: Norway or a successor
+
+Name: King's 70s Anniversary Medal
+political power Cost: 30
+Unit Modifiers:
+- Attack: +10%
+- Recovery Rate: +5%
+Prerequisites:
+- Norway or a successor
+- Democratic or Non-aligned
+- Date is after 3rd August 1942
+
+Name: Order of Saint Olav
+political power Cost: 30
+Unit Modifiers:
+- Equipment Capture Ratio: +10%
+- Breakthrough: +5%
+Prerequisites:
+- Norway or a successor
+- Democratic or Non-aligned
+Notes: Equipment Capture Ratio modifier is additive
+
+Name: Mannerheim Cross
+political power Cost: 30
+Unit Modifiers:
+- Organization: +10%
+- Defense: +5%
+Prerequisites:
+- Finland or a successor
+- Not Communist
+
+Name: Order of the Red Star
+political power Cost: 30
+Unit Modifiers:
+- Organization: +10%
+- Defense: +5%
+Prerequisites:
+- Finland or a successor
+- Communist
+
+Name: Cross of Liberty
+political power Cost: 30
+Unit Modifiers:
+- Recovery Rate: +10%
+- Experience loss from casualties: -20%
+Prerequisites: * Finland or a successor
+
+Name: Order of the White Rose
+political power Cost: 30
+Unit Modifiers:
+- Attack: +10%
+- Breakthrough: +5%
+Prerequisites: * Finland or a successor
+
+Name: Order of the Lion
+political power Cost: 30
+Unit Modifiers:
+- Max Entrenchment : +10%
+- Reconnaissance while Entrenched: +10%
+Prerequisites: * Finland or a successor
+
+Name: Norwegian Defense Cross of Honor
+political power Cost: 30
+Unit Modifiers: * Defense: +16%
+Prerequisites:
+- Sweden or a successor
+- Protected and returned Norway's territories
+
+Name: Order of the Dannebrog
+political power Cost: 30
+Unit Modifiers:
+- Organization: +10%
+- Defense: +5%
+Prerequisites:
+- Denmark or a successor
+- Not Communist
+
+Name: Hero of the Danish Civil Union
+political power Cost: 30
+Unit Modifiers:
+- Organization: +10%
+- Defense: +5%
+Prerequisites:
+- Denmark or a successor
+- Communist
+
+Name: Iron Cross (2nd Class)
+political power Cost: 30
+Unit Modifiers: * Organization: +10%
+Prerequisites: * German Reich or a successor
+
+Name: Knight's Cross
+political power Cost: 30
+Unit Modifiers: * Reconnaissance: +15%
+Prerequisites: * German Reich or a successor
+
+Name: Knight's Cross (Oak Leaves)
+political power Cost: 30
+Unit Modifiers:
+- Fuel Usage: -7.5%
+- Supply Consumption: -7.5%
+Prerequisites: * German Reich or a successor
+
+Name: Knight's Cross (Swords & Diamonds)
+political power Cost: 30
+Unit Modifiers: * Breakthrough: +7.5%
+Prerequisites: * German Reich or a successor
+
+Name: Bronze Star
+political power Cost: 30
+Unit Modifiers:
+- Recovery Rate: +5%
+- Organization: +5%
+Prerequisites: * United States or a successor
+
+Name: Silver Star
+political power Cost: 30
+Unit Modifiers: * Supply Consumption: -10%
+Prerequisites: * United States or a successor
+
+Name: Distinguished Service Cross
+political power Cost: 30
+Unit Modifiers: * Attack: +5%
+Prerequisites: * United States or a successor
+
+Name: Medal of Honor
+political power Cost: 30
+Unit Modifiers: * Experience loss from casualties: -20%
+Prerequisites: * United States or a successor
+
+Name: Battle Merit Medal
+political power Cost: 30
+Unit Modifiers: * Recovery Rate: +15%
+Prerequisites: * Soviet Union or a successor
+
+Name: Order of Kutuzov
+political power Cost: 30
+Unit Modifiers: * Max Entrenchment : +15%
+Prerequisites: * Soviet Union or a successor
+
+Name: Order of the Red Banner
+political power Cost: 30
+Unit Modifiers: * HP: +7.5%
+Prerequisites: * Soviet Union or a successor
+
+Name: Hero of the Soviet Union
+political power Cost: 30
+Unit Modifiers: * Organization: +10%
+Prerequisites: * Soviet Union or a successor
+
+Name: Oak Leaves (Dispatches)
+political power Cost: 30
+Unit Modifiers: * Reconnaissance while Entrenched: +25%
+Prerequisites: * United Kingdom or a successor
+
+Name: Order of the British Empire
+political power Cost: 30
+Unit Modifiers: * HP: +10%
+Prerequisites: * United Kingdom or a successor
+
+Name: Distinguished Service Order
+political power Cost: 30
+Unit Modifiers: * Defense: +7.5%
+Prerequisites: * United Kingdom or a successor
+
+Name: Victoria Cross
+political power Cost: 30
+Unit Modifiers: * Recovery Rate: +15%
+Prerequisites: * United Kingdom or a successor
+
+Name: Combatant's Cross
+political power Cost: 30
+Unit Modifiers:
+- Max Entrenchment : +10%
+- Reconnaissance while Entrenched: +10%
+Prerequisites: * France or a successor
+
+Name: War Cross
+political power Cost: 30
+Unit Modifiers: * Organization: +7.5%
+Prerequisites: * France or a successor
+
+Name: Order of Liberation
+political power Cost: 30
+Unit Modifiers: * Fuel Usage: -15%
+Prerequisites: * France or a successor
+
+Name: Distinguished Service Order
+political power Cost: 30
+Unit Modifiers:
+- Supply Consumption: -10%
+- Defense: +5%
+Prerequisites: * France or a successor
+
+Name: War Merit Cross
+political power Cost: 30
+Unit Modifiers:
+- Equipment Capture Ratio: +10%
+- Recovery Rate: +7.5%
+Prerequisites: * Italy or a successor
+Notes: Equipment Capture Ratio modifier is additive
+
+Name: Cross of Valor
+political power Cost: 30
+Unit Modifiers:
+- Breakthrough: +5%
+- HP: +5%
+Prerequisites: * Italy or a successor
+
+Name: Order of Savoy (5th Class)
+political power Cost: 30
+Unit Modifiers:
+- Supply Consumption: -10%
+- Defense: -5%
+Prerequisites: * Italy or a successor
+
+Name: Order of Savoy (1st Class)
+political power Cost: 30
+Unit Modifiers: * Attack: +5%
+Prerequisites: * Italy or a successor
+
+Name: Military Medal of Honor
+political power Cost: 30
+Unit Modifiers: * Recovery Rate: +7.5%
+Prerequisites: * Japan or a successor
+
+Name: Order of the Sacred Treasure
+political power Cost: 30
+Unit Modifiers:
+- Recovery Rate: +5%
+- HP: +5%
+Prerequisites: * Japan or a successor
+
+Name: Order of the Golden Kite
+political power Cost: 30
+Unit Modifiers:
+- Supply Consumption: -10%
+- Attack: +5%
+Prerequisites: * Japan or a successor
+
+Name: Order of the Chrysanthemum
+political power Cost: 30
+Unit Modifiers: * Breakthrough: +10%
+Prerequisites: * Japan or a successor
+
+Name: Military Medal of Merit of the Order of St. George
+political power Cost: 30
+Unit Modifiers: * Organization: +10%
+Prerequisites:
+- Ethiopia or a successor
+- Not Communist
+Notes: Extra +75 commander experience with ETH_expand_the_officer_corps
+
+Name: Order of the Grand Star of Honour of Socialist Ethiopia
+political power Cost: 30
+Unit Modifiers: * Attack: +5%
+Prerequisites:
+- Ethiopia or a successor
+- Communist
+Notes: Extra +75 commander experience with ETH_expand_the_officer_corps
+
+Name: Distinguished Military Medal of Haile Selassie the First
+political power Cost: 30
+Unit Modifiers: * Recovery Rate: +15%
+Prerequisites:
+- Ethiopia or a successor
+- Non-Aligned
+Notes: Extra +75 commander experience with ETH_expand_the_officer_corps
+
+Name: Distinguished Military Medal of Haile Selassie Gugsa
+political power Cost: 30
+Unit Modifiers: * Supply Consumption: -15%
+Prerequisites:
+- Ethiopia or a successor
+- Fascist
+- Ruler is Haile Selassie Gugsa
+Notes: Extra +75 commander experience with ETH_expand_the_officer_corps
+
+Name: Distinguished Military Medal of King Hailu Tekle Haymanot
+political power Cost: 30
+Unit Modifiers: * Breakthrough: +10%
+Prerequisites:
+- Gojjam or a successor
+- Fascist
+- Ruler is Hailu Telke Haymanot
+Notes: Extra +75 commander experience with ETH_expand_the_officer_corps
+
+Name: Distinguished Military Medal of Sultan Abba Jofir
+political power Cost: 30
+Unit Modifiers: * Reconnaissance: +10%
+Prerequisites:
+- Jimma or a successor
+- Fascist
+- Ruler is Abba Jofir
+Notes: Extra +75 commander experience with ETH_expand_the_officer_corps
+
+Name: Distinguished Military Medal
+political power Cost: 30
+Unit Modifiers: * Supply Consumption: -15%
+Prerequisites:
+- Ethiopia or a successor
+- Democratic or Communist
+Notes: Extra +75 commander experience with ETH_expand_the_officer_corps
+
+Name: Gold Medal
+political power Cost: 30
+Unit Modifiers: * Equipment Capture Ratio: +15%
+Prerequisites: * Ethiopia or a successor
+Notes:
+- Equipment Capture Ratio modifier is additive
+- Extra +75 commander experience with ETH_expand_the_officer_corps
+
+Name: Silver Medal
+political power Cost: 30
+Unit Modifiers: * Experience loss from casualties: -25%
+Prerequisites: * Ethiopia or a successor
+Notes: Extra +75 commander experience with ETH_expand_the_officer_corps
+
+Name: La Medalla Al Valor
+political power Cost: 30
+Unit Modifiers:
+- Recovery Rate: +5%
+- Experience loss from casualties: -5%
+Prerequisites: * Chile or a successor
+
+Name: Order of Bernardo O'Higgins
+political power Cost: 30
+Unit Modifiers:
+- Organization: +10%
+- HP: +5%
+Prerequisites:
+- Chile or a successor
+- Has not completed CHL_avenge_the_pacification_of_araucania
+
+Name: Grand Officer Grade of the Chilean Order of Merit
+political power Cost: 30
+Unit Modifiers:
+- Attack: +5%
+- Breakthrough: +5%
+- HP: +5%
+Prerequisites:
+- Chile or a successor
+- Has not completed CHL_avenge_the_pacification_of_araucania
+
+Name: Medalla Carabineros De Chile
+political power Cost: 30
+Unit Modifiers:
+- Reconnaissance: +15%
+- Experience loss from casualties: -10%
+Prerequisites:
+- Chile or a successor
+- Has not completed CHL_avenge_the_pacification_of_araucania
+
+Name: Legion de Mérito de Chile
+political power Cost: 30
+Unit Modifiers:
+- Organization: +10%
+- Recovery Rate: +5%
+Prerequisites:
+- Chile or a successor
+- Has not completed CHL_avenge_the_pacification_of_araucania
+
+Name: Commander's Cross of the Royal Order of the Steel Crown
+political power Cost: 30
+Unit Modifiers:
+- Breakthrough: +15%
+- Attack: +5%
+Prerequisites:
+- Chile or a successor
+- Has not completed CHL_avenge_the_pacification_of_araucania
+- Has completed CHL_crown_antoine_as_sovereign_king
+
+Name: Commander's Cross of the Noble and Royal Order of the Southern Star
+political power Cost: 30
+Unit Modifiers:
+- Organization: +10%
+- Recovery Rate: +5%
+- Supply Consumption: -5%
+Prerequisites:
+- Chile or a successor
+- Has not completed CHL_avenge_the_pacification_of_araucania
+- Has completed CHL_crown_antoine_as_sovereign_king
+
+Name: Knight's Cross of the Legion of Medalists of the Southern Constellation
+political power Cost: 30
+Unit Modifiers:
+- Max Entrenchment : +10%
+- Defense: +5%
+Prerequisites:
+- Chile or a successor
+- Has not completed CHL_avenge_the_pacification_of_araucania
+- Has completed CHL_crown_antoine_as_sovereign_king
+
+Name: Knight's Cross of Medalists of the Order of the Southern Constellation
+political power Cost: 30
+Unit Modifiers:
+- Experience loss from casualties: -20%
+- Recovery Rate: +10%
+Prerequisites:
+- Chile or a successor
+- Has not completed CHL_avenge_the_pacification_of_araucania
+- Has completed CHL_crown_antoine_as_sovereign_king
+
+Name: Orden El Sol del Perú
+political power Cost: 30
+Unit Modifiers:
+- Equipment Capture Ratio: +1%
+- Defense: +5%
+- Attack: +5%
+Prerequisites:
+- Chile or a successor
+- One of:
+ - Has completed CHL_avenge_the_pacification_of_araucania
+ - Has completed CHL_crown_antoine_as_sovereign_king
+Notes: Equipment Capture Ratio modifier is additive
+
+Name: Medalla Combatiente Weychafe Pu Mapuche
+political power Cost: 30
+Unit Modifiers:
+- Supply Consumption: -15%
+- Breakthrough: +10%
+Prerequisites:
+- Chile or a successor
+- Has completed CHL_avenge_the_pacification_of_araucania
+
+Name: Medalla Meli Witran Mapu
+political power Cost: 30
+Unit Modifiers:
+- Defense: +10%
+- Organization: +5%
+- Recovery Rate: +5%
+Prerequisites:
+- Chile or a successor
+- Has completed CHL_avenge_the_pacification_of_araucania
+
+Name: Kruckenkreuz
+political power Cost: 30
+Unit Modifiers:
+- Defense: +2.5%
+- Organization: +5%
+- Recovery Rate: +5%
+Prerequisites:
+- Austria or a successor
+- Fascist or Non-Aligned
+
+Name: Medal of Bravery
+political power Cost: 30
+Unit Modifiers:
+- Recovery Rate: +5%
+- Organization: +5%
+Prerequisites:
+- Hungary or a successor
+- Has not completed wuw_HUN_end_the_white_terror
+- Has not completed wuw_HUN_end_the_regency
+
+Name: Magyar Szent István Rend
+political power Cost: 30
+Unit Modifiers: * Defense: +5%
+Prerequisites: * Hungary or a successor
+
+Name: Order of Saint Stephen
+political power Cost: 30
+Unit Modifiers:
+- Attack: +2.5%
+- Breakthrough: +2.5%
+Prerequisites: * Hungary or a successor
+
+Name: Order of Merit of Hungary
+political power Cost: 30
+Unit Modifiers:
+- Defense: +2.5%
+- Organization: +2.5%
+Prerequisites: * Hungary or a successor
+
+Name: Military Order of Maria Theresa
+political power Cost: 30
+Unit Modifiers:
+- Experience loss from casualties: -10%
+- Recovery Rate: +2.5%
+Prerequisites:
+- Hungary or a successor
+- Has completed wuw_HUN_reinstate_the_pragmatic_sanction
+
+Name: Knight of the Golden Spur
+political power Cost: 30
+Unit Modifiers:
+- Experience loss from casualties: -10%
+- Organization: +3%
+Prerequisites:
+- Hungary or a successor
+- Not Communist
+
+Name: Transylvania Commemorative Medal
+political power Cost: 30
+Unit Modifiers:
+- Equipment Capture Ratio: +10%
+- Supply Consumption: -10%
+Prerequisites:
+- Hungary or a successor
+- Own one of:
+ - 76
+ - 83
+ - 84
+ - 82
+Notes: Equipment Capture Ratio modifier is additive
+
+Name: Miklos Toldi Silver Medal of Merit
+political power Cost: 30
+Unit Modifiers: * Breakthrough: +5%
+Prerequisites: * Hungary or a successor
+
+Name: Hungarian Grand Gold Military Merit Medal
+political power Cost: 30
+Unit Modifiers:
+- Organization: +5%
+- Attack: +1%
+- Defense: +1%
+Prerequisites: * Hungary or a successor
+
+Name: Hungarian Silver Military Merit Medal with swords
+political power Cost: 30
+Unit Modifiers:
+- Organization: +5%
+- Breakthrough: +2.5%
+Prerequisites: * Hungary or a successor
+
+Name: Medal for Extreme Bravery
+political power Cost: 30
+Unit Modifiers: * Max Entrenchment : +5
+Prerequisites:
+- Yugoslavia
+- Has completed YUG_medal_for_extreme_bravery
+
+Name: Medal of Merit
+political power Cost: 30
+Unit Modifiers:
+- Supply Consumption: -15%
+- Max Entrenchment : +5%
+Prerequisites: * Sweden
+
+# References
+
+hoi4de:Experience
+hoi4es:Experience
+hoi4fr:Experience
+hoi4pl:Experience
+hoi4pt:Experience
+hoi4ru:Experience

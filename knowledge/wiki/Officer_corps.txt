@@ -1,0 +1,859 @@
+TITLE: Officer corps
+URL: https://hoi4.paradoxwikis.com/Officer_corps
+REVISION: 2025-11-30T19:05:01Z (rev 93971)
+VERIFIED FOR: 1.11
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Manage advisors and theorists, choose your army, navy, and air spirits, and unlock doctrines.
+
+The officer corps tab gives an overall summary of the status of the armed forces and allows management of the military leadership and way of warfare. It was added in Patch 1.11 (Barbarossa).
+
+In this tab, players can see their allocated command power, as well as daily army, navy, and air experience gain. Hovering over any of these will display a tooltip with more details.
+
+You may review and edit your military advisors from this tab, just as you would from your political tab.
+
+Additionally, this area displays the modifiers that affect the whole of the army, navy, and air force, such as army reinforce rate, max planning, sortie efficiency, air support efficiency, etc.
+
+However, the primary purpose of this tab is to review and unlock land, naval, and air doctrines. Players with No Step Back can also boost their armies, navies, and air wings with brand new 'spirits'. The army and navy commands may have up to three spirits each, while the air force command may have up to two. There are many options to choose from, and many different combinations are possible. There are also spirits which are only accessible depending on the doctrines that have been selected, or even the nation's ideology. Any and all of these choices can be made in exchange for a varying amount of army, navy, or air experience. The bonuses and de-buffs from doctrines and spirits take effect immediately.
+
+Players who have access to divisional commanders (with By Blood Alone ) can also access a window that allows them to review and promote those officers.
+
+# Military High Command
+- See also: Commander, Commander trait
+Generals and Admirals may become Military advisors when they reach level 4. At Level 4, he will be a specialist, at Level 6 he will become an expert, and at Level 8 he will become a genius. His acquired traits will dictate his contributions to the military high command.
+
+Military High Command Trait: Army Regrouping
+Required Commander Trait: Organizer
+Bonuses (Specialist/Expert/Genius): +4%/+8%/+12% Division Recovery Rate
+
+Military High Command Trait: Cavalry Officer
+Required Commander Trait: Cavalry Leader
+Bonuses (Specialist/Expert/Genius): +5%/+10%/+15% Attack and Defense for Cavalry
+
+Military High Command Trait: Infantry Officer
+Required Commander Trait: Infantry Leader
+Bonuses (Specialist/Expert/Genius): +5%/+10%/+15% Attack and +10%/+15%/+20% Defense for Infantry
+
+Military High Command Trait: Army Logistics
+Required Commander Trait: Skilled Staffer
+Bonuses (Specialist/Expert/Genius): -4%/-8%/-12% Division Attrition
+
+Military High Command Trait: Entrenchment
+Required Commander Trait: Engineer
+Bonuses (Specialist/Expert/Genius): +4%/+8%/+12% Entrenchment Speed
+
+Military High Command Trait: Armor
+Required Commander Trait: Panzer Leader
+Bonuses (Specialist/Expert/Genius): +5%/+10%/+15% Attack and Defense for Armor
+
+Military High Command Trait: Commando
+Required Commander Trait: Commando
+Bonuses (Specialist/Expert/Genius):
++5%/+10%/+15% Attack for Special Forces
++3/+6/+10 Special Forces Capacity
+
+Military High Command Trait: Amphibious Assault
+Required Commander Trait: Invader
+Bonuses (Specialist/Expert/Genius): +5%/+10%/+15% Naval Invasion Speed
+
+Military High Command Trait: Combined Arms
+Required Commander Trait: Combined Arms Expert
+Bonuses (Specialist/Expert/Genius): +5%/+10%/+15% Attack and Defense for Motorized and Mechanized
+
+Military High Command Trait: Artillery
+Required Commander Trait: Fortress Buster
+Bonuses (Specialist/Expert/Genius): +10%/+15%/+20% Attack and +5%/+10%/+15% Defense for Artillery
+
+Military High Command Trait: Concealment
+Required Commander Trait: Camouflage Expert
+Bonuses (Specialist/Expert/Genius): -5%/-10%/-15% Enemy Air Support
+
+Military High Command Trait: Anti-Submarine
+Required Commander Trait:
+Bonuses (Specialist/Expert/Genius): +10%/+15%/+20% Submarine Detection
+
+Military High Command Trait: Screens
+Required Commander Trait: Fleet Protector
+Bonuses (Specialist/Expert/Genius): +5%/+10%/+15% Attack and +10%/+15%/+20% Defense for Screens
+
+Military High Command Trait: Carriers
+Required Commander Trait: Flight Deck Manager
+Bonuses (Specialist/Expert/Genius): +5%/+10%/+15% Sortie Efficiency
+
+Military High Command Trait: Capital Ships
+Required Commander Trait: Big Guns Expert
+Bonuses (Specialist/Expert/Genius): +5%/+10%/+15% Attack and Defense for Capital Ships
+
+Military High Command Trait: Submarines
+Required Commander Trait: Torpedo Expert
+Bonuses (Specialist/Expert/Genius): +10%/+15%/+20% Attack and +5%/+10%/+15% Defense for Submarines
+
+Military High Command Trait: Naval Air Defense
+Required Commander Trait: Fly Swatter
+Bonuses (Specialist/Expert/Genius): +8%/+15%/+20% Naval AA Attack
+
+Military High Command Trait: Naval Strike
+Required Commander Trait: Torpedo Bomber
+Bonuses (Specialist/Expert/Genius): +2%/+3%/+5% Naval Bombing, Naval Targeting, and Naval Agility
+
+Military High Command Trait: Fleet Logistics
+Required Commander Trait: Blue Water Expert
+Bonuses (Specialist/Expert/Genius): +5%/+10%/+15% Naval max range factor
+
+Advisor Trait: Army Offence
+Required Commander Trait: Offensive Doctrine
+Bonuses (Specialist/Expert/Genius): +5%/+10%/+15% Division Attack
+
+Advisor Trait: Entrenchment
+Required Commander Trait: Defensive Doctrine
+Bonuses (Specialist/Expert/Genius): -2%/-4%/-6% Mobilization Speed and +3/+5/+7 Max Entrenchment
+
+Advisor Trait: Army Reformer
+Required Commander Trait: Fast Planner
+Bonuses (Specialist/Expert/Genius): +5%/+10%/+15% Army Experience
+
+Advisor Trait: Army Planning
+Required Commander Trait: Thorough Planner
+Bonuses (Specialist/Expert/Genius): +5%/+10%/+15% Planning Speed
+
+Advisor Trait: Army Defense
+Required Commander Trait: Unyielding Defender
+Bonuses (Specialist/Expert/Genius): +5%/+10%/+15% Division Defense
+
+Advisor Trait: Army Maneuver
+Required Commander Trait: Aggressive Assaulter
+Bonuses (Specialist/Expert/Genius): +5%/+10%/+15% Division Speed
+
+Advisor Trait: Army Organization
+Required Commander Trait: Organization First
+Bonuses (Specialist/Expert/Genius): +4%/+8%/+12% Division Organization
+
+Advisor Trait: Army Morale
+Required Commander Trait: Charismatic
+Bonuses (Specialist/Expert/Genius): -3%/-6%/-9% Non-Combat Out-of-Supply Penalties
+
+Advisor Trait: Army Drill
+Required Commander Trait: Expert Delegator
+Bonuses (Specialist/Expert/Genius): -5%/-10%/-15% Division Training Time
+
+Advisor Trait: Naval Maneuver
+Required Commander Trait: Superior Tactician
+Bonuses (Specialist/Expert/Genius): +5%/+10%/+15% Naval Speed
+
+Advisor Trait: Commerce Raiding
+Required Commander Trait: Concealment Expert
+Bonuses (Specialist/Expert/Genius): +10%/+15%/+20% Convoy Raiding Efficiency
+
+Advisor Trait: Naval Reformer
+Required Commander Trait: Safety First
+Bonuses (Specialist/Expert/Genius): +5%/+10%/+15% Naval Experience
+
+Advisor Trait: Naval Aviation
+Required Commander Trait: Dive Bomber
+Bonuses (Specialist/Expert/Genius):
++3%/+6%/+10% Naval Air Attack from Carriers, +3%/+7%/+12% Naval Air Targeting from Carriers, and +4%/+8%/+15% Naval Air Agility from Carriers
+
+Advisor Trait: Decisive Battle
+Required Commander Trait: Marksman
+Bonuses (Specialist/Expert/Genius): +5%/+10%/+15% Attack and Defense for Capital Ships and Screens
+
+# Doctrines
+- See also: Land doctrine, Naval doctrine, Air doctrine, Special forces doctrine
+Doctrines are research paths that allow a country to specialize its army, navy, and air forces. Each doctrine has a base cost of 100 of its respective experience, which can be modified by spirits, advisors, and special bonuses from focuses, events, or decisions.
+
+# Preferred Tactics
+ No Step Back (Main article: Combat tactics, Preferred Tactics)
+The preferred tactic of a country can be set at the officer corps for 20 cp . This increases the probability that commanders select that combat tactic when they are commanding a land battle.
+
+# Spirits
+ No Step Back Not to be confused with: National spirits
+
+## Army spirits
+Army spirits provide bonuses to land commanders, land battles, and the army generally.
+
+### Spirit of the Academy
+These spirits provide bonuses to land commanders, such as increasing XP gain for certain traits, an improved chance of gaining stats, or reduced hiring cost.
+
+Spirit: FOCUS Bold Attack: As the saying goes: a strong offense is the best defense.
+Effects: Officers: 50% chance of +1 Attack on level up.
+XP: 20
+
+Spirit: FOCUS Tenacious Defense: They shall not Pass!
+Effects: Officers: 50% chance of +1 Defense on level up.
+XP: 20
+
+Spirit: FOCUS Meticulous Preparation: War is chaos, but chaos can be prepared for.
+Effects: Officers: 50% chance of +1 Planning and +1 Logistics on level up.
+XP: 20
+
+Spirit:
+FOCUS Best of the Best: Few people have what it takes to lead soldiers into battle. Fewer still have what it takes to win that battle.
+Effects:
+- Starting level of new army leaders: +2
+- Army intelligence to others: −5%
+- New Officers: no personality traits gained on hiring.
+XP: 20
+|Prerequisites: Democratic
+
+Spirit:
+FOCUS Academy Scholarships: No one should be prevented from serving their nation due to a simple lack of money.
+Effects:
+- Army Leader Cost: −30%
+- Starting level of new army leaders: +1
+- Commander as Advisor Cost: −75%
+- New Officers: no personality traits gained on hiring.
+XP: 20
+|Prerequisites: Communist
+
+Spirit:
+FOCUS Political Loyalty: An unreliable military is a threat to the state it is meant to protect.
+Effects:
+- Military Leader Cost: −50%
+- Party Popularity Stability Modifier: +10%
+- New Officers: guaranteed to begin with either Politically Connected or Media Personality traits (weighted equally).
+XP: 20
+|Prerequisites: Fascist or Non-aligned
+
+Spirit: FOCUS Inventive Leadership: A predictable General is a defeated General.
+Effects:
+- Trickster , Commando , Naval Invader trait XP gain: +20%
+- New Officers: 75% chance to begin with either Commando , Trickster or Invader traits (weighted equally).
+XP: 20
+
+Spirit:
+FOCUS Professional Officer Corps: We are professionals, and war is our profession.
+Effects:
+- Division Experience Gain : +15%
+- Maximum Command power : +30
+XP: 20
+
+Spirit:
+FOCUS Embrace the Future: Wherever future battles are fought, armored troops will play the decisive role.
+Effects:
+- New Officers:
+ - Without By Blood Alone :a
+ - Can always begin with Armor Officer trait regardless of the composition of the division from which they are promoted.
+ - Weight to begin with Armor Officer trait: +100%
+ - Hidden: 50% chance to begin with Panzer Leader trait.
+- Panzer Leader trait XP gain: +20%
+XP: 20
+|Prerequisites: Mobile Warfare
+
+Spirit:
+FOCUS Engineering Schools: There is a lot of science involved in digging a proper ditch.
+Effects:
+- New Officers:
+ - Without By Blood Alone :
+ - Can always begin with Engineer Officer regardless of the composition of the division from which they are promoted.
+ - Weight to begin with Engineer Officer trait: +100%
+ - 50% chance to begin with Engineer Officer trait.
+- Initiative: +4%
+- Engineer trait XP gain: +20%
+XP: 20
+|Prerequisites: Superior Firepower
+
+Spirit:
+FOCUS Theatre Training: Some officers may 'go native', but natives are very good at fighting on their chosen terrain.
+Effects:
+- New Officers: 50% chance to begin with either Brilliant Strategist or Inflexible Strategist traits (weighted equally).
+- Terrain traitsb XP gain: +20%
+XP: 20
+|Prerequisites: Grand Battle Plan
+
+Spirit:
+FOCUS Cult of Heroism: Throughout history to the modern day, soldiers and citizens alike honor the sacrifices of their comrades.
+Effects:
+- Automatic Free Medal Chance: +50%
+- Unit Medal Effectiveness: -25%
+XP: 20
+|Prerequisites: Grand Battle Plan
+
+Spirit:
+FOCUS The Queen of Battle: Infantry is the Queen of Battle, and the Queen goes wherever she pleases.
+Effects:
+- New Officers:
+ - Without By Blood Alone :
+ - Can always begin with Infantry Officer regardless of the composition of the division from which they are promoted.
+ - Weight to begin with Infantry Officer trait: +100%
+ - 50% chance to begin with Infantry Officer trait.
+- Infantry Leader trait XP gain: +20%
+XP: 20
+|Prerequisites: Mass Assault
+
+Spirit:
+FOCUS Flexible Officers: This new generation of officers will lead the Norwegian armies into victory, because they can learn from more than just dusty books and ancient peacetime professors.
+Effects:
+- Starting level of new army leaders: +2
+- Leader Skill Bonuses: +10%
+- Promotion Cost: -30%
+- Army reassignment duration: -30%
+XP: 20
+|Prerequisites: Norway via Officers Academy.
+
+Spirit:
+FOCUS Whampoa Primacy: The Kuomintang's Whampoa Military Academy holds the power over new recruits and promotions within the army. Though not entirely inefficient, it does contain a large amount of institutionalized corruption.
+Effects:
+- Army Leader Cost: −15%
+- Starting level of new army leaders: +1
+- Party Popularity Stability Modifier: +15%
+- Planning Speed: -5%
+- Max Planning Factor: -5%
+- New Officers: guaranteed to begin with either Politically Connected or Media Personality traits (weighted equally).
+XP: 20
+|Prerequisites:
+You can remove only after China completes CHI_end_military_primacy or CHI_close_whampoa or CHI_focus_on_meritocratic_principles.
+
+### Spirit of the Army
+These spirits provide general bonuses to the army or allow for specializing toward certain battalion types.
+
+Spirit:
+FOCUS Elevated Engineering Corps: The best judge of a man's ability and character is to give him a shovel and a day to do something useful with it.
+Effects:
+- Entrenchment speed : +10%
+- Railway Gun Bombardment: +25%
+- Engineer Company Unit Design Cost: −100%
+XP: 35
+
+Spirit:
+FOCUS Relief of Command: The army does not exist to feed the ego of its Generals.
+Effects:
+- army exp gain: +25%
+- Army Advisor Cost: −50%
+XP: 35
+Prerequisites: Democratic
+
+Spirit:
+FOCUS Ideological Loyalty: Someone who does not have the correct ideology can not be expected to achieve the correct result in battle.
+Effects:
+- manpower Weekly Manpower: +500
+- Encirclement penalty: −20%
+XP: 35
+Prerequisites: Communist
+
+Spirit:
+FOCUS State serves the Military: The purpose of the state is to wage war against other states. Anything else is either in support of that or a useless distraction.
+Effects:
+- Offensive War Stability Penalty Modifier: +10%
+- Conscription Laws Cost: −25%
+XP: 35
+Prerequisites: Fascist
+
+Spirit:
+FOCUS Tip of the Spear: The dagger in the night is often more effective than the longsword in the day.
+Effects:
+- Extra Paratrooper / Marine Supply Grace: +24 Hour(s)
+- Special Forces Cap: +24
+- Marine Unit Design Cost: −50%
+- Mountaineer Unit Design Cost: −50%
+- Ranger Unit Design Cost: −50%
+- Paratrooper Unit Design Cost: −50%
+XP: 35
+Prerequisites: Grand Battle Plan
+
+Spirit:
+FOCUS Proper Heritage: A good General may be trained, but a great General must be bred. Like horses, in a way.
+Effects:
+- Leader Experience Gain : +10%
+- Supply Combat Penalties on Core Territory: −20%
+- Cavalry Unit Design Cost: −100%
+XP: 35
+Prerequisites: Grand Battle Plan or Mounted Infantry
+
+Spirit:
+FOCUS Overwhelming Firepower: If artillery doesn't win you battles, you're not using enough of it.
+Effects:
+- Artillery experience gain from combat: +10%
+- Support Artillery Unit Design Cost: −100%
+- Artillery Unit Design Cost: −100%
+- Motorized Artillery Unit Design Cost: −100%
+- Infantry Unit Design Cost: −100%
+- Bicycle Unit Design Cost: −100%
+- spg All SP Artillery (except Modern) Unit Design Cost: −100%
+XP: 35
+Prerequisites: Superior Firepower
+
+Spirit: FOCUS Intervention Specialists: The enemy of my enemy.
+Effects: * Army Experience from Volunteers: +50%
+XP: 35
+Prerequisites: Superior Firepower or Expeditionary Warfare
+
+Spirit:
+FOCUS Bayonett Strength: When all is said and done, a tank or airplane can't hold a patch of ground.
+Effects:
+- Infantry experience gain from combat: +10%
+- Infantry Unit Design Cost: −100%
+- Motorized Unit Design Cost: −100%
+- Mechanized Unit Design Cost: −100%
+- Bicycle Unit Design Cost: −100%
+XP: 35
+Prerequisites: Mass Assault
+
+Spirit: FOCUS Living off the Land: Living off the Land.
+Effects:
+- Division Attrition: +10%
+- Non-Combat Out of Supply Penalties: -10%
+XP: 35
+Prerequisites: Mass Assault
+
+Spirit: FOCUS Spirit of Defiance: A people cannot be conquered.
+Effects:
+- Resistance Target in our states occupied by the enemy: +25%
+- Resistance Growth Speed in our states occupied by the enemy: +50%
+XP: 35
+Prerequisites: Mass Assault or Guerilla War or People's Militia
+
+Spirit: FOCUS Motorization Drive: Strike faster, go further, win harder!
+Effects:
+- Motorized experience gain from combat: +10%
+- Mechanized experience gain from combat: +10%
+- All Tanks Unit Design Cost: −100%
+- Motorized Unit Design Cost: −100%
+- Mechanized Unit Design Cost: −100%
+XP: 35
+Prerequisites: Mobile Warfare
+
+Spirit: FOCUS Subsidized Contracts: While replacing the horse.
+Effects:
+- Armored Car Production Cost: -15%
+- Light Tank Production Cost: -10%
+- Armored Support Vehicle Production Cost: -10%
+XP: 35
+Prerequisites: Mobile Warfare or Armored Cavalry
+
+Spirit:
+FOCUS Accomplished Heritage: The history and accomplishments of our regiments stands testament to the heroism of our soldiers. By habitually recognizing great deeds, every man might aspire to that same greatness.
+Effects:
+- Grant Medal Cost: −50.0%
+- Field Officer Division Penalty: −100%
+XP: 35
+Prerequisites: By Blood Alone
+
+### Spirit of Division Command
+These spirits provide bonuses to land battles and increase the chance of certain combat tactics being used
+{| class="wikitable sortable plainlist"
+! style="width:250px"|Spirit
+! style="width:425px" class="unsortable" |Effects
+!XP
+!Prerequisites
+|-
+|FOCUS Static Warfare: There is no such thing as too much trench work. There is only 'insufficient' and 'barely adequate'.
+|
+- Entrenchment speed : +10%
+- Max Entrenchment : +10%
+- Additional chance for Preferred tactic: +100%
+ - Elastic Defense or Overwhelming Fire
+|50
+| Grand Battle Plan or Great War Infantry
+|-
+|FOCUS Flexible Organization: What counts is getting the job done, not following orders to the letter.
+|
+- Division Speed : +5%
+- Org Loss when Moving: −15%
+- Preferred Tactics Selection cost: −15
+|50
+| Mobile Warfare or Infiltration Tactics
+|-
+|FOCUS Aggressive Reconnaissance: If you want to know what the other side is up to, go over there and ask them directly!
+|
+- Reconnaissance : +15%
+- Intelligence gained from Combat: +15%
+- Additional chance for Preferred tactic: +100%
+ - Infiltration Assault
+|50
+| Mobile Warfare
+|-
+|FOCUS Reserve Officers: Not everyone needs to make the military their profession. But in times of war, they can still serve.
+|
+- Division training time: −15%
+- Additional chance for Preferred tactic: +100%
+ - Delay
+|50
+| Superior Firepower
+|-
+|FOCUS Victory or Death: It is better to die with glory than to live in the shame of defeat.
+|
+- Organization loss when below 25%: −15%
+- Additional chance for Preferred tactic: +100%
+ - Mass Charge
+|50
+| Mass Assault
+|-
+|FOCUS Logistical Focus: The troops can eat their belts but the tanks got to have gas.
+|
+- Supply Consumption : −10%
+- Navy/Air Fuel Consumption: −10%
+- Additional chance for Preferred tactic: +100%
+ - Well-Planned Attack
+|50
+| Grand Battle Plan
+|-
+|FOCUS Smoke and Fire: A rolling barrage of shells is surprisingly effective at keeping the enemy from shooting back.
+|
+- Breakthrough : +5%
+- Additional chance for Preferred tactic: +100%
+ - Suppressive Barrage
+|50
+| Superior Firepower
+|-
+|FOCUS Operational Reserves: Always have something up your sleeve. Always.
+|
+- HP: +10%
+- Additional chance for Preferred tactic: +100%
+ - Relentless Assault
+|50
+| Mass Assault
+|-
+|FOCUS Maneuver Warfare: A proper, civilized war is more like a chess match than a brawl. Why fight an enemy you can maneuver around?
+|
+- Division Speed : +5%
+- Coordination: +5%
+- Additional chance for Preferred tactic: +100%
+ - Unexpected Thrust
+|50
+| Mobile Warfare
+|-
+|FOCUS Quick Improvisation: Understand faster, think faster, act faster - that is the key to victory.
+|
+- Planning Speed : +20%
+- Daily Command power gain: +0.20
+- Commander Abilities Cost: −20%
+|35
+|
+|}
+
+## Navy spirits
+Navy spirits provide bonuses to admirals, naval battles, and naval research and design.
+
+### Spirit of Naval Academy
+These spirits provide a bonus to admirals, such as increasing XP gain for certain traits, an improved chance of gaining stats, or reduced hiring cost.
+{| class="wikitable plainlist"
+! style="width:250px"|Spirit
+! style="width:425px" class="unsortable" |Effects
+!XP
+!Prerequisites
+|-
+|FOCUS Instilled Aggression: Attack, attack, attack!
+|Admirals: 50% chance to gain +1 Attack on level up
+|20
+|
+|-
+|FOCUS Calculated Restraint: After careful consideration...
+|Admirals: 50% chance to gain +1 Defense on level up
+|20
+|
+|-
+|FOCUS Signals Training: In order for every man to do his duty, he must know what his duty is.
+|Admirals: 50% chance to gain +1 Maneuvering and +1 Coordination on level up
+|20
+|
+|-
+|FOCUS Academy Scholarships: It's all about giving the right people the chance to shine.
+|
+- Navy Leader Cost: −40%
+- Starting level of new navy leaders: +1
+- New Admirals: no personality traits gained on hiring.
+| 20
+|
+|-
+|FOCUS Best of the Best: Tough competition and strict selection breeds the captains we want.
+|
+- Starting level of new navy leaders: +2
+- Navy intelligence to others: −5%
+- New Admirals: no personality traits gained on hiring.
+| 20
+|
+|-
+|FOCUS Grand Fleet: Large scale tactics training.
+|
+- Superior Tactician trait XP gain: +20%
+- Ironside trait XP gain: +20%
+- New Admirals: 50% chance to begin with Gunnery Expert trait.
+|20
+| Fleet In Being
+|-
+|FOCUS Convoy Warfare: Merchant convoys require special tactics and training.
+|
+- Sea Wolf trait XP gain: +20%
+- Blockade Runner trait XP gain: +20%
+- New Admirals: 50% chance to begin with Sea Wolf or Blockade Runner traits (weighted equally).
+|20
+| Trade Interdiction
+|-
+|FOCUS Integrated Air Arm: Close co-operation between air and sea units is vital!
+|
+- Fleet Protector trait XP gain: +20%
+- Air Controller trait XP gain: +20%
+- New Admirals: 50% chance chance to begin with Aviation Enthusiast trait.
+|20
+| Base Strike
+|}
+
+### Spirit of the Navy
+These spirits provide bonuses to research speed, design cost, repair and refit speed, or experience gain.
+{| class="wikitable plainlist"
+! style="width:250px"|Spirit
+! style="width:425px" class="unsortable" |Effects
+!XP
+! Prerequisites
+|-
+|FOCUS Jeune École: Destroyers are the future!
+|
+- Destroyer Research Speed: +20%
+- Light Ship Design Cost: −60%
+|35
+|
+|-
+|FOCUS Flexible Contracts: The best contract is one that can be terminated.
+|
+- Cruiser Design Cost: −60%
+- Naval Military Industrial Organization Cost: −80%
+|35
+|
+|-
+|FOCUS Integrated Designers: Constantly adapting our designs is top priority.
+|
+- Ship Modules Research Speed: +20%
+|35
+|
+|-
+|FOCUS Naval Reform: War always changes.
+| navy exp gain: +15%
+|35
+|
+|-
+|FOCUS Naval Refit Yards: Minimizing time in the dock, maximizes the time a ship can be at sea.
+|
+- Ship Refitting Speed: +25%
+- Ship Repair Speed: +15%
+|35
+|
+|-
+|FOCUS Global Presence: Our ships shall patrol the oceans around the globe.
+|
+- Battleship Research Speed: +20%
+- Heavy Cruiser Research Speed: +20%
+- Heavy Ship Design Cost: −60%
+|35
+| Fleet In Being
+|-
+|FOCUS Submarine Primacy: Without supplies, a country cannot fight a war.
+|
+- Submarine Research Speed: +20%
+- Submarine Design Cost: −60%
+|35
+| Trade Interdiction
+|-
+|FOCUS Mobile Force: Being able to strike anywhere, anytime.
+|
+- Carrier Research Speed: +20%
+- Carrier Design Cost: −60%
+|35
+| Base Strike
+|}
+
+### Spirit of Naval Command
+These spirits provide bonuses to naval battles.
+{| class="wikitable plainlist"
+! style="width:250px"|Spirit
+! style="width:425px" class="unsortable" |Effects
+!XP
+!Prerequisites
+|-
+|FOCUS Close Combat: Getting in close is the key to victory.
+|
+- Screen Attack: +5%
+- Torpedo screen penetration: +5%
+|50
+|
+|-
+|FOCUS Night Fighting: Being used to fighting in the dark gives distinct advantages.
+|
+- Night-time Attack: +10%
+- Night-time Spotting: +10%
+- Visibility: −5%
+| 50
+|
+|-
+|FOCUS Efficient Communications: Communication, communication, and communication.
+| Positioning: +15%
+|50
+|
+|-
+|FOCUS Inclement Weather Experience: There's no such thing as bad weather...
+| Bad Weather Penalty: −40%
+|50
+|
+|-
+|FOCUS Brave Commanders: Damn the torpedoes, full speed ahead!
+|
+- Retreat Decision Chance: −5%
+- Chance to score Critical Hit: +15%
+|50
+|
+|-
+|FOCUS Bureau of Ordnance: The Bureau of Ordnance influences any ship design made.
+| Torpedo Hit Chance: −10%
+|50
+|United States
+|-
+|FOCUS Decisive Battle: Going all in for the battle will always give you the initiative.
+|
+- Naval Hit chance: +10%
+- Retreat Decision Chance: −10%
+- Fleet speed while retreating: −10%
+- Torpedo hit chance: +10%
+|50
+| Fleet In Being
+|-
+|FOCUS Surface Raiders: Why just let the subs do all the raiding?
+|
+- Retreat Decision Chance: +10%
+- Fleet speed while retreating: +10%
+- Screening bonus when using only capital ships: +20%
+|50
+| Trade Interdiction
+|-
+|FOCUS Surprise Attacks: Hitting the enemy before he is aware of the threat.
+|
+- Retreat chance after initial stage: +10%
+- Retreat Speed after initial stage: +10%
+|50
+| Base Strike
+|}
+
+## Air force spirits
+Air spirits provide bonuses to aircraft research and air missions
+
+### Spirit of the Air Force
+{| class="wikitable plainlist"
+! style="width:250px"|Spirit
+! style="width:425px" class="unsortable" |Effects
+!XP
+!Prerequisites
+|-
+|FOCUS Independent Air Force: The Air Force is an independent branch, and just as important as the Army or the Navy.
+| Air Advisor Cost: −75%
+| 50
+|
+|-
+|FOCUS Industry Liasons: Only frictionless cooperation between the aircraft industry, military, and government will ensure the highest quality.
+|
+- Light Aircraft Research speed: +15%
+- Medium Aircraft Research speed: +15%
+- Heavy Aircraft Research speed: +15%
+- Naval Aircraft Research speed: +15%
+|50
+|
+|-
+|FOCUS Effective Training Programs: Nothing beats a good education.
+| Air Wing Training experience gain: +25%
+|50
+|
+|-
+|FOCUS Branch Independence Spirit: No army or navy guy can order us around. We do things our way.
+|
+- air exp daily gain: +0.10
+- Airforce intelligence to others: −5%
+|50
+|
+|-
+|FOCUS Air Crew Surveys: After all, they are the ones using the equipment, so why not ask them?
+|
+- Air Accidents Chance: −25%
+- Air Doctrine Cost: −15%
+|50
+|
+|-
+|FOCUS Industrial Destruction: 1000 bombers can change the course of the war in a single strike.
+|
+- Heavy Aircraft Research Speed: +5%
+- Strategic Bomber Design Cost: −75%
+- Jet Strategic Bomber Design Cost: −75%
+|50
+| Strategic Destruction
+|-
+|FOCUS Dive Bombing: Scratch one flat top.
+|
+- Close Air Support Research Speed: +5%
+- Close Air Support Design Cost: −75%
+- Carrier Close Air Support Design Cost: −75%
+|50
+| Battlefield Support
+|-
+|FOCUS Material Destruction: Destruction of equipment and disruption of the enemy's lines of communication shall seal victory faster than any number of inflicted casualties.
+|
+- Tactical Bomber Research Speed: +5%
+- Tactical Bomber Design Cost: −75%
+- Jet Tactical Bomber Design Cost: −75%
+|50
+| Operational Integrity
+|}
+
+### Spirit of Air Force Command
+{| class="wikitable plainlist"
+! style="width:250px"|Spirit
+! style="width:425px" class="unsortable" |Effects
+!XP
+!Prerequisites
+|-
+|FOCUS Battlefield Air Interdiction: Close cooperation between air and ground forces.
+|
+- Escort Efficiency : +5%
+- Ground attack factor: +5%
+|50
+|
+|-
+|FOCUS Veteran Air Instructors: Letting the best train the rest.
+| Air Wing Experience loss when killed: −25%
+|50
+|
+|-
+|FOCUS Centralized Control: Effective management of resources ensures that planes reach the locations where they are needed the most.
+|
+- Fighter Detection : +10%
+- Air Mission Efficiency: +10%
+|50
+|
+|-
+|FOCUS Airborne Heroes: The vast expanse of the sky holds untold promise for those in search of a legacy.
+| Ace Effectiveness: +50%
+|50
+|
+|-
+|FOCUS Air Power Projection: A special daring is necessary when fighting away from home.
+| Air power projection factor: +10%
+|50
+|
+|-
+|FOCUS CAG Night Fighting: You think just flying in the dark is hard? Try landing on an aircraft carrier in the middle of the night!
+|
+- Carrier Night Traffic: +50%
+- Carrier Night penalty reduction: +33%
+|50
+|United Kingdom
+|-
+|FOCUS Steel Wings, Steel Hearts: It takes a certain type of courage to wage war at 10,000 feet.
+| Untrained pilots penalty for new Air Wings: −33%
+|50
+| Communist
+|-
+|FOCUS Total Devastation: Massive strategic strikes at the heart of the enemy's core will break their ability to fight.
+| Strategic Bombing : +10%
+|50
+| Strategic Destruction
+|-
+|FOCUS Continuous Strike: Destruction of key enemy equipment is vital.
+| Air Support Mission Efficiency : +25%
+|50
+| Battlefield Support
+|-
+|FOCUS Massed Strike: Disrupting the enemy ground forces is the best way to defeat them.
+| Air Superiority : +5%
+|50
+| Operational Integrity
+|}
+
+# Notes and References
+a In-game text claims that this applies even with By Blood Alone enabled, but this is incorrect.
+b Terrain traits are Winter Specialist , Desert Fox , Swamp Fox , Mountaineer , Hill Fighter , Jungle Rat , Ranger and Urban Assault Specialist .

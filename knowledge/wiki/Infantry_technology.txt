@@ -1,0 +1,1338 @@
+TITLE: Infantry technology
+URL: https://hoi4.paradoxwikis.com/Infantry_technology
+REVISION: 2026-03-14T13:51:51Z (rev 98831)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Infantry technology unlocks new infantry equipment, motorized equipment, and mechanized equipment, as well as improving infantry and cavalry performance as a whole. It also hosts technologies that enable and improve special forces infantry, as well as an additional set of technologies enhancing special forces without Arms Against Tyranny .
+
+Some of these technologies, mainly the ones affecting motorized and mechanized equipment, are interlinked with special projects, providing breakthrough progress in land warfare projects and benefitting from any scientist engaged in passive research in that category. Such technologies have a green ribbons in the lower right-hand corner of their icons.
+
+# Weapons & Equipment
+
+## Infantry weapons [verified for 1.16]
+
+Back to Infantry research tree
+Representing an infantryman's standard kit of tools and weapons, Infantry Equipment is the basis of any army. The Basic Infantry equipment technology starts researched for all countries, while all major powers and many minors have the Infantry Equipment I technology researched. As infantry equipment serves as the primary, potentially only, source of stats for most unit types, unlocking and fielding upgraded versions of them earlier than the enemy can provide a significant advantage.
+
+Later technologies also provide infantry with decent hard attack and a small amount of piercing. Although support anti-air and/or support anti-tank companies, even with older equipment, will still provide infantry divisions with far more piercing, especially because 40% of a division's piercing comes from the brigade or support company with the highest amount, the additional hard attack can still make these divisions far more effective against harder opponents, like tanks or mechanized infantry.
+
+FOCUS Basic Infantry equipment: Basic infantryman equipment developed before and during the Great War.
+1918
+165 days
+Enables
+Basic Eq. 2 steel Defense 20.0
+Soft attack 3.0
+Max Speed 4.0 km/h
+Reliability 90% Breakthrough 2.0
+Hard attack 0.5
+Piercing 1.0
+production cost 0.43
+Infantry Meat for the meat grinder. manpower 1000
+Recovery Rate 0.30
+Suppression 1.5
+HP 25.0 Training time 90
+Supply Use 0.06
+Organization 60
+Weight 0.5
+- With No Step Back :
+ - Heavy Machine Gun
+ - Heavy Machine Gun
+ - Additional Machineguns
+
+Technology:
+FOCUS Infantry Equipment I: Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs.
+Year: 1936
+Base time: 165 days
+Prerequisites: Basic Infantry equipment
+Effects:
+Enables
+Weapons I 2 steel Defense 22.0
+Soft attack 6.0
+Max Speed 4.0 km/h
+Reliability 90% Breakthrough 3.0
+Hard attack 1.0
+Piercing 4.0
+production cost 0.50
+
+Technology:
+FOCUS Improved Infantry Equipment I: Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Improved weapon models and more specialized equipment.
+Year: 1938
+Base time: 165 days
+Prerequisites: Infantry Equipment I
+Effects:
+Upgrades
+- leg_infantry:
+ - Soft attack: +5%
+- cavalry:
+ - Soft attack: +5%
+- vehicle_infantry:
+ - Soft attack: +5%
+
+Technology:
+FOCUS Infantry Equipment II: Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Modernized to include a great number of sub-machineguns and anti-tank rifles.
+Year: 1939
+Base time: 220 days
+Prerequisites: Improved Infantry Equipment I
+Effects:
+Enables
+Weapons II 3 steel Defense 28.0
+Soft attack 9.0
+Max Speed 4.0 km/h
+Reliability 90% Breakthrough 4.0
+Hard attack 1.5
+Piercing 5.0
+production cost 0.58
+
+Technology:
+FOCUS Improved Infantry Equipment II: Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Improved weapon models and more specialized equipment.
+Year: 1940
+Base time: 220 days
+Prerequisites: Infantry Equipment II
+Effects:
+Upgrades
+- leg_infantry:
+ - Soft attack: +5%
+- cavalry:
+ - Soft attack: +5%
+- vehicle_infantry:
+ - Soft attack: +5%
+
+Technology:
+FOCUS Infantry Equipment III: Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Further modernized to include personal Assault Rifles and anti-tank rockets.
+Year: 1942
+Base time: 220 days
+Prerequisites: Improved Infantry Equipment II
+Effects:
+Enables
+Weapons III 4 steel Defense 34.0
+Soft attack 12.0
+Max Speed 4.0 km/h
+Reliability 80% Breakthrough 5.0
+Hard attack 2.0
+Piercing 10.0
+production cost 0.69
+
+Technology:
+FOCUS Improved Infantry Equipment III: Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Further Modernized to include personal Assault Rifles and anti-tank rockets. Improved availability of weapons previously distributed to a limited extent.
+Year: 1944
+Base time: 165 days
+Prerequisites: Infantry Equipment III
+Effects:
+Upgrades
+- leg_infantry:
+ - Soft attack: +5%
+- cavalry:
+ - Soft attack: +5%
+- vehicle_infantry:
+ - Soft attack: +10%
+
+Technology:
+FOCUS Infantry Anti-Tank I: Arming our infantry with anti-tank rifles will allow them to take out lighter armored vehicles while maintaining mobility.
+Year: 1942
+Base time: 165 days
+Prerequisites: Infantry Equipment II
+Effects:
+Upgrades
+- all_infantry:
+ - Hard attack: +25%
+ - Piercing: +100%
+- cavalry:
+ - Hard attack: +10%
+ - Piercing: +40%
+
+Technology:
+FOCUS Infantry Anti-Tank II: For infantry to effectively engage heavier armored units, high-explosive anti-tank weapons need to be made smaller and lighter.
+Year: 1943
+Base time: 165 days
+Prerequisites: Infantry Anti-Tank I
+Effects:
+Upgrades
+- all_infantry:
+ - Hard attack: +25%
+ - Piercing: +100%
+- cavalry:
+ - Hard attack: +10%
+ - Piercing: +40%
+
+## Support weapons [verified for 1.16]
+
+Back to Infantry research tree
+Support weapons includes crew-served weapons such as medium and heavy machine guns and mortars. These technologies provide bonuses to the defense and breakthrough to all types of infantry and to cavalry. This reduces incoming damage taken in combat against enemies who have greater soft and/or hard attack (dependent on the given units' hardness), though it provides little to no additional benefit against enemies with lower attack values.
+
+FOCUS Support Weapons I: Automatic weapons are becoming more portable. Submachine guns have already proven effective and the development of hand-held support weapons must continue.
+1918
+165 days
+Upgrades
+- infantry, vehicle_infantry:
+ - Defense: +5%
+ - Breakthrough: +5%
+- cavalry:
+ - Defense: +2%
+ - Breakthrough: +2%
+- special_forces_leg_infantry:
+ - Defense: +3%
+ - Breakthrough: +3%
+
+Technology:
+FOCUS Support Weapons II: The development of automatic weapons which combine the aspects of light and heavy machine guns allows versatility in how our infantry employ their equipment.
+Year: 1938
+Base time: 165 days
+Prerequisites: Support Weapons I
+Effects:
+Upgrades
+- infantry, vehicle_infantry:
+ - Defense: +5%
+ - Breakthrough: +5%
+- cavalry:
+ - Defense: +2%
+ - Breakthrough: +2%
+- special_forces_leg_infantry:
+ - Defense: +3%
+ - Breakthrough: +3%
+
+Technology:
+FOCUS Support Weapons III: While maintaining and improving reliability of machine guns, we can also experiment with higher firing rates to ensure lethality of the constant stream of bullets.
+Year: 1940
+Base time: 165 days
+Prerequisites: Support Weapons II
+Effects:
+Upgrades
+- infantry, vehicle_infantry:
+ - Defense: +5%
+ - Breakthrough: +5%
+- cavalry:
+ - Defense: +2%
+ - Breakthrough: +2%
+- special_forces_leg_infantry:
+ - Defense: +3%
+ - Breakthrough: +3%
+
+Technology:
+FOCUS Support Weapons IV: With the increased use of assault rifles, developing automatic weapons that can be used in any environment by all soldiers is a priority for a modern army.
+Year: 1942
+Base time: 165 days
+Prerequisites: Support Weapons III
+Effects:
+Upgrades
+- infantry, vehicle_infantry:
+ - Defense: +5%
+ - Breakthrough: +5%
+- cavalry:
+ - Defense: +2%
+ - Breakthrough: +2%
+- special_forces_leg_infantry:
+ - Defense: +3%
+ - Breakthrough: +3%
+
+## Night vision [verified for 1.16]
+
+Back to Infantry research tree
+Night vision equipment allows soldiers to see even in the dark, offsetting some of the -50% penalty that units receive when fighting at night, giving an edge over enemies who do not have such equipment. When combined with the Night Assault Tactics land doctrine, they can potentially remove all night fighting penalties altogether.
+
+FOCUS Night Vision I: Being able to see the enemy without being seen is key to night operations. With the invention of infra-red technology, we can outfit our army with devices which, though unwieldy, make this possible.
+1943
+275 days
+Upgrades
+ Land Night Attack : +10%
+
+Technology:
+FOCUS Night Vision II: Early infra-red scopes, although initially intended for use by snipers, had a limited vision range. As both the portability and vision improves, these devices can be used by more troops operating at night.
+Year: 1946
+Base time: 220 days
+Prerequisites: Night Vision I
+Effects:
+Upgrades
+ Land Night Attack : +15%
+
+# Mobile Infantry [verified for 1.16]
+
+Back to Infantry research tree
+Mobile Infantry technology enables Motorized and Mechanized , as well as motorized versions of artillery brigades, motorized support companies, and other, more specialized motorized brigades.
+
+All mobile infantry technologies are linked to land warfare special projects. They provide breakthrough progress in that category when they are being researched, and they benefit from any scientist engaged in passive research in that category.
+
+## Motorized [verified for 1.16]
+
+Motorized versions of line brigades tend to be much faster than their non-motorized counterparts, have slightly more hardness, and be slightly better on the attack thanks to having more breakthrough, but they also tend to be more expensive, be less reliable, have more penalties on rugged terrain, and require fuel.
+
+In addition to units, motorized technology enables and can enhance motorized logistics. Motorized supply extends the range of supply hub and naval base , allowing them to supply units that are much further away. However, this comes at the cost of motorized equipment, both when enabling motorization and when said motorized equipment suffers losses from breakdowns in rugged terrain and/or bad weather and/or losses from enemy logistics strikes.
+
+FOCUS Early Truck: During the Great War the armies starting using basic civilian trucks for transporting supplies and hauling equipment. These have since become an integral part of most armies
+1936
+165 days
+{{Collapse|
+Enables
+Early Truck 1 steel 1 rubber Breakthrough 2.0
+Max Speed 10.0 km/h
+Fuel Usage 1.20 Hardness 10%
+Reliability 65%
+production cost 2.50
+{{Equipment
+width=31em
+name=Motorized Anti-Tank
+file=Motorized anti-tank
+left=manpower 500
+Supply Use 0.15
+Weight 0.7
+right=Training time 120
+HP 0.6
+adjusters=
+Forest
+Hills
+Mountain
+Jungle
+Marsh
+Fort
+River
+Amphibious
+
+}}
+{{Equipment
+|width=31em
+|name=Motorized Artillery
+|file=Motorized artillery
+|left=manpower 500
+Recovery Rate 0.10
+HP 0.6
+|right=Training time 120
+Supply Use 0.25
+Weight 0.5
+|adjusters=
+Forest
+Hills
+Mountain
+Jungle
+Marsh
+Fort
+River
+Amphibious
+|}
+}}
+{{Equipment
+|width=31em
+|name=Motorized Anti-Air
+|file=Motorized anti-air
+|left=manpower 500
+Recovery Rate 0.10
+HP 0.6
+|right=Training time 120
+Supply Use 0.15
+Weight 0.5
+|adjusters=
+Forest
+Jungle
+Marsh
+River
+Amphibious
+|}
+}}
+- With No Step Back :
+ - Wheeled Suspension}}
+|-
+| FOCUS Truck: Motorizing infantry is the first stage to mechanizing an army. Civilian trucks are readily adapted to military uses of transporting soldiers, towing guns, and carrying equipment and supplies. This greatly increases the strategic mobility of infantry units, which would otherwise rely on marching.
+| 1936
+| 220 days
+| Early Truck
+|{{Collapse|
+Enables
+Truck 1 steel 1 rubber Breakthrough 5.0
+Max Speed 12.0 km/h
+Fuel Usage 1.20 Hardness 10%
+Reliability 80%
+production cost 2.50
+{{Equipment
+|width=31em
+|name=Motorized Infantry
+|file=Motorized
+|desc=Motorized infantry transportation, such as trucks and motorcycles.
+|left=manpower 1200
+Recovery Rate 0.30
+Suppression 2.2
+HP 25.0
+|right=Training time 90
+Supply Use 0.06
+Organization 60
+Weight 0.7
+|adjusters=
+Forest
+Mountain
+Urban
+Jungle
+Marsh
+River
+Amphibious
+|}
+}}}}
+|-
+| FOCUS Motorized Rocket Artillery: Multiple rocket launchers such as these deliver explosives to a target area more quickly than conventional artillery, but with lower accuracy and requiring a longer time to reload. Being mounted on trucks, this version is able to launch attacks and change positions before the enemy can return fire.
+| 1939
+| 165 days
+| Truck
+|{{Collapse|
+Enables
+Motorized Rocket Artillery 1 steel 2 tungsten 1 rubber Defense 15.0
+Soft attack 36.0
+Piercing 2.0
+Fuel Usage 1.20 Breakthrough 12.0
+Hard attack 1.0
+Reliability 80%
+production cost 12.00
+{{Equipment
+|width=31em
+|name=Motorized Rocket Artillery
+|file=Motorized rocket brigade
+|desc=Self-propelled rocket artillery allows for larger, multiple rocket launchers which can both move in and out quickly after striking a target area.
+|left=manpower 500
+Recovery Rate 0.10
+HP 0.6
+|right=Training time 120
+Supply Use 0.25
+Weight 0.5
+|adjusters=
+Forest
+Hills
+Mountain
+Jungle
+Marsh
+Fort
+River
+Amphibious
+|}
+}}}}
+|}
+
+## Mechanized [verified for 1.16]
+
+Mechanized technologies focus on improving Mechanized units and can benefit from motorized technology bonuses. Compared to Motorized , Mechanized are slower, more expensive, and more fuel-intensive (though they are still much faster than ordinary Infantry ), but they have far greater hardness and provide a lot more defense and HP. Their production costs can also be potentially through designing a variant using army exp , which, when coupled with how few equipment losses they suffer thanks to their high HP, can actually make them more affordable in practice than Motorized once the combat casualties start rolling in. Although their offensive stats lack compared to tanks', with enough upgrades, Mechanized can also be surprisingly capable on the offense and can even go toe-to-toe with enemy tanks when used alongside Motorized Anti-Tank units.
+
+FOCUS Mechanized Equipment I: Mechanized infantry is infantry equipped with armored personnel carriers (APCs) or infantry fighting vehicles (IFVs) for transport and combat. Mechanized infantry is distinguished from motorized infantry in that its vehicles provide a degree of protection from hostile fire, as opposed to soft-skinned wheeled vehicles (trucks or jeeps) for motorized infantry.
+1940
+220 days
+Truck
+{{Collapse|
+Upgrades
+- motorized , motorized artillery , motorized anti-air , motorized anti-tank , truck-drawn rocket artillery :
+ - Hardness: +100%
+Enables
+Mechanized I 2 steel 1 rubber Defense 26.0
+Hardness 60%
+Armor 10.0
+Reliability 80%
+production cost 8.00 Breakthrough 6.0
+Max Speed 8.0 km/h
+Piercing 11.0
+Fuel Usage 2.40
+{{Equipment
+width=31em
+name=Mechanized Infantry
+file=Mechanized
+desc=Lightly armored infantry transportation.
+left=manpower 1200
+Recovery Rate 0.30
+Equipment Hard Attack +400%
+Suppression 2.0
+HP 30.0
+right=Training time 120
+Equipment Soft Attack +10%
+Supply Use 0.14
+Organization 60
+Weight 1.0
+adjusters=
+Forest
+Mountain
+Urban
+Jungle
+Marsh
+River
+Amphibious
+
+}}
+- With No Step Back :
+ - Half-track Suspension}}
+|-
+| FOCUS Mechanized Equipment II: Mechanized infantry is infantry equipped with armored personnel carriers (APCs) or infantry fighting vehicles (IFVs) for transport and combat. Mechanized infantry is distinguished from motorized infantry in that its vehicles provide a degree of protection from hostile fire, as opposed to soft-skinned wheeled vehicles (trucks or jeeps) for motorized infantry.
+| 1942
+| 220 days
+| Mechanized Equipment I
+|Enables
+Mechanized II 3 steel 1 rubber Defense 30.0
+Hardness 70%
+Armor 15.0
+Reliability 80%
+production cost 10.00 Breakthrough 8.0
+Max Speed 10.0 km/h
+Piercing 16.0
+Fuel Usage 2.40
+|-
+| FOCUS Mechanized Equipment III: Mechanized infantry is infantry equipped with armored personnel carriers (APCs) or infantry fighting vehicles (IFVs) for transport and combat. Mechanized infantry is distinguished from motorized infantry in that its vehicles provide a degree of protection from hostile fire, as opposed to soft-skinned wheeled vehicles (trucks or jeeps) for motorized infantry.
+| 1944
+| 330 days
+| Mechanized Equipment II
+|Upgrades
+- mechanized :
+ - Soft attack: +15%
+ - Hard attack: +15%
+Enables
+Mechanized III 4 steel 1 rubber Defense 34.0
+Hardness 75%
+Armor 20.0
+Reliability 80%
+production cost 12.00 Breakthrough 10.0
+Max Speed 12.0 km/h
+Piercing 21.0
+Fuel Usage 2.40
+|}
+
+## Amphibious Tractors [verified for 1.16]
+
+ Amtrac or Amtracs are special forces versions of Mechanized more suited to wet terrain and naval invasions, and as special forces, are subject to a country's special forces cap. Although they have less breakthrough than their mechanized counterparts, consume a lot more fuel, and cannot be customized using army exp to discount them in the same way, amtracs not only receive terrain bonuses in Marshes , Rivers , and Amphibious landings, but they also benefit from special forces attack bonuses from, e.g., special forces doctrines and Commando military high command.
+
+These technologies can also benefit from both motorized and mechanized technology bonuses, as well as technology bonuses for naval transports.
+
+{| class="wikitable"
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Basic Amphibious Tractor: Amphibious Tractors, or Amtracs, allow Marines to be landed on a beach under armored protection. However, this comes at the cost of poor fuel efficiency.
+| 1941
+| 220 days
+| Mechanized Equipment I
+|{{Collapse|
+Enables
+Basic Amphibious Tractor 2 steel 1 rubber Defense 26.0
+Hardness 60%
+Armor 10.0
+Reliability 80%
+production cost 8.00 Breakthrough 4.0
+Max Speed 7.0 km/h
+Piercing 11.0
+Fuel Usage 4.00
+{{Equipment
+|width=31em
+|name=Amtrac Battalion
+|file=Amtrac
+|desc=An armored infantry unit in amphibious vehicles.
+|left=manpower 1200
+Recovery Rate 0.30
+Equipment Hard Attack +50%
+Suppression 1.0
+HP 30.0
+|right=Training time 120
+Equipment Soft Attack +10%
+Supply Use 0.18
+Organization 60
+Weight 1.0
+|adjusters=
+Forest
+Mountain
+Urban
+Jungle
+Marsh
+River
+Amphibious
+|}
+}}}}
+|-
+| FOCUS Improved Amphibious Tractor: These Amtracs feature several improvements over the base version, such as rear loading ramp for easier unloading on the beach.
+| 1943
+| 220 days
+| Basic Amphibious Tractor
+|Enables
+Improved Amphibious Tractor 3 steel 1 rubber Defense 30.0
+Hardness 70%
+Armor 15.0
+Reliability 80%
+production cost 10.00 Breakthrough 5.0
+Max Speed 10.0 km/h
+Piercing 16.0
+Fuel Usage 4.00
+|}
+
+## Armored Cars [verified for 1.16]
+
+ La Résistance
+ Armored Car and their armored car recon counterparts are avaialble with La Résistance . These are effectively weaker, softer, much faster, and slightly cheaper alternatives to Light Tank and Armored Recon , respectively. In theory, their niche is would be for somewhat of a hybrid role between light tanks and motorized infantry, though players may struggle to find a practical use for this niche.
+
+With No Step Back , they unfortunately suffer from being much less customizable than their tank-based counterparts. Thanks to the tank designer, once their Light Tank counterparts have become obsolete later in the game, they can get up-gunned and/or repurposed into light td , light sp art , or light spaa , whereas obselete armored car upgrades are limited to incremental variants where they are stuck with their outdated equipment forever. With Arms Against Tyranny , they further suffer from requiring their own, dedicated military industrial organizations that cannot be used for any other type of equipment, whereas their tank-based counterparts share their military industrial organizations with those that can also be used for other types of tanks, thereby offering industrial synergies that armored cars lack.
+
+These technologies can also benefit from motorized and armor technology bonuses.
+
+{| class="wikitable"
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Interwar Armored Car: Where previous armored cars were simply commercial models with thin steel plating, this model was designed from the ground up to carry armor and light armament.
+| 1914
+| 220 days
+| Early Truck
+|{{Collapse|
+Enables
+Interwar Armored Car 2 steel Defense 2.0
+Hardness 65%
+Hard Attack 2.0
+Armor 3.0
+Reliability 80%
+production cost 3.50 Breakthrough 12.0
+Soft attack 6.0
+Max Speed 9.0 km/h
+Piercing 6.0
+Fuel Usage 0.80
+{{Equipment
+|width=31em
+|name=Armored Car
+|file=Armored Car
+|left=manpower 500
+Recovery Rate 0.30
+Suppression 2.5
+HP 5.0
+|right=Training time 180
+Supply Use 0.14
+Organization 20
+Weight 0.8
+|adjusters=
+Forest
+Mountain
+Urban
+Jungle
+Marsh
+Desert
+River
+Amphibious
+|}
+}}}}
+|-
+| FOCUS Basic Armored Car: An improved internal layout and additional ammunition storage creates a more effective armored car.
+| 1940
+| 220 days
+| Interwar Armored Car
+|Enables
+Basic Armored Car 2 steel Defense 3.0
+Hardness 65%
+Hard Attack 4.0
+Armor 10.0
+Reliability 80%
+production cost 5.50 Breakthrough 16.0
+Soft attack 13.0
+Max Speed 12.0 km/h
+Piercing 8.0
+Fuel Usage 1.80
+|-
+| FOCUS Improved Armored Car: Changes on the battlefield require a much heavier armament and thicker armor to defeat enemy light untis and survive to report back.
+| 1942
+| 220 days
+| Basic Armored Car
+|Enables
+Improved Armored Car 2 steel 1 tungsten Defense 5.0
+Hardness 70%
+Hard Attack 8.0
+Armor 20.0
+Reliability 80%
+production cost 7.50 Breakthrough 28.0
+Soft attack 16.0
+Max Speed 15.0 km/h
+Piercing 36.0
+Fuel Usage 1.80
+|-
+| FOCUS Anti-Tank Armored Car: Our light mechanized units will come into contact with enemy tank forces at some point. Developing a special anti-tank variant would give them a fighting chance.
+| 1942
+| 110 days
+| Improved Armored Car
+|Enables
+Anti-Tank Armored Car 2 steel 1 tungsten Defense 6.0
+Hardness 70%
+Hard Attack 14.0
+Armor 20.0
+Reliability 80%
+production cost 8.50 Breakthrough 28.0
+Soft attack 12.0
+Max Speed 16.0 km/h
+Piercing 62.0
+Fuel Usage 1.80
+|}
+
+# Special forces [verified for 1.16]
+
+Back to Infantry research tree
+Special forces doctrine
+
+In addition to regular, motorized, and mechanized infantry, there are three specialized infantry types, known as Special Forces or SF (not to be confused with the land doctrine Superior Firepower): Marines , Mountaineers , and Paratroopers . These units are useful in specific situations. They only require standard infantry equipment, but tend to require more of it compared to Infantry .
+
+ amtrac and amphibious tank units also count as special forces units. The former are closer to Mechanized units than to Infantry and require their own, specialized motorized equipment. The latter are armored units that rely on armor technology. With No Step Back , they can also be built out of light amphibious tank , medium amphibious tank , and heavy amphibious tank chasses using the tank designer.
+
+Each country has a special forces cap that dictates the maximum amount of special forces battalions they are allowed to field. This cap is the greater of either 24 battalions or 5% of the total amount of non-SF battalions making up the rest of your deployed divisions. Divisions cannot be changed, trained, given a different template or have their template adjusted if that would result in exceeding the SF cap. By default, to increase the SF cap beyond the default 24 without any bonuses, you would have to exceed the 480 non-SF battalion breakeven point by 20 for each additional SF battalion. For example, you would need 500 non-SF battalions for 25 SF battalions, 520 non-SF battalions for 26 SF battalions, 540 non-SF battalions for 27 SF battalions, etc. These battalions do not need to be fully equipped or be at full strength, they just need to be part of divisions that are deployed in the field.
+
+Special forces cap can also be increased through certain political advisors, military high command posts, national focuses, and decisions that affect national spirits. With Arms Against Tyranny , the amount of special forces that can be fielded can be increased through special forces doctrines, both by increasing special forces cap and by decreasing the contribution of certain units to that cap. Without Arms Against Tyranny , special forces cap can be increased with the Expanded Special Forces Program Special Forces Concentration technology.
+
+## Marines [verified for 1.16]
+
+ Marines are specialized infantry trained to engage in wet terrain and perform amphibious invasions. They receive bonuses when attacking over wet terrain and during naval invasions. Marine units are very effective when supported by Engineer or their Pioneers , Armored Engineer , or Assault Engineer cousins.
+
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Marines I: Troops specializing in amphibious warfare are growing ever more indispensable. Improvised methods and equipment become things of the past as our naval infantry is supported by specialized landing craft and training.
+| 1936
+| 220 days
+
+|{{Collapse|
+Enables
+{{Equipment
+|width=31em
+|name=Marines
+|file=Marine
+|desc=Troops specializing in amphibious warfare are growing ever more indispensable. Improvised methods and equipment become things of the past as our naval infantry is supported by specialized landing craft and training.
+|left=manpower 1000
+Recovery Rate 0.40
+Supply Use 0.05
+Organization 70
+Weight 0.5
+|right=Training time 120
+Breakthrough 0.3
+Suppression 1.0
+HP 20.0
+|adjusters=
+Marsh
+River
+Amphibious
+|}
+}}}}
+|-
+| FOCUS Marines II: Amphibious warfare requires constant innovation. Improved logistical support and portable harbors can enable our marines to perform landings that may otherwise have been impossible.
+| 1939
+| 165 days
+| Marines I
+|Upgrades
+- Marines :
+ - Soft attack: +5%
+ - Organization: +5
+|-
+| FOCUS Marines III: Marines can be more than just amphibious infantry. In the future, our marine corps will be among the most disciplined and organized special forces.
+| 1943
+| 220 days
+| Marines II
+|Upgrades
+- Marines :
+ - Organization: +5
+|}
+
+## Mountain Infantry [verified for 1.16]
+
+ Mountaineers or Mountain Infantry are specialized infantry that excel in maneuvering through and engaging in rough terrain, such as Hills and Mountains .
+
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Mountain Infantry I: Combat in mountain ranges exposes troops to many perils, but sometimes cannot be avoided. We can minimize these risks by providing our soldiers with specialized training for this environment.
+| 1936
+| style="text-align: center;" | 220 days
+
+|{{Collapse|
+Enables
+{{Equipment
+|width=31em
+|name=Mountaineers
+|file=Mountaineers
+|desc=Combat in mountain ranges exposes troops to many perils, but sometimes cannot be avoided. Providing our soldiers with specialized training for this environment, we can minimize these risks.
+|left=manpower 1000
+Recovery Rate 0.40
+Supply Use 0.05
+Organization 70
+Weight 0.5
+|right=Training time 120
+Breakthrough 0.3
+Suppression 1.0
+HP 20.0
+|adjusters=
+Hills
+Mountain
+|}
+}}}}
+|-
+| FOCUS Mountain Infantry II: Going beyond survival, our forces can be trained to use mountains to their advantage. With light equipment and mule transports, they can maneuver in this terrain better than other infantry.
+| 1939
+| 165 days
+| Mountain Infantry I
+|Upgrades
+- Mountaineers :
+ - Soft attack: +5%
+ - Organization: +5
+|-
+| FOCUS Mountain Infantry III: Preparing for the most arduous mountain missions in high altitudes and low temperatures will require extraordinary training and discipline from our mountain troops.
+| 1943
+| 220 days
+| Mountain Infantry II
+|Upgrades
+- Mountaineers :
+ - Organization: +5
+|}
+
+## Paratroopers [verified for 1.16]
+
+ Paratroopers are the only type of unit that can be paradropped into the field, which they do via transport plane. This allows them to perform operations behind enemy lines and in locations where other units cannot easily reach. It is important to note that divisions that mix Paratroopers with other line battalions cannot be paradropped.
+
+The AI will use paratroopers in battle, but never uses them for paradrops.
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Paratroopers I: By incorporating airborne forces into our army, we can make forced entries and position key troops in previously inaccessible areas, allowing for new tactical opportunities.
+| 1936
+| 220 days
+
+|Paratroopers By incorporating airborne forces into our army, we can make forced entries and position key troops in previously inaccessible areas, allowing for new tactical opportunities. manpower 1000
+Recovery Rate 0.40
+Suppression 1.0
+HP 22.0 Training time 150
+Supply Use 0.05
+Organization 70
+Weight 0.5
+|-
+| FOCUS Paratroopers II: Transitioning from small operations with only a few paratroopers to larger airborne divisions paves way for massive airborne landings, taking these forces beyond a novelty to a natural part of warfare.
+| 1939
+| 165 days
+| Paratroopers I
+|Upgrades
+- Paratroopers :
+ - Soft attack: +5%
+ - Organization: +5
+|-
+| FOCUS Paratroopers III: Learning to adapt paradrop operations according to weather, standardizing equipment such as jump boots and extended specialized training will minimize the confusion and risks involved in these dangerous missions.
+| 1943
+| 220 days
+| Paratroopers II
+|Upgrades
+- Paratroopers :
+ - Organization: +5
+|}
+
+## Special Forces Concentration [verified for 1.16]
+
+ Arms Against Tyranny Arms Against Tyranny doctrines Special forces doctrine
+
+These technologies increase the capabilities, and potentially also the number, of special forces units. The first tech will give them a boost to acclimatization speed. Afterwards, the tree splits into two options. One option is to train your special forces harder, to improve their skills and their ability to fight for longer before having to be resupplied. The other option is to expand the special forces training programs to accept more recruits: your special forces will be more numerous, but come with more drag and not quite as high speed. In the end, though, they will still be elite forces and will be able to develop training to make them even more skilled in fighting in the harshest of conditions.
+
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Special Forces: Unconventional fighting requires specialist training. We need to ensure that our troops are prepared and able to adapt to harsh conditions.
+| 1938
+| 220 days
+
+|Upgrades
+- special_forces:
+ - Hot Acclimatization gain factor: +5%
+ - Cold Acclimatization gain factor: +5%
+|- style="background:#EDEDFF;"
+| FOCUS Advanced Special Forces Training: With extensive training, we can ensure that our special forces will be able to perform above and beyond that of normal men. Mutually exclusive with Expanded Special Forces Program.
+| 1940
+| 220 days
+| Special Forces
+Excludes Expanded Special Forces Program
+|Upgrades
+- Special Forces Training Time: +10%
+- special_forces:
+ - Defense: +5%
+ - Organization: +5
+|- style="background:#EDEDFF;"
+| FOCUS Extreme Environment Training: We need to be able to fight in the harshest of environments. With the right training and equipment, our troops will be able to fight in the most extreme conditions.
+| 1942
+| 220 days
+| Advanced Special Forces Training
+|Upgrades
+- Special Forces Training Time: +10%
+- Special Forces Supply Grace: +24 h
+- special_forces:
+ - Hot Acclimatization gain factor: +20%
+ - Cold Acclimatization gain factor: +20%
+|- style="background:#FFEDED;"
+| FOCUS Expanded Special Forces Program: Special forces are able to perform missions that ordinary soldiers can not. We need to expand the training program to get more of our soldiers qualified. Mutually exclusive with Advanced Special Forces Training.
+| 1940
+| 220 days
+| Special Forces
+Excludes Advanced Special Forces Training
+|Upgrades
+- Special Forces Capacity: +10%
+- Special Forces Training Time: -10%
+|- style="background:#FFEDED;"
+| FOCUS Survival Training: Our special forces will often fight behind enemy lines and in short supply. We need to train them to endure harsh weather and fight with limited supplies.
+| 1942
+| 220 days
+| Expanded Special Forces Program
+|Upgrades
+- Special Forces Out of Supply: -10%
+- special_forces:
+ - Hot Acclimatization gain factor: +10%
+ - Cold Acclimatization gain factor: +10%
+|-
+| FOCUS Elite Forces: Only the best of the best will become special forces. The soldiers that make it through the training will be stronger. faster, and fight harder than anyone else.
+| 1944
+| 220 days
+| One of:* Extreme Environment Training
+- Survival Training
+|Upgrades
+- Special Forces Supply Grace: +24 h
+- special_forces:
+ - Soft attack: +5%
+ - Organization: +5
+|}
+
+# Secret Techs [verified for 1.16]
+
+These techs are only available for certain countries under the appropriate conditions.
+
+{| class="wikitable"
+! Technology
+! style="width:30em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Jungle Warfare: Special training to make our soldiers effective in the jungle.
+| Can unlock this tech:
+- British Raj via Jungle Training (without goe )
+|* Marine , Mountaineer , Paratrooper :
+ - Jungle :
+ - Attack: +5%
+ - Speed: +10%
+|-
+| Jungle Training
+| Can unlock this tech:
+- British Raj via RAJ_jungle_training_GOE
+|* Marine , Mountaineer , Paratrooper :
+ - Jungle :
+ - Attack: +5%
+ - Speed: +10%
+- Infantry :
+ - Jungle :
+ - Attack: +3%
+ - Speed: +5%
+|-
+| Desert Training
+| Can unlock this tech:
+- British Raj via RAJ_desert_training
+|* Marine , Mountaineer , Paratrooper :
+ - Desert :
+ - Attack: +5%
+ - Speed: +10%
+- Infantry :
+ - Desert :
+ - Attack: +3%
+ - Speed: +5%
+|-
+| Hills Training
+| Can unlock this tech:
+- British Raj via RAJ_hill_training
+|* Marine , Mountaineer , Paratrooper :
+ - Hills :
+ - Attack: +5%
+ - Speed: +10%
+- Infantry :
+ - Hills :
+ - Attack: +3%
+ - Speed: +5%
+|-
+| Urban Training
+| Can unlock this tech:
+- British Raj via RAJ_urban_training
+|* Marine , Mountaineer , Paratrooper :
+ - Urban :
+ - Attack: +5%
+ - Speed: +10%
+- Infantry :
+ - Urban :
+ - Attack: +3%
+ - Speed: +5%
+|-
+| Mountaineer Paratroopers
+| Can unlock this tech:
+- Switzerland via Mountaineer Paratroopers
+|* Paratrooper :
+ - Hills :
+ - Attack: +20%
+ - Defense: +5%
+ - Speed: +10%
+ - Mountain :
+ - Attack: +35%
+ - Defense: +10%
+ - Speed: +20%
+|-
+| FOCUS Light Infantry Divisions Doctrine: Reducing the amount of supporting arms in our infantry divisions makes them more flexible and gives them an edge in combat in restricted terrain like Cities and forests.
+| Can unlock this tech:
+- Hungary via Light Infantry Divisions Doctrine or Light Infantry Divisions Doctrine
+|* Infantry :
+ - Forest :
+ - Attack: +2%
+ - Speed: +5%
+ - Urban :
+ - Attack: +5%
+ - Speed: +5%
+|-
+| FOCUS Mountain Warfare: Special training to make our soldiers effective in mountain ranges.
+| Can unlock this tech:
+- Greece via A Land of Mountains
+- Chile via A Land of Mountains
+|* Infantry :
+ - Mountain :
+ - Defense: +5%
+ - Speed: +5%
+- Marine , Paratrooper :
+ - Mountain :
+ - Attack: +5%
+ - Speed: +10%
+- Mountaineer :
+ - Mountain :
+ - Attack: +5%
+ - Defense: +5%
+ - Speed: +10%
+|-
+| FOCUS Mountain Defense Training: Special training will allow our troops to better defend in mountainous terrain.
+| Can unlock this tech:
+- Austria via AUS_osterreichische_gebirgsjager
+|* Infantry :
+ - Mountain :
+ - Speed: +5%
+ - Defense: +5%
+- Mountaineer :
+ - Mountain :
+ - Speed: +10%
+ - Defense: +5%
+|-
+| Lynx Armored Car
+| Can unlock this tech:
+- Sweden via Lynx Armored Car
+|* Armored Car :
+ - Organization: +5
+ - Hard Attack: +10%
+ - Piercing: +10%
+ - Forest :
+ - Speed: +55%
+ - Attack: +20%
+ - Desert :
+ - Speed: -55%
+ - Attack: -20%
+ - Snow :
+ - Speed: +35%
+ - Attack: +20%
+- Light Armored Recon Company :
+ - Organization: +3
+ - Hard Attack: +10%
+ - Piercing: +10%
+ - Forest :
+ - Speed: +5%
+ - Attack: +5%
+ - Desert :
+ - Speed: -15%
+ - Attack: -15%
+ - Snow :
+ - Speed: +8%
+ - Attack: +5%
+|-
+| Militias
+| Can unlock this tech:
+- Sweden via Revoke Anti-militia Laws
+- Aussa via Every Man a Warrior
+| Enables Militia
+|-
+| FOCUS Bicycle Infantry: Regular infantry with bicycles are more mobile than their marching counterparts, for a very modest price.
+|
+Starts with this tech:
+- Belgium
+- Japan
+- Netherlands
+Can unlock this tech:
+- Brazil via Establish Caloi Factory
+- Finland via FIN_jaeger_movement
+- Hungary via wuw_HUN_expand_the_diosgyor_machinery_factory or wuw_HUN_form_the_gyorshadtest
+- Italy via Bersaglieri
+- Sweden via SWE_ring_a_ding_ding
+| Enables Bicycle
+|-
+| FOCUS Camelry: Camel mounted infantry. More expensive, but with good versatility.
+|
+Starts with this tech:
+- Sultanate of Aussa
+Starts with this tech with Battle for the Bosporus :
+- Assyria
+- Bahrain
+- British Raj
+- Egypt
+- France
+- Iraq
+- Italian State of East Africa
+- Italy
+- Jordan
+- Kuwait
+- Lebanon
+- Kingdom of Lombardy-Venetia
+- Oman
+- Palestine
+- Papal States
+- Republic of Qatar
+- Saudi Arabia
+- Sardinia-Piedmont
+- Spain
+- Syria
+- Kingdom of the Two Sicilies
+- Grand Duchy of Tuscany
+- United Arab Emirates
+- United Kingdom
+- Yemen
+Can unlock this tech:
+- German Reich via Weltpolitik (with Battle for the Bosporus )
+- Ethiopia via Animal Husbandry
+- Turkey via TUR_desert_camel_corps, TUR_the_tuz_golu_training_facility, or the following events:
+ - If the United Kingdom agrees to give over the defense of the Gulf to Turkey.
+ - If the United Kingdom agrees to the Petra proposal.
+| Enables Camelry
+|-
+| FOCUS Penal Battalions: Penal battalions provide an opportunity for convicted soldiers and officers of the Red Army to bleed for the motherland and redeem themselves for the shameful or dishonorable actions committed in the past.
+|Can unlock this tech:
+- Paraguay via PAR_soliders_for_prisoners
+| Enables Penal
+|-
+| Assault Battalion
+|Can unlock this tech:
+- Italy via ITA_battaglioni_d_assalto or ITA_special_brigades
+- Chile via CHL_departemento_de_las_tropas_nacistas_de_asalto
+- China via CHI_weaponise_the_faithful
+| Enables Assault Battalion
+|-
+| Grande Rivolta Rurale
+|Can unlock this tech:
+- Italy via ITA_grande_rivolta_rurale
+|* Militia :
+ - Hills :
+ - Attack: +5%
+ - Speed: +10%
+ - Mountain :
+ - Attack: +5%
+ - Speed: +10%
+|-
+| ETH_improved_irregular_infantry_tech
+
+|* Irregulars :
+ - Organization: +10
+|-
+| molotov_cocktails_tech
+|Can unlock this tech:
+- Finland via FIN_oy_alkoholiliike
+|* all_infantry:
+ - Hard Attack: +25%
+ - Piercing: +100%
+|-
+| winter_logistics_support_tech
+|Can unlock this tech:
+- Denmark via DEN_slaedepatruljen_sirius
+- Finland via FIN_winter_warfare
+- Norway via NOR_expand_Haeren
+- Sweden via SWE_winter_drill
+- Japan via JAP_kantokuen
+| Enables Winter Logistics
+|-
+| long_range_patrol_support_tech
+|Can unlock this tech:
+- Finland via FIN_long_range_patrols
+| Enables Long Range Patrol
+|-
+| sami_pathfinders_tech
+|Can unlock this tech:
+- Finland via FIN_utilize_the_sami
+|* recon:
+ - Reconnaissance: +1
+ - Snow :
+ - Speed: +10%
+ - Forest :
+ - Speed: +5%
+ - Hills :
+ - Speed: +5%
+ - Mountain :
+ - Speed: +5%
+ - Marsh :
+ - Speed: +5%
+ - Plains :
+ - Speed: +5%
+ - River :
+ - Speed: +5%
+|-
+| lotta_svard_tech
+|Can unlock this tech:
+- Finland via FIN_arm_the_lotta_svard
+- Hungary via wuw_HUN_magyar_cserkeszszovetseg
+- Japan via JAP_form_pioneer_organizations
+|* support:
+ - HP: +5
+ - Organisation: +10
+|-
+| SWE_sami_support_tech
+|Can unlock this tech:
+- Sweden via SWE_sami_reconcilliation
+- Japan via JAP_utilize_ainu_expertise
+|* recon:
+ - Reconnaissance: +1
+ - Snow :
+ - Speed: +10%
+ - Forest :
+ - Speed: +10%
+ - Hills :
+ - Speed: +5%
+ - Mountain :
+ - Speed: +5%
+|-
+| Jungle Pioneers
+|Can unlock this tech:
+- Brazil via SMB_jungle_pioneers
+- Belgium via CONGO_jungle_fighting
+- Belgian Congo via CONGO_jungle_fighting
+| Enables Jungle Pioneers
+|-
+| Brown Water Navy
+|Can unlock this tech:
+- Brazil via SMB_brown_water_navy
+- Belgium via CONGO_legacy_of_lake_tanganyika
+- Belgian Congo via CONGO_legacy_of_lake_tanganyika or COG_brown_water_navy
+|* all_infantry:
+ - River :
+ - Speed: +10%
+ - Attack: +10%
+ - Defense: +5%
+|-
+| sturmtruppe_battalion_tech
+|Can unlock this tech:
+- German Reich via GER_stormtroopers
+| Enables Sturmtruppe Battalion
+|-
+| Heavy Armored Car
+|Can unlock this tech:
+- German Reich via GER_nationalize_ford_factories
+|* Light Armored Recon Company :
+ - HP: +3
+ - Organization: +2
+ - Armor: +50%
+ - Reconnaissance: +1
+ - Defense: +10%
+ - Forest :
+ - Speed: +5%
+ - Desert :
+ - Speed: +10%
+ - Plains :
+ - Speed: +10%
+
+|-
+| Chasseurs Ardennais ( no ncns )
+|
+Starts with this tech:
+- Belgium
+|* Mountaineer :
+ - Forest :
+ - Speed: +10%
+ - Attack: +20%
+ - Defense: +20%
+ - Mountain :
+ - Speed: -10%
+ - Attack: -20%
+
+|-
+| Chasseurs Ardennais
+|
+Starts with this tech:
+- Belgium
+|* Rangers :
+ - Hills :
+ - Speed: +10%
+ - Attack: +15%
+ - Defense: +15%
+ - Mountain :
+ - Speed: +5%
+ - Attack: +5%
+|-
+| FOCUS Elephantry: Elephant mounted Infantry. More Expensive, but good against Infantry
+| Can unlock this tech:
+- British Raj via Elephants for the Modern Age
+- Afghanistan via Reintroduce War Elephants
+| Enables Elephantry
+|-
+| uranium_tipped_bullets
+| Can unlock this tech:
+- British Raj via Uranium Tipped Bullets
+|* all_infantry:
+ - Hard Attack: +25%
+ - Piercing: +100%
+- cavalry:
+ - Hard Attack: +10%
+ - Piercing: +40%
+- artillery:
+ - Hard Attack: +100%
+- tds:
+ - Hard Attack: +15%
+ - Piercing: +20%
+- support anti-tank , motorized anti-tank :
+ - Hard Attack: +10%
+ - Piercing: +20%
+- support anti-air , motorized anti-air :
+ - Air Attack: +10%
+|-
+| revolutionary_mass_assault
+| Can unlock this tech:
+- British Raj via Defenders of the Revolution
+|* Recruitable population: 2.00%
+- infantry :
+ - Combat Width: -0.2
+|-
+| PHI_battalion_combat_teams
+| Can unlock this tech:
+- Philippines via Battalion Combat Teams
+|* all_infantry:
+ - Hard Attack: +15%
+ - Soft Attack: +15%
+ - Piercing: +15%
+- cavalry:
+ - Hard Attack: +10%
+ - Soft Attack: +10%
+ - Piercing: +10%
+|-
+| JAP_lighter_tanks
+| Starts with this tech:
+- Japan
+|* all_armor:
+ - Jungle:
+ - Attack: +10%
+ - Defense: +10%
+|-
+| JAP_silver_wheels
+| Starts with this tech:
+- Japan
+|* bicycle_battalion:
+ - Jungle:
+ - Attack: +10%
+ - Speed: +10%
+ - Forest:
+ - Attack: +10%
+ - Speed: +10%
+|}
+
+# References

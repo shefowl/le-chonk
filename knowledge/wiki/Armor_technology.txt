@@ -1,0 +1,672 @@
+TITLE: Armor technology
+URL: https://hoi4.paradoxwikis.com/Armor_technology
+REVISION: 2025-12-10T16:55:35Z (rev 94618)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+No Step Back
+For armor technology without No Step Back , see the separate Armor technology (Basic) page.
+
+ No Step Back replaces the basic armor technology system with a more modular system that feeds into the tank designer. Rather than researching dedicated vehicles, the new system focuses on researching only the chassis for entire classes of vehicles, with a few armor technologies also unlocking new armor and special modules. Importantly, the armaments used by tanks in the tank designer, which are also used to dictate which specialized roles a given armor variant can take, are researched as part of artillery technologies instead, and many powerful special modules require research in other technology trees, such as Support companies technology or Engineering technology.
+
+With the introduction of special projects in Götterdämmerung and the accompanying Patch 1.15, all armor technologies now also generate land warfare breakthrough progress while being researched. Armor technologies are also particularly intertwined with the Land Cruiser land warfare special project.
+
+# Chassis [verified for 1.16]
+
+These technologies unlock new chassis on top of which new vehicles can be designed in the tank designer. The first chassis technology is unspecialized and unlocks a huge array of basic armored vehicle modules. Subsequent chassis technologies are far more specialized in what they unlock.
+
+FOCUS Inter-War Tank Development: The tank has proven itself a powerful weapon in the Great War. While development has slowed in the intervening years, it is no doubt going to play a major role in the wars to come.
+1918
+220 days
+{{Collapse|
+Enables
+Inter-War Light Tank Chassis 1 steel manpower 2
+Breakthrough 9.0
+Max Speed 5.1 km/h
+Reliability 80%
+Production cost 3.20 Defense 2.0
+Hardness 80%
+Armor 10.0
+Fuel Usage 2.00
+Inter-War Medium Tank Chassis 1 steel manpower 2
+Breakthrough 10.0
+Max Speed 5.1 km/h
+Reliability 75%
+Production cost 4.60 Defense 2.0
+Hardness 85%
+Armor 20.0
+Fuel Usage 2.00
+Inter-War Heavy Tank Chassis 1 steel manpower 2
+Breakthrough 20.0
+Max Speed 4.0 km/h
+Reliability 75%
+Production cost 12.00 Defense 2.0
+Hardness 95%
+Armor 35.0
+Fuel Usage 2.00
+{{Equipment
+width=31em
+name=Light Tank
+file=Light_tank
+desc=Lightly armored tanks.
+left=manpower 500
+Recovery Rate 0.30
+Supply Use 0.22
+Organization 10
+Weight 1.0
+right=Training time 180
+Equipment Breakthrough +10%
+Suppression 2.5
+HP 2.0
+adjusters=
+Forest
+Mountain
+Urban
+Jungle
+Marsh
+River
+Amphibious
+
+}}
+{{Equipment
+|width=31em
+|name=Medium Tank
+|file=Medium_tank
+|desc=Medium tanks are flexible and can do almost any job.
+|left=manpower 500
+Recovery Rate 0.30
+Supply Use 0.25
+Organization 10
+Weight 1.2
+|right=Training time 180
+Equipment Breakthrough +10%
+Suppression 2.5
+HP 2.0
+|adjusters=
+Forest
+Hills
+Mountain
+Urban
+Jungle
+Marsh
+River
+Amphibious
+|}
+}}
+{{Equipment
+|width=31em
+|name=Heavy Tank
+|file=Heavy_tank
+|desc=The strongest tanks with powerful armor and weapons, but slow and tactically inflexible.
+|left=manpower 500
+Recovery Rate 0.30
+Supply Use 0.32
+Organization 10
+Weight 1.5
+|right=Training time 180
+Equipment Breakthrough +10%
+Suppression 2.5
+HP 2.0
+|adjusters=
+Forest
+Hills
+Mountain
+Urban
+Jungle
+Marsh
+Fort
+River
+Amphibious
+|}
+}}
+}}
+|}
+
+## Light Chassis [verified for 1.16]
+
+These technologies serve to unlock new chassis that can be used for light tank , light sp aa , light sp art , and light td , as well as the Armored Recon , Light Flame Tank , and, with Arms Against Tyranny , Airborne Light Armor support companies. They also help unlock amphibious chassis for amphibious designs, and their chassis can be used for light amphibious tank designs.
+
+Light chassis tend to be cheap and make for faster and more reliable vehicles, especially in the earlygame, but they also tend to have little armor, far less breakthrough than their heavier counterparts, and far more limited armament options, especially in the later years, when they act far better as more specialized combat support vehicles or in support companies than as frontline tanks.
+
+Technology:
+FOCUS Basic Light Tank Chassis: Technological advances have made the designs of the immediate post-war period effectively obsolete. The modern battlefield requires a new, clean design incorporating advances in metallurgy and interior layout.
+Year: 1934
+Base time: 220 days
+Prerequisites: Inter-War Tank Development
+Effects:
+Enables
+Basic Light Tank Chassis 1 steel manpower 2
+Breakthrough 9.0
+Max Speed 6.3 km/h
+Reliability 95%
+Production cost 3.48 Defense 2.0
+Hardness 80%
+Armor 15.0
+Fuel Usage 2.00
+
+Technology:
+FOCUS Improved Light Tank Chassis: A further iteration based on the experiences gained with previous light tanks, this chassis allows for better reliability and maintenance.
+Year: 1936
+Base time: 220 days
+Prerequisites: Basic Light Tank Chassis
+Effects:
+Enables
+Improved Light Tank Chassis 1 steel manpower 2
+Breakthrough 9.0
+Max Speed 7.4 km/h
+Reliability 110%
+Production cost 3.76 Defense 2.0
+Hardness 80%
+Armor 20.0
+Fuel Usage 2.00
+
+Technology:
+FOCUS Advanced Light Tank Chassis: With medium tanks increasingly taking center stage in the fight, light tanks have largely been relegated to supporting roles. A new chassis design is needed that takes the needs of these roles into account.
+Year: 1941
+Base time: 220 days
+Prerequisites: Improved Light Tank Chassis
+Effects:
+Enables
+Advanced Light Tank Chassis 2 steel manpower 2
+Breakthrough 9.0
+Max Speed 8.6 km/h
+Reliability 130%
+Production cost 4.00 Defense 2.0
+Hardness 80%
+Armor 25.0
+Fuel Usage 2.00
+
+## Amphibious Chassis [verified for 1.16]
+
+This pair of technologies first unlocks a rather limited chassis for amphibious tank and then unlocks a special module that can be used to make more flexible light amphibious tank , medium amphibious tank , and heavy amphibious tank amphibious tank designs. These units tend to be more expensive than their non-amphibious counterparts, but they are far better in wet terrain and at performing naval invasions. Their designs can also use heavier weapons that are normally reserved for tank_destroyers without being forced to be classified as such, allowing them to retain more breakthrough and benefit from certain land doctrine bonuses that are given only to tanks and not to armor variants.
+
+All amphibious tanks count as special forces, benefitting from general bonuses given to special forces units, but also being limited by a country's special forces capacity.
+
+FOCUS Amphibious Tank Chassis: A small tank hull specifically designed to float. To achieve this, strict limits have to be set on the size of the weapon and the thickness of the armor the vehicle carries.
+1938
+220 days
+Improved Light Tank Chassis
+{{Collapse|
+Enables
+Amphibious Tank Chassis 1 steel manpower 2
+Breakthrough 9.0
+Max Speed 6.3 km/h
+Reliability 110%
+Production cost 5.20 Defense 2.0
+Hardness 85%
+Armor 15.0
+Fuel Usage 2.00
+{{Equipment
+width=31em
+name=Amphibious Tank Battalion
+file=Amphibious_Tank
+desc=A battalion of amphibious tanks.
+left=manpower 500
+Recovery Rate 0.30
+Organization 10
+Weight 1.0
+right=Training time 180
+Supply Use 0.20
+HP 2.0
+adjusters=
+Forest
+Mountain
+Plains
+Urban
+Jungle
+Marsh
+River
+Amphibious
+
+}}
+}}
+|-
+| FOCUS Amphibious Drive: A set of floatation devices and a small screw allow this tank to quickly be rigged to traverse water, either from ship to shore or across a river.
+| 1941
+| 220 days
+| Amphibious Tank Chassis
+|
+Enables
+Amphibious Drive A set of floatation devices and a small screw allow this tank to quickly be rigged to traverse water, either from ship to shore or across a river. Reliability -15%
+Production cost +10% Production cost 2
+|}
+
+## Medium Chassis [verified for 1.16]
+
+These technologies serve to unlock new chassis that can be used for medium tank , medium sp aa , medium sp art , and medium td , as well as the Medium Flame Tank support company. They can also be used for medium amphibious tank . In the late game, they can also be used to unlock modern chassis that can be used for modern tank , modern sp aa , modern sp art , and modern td .
+
+Medium chassis vehicles tend to strike a good balance between cost and effectiveness. While not as cheap as their light chassis cousins, the improvements they offer in stats and armament options can be far greater relative to their cost increase, regularly making them the best choice in terms of stats-per-cost. Their heavy chassis cousins can still absolutely outclass them in terms of one-on-one combat performance, but are far more expensive and so are far harder to field in critical mass numbers compared to vehicles based on medium chassis.
+
+Technology:
+FOCUS Basic Medium Tank Chassis: A balanced, mid-sized chassis that offers a lot flexibility for building a wide variety of vehicles.
+Year: 1938
+Base time: 220 days
+Prerequisites: Inter-War Tank Development
+Effects:
+Enables
+Basic Medium Tank Chassis 1 steel manpower 2
+Breakthrough 10.0
+Max Speed 6.3 km/h
+Reliability 80%
+Production cost 4.80 Defense 2.0
+Hardness 85%
+Armor 30.0
+Fuel Usage 2.00
+
+Technology:
+FOCUS Improved Medium Tank Chassis: A balanced, mid-sized chassis that offers a lot flexibility for building a wide variety of vehicles.
+Year: 1940
+Base time: 220 days
+Prerequisites: Basic Medium Tank Chassis
+Effects:
+Enables
+Improved Medium Tank Chassis 1 steel manpower 2
+Breakthrough 10.0
+Max Speed 7.4 km/h
+Reliability 100%
+Production cost 5.00 Defense 2.0
+Hardness 85%
+Armor 40.0
+Fuel Usage 2.00
+
+Technology:
+FOCUS Advanced Medium Tank Chassis: A balanced, mid-sized chassis that offers a lot flexibility for building a wide variety of vehicles.
+Year: 1943
+Base time: 220 days
+Prerequisites: Improved Medium Tank Chassis
+Effects:
+Enables
+Advanced Medium Tank Chassis 2 steel manpower 2
+Breakthrough 10.0
+Max Speed 7.4 km/h
+Reliability 120%
+Production cost 5.20 Defense 2.0
+Hardness 85%
+Armor 50.0
+Fuel Usage 2.00
+
+FOCUS Modern Tank Chassis: A modernized chassis that borrows heavily from previous medium tanks, but puts a much bigger emphasis on speed and maneuverability, while also allowing for more armor and bigger guns than usually carried on medium tanks. The result is a vehicle that can fill a wide variety of roles.
+1945
+275 days
+One of:** Advanced Medium Tank Chassis
+ - Advanced Heavy Tank Chassis
+{{Collapse|
+Enables
+Modern Tank Chassis 2 steel 1 chromium manpower 2
+Breakthrough 26.0
+Max Speed 8.6 km/h
+Reliability 120%
+Production cost 12.00 Defense 2.0
+Hardness 95%
+Armor 65.0
+Fuel Usage 2.00
+{{Equipment
+width=31em
+name=Modern Tank
+file=Modern_tank
+desc=Modern Tanks have evolved to deal with most battlefield situations. Powerful guns and sloped armor have eliminated the need for specialized tanks.
+left=manpower 500
+Recovery Rate 0.30
+Supply Use 0.25
+Organization 10
+Weight 1.5
+right=Training time 180
+Equipment Breakthrough +10%
+Suppression 2.5
+HP 2.0
+adjusters=
+Forest
+Hills
+Mountain
+Urban
+Jungle
+Marsh
+River
+Amphibious
+
+}}
+}}
+|}
+
+## Heavy Chassis [verified for 1.16]
+
+These technologies serve to unlock new chassis that can be used for heavy tank , heavy sp aa , heavy sp art , and heavy td , as well as the Heavy Flame Tank support company. They can also be used for heavy amphibious tank . In the late game, they can also be used to unlock super-heavy chassis that can be used for s heavy tank , s heavy sp aa , s heavy sp art , and s heavy td support company; with Götterdämmerung , these can also lead to the development of equipment for the monstrous Land Cruiser support company. Heavy chassis technologies can act as alternative prerequisites to medium chassis technologies for unlocking modern chassis that can be used for modern tank , modern sp aa , modern sp art , and modern td .
+
+Heavy chassis vehicles tend to be amazing in terms of combat effectiveness, but have incredibly high production and resource costs. They also tend to be much slower than their lighter cousins and receive greater terrain penalties than them in more adverse conditions. Still, on the attack on the battlefield, they are essentially peerless, and opponents who face these vehicles will either have to match them with their own or find a less conventional way of dealing with them.
+
+Technology:
+FOCUS Basic Heavy Tank Chassis: A large chassis that can mount a heavy gun, thick armor, or both.
+Year: 1934
+Base time: 220 days
+Prerequisites: Inter-War Tank Development
+Effects:
+Enables
+Basic Heavy Tank Chassis 1 steel manpower 2
+Breakthrough 20.0
+Max Speed 6.3 km/h
+Reliability 80%
+Production cost 12.80 Defense 2.0
+Hardness 95%
+Armor 55.0
+Fuel Usage 2.00
+
+Technology:
+FOCUS Improved Heavy Tank Chassis: A large chassis that can mount a heavy gun, thick armor, or both.
+Year: 1940
+Base time: 275 days
+Prerequisites: Basic Heavy Tank Chassis
+Effects:
+Enables
+Improved Heavy Tank Chassis 1 steel 1 chromium manpower 2
+Breakthrough 20.0
+Max Speed 6.3 km/h
+Reliability 110%
+Production cost 13.60 Defense 2.0
+Hardness 95%
+Armor 60.0
+Fuel Usage 2.00
+
+FOCUS Super-Heavy Tank Chassis: A gigantic vehicle, capable of mounting the heaviest armor and the biggest gun, but consequently fairly slow and unreliable.
+1941
+330 days
+Improved Heavy Tank Chassis
+{{Collapse|
+Enables
+Super-Heavy Tank Chassis 3 steel 2 chromium manpower 2
+Breakthrough 26.0
+Armor 90.0
+Fuel Usage 2.00 Defense 2.0
+Max Speed 4.9 km/h
+Reliability 90%
+Production cost 50.70
+Super-Heavy Cannon 5 tungsten 2 chromium Soft attack 35.0
+Max Speed -0.6 km/h
+Reliability -35% Hard attack 45.0
+Piercing 225.0
+Production cost 12.50
+{{Equipment
+width=31em
+name=Super-Heavy Tank
+file=Super_heavy_tank
+left=manpower 500
+Recovery Rate 0.30
+Suppression 2.5
+HP 2.0
+right=Training time 180
+Supply Use 0.40
+Organization 10
+Weight 1.0
+adjusters=
+Forest
+Hills
+Mountain
+Urban
+Jungle
+Marsh
+Fort
+River
+Amphibious
+
+}}
+Unlocks
+ Land Cruiser
+}}
+|-
+| FOCUS Advanced Heavy Tank Chassis: A large chassis that can mount a heavy gun, thick armor, or both.
+| 1943
+| 275 days
+| Improved Heavy Tank Chassis
+|
+Enables
+Advanced Heavy Tank Chassis 2 steel 1 chromium manpower 2
+Breakthrough 20.0
+Max Speed 6.3 km/h
+Reliability 120%
+Production cost 14.40 Defense 2.0
+Hardness 95%
+Armor 75.0
+Fuel Usage 2.00
+|}
+
+# Upgrades [verified for 1.16]
+
+## Armor Upgrades [verified for 1.16]
+
+These technologies increase the maximum amount of armor upgrades available in the tank designer, allowing tanks to resist more damage at the expense of increased cost and decreased speed and reliability. Some also unlock new armor and defensive special modules.
+
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Basic Armor Protection: Tanks during the Great War only had to contend with enemy small arms. As such, they got away with fairly thin armor. A new generation of anti-tank weaponry has made the battlefield a much more dangerous place for a tank, and much heavier protection is needed.
+| 1935
+| 110 days
+
+|
+Enables
+Armor Upgrades values of 5 and above.
+Welded Armor 1 chromium Armor plates are welded to the chassis. A faster process than casting, while still providing good protection. Defense 4.0
+Armor +30% Breakthrough 4.0
+|-
+| FOCUS Improved Armor Protection: With heavier and heavier anti-tank weapons being fielded around the world, the next generation of tanks will require even better protection.
+| 1938
+| 110 days
+| Basic Armor Protection
+|
+Enables
+Armor Upgrades values of 10 and above.
+Armor Skirts A set of thin metal plates mounted on the side of the vehicle, giving additional protection against anti-tank rifles and shaped charges. Breakthrough 3.0
+Production cost 0.50 Armor 3.0
+|-
+| FOCUS Advanced Armor Protection: While the limit of deployed anti-tank guns has likely been reached, a new generation of tanks will carry more advanced weaponry, which is able to pierce any current level of protection at long range.
+| 1941
+| 110 days
+| Improved Armor Protection
+|
+Enables
+Armor Upgrades values of 15 and above.
+Armored Skirts
+|-
+| FOCUS Modern Armor Protection: During the war, the threats faced by tanks have multiplied, from enemy tanks, anti-tank guns, dedicated tank destroyers, all the way to modern infantry weapons firing shaped charges that can penetrate even heavy armor. We must develop new protection methods to keep our own tanks alive in the face of these threats.
+| 1944
+| 110 days
+| Advanced Armor Protection
+|
+Enables
+Armor Upgrades values of 18 and above.
+|}
+
+## Engine Upgrades [verified for 1.16]
+
+These technologies increase the maximum amount of engine upgrades available in the tank designer, allowing tanks to move faster at the expense of increased cost and fuel usage and decreased reliability.
+
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Basic Engine: Where the tanks of the Great War were slow, lumbering beasts, the modern tank relies very much on speed and mobility to achieve victory.
+| 1935
+| 110 days
+
+|
+Enables
+Engine Upgrades values of 5 and above.
+|-
+| FOCUS Improved Engine: With bigger guns and heavier armor, the new generation of tanks requires a more powerful engine to remain mobile.
+| 1938
+| 110 days
+| Basic Engine
+|
+Enables
+Engine Upgrades values of 10 and above.
+|-
+| FOCUS Advanced Engine: Mechanized warfare is a form of combat that requires fast decision making and fast movement of troops and supplies. If our tanks are to carry modern weapons and enough armor to survive on the battlefield, they require powerful engines to keep up with the motorized infantry.
+| 1941
+| 110 days
+| Improved Engine
+|
+Enables
+Engine Upgrades values of 15 and above.
+|-
+| FOCUS Modern Engine: The numerous new additions to tanks made necessary by modern warfare have increased the weight of the vehicle substantially. To move all that mass around, we require engines that have a lot of power behind them.
+| 1944
+| 110 days
+| Advanced Engine
+|
+Enables
+Engine Upgrades values of 18 and above.
+|}
+## Flamethrower Upgrades [verified for 1.16]
+
+This technology improves the terrain bonuses of light flame tank , medium flame tank , and heavy flame tank flame tanks and unlocks a more powerful armament for them.
+
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Advanced Flamethrower: Enhanced flamethrower systems, ideal for clearing fortified positions and inflicting devastating damage in close-quarters combat.
+| 1941
+| 110 days
+| * Flamethrower Tank
+- Inter-War Tank Development
+|
+Upgrades
+- light flame tank , medium flame tank , heavy flame tank :
+ - Forest :
+ - Attack: +5%
+ - Hills :
+ - Attack: +5%
+ - Urban :
+ - Attack: +5%
+ - Jungle :
+ - Attack: +5%
+ - Fort :
+ - Attack: +5%
+Enables
+Advanced Flamethrower Enhanced flamethrower systems, ideal for clearing fortified positions and inflicting devastating damage in close-quarters combat. Breakthrough 6.0
+Reliability -5% Soft attack 12.0
+Production cost 1.20
+|}
+
+## Land Cruiser Upgrades [verified for 1.16]
+
+ Götterdämmerung
+These technologies improve the capabilities of or unlock new modules for Land Cruisers . They all require having completed the Land Cruiser special project. Some also provide benefits for s heavy tank , s heavy sp aa , s heavy sp art , and s heavy td support companies.
+
+{| class="wikitable"
+|-
+! Technology
+! Year
+! Base time
+! style="width:10em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| FOCUS Naval Engine Conversion: Utilizing naval engineering techniques such as reinforced crankshafts, high-torque transmissions and specialized cooling systems can enhance the power output and durability of Land Cruiser engines, allowing them to better manage the immense weight and stress.
+| 1943
+| 110 days
+| * Land Cruiser
+- Super-Heavy Tank Chassis
+|
+Upgrades
+- Land Cruisers , s heavy tank :
+ - Supply Use: -2%
+ - Max Speed: +5%
+|-
+| FOCUS Transmission Improvements: Refined gear ratios, clutch mechanisms and torque converters to create more efficient transmissions capable of handling the extreme power and weight of Land Cruisers, improving overall mobility and reducing mechanical strain.
+| 1943
+| 110 days
+| * Land Cruiser
+- Super-Heavy Tank Chassis
+|
+Upgrades
+- Land Cruisers , s heavy tank :
+ - Supply Use: -2%
+ - Reliability: +5%
+ - Forest :
+ - Movement: +20%
+ - Hills :
+ - Movement: +20%
+ - Mountain :
+ - Movement: +20%
+ - Jungle :
+ - Movement: +20%
+|-
+| FOCUS Specialized Field Manuals: Developing detailed training manuals tailored for Land Cruiser crews, covering unique operational procedures, maintenance protocols, and complex battlefield tactics required to effectively command these giant war machines.
+| 1943
+| 110 days
+| * Land Cruiser
+- Super-Heavy Tank Chassis
+|
+Upgrades
+- Land Cruisers :
+ - Entrenchment: +5%
+ - Organization: +10
+ - HP: +5%
+|-
+| FOCUS High-Impact Obliterator Cannon: Specifically designed to penetrate extremely thick armor, this weapon’s high kinetic energy makes it a formidable counter against other super-heavy tanks.
+| 1943
+| 110 days
+| * Land Cruiser
+- Super-Heavy Tank Chassis
+|
+Enables
+High-Impact Obliterator Cannon
+|-
+| FOCUS Weapon Fire Control: Implementing advanced targeting optics, rangefinders, and gyroscopic stabilizers to enhance weapon accuracy and firing coordination, ensuring the guns can effectively engage targets despite their massive recoil and slow maneuverability.
+| 1945
+| 110 days
+| One of:
+ - Naval Engine Conversion
+ - Transmission Improvements
+ - Specialized Field Manuals
+|
+Upgrades
+- Land Cruisers :
+ - Defense: +10%
+ - Breakthrough: +10%
+|}
+
+# Secret Techs [verified for 1.16]
+
+These techs are only available for certain countries under the appropriate conditions.
+
+{| class="wikitable" style="width:100%"
+! Technology
+! style="min-width:30em;" | Prerequisites
+! style="width:32.5em;" |Effects
+|-
+| mountain_tanks
+| Can unlock this tech:
+- British Raj via RAJ_mountain_tanks
+|
+Upgrades
+- light tank medium tank heavy tank s heavy tank modern tank Tanks, spaa, spgs, tds, amphibious armor :
+ - Mountain :
+ - Attack: +15%
+ - Speed: +15%
+|-
+| NOR_rikstanken_tech
+| Can unlock this tech:
+- Norway via Rikstanken
+|
+Enables
+Improvised Turret It houses the gun, and can rotate. When it wants to. Breakthrough 1.0
+Production cost 0.1 Reliability -25%
+Makeshift Armor Made out of sheets of iron instead of steel to save money. Better than no armor... Probably. Defense 1.0
+Production cost -30% Hardness -30%
+|}
+
+# References

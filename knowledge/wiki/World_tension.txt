@@ -1,0 +1,230 @@
+TITLE: World tension
+URL: https://hoi4.paradoxwikis.com/World_tension
+REVISION: 2026-01-07T17:24:03Z (rev 96290)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+World Tension represents the overall level of fear and anxiety that exists among the nations of the World. The number displayed can be between 0% and 100%. Total World Tension can be higher than 100%, but there are no additional effects beyond the 100% limit—the overflow instead acts as a "buffer" against events that decrease Tension.
+
+The level of World Tension has several impacts on gameplay, in particular allowing or limiting political decisions, national focuses, and more. It is shown as an icon depicting Earth, with flames engulfing it more fully the higher current World Tension is. Generally, the higher the World Tension, the more popular support nations have for taking belligerent actions.
+
+# Impacts on world tension [verified for 1.17]
+
+## Increase in world tension
+The following increases the level of World Tension:
+- Declaring war
+- Annexing territory in a peace treaty which is not one's core, especially without claims
+- Sending volunteers
+- Joining a faction
+- Joining a war as an attacker
+- Justifying a wargoal
+- Revoking a guarantee
+- Certain focuses, decisions and events
+
+## Decrease in world tension
+The following can cause a decrease in World Tension:
+- Decay over time (0.5 per month)
+- Concluding a peace treaty
+- Changing the government of a country in a peace treaty
+- Annexing one's core territory in a peace treaty
+- Liberating a country in a peace treaty
+- Adding a demilitarized zone in a peace treaty By Blood Alone
+- A Democratic country guaranteeing a nation's independence
+
+## Decay over time
+World Tension is the sum of every positive and negative event that has occurred to date reduced by their decay. Each individual event will gradually decay toward 0 at -0.005 per day, or -1.825% per year. Note that this also affects events which reduce World Tension, e.g. peace treaties reduce World Tension, but their effects decay just like aggressive events. World Tension events from countries at war do not decay.
+
+# Effects
+## General effects [verified for 1.16]
+
+Some effects of World Tension affect countries independently of their ideology.
+
+Each percentage of World Tension reduces the time (and cost) of justifying of war goals by -0.005%, up to -50% at 100% World Tension.
+
+Each percentage of World Tension also increases War Support for all nations by +0.4%, up to +40% at 100% World Tension.
+
+Certain game actions require a minimum level of World Tension to have been reached before they can be taken. Calling other countries to get involved in an ongoing civil war requires at least 50% World Tension to have been reached. Some national focuses, mainly for the United Kingdom, Dominion of Canada, and Australia, require a certain threshold of World Tension to have been reached before they can be enacted.
+
+A lot of AI players' actions are also dictated by World Tension levels, especially in terms of how much World Tension a specific, target player has generated. At higher amounts of World Tension, the AI is less likely to accept conditional surrenders, and the AI is less willing to join factions with countries that have generated more World Tension and is more willing to embargo countries that have generated more World Tension.
+
+## Ideological effects [verified for 1.16]
+
+Different ideologies have different effects on World Tension—both in terms of generation and in terms of how much World Tension is needed to take certain actions.
+
+### Tension requirements
+Some national focuses can lower the threshold. Below you find the base threshold without any modifiers.
+
+Justify war goal
+-
+100%
+-
+50%
+
+Join faction
+-
+80%1
+-
+40%
+
+Lend-Lease
+50%
+50%
+50%
+60%
+
+Send volunteers
+-
+50%
+-
+40%
+
+Guarantee independence
+-
+25%
+-
+40%
+
+1 capped at 50% during a defensive war.
+
+### Communist
+World Tension threshold modifiers:
+
+- Send Lend-Lease: +50%
+
+### Democratic
+Democracies cannot justify war goals against other democracies.
+
+World Tension threshold modifiers:
+
+- Generate war goal: +100%
+- Join faction: +80%, capped at 50% during a defensive war.
+- Send Lend-Lease: +50%
+- Send volunteers: +50%
+- Guarantee independence: +25%
+
+### Fascist
+World Tension threshold modifiers:
+
+- Send Lend-Lease: +50%
+
+### Non-Aligned
+World Tension threshold modifiers:
+
+- Generate war goal: +50%
+- Join faction: +40%
+- Send Lend-Lease: +60%
+- Send volunteers: +40%
+- Guarantee independence: +40%
+
+## World tension needed for national focus [verified for 1.16]
+
+Some National Focuses can't be chosen unless world tension is above a certain limit. Most of them are also possible if the country is at war.
+
+For countries with a generic national focus tree, why_we_fight requires more than 75% World Tension if they are not in a defensive war.
+
+### Afghanistan
+- AFG_join_axis: Requires >25% World Tension
+- AFG_align_with_the_allies: Requires >45% World Tension
+- AFG_hot_war_with_pakistan: Requires >50% World Tension
+
+### Argentina
+- SMB_department_of_propaganda: Requires >49% World Tension
+
+### Australia
+- AST_establish_advisory_war_council: Requires >20% World Tension
+
+### British Raj
+- RAJ_provincial_elections: Requires >10% World Tension if not independent (without goe )
+
+### Brazil
+- SMB_department_of_propaganda: Requires >49% World Tension
+
+### Bulgaria
+- BUL_join_the_tripartite_pact: Requires >35% World Tension
+
+### Chile
+- SMB_department_of_propaganda: Requires >49% World Tension
+- CHL_protect_the_easter_island: Requires >50% World Tension
+
+### Czechoslovakia
+- CZE_defensive_preparations: Requires >10% World Tension
+
+### Dominion of Canada
+- Shadow Factories: Requires >5% World Tension
+- CAN_dominion_rifle_association: Requires >15% World Tension if not independent
+- Defense of Canada Regulations: Requires >20% World Tension
+
+### Denmark
+- DEN_reclaim_norway: Requires >15% World Tension if Fascist , >20% World Tension if Non-Aligned
+- DEN_secure_swedish_steel: Requires >20% World Tension
+- DEN_total_war: Requires >90% World Tension
+
+### Finland
+- FIN_extra_refresher_exercises: Requires >25% World Tension
+- FIN_weapon_caches: Requires >35% World Tension
+- FIN_northern_defense_front: Requires >50% World Tension
+- FIN_the_lone_wolf: Requires >50% World Tension
+- FIN_approach_major_democracies: Requires >55% World Tension
+- FIN_join_the_allies: Requires >55% World Tension
+- FIN_operation_kilpapurjehdus: Requires >70% World Tension
+- FIN_viron_kansa: Requires >70% World Tension if not Fascist
+
+### Germany
+- GER_mass_production: Requires >15% World Tension
+- GER_build_defense_industry: Requires >30% World Tension
+
+### Iceland
+- ICE_united_we_stand: Requires >5% World Tension
+- ICE_declare_absolute_neutrality: Requires >5% World Tension
+- ICE_the_armed_forces_of_iceland: Requires >10% World Tension
+- ICE_not_standing_idly_by: Requires >15% World Tension
+- ICE_political_unity: Requires >15% World Tension
+
+### Mexico
+- MEX_focus_rescind_the_mexican_cession: Requires >50% World Tension
+
+### Netherlands
+- HOL_protect_against_britain: Requires >10% World Tension
+- HOL_germany_is_the_greater_threat: Requires >10% World Tension
+- HOL_further_reinforce_the_ports: Requires >15% World Tension
+- HOL_fortress_holland: Requires >15% World Tension
+- HOL_war_on_pacifism: Requires >15% World Tension
+- HOL_secret_staff_talks: Requires >15% World Tension
+- HOL_expand_curacao_oil_refineries: Requires >20% World Tension
+- HOL_southward_defenses: Requires >20% World Tension
+- HOL_modernize_the_grebbeline: Requires >20% World Tension
+- HOL_go_with_britain: Requires >25% World Tension
+
+### Poland
+- POL_join_allies: Requires >40% World Tension if not Democratic
+- POL_preserve_bougoise_democracy: Requires >40% World Tension if not Democratic
+- POL_trust_in_the_west: Requires >40% World Tension if not Democratic and do not have >40% Democratic support
+- POL_ROM_join_allies: Requires >40% World Tension if not Democratic and do not have >40% Democratic support
+
+### Portugal
+- POR_securing_the_free_world: Requires >40% World Tension
+
+### Romania
+- ROM_king_michaels_coup: Requires >25% World Tension
+
+### South Africa
+- SAF_war_measures_act: Requires >20% World Tension if Democratic
+
+### Soviet Union
+- SOV_move_industry_to_the_urals: Requires >85% World Tension
+
+### Sweden
+- SWE_the_old_enemy_stirs: Requires >10% World Tension or >8% War Support
+
+### United Kingdom
+- Air Defense: Requires >5% World Tension if Democratic
+- The Shadow Scheme: Requires >5% World Tension if Democratic
+- General Rearmament: Requires >20% World Tension if Democratic
+- Issue Gasmasks: Requires >20% World Tension
+- Military Training Act: Requires >50% World Tension
+
+### United States
+While the United States does not have hard World Tension thresholds for its national focuses, Two Ocean Navy Act and Selective Training Act require higher support in Congress if World Tension is less than 50%. It can also struggle to get the War Support it needs for The Giant Wakes if World Tension is kept low.
+
+# References

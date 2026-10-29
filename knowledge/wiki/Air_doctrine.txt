@@ -1,0 +1,318 @@
+TITLE: Air doctrine
+URL: https://hoi4.paradoxwikis.com/Air_doctrine
+REVISION: 2025-11-23T11:46:27Z (rev 92884)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Air doctrine allows a nation to specialize the way its air force conducts air warfare. Air doctrines can be reviewed and unlocked from the Officer Corps using air exp . There are three mutually exclusive doctrine trees.
+3
+
+# Doctrine Overviews [verified for 1.16]
+
+- Strategic Destruction
+- By bombing the enemies factories, either by night, or more dangerously, during the day we can seriously hinder their war machine.
+
+This is a doctrine focused primarily on offensive strategic bombing and the fighters that are meant to escort these bombers. It provides a plethora of bonuses to fighters early on in its tree, then fills the latter half of the tree with various bonuses to strategic bombing. It also provides the best bonuses to naval bombers, including those launched from carriers. Its exclusive Officer Corps spirits of Industrial Destruction and Total Devastation encourage the use of strategic bombers. However, it provides next to no bonuses to close air support besides reducing their disruption from enemy fighters. It also forces the country to choose whether to receive bonuses to interception or air superiority for fighters, preventing them from being used more flexibly.
+
+Historically, strategic bombing was deployed extensively by all sides during the second world war. However, it was primarily the air forces of the United Kingdom and the United States that would field large fleets of heavy bombers meant to destroy enemy industry, infrastructure, and morale. Allied strategic bombing campaigns in Europe and Asia had a famously pivotal role in their victory over the Axis. The German Reich, having had their heavy bomber program atrophy in favor of dive bombers, also tried their hand at strategic bombing later in the war with their V1, V2, and V3 Revenge Weapon programs to much more limited success.
+
+Major air powers who wish to use strategic bombing to destroy their enemies' infrastructure and industry can benefit a lot from following this doctrine. However, because all of its bonuses to fighters are all available early in its tree, even more minor air powers with limited access to air exp can find this doctrine useful.
+- Battlefield Support
+- By improving how close air support interacts with divisions we can lay waste to enemy divisions with optimal support.
+
+This doctrine is overwhelmingly focused on close air support and their ability to support ground troops in land battles. While it gives some bonuses to fighters, naval bombers, and strategic bombing, the bulk of its bonuses are geared towards close air support, air support, and the ground support received by ground troops as a result of air support. Its exclusive Officer Corps spirits of Dive Bombing and Continuous Strike not only encourage the use of close air support aircraft, but can also make them surprisingly good at shooting back at any intercepting fighters when they are equipped with the Air Attack to do so. However, this focus on close air support comes at the cost of almost everything else. This doctrine has the worst bonuses to fighters out of all three doctrines and provides very few bonuses to large airframes performing strategic bombing. Even though tactical bombers do nominally benefit from both ground support bonuses and several strategic bombing bonuses, they are much more vulnerable with this doctrine thanks to how much worse the fighters that would need to escort them would perform against interceptors.
+
+Dive bombing would see a lot of attention and development in the run-up to the second world war, especially by the forces of the United Kingdom, the United Kingdom, Japan, and the German Reich. Although the first three would primarily focus their dive bomber efforts on naval torpedo bombers, the German Reich would whole-heartedly embrace their use for supporting ground troops. This would be mirrored by the Soviet Union, who made extensive use of small, single-engine bombers in their fight against their foes.
+
+As advertized, this doctrine is very useful for air powers who plan on primarily using close air support and little to nothing else in their air forces. However, this doctrine is also the most useful one for minor powers without an air force, as their ground forces can still benefit from the ground support bonuses given by this doctrine when they are supported by allied air forces.
+- Operational Integrity
+- Tactical bombers are flexible and can perform both ground support and regular bombing.
+
+This is a somewhat generalist doctrine that focuses a lot on flexible use of fighters and avoiding losses for bombers. It does also improve naval bombing as well as strategic bombing done by smaller, tactical bombers, but the bulk of its bonuses are given to fighters, both on the offense when trying obtain air superiority and on the defense when trying to intercept enemy bombers. When fully complete, the fighter bonuses from this doctrine are better than any other doctrine (though the difference between it and Strategic Destruction are quite small). Its exclusive Officer Corps spirits of Material Destruction and Massed Strike benefit the use of tactical bombers and fighters for establishing air superiority. Finally, this is doctrine offers the highest amount of air wing experience gain out of all doctrines, which means air wings that survive air missions improve in effectiveness faster, and air wings that take losses lose effectiveness slower. The doctrine definitely has its drawbacks, though. It provides very few bonuses to close air support or strategic bombers, and although it can provide the best stats for fighters to help establish air superiority, once that has been established, it also provides worse air superiority bonuses compared to both other doctrines and so often needs more fighters to get the same benefits, even with the help of Massed Strike . Unlike Strategic Destruction, its fighter bonuses are also scattered throughout their tree, requiring a lot more air exp investment to unlock comparable fighter bonuses.
+
+Although tactical and strategic levels of military thinking have a long history, the idea of there needing to be dedicated considerations for an in-between, so-called "operational" level of thinking was very new at the time of the second world war. This extended to the use of air forces as well and their ability to be used not just tactically against ground combat forces or strategically against enemy industry and infrastructure, but also operationally against operational targets like supply depots, combat airfields, and signaling infrastructure. While German Reich's and Japan's air forces would find success targeting their enemies' air fields in the opening moves of some of their major operations, it was eventually the Allied forces of the United Kingdom, the United States, and the Soviet Union that would put this practice to its best use.
+
+Having a more generalist focus, this doctrine is well-suited for air powers who are not sure how they will want to use their air forces going forward, as well as by those who know they will focus heavily on fighters. While focusing on fighters can be cost-effective for minor powers who expect to have to face much larger and better-equipped air forces themselves, the high air exp requirements of this doctrine can prove to be an obstacle.
+
+# Researching Doctrines [verified for 1.16]
+
+Each individual doctrine has a base cost of 100 air exp to unlock. This cost may be modified by spirits, advisors, and special bonuses from focuses, events, or decisions.
+
+It is possible to change doctrine tree at any point, but all bonuses from previously unlocked doctrines are lost when unlocking a different doctrine tree. Any doctrine-exclusive Officer Corps spirits are also automatically switched to different ones when a different doctrine tree is selected.
+
+## Starting Doctrines
+
+Some nations start the game with a air doctrine pre-selected and unlocked. They can still change doctrines as normal, though sticking with their starting doctrine can cost them less air exp in the long run.
+
+Starting Doctrine: Strategic Destruction
+Countries (1939 Only):
+- Afghanistan
+- Argentina
+- Australia
+- Belgium
+- Bolivia
+- Brazil
+- British Malaya
+- China
+- Chile
+- Colombia
+- Communist China
+- Costa Rica
+- Cuba
+- Denmark
+- Dominican Republic
+- Ecuador
+- El Salvador
+- Estonia
+- Greece
+- Guatemala
+- Haiti
+- Honduras
+- Hungary
+- Iceland
+- Ireland
+- Iraq
+- Latvia
+- Liberia
+- Lithuania
+- Luxembourg
+- Mexico
+- Mongolia
+- Nepal
+- Netherlands
+- New Zealand
+- Norway
+- Panama
+- Paraguay
+- Persia
+- Peru
+- Philippines
+- Poland
+- Portugal
+- South Africa
+- Shanxi
+- Spain
+- Sweden
+- Switzerland
+- Tibet
+- Turkey
+- Uruguay
+- United States
+- United Kingdom
+- Venezuela
+- Yugoslavia 3
+
+Starting Doctrine: Battlefield Support
+Countries:
+- German Reich
+- East Germany
+- West Germany
+- Mecklenburg
+- Prussia
+- Saxony
+- Schleswig-Holstein
+- Thuringia
+- Generalgouvernement
+- Reichskommissariat Australasien
+- Reichskommissariat Anden
+- Reichskommissariat Arabien
+- Reichskommissariat Balkan
+- Reichskommissariat Belgien-Nordfrankreich
+- Reichskommissariat Großbritannien
+- Reichskommissariat Hindustan
+- Reichskommissariat Iberien
+- Reichskommissariat Kaukasien
+- Reichskommissariat Klein-Venedig
+- Reichskommissariat Kolumbus
+- Reichskommissariat Mittelafrika
+- Reichskommissariat Moskowien
+- Reichskommissariat Niederlande
+- Reichskommissariat Nordafrika
+- Reichskommissariat Nordamerika
+- Reichskommissariat Norwegen
+- Reichskommissariat Ostasien
+- Reichskommissariat Ostland
+- Reichskommissariat Turkestan
+- Reichskommissariat Ukraine
+- Reichskommissariat Ural 3
+Countries (1939 Only):
+- Soviet Union
+- Slovakia 3
+
+Starting Doctrine: Operational Integrity
+Countries (1939 Only):
+- British Raj
+- Bulgaria
+- Dominion of Canada
+- Finland
+- France
+- Italy
+- Japan
+- Romania 3
+
+# Definitions and Terminology [verified for 1.16]
+
+- Air Superiority Mission Efficiency: Improves air attack, air defense, and agility for planes on this mission. See Missions.
+- Air Superiority: Increases the contribution of planes on Air Superiority to their air zone's air superiority. See Air superiority.
+- Escort Efficiency: Reduces disruption from enemy attacks.
+- Interception Mission Efficiency: Improves air attack, air defense, and agility for planes on this mission. See Missions.
+- Air Support Mission Efficiency: Improves air attack, air defense, and agility for planes on this mission. See Missions.
+- Naval Mission Efficiency: Improves air attack, air defense, and agility for planes on this mission. See Missions.
+- Bomber Defense: Increases the air defense for planes on Strategic Bombing mission. See Air Defense.
+- Strategic Bombing: Improves Strategic Bombing damage for planes on that mission.
+- Ace generation chance: Increase the probability of generating aces during missions.
+- Night-time strategic bombing penalty: Reduces the negative effects of night for planes on Strategic Bombing mission, notably the Ground Bombing Targeting penalty.
+- Strategic Bombing Visibility: Counteracts enemy detection when on Strategic Bombing mission, reducing the maximum number of enemy planes responding to the bombers. See Detection, Disruption, Damage.
+- Fighter Detection: Increases the amount of detection planes on Air Superiority mission contribute to the region. See Detection, Disruption, Damage.
+- Interception Detection: Increases the amount of detection planes on Interception mission contribute to the region. See Detection, Disruption, Damage.
+- Ground Support : Increases the scaling rate of the Enemy Air Support bonus provided by air superiority. See Air superiority.
+- Enemy Air Support: Modifies the negative effect enemy air superiority has on the combat ability of our ground troops. See Land_battle#Combat_factors.
+
+# Doctrine Trees
+## Strategic Destruction [verified for 1.16]
+
+Air Superiority Achieving Air Superiority will make it more difficult for enemy bombers to be used against our country, to allow our bombers to be used against our enemies. *Fighter Detection: +10%
+Infrastructure Destruction Training our pilots in the best ways to attack infrastructure, like railways and bridges, makes for more effective Tactical bombing. *Ground support: +10% Home Defense Spotters on the ground as well as detection and listening posts work in concert with our airforce to track and destroy enemy incursions. *Interception Detection: +10%
+Naval Strike Tactics Training pilots in predicting ship movements and coordinating attacks will make our air raids on enemy ships more efficient. *Naval Mission Efficiency: +15%
+Fighter Sweeps Aggressive patrols of fighters over enemy territory may catch their planes taking off or landing, when they are especially vulnerable, or disrupt enemy training flights. *Interception Mission Efficiency: +20%
+- Air Wing Mission Experience Gain: +5% Dogfighting Experience It's not easy to keep track of the relative positions of friends and foes in the hectic swirl of a dogfight, but as our pilots gain experience they become more adept at it. *Air Superiority Mission Efficiency: +20%
+- Air Wing Mission Experience Gain: +5%
+Multi-Altitude Flying Air combat takes place in three dimensions, but most pilots find it harder to keep track of planes flying above or below them. We can take advantages of this by spreading our formations vertically. *Fighter, Heavy Fighter:
+- Agility: +10%
+Logistical Bombing A greater focus on attacking the enemy's supply lines from the air gives a greater advantage to our own ground forces in the area. *Air Superiority: +15%
+Night Bombing With enemy defenses lowered and our bombers covered by darkness we can stay offensive and efficient around the clock. Show our enemy how persistent we are. *Night-time strategic bombing penalty: −50% Day Bombing Focused efforts during the day are devastating due to the big advantage of visibility. Projection of power is a welcome side effect. *Strategic Bombing: +30%
+Massed Bomber Formations By staying in formation our bombers can defend their group and increase our chances of successful bomb drops. *Strategic Bombing: +20% Fighter Escorts With a focus on bombing during the day we need to keep our bombers safe from intercepting fighters. Training our fighter pilots to work closely with the bombers will improve their fighting abilities when protecting the bombers in enemy airspace. *Escort Efficiency: +25%
+Flying Fortress Fitting our high-flying heavy bombers with guns to defend themselves and enough armor to take a beating and still return home. *Bomber defense: +25%
+Offensive Formations Training in more offensively-oriented formations make our fighters deadlier in combat. *Air Superiority: +15% Mass Destruction Bombers are equipped with the most devastating weapons in great quantities. Guaranteeing results even if only a few of our pilots get through. *Strategic Bombing: +20%
+
+## Battlefield Support [verified for 1.16]
+
+Formation Flying By flying in formation planes can provide support to each other or work together to attack enemies. *Fighter Detection: +15%
+- Air Wing Mission Experience Gain: +5%
+Dive Bombing Dive bombing allows greater accuracy, but for best results it requires specialized aircraft both able to slow their dives and survive the stresses of pulling out of them. *Air Support Mission Efficiency: +20%
+- Ground attack factor: +10.0%
+Direct Ground Support By closely coordinating CAS pilots with ground-based observers aerial firepower can be precisely directed to best help troops in battle. *Ground Support: +20%
+Formation Fighting Flying in the right formations allow our pilots to cover each other's blind spots, which leads to an increased ability to spot enemy planes. *Air Superiority Mission Efficiency: +15%
+- Air Wing Mission Experience Gain: +5% Fighter Ace Initiative Giving special awards and status to pilots who achieve Ace status, by shooting down 5 enemies, incentives risk-taking and brings about a sense of eliteness in Ace pilots - although this does tend to make experienced pilots stay in combat positions. *Ace generation chance: +25%
+- Air Wing Mission Experience Gain: +5%
+Hunt and Destroy As well as offering direct fire support CAS units can independently hunt for targets, often attacking enemy ground forces unexpectedly as they move towards the front lines. *Air Support Mission Efficiency: +20%
+Combat Unit Destruction Training our CAS pilots to repeatedly attack the same target until it is confirmed to be destroyed ensures targets aren't left alone after a near miss. *Close Air Support:
+- Agility: +20%
+Air Superiority: +10%
+Battlefield Support It is difficult for Tactical bombers to attack targets near where our ground forces are in combat, since level bombing is less accurate than dive bombing, but more training and interaction with ground-based observers can help to overcome these problems. *Air Superiority: +20% Keypoint Bombing Accurately bombing targeted key points on the battlefield in support of our ground forces can greatly help them to defeat the enemy. *Tactical Bomber:
+- Strategic Bombing: +10% Ground Support Integration Fully integrating our Tactical bomber force with ground based observers both increases their accuracy and allows them to directly support our ground forces in combat. *Ground Support: +20%
+Naval Strike Torpedo Tactics Training pilots to strike more precisely with torpedos will make our air raids on enemy ships more efficient. *Naval Mission Efficiency: +10%
+Strategic Destruction Our pilots can access strategic targets much faster than our naval or land forces. With no means to equip their new recruits we will soon outnumber the enemy forces. *Strategic Bombing: +15%
+Forward Interception By operating closer to enemy airspace it becomes more likely that our fighters can intercept enemy planes before they can reach their targets. *Interception Detection: +15%
+
+## Operational Integrity [verified for 1.16]
+
+Force Rotation Combat, or simply long periods of extensive focus, is exhausting, but by swapping in fresh forces whenever possible we can reduce errors due to pilot fatigue. *Interception Detection: +20%
+- Air Wing Mission Experience Gain: +5%
+Fighter Baiting By appearing vulnerable, our fighters can lure hostile aircraft into ambushes. *Interception Mission Efficiency: +20%
+- Ace generation chance: +10%
+Low Echelon Support By assigning CAS units directly to small ground formations it ensures they always have additional firepower to call on, even when out of range of traditional artillery. *Ground Support: +10%
+Dispersed Fighting Adopting a more dispersed formation allows the same number of planes to patrol a greater area. *Fighter Detection: +20%
+Operational Destruction Attacking the supply lines of enemy ground forces hinders their ability to move between battlefields. This translates to an advantage to our army while operating in areas we have Air Superiority. *Air Superiority: +15%
+Fighter Veteran Initiative A focus on long-term pilot survival, both by prudent tactics and by rotating experienced pilots to training positions, means that they can pass on the lessons they have learned to new pilots. *Fighter, Heavy Fighter:
+- Agility: +10%
+Air Wing Training Experience Gain: +10% Ground Attack Veteran Initiative A policy of having veteran pilots pass on their knowledge to new recruits greatly helps their survival prospects. *Air Support Mission Efficiency: +15%
+- Air Wing Training Experience Gain: +10%
+Naval Strike Torpedo Tactics Training pilots to strike more precisely with torpedoes will make our air raids on enemy ships more efficient. *Naval Mission Efficiency: +10% Carousel Bombing Bombers often simply want to dump all their bombs as soon they they reach their target area and then fly home as soon as possible. While this can work for area-bombing, when it comes to hitting a small target it is more effective to linger over the target, dropping only a portion of their bomb load at a time for maximum accuracy. *Tactical Bomber:
+- Strategic Bombing: +20%
+Infiltration Bombing Joining enemy formations or tailing them back home to base may seem like madness. With enough practice, it is entirely possible. *Strategic bombing visibility: −50%
+Air Skirmish Regrettably, it is not always possible to destroy every single enemy plane found over our country, but it is possible to harass them from the moment they are spotted until the moment they leave, constantly wearing them down. *Air Superiority Mission Efficiency: +20%
+- Ace generation chance: +10%
+High Level Bombing From higher altitudes we can avoid some aerial engagements and anti aircraft weaponry. Dropping bombs higher up requires more precision, but it is safer. *Bomber Defense: +20%
+
+# Comparison Tables [verified for 1.16]
+
+Doctrine with Variation: Strategic Destruction Path L & L
+Fighter Detection: +10%
+Ground Support: +10%
+Interception Detection: +10%
+Naval Mission Efficiency: +15%
+Interception Mission Efficiency: +20%
+Air Superiority Mission Efficiency: 0
+Air Support Mission Efficiency: 0
+Air Superiority: +30%
+Night Time Strategic Bombing Penalty: −50%
+Strategic Bombing: +40%
+Escort Efficiency: 0
+Bomber Defense: +25%
+Ace Generation Chance: 0
+Air Wing Mission Experience Gain: +5%
+Strategic Bombing Visibility: 0
+
+Strategic Destruction Path L & R
++10%
++10%
+
+Strategic Destruction Path R & L
++10%
++10%
+
+Strategic Destruction Path R & R
++10%
++10%
+
+Doctrine with Variation: Battlefield Support Path L
+Fighter Detection: +15%
+Ground Support: +40%
+Interception Detection: +15%
+Naval Mission Efficiency: +10%
+Interception Mission Efficiency: 0
+Air Superiority Mission Efficiency: +15%
+Air Support Mission Efficiency: +40%
+Air Superiority: +30%
+Night Time Strategic Bombing Penalty: 0
+Strategic Bombing: +15%
+Escort Efficiency: 0
+Bomber Defense: 0
+Ace Generation Chance: 0
+Air Wing Mission Experience Gain: +10%
+Strategic Bombing Visibility: 0
+
+Battlefield Support Path R
++15%
++40%
+
+Operational Integrity Path
++20%
++10%
+
+Doctrine with Variation: Strategic Destruction Path L & L
+Fighter, Heavy FighterAgility: +10%
+Close Air SupportAgility: 0
+Tactical BomberStrategic Bombing: 0
+
+Doctrine with Variation: Strategic Destruction Path L & R
+Fighter, Heavy FighterAgility: +10%
+Close Air SupportAgility: 0
+Tactical BomberStrategic Bombing: 0
+
+Doctrine with Variation: Strategic Destruction Path R & L
+Fighter, Heavy FighterAgility: +10%
+Close Air SupportAgility: 0
+Tactical BomberStrategic Bombing: 0
+
+Doctrine with Variation: Strategic Destruction Path R & R
+Fighter, Heavy FighterAgility: +10%
+Close Air SupportAgility: 0
+Tactical BomberStrategic Bombing: 0
+
+Doctrine with Variation: Battlefield Support Path L
+Fighter, Heavy FighterAgility: 0
+Close Air SupportAgility: +20%
+Tactical BomberStrategic Bombing: +10%
+
+Doctrine with Variation: Battlefield Support Path R
+Fighter, Heavy FighterAgility: 0
+Close Air SupportAgility: +20%
+Tactical BomberStrategic Bombing: +10%
+
+Doctrine with Variation: Operational Integrity Path
+Fighter, Heavy FighterAgility: +10%
+Close Air SupportAgility: 0
+Tactical BomberStrategic Bombing: +20%

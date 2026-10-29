@@ -1,0 +1,55 @@
+TITLE: International market
+URL: https://hoi4.paradoxwikis.com/International_market
+REVISION: 2025-04-19T14:50:28Z (rev 83405)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Arms Against Tyranny
+For the buying and selling of resources, see Trade.
+
+The international market allows countries to buy and sell their equipment to countries across the world for industrial capacity .
+
+# Economic Capacity Surplus
+
+Economic Capacity Surplus (ECS) is the currency of the international market. Purchases made on the market are paid for by allocating civilian factories to pay for each purchase, and their output is translated into ECS for the seller.
+
+ECS functions as additional civilian factory output used to boost construction. It creates a temporary construction boost for each construction line (starting from the top of the country's construction queue), up to the country's maximum construction line speed boost per line. By default, this is a 0.25 Construction Speed bonus, but it is almost always modified by the country's trade law. The final maximum bonus available for most countries ranges between +22.5% on Closed Economy to +27.5% on Export Focus . As construction is performed with the boost created by ECS, ECS is slowly drained until it reaches 0, at which point the boost deactivates.
+
+# Market Access
+
+Market access is a mutual agreement between two countries that allows them to view and make offers to purchase equipment put up for sale by the other side. Opinion and ideology are the primary factors in the willingness of AI to agree to market access, while countries at war or with an embargo do not have market access to each other. Full market access is guaranteed between faction members and between subjects and their overlords.
+
+Negotiate market access in the diplomacy menu is used to send a request to access the country's market. This process is automated by default, but can be set to be done only manually in their market settings.
+
+Upon market access becoming impossible due to a declaration of war or embargo from either side, all active contracts will get cancelled.
+
+# Purchasing
+
+To begin buying equipment from the international market, the player first needs to open the "Market Tab" (hotkey E) found in the tools bar between Research and Trade. Then, they can select the "Buy Equipment" page to see a list of equipment available for them to buy from different countries at various prices.
+
+After choosing some equipment to purchase, a player will need to fill in a Purchase Draft that determines how much of the equipment is to be bought, the terms of payment, and the delivery of the equipment. Each civilian factory assigned to a purchase produces ECS used to pay for it. The more factories are assigned, the fewer Deliveries will be required to complete the purchase, up to at most 15 civilian factories assigned to a single contract. Deliveries have weight that must be transported by convoys, however, so delivering more equipment and less time will increase the amount of convoys required to take on the deliveries. Once a player has submitted their draft for a purchase request, it will need to be accepted by the country selling, who will also see the terms of the purchase.
+
+Whether the AI accepts a purchase requests is based on similar requirements as with market access. However, the AI tends to prefer shorter contracts and can sometimes deny purchase requests that it feels will take too long. It also factors the purchasing country's trade influence with them into its decision-making.
+
+Once a purchase is accepted, its assigned civilian factories will start generating ECS to the seller, while the buyer gets batches their purchased equipment delivered every 30 days. Each delivery requires convoys from the buyer to transport, and equipment can get lost in transit if convoys are intercepted and sunk by enemies. A country's active equipment import routes are visible to them on the map, similar to resource trade routes and lend-lease routes. Players can review their ongoing purchases from the default International Market screen. Canceling ongoing purchase requests can be done from the same screen.
+
+# Selling
+
+To sell equipment to the international market, the player first needs to open the "Market Tab" (hotkey E) found in the tools bar between Research and Trade. Then, they can select the "Sell Equipment" page, which will display all current sell offers that the country still has active on the market. Selecting the "Add equipment to market" button allows new sell offers to be submitted.
+
+A sell offer has three parts: the equipment being sold, the amount being sold, and the price that its purchaser will need to pay. Only equipment that a country currently has in stockpile can be put into sell offers, numbering only up to however many the country has of that particular equipment in its stockpiles. There are three options for price: low, normal and high. At normal price, the buyer will pay 2 the Production Cost of the equipment being sold in ECS. Low prices will reduce this by -25%, while high prices will increase this by +25%. Once a sell request is submitted, all offered equipment is removed from the country's stockpiles, though it can be made available by canceling the sell offer.
+
+After submitting a sell offer to the international market, all countries who have market access to the seller can see the offer and submit requests to purchase equipment based on the offer's terms. As soon as such a request is submitted, the game will reserve the corresponding amount of equipment from the sell offer until the request is accepted or denied, making it unavailable to other countries during this time. When reviewing a purchase request, the player will be shown who is purchasing what equipment, using how much ECS over how many deliveries (and therefore how much ECS the seller receives each month from the purchase). Purchase requests must be manually reviewed and approved by default, however, this can be changed through the Market Options menu to allow the automatic accepting of purchase requests.
+
+Active, unclaimed sell offers that a country has on the international market can be reviewed through the same "Sell Equipment" page at any time. This page also allows sell offers to be removed or edited, including changing the amount of equipment on offer and/or its price. Doing so will not affect the terms of currently ongoing purchases, however.
+
+# Subsidies
+
+Subsidies are somewhat-free ECS that can be gained through certain national focuses, decisions, and events. They have an associated ECS value that can be used for purchases on the international market.
+
+When they are granted, subsidies are usually only applicable to certain types of equipment: light tanks, fighter aircraft, towed artillery, etc. They also often can only be applied when purchasing equipment from a specific country, usually from a major power like the German Reich, the Soviet Union, or the United States.
+
+When a subsidy is being applied to a purchase from the international market, it will increase the ECS being paid out to the seller by +100%. This means that for each civilian factory allocated to the purchase order, the seller is gets compensated for 2 civilian factories ' worth of ECS per day. Doing so will drain the subsidy's value over time until it has given its value's worth of additional ECS, at which point it disappears.
+
+# References

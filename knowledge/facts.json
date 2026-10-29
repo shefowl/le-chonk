@@ -1,0 +1,891 @@
+[
+ {
+  "q": "Hearts of Iron IV France focus tree guide Defensive Focus Firepower Kills Army Reform Victors of the Great War",
+  "answer": "The search results partly answer this, but note that the Paradox Wiki pages returned a “Client Challenge” error, so only the mobile-section snippet and a 2023 guide are usable.\n\nFor France’s defensive branch in Hearts of Iron IV, the focus tree snippet says: take **Begin Rearmament** (requires >12% War Support; gives 2 random core states 2 building slots and 2 military factories each), then **Defensive Focus** (mutually exclusive with Aggressive Focus; +30 command power; unlocks Maxime Weygand as Chief of Army with +10% Division Defense). Next, **Firepower Kills** (mutually exclusive with Methodical Battle) gives the national spirit **Firepower**, reducing Towed Artillery production cost by 10%. Then **Levée en masse** gives +5 army experience and reduces Infantry Equipment production cost by 10%. The branch ends with the shared **Army Reform**, which removes the starting national spirit **Victors of the Great War** ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree)).\n\nA 2023 guide also recommends Begin Rearmament, then industry focuses, Economic Devolution, and working down Defensive Focus toward Army Reform ([keengamer.com](https://www.keengamer.com/articles/guides/hoi4-guide-france-made-easy-2023/)). These may reflect an older version.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/French_national_focus_tree",
+   "https://hoi4.paradoxwikis.com/France",
+   "https://www.keengamer.com/articles/guides/hoi4-guide-france-made-easy-2023/",
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree",
+   "https://en.namu.wiki/w/%ED%94%84%EB%9E%91%EC%8A%A4(Hearts%20of%20Iron%20IV)"
+  ],
+  "version": "1.19.3",
+  "date": "1936.10.05"
+ },
+ {
+  "q": "Hearts of Iron IV France 1936 strategy build order civilian factories military factories guide",
+  "answer": "For France in 1936, the sources broadly agree on an early civilian-factory focus before switching to military production, though none is dated to a current patch and some may describe older versions.\n\nThe HoI4 Wiki's France page lists France's 1936 start at **33 civilian, 8 military factories, and 11 dockyards**, noting military production is dwarfed by Germany and Italy and hampered by \"Inefficient Economy\" until negative modifiers are removed ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=26&title=France)).\n\nA multiplayer France guide recommends **three civilian factories in Ile-de-France and two in Calais**, then military factories, or forts on the Belgian/Italian borders while still on Civilian Economy; it suggests buildup in earnest in late 1937–1938, with priorities of 4–6 factories on anti-tank, 12 on artillery, and 10 on infantry equipment ([steamsolo.com](https://steamsolo.com/guide/optimal-france-strategy-in-multiplayer-hearts-of-iron-iv/)).\n\nA 2019 playthrough (older version) built civilian factories through 1936 and began military factories in 1937, researching Construction, Basic Machine Tools, and Dispersed Industry ([onesidedminiaturewargamingdiscourse.blogspot.com](http://onesidedminiaturewargamingdiscourse.blogspot.com/2019/01/hearts-of-iron-iv-france-1936.html)).\n\nThe general HoI4 strategy guide (undated PDF) advises building civilian factories toward roughly 45 total for a major power before shifting heavily to military ([forumcontent.paradoxplaza.com](https://forumcontent.paradoxplaza.com/public/paradox/banners/HoI_IV_Strategy_Guide.pdf)). One forum thread was inaccessible ([forum.paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/general-rules-when-it-comes-to-production-as-france.1116693/)).",
+  "sources": [
+   "https://forumcontent.paradoxplaza.com/public/paradox/banners/HoI_IV_Strategy_Guide.pdf",
+   "https://steamsolo.com/guide/optimal-france-strategy-in-multiplayer-hearts-of-iron-iv/",
+   "http://onesidedminiaturewargamingdiscourse.blogspot.com/2019/01/hearts-of-iron-iv-france-1936.html",
+   "https://hoi4.paradoxwikis.com/index.php?section=26&title=France",
+   "https://forum.paradoxplaza.com/forum/threads/general-rules-when-it-comes-to-production-as-france.1116693/"
+  ],
+  "version": "1.19.3",
+  "date": "1936.10.05"
+ },
+ {
+  "q": "Hearts of Iron IV equipment designer new design cost army experience 25 XP",
+  "answer": "The results do not support a flat \"25 XP\" cost for a new equipment design in the designer. They describe **division template** costs, not equipment-variant design costs: adding a combat regiment of a new type costs 25 XP, and changing a regiment to a new type costs 25 + 5 per battalion ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=1&title=Division&veaction=edit)).\n\nFor equipment variants, the wiki says upgrades cost 10 XP for the first land-equipment level and 25 XP for air/naval, with +5 XP per subsequent level ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&title=Variant)). It also notes modules are changed in the tank/ship/plane designer with the relevant DLC, but does not give a single \"new design = 25 XP\" figure.\n\nA Steam Workshop mod (updated for version 1.15.*/Götterdämmerung) changes costs, so it may describe an older or modified version ([steamcommunity.com](https://steamcommunity.com/sharedfiles/filedetails/?id=2870621731)).",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?section=1&title=Division&veaction=edit",
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&title=Variant",
+   "https://hoi4.paradoxwikis.com/index.php?title=Division_designer",
+   "https://hoi4.paradoxwikis.com/Division_designer",
+   "https://steamcommunity.com/sharedfiles/filedetails/?id=2870621731"
+  ],
+  "version": "1.19.3",
+  "date": "1936.10.05"
+ },
+ {
+  "q": "Hearts of Iron IV France Extend the Maginot Line focus Belgian border worth it",
+  "answer": "The results don't give a clear, current verdict on whether **Extend the Maginot Line** is worth it for the Belgian border. One 2023 Steam discussion recommends building 3–5 fort levels on the Belgian border *before* taking the focus, then extending the Maginot Line, and digging in—calling it a good defensive setup ([steamcommunity.com](https://steamcommunity.com/app/394360/discussions/0/3815166265405037094/)). Another older Steam thread suggests getting the focus and building up defenses along the German and Italian borders ([steamcommunity.com](https://steamcommunity.com/app/394360/discussions/0/357288572123561879)).\n\nThe wiki pages only describe mechanics: the focus is referenced by the \"Dismantle Maginot\" decision, which reduces forts above level 2 in Alsace-Lorraine, Champagne, and Nord-Pas-de-Calais if France completed it ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?title=Generic_decisions&veaction=edit)). The French focus tree page itself failed to load ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/French_national_focus_tree)).\n\nA 2023 forum thread says AI France still leaves few divisions on the Belgian border ([forum.paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/ai-france-still-doesnt-defend-its-border-with-belgium-when-germany-invades.1500116/)). These sources may be outdated, and none definitively answers the question.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/French_national_focus_tree",
+   "https://steamcommunity.com/app/394360/discussions/0/3815166265405037094/",
+   "https://forum.paradoxplaza.com/forum/threads/ai-france-still-doesnt-defend-its-border-with-belgium-when-germany-invades.1500116/",
+   "https://hoi4.paradoxwikis.com/index.php?title=Generic_decisions&veaction=edit",
+   "https://steamcommunity.com/app/394360/discussions/0/357288572123561879"
+  ],
+  "version": "1.19.3",
+  "date": "1936.10.05"
+ },
+ {
+  "q": "HoI4 France national spirit \"Victors of the Great War\" effect \"Disjointed Government\" effect \"Inefficient Economy\" effect",
+  "answer": "In Hearts of Iron IV, France starts with three negative national spirits:\n\n- **Victors of the Great War:** Recruitable population −0.30%, War support −5.00%, Land Doctrine Cost +50.00%. It is removed by completing the **Army Reform** focus at the bottom of the Begin Rearmament branch ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=3&title=National_spirit); [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=26&title=France)).\n- **Disjointed Government:** Daily Political Power Cost +0.80, Stability −10.00%, Surrender Limit −50.00%. It can be removed via **Force the Issue**, **Defensive Stratagems**, **Political Unity**, or **Repeal the Law of Exile** ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=26&title=France)).\n- **Inefficient Economy:** Factory output −20.00%, Dockyard output −20.00%. It is removed by completing **Nationalize Key Industries** and **General Work Council**, or **Laissez-Faire** and **Economic Devolution** ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=26&title=France)).\n\nThese wiki results do not show a game version or date, so they may describe an older version.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?section=3&title=National_spirit",
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree",
+   "https://gamerempire.net/hearts-of-iron-4-france-strategy-guide/",
+   "https://www.keengamer.com/articles/guides/hoi4-guide-france-made-easy-2023/",
+   "https://hoi4.paradoxwikis.com/index.php?section=26&title=France"
+  ],
+  "version": "1.19.3",
+  "date": "1936.10.05"
+ },
+ {
+  "q": "HoI4 France focus \"Protected by the Maginot Line\" spirit effect what does it do",
+  "answer": "In Hearts of Iron IV, the French national spirit **\"Protected by the Maginot Line\"** gives:\n\n- **Max Planning: +25.0%**\n- **Planning Speed: −25.0%**\n\nThe wiki describes it as giving France the chance to plan and prepare carefully thanks to the fortified border, at the cost of some flexibility if something unexpected happens ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=3&title=National_spirit)).\n\nA patch note also states that dismantling the Maginot Line removes this spirit, and that the \"Extend the Maginot Line\" focus requires it ([store.steampowered.com](https://store.steampowered.com/news/posts/?appids=394360&enddate=1585675907&feed=steam_community_announcements)). Note that the search results do not clearly state which game version these figures apply to, so they may describe an older version.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?section=3&title=National_spirit",
+   "https://hoi4.paradoxwikis.com/French_national_focus_tree",
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&title=French_events",
+   "https://store.steampowered.com/news/posts/?appids=394360&enddate=1585675907&feed=steam_community_announcements",
+   "https://forum.paradoxplaza.com/forum/threads/national-focues-and-national-spirits.959064/"
+  ],
+  "version": "1.19.3",
+  "date": "1936.10.05"
+ },
+ {
+  "q": "HoI4 France focus \"Military Factories\" \"Invest in the Metropole\" \"Industrial Expansion\" how many factories guide",
+  "answer": "The results don’t give one clean, current total, and some are clearly older or conflicting.\n\n- A France rework dev diary says taking all investment focuses could yield **18 civilian and 14 military factories in just three focuses**, but calls the numbers “absolutely, 100%, final and won’t ever be changed” — a joke, so treat as provisional. [forum.paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/hoi4-dev-diary-france-rework.1237825/page-2)\n- A forum thread on the investment focuses concludes **12 civilian factories total** (4 from Metropolitan France/Algeria, 8 from colonial industry), with military factories benefiting from all investments. [forum.paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/france-industry-investment-focus-tree-question.1342950/)\n- A guide recommends reaching **30–40 military factories by 1939**, but gives no exact focus-by-focus count. [keengamer.com](https://www.keengamer.com/articles/guides/hearts-of-iron-iv-france-guide/)\n\nNo source is dated, so these may describe older versions.",
+  "sources": [
+   "https://forum.paradoxplaza.com/forum/threads/hoi4-dev-diary-france-rework.1237825/page-2",
+   "https://www.keengamer.com/articles/guides/hearts-of-iron-iv-france-guide/",
+   "https://gamerempire.net/hearts-of-iron-4-focus-tree-guide/",
+   "https://forum.paradoxplaza.com/forum/threads/france-industry-investment-focus-tree-question.1342950/",
+   "https://www.edge.hoi4modding.com/focus-tree/view/5677"
+  ],
+  "version": "1.19.3",
+  "date": "1936.10.05"
+ },
+ {
+  "q": "HoI4 1.19 France focus tree changes patch Götterdämmerung 1.15 France rework",
+  "answer": "The results do **not** answer your question about HoI4 1.19 France focus tree changes. They cover different versions:\n\n- The France rework dev diary describes an **upcoming** rework tied to patch **1.8**, not 1.19, and notes art was still work-in-progress ([paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/hoi4-dev-diary-france-rework.1237825/page-2)).\n- The **Götterdämmerung** patch notes are for **patch 1.15** (2024) and list only minor French tweaks (e.g., \"Fortification Focus,\" \"Latin Entente,\" \"Bring Home Quebec,\" \"Proclaim the Third Empire\") — not a full France rework ([devtrackers.gg](https://devtrackers.gg/heartsofiron/p/0a08423c-gotterdammerung-patch-notes)).\n- The **1.15.2** checksum notes are bug fixes ([devtrackers.gg](https://devtrackers.gg/heartsofiron/p/b0a96c08-gotterdammerung-patch-1-15-2-checksum-2dd1)).\n- The wiki pages for **Patch 1.15** and the **French national focus tree** failed to load ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/Patch_1.15)).\n\nNo source mentions patch 1.19 or a 1.19 France rework.",
+  "sources": [
+   "https://forum.paradoxplaza.com/forum/threads/hoi4-dev-diary-france-rework.1237825/page-2",
+   "https://devtrackers.gg/heartsofiron/p/b0a96c08-gotterdammerung-patch-1-15-2-checksum-2dd1",
+   "https://hoi4.paradoxwikis.com/Patch_1.15",
+   "https://hoi4.paradoxwikis.com/French_national_focus_tree",
+   "https://devtrackers.gg/heartsofiron/p/0a08423c-gotterdammerung-patch-notes"
+  ],
+  "version": "1.19.3",
+  "date": "1936.10.05"
+ },
+ {
+  "q": "HoI4 1.15 Götterdämmerung land doctrine rework army experience cost \"adopt doctrine\" how it works",
+  "answer": "The search results do not clearly answer this. The Paradox forum thread discusses a reworked military doctrine system with Grand Doctrines (Mobile Warfare, Superior Firepower, Grand Battleplan) and subdoctrines, but it does not state the army experience cost to adopt a doctrine, nor does it confirm this is the HoI4 1.15 Götterdämmerung version. It appears to describe a rework announced via YouTube content reveal, and may reflect an older or different version. The other results are unrelated: CivFanatics' \"Twenty Forty-Five\" is a forum game, and the Lakeside Games \"A House Divided\" docs describe a separate game using doctrine points, not army XP. No source gives the specific \"adopt doctrine\" army experience cost you asked about.",
+  "sources": [
+   "https://forums.civfanatics.com/threads/twenty-forty-five-pre-thread-the-years-between.554323/page-4",
+   "https://docs.lakesidegames.net/wiki/national-doctrine.html",
+   "https://forum.paradoxplaza.com/forum/threads/reworked-military-doctrines-announced-in-youtube-content-reveal.1860338/",
+   "https://docs.lakesidegames.net/wiki/generals.html",
+   "https://servantpedia.wikioasis.org/wiki/VW_Renaissance"
+  ],
+  "version": "1.19.3",
+  "date": "1936.10.05"
+ },
+ {
+  "q": "HoI4 France focus \"Extend the Maginot Line\" effect which states forts added",
+  "answer": "The Hearts of Iron 4 Wiki says France's focus **\"Extend the Maginot Line\"** triggers the event **\"Extension of the Maginot Line\"**, which adds **2 levels of land fort** in:\n\n- **3 provinces in Champagne (18)**\n- **3 provinces in Nord-Pas-de-Calais (29)**\n- **1 province in Picardy (785)**\n\nIt also notes Belgium gains an opinion modifier toward France of **−50**, and toward Germany of **+25** ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&title=French_events), [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree)).\n\nCaveat: the search results don't display a clear game-version date, and some pages failed to load (\"Client Challenge\"), so this may reflect an older version.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&title=French_events",
+   "https://hoi4.paradoxwikis.com/French_events",
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree",
+   "https://hoi4.paradoxwikis.com/French_national_focus_tree",
+   "https://hoi4.paradoxwikis.com/France"
+  ],
+  "version": "1.19.3",
+  "date": "1936.10.05"
+ },
+ {
+  "q": "Hearts of Iron IV France national spirit \"Inefficient Economy\" effect what does it do",
+  "answer": "According to the Hearts of Iron 4 Wiki, France's **Inefficient Economy** national spirit gives **−20.00% factory output** and **−20.00% dockyard output** ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=26&title=France)). The wiki describes France as still a major industrialized country but left behind in production concentration.\n\nIt can be removed by completing **Nationalize Key Industries** and **General Work Council**, or **Laissez-Faire** and **Economic Devolution** (the latter takes effect 2 years after completion) ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree)).\n\nNote: these results don't show a version number or date, so they may describe an older version of the game.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?section=26&title=France",
+   "https://hoi4.paradoxwikis.com/National_spirit",
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree",
+   "https://forum.paradoxplaza.com/forum/threads/getting-rid-of-inefficient-economy-as-national-bloc-france.1541059/",
+   "https://hoi4.paradoxwikis.com/French_national_focus_tree"
+  ],
+  "version": "1.19.3",
+  "date": "1937.02.06"
+ },
+ {
+  "q": "Hearts of Iron IV how to gain air experience training mission air wings",
+  "answer": "In Hearts of Iron IV, use the **Pilot Exercises** mission: the wiki says it's available for all planes except rocket interceptors, transports and scouts, and it \"can be used to gain experience for the air wing and to gain Air experience,\" while consuming fuel and raising accident risk. It disables all other missions, and shift-clicking makes the wing exercise until maximum training experience, stopping automatically ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=4&title=Air_missions&veaction=edit)).\n\nHowever, a June 2021 Steam discussion reports exercises giving air-wing XP but **no Air experience**; one user measured only 0.015 XP/day for 300 planes ([steamcommunity.com](https://steamcommunity.com/app/394360/discussions/0/3081006782743399504)). The wiki notes air units start at \"Rookies\" and field exercising only reaches \"Regular\"; higher levels need combat ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=4&title=Experience&veaction=edit)). Note these sources may describe older versions; check your current patch.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?section=4&title=Air_missions&veaction=edit",
+   "https://hoi4.paradoxwikis.com/Air_missions",
+   "https://hoi4.paradoxwikis.com/index.php?section=4&title=Experience&veaction=edit",
+   "https://steamcommunity.com/app/394360/discussions/0/3081006782743399504/",
+   "https://forum.paradoxplaza.com/forum/threads/how-do-you-level-up-an-air-wing-beyond-experience-level-3-regular.1688335/"
+  ],
+  "version": "1.19.3",
+  "date": "1937.02.06"
+ },
+ {
+  "q": "Hearts of Iron IV aircraft designer cost experience to create new plane design",
+  "answer": "The search results do not clearly state the Air experience cost to create a new plane design. One result says Air experience is used for the aircraft designer with the By Blood Alone DLC, but it does not give the creation cost ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?title=Army_experience)). The aircraft designer page lists engine-module change costs (6 Air XP, or 3 XP for a one-level upgrade) but does not specify the base cost for a new design ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?title=Aircraft_designer)). A Military Industrial Organization page says assigning/changing an aircraft designer costs 0 Air experience, which may describe a different or newer version ([productionwiki-hoi4.paradoxwikis.com](https://productionwiki-hoi4.paradoxwikis.com/Military_Industrial_Organizations)).",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/Aircraft_designer",
+   "https://hoi4.paradoxwikis.com/index.php?title=Aircraft_designer",
+   "https://hoi4.paradoxwikis.com/index.php?title=Army_experience",
+   "https://hoi4.paradoxwikis.com/List_of_aircraft_designers",
+   "https://productionwiki-hoi4.paradoxwikis.com/Military_Industrial_Organizations"
+  ],
+  "version": "1.19.3",
+  "date": "1937.02.06"
+ },
+ {
+  "q": "Hearts of Iron IV fuel production from oil conversion rate per day",
+  "answer": "In Hearts of Iron IV, each unit of oil produces **48 units of fuel per day** by default, according to the [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_mobile&title=Fuel&veaction=edit) wiki and the [hoi4-fr.paradoxwikis.com](https://hoi4-fr.paradoxwikis.com/Carburant) French wiki. This equals a base gain of 2 fuel per hour (`BASE_FUEL_GAIN_PER_OIL = 2` × 24 hours).\n\nFuel refining technologies can significantly increase this efficiency, and economy laws below War Economy reduce it. The modifier \"Fuel gain per oil\" (available from v1.6 onward) changes this rate proportionally—common vanilla values are 0.1, 0.15, and 0.2, per [hagane.works](https://scharnhorst.hagane.works/en/wiki/modifier/fuel_gain_factor).\n\nSynthetic refineries also provide 48 fuel daily as a baseline, potentially up to 168 per day with technologies, and are not penalized by economy laws.\n\nNote: The [forum.paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/hoi4-dev-diary-fuel-review-and-motorized-artillery.1144796/page-12) dev diary and [simulationian.com](https://simulationian.com/2019/01/hoi4-dd20190109/) (January 2019) describe the fuel system rework, confirming oil is converted to fuel hourly rather than used directly in production.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_mobile&title=Fuel&veaction=edit",
+   "https://forum.paradoxplaza.com/forum/threads/hoi4-dev-diary-fuel-review-and-motorized-artillery.1144796/page-12",
+   "https://scharnhorst.hagane.works/en/wiki/modifier/fuel_gain_factor",
+   "https://hoi4-fr.paradoxwikis.com/Carburant",
+   "https://simulationian.com/2019/01/hoi4-dd20190109/"
+  ],
+  "version": "1.19.3",
+  "date": "1937.02.06"
+ },
+ {
+  "q": "HOI4 \"FRA_inefficient_economy_2\" France national spirit effect wiki",
+  "answer": "The search results do not answer the question. They are only HOI4 error/crash logs showing that `FRA_inefficient_economy_2` is being referenced as an invalid idea in scripted triggers, not a wiki description of its effects. For example, one log reports: “Invalid idea in has_idea trigger: has_idea = FRA_inefficient_economy_2” ([pastebin.com](https://pastebin.com/mKq0uqAg)), and similar errors appear in other logs ([pastebin.com](https://pastebin.com/0SWqAbeY), [pastebin.com](https://pastebin.com/gDzfJhme)). No game version or date is clearly stated in these results, and they may reflect older or modded versions. To find the national spirit’s actual effect, consult the HOI4 Wiki or the game files directly.",
+  "sources": [
+   "https://pastebin.com/mKq0uqAg",
+   "https://pastebin.com/0SWqAbeY",
+   "https://pastebin.com/gDzfJhme"
+  ],
+  "version": "1.19.3",
+  "date": "1937.02.06"
+ },
+ {
+  "q": "HOI4 France focus \"Army Reform\" effects research bonus land doctrine military industrial organization AMX",
+  "answer": "The search results do not show a French focus named **“Army Reform”** or its effects, so I can’t confirm any research bonus, land doctrine bonus, or AMX/MIO link for that focus. The wiki table lists French focuses such as **Methodical Battle** (2× 65% cost reduction for Land Doctrine) and **Form the State Arsenals**, which can unlock **AMX** as a Military Industrial Organization if the *Arms Against Tyranny* DLC is enabled, but that is not the same as “Army Reform” [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree). A 2023 guide also mentions France’s **Victors of the Great War** land doctrine penalty, but not “Army Reform” [keengamer.com](https://www.keengamer.com/articles/guides/hoi4-guide-france-made-easy-2023/). These sources may reflect older or DLC-dependent versions.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/French_national_focus_tree",
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree",
+   "https://www.keengamer.com/articles/guides/hearts-of-iron-iv-france-guide/",
+   "https://www.keengamer.com/articles/guides/hoi4-guide-france-made-easy-2023/",
+   "https://hoi4.paradoxwikis.com/index.php?section=10&title=Ideas&veaction=edit"
+  ],
+  "version": "1.19.3",
+  "date": "1937.02.06"
+ },
+ {
+  "q": "HOI4 France \"Firepower Kills\" focus effect spirit Firepower",
+  "answer": "The HOI4 Wiki lists the French focus **Firepower Kills** as requiring **Defensive Focus**, mutually exclusive with **Methodical Battle**, and granting the national spirit **Firepower**: Towed Artillery production cost **−10.00%** ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree)). The same page shows it leads to **Levée en masse** (Infantry Equipment production cost −10.00%) and then **Grande Batterie** (Army XP +5, 1×100% Support Artillery research bonus). Other results only list Firepower Kills in France’s historical focus order, without effects ([gamerempire.net](https://gamerempire.net/hearts-of-iron-4-focus-tree-guide/), [steamsolo.com](https://steamsolo.com/guide/hearts-of-iron-4-historical-focus-paths-hearts-of-iron-iv/)). The wiki page does not state a game version, so it may describe an older version; no version/date is given in these results.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/French_national_focus_tree",
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree",
+   "https://gamerempire.net/hearts-of-iron-4-focus-tree-guide/",
+   "https://edge.hoi4modding.com/focus-tree/view/90823",
+   "https://steamsolo.com/guide/hearts-of-iron-4-historical-focus-paths-hearts-of-iron-iv/"
+  ],
+  "version": "1.19.3",
+  "date": "1937.02.06"
+ },
+ {
+  "q": "HOI4 \"Laissez-Faire\" France focus effect ends Inefficient Economy 2 years",
+  "answer": "Yes — for Hearts of Iron IV’s France, the **Laissez-Faire** focus reduces the **Inefficient Economy** national spirit after about two years, and combining it with **Economic Devolution** removes the spirit entirely.\n\nThe HOI4 Wiki states Inefficient Economy can be removed by completing **Nationalize Key Industries** and **General Work Council**, or **Laissez-Faire** and **Economic Devolution**, noting Laissez-Faire “will have effect after a period of 2 years after completion” ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=15&title=France&veaction=edit)).\n\nForum users specify it is **730 days** from completing Laissez-Faire, and that Economic Devolution cuts 10% off the debuff, with the spirit removed at the two-year mark ([paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/cant-get-rid-of-inefficient-economy-as-national-bloc-france.1345107/)). Another thread confirms Economic Devolution can be taken anytime and, after two years since Laissez-Faire, the spirit is removed entirely ([paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/france-national-spirits.1379652/)).\n\nThese sources don’t state a game version/date, so they may describe an older version.",
+  "sources": [
+   "https://forum.paradoxplaza.com/forum/threads/france-national-spirits.1379652/",
+   "https://hoi4.paradoxwikis.com/French_national_focus_tree",
+   "https://forum.paradoxplaza.com/forum/threads/cant-get-rid-of-inefficient-economy-as-national-bloc-france.1345107/",
+   "https://hoi4.paradoxwikis.com/index.php?section=3&title=France&veaction=edit",
+   "https://hoi4.paradoxwikis.com/index.php?section=15&title=France&veaction=edit"
+  ],
+  "version": "1.19.3",
+  "date": "1937.02.06"
+ },
+ {
+  "q": "HOI4 1.16 how to gain air experience without war exercises rate per day",
+  "answer": "Based on the search results, the available information is limited and partly outdated.\n\n**Current version info:** Patch 1.16 was released 2025-03-04 with the Graveyard of Empires DLC ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&title=Patch_1.16)). Patch 1.16.2 (\"Operation KNEE\", 2025-03-20) updated air volunteers, and 1.16.3 (\"Operation SHOULDER\", 2025-03-27) fixed airwing merging XP loss ([productionwiki-hoi4.paradoxwikis.com](https://productionwiki-hoi4.paradoxwikis.com/Patch_1.16.X)).\n\n**On gaining air experience via exercises:** The wiki pages for Experience and Air Experience failed to load ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/Experience)). A Steam discussion from **June 2021** (pre-1.16) states pilot exercises generate air wing experience but reportedly little/no air experience, with rates around 0.005 XP/day per 100 planes — 10 planes gave nothing, 15–30 gave .001/day ([steamcommunity.com](https://steamcommunity.com/app/394360/discussions/0/3081006782743399504/)).\n\n**Caveat:** These results do not confirm the current 1.16 exercise XP rate; the rate data is from an older version and may be outdated.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&title=Patch_1.16",
+   "https://productionwiki-hoi4.paradoxwikis.com/Patch_1.16.X",
+   "https://hoi4.paradoxwikis.com/Experience",
+   "https://hoi4.paradoxwikis.com/Air_experience",
+   "https://steamcommunity.com/app/394360/discussions/0/3081006782743399504/"
+  ],
+  "version": "1.19.3",
+  "date": "1937.02.06"
+ },
+ {
+  "q": "HOI4 France focus \"Invest in Metropolitan France\" and \"Industrial Expansion\" effects how many civilian factories states",
+  "answer": "Based on the sources, the tooltips are confusing and the exact number is disputed.\n\nThe [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/French_national_focus_tree) focus tree lists \"Invest in Metropolitan France\" as adding 2 Building Slots to 2 random core states, while \"Industrial Expansion\" adds 2 Civilian Factories to every state with the `FRA_industrial_expansion_target` flag.\n\nA [forum.paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/it-feels-like-the-french-focus-tree-needs-a-rebalance.1365809/) player tested this starting 1 Jan 1936 and reported: if you only completed \"Invest in Metropolitan France,\" \"Industrial Expansion\" gives **2 CIVs each in 2 mainland states** (4 total). If you also did \"Invest in Algerian France,\" you get 8 total.\n\nNote this is a player test from an older version (La Résistance era); the wiki page is undated, so current-version behavior may differ.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree",
+   "https://hoi4.paradoxwikis.com/French_national_focus_tree",
+   "https://forum.paradoxplaza.com/forum/threads/it-feels-like-the-french-focus-tree-needs-a-rebalance.1365809/",
+   "https://www.edge.hoi4modding.com/focus-tree/view/5677",
+   "https://gamerempire.net/hearts-of-iron-4-focus-tree-guide/"
+  ],
+  "version": "1.19.3",
+  "date": "1937.02.06"
+ },
+ {
+  "q": "HOI4 France focus \"Military Factories\" effect \"adds two Military Factories to every state previously invested\"",
+  "answer": "The search results confirm this. According to the [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree) French national focus tree page, the \"Military Factories\" focus requires either \"Industrial Expansion\" or \"Colonial Industry\" and \"Adds 2 building slots and 2 Military Factories to every state previously invested in\" — specifically every owned state controlled by France carrying the `FRA_industrial_expansion_target` or `FRA_colonial_industry_target` state flags.\n\nA [forum.paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/hoi4-dev-diary-france-rework.1237825/page-2) dev diary on the France rework explains the mechanic: the \"Invest in…\" focuses add building slots in states, and later focuses add factories to each previously invested state, so waiting longer before taking them yields a bigger payoff.\n\nNote: the wiki page does not display a version number or date in these results, so it may describe an older version. The dev diary is from the France rework period.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree",
+   "https://forum.paradoxplaza.com/forum/threads/hoi4-dev-diary-france-rework.1237825/page-2",
+   "https://grandfeats.com/hoi4/country/fra",
+   "https://hoi4.paradoxwikis.com/France",
+   "https://gamerempire.net/hearts-of-iron-4-focus-tree-guide/"
+  ],
+  "version": "1.19.3",
+  "date": "1937.02.06"
+ },
+ {
+  "q": "HOI4 France focus \"Agricultural Protectionism\" effect spirit",
+  "answer": "The search results describe **Agricultural Protectionism** as a mutually exclusive choice with **Laissez-Faire** in the **Revive the National Bloc** branch. It requires **Revive the National Bloc** and grants France the national spirit **Agricultural Protectionism**, which gives **Civilian factory Construction speed: +7.50%** ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree)).\n\nHowever, forum posts say taking it means you **cannot fully remove Inefficient Economy**, unlike Laissez-Faire + Economic Devolution, so the 10% output penalty remains permanently ([forum.paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/cant-get-rid-of-inefficient-economy-as-national-bloc-france.1345107/)). These sources don’t state a game version/date, so they may describe an older version.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/French_national_focus_tree",
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree",
+   "https://forum.paradoxplaza.com/forum/threads/france-national-spirits.1379652/",
+   "https://forum.paradoxplaza.com/forum/threads/cant-get-rid-of-inefficient-economy-as-national-bloc-france.1345107/",
+   "https://hoi4.paradoxwikis.com/Module:Focus/wtt"
+  ],
+  "version": "1.19.3",
+  "date": "1937.02.06"
+ },
+ {
+  "q": "HOI4 France \"Economic Devolution\" focus effect ends Inefficient Economy",
+  "answer": "The forum results describe **Hearts of Iron IV** France's \"Inefficient Economy\" national spirit, but they don't fully confirm your exact phrasing. According to [forum.paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/france-national-spirits.1379652/) (thread last edited Apr 18, 2020), \"Economic Devolution\" cuts 10% off the debuff, and the spirit is removed entirely two years after completing \"Laissez-Faire.\" A second thread, [forum.paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/cant-get-rid-of-inefficient-economy-as-national-bloc-france.1345107/), says \"Laissez-Faire\" plus \"Economic Devolution\" removes it entirely, while \"Agricultural Protectionism\" leaves a permanent 10% penalty. These threads don't state a game version, so they may describe an older patch (likely around 1.9, given the 2020 dates). The wiki pages ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/French_national_focus_tree), [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/Patch_1.9.X)) failed to load, so current-version confirmation is unavailable.",
+  "sources": [
+   "https://forum.paradoxplaza.com/forum/threads/france-national-spirits.1379652/",
+   "https://forum.paradoxplaza.com/forum/threads/cant-get-rid-of-inefficient-economy-as-national-bloc-france.1345107/",
+   "https://forum.paradoxplaza.com/forum/threads/getting-rid-of-inefficient-economy-as-national-bloc-france.1541059/",
+   "https://hoi4.paradoxwikis.com/French_national_focus_tree",
+   "https://hoi4.paradoxwikis.com/Patch_1.9.X"
+  ],
+  "version": "1.19.3",
+  "date": "1937.02.06"
+ },
+ {
+  "q": "HOI4 France national spirit \"Victors of the Great War\" modifier army experience gain",
+  "answer": "The search results do not give an army experience gain modifier for France's \"Victors of the Great War\" national spirit. The wiki lists its effects as Recruitable population: -0.30%, War support: -5.00%, and Land Doctrine Cost: +50.00% ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=3&title=National_spirit)). The February 19, 2026 patch 1.17.4 notes add that it \"now has a 50% mastery gain penalty\" ([sihmar.com](https://sihmar.com/hearts-of-iron-iv-version-1-17-4-patch-notes-february-19-2026/), [eprison.de](https://www.eprison.de/spiele/hearts-of-iron-4/steam-news/1825093633185039/2624/116036.html)). So no army experience gain modifier is shown; the results may not reflect your game version.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree",
+   "https://sihmar.com/hearts-of-iron-iv-version-1-17-4-patch-notes-february-19-2026/",
+   "https://hoi4.paradoxwikis.com/index.php?section=3&title=National_spirit",
+   "https://www.eprison.de/spiele/hearts-of-iron-4/steam-news/1825093633185039/2624/116036.html",
+   "https://hoi4.paradoxwikis.com/index.php?section=3&title=France&veaction=edit"
+  ],
+  "version": "1.19.3",
+  "date": "1937.02.06"
+ },
+ {
+  "q": "HOI4 land doctrine mastery system 1.19 explained how doctrines unlock",
+  "answer": "The search results describe a **doctrine rework** for Hearts of Iron IV, but they do **not** confirm version 1.19 specifically. The main dev diary is dated **2025** and is explicitly **Work In Progress**, so it may describe an older or upcoming version rather than 1.19. [devtrackers.gg](https://devtrackers.gg/heartsofiron/p/452563a4-developer-diary-doctrines)\n\nUnder that rework, doctrines split into **Grand Doctrines** and **subdoctrines** chosen by **Tracks** (e.g., Infantry, Armor). You spend **Army XP** to assign them, and some bonuses unlock immediately. [eprison.de](https://www.eprison.de/spiele/hearts-of-iron-4/steam-news/1811772772409144/2624/105633.html)\n\n**Doctrine Mastery** is separate practical experience gained by using units in combat, training, attachés, or faction sharing. Each track has its own mastery; higher mastery levels unlock further bonuses. Completing a track grants a **Milestone** that enhances your Grand Doctrine. [jpn.itlibra.com](https://jpn.itlibra.com/article/24105)\n\nThe Paradox forum and wiki results failed to load, so they provide no usable details. [forum.paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/developer-diary-doctrines.1861113/)",
+  "sources": [
+   "https://devtrackers.gg/heartsofiron/p/452563a4-developer-diary-doctrines",
+   "https://forum.paradoxplaza.com/forum/threads/developer-diary-doctrines.1861113/",
+   "https://hoi4.paradoxwikis.com/Land_doctrine",
+   "https://www.eprison.de/spiele/hearts-of-iron-4/steam-news/1811772772409144/2624/105633.html",
+   "https://jpn.itlibra.com/article/24105"
+  ],
+  "version": "1.19.3",
+  "date": "1937.02.06"
+ },
+ {
+  "q": "Hearts of Iron IV France national spirit \"Disjointed Government\" effect political power",
+  "answer": "The search results do not give a precise numeric political power penalty for France's \"Disjointed Government\" national spirit. They describe it qualitatively: it \"will stop you from getting any real Political Power\" and \"makes every purchase with political power more expensive\" ([gamerempire.net](https://gamerempire.net/hearts-of-iron-4-france-strategy-guide/), [keengamer.com](https://www.keengamer.com/articles/guides/hoi4-guide-france-made-easy-2023/)). The 2023 guide notes that increasing political power makes reform slower, but no exact modifier is stated.\n\nThe HOI4 Wiki pages for the national spirit and France returned only a \"Client Challenge\" error, so they provide no data ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/National_spirit), [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/Disjointed_Government)). The focus tree page confirms Disjointed Government is removed by the Defensive Stratagems focus, but doesn't list its political power effect ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree)).\n\nNote: these sources may describe older versions; no exact figure is available here.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/National_spirit",
+   "https://gamerempire.net/hearts-of-iron-4-france-strategy-guide/",
+   "https://www.keengamer.com/articles/guides/hoi4-guide-france-made-easy-2023/",
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree",
+   "https://hoi4.paradoxwikis.com/Disjointed_Government"
+  ],
+  "version": "1.19.3",
+  "date": "1938.02.07"
+ },
+ {
+  "q": "Hearts of Iron IV France national spirit \"Protected by the Maginot Line\" effect",
+  "answer": "The search results give the effect of **\"Protected by the Maginot Line\"** in *Hearts of Iron IV*: **+25% Max planning** and **–25% Planning Speed** ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&title=French_events)).\n\nThe French focus tree page also notes that **\"Extend the Maginot Line\"** requires France to already have the national spirit \"Protected by the Maginot Line\" ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree)).\n\nA Steam changelog entry says dismantling the Maginot Line now removes the \"Protected by the Maginot Line\" national spirit, and that the \"Extending the Maginot Line\" focus requires this spirit ([store.steampowered.com](https://store.steampowered.com/news/posts/?appids=394360&enddate=1585675907&feed=steam_community_announcements)). That changelog is undated in the snippet, so it may describe an older patch version. The wiki pages don't show a version/date, so they may also be outdated.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/National_spirit",
+   "https://store.steampowered.com/news/posts/?appids=394360&enddate=1585675907&feed=steam_community_announcements",
+   "https://hoi4.paradoxwikis.com/French_national_focus_tree",
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&title=French_events",
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree"
+  ],
+  "version": "1.19.3",
+  "date": "1938.02.07"
+ },
+ {
+  "q": "Hearts of Iron IV how to gain air experience in peacetime training mission fuel",
+  "answer": "In Hearts of Iron IV, air experience in peacetime comes mainly from the **Pilot Exercises** mission, which trains the wing and generates Air XP. It consumes **fuel** and raises accident risk, and it disables all other missions for that wing. Holding Shift while clicking Pilot Exercises makes the wing stop automatically once fully trained. [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=4&title=Air_missions&veaction=edit)\n\nThe gain is very small and scales with the number of planes exercising. Players reported roughly 0.005 XP/day per 100 planes, and one test found 10 planes gave nothing while 15–30 gave 0.001/day. [steamcommunity.com](https://steamcommunity.com/app/394360/discussions/0/3081006782743399504/)\n\nFuel matters: without fuel, air units will not gain XP while exercising. [steamcommunity.com](https://steamcommunity.com/app/394360/discussions/0/4031348273664247680/) These sources are wiki pages and 2023 forum posts, so they may describe an older version.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?section=4&title=Air_missions&veaction=edit",
+   "https://steamcommunity.com/app/394360/discussions/0/3081006782743399504/",
+   "https://hoi4.paradoxwikis.com/index.php?section=4&title=Experience&veaction=edit",
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&title=Beginner%27s_guide",
+   "https://steamcommunity.com/app/394360/discussions/0/4031348273664247680/"
+  ],
+  "version": "1.19.3",
+  "date": "1938.02.07"
+ },
+ {
+  "q": "Hearts of Iron IV do exercising divisions give army experience peacetime",
+  "answer": "Yes. In Hearts of Iron IV, exercising divisions in peacetime gives national Army experience, but only at the cost of equipment, time, and organisation. The wiki says a training command can “continue exercise to create a small flow of added land experience at the cost of consuming further equipment” ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?title=Army_planner)). A Steam discussion also notes that continuing to exercise after units reach Regular level is useful “to raise your nations army experience which you need to edit your divisions and create improved variants” ([steamcommunity.com](https://steamcommunity.com/app/394360/discussions/0/357288572113892642/)).\n\nThese results do not show a version number or date, so they may describe an older version.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/Experience",
+   "https://hoi4.paradoxwikis.com/index.php?title=Army_planner",
+   "https://hoi4.paradoxwikis.com/index.php?section=4&title=Experience&veaction=edit",
+   "https://steamcommunity.com/app/394360/discussions/0/154644598512755127/",
+   "https://steamcommunity.com/app/394360/discussions/0/357288572113892642/"
+  ],
+  "version": "1.19.3",
+  "date": "1938.02.07"
+ },
+ {
+  "q": "HoI4 France focus \"Military Factories\" \"Industrial Expansion\" adds two factories to every state previously invested in which states",
+  "answer": "The results describe the France focus tree, but they don’t give a single definitive list of every state affected by “Military Factories” after “Industrial Expansion.” They show the investment focuses and their target states:\n\n- “Invest in Metropolitan France” targets core French states, with 2 random neighboring core states gaining building slots ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree)).\n- “Invest in Algerian France” targets Algiers (459), Constantine (460), or Tlemcen (513).\n- “Invest In West Africa” targets Senegal (272), Mato Grosso (280), Bamako (556), Ivory Coast (779), Upper Volta (778), Niger (781), Dahomey (776), or Togo (777).\n- “Invest In Indochina” targets Cambodia (741), Champa (286), Tonkin (671), Laos (670), or Trung Bo (1017).\n- “Invest In Syria” targets Aleppo (677), Deir-az-Zur (680), Damascus (554), or Lebanon (553).\n\n“Military Factories” then adds factories to states previously flagged by those focuses. The forum thread is older and less precise ([forum.paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/france-industry-investment-focus-tree-question.1342950/)).",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree",
+   "https://hoi4.paradoxwikis.com/French_national_focus_tree",
+   "https://forum.paradoxplaza.com/forum/threads/france-industry-investment-focus-tree-question.1342950/",
+   "https://www.edge.hoi4modding.com/focus-tree/view/5677",
+   "https://www.keengamer.com/articles/guides/hearts-of-iron-iv-france-guide/"
+  ],
+  "version": "1.19.3",
+  "date": "1938.02.07"
+ },
+ {
+  "q": "HoI4 France national spirit \"Victors of the Great War\" effect army experience doctrine cost",
+  "answer": "The search results describe **“Victors of the Great War”** as a French national spirit in *Hearts of Iron IV* that increases **Army Doctrine cost by +50%** (and also gives −0.3% recruitable population, −5% War Support, and −15% Army Doctrine mastery gained) [namu.wiki](https://en.namu.wiki/w/%ED%94%84%EB%9E%91%EC%8A%A4(Hearts%20of%20Iron%20IV)). A 2023 guide also states it causes a **+50% land doctrine cost** [keengamer.com](https://www.keengamer.com/articles/guides/hoi4-guide-france-made-easy-2023/). The wiki focus-tree page shows **Army Reform** removes it and gives **2× 50% Cost Reduction for Land Doctrine**, but does not list the spirit’s own modifiers [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree). None of the results explicitly mention an **Army Experience** effect from the spirit itself.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree",
+   "https://hoi4.paradoxwikis.com/National_spirit",
+   "https://gamerempire.net/hearts-of-iron-4-france-strategy-guide/",
+   "https://en.namu.wiki/w/%ED%94%84%EB%9E%91%EC%8A%A4(Hearts%20of%20Iron%20IV)",
+   "https://www.keengamer.com/articles/guides/hoi4-guide-france-made-easy-2023/"
+  ],
+  "version": "1.19.3",
+  "date": "1938.02.07"
+ },
+ {
+  "q": "HoI4 land fort construction cost per level 500 civilian factory output",
+  "answer": "The search results give a clear answer for land forts: base cost is 500, and the cost scales as **500 + 500 × current level** (so level 1 costs 500, level 2 costs 1,000, etc.). This is listed on the [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_mobile&title=Construction) Construction page and corroborated by [hoi4commands.com](https://hoi4commands.com/building/bunker), which lists the Land Fort building ID as `bunker` with base cost 500 and max level 10.\n\nFor civilian factory output, the same wiki page states each employed civilian factory produces **5 per day** in construction, modified by Construction Speed.\n\nCaveat: these results do not show a game version or date. The [hoi4commands.com](https://hoi4commands.com/building) pages appear to be current-version references, but the wiki snippets may describe an older version, so verify against your installed patch.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_mobile&title=Construction",
+   "https://hoi4commands.com/building/bunker",
+   "https://hoi4.paradoxwikis.com/Construction",
+   "https://hoi4commands.com/building",
+   "https://hoi4.paradoxwikis.com/index.php?title=Land_fort"
+  ],
+  "version": "1.19.3",
+  "date": "1938.02.07"
+ },
+ {
+  "q": "HoI4 plane designer creating a new aircraft design costs how much experience",
+  "answer": "Creating a new aircraft design in the Hearts of Iron IV plane designer costs **Air Experience**, with the exact amount depending on the changes made. According to the [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?title=Aircraft_designer) wiki, changing the engine costs **6 Air experience**, while directly upgrading the engine one level without changing the number of engines costs only **3 Air experience**. The wiki does not give a single flat cost for creating a brand-new design from scratch, and the search results do not specify a total design cost. Note that the wiki page does not show a clear version date, so it may describe an older version of the game.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?title=Aircraft_designer",
+   "https://hoi4.paradoxwikis.com/index.php?section=15&title=Aircraft_designer&veaction=edit",
+   "https://forum.paradoxplaza.com/forum/threads/by-blood-alone-aircraft-design.1693436/",
+   "https://hoi4.paradoxwikis.com/Air_experience",
+   "https://forum.paradoxplaza.com/forum/developer-diary/developer-diary-plane-designer.1537609/page-21"
+  ],
+  "version": "1.19.3",
+  "date": "1938.02.07"
+ },
+ {
+  "q": "HoI4 army experience gain rate from exercising divisions per day",
+  "answer": "The results give conflicting, version-specific answers. A Steam discussion (posts dated 11–13 Jul 2019) says one trained division exercising generates **0.100 Army XP/day**, but adding divisions splits that total, so you want a small army; it also notes XP scales with total manpower fielded/recruiting. A Paradox forum thread (26 Feb 2017) states that in **1.9.1 beta** one-division training was effectively ended (around 0.0001 XP), and quotes the pre-1.9.0 formula: `TRAINING_EXPERIENCE_SCALE * battalion_count/10 * UNIT_EXPERIENCE_PER_TRAINING_DAY * fighting_strength_factor * training_modifier * fuel_penalty / (#fielded_divisions + #deploying_divisions)`. A later Paradox thread notes XP gain depends on manpower and a “memory” of prior army size, and that the wiki formula contains an error. The wiki pages ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/Experience), [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?title=Army_planner)) failed to load or don’t state a per-day rate. So no single current rate is confirmed; these may describe older versions.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/Experience",
+   "https://steamcommunity.com/app/394360/discussions/0/1643168364648686384/",
+   "https://forum.paradoxplaza.com/forum/threads/what-is-the-army-experience-gain-from-exercise-on-1-9.1355821/",
+   "https://forum.paradoxplaza.com/forum/threads/really-urgent-why-is-the-daily-army-xp-gained-from-army-exercise-is-increasing-does-anyone-knows-how-it-is-calculated.1533877/",
+   "https://hoi4.paradoxwikis.com/index.php?title=Army_planner"
+  ],
+  "version": "1.19.3",
+  "date": "1938.02.07"
+ },
+ {
+  "q": "HoI4 aircraft designer cost in air experience to create a new fighter design",
+  "answer": "The search results don't give a single \"create a new fighter design\" air experience cost. They show module design costs instead: changing the engine costs **6 Air experience**, while upgrading the engine one level without changing engine count costs **3 Air experience** ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?title=Aircraft_designer)).\n\nWeapon modules list Design Costs of 1–2 Air XP each (e.g., 4x Light MG = 2; 2x Cannon I = 2) ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=15&title=Aircraft_designer&veaction=edit)). A forum discussion notes plane design is generally less XP-intensive than tanks, and that auto-upgrade may not consume XP, though that may change ([forum.paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/by-blood-alone-aircraft-design.1693436/)).\n\nThe wiki page appears to cover the current aircraft designer (By Blood Alone-era), but the results don't state a total new-design XP cost.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?title=Aircraft_designer",
+   "https://hoi4.paradoxwikis.com/index.php?section=15&title=Aircraft_designer&veaction=edit",
+   "https://hoi4tools.com/en/tools/aircraft-designer",
+   "https://hoi4.paradoxwikis.com/Air_experience",
+   "https://forum.paradoxplaza.com/forum/threads/by-blood-alone-aircraft-design.1693436/"
+  ],
+  "version": "1.19.3",
+  "date": "1938.02.07"
+ },
+ {
+  "q": "HoI4 France focus \"Intervention in Spain\" effect volunteers",
+  "answer": "The results partly answer this, but they mix versions and are not fully consistent.\n\nA 2023 guide says the “Intervention in Spain” focus lets France send **five volunteer units** and **90 planes** to Republican Spain via the “Enable Covert Intervention” decision, and that banning covert intervention before unpausing avoids the stability hit ([keengamer.com](https://www.keengamer.com/articles/guides/hoi4-guide-france-made-easy-2023/)).\n\nThe HoI4 Wiki describes the focus as unlocking **decisions** about intervening or encouraging non-interference; interfering boosts war support and can later allow direct intervention, by default only for the Republicans ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=3&title=France&veaction=edit)). A forum/blog discussion suggests some players expected volunteers/XP but found only passive manpower buffs, so it may reflect an older or different version ([kenfor.blogg.se](https://kenfor.blogg.se/2023/february/hoi4-republican-spain-guide.html)).",
+  "sources": [
+   "https://www.keengamer.com/articles/guides/hoi4-guide-france-made-easy-2023/",
+   "https://hoi4.paradoxwikis.com/French_national_focus_tree",
+   "https://hoi4.paradoxwikis.com/index.php?section=3&title=France&veaction=edit",
+   "https://forum.paradoxplaza.com/forum/threads/intervention-in-spain-focus-for-democratic-france-is-it-worth-it.1441494/",
+   "https://kenfor.blogg.se/2023/february/hoi4-republican-spain-guide.html"
+  ],
+  "version": "1.19.3",
+  "date": "1938.02.07"
+ },
+ {
+  "q": "HoI4 theorist advisor daily army experience gain France",
+  "answer": "The results don't directly answer this. The **Hearts of Iron 4 Wiki** [Officer corps](https://hoi4.paradoxwikis.com/Officer_corps) page (covering **Patch 1.11 Barbarossa** and later) describes theorists as part of the officer corps but doesn't list France's daily army XP values. A **Steam discussion** from **Nov 2021** [steamcommunity.com](https://steamcommunity.com/app/394360/discussions/0/3203744275135427980/) states theorists now only reduce doctrine cost and no longer generate XP, while advisors do. The **hagane.works** modifier reference (extracted from **HOI4 v1.19.2**) [hagane.works](https://scharnhorst.hagane.works/en/wiki/modifier/experience_gain_army) explains `experience_gain_army` gives a fixed daily amount (common values 0.1, 0.05, 0.2), but doesn't name France's theorist. So none of these sources give the specific French theorist daily army XP figure; you'd need France's in-game advisor list or a nation-specific wiki page.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/List_of_theorists",
+   "https://hoi4.paradoxwikis.com/Officer_corps",
+   "https://hoi4.paradoxwikis.com/Experience",
+   "https://steamcommunity.com/app/394360/discussions/0/3203744275135427980/",
+   "https://scharnhorst.hagane.works/en/wiki/modifier/experience_gain_army"
+  ],
+  "version": "1.19.3",
+  "date": "1938.02.07"
+ },
+ {
+  "q": "HoI4 \"Disjointed Government\" France modifier political power gain -1",
+  "answer": "The results confirm that **Disjointed Government** is a French national spirit in Hearts of Iron IV that heavily penalizes political power gain, though the exact **-1** value isn't explicitly stated in these sources.\n\n- [keengamer.com](https://www.keengamer.com/articles/guides/hoi4-guide-france-made-easy-2023/) (2023 guide) says it \"makes every purchase with political power more expensive\" and that \"the increase in political power makes reform much slower.\"\n- [keengamer.com](https://www.keengamer.com/articles/guides/hearts-of-iron-iv-france-guide/) (June 24, 2019) says France's \"political power gain remain[s] at a pathetic level\" due to the trait, removed by **Defensive Stratagems**.\n- [steamcommunity.com](https://steamcommunity.com/app/394360/discussions/0/6733519291687983157/) says it \"will eat almost all your political power as long as it is active.\"\n- [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&redirect=no&title=Disjointed_Government) failed to load, so no exact modifier is available.\n\nNone of these sources state the precise **-1** political power gain figure, and some may describe older versions.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&redirect=no&title=Disjointed_Government",
+   "https://www.keengamer.com/articles/guides/hoi4-guide-france-made-easy-2023/",
+   "https://www.keengamer.com/articles/guides/hearts-of-iron-iv-france-guide/",
+   "https://steamcommunity.com/app/394360/discussions/0/6733519291687983157/",
+   "https://forum.paradoxplaza.com/forum/threads/where-to-remove-the-disjointed-government-in-frances-new-focus-tree.1365383/"
+  ],
+  "version": "1.19.3",
+  "date": "1938.02.07"
+ },
+ {
+  "q": "HoI4 concentrated industry vs dispersed industry which is better 2024 factory output bombing",
+  "answer": "Based on these results, there's no single definitive answer — it depends on your situation, and most sources are from mid-2024.\n\n**Dispersed** is generally recommended as the safer, more flexible choice. A 2024-08-23 video says it \"always works\" and allows more room for mistakes, while a Steam discussion (10 Jun 2024) notes it's better for most countries, especially with MIOs requiring constant production changes, and that \"Flexible Line\" at the end helps retain efficiency when swapping models. One user says \"Dispersed every time unless you are US, Soviets or China.\"\n\n**Concentrated** gives +5% production output per level (up to +25%), so it can outperform dispersed in optimized, long-production runs. A GitHub analysis found concentrated wins after roughly 300–500 days depending on buffs, and is best for nations fighting early wars or with limited research/economic options.\n\n**Bombing/factory vulnerability:** the results don't clearly address bombing resistance — the wiki page failed to load. Note the Steam thread says concentrated was stronger in older versions before nerfs.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/Industry_technology",
+   "https://forum.paradoxplaza.com/forum/threads/dispersed-or-concentrated-industry-a-guide-to-help-you-choose.1721949/",
+   "https://www.youtube.com/watch?v=p6NX-yJwlr0",
+   "https://github.com/bmhking/Hoi4-Concentrated-v-Dispersed-Comparison",
+   "https://steamcommunity.com/app/394360/discussions/0/4333105935814322461/"
+  ],
+  "version": "1.19.3",
+  "date": "1938.02.07"
+ },
+ {
+  "q": "HoI4 air wing training mission air experience gain per day 2024",
+  "answer": "The results do not give a 2024-specific rate. The HoI4 wiki says Pilot Exercises “can be used to gain experience for the air wing and to gain Air experience,” consuming fuel and risking accidents; it also notes every plane in battle produces 0.0005 Air experience ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=4&title=Air_missions&veaction=edit)). A Steam discussion from June 2021 reports training XP is very low: about 0.015 XP/day with 300 planes, or roughly 0.005/day per 100 planes; another user found 10 planes gave nothing, 15–30 gave .001, 35–50 gave .002, etc. ([steamcommunity.com](https://steamcommunity.com/app/394360/discussions/0/3081006782743399504)). These may describe an older version, and no 2024 source appears.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?section=4&title=Air_missions&veaction=edit",
+   "https://steamcommunity.com/app/394360/discussions/0/3081006782743399504/",
+   "https://hoi4.paradoxwikis.com/Air_missions",
+   "https://hoi4.paradoxwikis.com/Air_experience",
+   "https://hoi4.paradoxwikis.com/Air_combat"
+  ],
+  "version": "1.19.3",
+  "date": "1938.02.07"
+ },
+ {
+  "q": "HoI4 France \"Inefficient Economy\" national spirit effect factory output construction",
+  "answer": "The search results describe France's **\"Inefficient Economy\"** national spirit in Hearts of Iron IV, but they don't give a version number or date for the wiki pages.\n\nAccording to the HOI4 Wiki, it gives **Factory output: −20.00%** and **Dockyard output: −20.00%** ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=3&title=France&veaction=edit)). The French focus tree shows focuses like **Nationalize Key Industries** and **Economic Devolution** modify it by **+10.00% factory output and +10.00% dockyard output**, while **General Work Council** removes it entirely ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree)).\n\nNote: none of the results mention a **construction** penalty or bonus for this spirit. A 2023 guide discusses it generally but not construction ([keengamer.com](https://www.keengamer.com/articles/guides/hoi4-guide-france-made-easy-2023/)). Since no version/date is shown, these may describe an older version.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree",
+   "https://hoi4.paradoxwikis.com/National_spirit",
+   "https://hoi4.paradoxwikis.com/index.php?section=3&title=France&veaction=edit",
+   "https://www.keengamer.com/articles/guides/hoi4-guide-france-made-easy-2023/",
+   "https://forum.paradoxplaza.com/forum/threads/getting-rid-of-inefficient-economy-as-national-bloc-france.1541059/"
+  ],
+  "version": "1.19.3",
+  "date": "1938.02.07"
+ },
+ {
+  "q": "HoI4 France focus tree \"Military Factories\" adds two military factories to every state previously invested in",
+  "answer": "The search results do not confirm that specific claim. The available sources describe France’s reworked focus tree generally: the “Invest in…” industry focuses give building slots in several states, and later focuses add factories to states previously invested in. One dev diary says taking all investment focuses can yield “18 civilian factories and 14 military factories in just three focuses,” but it does not state that a “Military Factories” focus adds exactly two military factories to every previously invested state ([paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/hoi4-dev-diary-france-rework.1237825/page-3)).\n\nThe wiki pages for the French national focus tree failed to load, so they provide no usable detail ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/French_national_focus_tree)). The forum dev diary appears to describe the France rework, not necessarily the current 2026 version, so it may be outdated.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/French_national_focus_tree",
+   "https://forum.paradoxplaza.com/forum/threads/hoi4-dev-diary-france-rework.1237825/page-3",
+   "https://forum.paradoxplaza.com/forum/threads/hoi4-dev-diary-france-rework.1237825/page-2",
+   "https://forum.paradoxplaza.com/forum/threads/hoi4-dev-diary-france-rework.1237825/page-23",
+   "https://productionwiki-hoi4.paradoxwikis.com/French_national_focus_tree"
+  ],
+  "version": "1.19.3",
+  "date": "1938.09.01"
+ },
+ {
+  "q": "HoI4 \"Demand Sudetenland\" focus Czechoslovakia refuses France guarantee called to war Munich",
+  "answer": "In Hearts of Iron IV, the \"Demand Sudetenland\" focus gives Czechoslovakia an event: accept (cede the Sudetenland) or refuse (Germany gets a war goal) [heartsofiron.fandom.com](https://heartsofiron.fandom.com/wiki/Czechoslovakia_(HoI4)). Per a Sep 30, 2021 Steam discussion, if Germany hasn't already started a war, the UK has about a 95% chance to accept, and France follows the UK at an even higher rate—unless Czechoslovakia and France are in the same faction [steamcommunity.com](https://steamcommunity.com/app/394360/discussions/0/2963922521557909252). Czechoslovakia alone has under a 5% chance to reject; that doubles if Austria still exists. It will fight if it leads a faction, or has roughly comparable army strength and Germany lacks Hungary/Poland as allies. If Czechoslovakia is merely \"in\" a faction, it has an 80% chance to fight. Note: these are player-reported 2021 mechanics, not official current-version documentation; the wiki and forum pages failed to load [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/German_events), [forum.paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/france-and-munich.1423138/).",
+  "sources": [
+   "https://forum.paradoxplaza.com/forum/threads/france-and-munich.1423138/",
+   "https://steamcommunity.com/app/394360/discussions/0/2963922521557909252/",
+   "https://heartsofiron.fandom.com/wiki/Czechoslovakia_(HoI4)",
+   "https://ww2db.com/battle_spec.php?battle_id=88",
+   "https://hoi4.paradoxwikis.com/German_events"
+  ],
+  "version": "1.19.3",
+  "date": "1938.09.01"
+ },
+ {
+  "q": "Hearts of Iron IV 1.19 patch notes changes 2026",
+  "answer": "Hearts of Iron IV patch 1.19.0, “Thunder at our Gates,” was released on 2026-06-10 ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/Developer_diaries)). It adds focus trees for Australia (with a Democratic Election system), Siam, and the Dutch East-Indies; updates South-East Asian states; adds Army HQs, Ship Captains, a Dispersed Operations doctrine, Special Forces doctrines, and new models/music ([store.steampowered.com](https://store.steampowered.com/news/app/394360/view/712277443918955865), [changelog.gg](https://changelog.gg/games/hearts-of-iron-iv-394360/updates/2026-06-10-thunder-at-our-gates-patch-notes-1-19-0-7935db32044e74ff)).\n\nBalance changes include nerfs to support artillery, tank destroyers, and self-propelled vehicles, plus Pearl Harbor success and AI adjustments ([changelog.gg](https://changelog.gg/games/hearts-of-iron-iv-394360/updates/2026-06-10-thunder-at-our-gates-patch-notes-1-19-0-7935db32044e74ff)). The wiki page did not load, and PatchTLDR only gives a summary ([patchtldr.com](https://patchtldr.com/en/hoi4/patch-thunder-at-our-gates-notes-1190)).",
+  "sources": [
+   "https://store.steampowered.com/news/app/394360/view/712277443918955865",
+   "https://hoi4.paradoxwikis.com/Patch_1.19",
+   "https://changelog.gg/games/hearts-of-iron-iv-394360/updates/2026-06-10-thunder-at-our-gates-patch-notes-1-19-0-7935db32044e74ff",
+   "https://hoi4.paradoxwikis.com/Developer_diaries",
+   "https://patchtldr.com/en/hoi4/patch-thunder-at-our-gates-notes-1190"
+  ],
+  "version": "1.19.3",
+  "date": "1938.09.01"
+ },
+ {
+  "q": "HoI4 how to get air experience peacetime exercises air wing training rate XP per day",
+  "answer": "In Hearts of Iron IV, you can gain air experience in peacetime by assigning an air wing to the **Pilot Exercises** mission. This mission is available for all planes except rocket interceptors, transport planes, and scout planes; it consumes fuel and increases the risk of air accidents, and enabling it disables all other missions ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/Air_missions)). Holding Shift while clicking Pilot Exercises makes the wing train until maximum experience, then stop automatically ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=4&title=Air_missions&veaction=edit)).\n\nThe rate is very low and depends on the number of planes exercising. A June 2021 Steam discussion reports roughly **0.015 XP/day for 300 planes**, about **0.005 XP/day per 100 planes**, with small wings of 10 planes giving nothing and 15–30 planes giving about 0.001/day ([steamcommunity.com](https://steamcommunity.com/app/394360/discussions/0/3081006782743399504/)). These figures may reflect an older version; the wiki pages did not load current rates.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?section=4&title=Air_missions&veaction=edit",
+   "https://hoi4.paradoxwikis.com/Air_missions",
+   "https://hoi4.paradoxwikis.com/Experience",
+   "https://laxendev.weebly.com/blog/hoi4-general-experience-gain",
+   "https://steamcommunity.com/app/394360/discussions/0/3081006782743399504/"
+  ],
+  "version": "1.19.3",
+  "date": "1938.09.01"
+ },
+ {
+  "q": "HoI4 how much air experience to create a new aircraft design variant cost XP",
+  "answer": "In Hearts of Iron IV, creating an aircraft variant costs air experience (XP) based on upgrade levels. The first upgrade level costs **25 air XP**, and each subsequent level costs **5 more XP** than the previous one (e.g., 25, 30, 35, 40, 45 for five levels). This is from the [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/Variant) wiki, which reflects the current game version with designers (Man the Guns/No Step Back era).\n\nNote: Without the plane designer DLC, you still use the production screen's upgrade arrow to spend air XP on variants, as described in [forum.paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/aircraft-variants.1165223/) (older thread, circa 1.6). Some players report roughly 500 XP to nearly max a plane, per [forum.paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/what-to-do-with-those-excessive-air-xp.1883239/), but that's anecdotal and may reflect older versions.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/Variant",
+   "https://forum.paradoxplaza.com/forum/threads/aircraft-variants.1165223/",
+   "https://hoi4.paradoxwikis.com/Air_experience",
+   "https://forum.paradoxplaza.com/forum/threads/what-to-do-with-those-excessive-air-xp.1883239/",
+   "https://steamcommunity.com/app/394360/discussions/0/358415206091372692/"
+  ],
+  "version": "1.19.3",
+  "date": "1938.09.01"
+ },
+ {
+  "q": "HoI4 land fort construction cost per level how many construction points",
+  "answer": "In Hearts of Iron IV, a Land fort (building ID `bunker`) costs **500 construction points for the first level**, then **+500 per additional level** — i.e. 500 + 500 × current level. Its max level is 10 in the HOI4 Commands listing, though the wiki notes 3–10 depending on terrain and fortification engineering technologies. Each fort level inflicts a **-15% attack penalty** on attackers, reduced when attacking from multiple directions. [hoi4commands.com](https://hoi4commands.com/building/bunker) [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_mobile&title=Construction)\n\nNote: the sources are undated, so they may describe an older game version; the Paradox wiki page also failed to load properly, so its figures come from a partial/mobile view.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/Construction",
+   "https://hoi4commands.com/building/bunker",
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_mobile&title=Construction",
+   "https://hoi4commands.com/building",
+   "https://hoi4.paradoxwikis.com/index.php?title=Land_fort"
+  ],
+  "version": "1.19.3",
+  "date": "1938.09.01"
+ },
+ {
+  "q": "HoI4 France 1936 guide 2025 strategy hold Belgian border forts or divisions Germany 1940",
+  "answer": "The results give France strategies, but none is a 2025 guide. [gamerempire.net](https://gamerempire.net/hearts-of-iron-4-france-strategy-guide/) says build forts next to Belgium and Italy, with one 24-division army for Italy, another for the Belgian border, and 14 divisions on the Maginot. [steamsolo.com](https://steamsolo.com/guide/optimal-france-strategy-in-multiplayer-hearts-of-iron-iv/) recommends level 3–5 forts on the Belgian/Italian borders, 28+ divisions for the Alpine forts and ideally 35+ for Belgium, plus 20- or 30-width infantry with AT. [keengamer.com](https://www.keengamer.com/articles/guides/hoi4-guide-france-made-easy-2023/) (2023) suggests 24 divisions on the Alps, 24 on the Maginot, and the rest on Belgium/Luxembourg. [keengamer.com](https://www.keengamer.com/articles/guides/hearts-of-iron-iv-france-guide/) wants at least 64 divisions: 24 German border, 24 Italian, 16 Belgian. These may describe older versions; no 2025-specific source appears.",
+  "sources": [
+   "https://gamerempire.net/hearts-of-iron-4-france-strategy-guide/",
+   "https://steamsolo.com/guide/optimal-france-strategy-in-multiplayer-hearts-of-iron-iv/",
+   "https://www.keengamer.com/articles/guides/hoi4-guide-france-made-easy-2023/",
+   "https://www.keengamer.com/articles/guides/hearts-of-iron-iv-france-guide/",
+   "https://steamcommunity.com/sharedfiles/filedetails/?id=1104826820"
+  ],
+  "version": "1.19.3",
+  "date": "1938.09.01"
+ },
+ {
+  "q": "HoI4 creating a new aircraft design cost air experience or free module slots plane designer",
+  "answer": "Creating a new aircraft design in the HoI4 Plane Designer costs Air Experience, not free module slots. According to the [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=15&title=Aircraft_designer&veaction=edit) wiki, changing the engine costs 6 Air Experience, while upgrading the engine one level without changing the number of engines costs only 3 Air Experience. The [stratemgames.space](https://stratemgames.space/en/hearts-of-iron-iv/clusters/everything-about-air/complete-air-guide/air-basics/how-to-design-an-aircraft) guide confirms you need Air Experience to create aircraft templates, earned by training planes, fighting air battles, sending an attaché, or assigning a Chief of the Air Force. The [eip.gg](https://eip.gg/hoi4/guides/plane-designer-guide/) guide describes the module slots (armament and non-weapon rows) but doesn't state a slot cost. Note: these sources describe the Plane Designer introduced with the By Blood Alone DLC; no source is dated, so this may reflect that version.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?title=Aircraft_designer",
+   "https://forum.paradoxplaza.com/forum/developer-diary/developer-diary-plane-designer.1537609/page-21",
+   "https://hoi4.paradoxwikis.com/index.php?section=15&title=Aircraft_designer&veaction=edit",
+   "https://eip.gg/hoi4/guides/plane-designer-guide/",
+   "https://stratemgames.space/en/hearts-of-iron-iv/clusters/everything-about-air/complete-air-guide/air-basics/how-to-design-an-aircraft"
+  ],
+  "version": "1.19.3",
+  "date": "1938.09.01"
+ },
+ {
+  "q": "HoI4 air experience volunteers Spain France send volunteers air wings experience gain",
+  "answer": "To send air volunteers in HOI4, you need the **Waking the Tiger** DLC. In the \"Send Volunteers\" diplomacy screen, tick the **\"Send Air Volunteers\"** box, then right-click an airbase in the receiving country to station your wings ([raiderking.com](https://raiderking.com/hoi4-hearts-of-iron-iv-how-to-send-air-volunteers/), [forum.paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/air-volunteers-how-to-do-it.1163319/)). The recipient must accept first, and you must be at peace.\n\n**Limits:** roughly 20 planes per 100 owned (20% of your air force), capped by the target's airbase capacity ([raiderking.com](https://raiderking.com/hoi4-hearts-of-iron-iv-how-to-send-air-volunteers/), [stratemgames.space](https://stratemgames.space/en/hearts-of-iron-iv/spanish-civil-war-and-volunteers)). Spain's Civil War is the classic XP farm, generating air XP for doctrines and plane variants ([stratemgames.space](https://stratemgames.space/en/hearts-of-iron-iv/spanish-civil-war-and-volunteers)).\n\n**Caveats:** Sources conflict on exact ratios — one gives 100 planes per 500 owned and 1 wing per 5 airbase levels ([stratemgames.space](https://stratemgames.space/en/hearts-of-iron-iv/spanish-civil-war-and-volunteers)), another says 20 per 100 ([raiderking.com](https://raiderking.com/hoi4-hearts-of-iron-iv-how-to-send-air-volunteers/)). None specifically address **France**, and the 2026 StratemGames page may reflect a newer patch than the older forum/wiki material.",
+  "sources": [
+   "https://raiderking.com/hoi4-hearts-of-iron-iv-how-to-send-air-volunteers/",
+   "https://hoi4.paradoxwikis.com/Warfare",
+   "https://forum.paradoxplaza.com/forum/threads/air-volunteers-how-to-do-it.1163319/",
+   "https://neuralgamer.com/how-to-send-air-volunteers-in-hearts-of-iron-4/",
+   "https://stratemgames.space/en/hearts-of-iron-iv/spanish-civil-war-and-volunteers"
+  ],
+  "version": "1.19.3",
+  "date": "1938.09.01"
+ },
+ {
+  "q": "HoI4 plane designer cost to create a new design minimum air experience 25 XP base cost",
+  "answer": "The search results do not clearly confirm a “25 XP base cost” for creating a new plane design. The HOI4 wiki’s Aircraft designer page lists airframe/module stats and notes design costs for changing engines (6 Air XP, or 3 Air XP for a one-level engine upgrade), but it does not state a 25 XP minimum base cost for a new design ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/Aircraft_designer)). The Developer Diary explains the Plane Designer’s airframe/module system but also does not give that figure ([forum.paradoxplaza.com](https://forum.paradoxplaza.com/forum/developer-diary/developer-diary-plane-designer.1537609/page-21)). A forum thread says plane design is generally less XP-intensive than tanks, but again no 25 XP base is cited ([forum.paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/by-blood-alone-aircraft-design.1693436/)). So the results do not answer the question, and may reflect older versions.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/Aircraft_designer",
+   "https://forum.paradoxplaza.com/forum/developer-diary/developer-diary-plane-designer.1537609/page-21",
+   "https://hoi4.paradoxwikis.com/index.php?title=Aircraft_designer",
+   "https://forum.paradoxplaza.com/forum/threads/by-blood-alone-aircraft-design.1693436/",
+   "https://eip.gg/hoi4/guides/plane-designer-guide/"
+  ],
+  "version": "1.19.3",
+  "date": "1938.09.01"
+ },
+ {
+  "q": "HoI4 military attaché experience gain per day army air experience attaché country at war",
+  "answer": "Based on the search results, a military attaché in Hearts of Iron IV is a diplomacy action introduced in the **Waking the Tiger** expansion. You can only send one while you are at peace and the receiver is at war; it requires good relations and ties up a lot of command power. In exchange, you gain army XP and intel on the receiver's war ([forum.paradoxplaza.com](https://forum.paradoxplaza.com/forum/developer-diary/hoi4-dev-diary-bag-of-tricks-3.1064427/page-3)).\n\nFor the actual rate: [stratemgames.space](https://stratemgames.space/en/hearts-of-iron-iv/clusters/everything-about-divisions/complete-division-guide/division-basics/army-experience-for-divisions) states you take a share of the host country's Army Experience, **base 15%**, and notes players often attach to China or Japan. That source does not give a flat \"per day\" figure, and none of the results specify air experience from attachés. The [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/Officer_corps) page describes daily XP gain generally but doesn't cover attaché rates. So the exact per-day army/air XP numbers are not answered here.",
+  "sources": [
+   "https://forum.paradoxplaza.com/forum/developer-diary/hoi4-dev-diary-bag-of-tricks-3.1064427/page-3",
+   "https://hoi4.paradoxwikis.com/Diplomacy",
+   "https://stratemgames.space/en/hearts-of-iron-iv/clusters/everything-about-divisions/complete-division-guide/division-basics/army-experience-for-divisions",
+   "https://hoi4.paradoxwikis.com/Officer_corps",
+   "https://forum.paradoxplaza.com/forum/threads/attache-xp.1120957/"
+  ],
+  "version": "1.19.3",
+  "date": "1938.09.01"
+ },
+ {
+  "q": "HoI4 aircraft_cannon_1 module which technology unlocks plane designer cannon",
+  "answer": "The **Cannons I** technology unlocks the **1x Cannon I** and **2x Cannon I** aircraft-designer modules. It becomes available in **1939** and takes **110 days** to research, with **Light MG** as its prerequisite ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=14&title=Air_technology)).\n\nThe module table confirms **1x Cannon I** and **2x Cannon I** require **Cannons I** ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?title=Aircraft_designer)).\n\nNote: these wiki results don’t display a version/date, so they may describe an older HoI4 version. The other pages either failed to load or don’t answer the question.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/Aircraft_designer",
+   "https://hoi4.paradoxwikis.com/index.php?section=14&title=Air_technology",
+   "https://hoi4.paradoxwikis.com/index.php?title=Aircraft_designer",
+   "https://hoi4commands.com/technology",
+   "https://hoi4.paradoxwikis.com/Air_technology"
+  ],
+  "version": "1.19.3",
+  "date": "1938.09.01"
+ },
+ {
+  "q": "HoI4 small airframe tech years basic_small_airframe 1936 improved_small_airframe 1940 fighter",
+  "answer": "The results give the small airframe tech years: Inter-War Small Airframe (1933), Basic Small Airframe (1936), Improved Small Airframe (1940), Advanced Small Airframe (1944), and Modern Small Airframe (1945). The HOI4 Wiki table lists each with a 220-day base research time and prerequisites chaining from the previous airframe ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=14&title=Air_technology)). A separate technology ID list confirms `basic_small_airframe` is an Air technology dated 1936 ([hoi4commands.com](https://hoi4commands.com/technology?page=3)), and the equipment page gives its code as `small_plane_airframe_1`, year 1936, max speed 425 km/h ([hoi4commands.com](https://hoi4commands.com/equipment/small-plane-airframe-1)). The results do not specify a distinct \"fighter\" tech year beyond these airframe dates, and one wiki page failed to load ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/Air_technology)). These appear to reflect the current version, though no version number is stated.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?section=14&title=Air_technology",
+   "https://hoi4commands.com/technology?page=3",
+   "https://productionwiki-hoi4.paradoxwikis.com/index.php?section=4&title=Air_technology&veaction=edit",
+   "https://hoi4.paradoxwikis.com/Air_technology",
+   "https://hoi4commands.com/equipment/small-plane-airframe-1"
+  ],
+  "version": "1.19.3",
+  "date": "1938.09.01"
+ },
+ {
+  "q": "HoI4 France starting aircraft technology cannon_1 20mm aircraft cannon tech 1936 available",
+  "answer": "The search results do not clearly confirm that France starts with **Cannons I** in 1936.\n\nThe Air technology page lists **Cannons I** as a **1939** technology, not 1936, with prerequisites **Light MG** ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=14&title=Air_technology)). The France wiki page lists France’s starting air techs, including **Light MG** and **Canons I** in one table, but it does not give a date or version for that table ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=26&title=France)). So the results may describe an older version or may not answer the “1936 available” part. A forum post only covers France’s starting production lines in versions **1.0.0–1.5.4**, not cannon tech availability ([forum.paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/fra-game-start-airplane-production-would-someone-please-post-frances-starting-production-line-from-a-hoi4-game-with-no-dlc-or-pre-mtg.1856582/)).",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/France",
+   "https://hoi4.paradoxwikis.com/index.php?section=14&title=Air_technology",
+   "https://forum.paradoxplaza.com/forum/threads/fra-game-start-airplane-production-would-someone-please-post-frances-starting-production-line-from-a-hoi4-game-with-no-dlc-or-pre-mtg.1856582/",
+   "https://hoi4.paradoxwikis.com/index.php?section=26&title=France",
+   "https://pastebin.com/5E6JwNLM"
+  ],
+  "version": "1.19.3",
+  "date": "1938.09.01"
+ },
+ {
+  "q": "HoI4 basic_medium_tank_chassis technology year 1939 medium armor battalion requisites",
+  "answer": "The results do not fully answer the question as phrased, and they conflict on dates.\n\nFor the technology ID `basic_medium_tank_chassis`, [hoi4commands.com](https://hoi4commands.com/technology?page=3) lists **Basic Medium Tank Chassis** as **1938**, while a separate “Basic Medium Tank” entry is listed as **1939**. The [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?title=Armor_technology) Armor technology page also gives **Basic Medium Tank Chassis = 1938**, with prerequisite **Inter-War Tank Development**.\n\nFor **Medium Tank battalions**, the [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&title=Armor_technology_%28Basic%29) Basic Armor page lists **Medium Tank I = 1938**, prerequisite **Light Tank II**, and says medium tanks can be used by **Medium Tank battalions**. The Chinese wiki [hoi4.parawikis.com](https://hoi4.parawikis.com/wiki/%E8%A3%85%E7%94%B2%E8%BD%A6%E8%BE%86%E7%A7%91%E6%8A%80) instead lists **中型坦克 I = 1939**, prerequisite **轻型坦克 II**, and a Medium Tank battalion needing **50 equipment, 500 manpower, 180 training time**.\n\nSo: the “1939” date appears for the tank/unit technology on some sources, but the chassis ID is generally **1938**; battalion prerequisite is **Light Tank II**. These may describe older versions.",
+  "sources": [
+   "https://hoi4commands.com/technology?page=3",
+   "https://hoi4.paradoxwikis.com/index.php?title=Armor_technology",
+   "https://hoi4.paradoxwikis.com/Armor_technology_(Basic)",
+   "https://hoi4.parawikis.com/wiki/%E8%A3%85%E7%94%B2%E8%BD%A6%E8%BE%86%E7%A7%91%E6%8A%80",
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&title=Armor_technology_%28Basic%29"
+  ],
+  "version": "1.19.3",
+  "date": "1938.09.01"
+ },
+ {
+  "q": "Hearts of Iron IV France focus tree \"Disjointed Government\" how to remove Political Unity Utilize the Leagues National Regeneration",
+  "answer": "The search results answer this, but they reflect older/unspecified versions of Hearts of Iron IV rather than a dated current patch.\n\nAccording to the HOI4 Wiki’s French national focus tree page, **Political Unity** removes the **Disjointed Government** national spirit. Its prerequisite is **National Regeneration**, which in turn requires **Utilize the Leagues** ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/French_national_focus_tree)).\n\nThe path shown is: **Utilize the Leagues → National Regeneration → Political Unity**. **National Regeneration** requires **Utilize the Leagues** and is mutually exclusive with **The Council of Rambouillet**, and it needs combined Unaligned + Fascist support over 50%. **Utilize the Leagues** requires **Revive the National Bloc**, not having completed **Review Foreign Policy**, and full independence ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree)).\n\nA 2026 guide also notes National Regeneration needs 50% combined fascist/non-aligned support and is mutually exclusive with the Napoleonic route ([guides-factory.com](https://guides-factory.com/guides/hoi4-france-guide)). The results do not give a patch date, so verify in your current game version.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/French_national_focus_tree",
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree",
+   "https://raiderking.com/hoi4-hearts-of-iron-iv-france-guide-how-to-dominate/",
+   "https://guides-factory.com/guides/hoi4-france-guide",
+   "https://www.keengamer.com/articles/guides/hoi4-guide-france-made-easy-2023/"
+  ],
+  "version": "1.19.3",
+  "date": "1938.12.30"
+ },
+ {
+  "q": "HoI4 France focus \"Army Reform\" requires not Disjointed Government alternative path 1939",
+  "answer": "The results don't confirm a 1939-dated \"alternative path\" for Army Reform. They say Army Reform requires one of Char de Bataille, Extend the Maginot Line, Automitrailleuses, or Flying Artillery, and that it cannot be taken while France has the Disjointed Government national spirit ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree)). A strategy guide likewise states you can't use Army Reform until Disjointed Government is removed, and lists Army Reform after Defensive Stratagems ([gamerempire.net](https://gamerempire.net/hearts-of-iron-4-france-strategy-guide/)). The wiki's France page adds that Disjointed Government is removed by Force the Issue, Defensive Stratagems, Political Unity, or Repeal the Law of Exile ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=26&title=France)). None of these sources are dated, and they may describe older versions.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree",
+   "https://hoi4.paradoxwikis.com/French_national_focus_tree",
+   "https://gamerempire.net/hearts-of-iron-4-france-strategy-guide/",
+   "https://forum.paradoxplaza.com/forum/threads/as-france-politics-army-reform-or-industry-first.1344691/",
+   "https://hoi4.paradoxwikis.com/index.php?section=26&title=France"
+  ],
+  "version": "1.19.3",
+  "date": "1938.12.30"
+ },
+ {
+  "q": "HoI4 France national spirit \"Victors of the Great War\" effects army experience doctrine cost",
+  "answer": "The search results do not give a single, current, official “Victors of the Great War” tooltip, but they consistently describe it as a French national spirit debuff affecting army doctrine cost.\n\n- [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree) lists the focus **Army Reform** as removing **Victors of the Great War**, and giving **2x 50% Cost Reduction for Land Doctrine**.\n- [gamerempire.net](https://gamerempire.net/hearts-of-iron-4-france-strategy-guide/) says it increases doctrine cost to **150 experience**, lowers recruitable manpower, and reduces War Support; it can only be removed after getting rid of **Disjointed Government**.\n- [keengamer.com](https://www.keengamer.com/articles/guides/hoi4-guide-france-made-easy-2023/) (2023 guide) says it causes **+50% land doctrine cost**.\n- [en.namu.wiki](https://en.namu.wiki/w/%ED%94%84%EB%9E%91%EC%8A%A4(Hearts%20of%20Iron%20IV)) lists: **Recruitable population −0.3%, War support −5%, Army doctrine cost +50%, Army doctrine mastery gained −15%**.\n\nThese may reflect older versions; no date/version is shown for the wiki page.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&section=2&title=French_national_focus_tree",
+   "https://hoi4.paradoxwikis.com/National_spirit",
+   "https://gamerempire.net/hearts-of-iron-4-france-strategy-guide/",
+   "https://www.keengamer.com/articles/guides/hoi4-guide-france-made-easy-2023/",
+   "https://en.namu.wiki/w/%ED%94%84%EB%9E%91%EC%8A%A4(Hearts%20of%20Iron%20IV)"
+  ],
+  "version": "1.19.3",
+  "date": "1938.12.30"
+ },
+ {
+  "q": "HoI4 France focus \"National Regeneration\" requirements non-aligned fascist support 50% \"Political Unity\"",
+  "answer": "The search results partially address this. The [guides-factory.com](https://guides-factory.com/guides/hoi4-france-guide) guide (dated 2026) states that **National Regeneration** makes the Mouvement Franciste the ruling party with Pierre Laval leading it, and \"It needs 50% combined fascist and non-aligned support.\" It also notes National Regeneration is mutually exclusive with The Council of Rambouillet.\n\nRegarding **Political Unity**, the same source says it \"removes Disjointed Government,\" and the [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&title=France&veaction=edit) France page confirms Disjointed Government can be removed by completing \"Force the Issue, Defensive Stratagems, Political Unity or Repeal the Law of Exile.\"\n\nHowever, the results do **not** explicitly confirm that Political Unity itself requires 50% non-aligned/fascist support. The [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/Achievements) Achievements page (version 1.9) advises taking Political Unity \"as soon as possible\" after reaching 50% combined popularity, implying it follows that threshold but not stating it as a requirement. Note some wiki pages failed to load (client challenge), so this may reflect older or incomplete data.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/French_national_focus_tree",
+   "https://guides-factory.com/guides/hoi4-france-guide",
+   "https://hoi4.paradoxwikis.com/Achievements",
+   "https://hoi4.paradoxwikis.com/France",
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&title=France&veaction=edit"
+  ],
+  "version": "1.19.3",
+  "date": "1938.12.30"
+ },
+ {
+  "q": "HoI4 France focus \"Repeal the Law of Exile\" \"Revise the Constitution\" effects government change monarchist path",
+  "answer": "The results do describe this chain, but they mix current and older-version details.\n\n**Effects:** “Revise the Constitution” grants the Constitutional Revision spirit (+0.20% weekly stability for 365 days) and blocks the next focus until it expires. “Repeal the Law of Exile” removes the Disjointed Government spirit and gives +120 political power. It then opens the three-way monarchist fork (Orléanist, Legitimist, Bonapartist) [guides-factory.com](https://guides-factory.com/guides/hoi4-france-guide), [forum.paradoxplaza.com](https://forum.paradoxplaza.com/forum/threads/it-feels-like-the-french-focus-tree-needs-a-rebalance.1365809/).\n\n**Version caution:** The monarchy branch came with La Résistance (25 February 2020) [guides-factory.com](https://guides-factory.com/guides/hoi4-france-guide). The 2023 guide [keengamer.com](https://www.keengamer.com/articles/guides/hoi4-guide-france-made-easy-2023/) and the forum thread may reflect older balance. The wiki result [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/French_national_focus_tree) failed to load, so it provides no confirmation.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/French_national_focus_tree",
+   "https://www.keengamer.com/articles/guides/hoi4-guide-france-made-easy-2023/",
+   "https://guides-factory.com/guides/hoi4-france-guide",
+   "https://raiderking.com/hoi4-hearts-of-iron-iv-france-guide-how-to-dominate/",
+   "https://forum.paradoxplaza.com/forum/threads/it-feels-like-the-french-focus-tree-needs-a-rebalance.1365809/"
+  ],
+  "version": "1.19.3",
+  "date": "1938.12.30"
+ },
+ {
+  "q": "HoI4 France focus \"National Regeneration\" effect ruling party Mouvement Franciste fascist government change",
+  "answer": "The search results do not give a clean, official effect listing for **National Regeneration**. The Paradox wiki pages returned only a \"Client Challenge\" error, so they contain no usable text ([hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/French_national_focus_tree)).\n\nA third-party guide dated 2026 describes it as follows: **National Regeneration** sits behind **Utilize the Leagues** on the fascist branch, makes the **Mouvement Franciste** the ruling party with **Pierre Laval** leading it, and requires **50% combined fascist and non-aligned support**. It is mutually exclusive with **The Council of Rambouillet**, so the fascist and Napoleonic routes cannot both occur in one campaign ([guides-factory.com](https://guides-factory.com/guides/hoi4-france-guide)).\n\nCaveat: this is an unofficial guide, not patch-verified, and it may describe an older version. It does not state the exact government-change mechanics or in-game tooltip wording.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/French_national_focus_tree",
+   "https://guides-factory.com/guides/hoi4-france-guide",
+   "https://hoi4.paradoxwikis.com/Vichy_France",
+   "https://hoi4.paradoxwikis.com/Political_parties_and_leaders",
+   "https://hoi4.paradoxwikis.com/User:Peregrine848"
+  ],
+  "version": "1.19.3",
+  "date": "1938.12.30"
+ },
+ {
+  "q": "HoI4 France focus \"National Regeneration\" conditions requirements \"Political Unity\" ends Disjointed Government leagues route",
+  "answer": "Based on the results, the fascist “leagues” route runs: Revive the National Bloc → Utilize the Leagues → National Regeneration, which makes the Mouvement Franciste the ruling party under Pierre Laval. It requires 50% combined fascist and non-aligned support and is mutually exclusive with The Council of Rambouillet (the monarchist fork). Below it, **Political Unity** removes Disjointed Government. [guides-factory.com](https://guides-factory.com/guides/hoi4-france-guide)\n\nThe wiki confirms Disjointed Government can be removed by completing Force the Issue, Defensive Stratagems, **Political Unity**, or Repeal the Law of Exile. [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&title=France&veaction=edit)\n\nCaveat: the guide is dated 2026, but the wiki pages returned “Client Challenge” errors, so exact current prerequisites for National Regeneration aren’t fully verified here and may reflect an older version.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/French_national_focus_tree",
+   "https://guides-factory.com/guides/hoi4-france-guide",
+   "https://edge.hoi4modding.com/focus-tree/view/90823",
+   "https://hoi4.paradoxwikis.com/index.php?mobileaction=toggle_view_desktop&title=France&veaction=edit",
+   "https://hoi4.paradoxwikis.com/Disjointed_Government"
+  ],
+  "version": "1.19.3",
+  "date": "1938.12.30"
+ },
+ {
+  "q": "HoI4 France focus \"National Regeneration\" effect does it change ideology to fascist and can France still join the Allies faction",
+  "answer": "The search results do **not** directly answer this. The most relevant source is the [hoi4.paradoxwikis.com](https://hoi4.paradoxwikis.com/index.php?section=261&title=Political_parties_and_leaders) political parties page, which lists Pierre Laval as able to come to power via the focus **National Regeneration** under Fascism/Rexism, implying the focus shifts France toward fascism. However, it does not state the exact effect or whether France can remain in/still join the Allies afterward.\n\nThe [guides-factory.com](https://guides-factory.com/guides/hoi4-achievements-guide) achievements guide (undated, likely older version) repeatedly says to \"turn fascist by going down the National Regeneration path\" and \"join the Axis,\" suggesting fascist France normally joins the Axis, not the Allies — but this is achievement advice, not a definitive focus-effect description.\n\nThe wiki pages for [France](https://hoi4.paradoxwikis.com/France), [Vichy France](https://hoi4.paradoxwikis.com/Vichy_France), and the [French focus tree](https://hoi4.paradoxwikis.com/French_national_focus_tree) failed to load, so they provide no answer.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/French_national_focus_tree",
+   "https://hoi4.paradoxwikis.com/index.php?section=261&title=Political_parties_and_leaders",
+   "https://guides-factory.com/guides/hoi4-achievements-guide",
+   "https://hoi4.paradoxwikis.com/Vichy_France",
+   "https://hoi4.paradoxwikis.com/France"
+  ],
+  "version": "1.19.3",
+  "date": "1938.12.30"
+ },
+ {
+  "q": "HoI4 does the air Training mission (pilot exercises) give national air experience?",
+  "answer": "Yes. Pilot Exercises (air mission training) feed the wing's experience and the national Air experience stockpile (capped at 500), used for air doctrines and aircraft designs. It costs fuel and raises air accidents; the yield scales with the number of planes training.",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/Experience",
+   "https://hoi4.paradoxwikis.com/index.php?section=5&title=Air_missions"
+  ],
+  "version": "1.19.3",
+  "date": "1939.09.21"
+ },
+ {
+  "q": "HoI4 fuel consumption per day of divisions, tanks and aircraft at war, how fast fuel is burned",
+  "answer": "I couldn't find a reliable per-day fuel figure for divisions, tanks, or aircraft. The search results were mostly snippets, and I didn't open the pages, so treat what follows as unverified.\n\n- **Wiki multiplier (undated):** A HoI4 wiki snippet says daily army fuel use is about 12 times the fuel usage shown in a division's stats, with zero use while idle and double use while moving and attacking. The snippet didn't show a game version, and I couldn't confirm the 12x figure.\n- **Forum example (older version, unconfirmed):** A player reported 633.6 fuel per day for a division of 6 medium tanks and 4 motorized infantry while attacking. Another post gave a different land multiplier, so the community numbers conflict.\n- **Developer diary (2018 Fuel Review):** It describes consumption as rising with movement and combat, but the snippet gave no numbers.\n- **Patch notes:** Aircraft fuel use was increased by 33% in an older patch, and fuel-capacity defaults changed in a 2022 patch. Neither gives a base rate.\n\nFor current values, check the defines files in the game's common/ folder or the in-game tooltips, since the figures may have changed with later patches.\n\nSources:\nhttps://hoi4.paradoxwikis.com/index.php?title=Fuel&veaction=edit&mobileaction=toggle_view_desktop\nhttps://forum.paradoxplaza.com/forum/threads/fuel-consumption-rates-for-those-wanting-to-know.1156225/\nhttps://forum.paradoxplaza.com/forum/developer-diary/hoi4-dev-diary-fuel-review-and-motorized-artillery.1144796/\nhttps://guildorder.com/games/hoi4/wiki/fuel-and-mechanised-warfare",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/index.php?title=Fuel&veaction=edit&mobileaction=toggle_view_desktop",
+   "https://forum.paradoxplaza.com/forum/threads/fuel-consumption-rates-for-those-wanting-to-know.1156225/",
+   "https://forum.paradoxplaza.com/forum/developer-diary/hoi4-dev-diary-fuel-review-and-motorized-artillery.1144796/",
+   "https://guildorder.com/games/hoi4/wiki/fuel-and-mechanised-warfare"
+  ],
+  "version": "1.19.3",
+  "date": "1939.11.01"
+ },
+ {
+  "q": "HoI4 aircraft_cannon_1 aircraft cannon technology: which tech unlocks it and its prerequisites",
+  "answer": "I couldn't confirm which tech unlocks `aircraft_cannon_1` or its prerequisites. Neither search found the internal ID or its requirements.\n\n- **Likely match:** The HOI4 Wiki's Aircraft designer page lists a \"1x Cannon I\" weapon module for small and medium airframes. It says the module requires the \"Cannons I\" technology. It does not give the year, cost, or prerequisites for that tech. The page doesn't show the internal key, so I can't confirm that \"Cannons I\" is `aircraft_cannon_1`. The snippet doesn't say which game version it reflects.\n- **Not answered:** The search results didn't include the tech's prerequisite tree. The hoi4commands.com tech lists I found show IDs and years but no prerequisites, and their version is unclear.\n\nTo get a reliable answer, check the \"Air technology\" page on the HOI4 Wiki, which has a Weaponry section with the Cannons I entry. Or open the game files and look for `aircraft_cannon_1` in `common/technologies`, where the `requires` field lists the prerequisites for your game version.\n\nSources:\nhttps://hoi4.paradoxwikis.com/Aircraft_designer\nhttps://hoi4.paradoxwikis.com/index.php?title=Air_technology\nhttps://hoi4commands.com/technology",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/Aircraft_designer",
+   "https://hoi4.paradoxwikis.com/index.php?title=Air_technology",
+   "https://hoi4commands.com/technology"
+  ],
+  "version": "1.19.3",
+  "date": "1939.11.01"
+ },
+ {
+  "q": "HoI4 Japan how to start the war with China before focus \"Revisit the Twenty-One Demands\" requires at war with China, Marco Polo Bridge incident event or decision",
+  "answer": "I couldn't confirm the \"Revisit the Twenty-One Demands\" focus or its exact requirements. None of the results mentioned it, so it may come from a mod or a newer patch than the sources cover.\n\nFor the war start, the sources say Japan usually needs the **Marco Polo Bridge Incident** national focus to begin the Second Sino-Japanese War. Japan's reluctance to justify war goals under Hirohito makes this the normal route. Other options:\n\n- **World tension at 75%**, which lets Japan enter the war without the focus.\n- **A Chinese \"Pick a Fight With Japan\" or \"Provoke Japan\" focus**, which starts the war for Japan.\n\nTaking the Marco Polo focus applies a penalty to Japan's army against China (listed as -50% attack and -25% defense). The \"escalate the war in China\" decision or the \"Secure China\" focus can remove it.\n\nThe sources disagree on when to take the focus. One guide puts it after Spiritual Mobilization and before the Greater East Asian Co-Prosperity Sphere. The guides also come from different game versions, one of them 1.17, so check the current in-game tree or the wiki's version notes before relying on this.\n\nSources:\nhttps://hoi4.paradoxwikis.com/China\nhttps://hoi4.paradoxwikis.com/The_Second_Sino-Japanese_War\nhttps://note.com/youri_on/n/n2524548e9803?hl=en\nhttps://forum.paradoxplaza.com/forum/threads/any-advices-for-the-order-of-japans-focus-tree.1096197/\nhttps://en.wikipedia.org/wiki/Marco_Polo_Bridge_incident",
+  "sources": [
+   "https://hoi4.paradoxwikis.com/China",
+   "https://hoi4.paradoxwikis.com/The_Second_Sino-Japanese_War",
+   "https://note.com/youri_on/n/n2524548e9803?hl=en",
+   "https://forum.paradoxplaza.com/forum/threads/any-advices-for-the-order-of-japans-focus-tree.1096197/",
+   "https://en.wikipedia.org/wiki/Marco_Polo_Bridge_incident"
+  ],
+  "version": "1.19.3",
+  "date": "1936.01.02"
+ },
+ {
+  "q": "Hearts of Iron IV Japan: when does the Marco Polo Bridge incident event fire, and does the 725-day JAP_marco_polo_remaining_days flag set by Purge the Kodoha Faction change its timing?",
+  "answer": "I couldn't find a reliable answer. Neither search found the event's script, the `JAP_marco_polo_remaining_days` variable, or any statement about how the Kodoha purge changes its timing. I didn't find a source that confirms a 725-day flag.\n\nWhat the results do show, all unofficial and mostly undated or tied to unspecified versions:\n\n- **Timing:** One Steam Workshop post says the Marco Polo Bridge focus runs about 35 days, and that the Japan AI declared war roughly 14 to 21 days off the historical July 7, 1937 date. The poster suggested shortening the focus to 21 days. This is anecdotal and the game version is not stated.\n- **Patch notes:** A 2021 note says the focus can't be taken before 1937. A later update says the incident now triggers automatically. Neither gives timing details.\n- **Kodoha branch:** Community discussion identifies \"Purge the Kodoha Faction\" as the historical branch, but doesn't describe any day-count change.\n\nTo answer this, check the Japan focus file (`common/national_focus`) and the event file in your installed game version, searching for `marco_polo` and `remaining_days`. The Paradox forums or wiki may also document the current values.\n\nSources:\nhttps://steamcommunity.com/workshop/filedetails/discussion/806209426/1729828401697249244\nhttps://steamcommunity.com/sharedfiles/filedetails/changelog/715497831\nhttps://steamcommunity.com/app/394360/discussions/0/3047235309988163992\nhttps://gamerempire.net/hearts-of-iron-4-japan-strategy-guide/\nhttps://tardis.wiki/wiki/Kodo_Ha",
+  "sources": [
+   "https://steamcommunity.com/workshop/filedetails/discussion/806209426/1729828401697249244",
+   "https://steamcommunity.com/sharedfiles/filedetails/changelog/715497831",
+   "https://steamcommunity.com/app/394360/discussions/0/3047235309988163992",
+   "https://gamerempire.net/hearts-of-iron-4-japan-strategy-guide/",
+   "https://tardis.wiki/wiki/Kodo_Ha"
+  ],
+  "version": "1.19.3",
+  "date": "1936.01.02"
+ }
+]

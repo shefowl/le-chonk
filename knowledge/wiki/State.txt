@@ -1,0 +1,387 @@
+TITLE: State
+URL: https://hoi4.paradoxwikis.com/State
+REVISION: 2024-12-11T22:46:34Z (rev 76817)
+VERIFIED FOR: 1.9
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+List of states
+The state is the primary geographic unit of Hearts of Iron 4. A state consists of a set of provinces. In turn, strategic regions and the territory of countries consist of a set of states.
+
+# Diplomacy [verified for 1.14]
+
+(Main article: Diplomacy)
+Ownership over territory is determined at the state level. Control over both the resources and state-wide construction of a state is determined by the plurality controller of a state, meaning the country that controls the most victory points. Each province in a state is worth 0.1 victory points. Some provinces (usually cities) have additional victory points.
+
+These are all named and marked with small squares (1 to 9 VPs), pentagons (10 to 15 VPs), circles (20 to 40 VPs), or stars (capitals with 1 to 50 VPs) on the map and their additional victory points are shown through the tooltip when hovering over them. Resistance is computed at the state level.
+
+# Cores
+States can be either core states or colony states. Cores are considered an integral part of the country, and the inhabitants are fully available for military service. Nations get a -98% penalty to manpower in colony states, and have half as many building slots available as in a core state.
+
+Nations may justify war goals against foreign-owned core states in half the time and for half the political power as on other states. Only victory points in core states count when determining if a country will capitulate. When a nation controls a non-core state, that state will generate resistance.
+
+Unlike other Paradox games, there is normally no way for countries to gain cores. You can lose cores if you release/return territory of a country.
+
+Some country-specific events and national focuses, like the Anschluss event for Germany or decisions for Mexico for central America, will grant cores. As of the La Resistance expansion, there is an exception to this rule, with Anarchist Spain able to core any state with enough compliance with the Global Defense Council focus.
+
+# Construction [verified for 1.9]
+
+(Main article: Construction)
+Construction can be divided into three categories: state buildings, shared buildings and province buildings.
+
+## State buildings
+State buildings are state-wide and every state may get the same maximum level of a certain building.
+
+Infrastructure, airbases, anti-air and radar stations belong to this category.
+
+## Shared buildings
+Shared buildings are also state-wide, but the amount that can be built is limited to the number of free slots. Once all slots are occupied, no more shared buildings can be built.
+
+Factories, dockyards, synthetic refineries, fuel silos, rocket sites, and nuclear reactors belong to this category
+
+## Province buildings
+Province buildings are built per-province, their maximum levels depend on the type of building.
+
+Naval bases, forts and Supply hubs belong to this category.
+
+# Resources [verified for 1.14]
+
+(Main article: Production#Resources)
+Resources for production are generated at the state level. The majority controller will have a certain amount of the resources of a state added to their resource pool depending on their occupation policy.
+
+# Population [verified for 1.9]
+
+The population in a state is tracked by five numbers.
+
+The total population is the population the state starts with; it is shown on the state's info panel. Monthly population growth is based on it and the total never declines. The game's duration usually spans less than a generation, so all inhabitants that could enter military service are already born at the start of the game.
+
+The recruitable population is available for the controlling country to use in military service. Recruitable population gets reduced as manpower is used in the military, not just after taking casualties.
+
+The recruitable population cap is a fraction of the total population that limits the recruitable population. For how the fraction is calculated, see recruitable population.
+
+The civilian population is the portion of the population that is not available for military service.
+
+The civilian population cap is a fraction of the total population that limits the civilian population. It is the total population minus the recruitable population cap.
+
+Changes in the effective recruitable population ratio can cause one of the two population counts to overflow. In this case population is transferred to the other population type. For example, if a country raises its recruitment law, the civilian population cap will go down over time (according to the mobilization speed), which causes some civilian population to be transferred to recruitable population. Conversely, if a state is captured by a country that does not have a core on it, the recruitable ratio will be massively reduced and might cause recruitable population to transfer back to civilian population.
+
+## Growth
+The state's total population grows by +0.125% at the start of every month. The increase in population is distributed between recruitable and the civilian population by the recruitable ratio. Both increases are always at least one person respectively.
+# Category [verified for 1.13]
+
+The state category usually decides on the amount of shared building slots available to use. The category for any state is decided at the game's start and it isn't generally possible to change, however certain countries have content allowing them to upgrade the state category of certain states.a The state categories also decide on the colour of the state in the states map mode. These state categories exist in the base game:
+
+Name: Wasteland
+Amount of slots: 0
+
+Name: Enclave
+Amount of slots: 0
+
+Name: Tiny Island
+Amount of slots: 0
+
+Name: Pastoral Region
+Amount of slots: 1
+
+Name: Small Island
+Amount of slots: 1
+
+Name: Rural Region
+Amount of slots: 2
+
+Name: Developed Rural Region
+Amount of slots: 4
+
+Name: Sparse Urban Region
+Amount of slots: 5
+
+Name: Urban Region
+Amount of slots: 6
+
+Name: Dense Urban Region
+Amount of slots: 8
+
+Name: Metropolis Region
+Amount of slots: 10
+
+Name: Megalopolis Region
+Amount of slots: 12
+
+# State Modifiers
+These are modifiers that states can have that can effect them in major ways. They are typically country specific.
+
+Modifier: Krasnaya Gorka Battery (Soviet Union)
+Effect:
+- Entrenchment speed: +25.0%
+- Division Defense: +10.0%
+- Max Entrenchment: +10.0%
+- Entrenchment penalty: -15.0%
+- Damage Reduction Against CAS: -10.0%
+Countries: Soviet Union
+
+Modifier: Seraya Loshad Battery (Soviet Union)
+Effect:
+- Entrenchment speed: +25.0%
+- Division Defense: +10.0%
+- Max Entrenchment: +10.0%
+- Entrenchment penalty: -15.0%
+- Damage Reduction Against CAS: -10.0%
+Countries: Soviet Union
+
+Modifier: Armored Battery 35 (Soviet Union)
+Effect:
+- Entrenchment speed: +25.0%
+- Division Defense: +10.0%
+- Max Entrenchment: +10.0%
+- Entrenchment penalty: -15.0%
+- Damage Reduction Against CAS: -10.0%
+Countries: Soviet Union
+
+Modifier: Capital of the Tsars
+Effect: * Local Construction Speed: +25%
+Countries: Soviet Union
+
+Modifier: International City
+Effect:
+- Local Factories: -100%
+- Recruitable Population: -100.00%
+- Local Available Resources: -100%
+Countries: Poland
+
+Modifier: International City
+Effect:
+- Local Factories: -75%
+- Resistance Growth Speed: +120%
+- Recruitable Population: -75.00%
+- Local Available Resources: -75%
+Countries: Poland
+
+Modifier: International City
+Effect:
+- Local Factories: -50%
+- Resistance Growth Speed: +60%
+- Daily Compliance Gain: +0.10%
+- Recruitable Population: -50.00%
+- Local Available Resources: -50%
+Countries: Poland
+
+Modifier: International City
+Effect:
+- Local Factories: -25%
+- Resistance Growth Speed: +20%
+- Daily Compliance Gain: +0.40%
+- Recruitable Population: -25.00%
+- Local Available Resources: -25%
+Countries: Poland
+
+Modifier: Unity Propaganda
+Effect: * Daily Compliance Gain: +0.70%
+Countries: Poland
+
+Modifier: Military Appeasement
+Effect: * Resistance Growth Speed: -50%
+Countries: Poland
+
+Modifier: Military Plans (Poland)
+Effect: * Land Fort construction speed: +30.00%
+Countries: Poland
+
+Modifier: Anti-Russian Plans (Poland)
+Effect:
+- Division Attack: +10.0%
+- Division Defense: +20.0%
+- Breakthrough: +15.00%
+Countries:
+Poland
+
+Soviet Union
+
+Modifier: Anti-German Plans (Poland)
+Effect:
+- Division Attack: +10.0%
+- Division Defense: +20.0%
+- Breakthrough: +15.00%
+Countries:
+Poland
+
+German Reich
+
+Modifier: Autonomous State
+Effect:
+- Max Factories in State: -25%
+- Recruitable Population: -50.00%
+- Local Available Resources: -25%
+- Local Construction Speed: -25%
+Countries: Spain
+
+Modifier: Unplanned Offensive
+Effect:
+- Division Speed: -75.00%
+- Organization Regain: -50.00%
+- Ground Support: -75.00%
+- Division Attack: -90.0%
+- Ground Support Factor: -75.0
+- Attrition from weather only applies if controller is at war
+Countries: Spain
+
+Modifier: Widespread Bulgarian Sentiment
+Effect:
+- Local Factories: -10%
+- Resistance Target: +10%
+- Resistance Decay Speed: -10%
+- Resistance Growth Speed: +10%
+- Compliance Growth Speed: -10%
+- Local Available Resources: -10%
+Countries:
+Yugoslavia
+
+Kingdom of Greece
+
+Modifier: Widespread Bulgarian Sentiment
+Effect:
+- Local Factories: +10%
+- Resistance Target: -10%
+- Resistance Decay Speed: +10%
+- Resistance Growth Speed: -10%
+- Compliance Growth Speed: +10%
+- Local Available Resources: +10%
+Countries: Bulgaria
+
+Modifier: Skirmishes Against the IMRO
+Effect:
+- Organization Regain: -75.00%
+- Divisions Speed: -25.00%
+- Strategic Redeployment Disabled: Yes
+- Division Attrition: +100.0%
+- Local Available Resources: -75%
+- Local Construction Speed: -75%
+Countries: Bulgaria
+
+Modifier: Pre-Arranged Bulgarian Territorial Expansion
+Effect:
+- States with Pre-Arranged Bulgarian Territorial Expansion Modifier will be transferred to Bulgaria once any faction ally controls the state and Bulgaria has joined the same faction as Germany
+Countries:
+Romania
+
+Yugoslavia
+
+Kingdom of Greece
+
+Modifier: Kemalist Loyalties
+Effect:
+- Recruitable Population: +15.00%
+- Local Construction Speed: +10%
+Countries: Turkey
+
+Modifier: Kemalist Schemers
+Effect:
+- Division Speed: -50.00%
+- Recruitable Population: -33.00%
+- Local Construction Speed: -25%
+Countries: Turkey
+
+Modifier: Devout Traditionalists
+Effect:
+- Recruitable Population: +15.00%
+- Local Construction Speed: +10%
+Countries: Turkey
+
+Modifier: Traditionalists Placated
+Effect: * Local Construction Speed: +5%
+Countries: Turkey
+
+Modifier: Traditionalist Opposition
+Effect:
+- Max Factories in State: -10%
+- Recruitable Population: -5.00%
+- Local Available Resources: -10%
+- Local Construction Speed: -15%
+Countries: Turkey
+
+Modifier: Traditionalist Sedition
+Effect:
+- Max Factories in State: -25%
+- Division Speed: -15.00%
+- Recruitable Population: -25.00%
+- Local Available Resources: -25%
+- Local Construction Speed: -25%
+Countries: Turkey
+
+Modifier: Traditionalist Insurgency
+Effect:
+- Max Factories in State: -33%
+- Division Speed: -33.00%
+- Recruitable Population: -50.00%
+- Local Available Resources: -50%
+- Local Construction Speed: -33%
+Countries: Turkey
+
+Modifier: Separatist Fatigue
+Effect:
+- Resistance Decay Speed: +15%
+- Compliance Growth Speed: +5%
+- Local Available Resources: -33%
+Countries: Turkey
+
+Modifier: Kurdish Agitation
+Effect:
+- Resistance Target: +10%
+- Resistance Decay Speed: -10%
+- Resistance Growth Speed: +3%
+- Local Available Resources: -15%
+Countries: Turkey
+
+Modifier: Kurdish Separatism
+Effect:
+- Resistance Target: +20%
+- Resistance Decay Speed: -20%
+- Resistance Growth Speed: +5%
+- Compliance Growth Speed: -5%
+- Strategic Redeployment Disabled: Yes
+- Local Available Resources: -33%
+Countries: Turkey
+
+Modifier: Kurdish Rebellion
+Effect:
+- Resistance Target: +35%
+- Resistance Decay Speed: -25%
+- Resistance Growth Speed: +7%
+- Compliance Growth Speed: -10%
+- Strategic Redeployment Disabled: Yes
+- Local Available Resources: -33%
+Countries: Turkey
+
+Modifier: Conscription Exemptions Granted
+Effect: * Recruitable Population: -85.00%
+Countries: Turkey
+
+Modifier: Turanist Assimilation
+Effect:
+- Non-core Manpower +25.00%
+- Resistance Growth Speed -10%
+- Compliance Growth Speed +5%
+Countries:
+Turkey
+
+Turan
+
+# Occupation [verified for 1.9]
+
+(Main article: Occupation)
+The effects of occupation, including resistance, are computed at the state level.
+
+# Notes and references
+
+a Some examples of this mechanic include:
+- HOA_develop_capitalstate for countries in the Horn of Africa.
+- ETH_state_owned_industry for Ethiopia.
+- ITA_the_holy_lands for Italy.
+- FIN_janiskoski_power_plant for Finland.
+- Sweden decision "Promote Urbanization"
+
+hoi4de:State
+hoi4es:State
+hoi4fr:State
+hoi4pl:State
+hoi4pt:State
+hoi4ru:State

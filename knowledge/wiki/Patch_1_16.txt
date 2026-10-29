@@ -1,0 +1,71 @@
+TITLE: Patch 1.16
+URL: https://hoi4.paradoxwikis.com/Patch_1.16
+REVISION: 2025-03-12T16:23:16Z (rev 79703)
+VERIFIED FOR: ?
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Patch 1.16 was released on 2025-03-04 coinciding with the release of the Graveyard of Empires DLC. The checksum is 722d.
+
+# Graveyard of Empires
+- Added focus tree for Iran
+- Added focus tree for Iraq
+- Added focus tree for Afghanistan
+- Expanded focus tree for the British Raj
+- Added numerous 3D models for Iran, Iraq, Afghanistan and the Raj
+- Added 8 new music tracks
+- Added Voiceovers for Iran, Iraq, Afghanistan and the Raj
+
+# Gameplay
+- British Burma now exists from game start as a British subject
+- Mandatory Palestine now exists from game start as a British subject
+- Jordan now exists from game start as a British subject
+- Kuwait now exists from game start as a British subject
+- Lebanon now exists from game start as a French subject
+- Syria now exists from game start as a French subject
+- Added new tactics and modifiers for city combat
+- Added Burma namelist and oob
+- Removed Prince Henry as leader for Palestine
+
+# Balance
+- Siam now joins the Co-Prosperity sphere on historical
+- Added a port in Phuket
+- Added a supply hub in Hat Yai
+- Siam starts with army of Siam spirit
+- Extra shared slots don't get removed when flipping state owners anymore
+- Added railway line to Archangelsk
+- Updated Siams AI to produce more units and streamline production
+- Increased Siams building slots
+
+# UI
+- Reliability and Torpedo upgrades no longer overlap for torpedo Cruisers
+
+# Modding
+- has_artillery_ratio, has_cavalry_ratio and has_unit_type triggers now also considers support units
+
+# Bugfix
+- Fix a CTD when loading games with prepared raids.
+- Daily army, air and naval XP gain can no longer be negative.
+- Prevent a rare OOS related to operative mission names when using different languages.
+- Swedish national spirit "Hungersköld" is no longer removed too early
+- The Netherlands can once again Placate the Germans through their Gateway of Europe Decision
+- Without Gotterdammerung, there can be only one Fascist Advisor in Belgium.
+- Fixed an issue where Germany's operation panzerfaust would result in Hungary getting puppeted and having their war reset, resulting in teleported divisions etc.
+- Dutch east indies no longer starts with only 10% democratic support
+- "Expansion Pass 1: Supporter Pack" is no longer included in save game compatibility checks
+- Fixed a rare random OOS in AI truck production
+- Fixed rare Out of Sync in character name generation
+- Fixed UI Crash when reordering items in lists
+
+# Performance
+- AI is now more performant when upgrading equipment
+- Weather updates are now more efficiently parallelized
+- AI plans naval invasion in parallel (drastically reduced spikes on multi-core CPUs)
+- Refactored a number of decision systems to improve performance
+- Optimized AI diplomacy calculations
+- Optimized how reinforcements are computed
+- AI is now more performant when selecting which doctrines to upgrade
+- MIO attributes are now computed faster across the board
+- Naval supremacy is now better parallelized
+
+# References

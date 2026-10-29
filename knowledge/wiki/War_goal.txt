@@ -1,0 +1,119 @@
+TITLE: War goal
+URL: https://hoi4.paradoxwikis.com/War_goal
+REVISION: 2023-04-16T19:22:48Z (rev 61056)
+VERIFIED FOR: 1.8
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+A war goal is needed to declare war. A war goal is usually a conquest of a desired state.
+
+Justifying a war goal costs political power, increases world tension and usually takes between 6-9 months to complete. When a country has a war goal, it can start a war against the target country. Countries succeeding in their war goals get an advantage in peace conferences. There are several national focus that will give countries historical war goals. However, ahistorical war goals are also possible, such as Sweden restoring its historical borders. The target state of the wargoal can be claimed at a discount at the peace conference. It is also possible to declare a Border war.
+
+A regular justified casus belli is, after finished, valid for 2 months.
+
+# Factions Strength resume
+At the end of game, beside individual scores, is the Factions ranking. This is derived from various statistics such as manpower, naval, air and ground forces, industrial power, terrain points, research, war progress, casualties, etc. Basically, it describes which faction has won the game.
+
+# Conditions
+Besides the national focus, war goal justification will require one or multiple conditions to be met before it can even begin. The conditions will be different depending on the ideology (Communism, Democracy, Fascism or Non-aligned) as well as the faction (Allies, Axis, Commintern, others) and the World Tension level.
+
+## Communism
+Communists have virtually no restriction on justifying war goals.
+
+## Democracy
+Democracies are very limited in how they can begin wars, to simulate the influence of popular opinion during the time period. These limitations are lifted if a country becomes fascist or communist.
+- Cannot start a war against another democracy.
+- Cannot justify against a nation that has not increased the world tension.
+
+## Fascism
+Fascists have virtually no restriction on justifying war goals. If a fascist country is already at war with a major power, they can justify a new wargoal 80% faster than normal.
+
+# Ideological effect
+All ideologies have one or multiple effect on the cost of war goal justification or enactment at the peace conference.
+
+## Communism
+- Yes Can force government.
+- 30% cost reduction when puppeting other countries.
+
+## Democracy
+- No Cannot send volunteers.
+- No Cannot puppet another country.
+- No Cannot occupy a country without war (captured neutral territory will be returned).
+- 25% cost increase of Taking States.
+- 50% cost increase of Annexing country.
+
+## Fascism
+- No Cannot force government.
+- Yes Can occupy a country without war.
+
+## Neutrality
+- No Cannot force government.
+- No Cannot send volunteers.
+- yes Can puppet another country.
+
+# Political power cost
+It's necessary to spend a certain amount of political power to start justification of a war goal.
+
+The base cost is xx, then the following modifications can apply:
+
+- -90% When justifying war goal against a major power at war.
+
+Once the justification is ongoing, it will also be necessary to spend 0.2 political power per day on the war goal justification to complete it in the minimum number of days. Any deficiency in political power will stall the war goal justification.
+
+# War goal types
+
+Name:: Conquer
+Acquired by:: Justifying against another country to take non-claimed states (5 max.)
+Justification cost:: 200 political power base + 50 political power per state
+Expires:: time 60 days
+Peace conference effect:: -20% cost for taking target states
+
+Name:: Conquer (Focus)
+Acquired by:: National focus
+Justification cost:: N/A
+Expires:: time 730 days
+Peace conference effect:: -20% cost for taking target states
+
+Name:: Puppet (Focus)
+Acquired by:: National focus
+Justification cost:: N/A
+Expires:: time 730 days
+Peace conference effect:: -50% cost for puppeting target country
+
+Name:: Take claimed state
+Acquired by:: Justifying against another country to take claimed states (5 max.)
+Justification cost:: 100 political power base + 10 political power per state
+Expires:: Never
+Peace conference effect:: -50% cost for taking target states
+
+Name:: Retake core state
+Acquired by:: Justifying against another country to take core states (5 max.)
+Justification cost:: 125 political power
+Expires:: Never
+Peace conference effect:: -80% cost for taking target states
+
+Name:: Annex
+Acquired by:: National focus
+Justification cost:: N/A
+Expires:: Never
+Peace conference effect:: None
+
+Name:: Civil War
+Acquired by:: Country is in civil war
+Justification cost:: N/A
+Expires:: Never
+Peace conference effect:: -75% cost and -90% world tension added for annexing target country
+
+Name:: Topple Government
+Acquired by:: National focus
+Justification cost:: N/A
+Expires:: Never
+Peace conference effect:: -50% cost for changing the target country's government
+
+Name:: Independence
+Acquired by:: National focus
+Justification cost:: N/A
+Expires:: Never
+Peace conference effect:: None
+
+# References

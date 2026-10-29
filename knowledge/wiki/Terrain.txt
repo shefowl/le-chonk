@@ -1,0 +1,112 @@
+TITLE: Terrain
+URL: https://hoi4.paradoxwikis.com/Terrain
+REVISION: 2026-03-14T12:48:46Z (rev 98822)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+This article describes terrain in land provinces.
+For naval terrain, see naval terrain.
+Weather
+The terrain of land provinces can affect the movement and combat performance of units, and cause attrition. Harsh terrain tends to favor the defender.
+
+# Types [verified for 1.16]
+
+Each land province has a terrain type, which is shown when the province is selected.
+
+- Combat width: Maximum amount of battalions that can fight in a province. "+Additional attacks" is how much combat width will be added for each extra direction of attack into the province.
+- Movement cost: Increases the distance units have to travel by this factor.
+- Attrition: When at war, land units moving from this terrain type suffer this amount of attrition.
+- Attack: Adjuster to the attacker's soft/hard attack and breakthrough when the defender is in this terrain.
+- Enemy air superiority: If the enemy has air superiority, their bonus is reduced by this amount.
+- Maximum fort level: The maximum level of land fort that can be built in the province as a baseline, can be improved through fortification engineering technologies.
+- Sickness: Army leaders may become temporarily Sick when at least 75% of the units they are commending are in this terrain.
+- Supply flow penalty factor: Reduces the flow of hub supply into a province with this terrain.
+- Truck attrition factor: Increases the rate of attrition for trucks used to motorize supply hubs in this terrain.
+- Temperature bias: Biases temperatures in the province by a certain amount, also affecting neighboring provinces.
+
+70(+35)
+4
+1
+0.14
+0.5
+
+60(+30)
+
+4
+0.08
+0.2
+
+70(+35)
+
+5
+0.1
+0.2
+
+60(+30)
+
+3
+1
+0.16
+3.0
+
+50(+25)
+
+3
+1
+0.16
+4.0
+
+50(+25)
+
+4
+0.12
+1.0
+
+70(+35)
+5
+
+80(+40)
+
+5
+
+# Paths
+A path between two adjacent provinces is the straight line between their centers. It is traced on a pixel grid, making diagonal lines noticeably longer than north-south and east-west lines. The terrain along this path (along with its distance) determines its movement cost.
+
+The path may consist of the source and target province's terrain in varying proportions or even different terrains altogether. For example the path between two coastal mountain provinces at a fjord might consist of 40% mountain and 60% ocean, resulting in +40% movement cost for this path instead of +100% in a pure mountain range.
+
+The path also determines whether direction-dependent terrain features apply.
+
+The path cost of amphibious landings is fixed at 24 pixels (170.736 km).
+
+# Terrain features [verified for 1.16]
+
+Terrain features can apply adjusters and modifiers in addition to the base terrain. They stack multiplicatively with base terrain values. Unlike other terrain modifiers, they only affect the attacker because many depend on the specific path the attackers take, and the defender might fight against attackers from different directions. Attack adjusters apply to the attacker's soft and hard attack, and the defense adjusters apply to their breakthrough.
+
+- Small river: -30% to attack and defense and -25% to movement.
+- Large river: -60% to attack and defense and -50% to movement.
+- Amphibious landing: -50% to attack and defense.
+- Fort: -15% to attack and defense per level of the fort, up to -150% at level 10.
+
+The river adjuster applies when a path intersects a river. If a river modifier is applied in combat, this also enables certain combat tactics.
+
+The amphibious landing penalty applies when a unit attacks a land province from a sea province. It also applies on top of a multiplicative scaling modifier of -80% to the attackers' soft and hard attack and +50% to their breakthrough that slowly disappears over the course of combat. Both of these modifiers and the speed at which they disappear is affected by transport technologies. The movement speed of a naval invasion is fixed to a speed of 3.557 km/h that can be increased or decreased through division terrain modifiers.
+
+The fort adjuster applies to land forts in all directions, though not to naval invasions. Flanking attacks diminish this penalty, with each additional direction of attacking reducing the effective level of a fort by 1 (i.e., effectively acting as a +15% adjuster). Coastal forts reduce the attack when attacking in a naval invasion and when attacking across a strait.
+
+# Unit-specific adjusters [verified for 1.16]
+
+(Main article: List of terrain adjusters by unit)
+Units may have specific adjusters in addition to the base terrain and terrain feature adjusters. The net adjuster for a division is the average of its combat battalions, plus the sum of the adjusters of its support battalions. Divisions lacking manpower have proportionately smaller bonuses and penalties.
+
+For adjusters to regular terrain, the attack value modifies the attacker's soft attack, hard attack, and breakthrough, and the defense value modifies the defender's soft attack, hard attack, and defense.
+
+Terrain feature adjusters work differently than regular terrain modifiers, with both attack and defense value modifiers affecting attackers:
+- For river adjusters, the attack value modifies the attacker's soft and hard attack, and the defense value modifies the attacker's breakthrough. Defenders cannot get river adjusters.
+- For fort adjusters, the attack value modifiers the attacker's soft and hard attack, and the defense value modifiers the attacker's breakthrough and the defender's defense.
+- For the amphibious adjusters, the attack value modifiers the attacker's soft attack, hard attack, and breakthrough, and the defense value does nothing. Defenders cannot get amphibious adjusters.
+For attackers, these adjusters apply additively onto the base adjusters from the given terrain feature, effectively negating their penalties. Amphibious and fort attack adjusters are capped by the base penalties of their respective terrain features and cannot exceed those penalties to produce overall terrain bonuses, while river adjusters can. Fort defense modifiers also have no cap for defenders.
+
+Units move at the slowest speed of a combat battalion, adjusted for terrain. Some support companies can also affect a division's movement speed, either increasing it in certain types of terrain and/or decreasing it as a result of being slower than the rest of the division.
+
+# References

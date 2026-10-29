@@ -1,0 +1,2441 @@
+TITLE: United States
+URL: https://hoi4.paradoxwikis.com/United_States
+REVISION: 2026-03-25T13:47:07Z (rev 99291)
+VERIFIED FOR: 1.10
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+The United States, also known as USA, is a major country in North America with a population of 122.92 M (core) and an additional 2.1 M (non-core). It borders Dominion of Canada to the north, and Mexico to the south. Despite its immense wealth in resources and industry, the U.S. is heavily restrained by its laws and national spirits at the start of the game. Should the country remove these restrictions and build up its military might, it can easily become a world superpower.
+
+# Historical background
+The United States emerged from the First World War as the world's largest industrial power, having played a decisive role in securing the Allied victory. Yet despite this newfound status, American public opinion in the post-war years turned sharply inward. The Senate rejected membership in the League of Nations, and successive administrations embraced a policy of isolationism, focusing on domestic prosperity rather than foreign entanglements. The 1920s became an era of rapid economic growth and technological advancement, but this boom ended abruptly with the Wall Street Crash of 1929 and the onset of the Great Depression, the most severe economic downturn in the nation's history.
+
+Throughout the 1930s, American foreign policy was dominated by the constraints of isolationist sentiment and economic hardship. Congress passed a series of Neutrality Acts intended to keep the United States out of overseas conflicts, while the Roosevelt administration concentrated on economic recovery through the New Deal. Nevertheless, the U.S. retained a formidable industrial base, though budgetary limits slowed military modernization.
+
+Abroad, the global balance of power was shifting. Japan's expansion in East Asia, Italy's aggression in Africa, and Germany's rise in Europe threatened the fragile peace. Though sympathetic to the United Kingdom, France, and China, Washington avoided direct intervention, preferring to apply diplomatic pressure and economic sanctions. Yet as Axis ambitions grew, the United States quietly began rearming, passing the Naval Expansion Act of 1938 and strengthening its Pacific and Atlantic fleets.
+
+The attack on Pearl Harbor on 7 December 1941 shattered any remaining isolationist resolve. In his now-famous "Day of Infamy" address to Congress, President Roosevelt declared war on Japan, and shortly thereafter on Germany and Italy, committing the United States fully to the global conflict. Mobilizing its vast economic and military resources, the nation became the "Arsenal of Democracy." By war's end, American forces had fought across North Africa, Europe, and the Pacific, emerging as one of the principal architects of the post-war order and a superpower in a world now defined by the rivalry between the United States and the Soviet Union.
+
+# Events
+(Main article: American events, American events MtG)
+
+# National focus
+
+(Main article: American national focus tree)
+branches desc
+
+# National spirits [verified for 1.17]
+
+The United States starts with the following national spirits:
+
+Spirit London Naval Treaty Signatory: We have signed the London Naval Treaty and accordingly are restricted in the size of our capital ships.
+- Carrier Max Cost: 9500 production cost n
+- Cruiser Max Cost: 5300 production cost n
+- Heavy Ship Max Cost: 10000 production cost n
+
+Spirit Monroe Doctrine Enforcer: Since the mid 19th century, we have endeavored to protect the western hemisphere from outside interference by colonial powers. Although the parameters of this doctrine have evolved over time, the crux of it means that our neighbors in North and South America will expect us to aid them in times of conflict. It is of course up to our own government to determine when and how to enforce the doctrine.
+
+Spirit The Great Depression: Although a worldwide phenomenon, the Great Depression started with a stock market crash in the United States and has caused unemployment rates to soar and tax revenue to plummet. The American people and its government have enough to worry about without getting involved in another war.
+- Daily Political Power cost: +1.00
+- Resource Gain Efficiency: -20.00%
+- Recruitable Population Factor: -50%
+- Consumer Goods Factories factor: 60.0%
+- Join faction tension limit: +20.0%
+
+Spirit Home of the Free: USA considers itself a bastion and maybe even the cradle of democracy and liberty. Whatever they choose to be, their values are difficult to compromise, however tempting some opportunities might seem.
+- Ideology drift defense: +20.0%
+- no Cannot Join Factions lead by another ideology
+- yes Can Create Factions
+
+# Technology [verified for 1.17]
+
+## Research
+The United States begins with 4 research slots available; 2 more can be unlocked through the national focus tree.
+
+- Infantry Equipment I
+- Improved Infantry Equipment I (39)
+- Support Weapons II (39)
+- Truck
+- Marines I
+----
+- Engineer Company I
+- Recon Company I
+- Civilian Train
+----
+- Towed Artillery
+- Towed Anti-Air
+- Inter-War Artillery (39)
+- Towed Anti-Tank (39)
+----
+- Basic Light Tank
+- Basic Engine
+----
+Armor without No Step Back :
+- Great War Tank * Basic Destroyer (36)
+- Improved Destroyer (39)
+- Basic Depth Charges
+- Passive Sonar (36)
+- Active Sonar (39)
+- Basic Cruiser
+- Inclined Belt Armor Scheme
+- Early Heavy Ship (36)
+- Improved Heavy Ship (39)
+- Basic Carrier
+- Basic Submarine
+----
+- Basic Light Battery
+- Basic Heavy Battery (36)
+- Improved Heavy Battery (39)
+- Basic Dual-Purpose Light Battery
+- Advanced Dual-Purpose Battery (39)
+- Basic Torpedo (36)
+- Improved Ship Torpedo Launcher (39)
+- Transport Ship
+- Contact Mine
+- Minelaying Submarine * Basic Small Airframe (36)
+- Improved Small Airframe (39)
+- Basic Medium Airframe
+- Inter-War Large Airframe (39)
+- Inter-War Transport Plane
+- Bombs
+- Light MG
+- Heavy MG (39)
+- Air Launched Torpedoes
+- Aircraft Construction
+- Engines II
+----
+Without By Blood Alone :
+- Inter-War Fighter (36)
+- Inter-War Carrier Fighter
+- Fighter I (39)
+- Carrier Fighter I (39)
+- Close Air Support I (36)
+- Close Air Support II (39)
+- Carrier Close Air Support I
+- Naval Bomber I
+- Carrier Naval Bomber I
+- Heavy Fighter I (39)
+- Inter-War Bomber (36)
+- Tactical Bomber I (39)
+- Strategic Bomber I (39)
+- Inter-War Transport Plane * Advanced Machine Tools (39)
+- Dispersed Industry III (39)
+- Construction III (39)
+- Fuel Storage
+- Synthetic Oil Experiments (39)
+- Oil Processing (39)
+- Fuel Refining I (36)
+- Fuel Refining III (39)
+---- (39)
+- Radio (39)
+- Computing Machine (39)
+---- (39)
+Without La Résistance : (39)
+- Encryption - Polyalphabetical Ciphers (39)
+- Decryption - Frequency Analysis (39) * Superior Firepower
+ - Assault Infantry ( mastery : 25) * Base Strike
+ - Line of Battle ( mastery : 25) * Strategic Destruction
+
+## Cosmetic names
+United States has a number of unique names for various technologies and equipment, listed here. Note that generic names are not listed.
+
+Type: Support Weapons
+1918: BAR & Stokes mortar
+1938: M1917 Browning MG & M2 60 mm mortar
+1940: M1919 Browning MG & M1 mortar
+1942: M1941 Johnson MG & M2 4.2 inch mortar
+
+Type: Infantry Equipment
+1918: M1903 Springfield
+1936: M1 Garand
+1939: M1 Thompson
+1942: M2 Carbine
+
+Type: Infantry Anti-Tank
+1942: M1 Bazooka
+1943: M20 recoilless rifle
+
+Type: Motorized
+1936: GMC CCKW
+
+Type: Mechanized
+1940: M2 Half Track Car
+1942: M3 Half-Track
+1944: M5 Half-Track
+
+Type: Amphibious Tractors
+1941: LVT-2
+1943: LVT-4
+
+Type: Armored Car La Résistance
+1936: M1
+1940: M3
+1942: M8
+
+Tech year: 1918
+Light (TD/SPG/AA): NA
+
+Tech year: 1934
+Light (TD/SPG/AA): M2 Light (M6 GMC / T30 HMC / NA)
+Heavy (TD/SPG/AA): T1 Heavy (M9 GMC / NA / NA)
+
+Tech year: 1936
+Light (TD/SPG/AA): M3 Stuart (M3 GMC / M8 HMC / M13 MGMC)
+
+Tech year: 1938
+Amphibious: LVT-1(A)
+Medium (TD/SPG/AA): M3 Lee (M10 / M7 Priest / M15 MGMC)
+
+Tech year: 1940
+Medium (TD/SPG/AA): Sherman (M18 / M12 GMC / M16 MGMC)
+Heavy (TD/SPG/AA): M6A1 (NA / M43 HMC / NA)
+
+Tech year: 1941
+Light (TD/SPG/AA): Chaffee (T48 GMC / M41 HMC / M19 MGMC)
+Super-Heavy: T95
+
+Tech year: 1943
+Medium (TD/SPG/AA): T20 (M36 / M40 GMC / NA)
+Heavy (TD/SPG/AA): Pershing (NA / T92 HMC / NA)
+
+Tech year: 1945
+Modern (TD/SPG/AA): Patton (NA / NA / M42 Duster)
+
+Note: Without No Step Back, Medium Tank I and II are unlocked one year later. Amphibious tanks are then unlocked in 1940 and 1942, the second one is called Sherman DD.
+
+Tech year: 1934
+Artillery: 75 mm Gun M1897
+
+Tech year: 1936
+Anti-Air: 37 mm Gun M1
+Anti-Tank: 37 mm Gun M3
+
+Tech year: 1939
+Artillery: 105 mm Howitzer M2A1
+
+Tech year: 1940
+Anti-Air: 40 mm Automatic Gun M1
+Rocket Artillery: M8
+Anti-Tank: 57 mm Gun M1
+
+Tech year: 1942
+Artillery: 155 mm Howitzer M1
+
+Tech year: 1943
+Anti-Air: 90 mm Gun M2
+Rocket Artillery: M16
+Anti-Tank: 3-inch Gun M5
+
+1933
+P-1 Hawk
+B-18 Bolo
+NA
+DC-2
+
+1936
+A-17 (Northrop BT)
+P-40 Warhawk (F3F)
+Catalina (TBD Devastator)
+P-38 Lightning
+B-23 Dragon
+B-17 Flying Fortress
+F4
+
+1940
+A-20 (SBD-2 Dauntless)
+P-39 Airacobra (F4F Wildcat)
+Mariner (TBF-1C Avenger)
+P-47 Thunderbolt
+B-25 Mitchell
+B-24 Liberator
+F6
+DC-3
+
+1944
+A-26 (SB2C-1s Helldiver)
+P-51 Mustang (F6F Hellcat)
+Privateer (BTD Destroyer)
+XP-58 Chain Lightning
+XB-28 Dragon
+B-29 Superfortress
+DC-47
+
+1945
+P-80 Shooting Star
+NA
+
+1950
+F-86 Sabre
+XB-51
+B-45 Tornado
+
+# Geography [verified for 1.16]
+
+United States owns 42 core and 11 colonial states.
+
+The United States of America is a vast nation in central and north North America. Bordering to the north and east via Alaska is the Dominion of Canada, a British dominion, and the south borders Mexico. The US has both Atlantic and Pacific coastlines, with Florida in the southeast of the nation just over Cuba, and the Aleutian Islands of Alaska in the northwest, very close to the USSR. The USA possesses the Panama Canal, which is used to transit ships.
+
+State: Alabama
+Cities: Birmingham
+Mobile
+vp: 1
+1
+Terrain (# prov): Forest (6)
+ Hills (1)
+ Plains (9)
+Region: Urban Region
+population: 2,646,247
+Is core: yes
+
+State: Alaska
+Cities: Anchorage
+Unalaska
+vp: 3
+1
+Terrain (# prov): Forest (2)
+ Hills (2)
+ Mountain (8)
+ Plains (3)
+Region: Rural Region
+population: 67,500
+Is core: no
+
+State: Arizona
+Cities: Phoenix
+vp: 3
+Terrain (# prov): Desert (3)
+ Mountain (11)
+Region: Rural Region
+population: 435,572
+Is core: yes
+
+State: Arkansas
+Cities: Little Rock
+vp: 1
+Terrain (# prov): Forest (6)
+ Hills (2)
+ Plains (6)
+Region: Developed Rural Region
+population: 1,854,481
+Is core: yes
+
+State: Attu Island
+Cities: Attu
+vp: 1
+Terrain (# prov): Plains (1)
+Region: Tiny Island
+population: 20
+Is core: no
+
+State: California
+Cities: Los Angeles
+Sacramento
+San Diego
+San Francisco
+vp: 30
+1
+15
+25
+Terrain (# prov):
+Desert (2)
+ Forest (1)
+ Hills (11)
+ Mountain (29)
+ Plains (12)
+ Urban (2)
+Region: Metropolis Region
+population: 5,677,248
+Is core: yes
+
+State: Colorado
+Cities: Denver
+vp: 5
+Terrain (# prov): Desert (1)
+ Hills (1)
+ Mountain (10)
+ Plains (5)
+Region: Developed Rural Region
+population: 1,035,790
+Is core: yes
+
+State: Florida
+Cities: Miami
+vp: 5
+Terrain (# prov): Forest (9)
+ Marsh (3)
+ Plains (4)
+Region: Urban Region
+population: 1,468,210
+Is core: yes
+
+State: Georgia
+Cities: Atlanta
+vp: 10
+Terrain (# prov): Forest (3)
+ Hills (1)
+ Mountain (1)
+ Plains (14)
+Region: Urban Region
+population: 2,908,504
+Is core: yes
+
+State: Guam
+Cities: Hagatna
+vp: 1
+Terrain (# prov): Plains (1)
+Region: Small Island
+population: 75,153
+Is core: no
+
+State: Hawaii
+Cities: Hilo
+Honolulu
+vp: 3
+15
+Terrain (# prov): Plains (5)
+Region: Developed Rural Region
+population: 368,336
+Is core: no
+
+State: Idaho
+Cities: Boise
+vp: 1
+Terrain (# prov): Hills (4)
+ Mountain (9)
+Region: Rural Region
+population: 445,031
+Is core: yes
+
+State: Illinois
+Cities: Chicago
+vp: 30
+Terrain (# prov): Forest (2)
+ Hills (5)
+ Plains (16)
+ Urban (1)
+Region: Megalopolis Region
+population: 7,630,651
+Is core: yes
+
+State: Indiana
+Cities: Indianapolis
+vp: 5
+Terrain (# prov): Forest (1)
+ Plains (16)
+Region: Dense Urban Region
+population: 3,238,501
+Is core: yes
+
+State: Iowa
+Cities: Des Moines
+vp: 3
+Terrain (# prov): Hills (5)
+ Plains (11)
+Region: Urban Region
+population: 2,470,938
+Is core: yes
+
+Johnston Atoll
+Plains (1)
+Tiny Island
+100
+no
+
+State: Kansas
+Cities: Topeka
+Wichita
+vp: 1
+3
+Terrain (# prov): Hills (2)
+ Plains (13)
+Region: Urban Region
+population: 1,880,998
+Is core: yes
+
+State: Kentucky
+Cities: Louisville
+vp: 1
+Terrain (# prov): Forest (4)
+ Hills (4)
+ Plains (6)
+Region: Urban Region
+population: 2,614,588
+Is core: yes
+
+Line Islands
+Plains (3)
+Small Island
+5,367
+no
+
+State: Louisiana
+Cities: New Orleans
+vp: 10
+Terrain (# prov): Forest (6)
+ Marsh (6)
+ Plains (2)
+Region: Urban Region
+population: 2,101,592
+Is core: yes
+
+State: Maryland
+Cities: Baltimore
+Washington
+vp: 5
+40
+Terrain (# prov): Forest (1)
+ Hills (1)
+ Mountain (1)
+ Plains (4)
+ Urban (1)
+Region: Urban Region
+population: 2,118,394
+Is core: yes
+
+State: Michigan
+Cities: Detroit
+vp: 20
+Terrain (# prov): Forest (11)
+ Lake (4)
+ Plains (12)
+ Urban (1)
+Region: Metropolis Region
+population: 4,842,323
+Is core: yes
+
+State: Midway Island
+Cities: Midway
+vp: 1
+Terrain (# prov): Plains (1)
+Region: Tiny Island
+population: 2,159
+Is core: no
+
+State: Minnesota
+Cities: Minneapolis
+vp: 5
+Terrain (# prov): Forest (7)
+ Hills (3)
+ Marsh (1)
+ Plains (9)
+Region: Urban Region
+population: 2,563,952
+Is core: yes
+
+State: Mississippi
+Cities: Biloxi
+vp: 1
+Terrain (# prov): Forest (7)
+ Hills (1)
+ Plains (6)
+Region: Urban Region
+population: 2,009,820
+Is core: yes
+
+State: Missouri
+Cities: Kansas City
+Saint Louis
+Springfield
+vp: 10
+10
+1
+Terrain (# prov): Forest (6)
+ Hills (2)
+ Plains (9)
+ Urban (1)
+Region: Dense Urban Region
+population: 3,629,365
+Is core: yes
+
+State: Montana
+Cities: Great Falls
+vp: 1
+Terrain (# prov): Forest (2)
+ Hills (7)
+ Mountain (6)
+ Plains (8)
+Region: Rural Region
+population: 537,605
+Is core: yes
+
+State: Nebraska
+Cities: Omaha
+vp: 1
+Terrain (# prov): Hills (1)
+ Plains (12)
+Region: Sparse Urban Region
+population: 1,377,962
+Is core: yes
+
+State: Nevada
+Cities: Las Vegas
+vp: 5
+Terrain (# prov): Desert (8)
+ Mountain (6)
+Region: Rural Region
+population: 91,057
+Is core: yes
+
+State: New England
+Cities: Bangor
+Boston
+Providence
+vp: 1
+20
+1
+Terrain (# prov):
+Forest (13)
+ Hills (5)
+ Lake (1)
+ Mountain (2)
+ Plains (10)
+ Urban (1)
+Region: Metropolis Region
+population: 8,404,713
+Is core: yes
+
+State: New Jersey
+Cities: Newark
+vp: 5
+Terrain (# prov): Forest (4)
+ Plains (3)
+ Urban (1)
+Region: Dense Urban Region
+population: 4,041,332
+Is core: yes
+
+State: New Mexico
+Cities: Albuquerque
+vp: 1
+Terrain (# prov): Desert (3)
+ Mountain (9)
+ Plains (3)
+Region: Rural Region
+population: 423,316
+Is core: yes
+
+State: New York
+Cities: Buffalo
+New York
+vp: 3
+30
+Terrain (# prov):
+Forest (9)
+ Hills (15)
+ Lake (1)
+ Mountain (2)
+ Plains (5)
+ Urban (2)
+Region: Megalopolis Region
+population: 12,588,061
+Is core: yes
+
+State: North Carolina
+Cities: Charlotte
+vp: 3
+Terrain (# prov):
+Forest (4)
+ Hills (1)
+ Marsh (2)
+ Mountain (3)
+ Plains (9)
+ Urban (1)
+Region: Urban Region
+population: 3,170,274
+Is core: yes
+
+State: North Dakota
+Cities: Bismarck
+vp: 1
+Terrain (# prov): Hills (2)
+ Plains (10)
+Region: Rural Region
+population: 680,844
+Is core: yes
+
+State: Ohio
+Cities: Cleveland
+Columbus
+vp: 10
+5
+Terrain (# prov): Forest (1)
+ Hills (7)
+ Lake (1)
+ Plains (15)
+ Urban (1)
+Region: Metropolis Region
+population: 6,646,694
+Is core: yes
+
+State: Oklahoma
+Cities: Tulsa
+vp: 1
+Terrain (# prov): Forest (2)
+ Hills (4)
+ Plains (10)
+Region: Urban Region
+population: 2,396,039
+Is core: yes
+
+State: Oregon
+Cities: Portland
+vp: 1
+Terrain (# prov): Desert (3)
+ Forest (3)
+ Hills (7)
+ Mountain (9)
+ Plains (1)
+Region: Developed Rural Region
+population: 953,785
+Is core: yes
+
+State: Panamá Canal
+Cities: Colón
+vp: 5
+Terrain (# prov): Plains (1)
+Region: Enclave
+population: 39,467
+Is core: no
+
+State: Pennsylvania
+Cities: Philadelphia
+Pittsburgh
+vp: 20
+15
+Terrain (# prov): Forest (12)
+ Hills (12)
+ Mountain (3)
+ Plains (6)
+ Urban (2)
+Region: Megalopolis Region
+population: 9,631,346
+Is core: yes
+
+Phoenix Island
+Plains (1)
+Tiny Island
+24
+no
+
+State: Puerto Rico
+Cities: San Juan
+vp: 1
+Terrain (# prov): Plains (2)
+Region: Rural Region
+population: 1,543,913
+Is core: no
+
+State: South Carolina
+Cities: Charleston
+vp: 1
+Terrain (# prov): Forest (1)
+ Hills (1)
+ Marsh (1)
+ Plains (9)
+Region: Urban Region
+population: 1,738,764
+Is core: yes
+
+State: South Dakota
+Cities: Rapid City
+vp: 1
+Terrain (# prov): Hills (1)
+ Plains (11)
+Region: Rural Region
+population: 692,849
+Is core: yes
+
+State: Tennessee
+Cities: Nashville
+vp: 3
+Terrain (# prov): Forest (1)
+ Hills (9)
+ Mountain (2)
+ Plains (3)
+Region: Urban Region
+population: 2,616,555
+Is core: yes
+
+State: Texas
+Cities: Dallas
+Houston
+San Antonio
+vp: 10
+10
+1
+Terrain (# prov):
+Forest (10)
+ Hills (2)
+ Marsh (1)
+ Mountain (4)
+ Plains (31)
+ Urban (1)
+Region: Metropolis Region
+population: 5,824,712
+Is core: yes
+
+State: Utah
+Cities: Salt Lake City
+vp: 1
+Terrain (# prov): Desert (4)
+ Lake (1)
+ Mountain (9)
+Region: Rural Region
+population: 507,846
+Is core: yes
+
+State: Virginia
+Cities: Norfolk
+Richmond
+vp: 10
+15
+Terrain (# prov): Forest (9)
+ Hills (1)
+ Mountain (6)
+ Plains (2)
+Region: Dense Urban Region
+population: 2,249,080
+Is core: yes
+
+State: Wake Island
+Cities: Wake
+vp: 1
+Terrain (# prov): Plains (1)
+Region: Tiny Island
+population: 150
+Is core: no
+
+State: Washington
+Cities: Seattle
+Spokane
+vp: 10
+1
+Terrain (# prov): Forest (4)
+ Hills (2)
+ Mountain (11)
+ Plains (4)
+ Urban (1)
+Region: Sparse Urban Region
+population: 1,563,395
+Is core: yes
+
+State: West Virginia
+Cities: Charleston
+vp: 3
+Terrain (# prov): Forest (4)
+ Hills (1)
+ Mountain (8)
+Region: Developed Rural Region
+population: 1,901,974
+Is core: yes
+
+State: Wisconsin
+Cities: Milwaukee
+vp: 5
+Terrain (# prov): Forest (7)
+ Hills (3)
+ Plains (8)
+Region: Urban Region
+population: 2,939,004
+Is core: yes
+
+Wyoming
+Desert (3)
+ Forest (1)
+ Mountain (5)
+ Plains (4)
+Rural Region
+225,564
+yes
+
+# Politics [verified for 1.9]
+
+USA starts with 75% and 0% base. These are changed to 89.8% and 5% after modifiers.
+
+## Ideology
+USA starts 1936 as a democracy, with elections every four years. The ruling party is the Democratic Party led by Franklin Delano Roosevelt.
+
+Elections are held every four years; in-game, this applies to 1936, 1940, and 1944. Each time, the player will be prompted to choose the outcome. FDR, as the incumbent, will run for the Democrats each time even if he has been unseated in a previous election. The Republicans run three candidates: Alf Landon in 1936, Wendell Willkie in 1940, and Thomas E. Dewey in 1944. Each grant different bonuses and the player can select them.
+
+Note that the Republican candidate will not change if they won the previous election, as they will be running as the incumbent. For example, if the player were to choose Alf Landon in 1936, they will not be able to choose Wendell Willkie in 1940.
+
+The Second American Civil War branch is available either by going down the "Suspend the Persecution" sub-branch or the "America First" sub-branch. Regardless of whichever branch is chosen, the same broad path begins as a timer starts ticking down to war - Industrialists begin moving factories to their preferred region (North or South), government arsenals are raided, tax income is withheld from the federal government, National Guard formations are mobilized and trained, until secession is declared.
+
+Shortly after this point, unless a specific focus is taken, the states of Illinois, Indiana, Michigan, Minnesota, Wisconsin and Ohio declare "neutrality" in the war, becoming the "Neutral States of America". They will no longer be controlled by the player and will sell weapons and equipment to both sides while forming their own defence force and acting as a de facto independent faction. Once the Civil War ends, they will rejoin whichever side won.
+
+## Political parties
+The United States's starting political parties.
+
+{| class="wikitable" style="float:left; width:49em; margin:10px; margin-left:0"
+|+ Political parties, 1936
+! Id. !! style="width:22.3em;" | Party name !! style="width:1em;" | Popularity !! style="width:11.9em;" | Leader !! style="width:1em;" | Ruling
+|-
+! style="text-align: center;" | Democracy
+! Democratic Party
+| style="text-align: center;" | 99% || Franklin Delano Roosevelt || style="text-align: center;" | Yes
+|-
+! style="text-align: center;" | Communism
+! Communist Party USA
+|style="text-align: center;" | 1% || Earl Browder || style="text-align: center;" | No
+|-
+! style="text-align: center;" | Fascism
+! Silver Legion of America
+| style="text-align: center;" | 0% || William Dudley Pelley || style="text-align: center;" | No
+|-
+! style="text-align: center;" | Non-Aligned
+! Non-Aligned
+|style="text-align: center;" | 0% || Carnot Wheeler || style="text-align: center;" | No
+|}
+
+{| class="wikitable" style="float:left; width:49em; margin:10px; margin-left:0"
+|+ Political parties, 1939
+! Id. !! style="width:22.3em;" | Party name !! style="width:1em;" | Popularity !! style="width:11.9em;" | Leader !! style="width:1em;" | Ruling
+|-
+! style="text-align: center;" | Democracy
+! Democratic Party
+| style="text-align: center;" | 99% || Franklin Delano Roosevelt || style="text-align: center;" | Yes
+|-
+! style="text-align: center;" | Communism
+! Communist Party USA
+|style="text-align: center;" | 1% || Earl Browder || style="text-align: center;" | No
+|-
+! style="text-align: center;" | Fascism
+! Silver Legion of America
+| style="text-align: center;" | 0% || William Dudley Pelley || style="text-align: center;" | No
+|-
+! style="text-align: center;" | Non-Aligned
+! Non-Aligned
+|style="text-align: center;" | 0% || Carnot Wheeler || style="text-align: center;" | No
+|}
+
+## Country leaders
+United States of Native America
+Possible country leaders of the United States.
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Country leaders
+! Ideology
+! class="unsortable" | Portrait
+! Name
+! style="width:1em;" | Party
+! Traits
+! Effects
+! Possible
+|-
+! style="text-align: center;" | Democracy
+Liberalism
+|
+| Franklin Delano Roosevelt
+| Democratic Party
+| Dislikes Germany
+| AI Modifier: +200 to antagonize Germany
+|
+Starting leader
+|-
+! style="text-align: center;" | Democracy
+Liberalism
+|
+| Harry S. Truman
+| Democratic Party
+
+|
+- Via event Roosevelt Passes Away
+|-
+! style="text-align: center;" | Democracy
+Conservatism
+|
+| Alf Landon
+| Republican Party
+| staunch_constitutionalist
+|
+- Via event Election of 1936
+|-
+! style="text-align: center;" | Democracy
+Liberalism
+|
+| Wendell Wilkie
+| Republican Party
+
+|
+- Via event Roosevelt vs Willkie (Election of 1940)
+|-
+! style="text-align: center;" | Democracy
+Conservatism
+|
+| Thomas E. Dewey
+| Republican Party
+
+|
+- Via event Roosevelt vs Dewey (Election of 1944)
+|-
+! style="text-align: center;" | Democracy
+Conservatism
+|
+| Douglas MacArthur
+| Republican Party
+
+|
+- Via event Roosevelt vs MacArthur (Election of 1944)
+|-
+! style="text-align: center;" | Communism
+Marxism
+|
+| Earl Browder
+| Communist Party USA
+
+|
+Starting Communist leader
+|-
+! style="text-align: center;" | Fascism
+Fascism
+|
+| William Dudley Pelley
+| Silver Legion of America
+
+|
+Starting Fascist leader
+|-
+! style="text-align: center;" | Fascism
+Rexism
+|
+| Douglas MacArthur
+| Silver Legion of America
+| american_caesar
+|
+- Via event MacArthur offers to lead the Government
+|-
+! style="text-align: center;" | Fascism
+Fascism
+|
+| Charles Lindbergh
+| Silver Legion of America
+| famous_aviator
+|
+- Via event William Dudley Pelley challenges Douglas McArthur
+|-
+! style="text-align: center;" | Fascism
+Nazism
+|
+| Adam Hilt
+| Silver Legion of America
+| great_architect
+|
+- 1% chance after event Hitler Found Dead
+ - William Dudley Pelley challenges Douglas McArthur
+|-
+! style="text-align: center;" | Non-Aligned
+Oligarchy
+|
+| Carnot Wheeler
+| Non-Aligned
+| financial_expert
+|
+Starting Non-Aligned leader
+|-
+! style="text-align: center;" | Non-Aligned
+Despotism
+|
+| Douglas MacArthur
+| Non-Aligned
+| american_caesar
+|
+- Via event MacArthur offers to lead the Government
+|-
+! style="text-align: center;" | Non-Aligned
+Despotism
+|
+| Wallis I
+| Non-Aligned
+| Unpopular Monarch
+ Socialite Connections
+ Her Majesty Queen Wallis, First of Her Name, by the Grace of God Queen of the Americas, Grand Admiral of the Royal American Navy, Duchess of Wallington, Duchess of Manhattan, Duchess of Long Island, Countess of Orange, Countess of O'ahu, Marquise of New Orleans, Baroness of Springfield, Baroness of Hollywood, Baroness of Central Park, Grand Socialite, Protector of Liberty, Northwest Vanguard of Alaska, Avenger of the Boston Tea Party, Terror of Wallington, D.C.
+| unpopular_monarch
+|
+- United Kingdom decision Declare American Monarchy
+- United Kingdom decision Install American Monarchy
+|}
+
+## Diplomacy [verified for 1.5]
+
+The United States controls several islands in the Pacific such as Guam, Wake, and Midway to name a few. Puerto Rico, Alaska and Hawaii are treated as colony states at the start, However, the USA can take statehood decisions to grant them cores. The Philippines is a U.S. puppet.
+
+Every country in North, Central, and South America is guaranteed by the USA under the Monroe Doctrine.
+
+On historical, the US will join the Allies after Japan declares war on the Philippines, largely due to Japan following said declaration with one on the Dutch East Indies and British Malaya.
+
+If the US takes the focus "Unholy Alliance", and the Soviets accept them into the faction, the US is granted a decision that, when the USSR is at war, allows them to annex the USSR if the USSR ever gets a surrender threshold of 20% or lower as long as the US is in the Comintern (the US needs to be communist if it wishes to join the Comintern by clicking the "Join Faction" button, but it can take the focus even if it's democratic).
+
+Note that this decision does not core the USSR, it only occupies it (likely due to how overpowered said decision would be), although the US does not need to be in the same war as the USSR to take the decision, meaning that if one was to use the decision while the USSR, the nation that had been at war with the USSR would be forced to leave the territory that had previously belonged to the USSR.
+
+### Diplomatic rules
+The rules are controlled by their ideology, the ideology of their faction and their national spirit(s). Due to The Great Depression and Undisturbed Isolation the U.S. requires a higher amount of world tension to join a faction. The latter also raises the world tension limit for other diplomatic actions.
+
+{| class="wikitable"
+! Rule !! Whether it applies !! Reason
+|-
+|Can declare war on country of the same ideology group without a war goal || No || Democracy
+|-
+|Can Guarantee other Ideologies || Yes || Democracy
+|-
+|Can join Factions led by another Ideology || No || National spirit: Home of the Free
+|-
+|Can create Factions || Yes || National spirit: Home of the Free
+|-
+|Lowers World Tension with Guarantees || Yes || Democracy
+|-
+|Can puppet a country || No || Democracy
+|-
+|Can justify wargoals against a country that have not generated world tension || No || Democracy
+|}
+
+# Staff and designers
+## Personnel [verified for 1.17]
+
+Ministers and military staff of the United States.
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Political Advisors
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+| Earl Browder
+| communist_revolutionary
+|
+- Has not completed focus Suspend the Persecution
+- Has not started focus Neutrality Act
+- Has not started focus Limited Intervention
+- Is not Supervised State
+- Earl Browder is not the country leader
+| align="center" | 150
+|-
+| Harry White
+| financial_expert
+|
+- Has completed focus Reach Out to the Ware Group
+- Henry Morgenthau Jr. is not hired as an advisor
+| align="center" | 0
+|-
+| Victor Perlo
+| economist
+|
+- Has completed focus Reach Out to the Ware Group
+| align="center" | 0
+|-
+| Whittaker Chambers
+| editor
+|
+- Has completed focus Reach Out to the Ware Group
+| align="center" | 0
+|-
+| Joseph Patterson
+| editor
+|
+- Has completed focus America First
+| align="center" | 50
+|-
+| William H. Regnery
+| captain_of_industry
+|
+- Has completed focus America First
+| align="center" | 50
+|-
+| Harold L. Ickes
+| democratic_reformer
+|
+- Is not Supervised State
+| align="center" | 150
+|-
+| Charles Coughlin
+| fascist_demagogue
+|
+- Has completed focus America First
+- Has not started focus Neutrality Act
+- Has not started focus Limited Intervention
+- Is not Supervised State
+| align="center" | 150
+|-
+| Robert Taft
+| silent_workhorse
+
+| align="center" | 150
+|-
+| Joseph McCarthy
+| anti_communist_crusader
+|
+- Has completed focus Empower the Huac
+| align="center" | 150
+|-
+| John Winant
+| compassionate_gentleman
+
+| align="center" | 150
+|-
+| Cordell Hull
+| smooth_talking_charmer
+
+| align="center" | 150
+|-
+| Henry Morgenthau Jr.
+| financial_expert
+|
+- Harry White is not hired as an advisor
+| align="center" | 150
+|-
+| Henry Stimson
+| war_industrialist
+
+| align="center" | 150
+|-
+| Donald Nelson
+| armaments_organizer
+
+| align="center" | 150
+|-
+| William J. Donovan
+| head_of_intelligence
+| La Résistance
+- Has created an Intelligence Agency
+- More than 50% World Tension
+| align="center" | 150
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Theorists
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+| George S. Patton
+| mobile_warfare_expert
+
+| align="center" | 150
+|-
+| Omar Bradley
+| superior_firepower_expert
+
+| align="center" | 150
+|-
+| DeWitt Clinton Ramsey
+| naval_theorist
+
+| align="center" | 100
+|-
+| Marc Mitscher
+| naval_aviation_pioneer
+
+| align="center" | 150
+|-
+| Curtis LeMay
+| victory_through_airpower
+
+| align="center" | 150
+|-
+| Harold McClelland
+| air_warfare_theorist
+
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Chief of Army
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+| Dwight D. Eisenhower
+| army_chief_offensive_2
+|
+- Has not been sent to China in the A new general for China event
+| align="center" | 100
+|-
+| Douglas MacArthur
+| army_chief_morale_2
+|
+- Has not been sent to China in the A new general for China event
+- Douglas MacArthur is not the country leader
+| align="center" | 100
+|-
+| Walter Krueger
+| army_chief_planning_2
+|
+- Has completed focus War Plans Division
+| align="center" | 100
+|-
+| George Marshall
+| army_chief_drill_2
+
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Chief of Navy
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+| Ernest King
+| navy_chief_reform_2
+
+| align="center" | 100
+|-
+| Chester W. Nimitz
+| navy_chief_commerce_raiding_2
+
+| align="center" | 100
+|-
+| William Halsey, Jr.
+| navy_chief_naval_aviation_2
+
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Chief of Airforce
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+| Henry Arnold
+| air_chief_reform_3
+
+| align="center" | 200
+|-
+| Carl Spaatz
+| air_chief_night_operations_2
+
+| align="center" | 100
+|-
+| George Kenney
+| air_chief_safety_2
+
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Military High Command
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+| Mark W. Clark
+| army_infantry_2
+
+| align="center" | 100
+|-
+| Courtney Hodges
+| army_commando_2
+
+| align="center" | 100
+|-
+| Joseph Stilwell
+| army_logistics_2
+|
+- Has not been sent to China in the A new general for China event
+| align="center" | 100
+|-
+| Frank Jack Fletcher
+| navy_carrier_2
+
+| align="center" | 100
+|-
+| Raymond A. Spruance
+| navy_naval_air_defense_2
+
+| align="center" | 100
+|-
+| Charles Lindbergh
+| air_pilot_training_3
+|
+- Has completed focus Send Lindbergh to Germany
+| align="center" | 200
+|-
+| Jimmy Doolittle
+| air_strategic_bombing_2
+
+| align="center" | 100
+|-
+| John K. Cannon
+| air_close_air_support_2
+
+| align="center" | 100
+|-
+| Claire Lee Chennault
+| air_tactical_bombing_2
+
+| align="center" | 100
+|-
+| Thomas C. Kinkaid
+| navy_amphibious_assault_2
+
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ style="width: 46em; text-align:left;" | Field Marshals
+! class="unsortable" | Portrait
+! Name
+!
+Skill
+!
+ATK
+!
+DEF
+!
+PLN
+!
+LOG
+! class="unsortable" | Traits
+! class="unsortable" | Requirements
+|-
+|
+| align="left" | Douglas MacArthur
+| 4 || 6 || 3 || 5 || 2
+| align="left" | Brilliant Strategist
+ Politically Connected
+ Career Officer
+ Media Personality
+ Offensive Doctrine
+
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ style="width: 46em; text-align:left;" | Generals
+! class="unsortable" | Portrait
+! Name
+!
+Skill
+!
+ATK
+!
+DEF
+!
+PLN
+!
+LOG
+! class="unsortable" | Traits
+! class="unsortable" | Requirements
+|-
+|
+| align="left" | Alexander Patch
+| 2 || 2 || 2 || 1 || 2
+| align="left" | Infantry Officer
+ Commando
+
+|-
+|
+| align="left" | Alexander Vandegrift
+| 3 || 3 || 1 || 3 || 3
+| align="left" | Invader
+| align="left" |
+- Has completed focus Intervention in Asia
+|-
+|
+| align="left" | Clarence Huebner
+| 1 || 2 || 1 || 1 || 1
+| align="left" | Old Guard
+ Harsh Leader
+
+|-
+|
+| align="left" | Courtney Hodges
+| 3 || 3 || 3 || 2 || 2
+| align="left" | Career Officer
+ Infantry Officer
+ Panzer Leader
+
+|-
+|
+| align="left" | Dwight D. Eisenhower
+| 3 || 2 || 1 || 4 || 3
+| align="left" | Politically Connected
+ Cautious
+ Armor Officer
+ Organizer
+
+|-
+|
+| align="left" | Edward Brooks
+| 2 || 2 || 1 || 2 || 2
+| align="left" | Reckless
+ Armor Officer
+
+|-
+|
+| align="left" | Fritz Kuhn
+| 2 || 2 || 3 || 1 || 1
+| align="left" | Politically Connected
+|
+- Has completed focus Work With the Bund
+ - The first state secedes (event)
+|-
+|
+| align="left" | Geoffrey Keyes
+| 2 || 2 || 2 || 2 || 1
+| align="left" | Career Officer
+ Armor Officer
+
+|-
+|
+| align="left" | George S. Patton
+| 4 || 6 || 2 || 2 || 3
+| align="left" | Reckless
+ Armor Officer
+ War Hero
+ Trickster
+ Panzer Leader
+
+|-
+|
+| align="left" | J. Lawton Collins
+| 3 || 3 || 2 || 3 || 2
+| align="left" | Career Officer
+ Trickster
+
+|-
+|
+| align="left" | Jonathan Wainwright
+| 1 || 1 || 1 || 1 || 1
+|
+| ncns
+|-
+|
+| align="left" | Joseph Stilwell
+| 1 || 2 || 1 || 1 || 1
+| align="left" | Politically Connected
+ Career Officer
+ Harsh Leader
+ Infantry Officer
+
+|-
+|
+| align="left" | Leonard Gerow
+| 2 || 2 || 2 || 1 || 2
+| align="left" | Infantry Officer
+
+|-
+|
+| align="left" | Leslie McNair
+| 2 || 1 || 1 || 3 || 2
+| align="left" | Old Guard
+ Career Officer
+ Armor Officer
+
+|-
+|
+| align="left" | Lloyd Fredendall
+| 1 || 1 || 2 || 1 || 2
+| align="left" | Old Guard
+ Inflexible Strategist
+ Infantry Officer
+
+|-
+|
+| align="left" | Lucian Truscott
+| 2 || 3 || 2 || 1 || 1
+| align="left" | Cavalry Officer
+ Engineer
+ Commando
+
+|-
+|
+| align="left" | Mark Clark
+| 3 || 4 || 3 || 1 || 2
+| align="left" | Reckless
+ Infantry Officer
+
+|-
+|
+| align="left" | Maurice Rose
+| 2 || 4 || 1 || 3 || 1
+| align="left" | Brilliant Strategist
+ Reckless
+ Armor Officer
+
+|-
+|
+| align="left" | Omar Bradley
+| 4 || 4 || 4 || 5 || 3
+| align="left" | Brilliant Strategist
+ Cautious
+ Harsh Leader
+ Engineer
+
+|-
+|
+| align="left" | Oscar Griswold
+| 2 || 2 || 1 || 2 || 2
+| align="left" | Infantry Officer
+
+|-
+|
+| align="left" | Russell Hartle
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Infantry Officer
+
+|-
+|
+| align="left" | Walter Krueger
+| 3 || 3 || 3 || 3 || 3
+| align="left" | Brilliant Strategist
+ Career Officer
+ Armor Officer
+
+|-
+|
+| align="left" | William Simpson
+| 2 || 1 || 3 || 1 || 2
+| align="left" | Infantry Officer
+
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ style="width: 46em; text-align:left;" | Admirals
+! class="unsortable" | Portrait
+! Name
+!
+Skill
+!
+ATK
+!
+DEF
+!
+MNV
+!
+COR
+! class="unsortable" | Traits
+! class="unsortable" | Requirements
+|-
+|
+| align="left" | Arleigh Burke
+| 3 || 2 || 2 || 2 || 4
+| align="left" | Old Guard
+ Bold
+ Fleet Protector
+ Superior Tactician
+
+|-
+|
+| align="left" | Charles M. Cooke, Jr.
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Career Officer
+
+|-
+|
+| align="left" | Chester W. Nimitz
+| 4 || 2 || 2 || 4 || 5
+| align="left" | Gentlemanly
+ Naval Lineage
+ Superior Tactician
+ Spotter
+ Blue Water Expert
+
+|-
+|
+| align="left" | Ernest King
+| 4 || 3 || 2 || 3 || 5
+| align="left" | Career Officer
+ Aviation Enthusiast
+ Caustic Personality
+ Blockade Runner
+ Superior Tactician
+
+|-
+|
+| align="left" | Frank Jack Fletcher
+| 2 || 2 || 1 || 2 || 2
+| align="left" | Gunnery Expert
+ Superior Tactician
+ Spotter
+
+|-
+|
+| align="left" | Harold Rainsford Stark
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Cuts Corners
+ Blockade Runner
+ Spotter
+
+|-
+|
+| align="left" | Raymond A. Spruance
+| 3 || 3 || 2 || 2 || 3
+| align="left" | Gentlemanly
+ Career Officer
+ Superior Tactician
+
+|-
+|
+| align="left" | William Halsey, Jr.
+| 3 || 4 || 2 || 2 || 2
+| align="left" | Bold
+ Aviation Enthusiast
+ Superior Tactician
+ Spotter
+
+|}
+
+## Companies [verified for 1.14]
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Industrial concerns
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Standard Oil of California
+| refinery_concern
+- Industrial Research Speed: +5%
+- Synthetic Resources Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| General Electric
+| electronics_concern
+- Electronics Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| General Motors
+| industrial_concern
+- Factory Output: +5.00%
+- Industrial Research Speed: +15%
+|
+- Has completed focus USA_wartime_industry
+| align="center" | 150
+
+|-
+|
+| General Motors
+| railway_company
+- Industrial Research Speed: +5%
+
+| align="center" | 150
+|}
+
+### Designers
+ Arms Against Tyranny
+Design companies of the United States.
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Tank designers
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Marmon-Herrington
+| fast_tank_manufacturer
+- Armor Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Chrysler
+| medium_tank_manufacturer
+- Armor Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Detroit Arsenal
+
+|
+- Medium Tank:
+ - Production cost : -10.00%
+- Light Tank:
+ - Production cost : -10.00%
+- Armor Research Speed: +15%
+
+|
+- Has completed focus USA_main_battle_tanks
+| align="center" | 150
+|-
+|
+| Tank Destroyer Board
+
+|
+- Light Tank Destroyer:
+ - Production cost : -10.00%
+ - Piercing: +10%
+ - Hard attack: +25%
+- Medium Tank Destroyer:
+ - Production cost : -10.00%
+ - Piercing: +10%
+ - Hard attack: +25%
+- Heavy Tank Destroyer:
+ - Production cost : -10.00%
+ - Piercing: +10%
+ - Hard attack: +25%
+- Armor Research Speed: +15%
+
+|
+- Has completed focus USA_tank_destroyer_doctrine
+| align="center" | 150
+|-
+|
+| Army Ordnance Department
+| heavy_tank_manufacturer
+- Armor Research Speed: +15%
+
+| align="center" | 150
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Ship designers
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Norfolk Naval Yard
+| coastal_defence_naval_manufacturer
+- Naval Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Electric Boat Company
+| raiding_fleet_naval_manufacturer
+- Naval Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Brooklyn Naval Yard
+| atlantic_fleet_naval_manufacturer
+- Naval Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Newport News Shipbuilding
+| pacific_fleet_naval_manufacturer
+- Naval Research Speed: +15%
+
+| align="center" | 150
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Aircraft designers
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| North American Aviation
+| light_aircraft_manufacturer
+- Air Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Lockheed
+| medium_aircraft_manufacturer
+- Air Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Douglas Aircraft Company
+| CAS_manufacturer
+- Air Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Boeing
+| heavy_aircraft_manufacturer
+- Air Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Grumman
+| naval_aircraft_manufacturer
+- Air Research Speed: +15%
+
+| align="center" | 150
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Materiel designers
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Springfield Armory
+| infantry_equipment_manufacturer
+- Weapons and Equipment Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Ford Motor Company
+| motorized_equipment_manufacturer
+- Motorization Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Rock Island Arsenal
+| artillery_manufacturer
+- Artillery Research Speed: +15%
+
+| align="center" | 150
+|}
+
+### Organizations
+ Arms Against Tyranny
+The United States has access to these Military industrial organizations.
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Tank organizations
+|
+override_1_equipment_bonus
+- Reliability: +10%
+- Soft attack: +2%
+- Hard attack: +3%
+- Defense: -15%
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Ship organizations
+|
+
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Plane organizations
+|
+
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Materiel organizations
+|
+
+|}
+
+# Economy
+## Laws [verified for 1.17]
+
+The United States starts with the following laws:
+1936
+Disarmed Nation Undisturbed Isolation Free Trade
+1939
+Isolation Free Trade
+
+## Industry [verified for 1.17]
+
+{| class="wikitable" style="text-align: center"
+|+
+! style="width: 10%" |
+Year
+! style="width: 13%" | Military factory
+Military Factories
+! style="width: 13%" | Naval dockyard
+Naval Dockyards
+! style="width: 13%" | Civilian factory
+Civilian Factories
+! style="width: 13%" | Fuel Silo
+Fuel Silos
+! style="width: 13%" | Refinery
+Refineries
+! style="width: 13%" | Building Slot
+Building Slots
+|-
+| 1936
+| 10
+| 22
+| 128 (-90)
+| 1
+| 0
+| 262
+|}
+- Numbers in red indicate the number of civilian factories required to produce consumer goods, based on economy laws and the total number of military and civilian factories, rounded up.
+
+## Resources [verified for 1.17]
+
+{| class="wikitable" style="text-align: center"
+|+
+! style="width: 9%" |
+Year
+! style="width: 13%" | oil
+Oil
+! style="width: 13%" | aluminum
+Aluminum
+! style="width: 13%" | rubber
+Rubber
+! style="width: 13%" | tungsten
+Tungsten
+! style="width: 13%" | steel
+Steel
+! style="width: 13%" | chromium
+Chromium
+! style="width: 13%" | coal
+Coal
+|-
+| 1936
+| 946* (-757)
+| 230 (-184)
+| 0
+| 168 (-134)
+| 692 (-554)
+| 1 (-0)
+| 654 (-523)
+|}
+- These numbers represent the available resources one hour into the game. Numbers in red indicate how many resources are reserved for export due to trade laws.
+
+- The US gets half of Mexico's oil .
+
+# Military [verified for 1.17]
+
+The United States military of 1936 boasts the second-largest navy in the world, behind only the Royal Navy, and has a sizable air force. However, its army is hampered by limited manpower and shortages of equipment.
+
+## Army
+{| class="wikitable sortable" style="width: 300px;"
+|+ style="color:black;"| Army of the United States
+! width=1% class="unsortable" | !! width=80% | Type !! width=15% | # 1936 !! | # 1939
+|-
+| || Infantry
+| align="center" | 35
+| align="center" | 37
+|-
+| || Marine
+| align="center" | 0
+| align="center" | 2
+|-
+| || Cavalry
+| align="center" colspan="2" | 1
+|-
+| || Light Tank
+| align="center" | 0
+| align="center" | 1
+|-
+! !! style="text-align: left;" | Total divisions || 36 || 41
+|-
+! !! style="text-align: left;" | Manpower used || 345.10K || 374.70K
+|}
+
+In 1936, 19 of the infantry divisions belong to the National Guard. These are composed of 12 infantry battalions whilst the regular army divisions are composed of 9 battalions. Four infantry divisions are forward-deployed to the Philippines, Alaska, Puerto Rico and the Panama Canal, with the garrison brigades stationed across several Pacific islands. The rest of the army is scattered throughout the continental United States.
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | Division composition list
+! Division !! Name list !! # 1936 !! # 1939 !! Support companies !! Combat battalions
+|-
+| Infantry Division || Infantry Division || 7 || 9 || || 9x
+|-
+| National Guard Division || Infantry Division || 19 || 19 || || 12x
+|-
+| Cavalry Division* || Cavalry Division || 1 || 0 || || 8x
+|-
+| Cavalry Division^ || Cavalry Division || 0 || 1 || || 8x
+|-
+| Garrison Brigade || Garrison Division || 9 || 9 || || 3x
+|-
+| Marine Brigade || Marine Division || 0 || 2 || || 4x
+|-
+| Mechanized Cavalry^ || Cavalry Division || 0 || 1 || || 2x
+|-
+| colspan="6" | * marks a division that is removed in the 1939 start.
+^ marks a division that is only available in the 1939 start.
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | No Step Back Tank variants list
+! Type !! Chassis !! Role !! Main Armament !! Turret !! Suspension !! Armor (level) !! Engine (level) !! Special Modules
+|-
+| M1 Combat Car || Basic Light || Light Tank || Heavy Machine Gun || Two Man || Bogie || Riveted (2) || Gasoline (5) || Basic Radio
+|-
+| M2A2 || Basic Light || Light Tank || Heavy Machine Gun || One Man || Bogie || Riveted (2) || Gasoline (4) || Heavy Machine Gun, Basic Radio
+|}
+
+## Navy
+{| class="wikitable sortable" style="width: 300px;"
+|+ style="color:black;"| Navy of the United States
+! width=1% class="unsortable" | !! width=80% | Type !! width=15% | # 1936 !! | # 1939
+|-
+| || Carrier
+| align="center" | 4
+| align="center" | 5
+|-
+| || Battleship
+| align="center" colspan="2" | 15
+|-
+| || Heavy Cruiser
+| align="center" | 15
+| align="center" | 18
+|-
+| || Light Cruiser
+| align="center" | 12
+| align="center" | 20
+|-
+| || Destroyer
+| align="center" | 113
+| align="center" | 146
+|-
+| || Submarine
+| align="center" | 71
+| align="center" | 96
+|-
+| || Convoy
+| align="center" colspan="2" | 700
+|-
+! !! style="text-align: left;" | Total ships || 230 || 300
+|-
+! !! style="text-align: left;" | Manpower used || 147.55K || 177.20K
+|}
+
+The U.S. Navy in 1936 is one of the strongest navies in the game with a total of 230 vessels. It boasts a large variety of ship types, including 4 carriers, 15 battleships, 27 cruisers, 113 destroyers and 71 submarines. With 22 naval dockyards, the US has a strong shipbuilding industry. However, much of this starting potential is hobbled by the London Naval Treaty, which disables a number of the more recent designs.
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | Naval units list
+! Type !! Class !! Hull !! Engine !! # 1936 !! 1936 !! # 1939 !! 1939 !! Design note
+|-
+|CV || Langley* || Converted Battleship || Heavy I || 1 || || || || 3x Hangar Space, Secondary Battery I, Anti-Air I
+|-
+|CV || Lexington* || Converted Battleship || Heavy II || 2 || || 2 || || 3x Hangar Space, Secondary Battery I, Anti-Air I
+|-
+|CV || Ranger* || Basic Carrier || Carrier I || 1 || || 1 || || 3x Hangar Space, Anti-Air I
+|-
+|CV || Yorktown || Basic Carrier || Carrier II || || 2 || 2 || || 3x Hangar Space, Secondary Battery II, Anti-Air I
+|-
+|CV || Wasp^ || Basic Carrier || Carrier I || || || || 1 || 3x Hangar Space, Secondary Battery II, Anti-Air I
+|-
+|BB || Colorado* || Early Heavy Ship || Heavy I || 3 || || 3 || || 2x Heavy Battery II, 2x Secondary Battery I, 2x Anti-Air I, Fire Control 0, Battleship Armor II, Floatplane Catapult I
+|-
+|BB || Nevada* || Early Heavy Ship || Heavy I || 2 || || 2 || || 2x Heavy Battery I, 2x Secondary Battery I, 2x Anti-Air I, Fire Control 0, Battleship Armor I, Floatplane Catapult I
+|-
+|BB || New York* || Early Heavy Ship || Heavy I || 3 || || 3 || || 2x Heavy Battery I, 2x Secondary Battery I, Anti-Air I, Fire Control 0, Battleship Armor I, Floatplane Catapult I
+|-
+|BB || Pennsylvania* || Early Heavy Ship || Heavy I || 5 || || 5 || || 2x Heavy Battery I, 2x Secondary Battery I, 2x Anti-Air I, Fire Control 0, Battleship Armor II, Floatplane Catapult I
+|-
+|BB || Tennessee* || Early Heavy Ship || Heavy I || 2 || || 2 || || Heavy Battery I, Heavy Battery II, 2x Secondary Battery I, 2x Anti-Air I, Fire Control 0, Battleship Armor II, Floatplane Catapult I
+|-
+|BB || North Carolina || Improved Heavy Ship || Heavy II || || || || || 2x Heavy Battery III, 2x Dual-Purpose Secondary Battery II, Anti-Air I, Fire Control 0, Battleship Armor II, Floatplane Catapult I
+|-
+|CA || New Orleans || Basic Cruiser || Cruiser I || 5 || 2 || 7 || || 2x Medium Battery II, Secondary Battery I, 2x Anti-Air I, Fire Control 0, Cruiser Armor II, Floatplane Catapult I
+|-
+|CA || Pensacola* || Basic Cruiser || Cruiser II || 8 || || 8 || || 2x Medium Battery I, Secondary Battery I, Anti-Air I, Fire Control 0, Cruiser Armor I, Floatplane Catapult I
+|-
+|CA || Portland* || Basic Cruiser || Cruiser II || 2 || || 2 || || 2x Medium Battery I, Secondary Battery I, Anti-Air I, Fire Control 0, Cruiser Armor II, Floatplane Catapult I
+|-
+|CA || Wichita || Basic Cruiser || Cruiser II || || 1 || 11 || || 2x Medium Battery II, Dual-Purpose Secondary Battery I, 2x Anti-Air I, Fire Control 0, Cruiser Armor III, Floatplane Catapult I
+|-
+|CL || Oglala || Early Cruiser || Cruiser I || 2 || || 2 || || Dual-Purpose Main Battery I, Anti-Air I, Fire Control 0, Minelaying Rails
+|-
+|CL || Omaha* || Basic Cruiser || Cruiser II || 10 || || || || 2x Light Cruiser Battery I, Anti-Air I, Fire Control 0, Cruiser Armor I
+|-
+|CL || Brooklyn^ || Basic Cruiser || Cruiser II || || || 8 || 1 || 3x Light Cruiser Battery II, Dual-Purpose Secondary Battery I, 2x Anti-Air I, Fire Control 0, Cruiser Armor III, Floatplane Catapult I
+|-
+|DD || Clemson* || Early Destroyer || Light I || 105 || || 86 || || Light Battery I, Anti-Air I, Fire Control 0, 2x Torpedo Launcher I, Depth Charge I
+|-
+|DD || Farragut || Early Destroyer || Light II || 8 || 13 || 32 || || Dual-Purpose Main Battery I, Anti-Air I, Fire Control 0, 2x Torpedo Launcher I, Depth Charge I, Sonar I
+|-
+|DD || Benson & Gleaves || Improved Destroyer || Light II || || || || || Dual-Purpose Main Battery II, Anti-Air I, Fire Control 0, 2x Torpedo Launcher II, Depth Charge I, Sonar II
+|-
+|DD || Sims^ || Basic Destroyer || Light II || || || 28 || 7 || Dual-Purpose Main Battery II, Anti-Air I, Fire Control 0, 2x Torpedo Launcher I, Depth Charge I, Sonar I
+|-
+|SS || Barracuda* || Basic Submarine || Submarine I || 9 || || 9 || || Torpedo Tubes I
+|-
+|SS || Porpoise || Basic Submarine || Submarine II || 3 || 1 || 10 || || Torpedo Tubes I
+|-
+|SS || S* || Early Submarine || Submarine I || 59 || || 65 || || Torpedo Tubes I
+|-
+|SS || Salmon^ || Basic Submarine || Submarine II || || || 12 || 4 || 2x Torpedo Tubes II
+|-
+| colspan="9" | * marks a variant as "outdated".
+^ marks a variant that is only available in the 1939 start.
+
+Ship type terminology:
+- CV - Carrier
+- BB - Battleship
+- CA - Heavy cruiser
+- CL - Light cruiser
+- DD - Destroyer
+- SS - Submarine
+|}
+
+## Air force
+{| class="wikitable sortable" style="width: 400px;"
+|+ style="color:black;"| Air force of the United States
+! width=1% class="unsortable" | !! width=80% | Type !! width=15% | hoi4 1936 !! | By Blood Alone 1936 !! | hoi4 1939 !! | By Blood Alone 1939
+|-
+| || Fighter
+| align="center" colspan="2" | 408
+| align="center" | 274
+| align="center" | 442
+|-
+| || Close Air Support
+| align="center" colspan="2" | 138
+| align="center" | 253
+| align="center" | 248
+|-
+| || Naval Bomber
+| align="center" | 132
+| align="center" | 24
+| align="center" | 256
+| align="center" | 82
+|-
+| || Heavy Fighter
+| align="center" colspan="2" | 0
+| align="center" | 168
+| align="center" | 0
+|-
+| || Tactical Bomber
+| align="center" | 204
+| align="center" | 312
+| align="center" | 204
+| align="center" | 378
+|-
+| || Strategic Bomber
+| align="center" colspan="2" | 0
+| align="center" colspan="2" | 72
+|-
+! !! style="text-align: left;" | Total planes || 882 || 882 || 1227 || 1222
+|-
+! !! style="text-align: left;" | Manpower used || 21.72K || 23.88K || 36.30K || 36.32K
+|}
+
+The air force in 1936 consists of 882 aircraft, including 384 Boeing P-26A fighters, 96 Lockheed A-12 CAS aircraft, 108 Consolidated P2Y naval bombers, 108 Martin B-10 and 96 Keystone B-6 tactical bombers. The carriers operate 24 Boeing F4B fighters, 42 Vought SBU Corsair CAS aircraft and 24 Martin BM-2 naval bombers. There is an ongoing production line for Seversky P-35 fighters.
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | By Blood Alone Aircraft variants list
+! Type !! Airframe !! Role !! Main Armament !! Secondary Weapons !! Engine !! Special Modules
+|-
+| F3F || Inter-War Carrier || Fighter || 2x Light Machine Gun || || 1x Engine II ||
+|-
+| F4B* || Inter-War Carrier || Fighter || 2x Light Machine Gun || || 1x Engine I ||
+|-
+| PBY || Basic Medium || Tactical Bomber || Medium Bomb Bay || Light Torpedo Mountings || 2x Engine II || Flying Boat Medium, Light MG Defense Turret
+|-
+| P2Y* || Inter-War Medium || Tactical Bomber || Medium Bomb Bay || Bomb Locks || 2x Engine II || Flying Boat Medium, Light MG Defense Turret
+|-
+| B-18 || Basic Medium || Tactical Bomber || Medium Bomb Bay || || 2x Engine II || Light MG Defense Turret
+|-
+| B-10 || Basic Medium || Tactical Bomber || Medium Bomb Bay || || 2x Engine I || Light MG Defense Turret
+|-
+| B-6A* || Inter-War Medium || Tactical Bomber || Medium Bomb Bay || || 2x Engine I || Light MG Defense Turret
+|-
+| P-36A || Basic Small || Fighter || 4x Light Machine Gun || 2x Light Machine Gun || 1x Engine II ||
+|-
+| P-35A || Basic Small || Fighter || 2x Light Machine Gun || 2x Heavy Machine Gun || 1x Engine II ||
+|-
+| A-17 || Basic Small || CAS || Small Bomb Bay || 4x Light Machine Gun || 1x Engine II ||
+|-
+| A-12* || Inter-War Small || CAS || Bomb Locks || 4x Light Machine Gun || 1x Engine I ||
+|-
+| BM-2* || Inter-War Carrier || Naval Bomber || Light Torpedo Mountings || || 1x Engine I ||
+|-
+| SBU Corsair* || Inter-War Carrier || CAS || Bomb Locks || || 1x Engine I || Dive Brakes
+|-
+| O2U* || Inter-War Small || CAS || Bomb Locks || 2x Light Machine Gun || 1x Engine I ||
+|-
+| P-26A* || Inter-War Small || Fighter || 2x Light Machine Gun || Bomb Locks || 1x Engine I ||
+|-
+| P-6* || Inter-War Small || Fighter || 2x Light Machine Gun || || 1x Engine I ||
+|-
+| B-17^ || Basic Large || Strategic Bomber || Large Bomb Bay || Large Bomb Bay || 4x Engine III || 2x Heavy MG Defense Turret 2x, Bomb Sights 1
+|-
+| A-20^ || Improved Small || CAS || Small Bomb Bay || Small Bomb Bay, 4x Heavy Machine Gun || 2x Engine II || Heavy MG Defense Turret
+|-
+| YA-19*^ || Basic Small || CAS || Bomb Locks || 4x Light Machine Gun || 1x Engine II ||
+|-
+| B-23^ || Basic Medium || Tactical Bomber || Medium Bomb Bay || || 2x Engine II || Light MG Defense Turret
+|-
+| Devastator^ || Basic Carrier || Naval Bomber || Light Torpedo Mountings || || 1x Engine II ||
+|-
+| Vindicator^ || Basic Carrier || CAS || Bomb Locks || || 1x Engine II || Dive Brakes
+|-
+| F2A Buffalo^ || Basic Carrier || Fighter || 4x Heavy Machine Gun || || 1x Engine II ||
+|-
+| colspan="7" | * marks a variant as "outdated".
+^ marks a variant that is only available in the 1939 start.
+|}
+
+# Strategies and Guides
+
+## Puppet juggling
+You could release Puerto Rico, Kingdom of Hawai'i, Mariana Federation and Panama as Puppets. They would complete their Generic national focus tree, getting goodies from it. They could also possibly make a few divisions, destroyers and surplus aircraft. Later, you would annex them, taking all that for you; each completed Generic national focus tree should give 3 military factories, 4 civilian factories, and 3 Naval Dockyards - alongside whatever military they could have by that point. After annexing them, you can turn Puerto Rico and Kingdom of Hawai'i from colonies into proper states.
+
+You can set all Occupation laws to Local Autonomy, then release Mariana Federation as Puppet, then ask Philippines for Garrison Support. On 1936 start, that will result in Manpower going from 247.78K to about 286.50K (+ 38.72K Americans) - as you both decrease amount of Garrisons needed, and replace Americans with Filipinos.
+
+If you release Mariana Federation and set everything to Local Autonomy, Philippines will give 30.11K garrisons; if you set everything to Forced Labor, ask Philippines for Garrison support, and then release Mariana Federation and set everything to Local Autonomy, you'll get 100K Garrisons; 3 starting occupied territories on Local Autonomy need 10K. Whether or not to abuse Philippines is your choice.
+
+## Waking the Sleeping Giant
+United States has riches and resources that are the envy of any nation. However, it must find a way to get past crippling economic limitations caused by The Great Depression which result in shortages in manpower, reduced political power, and loss of production. They also start with only 10 Military factory Military factories so building land forces will be slow. Patience will be needed to overcome those obstacles.
+
+To overcome the effects of the Great Depression, as early as possible go down the WPA line in the national focuses list. Please note that passing each stage, starting with Agricultural Adjustment Act, there is a 230 day wait period to pass the next stage. That means that you can pass three other national focuses and then will have to wait 20 days for the next stage to be available. It's worth the delay even though you are not continually running a national focus. The Republican path has no such delays between focuses, but it's necessary to wait over a year to get Landon in office.
+
+The production limitations affect naval construction. Early construction should focus on Infrastructure Infrastructure along with civilian factories for the first two years. Repeat this cycle until the production issues can be solved and to grow your economy. The player will need to trade for rubber and Chromium to start building battleships and carriers. Players may wish to cease submarine production as their fleet is quite extensive at the start of the game. Also, the maluses to building construction affect only factories and dockyards, so it's wise to build anything you anticipate needing for the wars ahead in the months right before you get rid of Undisturbed Isolation. You have the industrial capacity to build maximum-level coastal forts on all of the Pacific islands (including the Philippines' ports) which, with an infantry division or two each, makes them basically impossible for Japan to capture when they attack, putting you in a much better position for the Pacific War. There's a focus that gives you two levels of coastal fort on most of the Pacific islands, so because the cost of forts increases with level, you can also do well to build each island to two below maximum and then take that focus. Don't forget to build airfields on the islands so your planes can help with island defense and naval bombing.
+
+Early research should include Destroyer II while relegating existing Destroyers and light cruisers to small fleets, perhaps 1 CL to 15 DD, to serve as flotillas for Convoy Escort in safer zones. The older DDs will not be able to last long as screens against the Japanese Fleets. In the Atlantic the older Destroyers may be used as screens as combat with other fleets will be less likely. Build two main fleets in the Atlantic around battleship/heavy cruiser units and another around USS Ranger. These fleets do not need to be as large as the fleets in the Pacific. Do not include Submarines in these fleets.
+
+In the Pacific, three main fleets should center on the Asiatic Fleet in the Philippines, a Hawaiian Fleet and one on the West Coast. Assign your best Admirals to those fleets, especially the Philippines. The goal is to make carrier groups of 2 CV, 3 BB, 4 CA, 4 CL and 15 DD. Try to avoid building larger fleets than that, or you will not be able to guard enough areas, South China/Philippines/Bismarck Seas plus enough to move onto new areas in an island-hopping campaign.
+
+By the time the war starts you may have four or more of these fleets created. It should be more than sufficient especially if you have a mixture of level 2 ships in your Task Forces. A second reserve fleet may be needed in the Philippines to combat losses of ships and swell the ranks of the Asiatic Fleet.
+
+Do not try to train troops until sufficient equipment is produced.
+
+## Preparation in the Pacific
+When able, begin building air bases in the Pacific to ward off naval invasions. 115 each of strategic bombers and heavy fighters should do. Suggested locations would be Midway, Attu Island and Guam. Radar stations and coastal defences should be constructed as well. Japan will especially attempt to take Guam but the naval bombers and defences should keep them at bay. Keeping a naval presence there is not suggested until the player plans to invade as Japan has their own significant air presence there.
+
+While at peace it is a good strategy to occasionally send naval units to scout the Japanese islands to see which they are defending. If a single commander is chosen for all the defence brigades in the Pacific then extra units will be able to take those islands to save on the amount of time needed to take control in the Pacific. Wake Island and Palmyra make good staging areas for those invasions. A small amphibious force of say 9 divisions should be created to take the defended islands when war comes. Splitting them into small groups allows for faster planning and multiple assaults. It should only be necessary to leave a garrison on islands with an airbase or urban area.
+
+The Philippines is the lynchpin of the Pacific. A buildup of coast defences near ports, radar, anti-air, and a large buildup of strategic bombers and heavy fighters are needed to guard the South China and Philippine Seas against naval incursion. This will have the added effect of bringing the Philippines to direct autonomy. Keep in mind the Philippines will be generating units for its defence which will stop when annexed, although annexation will allow the player to build radar stations.
+
+Once the war begins Japan will have their own formidable air presence in both the Philippine and South China Seas. Stay in port unless necessary. The problem in the Philippine Sea can be taken care of by taking the island of Peleliu to the southeast. Be careful when launching a naval assault from Manila as it will not show the route going through the South China Sea. If that portion of the trip is not defended an entire convoy of troops could be lost. Try to protect these convoys with 2x the number of DD than the number of divisions. It is necessary to move newly-trained divisions to defend the Philippines.
+
+It is recommended to use your carrier and naval forces to help defend one's land. More divisions will have to be based, too. Note that this may NOT ward off formidable invasions.
+
+## Avoiding the Pacific War
+The player can avoid going to war with Japan entirely if one so wishes.
+
+The usual war between the U.S. and Japan begins with the Japanese Focus Secure the Philippines, upon the completion of which Japan gets a war goal against the Philippines. The player can reduce the autonomy of the Philippines beforehand by building factories and/or sending lend-lease, and later annex them using the puppet system.
+
+This can be done much earlier than the aforementioned Japanese Focus under historical AI, given the industrial capacity that the U.S. possesses. This way, Japan will get a war goal against the non-existent Philippines and therefore cannot declare war, thus allowing the U.S to focus entirely on the war in Europe.
+
+It should also be noticed that this strategy does not stop Japan from declaring a war against the Allies (namely, it gets war goals against Dutch East Indies and British Malaya through the focus Strike on the Southern Resource Area), of which the U.S. is usually a member. However, The player can simply stay out of this war by refusing any call to arms.
+
+## Turning the U.S Red
+While the US's democratic path is powerful, due to it's slow start usually requiring the player to, at the earliest, wait until the Panay Incident, the player can get to war much faster if it opts to abandon Democracy and embrace an alternate idea - in this case, Communism. Siding with Stalin and/or Mao is far more interesting of a game, and in the case of Mao, can hilariously derail the Sino-Japanese war by forcing the nationalists and Japanese to adjust to a third faction entering if one takes "Secure China".
+
+First, one should do only industrial/electronics research up until after the Second American Civil war - while some military research every now and then is fine, what you research will be shared by the rebels (researching Fighter 1s is fine, but stick mostly to industrial and electronics research). Second, do not build any factories in the 11 states that will form the Confederacy - the states in question were the same ones that revolted in the original American Civil War (the Carolinas, Mississippi, Florida, Alabama, Georgia, Louisiana, Texas, Virginia, Arkansas, and Tennessee). While building a few factories there is fine for the missions to get congressional support for the focuses that require it, focus the majority of your development in the North.
+
+The biggest threat to you in this war is not the Confederacy, but rather, the threat of running out of oil - train 10 cavalry units, station 5 near Texas, and 5 near Virginia - the former will be used to rush the victory points near Texas (securing the oil supplies) and the latter to rush the capital (which has a very good chance of being Richmond). In addition to these 10 cavalry units, divide up your starting army into 1 group of 24 units (station these along the border from the coast, along the Maryland-Virginia border, to the end of Tennessee on the same line), and 1 group of 12 units (station these along the Texas border).
+
+For focuses, Rush the Agricultural Adjustment Act, hire the silent workhorse (you can ditch him later, but for now, we need Political Power) then take Suspend the Persecution and Reach out to the Wares Group. Hire Earl Browder to begin flipping to communism. While there are two branches that can lead to the US going to the inevitable Second American Civil War, you will have to take Union Representation Act to re-admit the Confederate States to the Union anyways, so go down that path. When you get the event about protests, don't back down - if you have been doing Small Lobbying Effort as soon as it's available, you'll be able to afford the hit in Congressional support.
+
+Afterwards, rush Guarantee the American Dream - this will prevent the Midwest from forming a neutral block of states. Afterwards, take Worker Management Act to get rid of what's left of the Great Depression debuff. Save up at least 150 political power - thanks to the civil war, you'll be able to get rid of Undisturbed Isolation (if you flip to Communism during or shortly before the civil war, you could even go to War Economy) - if you take Selective Service Act, you can also go from Disarmed Nation to Limited Conscription (if you don't wish to take that focus, just save up 450 political power).
+
+While you'll have removed the economic debuffs by the time you complete Re-Integration, you can still take Federal Housing Act for additional building slots if you haven't flipped to communism (you'll be able to bypass Fair Labor Standards Act thanks to the focuses you can access after Union Representation Act).
+
+When the war kicks off, change your economic laws (and recruitment laws if you wish), then start pushing downwards - during the war, every time you capture a state's victory points, you'll gain 2 divisions. Either incorporate them or use them in your existing forces; just keep on pushing. Eventually, you should be able to capitulate the Confederates - annex everything. Re-integrate all the states as soon as you can, and flip to communism through "Democratic Socialism".
+
+Decide if you want to Secure China or join the USSR - if you choose the former, either wait until Communist China forms its own faction, or instead, take the focus "Hemisphere Defense" to form your own faction and then take "Secure China" - unless you begin flipping other countries in South America communist, the only other members you'll have are the Phillipines and Paraguay , although since you won't have anyone else guaranteeing them, you could also just declare and puppet all other nations (you can also boost ideology if you wish).
+
+If one opts to join the USSR, take the focus "Unholy Alliance" - while the USSR will accept your request to join the Comintern without the focus, if you take the focus, you'll be able to Join the Unions, which will annex them if they are more than 80% of the way to capitulation (even if not in the war - and if you join the unions but aren't in the war, whoever was close to capitulating the USSR will be pushed back to their starting borders; this can make it hilarious against the Axis).
+
+While you can liberate the Philippines through a focus, one should hold off until the Philippines flips to communism - do this through the "Socialist Education" decision. After they flip, go ahead and liberate them.
+
+By this time, you should have gotten the Panay Incident if you haven't already - while the historic thing would be to demand compensation, as we're already derailing history, instead use it to gain a war goal. Use either the Philippines (if you decided to Secure China) or Vladivostok (if you decided to join the Comintern) to naval invade mainland Japan. Because Japan is likely still involved in China, they won't have many forces in the Home Islands.
+
+You can capitulate the Japanese and puppet them to have two of the most powerful navies at your control. Feel free to give Communist China Manchukuo to prepare them for their inevitable war with Nationalist China. With the threat in the Pacific dealt with, you can now focus on spreading the word of Marx in the European theater.
+
+If you're playing single player and wish to go for Georgia on my Mind, take Unholy Alliance, and wait for the Germans to come close to capitulating the Soviets, but don't join the war - when the decision is available, Join the Unions; as you're not at war with Germany, you'll force them back to their borders. Then, take Monroe Doctrine and take the decision to ask for the British territories - if they agree, congrats, you get the achievement!
+
+If not, station your fleet in the Baltic Sea and your troops in West Russia, and use the war goal to declare on the British and ask the Germans for Military Access - as you're at peace when this happens and are fighting a common enemy, you'll get it. Stage naval invasions from Wilhelmshaven to Hull or Newcastle, and the British should go down quickly. As you only really need South Georgia, odds are that you should be able to take the island (which the Germans will likely not take unless they can't take anything else).
+
+If you wish to use this to go for the Arsenal of Democracy achievement, you must flip back to Democracy, but you don't have to worry about that - the US's Democratic Advisor, Harold L. Ickes, can be hired at any point, so after you get ahold of the required number of Military Factories (if you can join the Unions and annex Japan, you should have more than enough or at the very least, enough building spots to do so.
+
+Alternatively if you manage to annex the 4 Major European Powers in a peace deal, you should have more than enough), hire Ickes and flip back to Democracy. Note that while the US can flip through having a high enough ideology, they can only do so in the regularly scheduled elections, meaning that if you don't have enough support by 1944, you'll have to wait until you get to 1948 to flip (as such, fire Earl Browder once you flip to communism).
+
+## Conquering the Americas
+This guide is separate from the ones above as it assumes that the player wishes to go Fascist instead of Communist.
+
+Upon starting the game, after doing all the regular things (i.e assigning divisions, beginning research, etc.), choose the focus War Plans Division. While that is going, begin building civilian factories and anti-air in the states bordering Mexico (Texas, Arizona, New Mexico, California) as these will come in handy during your later invasion of your southern neighbor. You should be able to finish the War Plans Division focus before the 1936 Election, and when you do, don't pick another focus until after the event fires.
+
+When the event "Election Day" fires, choose the Republicans, making Alf Landon your leader instead of FDR, and allowing you to pick the focus Return to the Gold Standard. While researching that, have all your armies (there should be five - one to guard the Pacific islands, one to invade Canada, one to invade Mexico, one to invade Cuba, and one defending the victory points of Washington, DC, San Francisco, and Los Angeles because if you lose those, you capitulate and lose the game) exercising until they reach trained.
+
+Now once you take the Gold Standard focus, go down and take America First, which will start you on your path to Fascism. Save up Political Power so you can hire Charles Coughlin, the Fascist Demagogue, upon completion of the focus. Next, go take the War Powers Act and while you wait for that to finish, send some of your troops to Florida and begin preparations for a naval invasion of Cuba.
+
+Make sure to research Naval Transport while you begin preparing your invasion of Cuba. Once the War Powers Act is finished, take the focus Manifest Destiny, which will lower your war goal justification time by 25%. After Manifest Destiny is finished and Seize Cuba is going, send about 5 to 10 divisions down to the Panama Canal so you can take the vital nation of Panama next. By the time Seize Cuba is finished, you should be ready to invade the island.
+
+Cuba shouldn't offer much resistance to your invasion and it should be a very easy victory for you. After Cuba is annexed, declare on Panama and invade them. As you just need to take the capital, have five divisions head down to the capital and another five defend against their two divisions from the other side. During this time, take the focuses War Plan Green and War Plan Gray. While you're at war with Panama, justify on Costa Rica and Nicaragua and invade them both after Panama falls. Justify on El Salvador and Honduras while you finish off Costa Rica and Nicaragua. None of these countries should be a challenge to beat, and justify on Guatemala after taking the others. Once Guatemala falls, take the focus to puppet Mexico.
+
+If Mexico accepts, begin construction until you can lower their autonomy to Integrated Puppet and later Annexed. If they don't, begin justifying on them immediately and line up your 10 divisions along their southern border and have your army in your border states up north begin preparations to invade.
+
+Once you do, this shouldn't be too hard as most of Mexico's army is concentrated along their border with you and your Central American divisions can easily push up into Southern Mexico and take the capital with little hassle while your northern forces occupy most of their army. Once Mexico capitulates, be sure to puppet them in a state like Baja California so you can take their manpower and their armies and the annex the rest of their states.
+
+Now prepare for war with South America. Unless the United Kingdom went with Edward VII and the Dominions broke away, ignore Canada for now. If they did break away, switch the below steps and invade Canada before South America.
+
+Now, arrange your Mexican invasion army and your Central American divisions along the border with Colombia. As Colombia has a pretty weak army, this shouldn't be too hard. Quickly invade them and rush their capital with your divisions. While you invade Colombia, be sure to begin justifications on Ecuador. Don't justify on Peru or Venezuela as they could join the Axis, and don't justify on Paraguay as they could join the Comintern. After Colombia falls, invade Ecuador and capitulate them. Now pause your expansion here for the moment and return to focusing internally.
+
+As this point, begin preparing for the Second American Civil War. Take the focuses Ally with the Silver Shirts, and then rush the side of the focus tree that sends Lindenberg to Germany and guarantees that the Midwest states will not break away and form the Unaligned States of America. Then rush down the other side until you reach the focus The Voter Registration Act. Once you complete those, Fascism should rise enough that you can start a civil war.
+
+Once the civil war begins, New England and Pennsylvania will break away first, usually followed by California, Oregon, and Washington. Quickly have your army on the East Coast invade and capture Boston. Have your Canadian invasion force turn and invade through Washington and Oregon to take Los Angeles and San Francisco.
+
+Once those three cities fall, you will easily win the Second American Civil War and be able to transition to Fascist. Next, take the Focus Honor the Confederacy, which will unlock decisions to revive the Confederate States of America. During the war, General Douglas MacArthur should have volunteered to lead the nation and you should have accepted, replacing Alf Landon. After the war, an event will fire where the leader of the Fascist party, William Dudley Pelley, will challenge MacArthur's leadership. MacArthur will step down and Pelley will become the leader of the Confederates. Alternatively, you could also choose Lindenberg instead of Pelley as the new leader for the Fascists.
+
+As you are now Fascist, you can join the Axis which will prevent Peru, the Dominican Republic, and Venezuela from joining when you declare on them. The rest of South America is really easy with low military and industry that the divisions you have should be more than enough to capitulate the nations in the south.
+
+Naval invade Haiti and the Dominican Republic from Cuba and annex them both. Leave the Axis and then take the Destroyers for Bases focus, and the United Kingdom, which will probably be at war with Germany right now, will probably agree.
+
+Canada and the other Dominions, if playing on non-historical, will have broken away by now and you can easily invade Canada. South Africa, Australia, and New Zealand will all be in a faction with Canada called the Commonwealth of Nations, but once Canada falls, which is really easy to accomplish, they will capitulate too. Just be sure to send divisions to fight in South Africa, Australia, and New Zealand so you can annex Australia and New Zealand and puppet South Africa when the peace conference comes. India may be in the faction too, but don't bother with them as they're too far away for you to control.
+
+## The Boston Rebellion
+If the United States progresses down the fascist branch of its national focus tree and completes either the Voter Registration Act or Ally With the Silver Shirts national focuses, then an event titled "Protests in the Capital" will fire, eventually followed by another event titled "The Ten-Million-March". The latter event is the gatekeeper event, and once it fires, a 280-day countdown will start, culminating in the outbreak of civil war. If, however, both of the aforementioned focuses have been completed when the Ten-Million-March even fires, then the countdown is reduced to 180 days. Just as with the anti-communist version, a series of random events will trigger during the countdown, removing manpower, equipment, generals and moving factories. Additionally, sometimes worker strikes can occur, inflicting temporary penalties to industrial output and resources gain. Instead of mobilizing the National Guard, some states (that will revolt) will form citizen militias, which will then spawn divisions when the war breaks out.
+
+Once the countdown reaches zero, the Boston Rebellion will break out. This will cause a civil war, started by the United States (by way of a cosmetic tag), which will initially take control of New England (357), with its capital in Boston, and spawn 6 Local Volunteer divisions (each containing 6 Infantry Regiments). If the United States does not have any divisions deployed, then 20 additional divisions (each containing 7 infantry and 2 line artillery regiments along with recon, engineer and support artillery units) will be spawned for the rebels.
+
+After this, the rebellion will quickly spread, with 3-day-intervals. Each state listed will spawn 4 Local Volunteer divisions;
+
+- After Boston, the West Coast will rebel (California(378), Oregon(385) and Washington(386))
+- This is followed by the rest of the East Coast (New York(358), Pennsylvania(360), New Jersey(359), and Maryland(361))
+- Thereafter, the remaining states have a 70% chance to secede and a 30% chance to stay loyal. Each region will spawn 4 Local Volunteer divisions:
+ - The Northwest (Montana(388), Idaho(387), and Wyoming(381))
+ - The West-Midwest North Dakota(389), South Dakota(390), Nebraska(384), Minnesota(391), and Iowa(392))
+ - The Southwest (Nevada(379), Arizona(377), Utah(380), New Mexico(376), and Colorado(382))
+- Lastly, the Midwest (Missouri(373), Wisconsin(394), Illinois(395), Minnesota(261), Michigan (396), and Iowa(393)) will also secede if the national focus Work with the Bund has not been completed before the Boston Rebellion occurs, otherwise they will stay loyal. They will only spawn Local Volunteer divisions if they rebel.
+
+Finally, every state that formed citizen militias will spawn Citizen Militia divisions, each containing 6 Infantry regiments. This means that the rebels could potentially spawn with up to 48 divisions (not counting Citizen Militia divisions) if all aforementioned regions defect and one disbanded all divisions before the Boston Rebellion occurred.
+
+If the national focus Recruit the Free Corps has been completed before the Boston Rebellion occurs, then the US Loyalists will have the option to raise the Silver Legion, which will spawn one Free Corps division (each containing 9 Infantry regiments), in every loyal state in the South and the Midwest. A unit commander named Fritz Kuhn will also be created
+
+# Achievements [verified for 1.17]
+
+{| width=100%
+| FOCUS Arsenal of Democracy: As the U.S.A., have more than 300 military factories.
+|}
+{| width=100%
+| FOCUS Georgia On My Mind: As the U.S.A., own and fully control all three Georgias.
+|}
+{| width=100%
+| FOCUS History Repeated Itself: As the U.S.A., Win against the Confederate States. Again.
+|}
+{| width=100%
+| FOCUS Team America: As the U.S.A., drop a nuclear bomb on Paris.
+|}
+{| width=100%
+| FOCUS To Arms in Dixie!: As the U.S.A., start a new civil war as the South.
+|}
+{| width=100%
+| FOCUS Underpaid, Undersexed, and Under Eisenhower: As the U.S.A., assume faction leader of the Allies, and have over 50 expeditionary divisions from the United Kingdom.
+|}
+{| width=100%
+| FOCUS American Prometheus: As the USA have Robert Oppenheimer complete the Manhattan Project.
+|}
+
+Americas

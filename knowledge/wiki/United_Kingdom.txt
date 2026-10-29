@@ -1,0 +1,3022 @@
+TITLE: United Kingdom
+URL: https://hoi4.paradoxwikis.com/United_Kingdom
+REVISION: 2026-03-22T12:30:52Z (rev 99065)
+VERIFIED FOR: 1.8
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+The United Kingdom of Great Britain and Northern Ireland (more commonly “the United Kingdom,” “UK”, “Great Britain”, or simply “Britain”) was the principal power of the Allies in World War II. They have a population of 45.02 M (core), and another 75.65 M (non-core). In 1939, the UK honoured its guarantees to Poland by declaring war on Germany. After the fall of France, the United Kingdom was the only Allied nation left in Europe until Italy's surprise invasion of Greece led the Greeks to fully join the Allies. It remained the only one of the “Big Three” (Great Britain, the Soviet Union, and the United States) and Allied major power in the war from the fall of France until 1941 when the German Reich invaded the Soviet Union. The United Kingdom was heavily engaged in the Western European, Atlantic, Mediterranean, African, and Southeast Asian theaters.
+
+# Historical background
+After the dust settled in Europe following Napoleon's short-lived reign the United Kingdom emerged as a global power, integrating Ireland into the Union and establishing a new continental order. The independence of the Thirteen Colonies forced the empire to shift its focus eastward and, after taking Dutch possessions during the Napoleonic Wars (and handing over the non-African territories back to the Dutch), the British Empire now controlled India, Egypt, the Cape of Good Hope and the straits of Singapore. These new possessions were vital to British control of global trade and only furthered Britain's rapid industrialisation. This new empire, larger than any before it, combined with a huge level of indirect control globally and the largest navy in existence, led the United Kingdom to take its place as the most powerful industrial empire in history resulting in the "Pax Britannica" (latin for "British Peace"): an informal era of 99 years from 1815 to 1914 in which the European balance of power, despite various smaller armed conflicts, remained largely uninfluenced on the Home Islands during major wars.
+
+However, the rise of the German Empire would challenge the British. The ascension of Wilhelm II to the throne of Germany would turn Germany's huge industrial capacity and military against the British, with an aggressive foreign policy and a naval arms race between the two empires. In the British Parliament debates raged as to whether the empire should maintain neutrality or actively intervene to ensure the continuation of British dominance; Parliament chose the latter when Belgium was invaded by German forces in 1914. Britain's entry into the First World War helped secure an Entente victory, especially with the arrival of the US Army into the war in late 1917; however, the Pax Britannica was nothing more than an informal state of world politics by this point. Russia had fallen to communism, Germany and Italy to fascism, and the Japanese Empire slowly diminished British influence in the east. With the massive costs of the First World War and the loss of Ireland, Britain was in no shape for a new war, let alone its people.
+
+Due to its situation, a division has arisen in Britain; one side calls for the maintenance of the Empire's status quo by avoiding war and making an ally of the Third Reich, while the other calls for the Empire to defend the continental order and stop both fascism and communism in their tracks. The UK's Home army is experienced but small and its colonial forces are smaller, inexperienced and underequipped, and its navy, while numerous, is restricted by the London Naval Treaty, alongside the naval powers of the US, Japan, France and Italy, in respective order. The current conservative government calls for appeasement with the true intention of postponing a war with Germany until it has rearmed. More staunch interventionists under Churchill have called for an end to appeasement. Yet with a constitutional crisis, the birth of independence movements in colonies and the threat of Germany, Italy and Japan on all corners of the British Empire, many argue Britain's reign over the world has ended and it's better to preserve what the UK has rather than fight what doesn't concern it.
+
+# Events
+(Main article: British events, British events WtT, British events MtG)
+
+# National focus
+
+(Main article: British national focus tree)
+
+branches desc
+
+# National spirits [verified for 1.17]
+
+The United Kingdom starts with the following national spirits:
+
+Spirit London Naval Treaty Signatory: We have signed the London Naval Treaty and accordingly are restricted in the size of our capital ships.
+- Carrier Max Cost: 9500 production cost n
+- Cruiser Max Cost: 5300 production cost n
+- Heavy Ship Max Cost: 10000 production cost n
+
+Spirit British Stoicism: If you can keep your head when all about you are losing theirs and blaming it on you, if you can meet with triumph and disaster and treat those two impostors just the same. Yours is the Earth and everything that's in it, and - which is more - you'll be a man, my son.
+- Ideology drift defense: +50.0%
+- yes Can Create Factions
+
+Spirit The War to End All Wars: With the Great War in recent memory, both the nation's people and leaders are reluctant to send another generation to die in the trenches.
+- Recruitable Population Factor: -30%
+
+Spirit King George V: Rallying around the King of the United Kingdom and the British Dominions, as well as Emperor of India, the British people stand united and proud of their imperial legacy.
+popular_figurehead
+
+# Technology [verified for 1.17]
+
+## Research
+The United Kingdom begins with 4 research slots available; 1 more can be unlocked through the national focus tree.
+
+- Infantry Equipment I
+- Improved Infantry Equipment I (39)
+- Support Weapons II (39)
+- Truck
+- Inter-War Armored Car La Résistance
+- Camelry Battle for the Bosporus
+----
+- Engineer Company I
+- Recon Company I
+- Civilian Train
+----
+- Towed Artillery
+- Towed Anti-Air
+- Inter-War Artillery (39)
+- Towed Anti-Tank (39)
+----
+- Basic Light Tank (36)
+- Improved Light Tank (39)
+- Basic Medium Tank (39)
+- Basic Heavy Tank (39)
+- Basic Armor Protection (39)
+- Basic Engine (39)
+----
+Armor without No Step Back :
+- Light Tank I (36)
+- Light Tank II (39)
+- Medium Tank I (39)
+- Heavy Tank I (39) * Basic Destroyer (36)
+- Improved Destroyer (39)
+- Smoke Generators
+- Basic Depth Charges
+- Passive Sonar (36)
+- Active Sonar (39)
+- Basic Cruiser (36)
+- Improved Cruiser (39)
+- Inclined Belt Armor Scheme
+- Basic Heavy Ship
+- Basic Carrier (36)
+- Improved Carrier (39)
+- Early Submarine (36)
+- Improved Submarine (39)
+- Coastal Defense Ships
+----
+- Basic Light Battery
+- Basic Heavy Battery
+- Basic Dual-Purpose Light Battery
+- Advanced Dual-Purpose Battery (39)
+- Basic Torpedo
+- Transport Ship
+- Contact Mine
+- Minelaying Submarine * Basic Small Airframe (36)
+- Improved Small Airframe (39)
+- Basic Medium Airframe
+- Inter-War Large Airframe (36)
+- Basic Large Airframe (39)
+- Inter-War Transport Plane
+- Bombs
+- Light MG
+- Cannons I (39)
+- Air Launched Torpedoes
+- Aircraft Construction
+- Range Improvements (39)
+- Engines II (36)
+- Engines III (39)
+----
+Without By Blood Alone :
+- Inter-War Fighter (36)
+- Inter-War Carrier Fighter
+- Fighter II (39)
+- Carrier Fighter I (39)
+- Close Air Support I (36)
+- Close Air Support II (39)
+- Carrier Close Air Support I (39)
+- Naval Bomber I (36)
+- Naval Bomber II (39)
+- Carrier Naval Bomber I
+- Heavy Fighter II (39)
+- Inter-War Bomber (36)
+- Tactical Bomber II (39)
+- Strategic Bomber I (39)
+- Inter-War Transport Plane * Advanced Machine Tools (39)
+- Dispersed Industry III (39)
+- Construction III (39)
+- Fuel Storage
+- Synthetic Oil Experiments (39)
+- Oil Processing (39)
+- Fuel Refining I (36)
+- Fuel Refining II (39)
+----
+- Radio
+- Cavity Magnatron (39)
+- Computing Machine (39)
+- Centimetric Radar (39)
+- Electronic Mechanical Engineering (36)
+- Basic Fire Control System
+---- (39)
+Without La Résistance : (39)
+- Encryption - Polyalphabetical Ciphers (39)
+- Decryption - Frequency Analysis (39) * Grand Battleplan
+ - Defensive Postures ( mastery : 100) (39)
+ - Grand Assault ( mastery : 50) (39) * Fleet in Being
+ - Convoy Escort ( mastery : 100) (39)
+ - Line of Battle ( mastery : 50) (39)
+ - Floating Airfields ( mastery : 25) (39) * Strategic Destruction
+ - Knights of the Air ( mastery : 75) (39)
+ - Flying Artillery ( mastery : 25) (39)
+
+## Cosmetic names
+The United Kingdom has a number of unique names and appearances for various technologies and equipment, listed here. Note that generic names are not listed.
+
+Type: Support Weapons
+1918: Vickers MG & Stokes mortar
+1938: Lewis Mk. III DEMS & SBML two-inch mortar
+1940: Bren Mk. I & ML 3 inch mortar
+1942: Bren Mk. III & ML 4.2 inch Mortar
+
+Type: Infantry Equipment
+1918: Rifle No. 1 Mk III
+1936: Rifle No. 4 Mk I
+1939: Sten Mk II
+1942: Sterling Mk I
+
+Type: Infantry Anti-Tank
+1942: Boys Anti-Tank Rifle
+1943: PIAT
+
+Type: Motorized
+1936: Austin K5
+
+Type: Mechanized
+1940: Bren Carrier
+1942: Universal Carrier
+1944: Churchill Kangaroo
+
+Type: Amphibious Tractors
+1941: Terrapin
+1943: NA
+
+Type: Armored Car La Résistance
+1936: Dingo
+1940: Humber
+1942: AEC
+
+Tech year: 1918
+Light (TD/SPG/AA): Mark V
+
+Tech year: 1934
+Light (TD/SPG/AA): Vickers II (Deacon / Birch / Vickers II AA)
+Heavy (TD/SPG/AA): Vickers (NA / Gun Carrier Mk. I / NA)
+
+Tech year: 1936
+Light (TD/SPG/AA): Matilda (Valiant / Priest / Matilda AA)
+
+Tech year: 1938
+Amphibious: Valentine DD
+Medium (TD/SPG/AA): Crusader (Cavalier / Centaur / Crusader AA I)
+
+Tech year: 1940
+Medium (TD/SPG/AA): Cromwell (Charioteer / Avenger / Crusader AA II)
+Heavy (TD/SPG/AA): Churchill (Churchill Gun Carrier / Churchill AVRE / Churchill AA)
+
+Tech year: 1941
+Light (TD/SPG/AA): Valentine (Archer / Bishop / Valentine AA)
+Super-Heavy (TD/SPG/AA): Tortoise (Iron Duke / NA / NA)
+
+Tech year: 1943
+Medium (TD/SPG/AA): Comet (Contentious / Sexton / Comet Marksman)
+Heavy (TD/SPG/AA): Black Prince (Hector / Black Prince AVRE / Black Prince Marksman)
+
+Tech year: 1945
+Modern (TD/SPG/AA): Centurion (Centurion Malkara / Centurion AVRE / Centurion Marksman)
+
+Note: Without No Step Back, Medium Tank I and II are unlocked one year later. Amphibious tanks are then unlocked in 1940 and 1942, the second one is called Cromwell DD.
+
+Tech year: 1934
+Artillery: QF 18-pounder
+
+Tech year: 1936
+Anti-Air: QF 3-inch
+Anti-Tank: QF 2-pounder
+
+Tech year: 1939
+Artillery: QF 25-pounder
+
+Tech year: 1940
+Anti-Air: QF 40 mm Bofors
+Rocket Artillery: RP-3 HE/GP
+Anti-Tank: QF 6-pounder
+
+Tech year: 1942
+Artillery: BL 5.5-inch Medium Gun
+
+Tech year: 1943
+Anti-Air: QF 3.7-inch
+Rocket Artillery: RP-3 HE/SAP
+Anti-Tank: QF 17-pounder
+
+1933
+Gladiator
+Whitley
+NA
+AW.15
+
+1936
+Hector (Osprey)
+Hurricane (Sea Gladiator)
+Swordfish (Shark)
+Blenheim
+Wellington
+Halifax
+Spitfire PR
+
+1940
+Typhoon (Skua)
+Spitfire (Fulmar)
+Albacore (Roc)
+Beaufighter
+Beaufort
+Lancaster
+Mosquito PR
+Bristol Bombay
+
+1944
+Tempest (Sea Fury)
+Spiteful (Firefly)
+Barracuda (Firebrand)
+Mosquito FB
+Mosquito B
+Lincoln
+HP.67
+
+1945
+Meteor
+Venom
+
+1950
+Vampire
+Canberra
+Valiant
+
+# Geography [verified for 1.17]
+
+The United Kingdom lies in Western Europe and consists of England, Wales, Scotland, Northern Ireland and the Isle of Man. The United Kingdom also owns a lot of overseas territories and colonies around the world. This includes huge parts of Africa, Newfoundland and Labrador, Guyana and the Falklands and direct control of the strategic locations of Gibraltar, Malta, and the Suez Canal. The United Kingdom directly borders Ireland to the west, but is otherwise separated from European nations by seas. The North Sea lies to the North East, while the English Channel separates mainland Europe. To the west lies the Atlantic Ocean. The United Kingdom indirectly borders a lot of countries through overseas territories like Canada to the west, which borders Newfoundland and Labrador. It also borders Spain through Gibraltar, and France and Italy through the African colonies. The United Kingdom is dominated by the Scottish highlands in the North. In the south hills, plains and urban areas dominate. The United Kingdom has a lot of urban areas including London, Manchester, Glasgow, and Liverpool.
+
+The United Kingdom owns 19 core and 73 colonial states.
+
+State: Aberdeenshire
+Cities: Aberdeen
+Dundee
+vp: 5
+1
+Terrain (# prov): Hills (1)
+ Mountain (4)
+ Plains (2)
+Region: Developed Rural Region
+population: 745,466
+Is core: yes
+
+State: Abu Dhabi
+Cities: Abu Dhabi
+Dubai
+vp: 1
+0
+Terrain (# prov): Desert (4)
+Region: Pastoral Region
+population: 170,200
+Is core: no
+
+State: Alexandria
+Cities: Alexandria
+Damietta
+El-Alamein
+Mansoura
+vp: 10
+0
+1
+0
+Terrain (# prov): Desert (2)
+ Plains (4)
+ Urban (1)
+Region: Developed Rural Region
+population: 3,859,239
+Is core: no
+
+State: Andaman
+Cities: Port Blair
+vp: 1
+Terrain (# prov): Plains (2)
+Region: Small Island
+population: 29,500
+Is core: no
+
+Ascension
+Plains (1)
+Tiny Island
+458
+no
+
+State: Aswan
+Cities: Aswan
+Asyut
+Luxor
+Qena
+Sohag
+vp: 1
+1
+3
+0
+0
+Terrain (# prov): Desert (12)
+ Mountain (3)
+Region: Rural Region
+population: 4,224,516
+Is core: no
+
+Bahr al Ghazal
+Forest (3)
+ Plains (1)
+Pastoral Region
+550,000
+no
+
+State: Bahrain
+Cities: Manama
+vp: 2
+Terrain (# prov): Desert (1)
+Region: Pastoral Region
+population: 89,970
+Is core: no
+
+State: Barotseland
+Cities: Mongu
+vp: 1
+Terrain (# prov): Forest (3)
+ Marsh (1)
+Region: Rural Region
+population: 690,043
+Is core: no
+
+State: Bechuanaland
+Cities: Gaborone
+vp: 1
+Terrain (# prov): Plains (5)
+Region: Wasteland
+population: 234,000
+Is core: no
+
+State: Benue
+Cities: Enugu
+vp: 2
+Terrain (# prov): Forest (3)
+ Jungle (2)
+Region: Pastoral Region
+population: 1,163,674
+Is core: no
+
+State: Bermuda
+Cities: Hamilton
+vp: 1
+Terrain (# prov): Plains (1)
+Region: Small Island
+population: 37,516
+Is core: no
+
+Blue Nile
+Plains (6)
+Pastoral Region
+661,102
+no
+
+Borno
+Mountain (1)
+ Plains (3)
+Pastoral Region
+166,240
+no
+
+State: British Guyana
+Cities: Georgetown
+vp: 1
+Terrain (# prov): Jungle (3)
+Region: Pastoral Region
+population: 309,000
+Is core: no
+
+State: British Honduras
+Cities: Belize City
+vp: 1
+Terrain (# prov): Jungle (1)
+Region: Pastoral Region
+population: 51,000
+Is core: no
+
+State: British Somaliland
+Cities: Berbera
+Hargeisa
+vp: 1
+1
+Terrain (# prov): Desert (5)
+ Mountain (3)
+Region: Enclave
+population: 344,700
+Is core: no
+
+State: Cairo
+Cities: Beni Suef
+Cairo
+Faiyum
+Giza
+vp: 3
+20
+0
+5
+Terrain (# prov): Desert (7)
+ Plains (3)
+ Urban (1)
+Region: Developed Rural Region
+population: 6,454,865
+Is core: no
+
+State: Ceylon
+Cities: Trincomalee
+vp: 3
+Terrain (# prov): Hills (3)
+ Mountain (3)
+ Plains (2)
+Region: Rural Region
+population: 5,500,000
+Is core: no
+
+Christmas Island
+Forest (1)
+Tiny Island
+1,625
+no
+
+Cocos Islands
+Forest (1)
+Tiny Island
+42
+no
+
+State: Cumbria
+Cities: Carlisle
+vp: 3
+Terrain (# prov): Mountain (3)
+ Plains (1)
+Region: Developed Rural Region
+population: 745,101
+Is core: yes
+
+State: Cyprus
+Cities: Limassol
+Nicosia
+vp: 3
+5
+Terrain (# prov): Hills (2)
+Region: Rural Region
+population: 347,959
+Is core: no
+
+Diego Garcia
+Plains (1)
+Tiny Island
+2,147
+no
+
+State: East Anglia
+Cities: Ipswich
+Norwich
+vp: 2
+3
+Terrain (# prov): Forest (1)
+ Plains (6)
+Region: Urban Region
+population: 1,363,174
+Is core: yes
+
+State: East Midlands
+Cities: Leicester
+Nottingham
+vp: 3
+10
+Terrain (# prov): Hills (3)
+ Plains (4)
+Region: Urban Region
+population: 2,212,021
+Is core: yes
+
+State: Eastern Desert
+Cities: Berenice Troglodytica
+Hurghada
+vp: 0
+1
+Terrain (# prov): Desert (2)
+ Mountain (7)
+Region: Wasteland
+population: 2,194
+Is core: no
+
+Ellice Islands
+Plains (4)
+Tiny Island
+493
+no
+
+State: Falkland Islands
+Cities: Port Stanley
+vp: 1
+Terrain (# prov): Plains (2)
+Region: Enclave
+population: 2,463
+Is core: no
+
+State: Fiji
+Cities: Suva
+Suva
+vp: 1
+0
+Terrain (# prov): Plains (3)
+Region: Small Island
+population: 180,000
+Is core: no
+
+State: Gambia
+Cities: Banjul
+vp: 1
+Terrain (# prov): Forest (2)
+Region: Enclave
+population: 199,520
+Is core: no
+
+Garissa
+Desert (2)
+ Plains (2)
+Pastoral Region
+610,560
+no
+
+State: Ghana
+Cities: Accra
+Kumasi
+vp: 2
+1
+Terrain (# prov): Forest (3)
+ Jungle (3)
+ Lake (1)
+Region: Rural Region
+population: 3,163,600
+Is core: no
+
+State: Gibraltar
+Cities: Gibraltar
+vp: 10
+Terrain (# prov): Hills (1)
+Region: Enclave
+population: 21,372
+Is core: no
+
+State: Gilbert Islands
+Cities: Tarawa
+vp: 1
+Terrain (# prov): Plains (5)
+Region: Small Island
+population: 1,035
+Is core: no
+
+State: Gloucestershire
+Cities: Bristol
+vp: 5
+Terrain (# prov): Forest (1)
+ Hills (1)
+ Plains (3)
+ Urban (1)
+Region: Urban Region
+population: 1,800,615
+Is core: yes
+
+State: Greater London Area
+Cities: London
+vp: 50
+Terrain (# prov): Forest (1)
+ Plains (1)
+ Urban (2)
+Region: Megalopolis Region
+population: 9,824,296
+Is core: yes
+
+State: Hong Kong
+Cities: Hong Kong
+vp: 3
+Terrain (# prov): Urban (1)
+Region: Sparse Urban Region
+population: 1,143,516
+Is core: no
+
+State: Isle of Man
+Cities: Douglas
+vp: 1
+Terrain (# prov): Plains (1)
+Region: Small Island
+population: 51,000
+Is core: yes
+
+State: Jamaica
+Cities: Kingston
+vp: 1
+Terrain (# prov): Hills (1)
+ Plains (1)
+Region: Developed Rural Region
+population: 1,075,000
+Is core: no
+
+State: Kassala
+Cities: Halayeb
+Port Sudan
+Tokar
+vp: 0
+1
+0
+Terrain (# prov): Mountain (4)
+ Plains (1)
+Region: Rural Region
+population: 511,402
+Is core: no
+
+State: Khartoum
+Cities: Atbara
+Khartoum
+Wadi Halfa
+vp: 0
+3
+0
+Terrain (# prov): Desert (13)
+Region: Rural Region
+population: 821,003
+Is core: no
+
+Kurdufan
+Plains (9)
+Rural Region
+1,802,132
+no
+
+Labrador
+Forest (1)
+ Hills (1)
+ Lake (2)
+ Plains (3)
+Wasteland
+22,179
+no
+
+State: Lagos
+Cities: Lagos
+vp: 5
+Terrain (# prov): Forest (3)
+ Jungle (2)
+Region: Rural Region
+population: 19,757,000
+Is core: no
+
+State: Lanark
+Cities: Dumfries
+Glasgow
+vp: 1
+15
+Terrain (# prov): Mountain (4)
+ Plains (3)
+ Urban (1)
+Region: Urban Region
+population: 2,257,723
+Is core: yes
+
+State: Lancashire
+Cities: Liverpool
+Manchester
+vp: 30
+5
+Terrain (# prov): Forest (2)
+ Urban (2)
+Region: Metropolis Region
+population: 5,770,454
+Is core: yes
+
+Leeward Islands
+Plains (2)
+Tiny Island
+25,678
+no
+
+State: Lothian
+Cities: Edinburgh
+Rosyth
+vp: 10
+1
+Terrain (# prov): Forest (1)
+ Mountain (2)
+ Plains (2)
+ Urban (1)
+Region: Urban Region
+population: 1,431,624
+Is core: yes
+
+State: Malawi
+Cities: Lilongwe
+vp: 1
+Terrain (# prov): Forest (1)
+ Lake (1)
+ Mountain (2)
+Region: Pastoral Region
+population: 1,603,975
+Is core: no
+
+State: Maldives
+Cities: Malé
+vp: 1
+Terrain (# prov): Plains (1)
+Region: Enclave
+population: 79,300
+Is core: no
+
+State: Malta
+Cities: Valletta
+vp: 5
+Terrain (# prov): Plains (1)
+Region: Small Island
+population: 241,621
+Is core: no
+
+State: Matrouh
+Cities: Marsa Matruh
+Sidi Barrani
+vp: 2
+1
+Terrain (# prov): Desert (9)
+Region: Wasteland
+population: 52,556
+Is core: no
+
+Mauritius
+Forest (1)
+Small Island
+404,458
+no
+
+State: Mombasa
+Cities: Mombasa
+vp: 1
+Terrain (# prov): Hills (1)
+ Mountain (1)
+ Plains (1)
+Region: Pastoral Region
+population: 1,017,600
+Is core: no
+
+State: Nairobi
+Cities: Nairobi
+vp: 2
+Terrain (# prov): Desert (2)
+ Lake (1)
+ Mountain (2)
+Region: Rural Region
+population: 1,085,440
+Is core: no
+
+State: Nauru
+Cities: Nauru
+vp: 1
+Terrain (# prov): Plains (1)
+Region: Tiny Island
+population: 5,785
+Is core: no
+
+State: Newfoundland
+Cities: St. John's
+vp: 2
+Terrain (# prov): Forest (3)
+ Marsh (1)
+ Plains (1)
+Region: Rural Region
+population: 255,060
+Is core: no
+
+North Darfur
+Desert (3)
+Wasteland
+8,143
+no
+
+State: Northern Bahamas
+Cities: Nassau
+vp: 1
+Terrain (# prov): Plains (3)
+Region: Tiny Island
+population: 40,000
+Is core: no
+
+State: Northern Ireland
+Cities: Belfast
+Londonderry
+vp: 5
+1
+Terrain (# prov): Hills (2)
+ Lake (1)
+ Mountain (1)
+ Plains (2)
+ Urban (1)
+Region: Urban Region
+population: 1,198,537
+Is core: yes
+
+State: Northumberland
+Cities: Newcastle
+vp: 8
+Terrain (# prov): Mountain (1)
+ Plains (1)
+ Urban (1)
+Region: Urban Region
+population: 2,128,860
+Is core: yes
+
+Nyanza-Rift Valley
+Desert (1)
+ Mountain (2)
+Pastoral Region
+678,400
+no
+
+Pitcairn Island
+Plains (1)
+Tiny Island
+40
+no
+
+State: Qatar
+Cities: Doha
+vp: 1
+Terrain (# prov): Desert (1)
+Region: Pastoral Region
+population: 51,600
+Is core: no
+
+State: Rhodesia
+Cities: Salisbury
+vp: 1
+Terrain (# prov): Forest (4)
+ Hills (1)
+ Plains (1)
+Region: Pastoral Region
+population: 1,171,336
+Is core: no
+
+Saint Helena
+Plains (1)
+Tiny Island
+2,485
+no
+
+State: Scottish Highlands
+Cities: Inverness
+Oban
+Scapa Flow
+Stornoway
+vp: 1
+1
+1
+1
+Terrain (# prov): Mountain (11)
+ Plains (5)
+Region: Rural Region
+population: 247,873
+Is core: yes
+
+Seychelles
+Jungle (1)
+Small Island
+126,703
+no
+
+Shetland Islands
+Plains (1)
+Tiny Island
+18,000
+yes
+
+State: Sierra Leone
+Cities: Freetown
+vp: 1
+Terrain (# prov): Forest (2)
+Region: Pastoral Region
+population: 1,768,500
+Is core: no
+
+State: Sinai
+Cities: El-Arīsh
+Sharm el-Sheikh
+vp: 3
+1
+Terrain (# prov): Desert (4)
+ Mountain (3)
+Region: Wasteland
+population: 15,359
+Is core: no
+
+State: Singapore
+Cities: Singapore
+vp: 10
+Terrain (# prov): Urban (1)
+Region: Sparse Urban Region
+population: 557,745
+Is core: no
+
+Socotra
+Plains (1)
+Small Island
+21,303
+no
+
+State: Sokoto
+Cities: Sokoto
+vp: 1
+Terrain (# prov): Forest (3)
+ Plains (4)
+Region: Pastoral Region
+population: 332,479
+Is core: no
+
+South Darfur
+Forest (1)
+ Plains (2)
+Wasteland
+302,020
+no
+
+South Georgia
+Plains (1)
+Tiny Island
+30
+no
+
+South Yemen
+Desert (2)
+ Mountain (3)
+Pastoral Region
+871,202
+no
+
+State: South-West England
+Cities: Plymouth
+Truro
+vp: 10
+1
+Terrain (# prov): Forest (2)
+ Hills (2)
+ Plains (2)
+Region: Developed Rural Region
+population: 1,221,013
+Is core: yes
+
+Southern Bahamas
+Plains (2)
+Tiny Island
+15,000
+no
+
+State: Suez
+Cities: Port Said
+Suez
+vp: 5
+3
+Terrain (# prov): Desert (3)
+ Plains (1)
+Region: Wasteland
+population: 131,732
+Is core: no
+
+State: Sussex
+Cities: Dover
+Portsmouth
+vp: 20
+15
+Terrain (# prov): Forest (1)
+ Plains (5)
+Region: Dense Urban Region
+population: 3,193,383
+Is core: yes
+
+State: Tanganyika
+Cities: Dar es Salaam
+vp: 1
+Terrain (# prov): Forest (10)
+ Hills (4)
+ Lake (2)
+ Mountain (3)
+ Plains (1)
+Region: Rural Region
+population: 5,299,000
+Is core: no
+
+State: Trinidad
+Cities: Port of Spain
+vp: 1
+Terrain (# prov): Plains (2)
+Region: Rural Region
+population: 413,119
+Is core: no
+
+State: Uganda
+Cities: Kampala
+vp: 1
+Terrain (# prov): Forest (4)
+ Lake (1)
+ Plains (2)
+Region: Rural Region
+population: 3,515,625
+Is core: no
+
+State: Upper Nile
+Cities: Juba
+vp: 1
+Terrain (# prov): Plains (4)
+Region: Pastoral Region
+population: 1,040,121
+Is core: no
+
+State: Wales
+Cities: Cardiff
+Swansea
+Wrexham
+vp: 5
+3
+1
+Terrain (# prov): Hills (5)
+ Plains (2)
+ Urban (1)
+Region: Urban Region
+population: 2,309,230
+Is core: yes
+
+State: West Midlands
+Cities: Birmingham
+vp: 25
+Terrain (# prov): Forest (1)
+ Plains (5)
+ Urban (1)
+Region: Metropolis Region
+population: 3,685,235
+Is core: yes
+
+Western Desert
+Desert (10)
+Wasteland
+18,539
+no
+
+State: Windward Islands
+Cities: Bridgetown
+vp: 1
+Terrain (# prov): Plains (4)
+Region: Small Island
+population: 76,485
+Is core: no
+
+State: Yorkshire
+Cities: Hull
+Leeds
+Sheffield
+vp: 5
+10
+15
+Terrain (# prov): Forest (1)
+ Hills (1)
+ Mountain (1)
+ Plains (3)
+ Urban (3)
+Region: Metropolis Region
+population: 4,762,495
+Is core: yes
+
+State: Zambia
+Cities: Fort Jameson
+Lusaka
+vp: 1
+2
+Terrain (# prov): Forest (4)
+ Lake (1)
+ Mountain (2)
+Region: Rural Region
+population: 690,045
+Is core: no
+
+# Politics [verified for 1.8]
+
+UK starts with 60% stability and 10% war support base. These are changed to 89.5% stability and 15% war support after modifiers.
+
+## Ideology
+UK starts 1936 as a democracy, with elections every four years, with the next one in 1939. The ruling party is the Conservative Party led by Stanley Baldwin.
+
+The Change in Course branch grants focuses to change the ideology to non-aligned, fascist, or communist. The AI controlling other countries can attempt to promote other ideologies. Because of the UK's national spirit British Stoicism this will be much slower than normal as it grants ideology drift defense: +50%.
+
+## Political parties
+The United Kingdom's starting political parties.
+
+{| class="wikitable" style="float:left; width:49em; margin:10px; margin-left:0"
+|+ Political parties, 1936
+! Id. !! style="width:22.3em;" | Party name !! style="width:1em;" | Popularity !! style="width:11.9em;" | Leader !! style="width:1em;" | Ruling
+|-
+! style="text-align: center;" | Democracy
+! Conservative Party
+| style="text-align: center;" | 97% || Stanley Baldwin || style="text-align: center;" | Yes
+|-
+! style="text-align: center;" | Communism
+! Communist Party of Great Britain
+|style="text-align: center;" | 1% || Harry Pollitt || style="text-align: center;" | No
+|-
+! style="text-align: center;" | Fascism
+! British Union of Fascists
+| style="text-align: center;" | 2% || Oswald Mosley || style="text-align: center;" | No
+|-
+! style="text-align: center;" | Non-Aligned
+! the House of Windsor
+|style="text-align: center;" | 0% || Horatio Dundas || style="text-align: center;" | No
+|}
+
+{| class="wikitable" style="float:left; width:49em; margin:10px; margin-left:0"
+|+ Political parties, 1939
+! Id. !! style="width:22.3em;" | Party name !! style="width:1em;" | Popularity !! style="width:11.9em;" | Leader !! style="width:1em;" | Ruling
+|-
+! style="text-align: center;" | Democracy
+! Conservative Party
+| style="text-align: center;" | 97% || Neville Chamberlain || style="text-align: center;" | Yes
+|-
+! style="text-align: center;" | Communism
+! Communist Party of Great Britain
+|style="text-align: center;" | 1% || Harry Pollitt || style="text-align: center;" | No
+|-
+! style="text-align: center;" | Fascism
+! British Union of Fascists
+| style="text-align: center;" | 2% || Oswald Mosley || style="text-align: center;" | No
+|-
+! style="text-align: center;" | Non-Aligned
+! the House of Windsor
+|style="text-align: center;" | 0% || Horatio Dundas || style="text-align: center;" | No
+|}
+
+## Country leaders
+Possible country leaders of United Kingdom.
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Country leaders
+! Ideology
+! class="unsortable" | Portrait
+! Name
+! style="width:1em;" | Party
+! Traits
+! Effects
+! Possible
+|-
+! style="text-align: center;" | Democracy
+Liberalism
+|
+| Stanley Baldwin
+| Conservative Party
+| conservative_grandee
+|
+Starting leader in 1936
+|-
+! style="text-align: center;" | Democracy
+Liberalism
+|
+| Neville Chamberlain
+| Conservative Party
+| chamberlain_appeaser
+|
+Starting leader in 1939
+- Via event Stanley Baldwin Resigns
+|-
+! style="text-align: center;" | Democracy
+Conservatism
+|
+| Winston Churchill
+| Conservative Party
+| british_bulldog
+|
+- Via event Chamberlain Resigns
+- Via event Motion of No Confidence
+- Via event Chamberlain Passes Away
+|-
+! style="text-align: center;" | Democracy
+Conservatism
+|
+| Lord Edward Halifax
+| Conservative Party
+| viceroy_emeritus
+|
+- Via event Chamberlain Passes Away
+|-
+! style="text-align: center;" | Democracy
+Conservatism
+|
+| Fallen Government
+| Conservative Party
+| cabinet_crisis
+|
+- Via event Cabinet Resigns
+|-
+! style="text-align: center;" | Communism
+Leninism
+|
+| Harry Pollitt
+| Communist Party of Great Britain
+| staunch_stalinist
+|
+Starting Communist leader
+|-
+! style="text-align: center;" | Communism
+Leninism
+|
+| Rajani Palme Dutt
+| Communist Party of Great Britain
+| comintern_workhorse
+|
+- Via focus The British Communist Alternative
+|-
+! style="text-align: center;" | Fascism
+Fascism
+|
+| Oswald Mosley
+| British Union of Fascists
+| champion_of_peace_1
+|
+Starting Fascist leader
+|-
+! style="text-align: center;" | Non-Aligned
+Centrism
+|
+| Horatio Dundas
+| the House of Windsor
+| quartermaster_general
+|
+Starting Non-Aligned leader
+|-
+! style="text-align: center;" | Non-Aligned
+Despotism
+|
+| Edward VIII
+| the King's Party
+| inexperienced_imperialist
+|
+- Via focus The King's Party
+
+|-
+! style="text-align: center;" | Non-Aligned
+Despotism
+|
+| George VI
+| the King's Party
+| popular_figurehead
+|
+- Via event Buckingham Palace Bombed - King Edward Dead
+|-
+! style="text-align: center;" | Non-Aligned
+Despotism
+|
+| Elizabeth II
+| the Queen's Party
+| inexperienced_monarch
+|
+- Via event King George VI Dies
+|}
+
+## Diplomacy
+The Commonwealth
+
+The United Kingdom maintains close ties with the Commonwealth countries of Dominion of Canada, South Africa, Australia and New Zealand. These countries were formerly part of the British Empire, but are now independent Dominions under the British Crown. They have their own governments, economies and armed forces. Certain UK focus choices affect them (e.g., construction of factories).
+
+Puppets
+
+Their colony of India has some local autonomy. It is represented in the game as a puppet called British Raj. It is possible for the UK to release British Raj as an independent country. The colony of Malaya is also represented as a puppet under Britain. India is represented as a Colony, more autonomous than a puppet, while Malaya is represented as an Integrated Puppet, which is less autonomous than a puppet.
+
+Colonies
+
+The UK starts with direct control over many colonies across the world. These include the strategic locations of Gibraltar and the Suez Canal.
+
+The Allies
+
+The UK is leader of the faction called the Allies. The faction's starting members are the Commonwealth countries (Canada, South Africa, Australia, and New Zealand) and the British Raj and British Malaya. It's the most powerful faction in the game in the start.
+The UK has very friendly relations with France, but the latter isn't a member of the Allies in start, nor is the United States. France normally joins the faction early in the game, but it might not — its National Focuses could steer it elsewhere. The U.S. normally joins the Allies later, but it can also form its own faction.
+
+In terms of cores, aside from the ones that are granted as a result of the Imperial Federation, the UK can also gain cores on Ireland if it goes either Fascist or Monarchist, as well as temporarily gain cores on all potential French cores through the Franco-British Union (it will only keep French cores as long as the UK is at war; if the UK is at peace, the UK can opt to keep the Union formed, but it will lose all French cores regardless of if it agrees to let France become independent or if it keeps the Union in place). Additionally, if either New Zealand or South Africa were to form either Polynesia or Mutapa, the UK would also gain those additional cores (New Zealand can form Polynesia even if it is a dominion, but Mutapa can only be formed if South Africa is independent, thus meaning that the UK likely won't be able to gain Mutapan cores unless either South Africa goes Fascist/Communist or the UK goes down a non-Democratic branch of it's focus tree). If the UK goes Fascist, after forming the Imperial Federation, the UK can also form the European Union if it conquers the required territories in mainland Europe.
+
+The UK starts as a signatory of the naval treaty - while the UK is not restricted by the number of capital ships, it is still restricted by the limits on the cost of ships, which gives them slightly more versatility than other countries.
+
+### Diplomatic rules
+{| class="wikitable"
+|-
+! Rule !! Whether it applies !! Reason
+|-
+|Can declare war on country of the same ideology group without a war goal || No || Democracy
+|-
+|Can Guarantee other Ideologies || Yes || Democracy
+|-
+|Can join Factions led by another Ideology || Yes || Democracy
+|-
+|Can create Factions || Yes || National Spirit
+|-
+|Lowers World Tension with Guarantees || Yes || Democracy
+|-
+|Can puppet a country || No || Democracy
+|-
+|Can justify war goals against a country that has not generated world tension || No || Democracy
+|-
+|}
+
+# Staff and designers
+## Personnel [verified for 1.17]
+
+Ministers and military staff of United Kingdom.
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Political Advisors
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Winston Churchill
+| royalist_bulldog
+|
+- Current ruling party is Non-Aligned
+- Has completed focus The King's Party
+- Is not Supervised State
+| align="center" | 150
+|-
+|
+| Oswald Mosley
+| economic_organizer
+|
+- Current ruling party is Non-Aligned
+- Has completed focus The King's Party
+| align="center" | 150
+|-
+|
+| Harry Pollitt
+| communist_revolutionary
+|
+- Current ruling party is Communist
+- Is not Supervised State
+| align="center" | 150
+|-
+|
+| Clement Attlee
+| democratic_reformer
+|
+- Has not completed focus A Change in Course
+- Is not Supervised State
+| align="center" | 150
+|-
+|
+| John Beckett
+| fascist_demagogue
+|
+- Current ruling party is Fascist
+- Is not Supervised State
+| align="center" | 150
+|-
+|
+| Philip Kerr
+| silent_workhorse
+|
+- Has not completed focus No Further Appeasement
+- Current ruling party is Democratic
+| align="center" | 150
+|-
+|
+| Nevile Henderson
+| backroom_backstabber
+
+| align="center" | 150
+|-
+|
+| Maxwell Aitken
+| war_industrialist
+
+| align="center" | 150
+|-
+|
+| Leslie Hore-Belisha
+| armaments_organizer
+
+| align="center" | 150
+|-
+|
+| Ernest Bevin
+| quartermaster_general
+
+| align="center" | 150
+|-
+|
+| Mary Sophia Allen
+| princess_of_terror
+|
+- Current ruling party is Fascist
+| align="center" | 150
+|-
+|
+| George Orwell
+| socialist_novelist
+|
+- Current ruling party is Communist
+- Is not Supervised State
+| align="center" | 150
+|-
+|
+| Sylvia Pankhurst
+| red_suffragette
+|
+- Current ruling party is Communist
+| align="center" | 150
+|-
+|
+| David Lloyd George
+| old_figurehead
+|
+- Current ruling party is Non-Aligned
+- Has completed focus The King's Party
+| align="center" | 150
+|-
+|
+| Stewart Menzies
+| head_of_intelligence
+| La Résistance
+- Has created an Intelligence Agency
+| align="center" | 150
+|-
+|
+| Alan Turing
+| mastermind_code_cracker
+| La Résistance
+- Has created an Intelligence Agency
+- Has created a Cryptology Department
+| align="center" | 150
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Theorists
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Bernard Montgomery
+| grand_battle_plan_expert
+|
+- Has not completed focus Eliminate the Upper Class
+| align="center" | 150
+|-
+|
+| Harold Alexander
+| military_theorist
+|
+- Has not completed focus Eliminate the Upper Class
+| align="center" | 100
+|-
+|
+| Raymond Briggs
+| military_theorist
+| * Has completed focus Eliminate the Upper Class
+| align="center" | 100
+|-
+|
+| James Somerville
+| grand_fleet_proponent
+|
+- Has not completed focus Eliminate the Upper Class
+| align="center" | 150
+|-
+|
+| Tom Phillips
+| naval_theorist
+|
+| align="center" | 100
+|-
+|
+| Hugh Dowding
+| air_warfare_theorist
+|
+| align="center" | 100
+|-
+|
+| Arthur Harris
+| victory_through_airpower
+|
+| align="center" | 150
+|-
+|
+| J.F.C. Fuller
+| blitzkrieg_theorist
+|
+- Current ruling party is Fascist
+| align="center" | 200
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Chief of Army
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Alan Brooke
+| army_chief_maneuver_3
+|
+- Has not completed focus Eliminate the Upper Class
+| align="center" | 200
+|-
+|
+| John Vereker
+| army_chief_offensive_2
+|
+- Has not completed focus Eliminate the Upper Class
+| align="center" | 100
+|-
+|
+| Edmund Ironside
+| army_chief_defensive_2
+
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Chief of Navy
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|-
+|
+| Andrew Cunningham
+| navy_chief_naval_aviation_2
+
+| align="center" | 100
+|-
+|
+| Ernle Chatfield
+| navy_chief_maneuver_2
+
+| align="center" | 100
+|-
+|
+| Dudley Pound
+| navy_chief_decisive_battle_1
+
+| align="center" | 50
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Chief of Airforce
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Cyril Newall
+| air_chief_reform_2
+
+| align="center" | 100
+|-
+|
+| Charles Portal
+| air_chief_night_operations_2
+
+| align="center" | 100
+|-
+|
+| Edward Ellington
+| air_chief_safety_2
+
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Military High Command
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Claude Auchinleck
+| army_logistics_2
+
+| align="center" | 100
+|-
+|
+| Archibald Wavell
+| army_regrouping_2
+|
+- Has not completed focus Eliminate the Upper Class
+| align="center" | 100
+|-
+|
+| Henry Harwood
+| navy_screen_2
+
+| align="center" | 100
+|-
+|
+| Kenneth Anderson
+| army_infantry_2
+
+| align="center" | 100
+|-
+|
+| Sholto Douglas
+| air_air_superiority_2
+
+| align="center" | 100
+|-
+|
+| Trafford Leigh-Mallory
+| air_bomber_interception_2
+
+| align="center" | 100
+|-
+|
+| Frederick Bowhill
+| air_naval_strike_2
+
+| align="center" | 100
+|-
+|
+| Louis Mountbatten
+| navy_amphibious_assault_3
+|
+- Has not completed focus Eliminate the Upper Class
+| align="center" | 200
+|-
+|
+| Max Horton
+| navy_submarine_2
+
+| align="center" | 100
+|-
+|
+| David Stirling
+| army_commando_3
+|
+- Has completed focus Special Air Service
+| align="center" | 200
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ style="width: 46em; text-align:left;" | Field Marshals
+! class="unsortable" | Portrait
+! Name
+!
+Skill
+!
+ATK
+!
+DEF
+!
+PLN
+!
+LOG
+! class="unsortable" | Traits
+! class="unsortable" | Requirements
+|-
+|
+| align="left" | Alan Brooke
+| 5 || 3 || 5 || 5 || 3
+| align="left" | Career Officer
+ Cautious
+ Defensive Doctrine
+|
+- Has not completed focus Eliminate the Upper Class
+|-
+|
+| align="left" | Bernard Montgomery
+| 4 || 3 || 5 || 3 || 5
+| align="left" | Inflexible Strategist
+ Cautious
+ Media Personality
+ Organizer
+ Logistics Wizard
+ Offensive Doctrine
+|
+- Has not completed focus Eliminate the Upper Class
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ style="width: 46em; text-align:left;" | Generals
+! class="unsortable" | Portrait
+! Name
+!
+Skill
+!
+ATK
+!
+DEF
+!
+PLN
+!
+LOG
+! class="unsortable" | Traits
+! class="unsortable" | Requirements
+|-
+|
+| align="left" | Alan Cunningham
+| 4 || 4 || 1 || 4 || 4
+|
+
+|-
+|
+| align="left" | Archibald Wavell
+| 4 || 4 || 2 || 3 || 4
+| align="left" | Career Officer
+|
+- Has not completed focus Eliminate the Upper Class
+|-
+|
+| align="left" | Arthur Percival
+| 2 || 2 || 2 || 2 || 1
+| align="left" | Cautious
+
+|-
+|
+| align="left" | Brian Horrocks
+| 3 || 1 || 3 || 3 || 3
+| align="left" | Career Officer
+ Armor Officer
+ War Hero
+
+|-
+|
+| align="left" | Claude Auchinleck
+| 5 || 3 || 6 || 3 || 6
+| align="left" | Inflexible Strategist
+ Career Officer
+
+|-
+|
+|Douglas Gracey
+|3
+|1
+|3
+|3
+|3
+|
+|
+- British Raj: is fully independent
+
+- Has not completed focus Keep British Generals
+|-
+|
+|Frank Messervy
+|2
+|2
+|1
+|2
+|2
+|
+|
+- British Raj: is fully Independent
+- Has not completed focus Keep British Generals
+|-
+|
+| align="left" | George Giffard
+| 3 || 2 || 2 || 3 || 3
+| align="left" | Career Officer
+
+|-
+|
+| align="left" | Harold Alexander
+| 5 || 4 || 4 || 3 || 5
+| align="left" | Politically Connected
+|
+- Has not completed focus Eliminate the Upper Class
+|-
+|
+| align="left" | Henry Pownall
+| 2 || 1 || 2 || 2 || 2
+| align="left" | Trickster
+
+|-
+|
+| align="left" | Henry Wilson
+| 4 || 2 || 4 || 4 || 3
+| align="left" | Old Guard
+ Politically Connected
+
+|-
+|
+| align="left" | Jack Churchill
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Inspirational Bagpiper
+
+|-
+|
+| align="left" | Jackie Smyth
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Old Guard
+
+|-
+|
+| align="left" | Jock Campbell
+| 4 || 4 || 3 || 2 || 4
+| align="left" | Armor Officer
+
+|-
+|
+| align="left" | John Vereker
+| 4 || 3 || 3 || 4 || 3
+| align="left" | Politically Connected
+ Cautious
+|
+- Has not completed focus Eliminate the Upper Class
+|-
+|
+| align="left" | Merton Beckwith-Smith
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Commando
+
+|-
+|
+| align="left" | Miles Dempsey
+| 4 || 4 || 4 || 5 || 2
+| align="left" | Brilliant Strategist
+ Career Officer
+ Infantry Officer
+
+|-
+|
+|Montagu Stopford
+|3
+|3
+|4
+|1
+|3
+|
+|
+- British Raj: is fully Independent
+- British Raj: Has not completed focus Keep British Generals
+|-
+|
+| align="left" | Neil Ritchie
+| 4 || 3 || 5 || 3 || 4
+| align="left" | Inflexible Strategist
+ Politically Connected
+ Armor Officer
+
+|-
+|
+|Noel Beresford-Peirse
+|3
+|3
+|3
+|3
+|1
+|
+|
+- British Raj: is fully Independent
+- British Raj: Has not completed focus Keep British Genera
+|-
+|
+| align="left" | Oliver Leese
+| 4 || 5 || 2 || 3 || 4
+| align="left" | Politically Connected
+ Harsh Leader
+ Armor Officer
+|
+- Has not completed focus Eliminate the Upper Class
+|-
+|
+| align="left" | Richard O'Connor
+| 4 || 2 || 4 || 4 || 3
+|
+
+|-
+|
+| align="left" | Thomas Jacomb Hutton
+| 2 || 2 || 2 || 2 || 1
+| align="left" | Old Guard
+
+|-
+|
+| align="left" | Tom Moore
+| 1 || 1 || 1 || 2 || 1
+| align="left" | Jungle Rat
+
+|-
+|
+| align="left" | William Gott
+| 3 || 2 || 4 || 2 || 4
+| align="left" | Inflexible Strategist
+ Armor Officer
+ War Hero
+
+|-
+|
+| align="left" | William Platt
+| 3 || 2 || 2 || 3 || 3
+|
+
+|-
+|
+| align="left" | William Slim
+| 5 || 3 || 3 || 5 || 5
+| align="left" | War Hero
+ Trickster
+
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ style="width: 46em; text-align:left;" | Admirals
+! class="unsortable" | Portrait
+! Name
+!
+Skill
+!
+ATK
+!
+DEF
+!
+MNV
+!
+COR
+! class="unsortable" | Traits
+! class="unsortable" | Requirements
+|-
+|
+| align="left" | Algernon Willis
+| 3 || 3 || 2 || 3 || 2
+| align="left" | Battleship Adherent
+ Spotter
+
+|-
+|
+| align="left" | Andrew Cunningham
+| 5 || 5 || 4 || 3 || 4
+| align="left" | Gunnery Expert
+ Bold
+ Career Officer
+ Blockade Runner
+ Superior Tactician
+
+|-
+|
+| align="left" | Arthur Power
+| 2 || 3 || 1 || 1 || 2
+| align="left" | Gunnery Expert
+
+|-
+|
+| align="left" | Bernard Rawlings
+| 3 || 3 || 2 || 3 || 2
+| align="left" | Gentlemanly
+|
+- Has not completed focus Eliminate the Upper Class
+|-
+|
+| align="left" | Bruce Fraser
+| 4 || 3 || 2 || 4 || 4
+| align="left" | Aviation Enthusiast
+ Naval Lineage
+ Blockade Runner
+
+|-
+|
+| align="left" | Charles Forbes
+| 3 || 3 || 2 || 2 || 3
+| align="left" | Gunnery Expert
+ Fly Swatter
+
+|-
+|
+| align="left" | Henry Harwood
+| 3 || 3 || 2 || 3 || 2
+| align="left" | Old Guard
+ Bold
+|
+- Has not completed focus Eliminate the Upper Class
+|-
+|
+| align="left" | James Fownes Somerville
+| 5 || 4 || 3 || 4 || 5
+| align="left" | Career Officer
+ Aviation Enthusiast
+ Superior Tactician
+|
+- Has not completed focus Eliminate the Upper Class
+|-
+|
+| align="left" | John Cunningham
+| 4 || 2 || 4 || 4 || 3
+| align="left" | Career Officer
+ Green Water Expert
+
+|-
+|
+| align="left" | John Tovey
+| 4 || 3 || 3 || 2 || 5
+| align="left" | Gentlemanly
+ Naval Lineage
+ Superior Tactician
+|
+- Has not completed focus Eliminate the Upper Class
+|}
+
+## Companies [verified for 1.14]
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Industrial concerns
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| AIOC
+| industrial_concern
+- Industrial Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| English Electric
+| electronics_concern
+- Electronics Research Speed: +15%
+
+| align="center" | 150
+|}
+
+### Designers
+ Arms Against Tyranny
+Design companies of United Kingdom.
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Tank designers
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Vickers-Armstrong
+| medium_tank_manufacturer
+- Armor Research Speed: +15%
+
+| align="center" | 150
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Ship designers
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Yarrow Shipbuilders
+| convoy_escort_naval_manufacturer
+- Naval Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Harland & Wolff
+| pacific_fleet_naval_manufacturer
+- Naval Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Cammell Laird
+| atlantic_fleet_naval_manufacturer
+- Naval Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| John Brown & Company
+| coastal_defence_naval_manufacturer
+- Naval Research Speed: +15%
+
+| align="center" | 150
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Aircraft designers
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Supermarine
+| light_aircraft_manufacturer
+- Air Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Hawker Aircraft
+| CAS_manufacturer
+- Air Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| De Havilland
+| medium_aircraft_manufacturer
+- Air Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Avro
+| heavy_aircraft_manufacturer
+- Air Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Fairey Aviation
+| naval_aircraft_manufacturer
+- Air Research Speed: +15%
+
+| align="center" | 150
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Materiel designers
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| RSAF Enfield
+| infantry_equipment_manufacturer
+- Weapons and Equipment Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Vauxhall
+| motorized_equipment_manufacturer
+- Motorization Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Royal Arsenal
+| artillery_manufacturer
+- Artillery Research Speed: +15%
+
+| align="center" | 150
+|}
+
+### Organizations
+ Arms Against Tyranny
+United Kingdom has access to these Military industrial organizations.
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Tank organizations
+|
+
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Ship organizations
+|
+
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Plane organizations
+|
+
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Materiel organizations
+|
+
+|}
+
+# Economy
+## Laws [verified for 1.17]
+
+The United Kingdom starts with the following laws:
+
+1936
+
+1939
+Limited Conscription Partial Mobilization Export Focus
+
+## Industry
+The United Kingdom has a moderately sized civilian and military industry, but has one of the largest naval industries in the world. There is also plenty of territory for construction of new factories.
+{| class="wikitable" style="text-align: center"
+|+
+! style="width: 10%" |
+Year
+! style="width: 13%" | Military factory
+Military Factories
+! style="width: 13%" | Naval dockyard
+Naval Dockyards
+! style="width: 13%" | Civilian factory
+Civilian Factories
+! style="width: 13%" | Fuel Silo
+Fuel Silos
+! style="width: 13%" | Refinery
+Refineries
+! style="width: 13%" | Building Slot
+Building Slots
+|-
+| 1936
+| 14
+| 19
+| 31 (-13)
+| 1
+| 0
+| 192
+|}
+- Numbers in red indicate the number of civilian factories required to produce consumer goods, based on economy laws and the total number of military and civilian factories, rounded up.
+
+## Resources [verified for 1.17]
+
+{| class="wikitable" style="text-align: center"
+|+
+! style="width: 9%" |
+Year
+! style="width: 13%" | oil
+Oil
+! style="width: 13%" | aluminum
+Aluminum
+! style="width: 13%" | rubber
+Rubber
+! style="width: 13%" | tungsten
+Tungsten
+! style="width: 13%" | steel
+Steel
+! style="width: 13%" | chromium
+Chromium
+! style="width: 13%" | coal
+Coal
+|-
+| 1936
+| 82* (-41)
+| 126 (-63)
+| 94 (-47)
+| 99 (-49)
+| 478 (-239)
+| 166 (-83)
+| 408 (-204)
+|}
+- These numbers represent the available resources one hour into the game. Numbers in red indicate how many resources are reserved for export due to trade laws.
+
+- The UK gets half of Mexico's oil , and with Battle for the Bosporus , it gets all of Iraq's.
+
+The United Kingdom has good access to all resources. Many resources come from overseas colonies, so ensuring that the Royal Navy has superiority along the trade routes is of importance to ensure that these make their way to Britain.
+
+# Military [verified for 1.17]
+
+The United Kingdom starts with a world-dominating fleet across the globe, and a sizable air force. Its army is stretched thin across its vast empire.
+
+## Army
+{| class="wikitable sortable" style="width: 300px;"
+|+ style="color:black;"| Army of United Kingdom
+! width=1% class="unsortable" | !! width=80% | Type !! width=15% | # 1936 !! | # 1939
+|-
+| || Infantry
+| align="center" | 32
+| align="center" | 41
+|-
+| || Cavalry
+| align="center" | 3
+| align="center" | 2
+|-
+| || Motorized Infantry
+| align="center" | 0
+| align="center" | 6
+|-
+| || Light Tank
+| align="center" | 1
+| align="center" | 8
+|-
+| || Armored Car
+| align="center" | 2
+| align="center" | 0
+|-
+! !! style="text-align: left;" | Total divisions || 38 || 57
+|-
+! !! style="text-align: left;" | Manpower used || 269.60K || 419.10K
+|}
+
+Most of the British Army's forces are concentrated in England, Wales, and Scotland, with the remainder in small garrison units around their colonies. The British Army is expected to be hard pressed from the extent of territory that needs to be defended when war breaks out.
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | Division composition list
+! Division !! Name list !! # 1936 !! # 1939 !! Support companies !! Combat battalions
+|-
+| Infantry Division* || Infantry Division || 16 || 0 || || 9x
+|-
+| Infantry Division^ || Infantry Division || 0 || 23 || || 9x
+|-
+| Cavalry Brigade* || Cavalry Brigade || 3 || 0 || || 4x
+|-
+| Cavalry Brigade^ || Cavalry Brigade || 0 || 2 || || 3x
+|-
+| Tank Brigade || Tank Brigade || 1 || 6 || || 3x
+|-
+| Motorised Division || Motorised Division || 0 || 6 || || 6x
+|-
+| Armoured Car Company* || Armored Car Division || 2 || 0 || || 4x
+|-
+| Colonial Garrison || Colonial Division || 16 || 16 || || 6x
+|-
+| Infantry Division (ME)^ || Infantry Division || 0 || 2 || || 6x
+|-
+| Armour Division^ || Armoured Division || 0 || 2 || || 2x 7x 2x
+|-
+| colspan="6" | * marks a division that is removed in the 1939 start.
+^ marks a division that is only available in the 1939 start.
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | No Step Back Tank variants list
+! Type !! Chassis !! Role !! Main Armament !! Turret !! Suspension !! Armor (level) !! Engine (level) !! Special Modules
+|-
+| Matilda I*^ || Improved Light || Light Tank || Heavy Machine Gun || One Man || Bogie || Riveted (6) || Gasoline (2) ||
+|-
+| Matilda II^ || Basic Heavy || Heavy Tank || Improved Small Cannon || Three Man || Bogie || Cast (8) || Diesel (4) || Basic Radio, Smoke Launchers
+|-
+| Cruiser Mk. I*^ || Basic Medium || Medium Tank || Improved Small Cannon || Three Man || Bogie || Riveted (1) || Gasoline (3) || Basic Radio, 2x Heavy Machine Gun
+|-
+| Cruiser Mk. IV^ || Basic Medium || Medium Tank || Improved Small Cannon || Three Man || Christie || Riveted (3) || Gasoline (7) || Basic Radio, Smoke Launchers
+|-
+| Light Tank Mk. IV* || Basic Light || Light Tank || Heavy Machine Gun || One Man || Christie || Riveted (1) || Gasoline (2) ||
+|-
+| Light Tank Mk. VI || Basic Light || Light Tank || Heavy Machine Gun || Two Man || Bogie || Riveted (2) || Gasoline (2) || Basic Radio, Smoke Launchers
+|-
+| Medium Mk. II || Inter-War Medium || Medium Tank || Small Cannon || Three Man || Bogie || Riveted (1) || Gasoline (2) || Basic Radio
+|-
+| Vickers 6 ton A* || Inter-War Light || Light Tank || Heavy Machine Gun || One Man || Bogie || Riveted (3) || Gasoline (2) || Heavy Machine Gun
+|-
+| Vickers 6 ton B* || Inter-War Light || Light Tank || Small Cannon || Two Man || Bogie || Riveted (3) || Gasoline (2) ||
+|-
+| colspan="9" | * marks a variant as "outdated".
+^ marks a variant that is only available in the 1939 start.
+|}
+
+## Navy
+{| class="wikitable sortable" style="width: 300px;"
+|+ style="color:black;"| Navy of United Kingdom
+! width=1% class="unsortable" | !! width=80% | Type !! width=15% | # 1936 !! | # 1939
+|-
+| || Carrier
+| align="center" | 5
+| align="center" | 6
+|-
+| || Battlecruiser
+| align="center" colspan="2" | 3
+|-
+| || Battleship
+| align="center" colspan="2" | 12
+|-
+| || Heavy Cruiser
+| align="center" colspan="2" | 18
+|-
+| || Light Cruiser
+| align="center" | 31
+| align="center" | 41
+|-
+| || Destroyer
+| align="center" | 128
+| align="center" | 172
+|-
+| || Submarine
+| align="center" | 42
+| align="center" | 58
+|-
+| || Convoy
+| align="center" | 1000
+| align="center" | 1200
+|-
+! !! style="text-align: left;" | Total ships || 239 || 310
+|-
+! !! style="text-align: left;" | Manpower used || 162.35K || 196.97K
+|}
+
+The Royal Navy is the largest on the globe by 1936.
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | Naval units list
+! Type !! Class !! Hull !! Engine !! # 1936 !! 1936 !! # 1939 !! 1939 !! Design note
+|-
+|CV || Ark Royal || Basic Carrier || Carrier II || || 1 || 1 || || 3x Hangar Space, Dual-Purpose Secondary Battery II, Anti-Air I
+|-
+|CV || Courageous* || Converted Battleship || Heavy II || 3 || || 3 || || 3x Hangar Space, Dual-Purpose Secondary Battery I, Anti-Air I
+|-
+|CV || Eagle* || Converted Battleship || Heavy I || 1 || || 1 || || 2x Hangar Space, Dual-Purpose Secondary Battery I, Anti-Air I
+|-
+|CV || Hermes* || Converted Cruiser || Cruiser I || 1 || || 1 || || Hangar Space, Secondary Battery I, Anti-Air I
+|-
+|CV || Illustrious^ || Improved Carrier || Carrier II || || || || 2 || 3x Hangar Space, Dual-Purpose Secondary Battery II, Anti-Air I, Carrier Deck Armor
+|-
+|BB || Nelson* || Early Heavy Ship || Heavy I || 2 || || 2 || || 2x Heavy Battery II, Dual-Purpose Secondary Battery I, Secondary Battery II, Anti-Air I, Fire Control I, Battleship Armor II
+|-
+|BB || Queen Elizabeth* || Early Heavy Ship || Heavy I || 5 || || 5 || || 2x Heavy Battery I, Dual-Purpose Secondary Battery I, Secondary Battery I, Anti-Air I, Fire Control I, Battleship Armor I, Floatplane Catapult I
+|-
+|BB || Revenge* || Early Heavy Ship || Heavy I || 5 || || 5 || || 2x Heavy Battery I, 2x Secondary Battery I, Anti-Air I, Fire Control I, Battleship Armor I
+|-
+|BB || G3 Design || Early Heavy Ship || Heavy II || || || || || 2x Heavy Battery II, Dual-Purpose Secondary Battery I, Secondary Battery II, 2x Anti-Air I, Fire Control I, Battlecruiser Armor II
+|-
+|BB || King George V^ || Basic Heavy Ship || Heavy II || || || || 2 || 2x Heavy Battery II, 2x Dual-Purpose Secondary Battery III, 2x Anti-Air II, Fire Control II, Battleship Armor II, Floatplane Catapult I, Radar II
+|-
+|BB || Lion || Basic Heavy Ship || Heavy II || || || || || 2x Heavy Battery III, 2x Dual-Purpose Secondary Battery III, Anti-Air I, Anti-Air II, Fire Control II, Battleship Armor II, Floatplane Catapult I
+|-
+|BC || Admiral || Early Heavy Ship || Heavy II || 1 || || 1 || || 2x Heavy Battery I, Dual-Purpose Secondary Battery II, Secondary Battery I, 2x Anti-Air I, Fire Control I, Battlecruiser Armor II
+|-
+|BC || Renown* || Early Heavy Ship || Heavy II || 2 || || 2 || || Heavy Battery I, Dual-Purpose Secondary Battery II, Secondary Battery I, 2x Anti-Air I, Fire Control I, Battlecruiser Armor I, Floatplane Catapult I
+|-
+|CA || Erebus* || Coastal Defense Ship || Cruiser I || 2 || || 2 || || Heavy Battery I, Secondary Battery I, Anti-Air II, Fire Control I, Cruiser Armor II
+|-
+|CA || County || Basic Cruiser || Cruiser II || 13 || || 13 || || 2x Medium Battery II, Dual-Purpose Secondary Battery I, Anti-Air I, Fire Control 0, Cruiser Armor I, Torpedo Launcher I, Floatplane Catapult I
+|-
+|CA || Hawkins* || Basic Cruiser || Cruiser I || 3 || || 3 || || Medium Battery I, Secondary Battery I, Anti-Air II, Fire Control 0, Cruiser Armor I, Torpedo Launcher I
+|-
+|CA || York || Basic Cruiser || Cruiser II || || || || || Medium Battery II, Dual-Purpose Secondary Battery I, Anti-Air I, Fire Control 0, Cruiser Armor I, Torpedo Launcher I, Floatplane Catapult I
+|-
+|CL || Adventure || Early Cruiser || Cruiser I || 1 || || 1 || || Light Cruiser Battery I, Dual-Purpose Secondary Battery II, Anti-Air I, Fire Control 0, 3x Minelaying Rails
+|-
+|CL || C-Class* || Early Cruiser || Cruiser I || 13 || || 13 || || Light Cruiser Battery I, Dual-Purpose Secondary Battery I, Fire Control 0, Cruiser Armor I, Torpedo Launcher I
+|-
+|CL || Danae* || Early Cruiser || Cruiser I || 8 || || 8 || || Light Cruiser Battery I, Anti-Air I, Fire Control 0, Cruiser Armor I, 2x Torpedo Launcher I
+|-
+|CL || Emerald* || Basic Cruiser || Cruiser II || 5 || || || || 2x Light Cruiser Battery I, Dual-Purpose Secondary Battery I, Anti-Air I, Fire Control 0, Cruiser Armor I, 2x Torpedo Launcher I
+|-
+|CL || Leander || Basic Cruiser || Cruiser II || 4 || 4 || 4 || || 2x Light Cruiser Battery II, Dual-Purpose Secondary Battery I, Anti-Air II, Fire Control 0, Cruiser Armor I, Torpedo Launcher I, Floatplane Catapult I
+|-
+|CL || Town || Basic Cruiser || Cruiser II || || 5 || 10 || || 2x Light Cruiser Battery II, Dual-Purpose Secondary Battery II, Secondary Battery II, 2x Anti-Air II, Fire Control 0, Cruiser Armor II, Torpedo Launcher I
+|-
+|CL || Crown Colony^ || Improved Cruiser || Cruiser II || || || 5 || 4 || 2x Light Cruiser Battery II, Dual-Purpose Secondary Battery II, 3x Anti-Air I, Fire Control I, Cruiser Armor II, Torpedo Launcher I
+|-
+|CL || Dido^ || Basic Cruiser || Cruiser II || || || || 6 || 2x Dual-Purpose Main Battery III, Dual-Purpose Secondary Battery III, 2x Anti-Air I, Fire Control I, Cruiser Armor I, Torpedo Launcher I
+|-
+|DD || A/B/C/D* || Early Destroyer || Light II || 34 || || 29 || || Dual-Purpose Main Battery II, Fire Control 0, 2x Torpedo Launcher I, Depth Charge I, Sonar I
+|-
+|DD || E/F/G/H || Basic Destroyer || Light II || 18 || 9 || 45 || 2 || Dual-Purpose Main Battery II, Anti-Air I, Fire Control 0, 2x Torpedo Launcher I, Depth Charge I, Sonar I
+|-
+|DD || S* || Early Destroyer || Light I || 10 || || 10 || || Light Battery I, Fire Control 0, Torpedo Launcher I, Depth Charge I
+|-
+|DD || V/W* || Early Destroyer || Light I || 66 || || 64 || || Dual-Purpose Main Battery I, Anti-Air I, Fire Control 0, Torpedo Launcher I, Depth Charge I
+|-
+|DD || J/K/N^ || Improved Destroyer || Light II || || || 8 || 8 || Dual-Purpose Main Battery II, Anti-Air I, Fire Control 0, Torpedo Launcher I, Torpedo Launcher II, Depth Charge II, Sonar II
+|-
+|DD || Tribal^ || Basic Destroyer || Light II || || || 16 || || Dual-Purpose Main Battery II, Light Battery II, Anti-Air I, Fire Control 0, Torpedo Launcher I, Depth Charge II, Sonar II
+|-
+|SS || O/P/R || Early Submarine || Submarine II || 33 || || 33 || || Torpedo Tubes I
+|-
+|SS || S || Early Submarine || Submarine I || 9 || 2 || 13 || || 2x Torpedo Tubes I
+|-
+|SS || Grampus^ || Basic Submarine || Submarine II || || || 5 || || Torpedo Tubes II, Minelaying Tubes
+|-
+|SS || T^ || Basic Submarine || Submarine II || || || 4 || 5 || Torpedo Tubes II
+|-
+|SS || U^ || Early Submarine || Submarine II || || || 3 || || Torpedo Tubes II
+|-
+| colspan="9" | * marks a variant as "outdated".
+^ marks a variant that is only available in the 1939 start.
+
+Ship type terminology:
+- CV - Carrier
+- BB - Battleship
+- BC - Battlecruiser
+- CA - Heavy cruiser
+- CL - Light cruiser
+- DD - Destroyer
+- SS - Submarine
+|}
+
+## Air force
+{| class="wikitable sortable" style="width: 400px;"
+|+ style="color:black;"| Air force of United Kingdom
+! width=1% class="unsortable" | !! width=80% | Type !! width=15% | hoi4 1936 !! | By Blood Alone 1936 !! | hoi4 1939 !! | By Blood Alone 1939
+|-
+| || Fighter
+| align="center" colspan="2" | 676
+| align="center" colspan="2" | 814
+|-
+| || Close Air Support
+| align="center" colspan="2" | 304
+| align="center" | 546
+| align="center" | 258
+|-
+| || Naval Bomber
+| align="center" colspan="2" | 126
+| align="center" | 198
+| align="center" | 126
+|-
+| || Heavy Fighter
+| align="center" colspan="2" | 0
+| align="center" colspan="2" | 168
+|-
+| || Tactical Bomber
+| align="center" colspan="2" | 240
+| align="center" | 352
+| align="center" | 640
+|-
+! !! style="text-align: left;" | Total planes || 1346 || 1346 || 2078 || 2006
+|-
+! !! style="text-align: left;" | Manpower used || 31.72K || 31.72K || 51.96K || 56.28K
+|}
+
+The Royal Air Force (or R.A.F) is the largest air force on the globe by 1936.
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | By Blood Alone Aircraft variants list
+! Type !! Airframe !! Role !! Main Armament !! Secondary Weapons !! Engine !! Special Modules
+|-
+| Whitley^ || Inter-War Medium || Tactical Bomber || Medium Bomb Bay || || 2x Engine II || Light MG Defense Turret 2x
+|-
+| HP Halifax^ || Basic Large || Strategic Bomber || Large Bomb Bay || Large Bomb Bay || 4x Engine III || Light MG Defense Turret 2x, Light MG Defense Turret, Self-Sealing Fuel Tanks
+|-
+| Short Sunderland^ || Basic Large || Maritime Patrol Plane || Light Torpedo Mountings || || 4x Engine II || Light MG Defense Turret 2x, Flying Boat Large, Self-Sealing Fuel Tanks
+|-
+| Vickers Wellington^ || Basic Medium || Tactical Bomber || Medium Bomb Bay || Medium Bomb Bay || 2x Engine II || Light MG Defense Turret 2x, Light MG Defense Turret
+|-
+| HP Hampden^ || Basic Medium || Tactical Bomber || Medium Bomb Bay || Light Torpedo Mountings || 2x Engine II || Light MG Defense Turret
+|-
+| Bristol Blenheim IF^ || Basic Medium || Heavy Fighter || 4x Light Machine Gun || || 2x Engine II || Light MG Defense Turret
+|-
+| Fairey Battle^ || Basic Small || CAS || Small Bomb Bay || Bomb Locks || 1x Engine II ||
+|-
+| Supermarine Spitfire^ || Improved Small || Fighter || 4x Light Machine Gun || 4x Light Machine Gun || 1x Engine II ||
+|-
+| Hawker Hurricane^ || Basic Small || Fighter || 4x Light Machine Gun || 4x Light Machine Gun || 1x Engine II ||
+|-
+| Fairey Swordfish^ || Basic Carrier || Naval Bomber || Light Torpedo Mountings || || 1x Engine I ||
+|-
+| Blackburn Skua^ || Basic Carrier || CAS || Bomb Locks || 4x Light Machine Gun || 1x Engine II || Dive Brakes, Extra Fuel Tanks
+|-
+| Sea Gladiator^ || Inter-War Carrier || Fighter || 4x Light Machine Gun || || 1x Engine I ||
+|-
+| Bristol Blenheim^ || Basic Medium || Tactical Bomber || Medium Bomb Bay || || 2x Engine II || Light MG Defense Turret
+|-
+| Handley Page Heyford*^ || Inter-War Medium || Tactical Bomber || Medium Bomb Bay || || 2x Engine I ||
+|-
+| Blackburn Shark^ || Inter-War Carrier || Naval Bomber || Light Torpedo Mountings || || 1x Engine I ||
+|-
+| Vickers Vildebeest^ || Inter-War Small || Naval Bomber || Light Torpedo Mountings || || 1x Engine I ||
+|-
+| Fairey Gordon*^ || Inter-War Small || CAS || Bomb Locks || || 1x Engine I ||
+|-
+| Gloster Gladiator^ || Inter-War Small || Fighter || 4x Light Machine Gun || || 1x Engine I ||
+|-
+| Hawker Nimrod*^ || Inter-War Carrier || Fighter || 2x Light Machine Gun || || 1x Engine I ||
+|-
+| Hawker Fury*^ || Inter-War Small || Fighter || 2x Light Machine Gun || || 1x Engine I ||
+|-
+| colspan="7" | * marks a variant as "outdated".
+^ marks a variant that is only available in the 1939 start.
+|}
+
+# Strategies and guides
+
+## Puppet Juggling
+Some countries can be released by United Kingdom as Puppets, without Decolonization Focus. Those are: Kingdom of Barotseland, Republic of Biafra, Sokoto Caliphate.
+
+These puppets will also complete Generic national focus tree; they would build up themselves, so you could focus industrial efforts at mainland. Releasing them earlier (or immediately) will allow for more build-up - but their templates will be starting ones, meaning crap divisions, what would in turn screw with "Steal manpower" plan. You can duplicate and edit templates of said Puppets - but you need Army Experience for that, and each Puppet has it's own templates.
+
+If you release Kingdom of Barotseland, Republic of Biafra, Sokoto Caliphate, set Occupation everywhere to Local Autonomy and then ask British Raj for garrison support - on 1936 start, you'll go from 303.05K to 670.82K (+367.77 British).
+
+## Naval Supremacy
+Britain begins the game with an overwhelming naval presence due to her large number of ships and ability to base them nearly anywhere in the world. Because the range of ships is limited to one or two tiles from the nearest naval base, Britain's presence in the Atlantic, Pacific, and Indian Oceans, as well as her presence in the Mediterranean Sea, should not be underestimated. With the exception of Hong Kong and British Malaya, most of these bases are far from historically belligerent powers and relatively unlikely to be attacked, while still providing access to critical shipping lanes such as European trade with South America. Britain's ability to interdict convoy shipping and protect her own in these sectors is considerable; even if she loses Hong Kong and Singapore she can quite easily influence the course of trade and supply the world over. Maintaining control of Hong Kong, Singapore, and the Mediterranean bastions of Malta, Cyprus, and Gibraltar can give Britain a significant advantage in naval basing capabilities, as can maintaining control of the Suez Canal. In addition to the aforementioned points, it is worth noting that Britain can base her ships in any nation of the Commonwealth - even nations that show as different "colors" such as Australia and New Zealand.
+
+## Imperial Federation
+Take the King's Party path, and reclaim the Dominions. While you can get them as integrated puppets if you do the uprisings, as New Zealand needs to be a dominion to form Polynesia if it isn't independent, you want it to have more autonomy. Declare on Australia, South Africa, or New Zealand (attacking Canada will get the US involved; you want to hold off on that until after you've gotten Canada under your control); as long as you actively fight each country, you can puppet them during the peace deal (that being said, New Zealand and South Africa can be capitulated easy with 5 and 10 infantry units respectively).
+
+While at war with Canada, take Reclaim the Jewel in the Crown to get war goals on India, Burma, and Pakistan (you'll also get one on Bangladesh if they've spawned). Declare on Burma (if India has White Peaced with Pakistan by this point, declare on India as well) and naval invade Burma (and India) to be able to take them in the peace deal (if Pakistan and Bangladesh are still fighting, leave them alone until after they white peace, as Bangladesh will disband most/all of their forces afterwards).
+
+Then, go to war with the US through Unite the Anglosphere, making sure to call NZ in - by this point, France and Czechoslovakia will be fighting the Axis; this will result in either France inviting the US to the Little Entente, or the US forming a faction with the Phillipines and France and Czechoslovakia joining. Stage naval invasions of either cavalry or motorized divisions across the English Channel, and rush the French victory points. During the peace deal, take all the US states directly and give the required French and US Islands to NZ (Hawaii, Guam, Tahiti are the required states; take the other US and French islands directly and after Polynesia has been formed, return the territory to NZ).
+
+Go after Japan, and in the peace deal, take the remaining required islands (Saipan, Samoa, and the Caroline Islands) - note that you might wanna hold off invading the islands directly, as if you don't generate enough war score, the Chinese will start taking land outside of mainland China (you can circumvent this by joining the Chinese United Front and assuming leadership). Raise NZ's autonomy through lend-lease - if you hold off on taking Imperial Conscription and call them into all the wars, as well as request lend-lease from them, you should be able to get them to the rank of Dominion. Then, take the focus to create the Pan-American State - since NZ is under your control, Hawaii will be transferred to the Dominion after forming it. Then, form the Imperial Federation.
+
+Note, to gain cores on both the Dominion of North America AND Polynesia as part of the Imperial Federation, one should first form the latter - as the Dominion only requires that Hawaii be under either British control directly or under control of a British subject, NZ should get it first.
+
+## Imperial Super Federation
+Fascist Britain has the unique ability to form the European Union in addition to the Imperial Federation, becoming one of the most powerful nations in the entire game.
+
+First, start to position your divisions so you can impose martial law on the Dominions once you flip Fascist. You need to place divisions in your dominion's states so your have enough manpower to impose martial law. The minimum manpower requirements are:
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Table
+! Dominion !! State !! Minimum Manpower
+|-
+| Australia || New South Wales || 48,000
+|-
+| Australia || Victoria || 38,400
+|-
+| Australia || Queensland || 19,200
+|-
+| Australia || Western Australia || 9,600
+|-
+| British Raj || Delhi || 96,000
+|-
+| British Raj || Arunachal Pradesh || 9,600
+|-
+| British Raj || Assam || 9,600
+|-
+| British Raj || Bihar || 9,600
+|-
+| British Raj || Bombay || 9,600
+|-
+| British Raj || Burma || 9,600
+|-
+| British Raj || East Bengal || 9,600
+|-
+| British Raj || Gujarat || 9,600
+|-
+| British Raj || Hyderabad || 9,600
+|-
+| British Raj || Indore || 9,600
+|-
+| British Raj || Jabalpur || 9,600
+|-
+| British Raj || Kashmir || 9,600
+|-
+| British Raj || Lucknow || 9,600
+|-
+| British Raj || Madras || 9,600
+|-
+| British Raj || Madurai || 9,600
+|-
+| British Raj || Mandalay || 9,600
+|-
+| British Raj || Mysore || 9,600
+|-
+| British Raj || Orissa || 9,600
+|-
+| British Raj || Peshawar || 9,600
+|-
+| British Raj || Punjab || 9,600
+|-
+| British Raj || Rajahsthan || 9,600
+|-
+| British Raj || Sind || 9,600
+|-
+| British Raj || West Bengal || 9,600
+|-
+| Dominion of Canada || Southern Ontario || 48,000
+|-
+| Dominion of Canada || Saint Lawrence || 28,800
+|-
+| Dominion of Canada || Alberta || 9,600
+|-
+| Dominion of Canada || British Columbia || 9,600
+|-
+| Dominion of Canada || Manitoba || 9,600
+|-
+| Dominion of Canada || New Brunswick || 9,600
+|-
+| Dominion of Canada || Nova Scotia || 9,600
+|-
+| Dominion of Canada || Saskatchewan || 9,600
+|-
+| New Zealand || North Island || 48,000
+|-
+| New Zealand || South Island || 9,600
+|-
+| South Africa || Natal || 48,000
+|-
+| South Africa || Transvaal || 48,000
+|-
+| South Africa || Cape || 19,200
+|}
+
+The best way to allocate your troops is to request all forces from all dominions (including Malaya), convert 35 out of the 36 UK divisions to the UK's starting 9-0 infantry template (9,600 manpower), keep one Cavalry Division and put it in Delhi, then train 9 new infantry divisions. This allows you to factor the exact number of troops needed in each state, except for Delhi which is 2,800 manpower over its minimum manpower quota. Then physically place the divisions as follows:
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Table
+! # !! Target TAG !! Target State !! Source TAG !! Division !! Manpower !! Note
+|-
+| 1 || Australia || New South Wales || Australia || Cavalry Division || 6,000 || 1st Cavalry Division
+|-
+| 2 || Australia || New South Wales || Australia || Cavalry Division || 6,000 || 2nd Cavalry Division
+|-
+| 3 || Australia || New South Wales || British Raj || District Garrison || 9,000 || Lahore District
+|-
+| 4 || Australia || New South Wales || British Raj || District Garrison || 9,000 || Rawalpindi District
+|-
+| 5 || Australia || New South Wales || British Raj || District Garrison || 9,000 || Kohat District
+|-
+| 6 || Australia || New South Wales || British Raj || District Garrison || 9,000 || Pashawar District
+|-
+| 7 || Australia || Victoria || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 8 || Australia || Victoria || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 9 || Australia || Victoria || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 10 || Australia || Victoria || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 11 || Australia || Queensland || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 12 || Australia || Queensland || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 13 || Australia || Western Australia || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 14 || British Raj || Delhi || Australia || Infantry Division || 11,000 || 1st Infantry Division
+|-
+| 15 || British Raj || Delhi || Australia || Infantry Division || 11,000 || 2nd Infantry Division
+|-
+| 16 || British Raj || Delhi || Australia || Infantry Division || 11,000 || 3rd Infantry Division
+|-
+| 17 || British Raj || Delhi || Australia || Infantry Division || 11,000 || 4th Infantry Division
+|-
+| 18 || British Raj || Delhi || Australia || Infantry Division || 11,000 || 5th Infantry Division
+|-
+| 19 || British Raj || Delhi || Canada || District Militia || 9,000 || 5th District Militia
+|-
+| 20 || British Raj || Delhi || United Kingdom || Cavalry Division || 3,000 || Convert at game start
+|-
+| 21 || British Raj || Delhi || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 22 || British Raj || Delhi || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 23 || British Raj || Delhi || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 24 || British Raj || Arunachal Pradesh || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 25 || British Raj || Assam || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 26 || British Raj || Bihar || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 27 || British Raj || Bombay || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 28 || British Raj || Burma || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 29 || British Raj || East Bengal || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 30 || British Raj || Gujarat || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 31 || British Raj || Hyderabad || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 32 || British Raj || Indore || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 33 || British Raj || Jabalpur || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 34 || British Raj || Kashmir || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 35 || British Raj || Lucknow || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 36 || British Raj || Madras || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 37 || British Raj || Madurai || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 38 || British Raj || Mandalay || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 39 || British Raj || Mysore || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 40 || British Raj || Orissa || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 41 || British Raj || Peshawar || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 42 || British Raj || Punjab || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 43 || British Raj || Rajahsthan || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 44 || British Raj || Sind || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 45 || British Raj || West Bengal || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 46 || Canada || Southern Ontario || Canada || District Militia || 9,000 || 1st District Militia
+|-
+| 47 || Canada || Southern Ontario || Canada || District Militia || 9,000 || 2nd District Militia
+|-
+| 48 || Canada || Southern Ontario || Canada || District Militia || 9,000 || 3rd District Militia
+|-
+| 49 || Canada || Southern Ontario || Canada || District Militia || 9,000 || 4th District Militia
+|-
+| 50 || Canada || Southern Ontario || Canada || District Cavalry || 3,000 || 4th District Cavalry
+|-
+| 51 || Canada || Southern Ontario || Canada || District Cavalry || 3,000 || 10th District Cavalry
+|-
+| 52 || Canada || Southern Ontario || Canada || District Cavalry || 3,000 || 12th District Cavalry
+|-
+| 53 || Canada || Southern Ontario || Canada || District Cavalry || 3,000 || 13th District Cavalry
+|-
+| 54 || Canada || Saint Lawrence || United Kingdom || Infantry Division || 9,600 || Train from scratch
+|-
+| 55 || Canada || Saint Lawrence || United Kingdom || Infantry Division || 9,600 || Train from scratch
+|-
+| 56 || Canada || Saint Lawrence || United Kingdom || Infantry Division || 9,600 || Train from scratch
+|-
+| 57 || Canada || Alberta || United Kingdom || Infantry Division || 9,600 || Train from scratch
+|-
+| 58 || Canada || British Columbia || United Kingdom || Infantry Division || 9,600 || Train from scratch
+|-
+| 59 || Canada || Manitoba || United Kingdom || Infantry Division || 9,600 || Train from scratch
+|-
+| 60 || Canada || New Brunswick || United Kingdom || Infantry Division || 9,600 || Train from scratch
+|-
+| 61 || Canada || Nova Scotia || United Kingdom || Infantry Division || 9,600 || Train from scratch
+|-
+| 62 || Canada || Saskatchewan || United Kingdom || Infantry Division || 9,600 || Train from scratch
+|-
+| 63 || New Zealand || North Island || British Raj || District Garrison || 9,000 || Deccan District
+|-
+| 64 || New Zealand || North Island || British Raj || District Garrison || 9,000 || Bombay District
+|-
+| 65 || New Zealand || North Island || British Raj || District Garrison || 9,000 || Waziristan District
+|-
+| 66 || New Zealand || North Island || Canada || District Cavalry || 3,000 || 2nd District Cavalry
+|-
+| 67 || New Zealand || North Island || New Zealand || District Force || 6,000 || Northern Military District
+|-
+| 68 || New Zealand || North Island || New Zealand || District Force || 6,000 || Central Military District
+|-
+| 69 || New Zealand || North Island || New Zealand || District Force || 6,000 || Southern Military District
+|-
+| 70 || New Zealand || South Island || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 71 || South Africa || Natal || British Raj || District Garrison || 9,000 || Lucknow District
+|-
+| 72 || South Africa || Natal || British Raj || District Garrison || 9,000 || Meerut District
+|-
+| 73 || South Africa || Natal || British Raj || District Garrison || 9,000 || Madras District
+|-
+| 74 || South Africa || Natal || British Raj || District Garrison || 9,000 || Presidency & Assam District
+|-
+| 75 || South Africa || Natal || South Africa || District Brigade || 3,000 || Wiltwatersrand Command
+|-
+| 76 || South Africa || Natal || South Africa || District Brigade || 3,000 || Cape Command
+|-
+| 77 || South Africa || Natal || South Africa || District Brigade || 3,000 || Natal Command
+|-
+| 78 || South Africa || Natal || British Malaya || Infantry Brigade || 3,000 || 1st Infantry Brigade
+|-
+| 79 || South Africa || Transvaal || Canada || District Militia || 9,000 || 6th District Militia
+|-
+| 80 || South Africa || Transvaal || Canada || District Militia || 9,000 || 7th District Militia
+|-
+| 81 || South Africa || Transvaal || Canada || District Militia || 9,000 || 10th District Militia
+|-
+| 82 || South Africa || Transvaal || South Africa || District Force || 6,000 || RH-Transvaal Command
+|-
+| 83 || South Africa || Transvaal || South Africa || District Force || 6,000 || Eastern Province Cmd.
+|-
+| 84 || South Africa || Transvaal || South Africa || District Force || 6,000 || Orange Free State Cmd.
+|-
+| 85 || South Africa || Transvaal || British Malaya || Infantry Brigade || 3,000 || 2nd Infantry Brigade
+|-
+| 86 || South Africa || Cape || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|-
+| 87 || South Africa || Cape || United Kingdom || Infantry Division || 9,600 || Convert at game start
+|}
+
+If you assign all the divisions correctly, then you should have an army that looks something like:
+{| class="wikitable"
+! Target TAG !! Divisions !! Required Manpower !! Deployed Manpower
+|-
+| Australia || 13 || 115,200 || 115,200
+|-
+| British Raj || 32 || 307,200 || 310,000
+|-
+| Canada || 17 || 134,400 || 134,400
+|-
+| New Zealand || 8 || 57,600 || 57,600
+|-
+| South Africa || 17 || 115,200 || 115,200
+|-
+| Total || 87 || 729,600 || 736,000
+|}
+
+While positioning troops, begin the British path to fascism. Rush "Organize the Blackshirts". In the events, always "Urge Restraint" and denounce Germany to ensure your stability never falls below 50%, or else you will trigger a civil war. Take George VI instead of Edward VIII for the extra stability. Do not hire advisors or designers, save your political power until after you have secured the dominions.
+As soon as you flip to fascism, rush Secure the Dominions. Once done, spend your political power to impose martial law, propaganda campaigns, and flip each Dominion fascist. At the same time, take God Save the King. If you flip the Dominions fascist, you'll then bypass Ceylon Forward Operating Base, Reclaim the Jewel in the Crown, Appeal to Imperial Loyalists, and Bring the Dominions Back into the Fold. Take or bypass these focuses, conquering any Dominions that broke away. Be careful, if Canada breaks away, don't launch a loyalist uprising to reconquer Canada - this will create a new Canada tag that cannot form the Dominion of North America. One these focuses are complete, take Consolidate the British Isles then Unite the Anglosphere, which will grant a war goal on the USA.
+
+Conquer the United States in early 1938, they will go down easily. Naval invade the Philippines just before the USA falls so you can annex them too. Annex all of the continental United States yourself, don't give anything to Canada. Once you've annexed the land, a decision will appear within the next few days to grant all of the USA to Canada, who can core it, if and only if the UK owns every single continental American state and territory. Don't take the decision to grant Canada yet.
+
+Take Down Belgium, the Netherlands, France and the Little Entente
+
+While you're taking down the USA, prepare for war with France. If world tension is over 25% then France will guarantee most nations that you justify on. Justify on the Netherlands, who France will guarantee. Once ready, naval invade the Netherlands. Attack the Dutch East Indies too so you can annex them in the peace deal. Do not call your dominions into the war. Rush the Dutch VPs and they'll go down easily. The moment France joins the war, begin justifying on Belgium. You're fascist, so your time taken to justify will be –80% faster while you're at war with a major (France), make use of it. Declare on Belgium, rush its VPs, then rush on Paris to bring France down. Before France falls, start one last justification on a strategic nation like Turkey or Iraq.
+
+If you are moving quickly, then when you take down France you can also annex the Little Entente: Yugoslavia, Czechoslovakia and Romania. France will form the Little Entente because you're fascist. When you DOW France, their Entente Allies will join France's war against you. When you capitulate France, you can also annex all three Entente nations if you have dealt war score against them - occupation, casualties or strategic bombing. Send an airwing of tactical or strategic bombers to conduct strategic bombing over the Entente airzones as well as naval invade Yugoslavia. If Italy is in your faction, naval invade from Italy. Invade right next to Italy's ports on the Dalmatian coast, even though Italy isn't in the war, their ports can still supply your troops if Italy is in your faction. The naval invasion will guarantee Yugoslavia will be at the peace conference. If a Czech or Romanian division surrounds your naval invasion, attack it even if it's suicidal, you just need to deal causalities against the Czechs and Romanians to get them to the peace conference too.
+
+Once France falls, if you've done all this right then you can directly annex all of France, Belgium, the Netherlands, the Dutch East Indies, Yugoslavia, Czechoslovakia and Romania. If you want the French fleet, then you can reduce them to a single island and puppet them, just like you did for the USA, but note that if you puppet France then Germany will DOW them (and by extension you) via their focus tree. Similarly, if you puppet the Dutch East Indies then Japan will get a war goal via focus on the Dutch East Indies and will declare on you in 1941-42.
+
+You now have a couple of options for what to do next.
+
+Option: Annex the Minors
+
+One option is to annex most of the global minors while Germany (eventually) eats the USSR and Japan takes care of China. If you annexed Czechoslovakia, then Germany will demand the Sudetenland from you - give it to them. If you starting justifying on Turkey before France fell, launch the invasion of Turkey. You will probably annex Turkey just before Germany invades Poland. If so, then the second Germany attacks Poland, begin fabricating on Poland - the Polish justification will take 30 days because they're in a great power war with Germany. As soon as you finish justifying on Poland, DOW Poland and then begin justifying on an out of the way major, which is probably Sweden by this point. Because you're at war with Poland, the justification will take very little time. Once you're finished justifying on Sweden (or a similar major) DOW them but don't invade. You want to keep this war with Sweden going so you can serially justify war goals on minors in under 25 days.
+
+Spend a few years justifying on and invading global minors: Yemen, Saudi Arabia, Oman, Liberia, Bulgaria, Greece, Siam, Spain, Portugal, and all of Central and South America except Mexico, El Salvador, Venezuela, Peru and Paraguay. Mexico you'll get a war goal on via event. Venezuela, El Salvador and Peru are fascist and will join the Axis if you DOW them, Paraguay is Communist and will join the Comintern, so leave them until the very end. Once you're finished with these minors, or want to start the Imperial Conference, naval invade Denmark to get to Sweden. Build ports on the UK side of the Danish peninsula, then naval invade Sweden, or invade Norway and then Sweden, then capitulate them.
+
+Annex Germany
+
+If you're going for Imperial Super Federation, then you need to annex Germany.
+
+One option is to annex Czechoslovakia after you defeat the Little Entente. Germany will demand the Sudetenland from you, deny their request and they will DOW you. Justify on Luxembourg while at war with Germany and DOW them ASAP.
+
+The other option is to wait for Germany to declare on the USSR then stab Germany in the back. The advantage of this approach is that Germany will eat Poland, Luxembourg and the Comintern for you, however, it will delay the formation of the Super Federation. If you go this route, then wait for Germany to DOW the USSR. Lend lease fuel and a few hundred rifles to Germany to help them out. Take a war goal against Germany via your focus tree. Once the USSR is about to capitulate, DOW Germany. If you do this right, Germany will annex the USSR just before you capitulate Germany, saving you the hassle of invading Russia.
+
+Whichever you choose, it helps that you recruit German spies from the game start and prepare collaboration governments before the war with Germany. Start building the spy network for your first prepare collaboration operation about a year before you plan to DOW Germany.
+
+Option: Annex the USSR"
+
+If you've come this far, then why not go for the One Empire achievement? Assuming you take down Germany early, then you'll need to defeat the Russians yourself. They will demand Bessarabia from you because you annexed Romania. Deny their request. If they don't DOW you over it, then take out a war goal against them via your focus tree. Complete the focus to align Iran and Afghanistan too, the second front from the south really helps.
+
+Preparing for the Imperial Conference
+
+Reduce your Dominions' autonomy to Reichskommissariat. The focus for Imperial Conscription helps. Build lots of convoys and lend-lease them to the Dominions. Build infrastructure and civilian factories in the dominions. Take the continuous focus to reduce subject autonomy if you absolutely need to. Save up ~400-500 political power. Take Indian Autonomy as the last focus before beginning the Imperial Conference. Improve relations with your Dominions up to the maximum, then start the conference.
+
+During the Imperial Federation talks, always go with the option where you spend the most political power. If you gave Canada all of North America, then they're less likely to agree to Imperial Federation here. If the talks succeed in every nation agreeing to federation, then give Canada all of North America. Canada will form the Dominion of North America, coring the entire United States, which you will inherit once you complete the final focus, Imperial Federation.
+
+Finally, form the European Union. You already have France, Belgium and the Netherlands. You just need all Italian, German and Luxembourg cores. DOW Germany if you haven't already, then kick Italy from your faction and DOW them. Once you've annexed all the nations you can core the EU states.
+
+## Concessions to the Trade Unions
+
+To start this branch, the player must first pick the focus A Change In Course. Once you complete this, use your political power to select the Communist Revolutionary as a political advisor. Then begin the Decolonization branch, starting with the Revist Colonial Policy focus. During the times of these focuses, begin moving your soldiers out from your colonies all over the world and bring them back to the Home Islands (i.e the United Kingdom's home territories of England, Scotland, Wales, and Northern Ireland - which you can actually secede to Ireland if you want to).
+
+You should have almost all, if not all, of your soldiers back now. Now since Canada, British Raj, South Africa, New Zealand, Australia, and British Malaya are still your subjects, request control of their forces to boost your army. After this, begin moving your soldiers from your subject nations back to the Home Islands.
+
+Once you complete Revist Colonial Policy, take the focus Guide the Colonies. Once you complete this, continue down the Decolonization branch until it's completed. Then, go to the Communist sub-branch and begin the focus, Concede to the Trade Unions.
+
+You should have almost all, if not all of your soldiers, back by now, since they should be either exiled from your recently decolonized lands or because you brought them back. Once Concede to the Trade Unions is completed, begin
+
+## The King's Party
+This is the non-aligned branch of the UK focus tree. It focuses on the drama around King Edward VIII, who historically abdicated the throne in December 1936 in order to marry the American divorcée Wallis Simpson. On 23 Jan 1936, King George V will die, losing a 15% stability bonus and replacing it with a ticking weekly decrease in stability. Around 12 Jun 1936, the event "Edward VIII Abdication Crisis" fires. The first choice causes him to abdicate in favor of George VI, while the other two options have him staying in power with either a morganatic or royal marriage. The morganatic option means that the subsequent events will be a little less bad but it doesn't have any large differences from the royal marriage. Either way a 200 day countdown starts till the marriage and you will receive various events mostly costing political power and stability, including the collapse of the government. Around November the dominions of Canada, Australia, South Africa, and New Zealand will break free and form the Commonwealth of Nations faction, while British Raj will turn into a dominion but with no manpower or industry sent to its master and a daily autonomy increase. However, it is possible to regain control of these countries with the focuses unlocked by The King's Party focus or by going to war with the faction.
+
+Around 29 December 1936 (depending on when the player decided on the the marriage event), Edward will finally marry Simpson. This unlocks The King's Party, which puts Edward VIII in charge and activates several good political advisors. The sub-tree Reassess Continental Commitments allows an alliance or a non-interference treaty with Germany and provides war goals on Italy and Soviet Union. The focus God Save the King considerably improves Edward VIII's abilities, while the subsequent focuses Appeal to Imperial Loyalists and Bring the Dominions Back into the Fold let you retake control of the dominions by sparking civil wars. This is helpful if you want to pursue the Imperial Federation. Other focuses give war goals on the wayward colonies British Raj and Burma as well as the United States and Japan. A hidden goal is to annex all of the United States after completing Unite the Anglosphere, which unlocks a decision that installs Wallis Simpson as a puppet queen of the "United Kingdom of America". If you want to invade the USA, try to do it during 1938 with several collaboration governments completed.
+
+# Achievements
+
+FOCUS Britzkrieg: As the United Kingdom, put Edward VIII in power, ally Germany and fully control Paris.
+FOCUS Crush the Dream: As a Communist United Kingdom, crush the American Dream by puppeting the U.S.A.
+FOCUS Last for a Thousand Years: As the United Kingdom, accomplish the federation of the entire British Empire.
+FOCUS Nothing Wrong with our Bloody Ships: As the United Kingdom, have at least 9 battlecruisers.
+FOCUS One Empire: Unite the entire world under the British Empire.
+FOCUS The Empire Strikes Back: As Britain, declare war on one of your former subjects.
+FOCUS Turing Complete!: Fully decrypt all nations in the Axis.
+FOCUS William Wallis: As the United Kingdom, put Edward VIII in power, enforce an American monarchy, and have both it and Scotland as subjects.
+Backfire As the United Kingdom complete the Special Project for Medium Range Ballistic Missiles, have a rocket site, and be at war with Germany. png

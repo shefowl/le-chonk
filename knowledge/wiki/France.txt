@@ -1,0 +1,2560 @@
+TITLE: France
+URL: https://hoi4.paradoxwikis.com/France
+REVISION: 2026-03-22T12:34:59Z (rev 99069)
+VERIFIED FOR: 1.10
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+France is a major power in 1936, one of the winners of the Great War, and in control of a globe-spanning empire. It has a population of 42.24 M (core) and another 66.22 M (non-core). Its heartland in Europe is rich; almost half of Africa is under its control, and it has colonies in Indochina, Syria, and Guyana, not to mention direct control of islands in all the oceans of the world. However, its government is divided, with Communist influences threatening to weaken it further.
+
+The memory of the Great War is also very much alive, and the people of France are reluctant to fight another major war in Europe. Should an aggressive adversary like Germany threaten its heartland, France is unlikely to be willing to sustain defensive efforts that could see the entire country devastated. On top of that, the French military leadership is made up of old guards who are inexperienced with modern warfare and dangerously complacent regarding the intentions of their enemies.
+
+That being said, if a player takes control of France and is able to iron out all of the country's internal problems and strengthen the military-industrial complex enough before war breaks out, they are in a good position to repulse and defeat both Germany and Italy and annex both countries, thus ending those threats for good.
+
+If played correctly, the Second World War (and any other conflicts before 1948) could very well see France reborn and reshaped and emerge from the crucible of war as the far bigger and stronger European Union. If allied with the United Kingdom (which can annex all of its dominions and even the United States to form the Imperial Federation), these two titans can easily become the dominant superpowers of the post-war world order. If invaded and puppeted or freed by German Reich or Italy, it will turn into Free France.
+
+# Historical background [verified for Timeless]
+
+France, along with the United Kingdom, guaranteed the independence of Poland prior to its invasion by Germany. Feeling secured by the Maginot Line in the Eastern provinces of Alsace-Lorraine, France declared war against Germany with the United Kingdom in 1939 after Germany's invasion of Poland. However, around a year later, in 1940, when actual combat ensued between all three powers, the Allied armies were defeated in just six weeks during the Battle of France against Germany and Italy, in contrast to the years-long campaign expectation by both sides. Thinking their chances poor regardless, Germany gambled on a decisive victory by sending Panzer divisions through Luxembourg and the Ardennes' forested hills, terrain which the French supreme commander Gamelin thought unable to sustain tank movements. The Panzers then drove—without waiting for infantry to secure their supply lines—through France to the English Channel, surrounding the bulk of the Allied forces which had been sent to Belgium's border with Germany aiming to deny them room for mobile warfare and overconfident that their main thrust would be through Belgium as in WWI's Schlieffen Plan.
+
+Threatened with annihilation, the British evacuated their expeditionary forces and what Allied units they could until Dunkirk fell. Soon thereafter, the French front collapsed and Germany begun an offensive southwards capturing Paris completely unopposed on the 14th of June and occupying the northern half of France (with the frontline going from Bordeaux to Grenoble) by the 24th of June. The French military completely disintegrated and the French government agreed to an armistice on the 25th of June—effectively surrendering the whole country—in a defeat which caused great astonishment to the rest of the world, as up until that point, France was a leading world power (both economically and militarily) that only 20 years earlier had won the Great War.
+
+After the crushing and humiliating defeat, Germany and Italy annexed territories of eastern France (equivalent to the states of Alsace-Lorraine, Nord-Pas-de-Calais, Savoy, Nice and Corsica in-game) while the rest of metropolitan France was placed under the jurisdiction of Vichy France, a German client state led by Marshal Philippe Pétain with its de facto capital in the French town of Vichy. France's colonial empire on the other hand, was either occupied by the United Kingdom and the Free French forces under general Charles de Gaulle in the small mountainous country of Andorra or conquered by the Axis powers (primarily Italy and Japan).
+
+# Events
+(Main article: French events, French events LaR)
+
+# Decisions
+France can form the European Union through a decision if it is democratic democratic and controls the requisite territories (those being all of its own starting core states a well as the starting core states of Germany, Italy, the Netherlands, Belgium and Luxembourg.
+
+# National focus
+
+(Main article: French national focus tree)
+
+branches desc
+
+# National spirits [verified for 1.17]
+
+France starts with the following national spirits:
+
+Spirit London Naval Treaty Signatory: We have signed the London Naval Treaty and accordingly are restricted in the size of our capital ships.
+- Carrier Max Cost: 9500 production cost n
+- Cruiser Max Cost: 5300 production cost n
+- Heavy Ship Max Cost: 10000 production cost n
+
+Spirit Victors of the Great War: Having emerged victorious from the Great War, the army has developed a dangerously complacent attitude which causes strategic developments to come slowly and with some reluctance.
+- Recruitable Population : -0.30%
+- War Support : -5.00%
+- Land Doctrine Cost: +50.00%
+
+Spirit Disjointed Government: The state of French politics is far from stable. While reforms are needed and welcome, the nation is divided and getting drawn into a conflict would put it at great risk.
+- Daily Political Power Cost: +0.80
+- Stability : -10.00%
+- Surrender Limit: -50.00%
+
+Spirit Protected by the Maginot Line: Having fortified the border gives France the opportunity to plan and prepare carefully, but it does sacrifice some flexibility in the event of something unexpected.
+- Planning Speed: -25.0%
+- Max Planning: +25.0%
+
+Spirit Full Employment: We are in the enviable position of having very low unemployment, partially because of the massive bloodshed of the Great War. However, this has made it difficult for companies to find skilled workers, and the military finds it hard to compete with the labor market for recruits. Extending the draft would only exaberate the problem. We should try and find other sources of manpower to make up for the shortfall, either in recruitment or in the economy.
+- Recruitable Population Factor: -25%
+
+Spirit Political Violence: Communists and far-right extremist leagues are always ready to resort to violence to advance their political cause.
+
+Spirit Inefficient Economy: While still a major industrialized country, France has been left behind in terms of concentration of production capabilities. Major reforms are needed to make our economy more competitive in the global scale.
+- Factory Output : -20.00%
+- Dockyard Output : -20.00%
+
+All of France's negative spirits can be removed though it will take several years to complete all the focuses needed.
+
+- Victors of the Great War can be removed by completing the Army Reform focus at the bottom of the Begin Rearmament branch.
+- Disjointed Government can be removed by completing FRA_force_the_issue, FRA_defensive_strategems, FRA_political_unity or FRA_repeal_the_law_of_exile.
+- Protected by the Maginot Line can be removed with the decision "Dismantle the Maginot Line". This decision costs 50 PP and reduces the forts in Alsace-Lorraine to level 2.
+- Full Employment can be removed with FRA_encourage_immigration or FRA_foreign_guest_workers. If conscription is increased beyond Limited Conscription, Full Employment will turn into turn into Worker Shortage, giving a -10% penalty to factory and dockyard output.
+- While Political Violence is active, several focuses will trigger the event "Protests descend into violence" while the focus "French Union" will trigger "Right-wing riots". It can be removed by completing FRA_ban_the_leagues or FRA_ban_communism. It will also disappear if stability reaches 70%, but will return if stability drops to 50%.
+- Inefficient Economy can be removed by completing FRA_nationalize_key_industry and FRA_general_work_council or FRA_laissez_faire and FRA_economic_devolution. Note that Laissez-Faire will have effect after a period of 2 years after completion.
+
+# Technology [verified for 1.17]
+
+## Research
+France begins with 3 research slots available; 2 more can be unlocked through the national focus tree.
+
+- Infantry Equipment I
+- Improved Infantry Equipment I (39)
+- Support Weapons II (39)
+- Truck
+- Inter-War Armored Car La Résistance
+- Mountain Infantry I
+- Camelry Battle for the Bosporus
+----
+- Engineer Company I
+- Recon Company I
+- Civilian Train
+----
+- Towed Artillery
+- Towed Anti-Air
+- Inter-War Artillery (39)
+- Towed Anti-Tank (39)
+----
+- Improved Light Tank
+- Basic Medium Tank (39)
+- Basic Heavy Tank
+- Basic Armor Protection
+- Basic Engine
+----
+Armor without No Step Back :
+- Light Tank II
+- Medium Tank I (39)
+- Heavy Tank I * Basic Destroyer (36)
+- Improved Destroyer (39)
+- Basic Depth Charges
+- Early Cruiser
+- Inclined Belt Armor Scheme (36)
+- All-or-Nothing Armor Scheme (39)
+- Basic Heavy Ship (36)
+- Improved Heavy Ship (39)
+- Early Carrier (36)
+- Basic Carrier (39)
+- Basic Submarine
+----
+- Basic Light Battery (36)
+- Improved Light Battery (39)
+- Basic Heavy Battery
+- Basic Dual-Purpose Light Battery
+- Basic Torpedo (36)
+- Improved Ship Torpedo Launcher (39)
+- Transport Ship
+- Contact Mine
+- Minelaying Submarine * Inter-War Small Airframe (36)
+- Improved Small Airframe (39)
+- Inter-War Medium Airframe (36)
+- Improved Medium Airframe (39)
+- Inter-War Large Airframe (36)
+- Basic Large Airframe (39)
+- Inter-War Transport Plane
+- Bombs
+- Light MG
+- Cannons I
+- Air Launched Torpedoes
+- Aircraft Construction
+- Engines II (36)
+- Engines III (39)
+----
+Without By Blood Alone :
+- Inter-War Fighter (36)
+- Inter-War Carrier Fighter
+- Fighter II (39)
+- Carrier Fighter I (39)
+- Close Air Support I
+- Carrier Close Air Support I (39)
+- Naval Bomber I
+- Carrier Naval Bomber I
+- Heavy Fighter I (39)
+- Tactical Bomber I (36)
+- Tactical Bomber II (39)
+- Strategic Bomber I (39)
+- Inter-War Transport Plane * Advanced Machine Tools (39)
+- Dispersed Industry III (39)
+- Construction III (39)
+- Fuel Storage
+- Synthetic Oil Experiments (39)
+- Fuel Refining I (36)
+- Fuel Refining II (39)
+----
+- Radio (39)
+- Computing Machine (39)
+- Basic Fortification
+---- (39)
+Without La Résistance : (39)
+- Encryption - Polyalphabetical Ciphers (39)
+- Decryption - Frequency Analysis (39) * Grand Battleplan
+ - Great War Infantry ( mastery : 100) (39) * Fleet in Being * Operational Integrity
+
+## Cosmetic names
+France has a number of unique names and appearances for various technologies and equipment, listed here. Note that generic names are not listed.
+
+Type: Support Weapons
+1918: FM Chauchat & Stokes mortar
+1938: Hotchkiss M1914 & Brandt Mle 1935
+1940: FM 24/29 & Brandt Mle 27/31
+1942: Hotchkiss M1922 & Brandt Mle 1942
+
+Type: Infantry Equipment
+1918: Mle 1886 M93
+1936: MAS-36
+1939: MAS-38
+1942: MAS-40
+
+Type: Motorized
+1936: Citroën U23
+
+Type: Mechanized
+1940: Citroën P107
+1942: SOMUA MCG
+1944: AMX-VCI
+
+Type: Armored Car La Résistance
+1936: S15
+1940: Panhard 165
+1942: Panhard 178
+
+Tech year: 1918
+Light (TD/SPG/AA): FT-17
+
+Tech year: 1934
+Light (TD/SPG/AA): H35
+Heavy (TD/SPG/AA): B1 (NA / Canon de 194 / NA)
+
+Tech year: 1936
+Light (TD/SPG/AA): FCM 36 (AMR 35 ZT-3 / NA / NA)
+
+Tech year: 1938
+Medium (TD/SPG/AA): AMC 35 (W15 TCC / ARL V39 / NA)
+
+Tech year: 1940
+Medium (TD/SPG/AA): S35 (SAu 40 / 105 AM / NA)
+Heavy (TD/SPG/AA): ARL 44
+
+Tech year: 1941
+Light (TD/SPG/AA): AMX 12t (UE-57 / F3 155 mm / NA)
+Super-Heavy: FCM-F1
+
+Tech year: 1943
+Medium (TD/SPG/AA): SARL 42
+Heavy (TD/SPG/AA): AMX-M4
+
+Tech year: 1945
+Modern: AMX 50t
+
+Note: Without No Step Back, Medium Tank I and II are unlocked one year later.
+
+Tech year: 1934
+Artillery: Canon de 75 mle 1897
+
+Tech year: 1936
+Anti-Air: Hotchkiss 25 mm
+Anti-Tank: Canon de 25 mm
+
+Tech year: 1939
+Artillery: Canon de 105 L mle 1936
+
+Tech year: 1940
+Anti-Air: Schneider 37 mm
+Anti-Tank: Canon de 47 mm SA mle 37
+
+Tech year: 1942
+Artillery: Canon de 155mm GPF
+
+Tech year: 1943
+Anti-Air: Canon de 75 CA modèle 1940
+Anti-Tank: Canon de 76 mm mle 1943
+
+1933
+NiD 62
+MB.200
+NA
+F.221
+
+1936
+Br.693 (Ni.140)
+M.S.406 (D.510)
+298 (Laté 298B)
+Potez 630
+Amiot 143
+F.223
+MB-131
+
+1940
+LN.401 (LN.401)
+D.520 (D.790)
+CAO.600 (Laté 312C)
+Bre 690
+LeO 451
+MB.162
+CAO-700
+Amiot 143
+
+1944
+Noréclair (SO.8000 Narval)
+MB.157 (D.525)
+D.750 (D.750P)
+Bre 700 C2
+MB.174
+Bre 482
+SE.161
+
+1945
+Ouragan
+NA
+
+1950
+NA
+NA
+NA
+
+# Geography [verified for 1.17]
+
+France is located in Western Europe. It consists of mainland France and the island of Corsica. France also controls a large number of overseas territories and colonies including, Algeria, Syria, Madagascar, and resource-rich Indochina.
+France is dominated by flat, arable land in the Northwest and forest and highland in the center. France borders Belgium to the north, with the Ardenne forest making natural bulwark. To the Northeast in the region of Alsace-Lorraine lies the small Vosges mountain range and the huge river Rhine, which makes up the natural border with German Reich. To the south lie the Pyrenees mountains which separate France from Spain. To the east lies Switzerland and Italy lies to the southeast separated by the huge Alps mountain range. Significant rivers include the river Rhine between France and German Reich, Le Rhône to the southeast, La Seine to the northwest, La Loire which runs through the center, and La Garonne which runs in the southwest. To the south is the Mediterranean Sea, and to the west is the Bay of Biscay. The English Channel separates France from the British Isles to the north.
+
+France owns 25 core and 46 colonial states.
+
+Algerian Desert
+Desert (17)
+Wasteland
+207,733
+no
+
+State: Algiers
+Cities: Algiers
+Oran
+vp: 5
+5
+Terrain (# prov): Hills (3)
+ Mountain (5)
+ Plains (1)
+ Urban (1)
+Region: Developed Rural Region
+population: 3,089,944
+Is core: no
+
+State: Alpes
+Cities: Grenoble
+vp: 1
+Terrain (# prov): Mountain (2)
+ Plains (4)
+Region: Developed Rural Region
+population: 1,007,500
+Is core: yes
+
+State: Alsace-Lorraine
+Cities: Colmar
+Haguenau
+Metz
+Mulhouse
+Strasbourg
+vp: 0
+0
+10
+5
+5
+Terrain (# prov): Hills (4)
+ Mountain (2)
+ Plains (1)
+ Urban (1)
+Region: Urban Region
+population: 1,915,600
+Is core: yes
+
+State: Aquitaine
+Cities: Bordeaux
+vp: 20
+Terrain (# prov): Forest (3)
+ Plains (1)
+ Urban (1)
+Region: Urban Region
+population: 1,140,400
+Is core: yes
+
+State: Auvergne
+Cities: Vichy
+vp: 3
+Terrain (# prov): Forest (3)
+ Hills (4)
+ Mountain (2)
+ Plains (2)
+Region: Developed Rural Region
+population: 877,800
+Is core: yes
+
+B.E.T.
+Desert (3)
+Wasteland
+18,744
+no
+
+State: Bamako
+Cities: Bamako
+vp: 1
+Terrain (# prov): Forest (2)
+ Plains (2)
+Region: Rural Region
+population: 1,662,391
+Is core: no
+
+State: Bouches-du-Rhône
+Cities: Marseille
+vp: 10
+Terrain (# prov): Hills (1)
+ Mountain (1)
+ Plains (2)
+ Urban (1)
+Region: Urban Region
+population: 1,670,310
+Is core: yes
+
+State: Bourgogne
+Cities: Dijon
+vp: 5
+Terrain (# prov): Forest (3)
+ Plains (9)
+Region: Urban Region
+population: 1,370,800
+Is core: yes
+
+State: Brittany
+Cities: Brest
+Lorient
+Rennes
+vp: 20
+5
+1
+Terrain (# prov): Forest (3)
+ Plains (7)
+Region: Urban Region
+population: 2,396,600
+Is core: yes
+
+State: Cambodia
+Cities: Kompong Som
+Phnom Penh
+vp: 0
+1
+Terrain (# prov): Forest (14)
+ Hills (4)
+ Jungle (2)
+ Lake (1)
+ Plains (7)
+Region: Developed Rural Region
+population: 5,245,000
+Is core: no
+
+State: Cameroon
+Cities: Yaoundé
+vp: 1
+Terrain (# prov): Forest (1)
+ Hills (2)
+ Jungle (4)
+Region: Rural Region
+population: 2,945,782
+Is core: no
+
+State: Casablanca
+Cities: Casablanca
+Rabat
+vp: 10
+2
+Terrain (# prov): Hills (2)
+ Mountain (6)
+ Plains (8)
+ Urban (1)
+Region: Rural Region
+population: 3,197,719
+Is core: no
+
+State: Centre
+Cities: Orleans
+Tours
+vp: 15
+10
+Terrain (# prov): Forest (3)
+ Plains (6)
+Region: Sparse Urban Region
+population: 1,546,300
+Is core: yes
+
+State: Centre-Sud
+Cities: Châteauroux
+vp: 1
+Terrain (# prov): Forest (2)
+ Plains (7)
+Region: Developed Rural Region
+population: 636,400
+Is core: yes
+
+State: Chad
+Cities: N'Djamena
+vp: 1
+Terrain (# prov): Forest (2)
+ Lake (1)
+ Plains (9)
+Region: Pastoral Region
+population: 1,442,456
+Is core: no
+
+State: Champa
+Cities: Saigon
+vp: 3
+Terrain (# prov): Forest (4)
+ Hills (10)
+ Mountain (6)
+ Plains (8)
+ Urban (1)
+Region: Developed Rural Region
+population: 5,245,000
+Is core: no
+
+State: Champagne
+Cities: Reims
+Sedan
+Troyes
+vp: 5
+1
+5
+Terrain (# prov): Forest (2)
+ Hills (3)
+ Plains (7)
+Region: Urban Region
+population: 1,370,800
+Is core: yes
+
+Comoro Islands
+Plains (1)
+Small Island
+126,703
+no
+
+State: Constantine
+Cities: Annaba
+Constantine
+vp: 1
+3
+Terrain (# prov): Hills (4)
+ Mountain (7)
+Region: Developed Rural Region
+population: 2,343,837
+Is core: no
+
+State: Corsica
+Cities: Ajáccio
+vp: 1
+Terrain (# prov): Hills (1)
+ Mountain (1)
+ Plains (1)
+Region: Developed Rural Region
+population: 322,900
+Is core: yes
+
+State: Dahomey
+Cities: Porto Novo
+vp: 1
+Terrain (# prov): Forest (3)
+Region: Pastoral Region
+population: 1,351,563
+Is core: no
+
+State: Equatorial Africa
+Cities: Bangui
+vp: 1
+Terrain (# prov): Forest (8)
+Region: Pastoral Region
+population: 1,136,921
+Is core: no
+
+State: Franche-Comte
+Cities: Besancon
+Nancy
+vp: 5
+5
+Terrain (# prov): Forest (6)
+ Hills (1)
+ Mountain (1)
+ Plains (2)
+Region: Urban Region
+population: 1,517,500
+Is core: yes
+
+State: French Caribbean
+Cities: Pointe-à-Pitre
+vp: 1
+Terrain (# prov): Plains (3)
+Region: Rural Region
+population: 444,290
+Is core: no
+
+State: French Guiana
+Cities: Cayenne
+vp: 1
+Terrain (# prov): Jungle (2)
+Region: Pastoral Region
+population: 47,341
+Is core: no
+
+State: French India
+Cities: Pondichéry
+vp: 1
+Terrain (# prov): Plains (1)
+Region: Enclave
+population: 286,410
+Is core: no
+
+State: French Somaliland
+Cities: Djibouti
+vp: 1
+Terrain (# prov): Desert (2)
+Region: Enclave
+population: 85,232
+Is core: no
+
+State: Gabès
+Cities: Gabès
+vp: 1
+Terrain (# prov): Desert (9)
+ Hills (1)
+ Lake (2)
+Region: Pastoral Region
+population: 427,824
+Is core: no
+
+State: Gabon
+Cities: Libreville
+vp: 1
+Terrain (# prov): Jungle (4)
+Region: Pastoral Region
+population: 409,752
+Is core: no
+
+Gao
+Desert (2)
+ Plains (3)
+Wasteland
+498,718
+no
+
+State: Guangzhouwan
+Cities: Fort-Bayard
+vp: 1
+Terrain (# prov): Forest (1)
+Region: Enclave
+population: 200,000
+Is core: no
+
+State: Guinea
+Cities: Conakry
+vp: 1
+Terrain (# prov): Forest (6)
+Region: Pastoral Region
+population: 195,041
+Is core: no
+
+State: Ile de France
+Cities: Paris
+vp: 50
+Terrain (# prov): Forest (1)
+ Plains (6)
+ Urban (2)
+Region: Metropolis Region
+population: 7,038,500
+Is core: yes
+
+State: Ivory Coast
+Cities: Abidjan
+vp: 1
+Terrain (# prov): Forest (3)
+ Jungle (3)
+Region: Pastoral Region
+population: 3,850,734
+Is core: no
+
+Kayes-Koulikoro
+Plains (6)
+Pastoral Region
+1,163,674
+no
+
+Kerguelen
+Plains (1)
+Tiny Island
+96
+no
+
+State: Languedoc
+Cities: Montpellier
+vp: 1
+Terrain (# prov): Forest (1)
+ Hills (6)
+ Mountain (1)
+ Plains (3)
+Region: Developed Rural Region
+population: 1,691,200
+Is core: yes
+
+State: Laos
+Cities: Vientiane
+vp: 1
+Terrain (# prov): Forest (24)
+ Hills (3)
+ Mountain (6)
+Region: Pastoral Region
+population: 1,184,000
+Is core: no
+
+State: Limousin
+Cities: Limoges
+vp: 5
+Terrain (# prov): Forest (11)
+ Plains (2)
+Region: Sparse Urban Region
+population: 1,343,700
+Is core: yes
+
+State: Loire
+Cities: Nantes
+vp: 5
+Terrain (# prov): Forest (1)
+ Hills (1)
+ Plains (8)
+ Urban (1)
+Region: Urban Region
+population: 1,388,400
+Is core: yes
+
+State: Madagascar
+Cities: Antananarivo
+vp: 1
+Terrain (# prov): Desert (1)
+ Hills (2)
+ Jungle (2)
+ Mountain (5)
+Region: Rural Region
+population: 3,694,611
+Is core: no
+
+State: Marrakech
+Cities: Marrakech
+vp: 3
+Terrain (# prov): Desert (6)
+ Mountain (8)
+Region: Wasteland
+population: 1,865,552
+Is core: no
+
+State: Mauritania
+Cities: Nouakchott
+vp: 1
+Terrain (# prov): Desert (4)
+ Plains (1)
+Region: Pastoral Region
+population: 225,000
+Is core: no
+
+Mauritanian Desert
+Desert (6)
+ Plains (1)
+Wasteland
+124,200
+no
+
+State: Middle Congo
+Cities: Brazzaville
+Loango
+vp: 3
+1
+Terrain (# prov): Forest (3)
+ Jungle (2)
+Region: Pastoral Region
+population: 746,415
+Is core: no
+
+State: Midi Pyrenees
+Cities: Toulouse
+vp: 5
+Terrain (# prov): Forest (3)
+ Hills (6)
+ Mountain (4)
+ Plains (4)
+ Urban (1)
+Region: Urban Region
+population: 1,825,000
+Is core: yes
+
+Nendo
+Plains (1)
+Small Island
+5,167
+no
+
+State: New Caledonia
+Cities: Noumea
+Port Vila
+vp: 1
+1
+Terrain (# prov): Plains (9)
+Region: Small Island
+population: 51,876
+Is core: no
+
+State: Niger
+Cities: Niamey
+vp: 1
+Terrain (# prov): Plains (3)
+Region: Rural Region
+population: 543,817
+Is core: no
+
+State: Nord-Pas-de-Calais
+Cities: Calais
+Dunkerque
+Lille
+vp: 15
+5
+10
+Terrain (# prov): Plains (7)
+ Urban (1)
+Region: Dense Urban Region
+population: 2,976,400
+Is core: yes
+
+State: Normandy
+Cities: Cherbourg
+Dieppe
+Le Havre
+Rouen
+vp: 3
+3
+10
+5
+Terrain (# prov): Forest (1)
+ Hills (3)
+ Plains (9)
+ Urban (2)
+Region: Urban Region
+population: 2,332,100
+Is core: yes
+
+State: Picardy
+Cities: Amiens
+vp: 5
+Terrain (# prov): Forest (4)
+ Plains (3)
+Region: Developed Rural Region
+population: 1,580,000
+Is core: yes
+
+State: Poitou
+Cities: La Rochelle
+vp: 5
+Terrain (# prov): Forest (1)
+ Plains (9)
+Region: Developed Rural Region
+population: 1,603,100
+Is core: yes
+
+State: Pyrénées-Atlantiques
+Cities: Bayonne
+vp: 3
+Terrain (# prov): Forest (2)
+ Hills (1)
+Region: Developed Rural Region
+population: 280,723
+Is core: yes
+
+Reunion
+Jungle (1)
+Small Island
+186,637
+no
+
+State: Rhone
+Cities: Lyon
+vp: 10
+Terrain (# prov): Forest (2)
+ Hills (3)
+ Mountain (4)
+ Plains (3)
+ Urban (1)
+Region: Urban Region
+population: 2,973,200
+Is core: yes
+
+State: Savoy
+Cities: Annecy
+Nice
+vp: 1
+5
+Terrain (# prov): Mountain (10)
+ Urban (1)
+Region: Developed Rural Region
+population: 907,500
+Is core: yes
+
+State: Senegal
+Cities: Dakar
+vp: 5
+Terrain (# prov): Forest (2)
+ Plains (4)
+Region: Pastoral Region
+population: 1,638,000
+Is core: no
+
+Southern Sahara
+Desert (5)
+ Plains (4)
+Wasteland
+1,456,356
+no
+
+St Pierre and Miquelon
+Plains (1)
+Tiny Island
+3,426
+no
+
+State: Tahiti
+Cities: Pape'ete
+vp: 1
+Terrain (# prov): Plains (2)
+Region: Small Island
+population: 105,786
+Is core: no
+
+State: Tlemcen
+Cities: Batna
+vp: 1
+Terrain (# prov): Desert (6)
+ Hills (6)
+ Mountain (10)
+Region: Wasteland
+population: 811,486
+Is core: no
+
+State: Togo
+Cities: Lomé
+vp: 1
+Terrain (# prov): Forest (3)
+Region: Pastoral Region
+population: 1,101,346
+Is core: no
+
+Tombouctou
+Desert (4)
+Wasteland
+79,243
+no
+
+State: Tonkin
+Cities: Cao Bang
+Hanoi
+vp: 1
+5
+Terrain (# prov): Forest (7)
+ Hills (1)
+ Mountain (4)
+ Plains (5)
+ Urban (1)
+Region: Developed Rural Region
+population: 8,528,000
+Is core: no
+
+State: Trung Bo
+Cities: Hué
+vp: 2
+Terrain (# prov): Forest (5)
+ Hills (7)
+ Mountain (2)
+ Plains (1)
+Region: Developed Rural Region
+population: 3,000,000
+Is core: no
+
+State: Tunisia
+Cities: Bizerte
+Sfax
+Tunis
+vp: 1
+1
+10
+Terrain (# prov): Hills (6)
+ Plains (5)
+ Urban (1)
+Region: Developed Rural Region
+population: 1,982,940
+Is core: no
+
+State: Upper Volta
+Cities: Ouagadougou
+vp: 1
+Terrain (# prov): Forest (1)
+ Plains (5)
+Region: Pastoral Region
+population: 3,186,184
+Is core: no
+
+State: Var
+Cities: Toulon
+vp: 1
+Terrain (# prov): Forest (2)
+ Hills (1)
+ Mountain (1)
+Region: Sparse Urban Region
+population: 485,000
+Is core: yes
+
+# Politics [verified for 1.11]
+
+France starts with 50% and 10% base. These are changed to 49.6% and 10% after modifiers.
+
+## Political parties
+France's starting political parties.
+
+{| class="wikitable" style="float:left; width:49em; margin:10px; margin-left:0"
+|+ Political parties, 1936
+! Id. !! style="width:22.3em;" | Party name !! style="width:1em;" | Popularity !! style="width:11.9em;" | Leader !! style="width:1em;" | Ruling
+|-
+! style="text-align: center;" | Democracy
+! Parti Radical
+| style="text-align: center;" | 64% || Pierre Laval || style="text-align: center;" | Yes
+|-
+! style="text-align: center;" | Communism
+! Parti Communiste Francais
+|style="text-align: center;" | 20% || Maurice Thorez || style="text-align: center;" | No
+|-
+! style="text-align: center;" | Fascism
+! Mouvement Franciste
+| style="text-align: center;" | 1% || Marcel Bucard || style="text-align: center;" | No
+|-
+! style="text-align: center;" | Non-Aligned
+! Action Française
+|style="text-align: center;" | 15% || Charles Maurras || style="text-align: center;" | No
+|}
+
+{| class="wikitable" style="float:left; width:49em; margin:10px; margin-left:0"
+|+ Political parties, 1939
+! Id. !! style="width:22.3em;" | Party name !! style="width:1em;" | Popularity !! style="width:11.9em;" | Leader !! style="width:1em;" | Ruling
+|-
+! style="text-align: center;" | Democracy
+! Parti Radical
+| style="text-align: center;" | 64% || Léon Blum || style="text-align: center;" | Yes
+|-
+! style="text-align: center;" | Communism
+! Parti Communiste Francais
+|style="text-align: center;" | 20% || Maurice Thorez || style="text-align: center;" | No
+|-
+! style="text-align: center;" | Fascism
+! Mouvement Franciste
+| style="text-align: center;" | 1% || Marcel Bucard || style="text-align: center;" | No
+|-
+! style="text-align: center;" | Non-Aligned
+! Action Française
+|style="text-align: center;" | 15% || Charles Maurras || style="text-align: center;" | No
+|}
+
+## Country leaders
+
+Possible country leaders of France.
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Country leaders
+! Ideology
+! class="unsortable" | Portrait
+! Name
+! style="width:1em;" | Party
+! Traits
+! Effects
+! Possible
+|-
+! style="text-align: center;" | Democracy
+Liberalism
+|
+| Pierre Laval
+| Parti Radical
+| stout_defender
+|
+Starting leader in 1936
+|-
+! style="text-align: center;" | Democracy
+Socialism
+|
+| Léon Blum
+| Parti Radical
+| reluctant_interventionist
+|
+- Starting leader in 1939
+- Via focus Form the Popular Front
+|-
+
+|-
+! style="text-align: center;" | Democracy
+Conservatism
+|
+| Charles de Gaulle
+| Parti Radical
+
+|
+- Via event Triumph in France
+ - Event Resistance to the armistice
+|-
+! style="text-align: center;" | Communism
+Stalinism
+|
+| Maurice Thorez
+| Parti Communiste Francais
+
+|
+Starting Communist leader
+|-
+! rowspan="2" style="text-align: center;" | Communism
+Marxism
+| rowspan=2|
+| rowspan=2| René Nicod
+| rowspan=2| Union Populaire Française
+| reluctant_veteran
+|
+- Via focus Anti-Fascist Coalition
+|-
+| proletariat_internationalist
+|
+- Via focus Loyalty To the Cause
+|-
+! style="text-align: center;" | Fascism
+Fascism
+|
+| Marcel Bucard
+| Mouvement Franciste
+| fascist_corporatist
+|
+Starting Fascist leader
+|-
+! style="text-align: center;" | Fascism
+Rexism
+|
+| Pierre Laval
+| Mouvement Franciste
+| tenacious_negotiator
+|
+- Via focus National Regeneration
+|-
+! style="text-align: center;" | Fascism
+Fascism
+|
+| François de La Rocque
+| Parti Social Français
+| retired_officer
+|
+- Via focus Latin Entente
+|-
+! style="text-align: center;" | Fascism
+Nazism
+|
+| Jacques Doriot
+| Parti Populaire Français
+| eager_collaborator
+|
+- Via focus Towards a New Europe
+|-
+! style="text-align: center;" | Fascism
+Fascism
+|
+| Philippe Pétain
+| Mouvement Franciste
+
+|
+- Via event Triumph in France (Moves to Vichy France)
+|-
+! style="text-align: center;" | Non-Aligned
+Centrism
+|
+| Charles Maurras
+| Action Française
+| editor
+|
+Starting Non-Aligned leader
+|-
+! style="text-align: center;" | Non-Aligned
+Moderatism
+|
+| Jean III
+| Parti Orléaniste
+| duke_of_orleans
+|
+- Via focus Orléanist Restoration
+ - Date is before Aug 8th, 1940
+|-
+! style="text-align: center;" | Non-Aligned
+Moderatism
+|
+| Henri VI
+| Parti Orléaniste
+| count_of_paris
+|
+- Via focus Orléanist Restoration
+ - Date is after Aug 8th, 1940
+|-
+! style="text-align: center;" | Non-Aligned
+Despotism
+|
+| Alphonse I
+| Parti Légitimiste
+
+|
+- Via focus The Legitimate Heir
+ - Date is before Feb 21st, 1941
+|-
+! style="text-align: center;" | Non-Aligned
+Despotism
+|
+| Jackques II
+| Parti Légitimiste
+
+|
+- Via focus The Legitimate Heir
+ - Date is after Feb 21st, 1941
+|-
+! style="text-align: center;" | Non-Aligned
+Despotism
+|
+| Napoléon VI
+| Parti Bonapartiste
+
+|
+- Via focus Proclaim the Third Empire
+|}
+
+## Diplomacy
+France starts outside of the Allies at the start of 1936, but has options to join later. It also has focuses to form its own faction with Czechoslovakia and invite Yugoslavia and Romania to form the Little Entente - if it does form the Little Entente, it can also take additional focuses to invite the United Kingdom and Poland to the Entente.
+
+France has a focus to unlock decisions concerning whether to intervene in the Spanish Civil War, or encourage non-interference by other parties. If it opts to encourage non-interference, success will give it a stability boost. If it opts to interfere, however, it will unlock a series of decisions - said decisions will boost war support; after getting war support to a certain level, France can opt to intervene directly in the Spanish Civil War. By default, it can only intervene on the side of the Republicans, but should it change ideologies, France can instead opt to intervene on the side of the Nationalists, the Carlists, the Falangists, or the Communists. Interestingly, the way these decisions are coded makes it entirely possible for a Fascist France to intervene on the side of Republican Spain and also drag the Axis in.
+
+If Germany goes down its historic tree, France can opt to mobilize in response to the remilitarization of the Rhineland (taking this decision has a steep cost in political power and stability; note that France can only object if Germany completes the Remilitarize the Rhineland focus; if Germany remilitarizes the Rhineland by going to war, France cannot object). If the UK supports France, France (and any puppets France has at the time) will join the Allies, and if the Germans refuse to back down, when France goes to war, a civil war will break out. If the UK refuses to back up France, however, France can either opt to oppose Germany itself (which will also trigger a civil war) or it can back down. If Germany does back down in response to either instance, not only will the Rhineland remain demilitarized, but it will also give them a negative debuff that will lock off Anschluss for 1 year (additionally, when Germany does go to war, this will mean that the Rhineland will be unprotected by German troops for a while). Similarly, France can act differently in response to German demands for the Sudetenland than the UK; if the UK agrees to let Germany have the Sudetenland, France can either agree with the UK, which will also cancel its guarantee of Yugoslavia, or refuse to go along with the UK and form a faction with Czechoslovakia. However, if the UK refuses to let Germany have the Sudetenland, France can either opt to stay out of the conflict (which will cancel their guarantees of Czechoslovakia and Yugoslavia), or it can reaffirm its support (if the UK is not in a faction already but France is in one, the UK is added to France's faction and vice-versa; however, if both France and the UK are in separate factions, then France will guarantee Czechoslovakia). Similarly, if Germany overthrows Hitler and opts to restore the Kaiser, France can raise an objection to the Return of Kaiser Wilhelm II (the AI will usually limit its response based on how much tension Germany has generated); similar to the remilitarization of the Rhineland, the UK can opt to support or not support France, and Germany can either choose to continue ahead or compromise and instead install Wilhelm III as Kaiser. This will give them a similar debuff, but unlike the Rhineland Challenge Met debuff, none of Germany's focuses will be blocked.
+
+If France is capitulated by a non-democratic Germany, and Germany is still at war with another major in the same faction as France, Germany can opt to set up an unofficial government in France - what government this is will depend on what ideology Germany is at the time. If Germany is Fascist, it will establish Vichy France. However, if Germany has restored the Kaiser, it will instead establish Bourbon France, although unlike what happens if France manually restores the monarchy, this Bourbon France will not have a king in charge (France will also become Bourbon France if it becomes a puppet of a non-aligned government). Alternatively, if France is Democratic and aligned with the UK (the UK can be any ideology), France can instead propose joining the two countries in the Franco-British Union - this decision will end the game for the French Player if the UK accepts, but in return, the British player will gain all existing French cores (this can include any gained through other methods), all French Units, Ships, Generals, Admirals, and equipment; while the Union can remain afterwards if the British player opts not to let France go independent when the Union is at peace, they will lose all French cores and generals/admirals if they choose to do so.
+
+France can form the European Union if Democratic, and if it has La Résistance , can also form the Kingdom of Franco-Spain if it goes Legitimist, and Spain also goes Carlist (on historical, the Carlists will almost never spawn if the player is not in charge of Spain and will only spawn on historical if Franco does not secure the North in time; unlike with Spain, France can form the Kingdom of Franco-Spain even if Spain has a different king) - if Spain was to obtain any other cores, France would also gain said cores (Gibraltar if the UK decolonizes or Spain forms Iberia, and any Portuguese cores gained by Spain as a result of forming Iberia - this can include Brazil, Angola, and Mozambique if Portugal was able to core those territories). Through the focus "The Blum-Violette Proposal", France can gain cores on Northern Algeria. Additionally, through the focus "French Union", France can gain cores on any of their colonies in Africa, the Middle East, or Indochina, although the cores gained will differ as the outcome is always random - interestingly, if Morocco, Algeria, or Tunisia was to form Andalusia, then be re-conquered by France, it can still agree to be cored through French Union, which would result in France gaining all cores that Morocco had (hypothetically, the same would be true for Arabia if Lebanon or Syria were to form the nation, be re-conquered by France, and then agree to be cored through French Union), although this would be slightly redundant if Legitimist France was to do so, as Andalusia requires Spain and Portugal to be formed) - note that the Blum-Violette proposal would not grant France cores on Andalusia if formed this method, as said focus is fixed in regards to what cores it grants.
+
+### Diplomatic rules
+
+{| class="wikitable"
+|-
+! Rule !! Whether it applies !! Reason
+|-
+|Can declare war on country of the same ideology group without a war goal || No || Democracy
+|-
+|Can Guarantee other Ideologies || Yes || Democracy
+|-
+|Can create Factions || No || No National Spirit. Requires National Focus
+|-
+|Lowers World Tension with Guarantees || Yes || Democracy
+|-
+|Can puppet a country || No || Democracy
+|-
+|Can justify wargoals against a country that have not generated world tension || No || Democracy
+|-
+|Can create collaboration governments || No || Democracy
+|}
+
+# Staff and designers
+## Personnel [verified for 1.17]
+
+Ministers and military staff of France.
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Political Advisors
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Maurice Thorez
+| communist_revolutionary
+ La Résistance If ruling party is not Communist : Get event Protests descend into violence
+|
+- One of the following must be true:
+ - Has completed focus Leftist Rhetoric
+ - Has completed focus Invite Communist Ministers
+- Philippe Pétain is not the country leader.
+- Is not Supervised State
+| align="center"| 150
+|-
+|
+| Léon Blum
+| democratic_reformer
+|
+- Philippe Pétain is not the country leader.
+- Is not Supervised State
+| align="center"| 150
+|-
+|
+| Marcel Bucard
+| fascist_demagogue
+ La Résistance If ruling party is not Fascist : Get event Protests descend into violence
+|
+- One of the following must be true:
+ - Has completed focus Right Wing Rhetoric
+ - Has completed focus Utilize the Leagues
+- Is not Supervised State
+| align="center"| 150
+|-
+|
+| Marcel Déat
+| FRA_neo_jacobin
+|
+- One of the following must be true:
+ - Current ruling party is Fascist
+ - Current ruling party is Non-Aligned
+| align="center"| 150
+|-
+|
+| René Massigli
+| hawk
+|
+- Has completed focus Confirm Eastern Commitments
+- Current ruling party is Democratic
+| align="center"| 75
+|-
+|
+| Georges Bonnet
+| appeaser
+|
+- Has completed focus Buy Time
+- Current ruling party is Democratic
+| align="center"| 75
+|-
+|
+| Charles Maurras
+| national_integralist
+| La Résistance
+- One of the following must be true:
+ - Has completed focus Integralism
+ - Has completed focus Orléanist Restoration
+- One of the following must be true:
+ - Current ruling party is Fascist
+ - Current ruling party is Non-Aligned
+| align="center"| 75
+|-
+|
+| Philippe Henriot
+| propaganda_expert
+| La Résistance
+- One of the following must be true:
+ - Has completed focus National Regeneration
+ - Current ruling party is Fascist
+| align="center"| 75
+|-
+|
+| Pierre Pucheu
+| technocrat
+|
+- Current ruling party is not Communist
+| align="center"| 150
+|-
+|
+| Georges Valois
+| FRA_national_syndicalist
+|
+- One of the following must be true:
+ - Current ruling party is Fascist
+ - Current ruling party is Non-Aligned
+| align="center"| 150
+|-
+|
+| Gaston Henry-Haye
+| silent_workhorse
+
+| align="center"| 150
+|-
+|
+| Jacques Duclos
+| backroom_backstabber
+
+| align="center"| 150
+|-
+|
+| Paul Baudouin
+| smooth_talking_charmer
+
+| align="center"| 150
+|-
+|
+| Vincent Auriol
+| financial_expert
+|
+- Has completed focus Form the Popular Front
+| align="center"| 150
+|-
+|
+| Roger Salengro
+| compassionate_gentleman
+|
+- Has completed focus Form the Popular Front
+| align="center"| 150
+|-
+|
+| Zinovy Peshkov
+| war_industrialist
+
+| align="center"| 150
+|-
+|
+| Félix Gouin
+| captain_of_industry
+
+| align="center"| 150
+|-
+|
+| Charles Tillon
+| armaments_organizer
+
+| align="center"| 150
+|-
+|
+| Paul Reynaud
+| quartermaster_general
+
+| align="center"| 150
+|-
+|
+| Maurice-Henri Gauché
+| head_of_intelligence
+| La Résistance
+- Has created an Intelligence Agency
+| align="center"| 150
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Theorists
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|-
+|
+| Maxime Weygand
+| military_theorist
+|
+- One of the following must be true:
+ - Has completed focus Defensive Focus
+ - Is Vichy France
+|-
+|
+| Charles de Gaulle
+| blitzkrieg_theorist
+|
+- Has completed focus Battle of Maneuver
+| align="center"| 100
+|-
+|
+| Henri Giraud
+| military_theorist
+
+| align="center"| 100
+|-
+|
+| Victor Denain
+| assault_avaition
+
+| align="center" | 150
+|-
+|
+| Jean Decoux
+| naval_theorist
+
+| align="center"| 100
+|-
+|
+| Jean-Marie Bergeret
+| air_warfare_theorist
+
+| align="center" | 100
+|-
+|
+| Louis Kahn
+| grand_fleet_proponent
+
+| align="center" | 150
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Chief of Army
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Maurice Gamelin
+| army_chief_offensive_2
+|
+- Has completed focus Aggressive Focus
+- Is not Vichy France
+| align="center" | 100
+|-
+|
+| Maxime Weygand
+| army_chief_defensive_2
+|
+- One of the following must be true:
+ - Has completed focus Defensive Focus
+ - Is Vichy France
+| align="center" | 100
+|-
+|
+| Alphonse Georges
+| army_chief_maneuver_1
+|
+- Is not Vichy France
+| align="center" | 50
+|-
+|
+| Henri Marie Auguste Bineau
+| army_chief_offensive_1
+
+| align="center" | 50
+|-
+|
+| Pierre Alombert Goget
+| army_chief_defensive_1
+
+| align="center" | 50
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Chief of Navy
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| François Darlan
+| navy_chief_decisive_battle_2
+
+| align="center" | 100
+|-
+|
+| Marcel Gensoul
+| navy_chief_naval_aviation_1
+
+| align="center" | 50
+|-
+|
+| Jean-Marie Abrial
+| navy_chief_commerce_raiding_2
+
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Chief of Airforce
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Joseph Vuillemin
+| air_chief_ground_support_1
+
+| align="center" | 50
+|-
+|
+| Robert Odic
+| air_chief_all_weather_1
+
+| align="center" | 50
+|-
+|
+| Phillipe Féquant
+| air_chief_reform_2
+
+| align="center" | 100
+|-
+|
+| Jean C. Romatet
+| air_chief_old_guard
+|
+- Is Vichy France
+| align="center" | 50
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 46em; text-align: left;" | Military High Command
+! class="unsortable" | Portrait
+! Name
+! Traits
+! class="unsortable" | Effects
+! class="unsortable" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Philippe Leclerc
+| army_commando_2
+
+| align="center" | 100
+|-
+|
+| Charles Huntziger
+| army_logistics_1
+
+| align="center" | 50
+|-
+|
+| René-Emile Godfroy
+| navy_screen_2
+|
+- Is not Vichy France
+| align="center" | 100
+|-
+|
+| Jean de Laborde
+| navy_capital_ship_1
+
+| align="center" | 50
+|-
+|
+| Martial Valin
+| air_air_superiority_2
+
+| align="center" | 100
+|-
+|
+| Jean-Francois Jannekeyn
+| air_tactical_bombing_2
+
+| align="center" | 100
+|-
+|
+| Émile Muselier
+| navy_fleet_logistics_2
+
+| align="center" | 100
+|-
+|
+| Alfred Heurtaux
+| air_air_combat_training_2
+
+| align="center" | 100
+|-
+|
+| René Prioux
+| army_cavalry_2
+
+| align="center" | 100
+|-
+|
+| Joseph Doumenc
+| army_regrouping_1
+|
+- Is Vichy France
+| align="center" | 100
+|-
+|
+| Émile Laure
+| army_cavalry_1
+|
+- Is Vichy France
+| align="center" | 100
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ style="width: 46em; text-align:left;" | Field Marshals
+! class="unsortable" | Portrait
+! Name
+!
+Skill
+!
+ATK
+!
+DEF
+!
+PLN
+!
+LOG
+! class="unsortable" | Traits
+! class="unsortable" | Requirements
+|-
+|
+| align="left" | Alphonse Georges
+| 3 || 2 || 2 || 4 || 2
+| align="left" | Old Guard
+ Cautious
+ Defensive Doctrine
+|
+- Is not Vichy France
+|-
+|
+| align="left" | Antoine-Marie-Benoît Besson
+| 2 || 1 || 2 || 2 || 2
+| align="left" | Old Guard
+ Defensive Doctrine
+|
+- Is not Vichy France
+|-
+|
+| align="left" | Maurice Gamelin
+| 2 || 1 || 4 || 2 || 2
+| align="left" | Old Guard
+ Inflexible Strategist
+ Career Officer
+ Defensive Doctrine
+|
+- Is not Vichy France
+|-
+|
+| align="left" | Maxime Weygand
+| 3 || 3 || 4 || 2 || 3
+| align="left" | Old Guard
+ Inflexible Strategist
+ Career Officer
+ Defensive Doctrine
+
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ style="width: 46em; text-align:left;" | Generals
+! class="unsortable" | Portrait
+! Name
+!
+Skill
+!
+ATK
+!
+DEF
+!
+PLN
+!
+LOG
+! class="unsortable" | Traits
+! class="unsortable" | Requirements
+|-
+|
+| align="left" | Alphonse Juin
+| 4 || 3 || 2 || 4 || 4
+| align="left" | Career Officer
+ Cautious
+ Armor Officer
+
+|-
+|
+| align="left" | Charles De Gaulle
+| 4 || 5 || 4 || 3 || 2
+| align="left" | Media Personality
+ Harsh Leader
+ Armor Officer
+
+|-
+|
+| align="left" | Charles Huntziger
+| 3 || 3 || 1 || 3 || 3
+| align="left" | Old Guard
+ Infantry Officer
+
+|-
+|
+| align="left" | Gaston-Henri Billotte
+| 2 || 1 || 3 || 1 || 2
+| align="left" | Old Guard
+ Cautious
+ Infantry Officer
+|
+- Is not Vichy France
+|-
+|
+| align="left" | Henri Giraud
+| 3 || 2 || 2 || 4 || 2
+| align="left" | Career Officer
+ Cautious
+ Infantry Officer
+ Trickster
+
+|-
+|
+| align="left" | Henry Freydenberg
+| 2 || 1 || 2 || 2 || 2
+| align="left" | Old Guard
+ Infantry Officer
+|
+- Is not Vichy France
+|-
+|
+| align="left" | Jean de Lattre de Tassigny
+| 4 || 5 || 2 || 5 || 3
+| align="left" | Brilliant Strategist
+ Cavalry Officer
+ War Hero
+ Trickster
+
+|-
+|
+| align="left" | Philippe Leclerc
+| 3 || 3 || 2 || 2 || 3
+| align="left" | Career Officer
+ Reckless
+ Armor Officer
+
+|-
+|
+| align="left" | René Olry
+| 3 || 2 || 4 || 2 || 2
+| align="left" | Old Guard
+ Infantry Officer
+ Mountaineer
+
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ style="width: 46em; text-align:left;" | Admirals
+! class="unsortable" | Portrait
+! Name
+!
+Skill
+!
+ATK
+!
+DEF
+!
+MNV
+!
+COR
+! class="unsortable" | Traits
+! class="unsortable" | Requirements
+|-
+|
+| align="left" | François Darlan
+| 3 || 2 || 2 || 3 || 3
+| align="left" | Bold
+ Naval Lineage
+ Superior Tactician
+
+|-
+|
+| align="left" | Jean de Laborde
+| 1 || 1 || 1 || 1 || 1
+| align="left" | Aviation Enthusiast
+ Naval Lineage
+
+|-
+|
+| align="left" | Jean-Marie Charles Abrial
+| 3 || 2 || 3 || 3 || 2
+| align="left" | Chief Engineer
+ Superior Tactician
+
+|-
+|
+| align="left" | Jean-Pierre Esteva
+| 2 || 1 || 2 || 2 || 2
+| align="left" | Aviation Enthusiast
+
+|-
+|
+| align="left" | René-Émile Godfroy
+| 2 || 2 || 1 || 2 || 2
+| align="left" | Old Guard
+ Gentlemanly
+ Battleship Adherent
+ Spotter
+|
+- Is not Vichy France
+|}
+
+## Companies [verified for 1.14]
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Industrial concerns
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| FAMH
+| industrial_concern
+- Industrial Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Société Française Radio-Électrique
+| Electronics Concern
+|
+- Electronics Research Speed: +15%
+
+| align="center" | 150
+|}
+
+### Designers
+ Arms Against Tyranny
+Design companies of France.
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Tank designers
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Renault
+| heavy_tank_manufacturer
+- Armor Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| AMX
+| fast_tank_manufacturer
+- Armor Research Speed: +15%
+
+|
+- Has completed focus FRA_army_reform
+| align="center" | 150
+|-
+|
+| Hotchkiss
+| infantry_tank_manufacturer
+- Armor Research Speed: +15%
+
+|
+- Has completed focus FRA_infantry_tanks
+| align="center" | 150
+|-
+|
+| APX
+| medium_tank_manufacturer
+- Armor Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Panhard
+| armored_car_manufacturer
+- Armor Research Speed: +15%
+
+|
+ La Résistance
+| align="center" | 150
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Ship designers
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| FCM
+| mediterranean_naval_manufacturer
+- Naval Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| AEB
+| convoy_escort_naval_manufacturer
+- Naval Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| ACL
+| atlantic_fleet_naval_manufacturer
+- Naval Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| ACF
+| raiding_fleet_naval_manufacturer
+- Naval Research Speed: +15%
+
+| align="center" | 150
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Aircraft designers
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| Morane-Saulnier
+| light_aircraft_manufacturer
+- Air Research Speed: +10%
+
+| align="center"| 150
+|-
+|
+| Bloch
+| medium_aircraft_manufacturer
+- Air Research Speed: +10%
+
+| align="center" | 150
+|-
+|
+| Amiot
+| heavy_aircraft_manufacturer
+- Air Research Speed: +10%
+
+| align="center" | 150
+|-
+|
+| Levasseur
+| naval_aircraft_manufacturer
+- Air Research Speed: +10%
+
+| align="center" | 150
+|-
+|
+| SNCAN
+| heavy_aircraft_manufacturer
+- Air Research Speed: +20%
+
+|
+- Formed SNCAN
+- Has completed focus FRA_reorganize_the_aviation_industry
+| align="center" | 150
+|-
+|
+| SNCAO
+| medium_aircraft_manufacturer
+- Air Research Speed: +20%
+
+|
+- Formed SNCAO
+- Has completed focus FRA_reorganize_the_aviation_industry
+| align="center" | 150
+|-
+|
+| SNCASE
+| light_aircraft_manufacturer
+- Air Research Speed: +20%
+
+|
+- Formed SNCASE
+- Has completed focus FRA_reorganize_the_aviation_industry
+| align="center" | 150
+|-
+|
+| SNCASO
+| naval_aircraft_manufacturer
+- Air Research Speed: +20%
+
+|
+- Formed SNCASO
+- Has completed focus FRA_reorganize_the_aviation_industry
+| align="center" | 150
+|-
+|
+| SNCAC
+| aircraft_manufacturer
+- Air Research Speed: +30%
+|
+- Has reorganized the Aviation Industry
+- Has completed focus FRA_reorganize_the_aviation_industry
+| align="center" | 150
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 30em; text-align: left;" | Materiel designers
+! class = "unsortable" style = "width: 1px;" | Logo
+! style = "width: 10em;" | Name
+! style = "width: 10em;" | Type
+! style = "width: 25em;" | Effects
+! style = "width: 25em;" | Requirements
+! style = "width: 1px;" | Cost ( political power )
+|-
+|
+| SOMUA
+| motorized_equipment_manufacturer
+- Motorization Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| MAS
+| infantry_equipment_manufacturer
+- Weapons and Equipment Research Speed: +15%
+
+| align="center" | 150
+|-
+|
+| Schneider
+| artillery_manufacturer
+- Artillery Research Speed: +15%
+
+| align="center" | 150
+|}
+
+### Organizations
+ Arms Against Tyranny
+France has access to these Military industrial organizations.
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Tank organizations
+|
+
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Ship organizations
+|
+
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Plane organizations
+|
+
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 307px; text-align: left;" | Materiel organizations
+|
+
+|}
+
+# Economy
+## Laws [verified for 1.17]
+
+France starts with the following laws:
+
+1936
+
+Limited Conscription
+1939
+
+Limited Conscription Partial Mobilization
+
+## Industry [verified for 1.17]
+
+{| class="wikitable" style="text-align: center"
+|+
+! style="width: 10%" |
+Year
+! style="width: 13%" | Military factory
+Military Factories
+! style="width: 13%" | Naval dockyard
+Naval Dockyards
+! style="width: 13%" | Civilian factory
+Civilian Factories
+! style="width: 13%" | Fuel Silo
+Fuel Silos
+! style="width: 13%" | Refinery
+Refineries
+! style="width: 13%" | Building Slot
+Building Slots
+|-
+| 1936
+| 8
+| 11
+| 32 (-14)
+| 1
+| 0
+| 195
+|}
+- Numbers in red indicate the number of civilian factories required to produce consumer goods, based on economy laws and the total number of military and civilian factories, rounded up.
+
+## Resources [verified for 1.17]
+
+{| class="wikitable" style="text-align: center"
+|+
+! style="width: 9%" |
+Year
+! style="width: 13%" | oil
+Oil
+! style="width: 13%" | aluminum
+Aluminum
+! style="width: 13%" | rubber
+Rubber
+! style="width: 13%" | tungsten
+Tungsten
+! style="width: 13%" | steel
+Steel
+! style="width: 13%" | chromium
+Chromium
+! style="width: 13%" | coal
+Coal
+|-
+| 1936
+| 0
+| 361 (-180)
+| 84 (-42)
+| 37 (-18)
+| 549 (-274)
+| 152 (-76)
+| 94 (-47)
+|}
+- These numbers represent the available resources one hour into the game. Numbers in red indicate how many resources are reserved for export due to trade laws.
+
+# Military [verified for 1.17]
+
+## Army
+{| class="wikitable sortable" style="width: 300px;"
+|+ style="color:black;"| Army of France
+! width=1% class="unsortable" | !! width=80% | Type !! width=15% | # 1936 !! | # 1939
+|-
+| || Infantry
+| align="center" | 51
+| align="center" | 81
+|-
+| || Mountaineers
+| align="center" | 4
+| align="center" | 7
+|-
+| || Cavalry
+| align="center" | 6
+| align="center" | 5
+|-
+| || Motorized Infantry
+| align="center" colspan="2" | 7
+|-
+| || Light Tank
+| align="center" | 6
+| align="center" | 5
+|-
+| || Medium Tank
+| align="center" | 0
+| align="center" | 2
+|-
+| || Heavy Tank
+| align="center" | 0
+| align="center" | 4
+|-
+! !! style="text-align: left;" | Total divisions || 74 || 115
+|-
+! !! style="text-align: left;" | Manpower used || 576.90K || 920.40K
+|}
+
+France has 74 divisions in 1936, but many of those are colonial divisions with only six infantry battalions, and their armored divisions are basically brigades.
+
+France relies on the heavy fortifications at the border with Germany, the Maginot Line to defend them. With its far-flung and vast colonial possessions, defending them against attack will require a higher concentration of light, fast forces compared to Metropole defense.
+
+In terms of technology, France has a good head start on mechanized, motorized and tank forces with only a little catch-up for infantry weapons. The problem with fielding a modern army will be expanding France's production base, which is both extremely limited and faced with the prospect of crippling manpower shortages in the very near future in 1936.
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | Division composition list
+! Division !! Name list !! # 1936 !! # 1939 !! Support companies !! Combat battalions
+|-
+| Division d'Infanterie* || Infantry Division || 19 || 0 || || 9x
+|-
+| Division d'Infanterie^ || Infantry Division || 0 || 53 || || 9x
+|-
+| Division Coloniale || Colonial Division || 9 || 16 || || 9x
+|-
+| Division d'Infanterie Motorisée* || Motorized Division || 7 || 0 || || 9x
+|-
+| Division d'Infanterie Motorisée^ || Motorized Division || 0 || 7 || || 9x
+|-
+| Division d'Infanterie Alpine* || Mountain Division || 4 || 0 || || 12x
+|-
+| Division d'Infanterie Alpine^ || Mountain Division || 0 || 7 || || 9x
+|-
+| Division de Cavalerie || Cavalry Division || 6 || 5 || || 4x
+|-
+| Division Légère Mécanique* || Light Mechanized Division || 1 || 0 || || 2x 4x
+|-
+| Division Légère Mécanique^ || Light Mechanized Division || 0 || 2 || || 2x 2x 3x
+|-
+| Brigade de Chars de Combat || Armored Division || 5 || 9 || || 4x
+|-
+| Brigade Coloniale* || Colonial Division || 23 || 0 || || 6x
+|-
+| Brigade Coloniale^ || Colonial Division || 0 || 7 || || 4x
+|-
+| Division Forteresse^ || Garrison Division || 0 || 5 || || 9x
+|-
+| Brigade Cuirassée^ || Tank Brigade || 0 || 4 || || 2x
+|-
+| colspan="6" | * marks a division that is removed in the 1939 start.
+^ marks a division that is only available in the 1939 start.
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | No Step Back Tank variants list
+! Type !! Chassis !! Role !! Main Armament !! Turret !! Suspension !! Armor (level) !! Engine (level) !! Special Modules
+|-
+| FCM 36^ || Improved Light || Light Tank || Small Cannon || One Man || Bogie || Welded (4) || Diesel (2) || Sloped Armor
+|-
+| Char B1 || Basic Heavy || Heavy Tank || Medium Howitzer || Superstructure || Bogie || Riveted (4) || Gasoline (6) || Basic Radio, Secondary Cannon Turret
+|-
+| Char B1bis^ || Basic Heavy || Heavy Tank || Medium Howitzer || Superstructure || Bogie || Riveted (6) || Gasoline (6) || Basic Radio, Secondary Cannon Turret
+|-
+| AMC 35^ || Basic Medium || Medium Tank || Improved Small Cannon || Two Man || Bogie || Welded (3) || Gasoline (4) ||
+|-
+| H-35 || Basic Light || Light Tank || Small Cannon || One Man || Bogie || Cast (4) || Gasoline (2) ||
+|-
+| SOMUA S35 || Inter-War Medium || Medium Tank || Improved Small Cannon || One Man || Bogie || Welded (5) || Gasoline (4) || Basic Radio
+|-
+| FT mod. 31* || Inter-War Light || Light Tank || Heavy Machine Gun || One Man || Bogie || Riveted (2) || Gasoline (1) ||
+|-
+| FT Char Cannon* || Inter-War Light || Light Tank || Small Cannon || One Man || Bogie || Riveted (2) || Gasoline (1) ||
+|-
+| colspan="9" | * marks a variant as "outdated".
+^ marks a variant that is only available in the 1939 start.
+|}
+
+## Navy
+{| class="wikitable sortable" style="width: 300px;"
+|+ style="color:black;"| Navy of France
+! width=1% class="unsortable" | !! width=80% | Type !! width=15% | # 1936 !! | # 1939
+|-
+| || Carrier
+| align="center" colspan="2" | 1
+|-
+| || Battlecruiser
+| align="center" | 0
+| align="center" | 2
+|-
+| || Battleship
+| align="center" colspan="2" | 5
+|-
+| || Heavy Cruiser
+| align="center" colspan="2" | 7
+|-
+| || Light Cruiser
+| align="center" | 7
+| align="center" | 12
+|-
+| || Destroyer
+| align="center" | 52
+| align="center" | 70
+|-
+| || Submarine
+| align="center" | 63
+| align="center" | 77
+|-
+| || Convoy
+| align="center" colspan="2" | 300
+|-
+! !! style="text-align: left;" | Total ships || 135 || 174
+|-
+! !! style="text-align: left;" | Manpower used || 60.00K || 80.85K
+|}
+
+France boasts a somewhat modern - if badly understrength - fleet. Whilst the Marine Nationale is strong enough to decisively defeat either the Kriegsmarine or the Regia Marina alone, it would have no chance against a combined Axis fleet. As with her tanks, France begins the game with modern naval technology, such as 1936 BB, DD and SS techs and two unique designs: La Fantasque, a destroyer model with tier 3 (1940) engines, and the Surcouf Class submarine with 3 custom slots. Many of these designs are clearly aimed against an anti-surface role, prioritizing fast, lightly-armored ships with minimal ASW capability and strong scouting capabilities. However, poor naval infrastructure and low shipbuilding priority means that constructing a large modern fleet is not easy, and in fact can often be counter-productive in that it denies vital raw materials from tank and motorized production.
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | Naval units list
+! Type !! Class !! Hull !! Engine !! # 1936 !! 1936 !! # 1939 !! 1939 !! Design note
+|-
+|CV || Béarn || Converted Battleship || Heavy I || 1 || || 1 || || 2x Hangar Space, Secondary Battery I, Anti-Air I
+|-
+|CV || Joffre || Basic Carrier || Carrier II || || || || || 2x Hangar Space, Dual-Purpose Secondary Battery III, Anti-Air I
+|-
+|BB || Bretagne || Early Heavy Ship || Heavy I || 3 || || 3 || || 2x Heavy Battery I, 2x Secondary Battery I, 2x Anti-Air I, Fire Control 0, Battleship Armor I
+|-
+|BB || Courbet* || Early Heavy Ship || Heavy I || 2 || || 2 || || 2x Heavy Battery I, 3x Secondary Battery I, Anti-Air I, Fire Control 0, Battleship Armor I
+|-
+|BC || Richelieu || Basic Heavy Ship || Heavy II || || 1 || || 2 || 2x Heavy Battery II, 2x Secondary Battery II, 2x Anti-Air I, Fire Control 0, Battlecruiser Armor II, Floatplane Catapult I
+|-
+|BC || Dunkerque || Basic Heavy Ship || Heavy II || || 1 || 2 || || 2x Heavy Battery I, 2x Secondary Battery I, 2x Anti-Air I, Fire Control 0, Battlecruiser Armor II, Floatplane Catapult I
+|-
+|CA || Algérie || Early Cruiser || Cruiser II || 1 || || 1 || || 2x Medium Battery I, 2x Anti-Air I, Fire Control 0, Cruiser Armor I, Floatplane Catapult I
+|-
+|CA || Suffren* || Early Cruiser || Cruiser II || 6 || || 6 || || 2x Medium Battery I, Anti-Air I, Fire Control 0, Cruiser Armor I, Torpedo Launcher I, Floatplane Catapult I
+|-
+|CL || Duguay-Trouin* || Early Cruiser || Cruiser II || 5 || || 5 || || 2x Light Cruiser Battery I, Anti-Air I, Fire Control 0, Torpedo Launcher I, Floatplane Catapult I
+|-
+|CL || La Galissonnière || Early Cruiser || Cruiser II || 1 || 4 || 6 || || 2x Light Cruiser Battery II, 2x Anti-Air I, Fire Control 0, Cruiser Armor I, Floatplane Catapult I
+|-
+|CL || Émile Bertin || Early Cruiser || Cruiser II || 1 || || 1 || || 2x Light Cruiser Battery II, 2x Anti-Air I, Fire Control 0, Minelaying Rails
+|-
+|DD || Bourrasque* || Early Destroyer || Light I || 26 || || 26 || || Light Battery I, Anti-Air I, Fire Control 0, 2x Torpedo Launcher I
+|-
+|DD || Chacal* || Early Destroyer || Light II || 24 || || 24 || || Light Battery I, Anti-Air I, Fire Control 0, 2x Torpedo Launcher I, Depth Charge I
+|-
+|DD || Le Fantasque || Early Destroyer || Light III || 2 || 4 || 18 || || Light Battery II, Anti-Air I, Fire Control 0, Torpedo Launcher I, Torpedo Launcher II, Depth Charge I
+|-
+|DD || Le Hardi^ || Basic Destroyer || Light II || || || || 6 || Light Battery III, Anti-Air I, Fire Control 0, 2x Torpedo Launcher II, Depth Charge I
+|-
+|DD || Mogador^ || Basic Destroyer || Light II || || || 2 || || 2x Dual-Purpose Main Battery II, Anti-Air I, Fire Control 0, Torpedo Launcher II, Depth Charge I
+|-
+|SS || 600 Series* || Early Submarine || Submarine I || 19 || || 19 || || Torpedo Tubes I
+|-
+|SS || 630 Series* || Early Submarine || Submarine I || 16 || || 16 || || Torpedo Tubes I
+|-
+|SS || Minerve || Early Submarine || Submarine II || || 4 || 6 || || 2x Torpedo Tubes I
+|-
+|SS || Redoutable || Basic Submarine || Submarine II || 21 || 7 || 29 || || 2x Torpedo Tubes I
+|-
+|SS || Saphir* || Early Submarine || Submarine I || 6 || || 6 || || Torpedo Tubes I, Minelaying Tubes
+|-
+|SS || Aurore^ || Basic Submarine || Submarine II || || || || 1 || 2x Torpedo Tubes II
+|-
+|SS || Surcouf || Cruiser Submarine || Submarine II || 1 || || 1 || || Torpedo Tubes II, Floatplane Catapult I, Light Battery I
+|-
+| colspan="9" | * marks a variant as "outdated".
+^ marks a variant that is only available in the 1939 start.
+
+Ship type terminology:
+- CV - Carrier
+- BB - Battleship
+- BC - Battlecruiser
+- CA - Heavy cruiser
+- CL - Light cruiser
+- DD - Destroyer
+- SS - Submarine
+|}
+
+## Air force
+{| class="wikitable sortable" style="width: 400px;"
+|+ style="color:black;"| Air force of France
+! width=1% class="unsortable" | !! width=80% | Type !! width=15% | hoi4 1936 !! | By Blood Alone 1936 !! | hoi4 1939 !! | By Blood Alone 1939
+|-
+| || Fighter
+| align="center" colspan="2" | 452
+| align="center" | 630
+| align="center" | 666
+|-
+| || Close Air Support
+| align="center" colspan="2" | 0
+| align="center" | 66
+| align="center" | 56
+|-
+| || Naval Bomber
+| align="center" colspan="2" | 44
+| align="center" | 48
+| align="center" | 58
+|-
+| || Heavy Fighter
+| align="center" colspan="2" | 0
+| align="center" | 36
+| align="center" | 0
+|-
+| || Tactical Bomber
+| align="center" | 204
+| align="center" | 120
+| align="center" colspan="2" | 178
+|-
+| || Strategic Bomber
+| align="center" | 0
+| align="center" | 84
+| align="center" colspan="2" | 12
+|-
+! !! style="text-align: left;" | Total planes || 700 || 700 || 970 || 970
+|-
+! !! style="text-align: left;" | Manpower used || 18.08K || 21.44K || 24.40K || 23.68K
+|}
+
+France starts 1939 with a small, but modern air force.
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+ style="width: 55em; text-align: left;" | By Blood Alone Aircraft variants list
+! Type !! Airframe !! Role !! Main Armament !! Secondary Weapons !! Engine !! Special Modules
+|-
+| M.B. 200* || Inter-War Medium || Tactical Bomber || Medium Bomb Bay || || 2x Engine I || Light MG Defense Turret
+|-
+| F.222 || Inter-War Large || Strategic Bomber || Large Bomb Bay || || 4x Engine II || Light MG Defense Turret
+|-
+| Amiot 143 || Inter-War Medium || Tactical Bomber || Medium Bomb Bay || Bomb Locks || 2x Engine II || Light MG Defense Turret
+|-
+| Latécoère 296 || Inter-War Small || Naval Bomber || Light Torpedo Mountings || || 1x Engine I || Floats
+|-
+| D.510 || Inter-War Small || Fighter || 2x Light Machine Gun || 1x Cannon I || 1x Engine II ||
+|-
+| PL.7* || Inter-War Carrier || Naval Bomber || Light Torpedo Mountings || || 1x Engine I || Light MG Defense Turret
+|-
+| D.371* || Inter-War Carrier || Fighter || 4x Light Machine Gun || || 1x Engine I ||
+|-
+| D.500* || Inter-War Small || Fighter || 4x Light Machine Gun || || 1x Engine I ||
+|-
+| NiD 62* || Inter-War Small || Fighter || 2x Light Machine Gun || || 1x Engine I ||
+|-
+| Br. 19* || Inter-War Small || CAS || Bomb Locks || || 1x Engine I || Light MG Defense Turret
+|-
+| Potez 631^ || Basic Small || Fighter || 4x Light Machine Gun || 2x Cannon I || 2x Engine II || Light MG Defense Turret
+|-
+| LN.40^ || Basic Carrier || CAS || Bomb Locks || 1x Cannon I || 1x Engine II || Dive Brakes
+|-
+| Br. 693^ || Improved Small || CAS || Small Bomb Bay || 1x Cannon I, 2x Light Machine Gun || 2x Engine II || Light MG Defense Turret, Armor Plates
+|-
+| LeO 451^ || Improved Medium || Tactical Bomber || Medium Bomb Bay || || 2x Engine II || Light MG Defense Turret, Cannon Defense Turret
+|-
+| M.B. 210^ || Basic Medium || Tactical Bomber || Medium Bomb Bay || || 2x Engine II || Light MG Defense Turret
+|-
+| M.B. 152^ || Basic Small || Fighter || 2x Light Machine Gun || 2x Cannon I || 1x Engine II ||
+|-
+| M.S. 406^ || Basic Small || Fighter || 2x Light Machine Gun || 1x Cannon I || 1x Engine I ||
+|-
+| colspan="7" | * marks a variant as "outdated".
+^ marks a variant that is only available in the 1939 start.
+|}
+
+# Strategies and guides
+
+## Democratic France
+
+Historically, France elected to Form the Popular Front, the left-wing Democratic path. This puts Léon Blum in power and unlocks Reform the Labour Laws plus six more focuses that improve the economy and add free factories. Note that the Matignon Agreements can be repealed later for 50 PP but no other penalty. The right-wing Democratic path via revive the national bloc focuses on market reforms to fix the economy. Either way the priority is to get rid of your starting national spirits as soon as possible, especially Disjointed Government. Getting to strengthen government requires at least 350 days, or up to 490 via Revive the National Bloc and confirm eastern commitments. A year after taking Strengthen Government, you can take defensive stratagems to finally remove Disjointed Government. This means France will be starved for political power until 1938.
+
+For your military, France's 18-width Division d'Infanterie is good, though support anti-air is a good addition. The mountaineers and motorized infantry are also useful, but everything else can be converted to regular infantry. Medium tank divisions can be useful for encirclements but the limited military industry means you can't build more than a few armored divisions. A railway gun can be helpful for defending on the Belgian border and pushing back into Germany. Finally, building a lot of 1936 fighters is the only real counter to Germany's huge air force. The naval game doesn't matter at all. As far as strategy goes, let your enemies attack without counterattacking, then push only when your troops are at full strength while your enemies are down to 75% or so.
+
+If you go to war over Poland in mid-1939, the Axis can attack through three fronts: Alsace-Lorraine, Belgium after Germany conquers them, and Italy after they join Germany's faction. None of your other territory really matters, though you can place small forces to hold Corsica and Tunisia from the Italians. Alsace-Lorraine has level 10 forts so the Germans can't make any progress against two infantry divisions per tile. Belgium is dangerous because of the open terrain and the huge force that Germany will send this way. One option is to build forts to level 2 or 3 and then get Extend the Maginot Line to add 2 more forts to each tile. The Italian front has good defensive terrain and a weaker foe but supply is bad in Savoy, so two good choices are to build a supply hub close to the Italian border or to entrench a few tiles to the west, letting the Italians advance a little way into the unsupplied area.
+
+If you strengthen the little entente instead of joining the Allies, the war is likely to start in mid-1938 instead. This version of the war may be easier because you won't face trouble on the Belgian or Italian fronts and the Germans will be bogged down attacking Czechoslovakia. If instead France joins no factions they won't be called in for the attack on Poland but Germany will still attack in 1940.
+
+## Puppet juggling
+Release all occupied lands as Puppets in ways that would result in as many tiny states as possible. All in all it will result in more manpower - on 1936, it's going from 274.51K to 309.40K once everything is released while keeping cores. And that's just French soldiers alone; you could then make colonial divisions to steal manpower of puppets, and request control of their divisions. Just check what country has how much manpower; for example, Republic of Vietnam has lots of manpower. If we factor in every puppet, that's a lot of manpower to use. Keep in mind what Manpower of France is more valuable and less replaceable than manpower of various "banana republics". Once manpower of one of Puppets starts running low (gets to about 10-20K) - switch to another Puppet to drain; once all of them are dangerously low - start draining them to zero. Use actual fully-french divisions as last resort.
+
+These puppets will also complete Generic national focus tree; they would build up themselves, so you could focus industrial efforts as France. Releasing them earlier (or immediately) will allow for more build-up - but their templates will be starting ones, meaning crap divisions, what would in turn screw with "Steal manpower" plan. You can duplicate and edit templates of said Puppets - but you need Army Experience for that, and each Puppet has it's own templates.
+
+France should release Somali Sultanate before Italy does so - make Italy waste a little bit more of manpower. United Kingdom can't normally release Somali Sultanate, so that's not an issue.
+
+Release 1-state puppets first. Divide territories into as many tiny puppets as possible. E.G. Sokoto Caliphate must be released before Niger.
+
+The only problem, is that, likely, if France capitulates, the Free France wouldn't have direct control of Puppet banana republics. As such, if you're literally planning to lose, colonies should be kept directly. However, it's a lot easier to hold off mainland France without capitulating, than it is to re-capture mainland France and launch counter-offensive against Axis as Free France; as such, non-capitulation plan is preferable, and for it the puppet strategy is preferable.
+
+## Super Kingdom of Franco-Spain
+France has, a unique potential to gain cores on The Netherlands, Belgium, Spain, Portugal, Brazil, Germany, and Italy through incredible luck.
+
+For the first step, in forming the super Kingdom of Franco-Spain, you must put on non-historical focuses, and restart saves until Portugal does its focus Estado Novo. Once you get the news article detailing that there has been a royal marriage between Brazil and Portugal you can move on. Next step is forming the European Union. Follow the Forming the European Union steps for how to form it, but make sure to not go down any focus tree other than the monarchist branch, as well as making sure that the Carlists win the Spanish civil war and the monarchist Portuguese win their civil war and the Brazilian monarchist civil war (If they Don't fire, don't worry, that just means you don't have to help them through the civil wars). Note that you can still form the Kingdom of Franco-Spain if Carlist Spain did not win, provided that they did spawn (as you can liberate Spain to them in the peace deal), although doing so will lock you out of gaining cores on any Portuguese states.
+
+Note that one can spawn Carlist Spain on Historical if certain conditions are met (while this won't allow you to gain Brazilian Cores, you can still gain cores on all of Iberia if Spain forms that nation) - as soon as the Spanish Civil War begins, start Intervention in the Spanish Civil War and rush the decision for Volunteers. Send Tank Volunteers to Republican Spain, and use them to secure the ports in Asturias; delay for as long as possible (if Nationalist Spain does either a Methodical Approach or Caudillo of Spain after Martyrdom for Primo de Riveria instead of Consolidate the North, you're on the right track). Note that once you go to war with Germany, you'll have to recall those volunteers, so after the Carlists Spawn, delete your existing tank volunteers and immediately send some new ones to Carlist Spain (at the start of the game, France starts with 6 tank Divisions - convert all of these to the template with motorized, and you'll have several good divisions on your hands), and use them to clean up as much of the other factions as possible before going to war with the nations required for the EU.
+
+After forming the EU, you must restore the monarchy through the Légitimistes, continue down the focus tree, but before completing be sure that Spain has formed the Iberian union ( if they did the focus for the Iberian union but Portugal refused, if the save is ironman, immediately alt f4, but if on regular mode, reload to the latest auto save until Portugal accepts), Upon completing Focus to annex Spain, you should have cores on all of western Europe (Spain gets a core on Gibraltar when it forms Iberia) and Brazil (if Portugal was able to integrate Mozambique and Angola, you also gain cores on those states as well).
+
+## Little Entente
+
+This is a good route to take if the UK refuses to back you when Germany tries to remilitarize the Rhineland. You get a choice either to back down or to go to war against Germany alone. Choose to go to war. It seems like a disaster waiting to happen (low stability, poorly equipped army, low manpower, and a threat of a civil war on top of all that) but it can work out quite well. The reason is that 1936 Germany can't break through a fully manned Maginot line, it is not yet allied with Italy, and it can't stage naval invasions, so you are quite safe from them. Put half of your remaining military on the Maginot line and use the other half to end the civil war. When it is won, follow the focuses toward "Little Entente". You are in for a couple of years with dismal stats (10% stability, 0% war support, -50% construction speed, negative political power, and equipment deficits everywhere) but you won't be in any real danger. Eventually you will be able to start your own faction and invite into it, in quick succession, Czechoslovakia, Poland, Romania, the UK with its satellites, and Yugoslavia. Move all your forces except for the army guarding the Maginot line into Poland as soon as it joins. Germany will invade Czechoslovakia and may even force it to capitulate before the tide turns, Poland will be reluctant to join the war, but, once everyone is in, your combined forces will sweep through Germany east to west, very likely capitulating it before 1940.
+
+## Forming the European Union
+
+France is quite possibly the best candidate to form the European Union as if staying democratic, it can expect to end up in a defensive war against both Germany and Italy, allowing both countries to be annexed in a single peace treaty. The main problem with forming the EU as France is the inability to annex Belgium, Netherlands, and Luxembourg but this can be worked around by going down the French Entente line in the focus tree. Be sure to kick Czechoslovakia out of the faction before Sudetenland as otherwise you will end up in a war with Germany too early. Wait for Germany to capitulate all the minors on the mainland before justifying on an axis member and joining the war.
+
+Once the war starts its important to deny military access to all other belligerents and rack up massive war score on your own. The most straightforward approach would be to first neutralize Italy by launching naval invasions to encircle and destroy their troops before marching on Rome. Start in Sicily and work your way up the peninsula towards Rome. If you have land forts around level 6 or higher then the Axis nations will be very hesitant to assault your positions and you can focus on taking down Italy. Once Italy falls, be sure to quickly capitulate Germany before the Allies are able to do that. You need to have a high war score in order to pull off this strategy.
+
+Once the Axis powers are defeated and the peace treaty commences, annex the BeNeLux (Belgium, Netherlands, Luxembourg) countries in their entirety and as much of Italy and Germany in the first peace treaty as possible. Try to annex all coastal states as the Allies will not annex any states that they cannot reach. Only Italy's and Germany's starting regions are needed so a German Republic forming in Austria or an Italian Republic forming in Albania (due to Allied demands) is very convenient if you can cut then off and stop them from getting more land in the peace deal.
+
+An alternative (albeit untested) way to form the EU is to allow Hungary to become a major power and then occupy and hold the territories needed before the peace deal.
+
+If playing on multiplayer with a player-controlled Soviet Union, one method is to have them join the war and have them declare on the Benelux countries - as this will drag them into the Axis, they can be taken into the peace deal. Note that doing so may result in the UK guaranteeing them, so it's recommended that either the UK also be player-controlled, or the USSR have caused as little tension as possible (justifying on the Dutch East Indies can also help lower the tension).
+
+Lastly, it is also possible to take advantage of several random events to increase Communist support high enough and flip France to communism, allowing them to manually justify war goals on Belgium, Luxembourg and the Netherlands and annex them, then progress down the Democratic branch of the National Focus tree and drift back to Democracy and form the EU.
+
+# Achievements
+{| width=100%
+|FOCUS Big Entente: As France, complete the "Little Entente" National Focus, and have all German cores owned by you or someone in your faction.
+|}
+{| width=100%
+|FOCUS Die, Perfidious Albion!: As Fascist France or Vichy France, occupy all of Great Britain.
+|}
+{| width=100%
+|FOCUS Second Time’s the Charm: As France, occupy Moscow while Napoleon VI is your country leader.
+|}
+{| width=100%
+|FOCUS Vive la France: Reach 1948 as France without capitulating or surrendering.
+|}
+{| width=100%
+|FOCUS Vive la Jeune Ecole: As France, have at least 150 Destroyers and research the maximum torpedo launcher technology, before 1945.
+|}

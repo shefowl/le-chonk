@@ -1,0 +1,559 @@
+TITLE: Combat tactics
+URL: https://hoi4.paradoxwikis.com/Combat_tactics
+REVISION: 2025-04-19T09:41:44Z (rev 83352)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Combat tactics provide damage, movement speed, and combat width modifiers in land battles.
+
+# Tactic Selection [verified for 1.16]
+
+Tactics get re-selected every 12 hours from a weighted list of all available tactics to each side's commander. Combat can have different phases, with different tactics available in each phase.
+
+## Initiative [verified for 1.16]
+
+The side with Initiative (shown by a golden frame around that side's commander's portrait and chevrons underneath) gets to choose its tactic second and has an increased chance to counter their enemy's tactic.
+
+To determine Initiative, the leading generals' skill levels are compared. If either side has a higher reconnaissance value in one of their divisions (including reserves), it gets a bonus of +5 skill levels for this comparison, regardless of big the reconnaissance difference between the two sides is. The side with the higher effective skill level gets Initiative, with ties favoring the defender.
+
+The side losing this comparison has to pick their tactic first. This allows the side with Initiative, if a countering tactic is available, to pick it in response with increased probability. Its weight gets a bonus of +35% for every point of advantage in the skill comparison. However, the side with Initiative can still choose a tactic that will be countered by the enemy, as the weights of those tactics is not reduced from having Initiative.
+
+## Preferred Tactics [verified for 1.16]
+
+ No Step Back
+Preferred Tactics can be selected at three different levels: at the country level, at the field marshal level, and at the general level. The effects of these levels can stack with one another.
+
+Selecting a preferred tactic comes at a one-time cost 20 cp . The Flexible Organization officer corps spirit can reduce this cost.
+
+At the country level, preferred tactics can be selected at the officer corps. They can be changed at any time, though each change incurs the cp cost. If a country-level preferred tactic is selected, the selection weight of that combat tactic is increased by +25% for all commanders of that country.
+
+At the field marshal and general levels, preferred tactics can be selected in the details screen of the commander once they have reached a skill level of at least 5. Once selected, the preferred tactic of a commander cannot be changed. If a general has a preferred tactic selected, the selection weight of that combat tactic is increased by +50% for battles they are commanding. If a field marshal has a preferred tactic selected, the selection weight of that combat tactic is increased by +25% for all battles commanded by either them or generals in their army group.
+
+Certain officer corps spirits can increase this effect for certain preferred tactics, such as Static Warfare with Elastic Defense or Aggressive Reconnaissance with Infiltration Assault . This applies across all levels of preferred tactics. Some national spirits, like the one provided by RAJ_i_am_death for the British Raj, can have a similar effect.
+
+Only certain combat tactics can be selected as preferred tactics. Basic combat tactics like Assault or Counter-Attack cannot be selected as preferred tactics. Tactics only available in certain, unique phases, such as Recapture Bridge or Evade also cannot be selected as preferred tactics.
+
+# Effects [verified for 1.16]
+
+Despite what the tooltips show during battle, the attacker tactic damage and defender tactic damage do not change the soft and hard attack of divisions (i.e. their number of attacks). Instead, they directly change the amount of damage that successful hits cause.
+
+Tactics combat width affects the base combat width of a battle, but not flanking combat width.
+
+Attacking units by default have a movement penalty of -67%. The tactics movement modifiers can offset or further increase this penalty, stacking additively.
+
+Certain tactics can counter other tactics. When a tactic is countered, its effects (including potential negative ones) are completely negated.
+
+# Phases [verified for 1.16]
+
+Tactics are picked according to the current phase, with battles always starting at default. The phase may change in response to picks being made, as listed in the following sections of tactics per phase.
+## Default [verified for 1.12]
+
+Attack
+4
+Counter-Attack
++5%
+
+Assault
+Division artillery ratio > 10%
+2, in urban terrain else 0.4
+4, if commanding general has trait Aggressive Assaulter and in urban terrain else 0.8
+Counter-Attack
++25%
+Close combat
+
+Encirclement
+- Frontage filled
+- Has reserves.
+- At least 1 of the following:
+- Skill advantage is over 0.
+- Has trait Panzer Leader .
+- Has trait Trickster .
+4
+8, if at least 1 of the following:
+- Has trait Panzer Expert .
+- Has trait Combined Arms Expert .
+Tactical Withdrawal
++25%
++5%
++50%
+
+Shock
+4
+8, if commanding general has trait Aggressive Assaulter
+Delay
+Ambush
+−25%
+
+Breakthrough
+At least 1 of the following:
+- Hardness over 50%.
+- Skill advantage is over 1.
+4
+Ambush
+Backhand Blow
++25%
+−15%
++50%
+- Blitzkrieg
+- Combined Arms
+- Shock and Awe
+- Assault Breakthrough
+- Breakthrough Priority
+
+Blitz
+- Hardness over 50%.
+- Does not have the Soviet Union: The Glory of the Red Army
+- At least 1 of the following:
+- Skill is over 2.
+- Has trait Panzer Leader .
+- Skill advantage is over 1.
+4
+8, if at least 1 of the following:
+- Has trait Panzer Leader .
+- Has trait Combined Arms Expert .
+Elastic Defense
++15%
+−15%
++50%
+- Armored Spearhead
+- Mechanized Offensive
+- Mechanized Offensive
+- Mechanized Offensive
+- Armored Operations
+- Deep Operations
+
+Masterful Blitz
+- Hardness over 50%.
+- Have the Soviet Union: The Glory of the Red Army
+- At least 1 of the following:
+- Skill is over 2.
+- Has trait Panzer Leader .
+- Skill advantage is over 1.
+4
+8, if at least 1 of the following:
+- Has trait Panzer Leader .
+- Has trait Combined Arms Expert .
+Elastic Defense
+−20%
++10%
+
+Seize Bridge
+- Has combat modifier: River Crossing.
+- At least 1 of the following:
+- Skill is over 3.
+- All of the following:
+- Commanding general has trait Offensive Doctrine .
+- Skill is over 2.
+2
++20%
+−5%
+−25%
++10%
+Seize bridge
+
+Mass Charge
+- Frontage is filled.
+- Has reserves.
+4
++10%
++10%
++50%
+People's Army
+
+Banzai Charge
+Country is Japan.
+4
+Overwhelming Fire
++25%
++10%
++10%
+
+Infiltration Assault
+4
++10%
+−5%
+Infantry Offensive
+
+Well-Planned Attack
+4
++15%
+Grand Assault
+
+Relentless Assault
+4
++20%
++5%
++15%
+Large Front Operations
+
+Unexpected Thrust
+4
++15%
++15%
+Mobile Warfare
+
+Suppressive Barrage
+4
++10%
+-20%
+Superior Firepower
+
+Defend
+4
++5%
+
+Counter-Attack
+Skill advantage is over 0.
+4
+8, if commanding general has trait Unyielding Defender .
+Attack
+ Assault
++25%
+
+Delay
+4
+Shock
+−25%
+−15%
+−25%
+- Delay
+- Delay
+
+Tactical Withdrawal
+At least 1 of the following:
+- Skill advantage is over 0.
+- Has trait Trickster .
+4
+Encirclement
+−25%
+−5%
+−25%
+Tactical withdrawal
+- Tactical Control
+- Advanced Firebases
+
+Ambush
+At least 1 of the following:
+- Skill advantage is over 1.
+- Skill is over 2.
+- Has trait Trickster .
+4
+Shock
+Breakthrough
+−25%
+
+Elastic Defense
+At least 1 of the following:
+- Commanding general has trait Defensive Doctrine .
+- Skill is over 2.
+4
+Blitz
+ Masterful Blitz
+−15%
++10%
+−25%
+- Elastic Defense
+- Mobile Defense
+- Mechanized Offensive
+- Armored Operations
+- Operational Concentration
+
+Backhand Blow
+At least 1 of the following:
+- Skill is over 4.
+- All of the following:
+- Commanding general has trait Defensive Doctrine .
+- Skill is over 3.
+4
+Breakthrough
+−20%
++25%
+−30%
+- Backhand Blow
+- Continuous Offensive
+
+Hold Bridge
+- Has combat modifier: River Crossing.
+- At least 1 of the following:
+- Skill is over 2.
+- Commanding general has trait Defensive Doctrine .
+2
++20%
+−5%
+−25%
++10%
+Hold bridge
+
+Guerrilla Tactics
+At least 1 of the following:
+- Skill is over 2.
+- Has trait Trickster .
+4
+−70%
+−60%
+−50%
+- Guerrilla Warfare
+- Werwolf Guerrillas
+
+Overwhelming Fire
+2
+Banzai Charge
+−10%
++10%
+- Kampfgruppe
+- Overwhelming Firepower
+- Regimental Combat Teams
+- Assault Concentration
+- Vast Offensives
+
+Urban Defense
+In urban terrain.
+4 if province VP value > 5, otherwise 2.
+- Multiplied by 3 if has trait Urban Assault Specialist .
+- Multiplied by 1.5 if has trait Engineer .
+−5%
++5%
+−5%
+−5%
+Street fighting
+
+## Close combat [verified for 1.12]
+
+Close Quarters Attack
+4
++10%
++5%
+
+Close Quarters Storm
+2
++20%
++20%
+
+Close Quarters Withdraw
+1
+−5%
+−5%
+Default
+
+Close Quarters Defense
+4
++5%
++10%
+
+Close Quarters Local Strongpoint
+2
+−20%
+
+## Tactical withdrawal [verified for 1.12]
+
+Tactical Withdrawal Attack
+4
+−25%
+−10%
+−25%
+
+Pursuit
+4
+−15%
+−5%
+−25%
+
+Intercept
+4
+−5%
+−10%
+Default
+
+Withdrawal
+4
+−30%
+−5%
+−25%
+
+Evade
+4
+−40%
+−10%
+−25%
+
+## Seize bridge [verified for 1.12]
+
+Hold Bridge
+4
++20%
+−25%
+
+Defend Bridge
+Skill is over 4.
+4
+Recapture Bridge
++20%
+−10%
+−25%
+
+Assault Bridge
+4
+−5%
+−25%
+
+Reckless Assault
+Skill is under 3.
+4
++25%
+−10%
+−25%
+
+Recapture Bridge
+At least one of the following:
+- Skill is over 2.
+- Has trait Trickster .
+4
+Defend Bridge
++10%
+−5%
+−25%
+Hold bridge
+
+## Hold bridge [verified for 1.12]
+
+Attack
+4
++10%
+−25%
+
+Rush Bridge
+Skill is over 4.
+4
++20%
+−25%
+
+Storm Bridge
+2
+Defend Bridge
++20%
++5%
+−25%
+Seize bridge
+
+Hold Bridge
+Skill is under 3.
+2
++20%
+−10%
+−25%
+
+Defend Bridge
+At least one of the following:
+- Skill is over 2.
+- Has trait Trickster .
+2
+Storm Bridge
++10%
++5%
+−25%
+
+## Street fighting [verified for 1.16]
+
+{|class = "mildtable"
+! Name
+! Trigger
+! Weight
+!Counters
+! Countered by
+!
+!
+!
+!
+!
+!
+! Starts battle phase
+! Requires research
+|- style="background-color:#e6c1c1"
+|
+ Street Fighting
+
+| style="text-align:right"| 2
+
+| style="text-align:right"| +5%
+| style="text-align:right"| +10%
+
+| style="text-align:right"| -5%
+| style="text-align:right"| +5%
+
+|- style="background-color:#e6c1c1"
+|
+ Street by Street Barrage
+| Division artillery ratio > 10%
+| style="text-align:right"| 2
+
+| style="text-align:right"| +10%
+| style="text-align:right"| -5%
+
+| style="text-align:right"| -10%
+| style="text-align:right"| −5%
+
+|- style="background-color:#e6c1c1"
+|
+ Armour Supported Urban Assault
+| At least 1 of the following:
+- Has unit type Light Flame Tank Company .
+- Has unit type Medium Flame Tank Company .
+- Has unit type Heavy Flame Tank Company .
+| style="text-align:right"| 2
+
+| style="text-align:right"| +15%
+
+| style="text-align:right"| -10%
+| style="text-align:right"| −10%
+
+|- style="background-color:#e6c1c1"
+|
+ Mouse Holing
+| At least 1 of the following:
+- Has unit type Engineer Company .
+- Has unit type Pioneers .
+| style="text-align:right"| 2
+| Fortified Defense
+
+| style="text-align:right"| -10%
+
+| style="text-align:right"| -10%
+
+| style="text-align:right"| -5%
+
+|- style="background-color:#c2d1fa"
+|
+ Defend City
+
+| style="text-align:right"| 2
+
+| style="text-align:right"| -5%
+| style="text-align:right"| +10%
+| style="text-align:right"| -10%
+
+|- style="background-color:#c2d1fa"
+|
+ Fortified Defense
+
+| style="text-align:right"| 2
+
+| Mouse Holing
+| style="text-align:right"| -10%
+| style="text-align:right"| +5%
+| style="text-align:right"| -15%
+
+|- style="background-color:#c2d1fa"
+|
+ Urban Ambush Tactics
+
+| style="text-align:right"| 2
+
+| style="text-align:right"| +25%
+| style="text-align:right"| -10%
+
+|}
+
+# References
+
+hoi4fr:Tactiques de combat

@@ -1,0 +1,12 @@
+{
+  "planner": "on", "supreme": "on", "events": "on", "politics": "on",
+  "industry": "on", "army": "on", "air": "on", "admiralty": "on",
+  "theatres": "all", "fleets": "all", "ask_war": "on",
+  "speed_peace": 5, "speed_war": 5,
+  "war_marshal_every": 3, "marshal_every": 7,
+  "supreme_every": 30, "staff_every": 30, "navy_war_every": 7,
+  "pause_supreme": "alarms", "pause_events": "alarms",
+  "pause_politics": "alarms", "pause_industry": "alarms",
+  "pause_army": "alarms", "pause_air": "alarms",
+  "pause_admiralty": "alarms", "pause_marshals": "alarms"
+}

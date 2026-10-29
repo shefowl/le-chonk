@@ -1,0 +1,334 @@
+TITLE: Naval battle
+URL: https://hoi4.paradoxwikis.com/Naval_battle
+REVISION: 2026-03-17T23:29:00Z (rev 98929)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+A naval battle gets initiated on a specific province between two task forces, one of them being the attacker. This usually happens after a spotting process is complete or opposing fleets move onto the same province. Naval and port strikes by air wings trigger a naval battle that resolves instantly. Otherwise the battle lasts until one side is fully escaped or destroyed. The defender always joins the battle with full efficiency while the attacker may have a reduced efficiency depending on circumstances.
+
+Inside of battles, ships can behave independently and convoys, which are normally abstracted, are also present as individual ships.
+
+# Layout
+- Screening group: Consists of screen ships, which screen the battle-line and carrier group from torpedoes.
+- Battle-line: Consists of capital ships except for carriers. In addition to providing heavy firepower, these ships screen the carrier group from torpedoes.
+- Carrier group: Consists of carriers which can strike at long range. If any convoys are present, they will also appear in this area.
+- Submarine wolfpack: Consists of submarines, which may threaten the enemy battle-line and carrier group if they are insufficiently screened from torpedoes.
+
+Reference HOI4 Dev Diary - New Naval Combat "Battle-lines" Forum:1133625
+
+# Screening efficiency [verified for 1.16]
+
+The ratio of screen ships to capital ships and convoys is the screening ratio. With good positioning, 100% screening efficiency is reached when the ratio is 3 screen(s) per capital ship and/or carrier and an additional 0.5 screen(s) per convoy. For example, if you have 4 carriers and 4 battleships, you need 24 screen ships in order to reach 100% screening efficiency, or if you have 16 convoys under attack from submarines, you need 8 screen ships to reach 100% screening efficiency. High screening efficiency prevents enemy torpedo attacks against the battle-line and carrier groups, and confers the following bonuses to those groups:
+- Hit chance: up to +40% at 100% screening efficiency
+- Retreat speed: up to +20% at 100% screening efficiency
+
+The ratio of capital ships to carriers and convoys is the carrier screening ratio. With good positioning, 100% carrier screening efficiency is reached when the ratio is 1 capital ship(s) per carrier and an additional 0.25 capital ship(s) per convoy. High carrier screening efficiency further prevents enemy torpedo attacks against the carrier group (stacking diminishingly). It also provides confers the following bonuses to carriers and convoys:
+- Sortie efficiency: up to +10% at 100% carrier screening efficiency
+- Retreat speed: up to +20% at 100% carrier screening efficiency
+
+Bad positioning applies a penalty to how much ships contribute to both screening efficiency and carrier screening efficiency. The penalty increases linearly up to -50% at 0% positioning. This may increase the screening ratio required to achieve 100% efficiency by up to 2x.
+
+# Weapon cooldown [verified for 1.16]
+
+Heavy attack guns and light attack guns can fire every NNavy BASE_GUN_COOLDOWNS 1 hour(s) and NNavy BASE_GUN_COOLDOWNS 3 hour(s), respectively. Torpedoes normally fire every NNavy BASE_GUN_COOLDOWNS 2 hours. When This can be reduced by -25% with the Loading Drill Master trait.
+
+# Target selection [verified for 1.16]
+
+Each ship with offensive weapons (i.e. not carriers and convoys) and whose weapons are on cooldown can target three enemy ships, independently, per combat hour; one with its depth charges/light weapons, one with torpedoes, and one with heavy guns. Depending on weapon type and enemy screening, only certain enemy groups can be targeted.
+- Depth charges: the only weapon type that can target submarines, and only if they are revealed (see below)
+- Light guns: can only target the closest non-empty group, though carriers and convoys will not target enemy carriers or convoys
+- Heavy guns: can target the first two non-empty groups
+- Torpedoes: the probability that a torpedo can target capital ships (bypassing the screening group) is 100%, minus the enemy screening efficiency. To target ships in the carrier group (including convoys), it needs to pass an additional check of 100% minus the enemy carrier screening efficiency.
+
+Submarines will only target screens when set to High risk engagement rule. They will only target capitals when set to Medium risk or higher.
+
+Out of the remaining valid targets one is chosen by weighted random selection. If the firing ship is not currently running away, the enemies are weighted as follows (numbers in parenthesis for light guns):a
+- Capitals: 30 (2)
+- Screens: 3 (6)
+- Submarines: 4
+- Carriers: 15 (1)
+- Submarine vs Convoy: 600 (40)
+- Non-sub vs Convoy: 60 (4)
+
+If the target is less than full strength, up to +100% bonus are applied to the weight. If the target is escaping, the weight is reduced by 50%. If the target is actively fighting (i.e. not waiting), a +50% bonus is applied.
+
+The weighting is similar when the firing ship is escaping but only considers targets that are actively fighting and always chooses the highest scoring target, without randomization.
+
+## Submarines
+Submarines are completely immune to being targeted while they are hidden. This is indicated by a crossed-out eye symbol over the submarine. Revealing a submarine starts a cooldown of 8 hours, after which the submarine will hide again (unless the cooldown gets refreshed).
+
+There are three circumstances that reveal submarines:
+- If the submarine starts the battle on the defending side, it will be initially revealed for 12 hours. This typically happens when its task force gets spotted by enemy patrols.
+Due to how low reveal chances are for submarines once they are already in battle, this is the main way that anti-submarine ships, especially anti-submarine carriers using naval bombers, can be effective against submarines. Importantly, ships escorting convoys can never reveal submarines in this way, counterintuitively making anti-submarine ships bad at killing raiding submarines when they are escorting convoys.
+- If the enemy task force has any ships with sub detection greater than zero, there is a 3.5% chance of the submarine revealing itself every time it attacks. The submarine's visibility affects this chance, and bad positioning increases the visibility effect by up to 100% It can be reduced with torpedo reveal chance modifiers, e.g., from the Electric torpedo technology, the Silent Hunter admiral trait, and submarine naval doctrines like Convoy Interdiction or Submarine Operations . The combined formula is:
+
+- {{#tag:math|\left(100\% + \text{torpedo reveal chance factor}\right) \cdot 3.5 \% \cdot \frac{\max\left(\text{sub visibility},0 \right)} {100} \cdot \left(200\% - 1 \cdot \text{positioning}\right) }}
+
+- This is the primary way that submarines are revealed during naval battles, e.g., against convoy escorts. Reducing torpedo reveal chance is therefore very important when using submarines in this role.
+- If the enemy has any amount of sub detection, then every combat hour, there is a chance for the submarine to get revealed passively by the enemy's sub detection:
+
+- {{#tag:math|\text{hourly passive reveal chance} = 0.001 \% \cdot \max\left( \text{round}\left( \left(\min\left(\text{detection factor}, 2 \right) \cdot 11 \right)^{ 3 } \right), 1 \right) }}
+
+- {{#tag:math|\text{detection factor} = \% \cdot \text{enemy air sub detection} + \frac{\text{average enemy ship sub detection} } {100} + \frac{\max\left(\text{sub visibility},0 \right) } {100} \cdot \left(200\% - 1 \cdot \text{positioning}\right)}}
+- Due to what is likely a mistake in the game's code, the chances of this happening are very small even when using dedicated anti-submarine ships against outdated submarines. For example, with an average sub detection of 45, which is near the theoretical maximum for a task force of only dedicated anti-submarine destroyers, against 25 sub visibility (for unupgraded, outdated Early Submarines), the chance to reveal a hidden submarine every hour is %. This means it will take on average hours, or about days, before a given outdated Early Submarine is passively revealed in combat for the standard 12 hours. Similarly, due to what is probably a mistake, aerial sub detection contributes NAVAL_COMBAT_AIR_SUB_DETECTION_FACTOR to the chance of passively revealing a submarine in battle, meaning only the sub detection of ships is considered.
+
+# Hit chance [verified for 1.16]
+
+The base hit chance for guns and torpedoes is 10% and the base hit chance for depth charges is 11%. If the firing ship lacks manpower or organization, their hit chances are reduced by up to -25% and by up to -50%, respectively.
+
+This is further modified by the hit profile of both the firing weapon and the target ship. Ships with lower hit profiles are harder to hit, and weapons with lower hit profiles are better at targeting.
+
+A ship's hit profile is calculated by the following formula:
+
+{{#tag:math|\text{hitProfile}_\text{ship} = \frac{ 100 \cdot \text{visibility} } { 0.5 \cdot \text{speed} + 20 } }}
+
+Subs use their sub visibility, even when revealed, while all other ships use their surface visibility. The hit profile of convoys is always 85
+
+The hit profiles for naval weapons are as follows:
+
+- Light Guns: GUN_HIT_PROFILES
+- Heavy Guns: GUN_HIT_PROFILES
+- Torpedoes: GUN_HIT_PROFILES
+- Depth Charges: 100
+
+The hit chance is then modified as below:
+
+{{#tag:math| \text{Hit chance} = \max\left(\text{base hit chance} \cdot \text{modifiers} \cdot \min\left(\left(\frac{\text{hitProfile}_{\text{ship} } } {\text{hitProfile}_{\text{weapon} } } \right)^2, 1.0 \right), 0.5\% \right) }}
+
+This means that a weapon will suffer penalties to hit chance against a ship whose hit profile is smaller than that of the weapon. The hit chance can be modified by bad weather, night, screening efficiency, fire control and/or radar modules, military industrial organization traits and policies (with Arms Against Tyranny ), officer corps spirits (with No Step Back ), and the ship's admiral's skill level and traits such as Torpedo Expert and Destroyer Leader . If the hit chance of an attack does not result in a hit, the target remains unaffected.
+
+In practical terms, a speed increase of 4% is roughly equivalent to increasing your ship's effective HP against other ships by about 1%. This increase applies across the board regardless of your ship's sub/surface visibility or what weapon is being used against it. Similarly, a visibility decrease of 1% is roughly equivalent to increasing your ship's effective HP against other ships by about 1.1%.
+
+For example, a 1936 light cruiser with 15 surface visibility and a speed of 32.0 kn has a ship hit profile of ca. . When fired upon by another 1936 light cruiser with its light cruiser batteries with no other hit chance modifiers besides a basic fire control system, the base hit chance will be 102.5% and the weapon hit profile will be GUN_HIT_PROFILES, making the final hit chance of the attack ca. %. If the light cruiser had a -5% surface visibility bonus from, e.g., the Night Fighting officer corps spirit, resulting in a surface visibility of 14.25, it would have a ship hit profile of , and so the hit chance of this attack from an enemy light cruiser would instead be ca. %.
+
+Aircraft use entirely different math to figure out their hit chances when naval bombing that ignores the visibility and speed of their targets. See the naval strike section for more information.
+
+# Armor and piercing [verified for 1.16]
+
+Armor and piercing can affect both the damage and critical hit chance of heavy attack guns and light attack guns.
+
+Piercing:Armor Ratio: ≥ NAVY_PIERCING_THRESHOLDS
+Attack Damage Multiplier: NAVY_PIERCING_THRESHOLD_DAMAGE_VALUESx
+Attack Critical Hit Chance Multiplier: NAVY_PIERCING_THRESHOLD_CRITICAL_VALUESx
+
+Piercing:Armor Ratio: NAVY_PIERCING_THRESHOLDS ≤ Ratio < NAVY_PIERCING_THRESHOLDS
+Attack Damage Multiplier: NAVY_PIERCING_THRESHOLD_DAMAGE_VALUESx
+Attack Critical Hit Chance Multiplier: NAVY_PIERCING_THRESHOLD_CRITICAL_VALUESx
+
+Piercing:Armor Ratio: NAVY_PIERCING_THRESHOLDS ≤ Ratio < NAVY_PIERCING_THRESHOLDS
+Attack Damage Multiplier: NAVY_PIERCING_THRESHOLD_DAMAGE_VALUESx
+Attack Critical Hit Chance Multiplier: NAVY_PIERCING_THRESHOLD_CRITICAL_VALUESx
+
+Piercing:Armor Ratio: NAVY_PIERCING_THRESHOLDS ≤ Ratio < NAVY_PIERCING_THRESHOLDS
+Attack Damage Multiplier: NAVY_PIERCING_THRESHOLD_DAMAGE_VALUESx
+Attack Critical Hit Chance Multiplier: NAVY_PIERCING_THRESHOLD_CRITICAL_VALUESx
+
+Piercing:Armor Ratio: NAVY_PIERCING_THRESHOLDS ≤ Ratio < NAVY_PIERCING_THRESHOLDS
+Attack Damage Multiplier: NAVY_PIERCING_THRESHOLD_DAMAGE_VALUESx
+Attack Critical Hit Chance Multiplier: NAVY_PIERCING_THRESHOLD_CRITICAL_VALUESx
+
+Piercing:Armor Ratio: < NAVY_PIERCING_THRESHOLDS
+Attack Damage Multiplier: NAVY_PIERCING_THRESHOLD_DAMAGE_VALUESx
+Attack Critical Hit Chance Multiplier: NAVY_PIERCING_THRESHOLD_CRITICAL_VALUESx
+
+Torpedoes ignore armor entirely, though some heavier armor modules do reduce incoming damage from torpedoes and the critical hit chance of torpedoes.
+
+# Damage [verified for 1.16]
+
+The respective weapon type damage of the ship can be modified by doctrines, the naval terrain, the weather, pride of the fleet (if present), and the admiral's skills and traits. Bad positioning can cause a penalty of up to 50%. The Defense modifier of the enemy admiral's skill level will also reduce the damage.
+
+If the weapon can not pierce the enemy armor, damage is reduced by up to -%. See armor and piercing for more details.
+
+The damage gets randomized with a modifier between -2.5% and +47.5%.
+
+Damage is applied against both the target's HP (by 60%) and organization (by 100%). Additionally ships start out immune against organization damage, scaling up to the nominal value as the ship's HP level goes down. As an example, assume a ship with 100/50 HP/Org receives multiple hits of 50 damage each. The consecutive hits will do 30/0, 30/15, 30/30, and 30/45 HP/Org damage, with the fourth hit sinking the ship.
+
+# Critical hit [verified for 1.16]
+
+A critical hit is a particularly devastating hit against the target which can also damage some of its critical parts. The resulting penalties can only be removed by repairing the ship.
+
+The chance for a torpedo to score a critical hit is 10% For other weapon types the base chance is 5% but also depends on whether the armor can be pierced (see armor and piercing) and the target's reliability (scaling down to 0% at 100% reliability).
+
+The Marksman and Crisis Magician traits can each increase and lower critical hit chances, irrespective of weapon type.
+
+If a critical hit does occur, it potentially affects one of the critical parts on the ship. The chance for this is 10% for attacks from other ships and 10% for aerial attacks, both inversely scaled by reliability (e.g., at 25% reliability the chance increases to 10%÷25%=40%). The effect depends on the specific part being damaged (see the table below).
+
+Otherwise a regular critical occurs without damaging a particular part. The damage bonus ranges from 1x (at 100% reliability) up to 5 (at 0% reliability), scaling linearly. For torpedoes, the bonus does not depend on reliability and is always 2x.
+
+Critical part hit: Magazine Hit
+Weight: 0.1
+Critical hit modifier: 10x Organization damage inflicted
+10x HP damage inflicted
+Status effects on target: Heavy Attack: -70%
+Light Attack: -70%
+Torpedo Attack: -70%
+
+Critical part hit: Heavy Fires
+Weight: 1
+Critical hit modifier: 2x Organization damage inflicted
++5 Organization damage inflicted
+Status effects on target: Organization: -50%
+Recovery Rate: -80%
+
+Critical part hit: Broken Propeller
+Weight: 0.5
+Critical hit modifier: 0.5x Organization damage inflicted
+0.5x HP damage inflicted
+Status effects on target: Speed: -90%
+
+Critical part hit: Rudder Jammed
+Target prerequisites: Not Carrier
+Weight: 0.25
+Critical hit modifier: 0.25x Organization damage inflicted
+0.25x HP damage inflicted
+Status effects on target: Retreat decision chance: -90%
+Speed: -50%
+
+Critical part hit: Ballast Tanks Inoperable
+Target prerequisites: Submarine
+Weight: 1
+Critical hit modifier: 0.25x Organization damage inflicted
+0.25x HP damage inflicted
+Status effects on target: Sub Visibility: +66%
+
+Critical part hit: Main Battery Turret Destroyed
+Target prerequisites: Have Heavy Batteries or Heavy Cruiser Batteries
+Weight: 1 per Heavy Battery and Heavy Cruiser Battery
+Status effects on target: Heavy Attack: -50%
+
+Critical part hit: Main Battery Mount Disabled
+Target prerequisites: Screen Ship or Have Deck Gun
+Weight: 1 per Rapid Fire Gun, Light Cruiser Battery, and Deck Gun
+Status effects on target: Light Attack: -50%
+
+Critical part hit: Torpedo Tubes Disabled
+Target prerequisites: Have Torpedo Tubes
+Weight: 1 per Torpedo Tube
+Critical hit modifier: 1.25x Organization damage inflicted
+1.25x HP damage inflicted
+Status effects on target: Torpedo Attack: -50%
+
+Critical part hit: Secondaries Knocked Out
+Target prerequisites: Have Secondary Batteries
+Weight: 1 per Secondary Battery
+Status effects on target: Light Attack: -25%
+
+‎
+
+# Naval strike [verified for 1.16]
+
+Every 8 hours (04:00, 12:00, 20:00), planes can sortie in the battle. For carrier-based planes, this is every 6 hours, though note that carriers get -100% carrier traffic at night by default unless something like the CAG Night Fighting officer corps spirit is used.
+
+The number of external planes is limited to: * 0.05 * (1 + 0.2 * ). But at least 20 planes can always join. The number of planes eligible for joining naval combat is the total planes assigned on Naval Strike mission multiplied by Mission Efficiency.
+
+## Phase 0: Air combat and disruption
+(Main article: Air combat)
+If there are enemy fighters present in the air zone where the naval strike or port strike is taking place, they can engage in air combat and potentially disrupt the bombers before they even reach their ship targets. See the dedicated article on air combat for more information.
+
+## Phase 1: Naval strike target selection
+The naval strike target of an undisrupted bomber wing is randomly selected from a weighted distribution of all enemy ships. The base weight is each ship's maximum HP, excluding hidden submarines. This gets scaled depending on ship type:
+- Submarine: NAVAL_COMBAT_AIR_SUB_TARGET_SCORE
+- Capital Ship: NAVAL_COMBAT_AIR_CAPITAL_TARGET_SCORE
+- Carrier: NAVAL_COMBAT_AIR_CARRIER_TARGET_SCORE
+The weight of damaged ships gets increased by up to +NAVAL_COMBAT_AIR_STRENGTH_TARGET_SCORE as they approach 0% HP. If a ship's anti-air (AA) attack is below NAVAL_COMBAT_AIR_LOW_AA_TARGET_SCORE the weight is increased by (NAVAL_COMBAT_AIR_LOW_AA_TARGET_SCORE * (NAVAL_COMBAT_AIR_LOW_AA_TARGET_SCORE - ))x. For example, convoys have only 0.2 AA attack, increasing their score by NAVAL_COMBAT_AIR_LOW_AA_TARGET_SCORE * (NAVAL_COMBAT_AIR_LOW_AA_TARGET_SCORE - 0.2) = 24x.
+
+It can potentially be a viable strategy to deliberately have low amounts of AA on certain ships, potentially even no AA. When operating alongside more valuable ships that have a high weight of being selected for naval attack, e.g., fleet carriers, less valuable ships with low to no AA can potentially draw attention away from these valuable ships, thus increasing those ships' survivability at the cost of their own.
+
+## Phase 2: Ship anti-air defense
+When a ship gets targeted by an air wing, that ship and that ship alone will try to defend itself by shooting back preemptively. Against non-kamikaze air wings, the ship's chance to successfully preemptively retaliate is:
+
+{{#tag:math|20 \% \cdot \text{max}\left(0.9 - 0.02 \cdot \text{average air wing plane agility}, 0.01\right)}}
+
+If the ship succeeds in its preemptive defense, it destroys * 1% of them, rounded stochastically to a full number of planes. The planes' speed and air defense stats do not matter in this case.
+
+If the planes are performing kamikaze attacks, the ship will always successfully preemptively retaliate,b its AA attack gets increased by +2, and the losses are increased by 4x.
+
+It is important to note that only the ship that is being targeted can fire back with its AA against enemy aircraft. This makes AA far less valuable on ships that are not expected to be targeted by enemy aircraft, e.g., screening ships in a battle fleet composed of larger capital ships and/or carriers.
+
+## Phase 3: Naval strike attack and damage
+If any planes remain after the ship shoots at them, they perform the naval strike. If they are based on a carrier that is taking part in a naval battle with the target, their damage is increased by 12x. The ratio of planes that actually hit the ship is {{#tag:math|\frac{ \text{naval targeting} } {10} \cdot 30 \% }} (capped between 0% and 100%). The ship's speed and armor do not matter in this case.
+
+The both the target ship's AA attack (unless it is a convoy) and the combined AA of all ships in the battle reduces the damage dealt. The total amount of damage reduction is:
+
+{{#tag:math|\text{max}\left(-18 \% \cdot \left(\text{targeted ship's AA} + 0.25 \cdot \text{sum of AA of all ships fighting on same side}\right)^{ 0.225 }, -75 \% \right)}}
+For convoys, , but convoy AA is included in . Note that is also included in .
+
+Critical hits are calculated the same way as for a ship's torpedo. See critical hit for more information.
+
+If the naval battle was a port strike, the naval base gets damaged proportionately to the damage dealt against the ship.
+
+It is important to note that the AA of the targeted ship counts 5x more for AA damage reduction purposes than ships in the rest of the fleet, and that the damage reduction effect increases very slowly with additional AA thanks to the exponent in the formula. This makes AA far less valuable on ships that are not expected to be targeted by enemy aircraft, e.g., screening ships in a battle fleet composed of larger capital ships and/or carriers.
+
+# Carrier-specific mechanics [verified for 1.16]
+
+## Initial stage
+When a naval battle starts, screens can only attack after 8 hours, and capital ships can only attack after 6 hours, but carriers can attack from hour 0. This coincides with the 6 hours referred to as the 'Initial Stage' by modifiers like the Surprise Attacks officer corps spirit. It also lines up with carrier aircraft being able to sortie every 6 hours (OBSOLETE, it is currently 8 hours, starting close to high noon), though they are unable to sortie at night without something like the CAG Night Fighting officer corps spirit.
+
+For a fleet with a far more significant carrier force compared to the enemy fleet, these opening, carrier-only combat stages can produce a devastating alpha strike that can start a snowball effect of the enemy fleet dealing less damage as a result of reduced organization, which then causes their organization to fall faster than the allied fleets', reducing their damage even further. However, if the battle starts at night or in a Storm , this initial stage can be wasted because carrier traffic will be severely reduced or non-existent during the stage.
+
+## Carrier light attack restrictions
+It is important to note that while carriers can have light attack from equipping secondary batteries, carriers will not use their light attack to fire at ships in the enemy carrier group/line. This includes enemy carriers, but also enemy convoys. Among other things, this makes 'battlecarrier' designs (heavily armored carrier designs bristling with light attack, sacrificing deck space) even less effective than what one might expect, especially at convoy raiding.
+
+## Carrier veterancies
+Like other ships, carriers can gain (or lose) experience, leading to them gaining or losing veterancy levels that can give various bonuses and penalties. Unlike other ships, however, carriers do not receive any benefits to their damage from veterancy levels, receiving sortie efficiency penalties and bonuses instead.
+
+Instead, it is the carrier air wings stationed on carriers whose experience levels and veterancy can affect the damage by carriers. Especially as newly deployed air wings start at Green veterancy, and because carrier-based air wings can lose veterancy in naval battles very quickly because of how much bigger losses are relative to their wing size, it can be very important to train air wings stationed on carriers before sending them into engagements. Aces can also be assigned to carrier air wings and affect their combat performance.
+
+## Sortie efficiency
+Sortie efficiency dictates what percentage of the aircraft on a given carrier can actually fly in both air missions and during naval battles. Carriers have a base sortie efficiency of 50%, with doctrines like Carrier Primacy and Floating Airfield being the main source of increases to it. Fleet In Being and Trade Interdiction doctrines are able to provide up to +30% additional sortie efficiency, while Base Strike doctrines can provide a full +50%. Political advisors, national spirits, ship veterancy, admiral skill levels, and admiral traits like Air Controller and Flight Deck Manager can all provide additional sortie efficiency, as can having full carrier screening efficiency. Sortie efficiency of over 100% does not make existing planes more effective, so it does nothing unless the carrier is overcrowded.
+
+Carriers have a maximum capacity for aircraft and, similar to land-based air bases , this capacity can be exceeded at the cost of a -2 penalty to how many aircraft can actually fly from the carrier for every 1% that its deck space is exceeded. Overcrowding penalties can be reduced directly by the Massed Strikes naval doctrine, but they can also be mitigated and even outright negated by having a sortie efficiency of over 100%.
+
+For example, if a carrier has deck space for 80 aircraft, but is hosting 10 air wings of 10 aircraft each for a total of 100 aircraft, it would normally be exceeding its capacity by 25%, thus reducing the amount of aircraft that can sortie from it by -50%. With 100% total sortie efficiency, only 50% of its 100 aircraft = 50 aircraft could fly. However, if the carrier has 200% total sortie efficiency through various sources, it is able to sortie +100% more aircraft than normal. The two effects counteract each other, allowing 100% of the carrier's 100 aircraft = 100 aircraft to fly.
+
+## Carrier stacking penalty
+Each carrier exceeding CARRIER_STACK_PENALTY per side causes CARRIER_STACK_PENALTY_EFFECT of that side's carrier wings to be unable to target enemy ships in naval battles. This scales up to % of that side's carrier wings being unable to target ships. The number of wings that are able to target enemy ships is always rounded down, and unlike other penalties affecting carrier wings, each carrier plane type counts as a single wing for this penalty. The penalty is different from sortie efficiency, which affects the mission efficiency of carrier-based planes based on how many planes there are stationed on a single carrier. Aircraft that are unable to target enemy ships will still fly, allowing them to get shot down by enemy fighters.
+
+As carrier-based fighters never target ships, this penalty never affects carrier-based fighters.
+
+The penalty is applied to carriers from the bottom of the ship list upwards, meaning air wings from carriers near or at the top of the list are more likely to be able to target enemy ships than those at or near the bottom. Fighter air wings on any carrier will always operate as though the penalty does not exist, so when expecting to have more than CARRIER_STACK_PENALTY carriers in a single naval battle, it is better to put fighter air wings on the carriers listed lower in the task force and naval bomber air wings on the carriers listed at the top of the task force's ship list.
+
+In general, this penalty also generally discourages fielding lots of cheaper escort carriers (carriers with just one or two hangar spaces, usually converted from outdated cruisers), as or more escort carriers will suffer the same penalties as the same number of full carriers, even though the escort carriers have far less deck space than the full carriers.
+
+Example:
+
+You have 6 carriers in a battle with the following air wings ordered in the following way:
+
+Carrier 1: 8x 10 Carrier Bombers
+
+Carrier 2: 8x 10 Carrier Bombers
+
+Carrier 3: 8x 10 Carrier Bombers
+
+Carrier 4: 6x 10 Carrier Bombers
+
+Carrier 5: 5x 10 Carrier Bombers, 1x 10 Carrier Fighters
+
+Carrier 6: 1x 10 Carrier Bombers, 1x 10 Carrier Close Air Support, 1x 10 Carrier Fighters
+
+With 6 carriers, the carrier overstacking penalty prevents % of all carrier wings from targeting enemy ships, rounded down. For this penalty, the first four carriers count as having only 1 air wing each. The 5th carrier counts as having 2 air wings and the 6th carrier counts as having 3 air wings. This gives a total of 9 carrier air wings. % of 9 is air wings, and which rounds down to air wings that can target enemy ships. These wings are counted from those based on the first carrier in the list going downward. This means that the naval bombers on the first 5 carriers will operate as normal, while the naval bombers and CAS on carrier number 6 will not launch attacks at enemy ships, but they will still take off and be vulnerable to enemy fighters. The carrier fighters on carriers number 5 and 6 are unaffected by the penalty, and so will fly and can target enemy aircraft regardless.
+
+## Carrier capable aircraft
+
+In order to be able to base aircraft on an aircraft carrier, carrier capable models must be produced. When playing without By Blood Alone and its aircraft designer, the land-based version of an aircraft must first be researched, then the carrier-capable version is researched separately. This is done by clicking the aircraft carrier button on the aircraft type in the air research tab. This can only be done for Fighters, Close Air Support, and Naval Bombers. The carrier-capable version has a different model name than the land-based version, as well as different artwork and different stats. If you don't intend to use aircraft carriers, you do not need to research carrier-capable planes.
+
+With By Blood Alone 's aircraft designer, researching any light airframe also grants access to its carrier-capable version, from which a buildable variant (fighter, naval bomber, or CAS) may be created.
+
+When a new carrier is produced, the planes that will be based on it by default can be customized as part of the carrier production line in the naval section using dockyards. Once finished, the carrier will be filled by the most up-to-date models that are available in the country's stockpile. Replacements and reinforcements to these wings will need to be produced using military factories and can otherwise be manipulated by first selecting the carrier(s) and then clicking the little airplane button next to their location on the map, similar to a land-based air base .
+
+When an aircraft carrier is part of a fleet that is on patrol in one or more regions, then the wings based on it are shown as on a carrier mission. They will operate as a Carrier Air Group and automatically take part in any naval combat that the fleet engages in. There is no need to give them any specific orders if they are intended to be used in this way.
+
+If you want to use carriers as floating air bases and use the air wings to operate standard air missions, then they will no longer operate automatically as a Carrier Air Group and if the carrier fleet is engaged by the enemy, it may not have air cover. The player should be careful to make sure that it is properly protected. One might place a fighter wing on an interception mission in the region where the carrier fleet is located, but send a bomber wing to target an adjoining region, for example, to support an amphibious landing. In order to send carrier-based air wings on standard air missions, including pilot exercises to help train them up for battle, their carrier(s) must be at sea (not in a port) and must not be on any naval mission.
+
+# Detailed naval combat results
+
+It is possible to get detailed and valuable information on the impact of various elements of the player's fleet during a naval combat, once that combat has finished. After bringing up the naval combat results screen, access the detailed information by pressing the detailed naval combat results button, indicated in the picture on the left. This button acts like a toggle, so once it has been pressed in the current session, the naval combat results will automatically display the detailed results unless the detailed naval combat results button is pressed again.
+
+Once it has been pressed, it will bring up a column of information on either side of the summary naval combat results window, showing the impact of each unit or air wing (both carrier or land-based) on the battle - see the example to the right. In this case, the battle didn't include an air component, but the player can see from the sample results screen shown below that, for the Italians, the heavy cruiser Marco Polo delivered the final hits to the British destroyers Wishart and Wrestler, but it was assisted in sinking them by a number of other Italian ships, including Giuseppe La Masa, Giacinto Carini and Castelfidardo. On the British side, the heavy cruiser Effingham finished off two enemy destroyers (Curtatone and Castelfidardo) but the light cruiser Caledon did almost as much damage (only delivering the final hit on one enemy ship).
+
+As will often be the case, in this example there is more information available in the detailed results than can fit on-screen in the columns. To view the performance of the rest of the vessels involved in an encounter where the detailed results won't all fit on screen at one time, use the scrollbars on the side of the detailed naval results column.
+
+# Notes and references
+a These values are hardcoded into the game's executable and cannot be modified.
+b This makes the Define NAir BASE_KAMIKAZE_TARGETING irrelevant.

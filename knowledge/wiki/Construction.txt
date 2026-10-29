@@ -1,0 +1,747 @@
+TITLE: Construction
+URL: https://hoi4.paradoxwikis.com/Construction
+REVISION: 2026-03-27T17:43:12Z (rev 99344)
+VERIFIED FOR: 1.9
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Constructions are fixed assets that may be built in states or provinces that are constructed using civilian factories.
+
+# State buildings [verified for 1.16]
+
+These buildings are built on a state level. Control of state resources or buildings requires controlling provinces worth at least 50% of the VP of that state, even if that does not include the province where the building icon is located. Airbases will appear, but do not become usable, unless the player also controls the province containing the airbase.
+
+Name: Infrastructure
+Cost: 6000
+Max level: 5
+Strategic Bombing Damage Factor: 100%
+Effects (Local unless otherwise stated):
+- Per level:
+ - Global Fuel capacity: +1500
+ - Province supply: +0.3
+ - Division speed: +5%
+ - Division recovery rate: +10%
+ - Non-railway strategic redeployment speed: +1 km/h
+ - Available resources (multiplicative with other bonuses): +15%
+ - Construction speed (multiplicative with other bonuses): +20%
+- At maximum level:
+ - Growth of mud: -80%
+
+Name: Air base
+Cost: 1250
+Max level: 10
+Strategic Bombing Damage Factor: 50%
+Effects (Local unless otherwise stated): Bases and repairs air units. Each air base level can host 200 aircraft.
+
+Name: Anti-air
+Cost: 2500
+Max level: 5
+Strategic Bombing Damage Factor: 10%
+Effects (Local unless otherwise stated):
+- Building bomb vulnerability (per level): -12%
+- Enemy air superiority in strategic region (per level): -5%
+- For more details, see state anti-air section of air combat.
+
+Name: Radar station
+Cost: 3375
+Max level: 1-6, depending on radar technologies
+Strategic Bombing Damage Factor: 50%
+Effects (Local unless otherwise stated):
+Detects enemy forces, especially incoming aircraft. Radars also help detect enemy ships at sea and can increase intelligence in other nations.
+
+Name: Dam
+Cost: 20000
+Cannot be built manually
+Max level: 1
+Strategic Bombing Damage Factor: 0%
+(Cannot be damaged through normal strategic bombing)
+Effects (Local unless otherwise stated):
+- Max factories in state: +15%
+- Available resources: +10%
+- Construction speed: +15%
+- Enables Dam Busting Raid for enemies.
+
+# Shared buildings [verified for 1.16]
+
+Like state buildings, shared buildings are built on a state level; however, they share a limited number of slots. This is perhaps the most important category of constructions, since it contains the factories necessary for production.
+
+Many of these buildings can be targeted by strategic bombing; if they receive even a single point of damage, the effects of the first level of the building are immediately disabled. This is especially effective against expensive buildings with only a single level, such as Stronghold Network , Nuclear Reactor , and Civilian Nuclear Reactor .
+
+Name: Civilian factory
+Base Cost: 10800
+Max level: 20
+Strategic Bombing Damage Factor: 100%
+Effects:
+Produces consumer goods and constructions, or can be used for trade, for purchases on the international market, or to create and upgrade intelligence agencies. Base output is 4 (per day)
+
+Name: Military factory
+Base Cost: 7200
+Max level: 20
+Strategic Bombing Damage Factor: 100%
+Effects:
+Produces equipment (includes weapons, planes, vehicles). Base output is 3.5 (per day), modified by factory output and production efficiency
+
+Name: Stronghold Network
+Base Cost: 20000
+Max level: 1
+Strategic Bombing Damage Factor: 100%
+Effects:
+- Local supply: +10%
+- State maximum land forts level: +2
+- State land forts construction speed: +10%
+- State maximum coastal forts level: +2
+- State coastal forts construction speed: +10%
+- Enemy division attrition in state: +10%
+- Reminder: all effects are immediately removed if/when the building suffers any damage from strategic bombing
+
+Name: Naval dockyard
+Base Cost: 6400
+Max level: 20
+Strategic Bombing Damage Factor: 100%
+Effects:
+Produces and repairs ships. Base output is 2 (per day), modified by dockyard output .
+
+Name: Synthetic refinery
+Base Cost: 14500
+Max level: 3
+Strategic Bombing Damage Factor: 100%
+Effects:
+Produces 48-168 fuel and 1-5 rubber ,ab both depending on synthetic oil technologies
+
+Name: Fuel silo
+Base Cost: 5000 - 500 * current level
+Max level: 3
+Strategic Bombing Damage Factor: 100%
+Effects: Stores fuel (+100 000 per silo)
+
+Name: Multi-charge large caliber gun
+Base Cost: 20000
+Max level: 1
+Strategic Bombing Damage Factor: 0%
+(Cannot be damaged through normal strategic bombing)
+Effects:
+- Automatically produces Multi-Charge Large Caliber Gun Ammunition
+- Enables Mega Gun Emplacement Strike for enemies
+- Mutually exclusive with Rocket site
+
+Name: Rocket site
+Base Cost: 6400
+Max level: 3
+Strategic Bombing Damage Factor: 100%
+Effects:
+- Can store and launch missiles
+- Rocket site capacity: +100
+- Mutually exclusive with Multi-charge large caliber gun
+
+Name: Nuclear reactor
+Base Cost: 30000
+Max level: 1
+Strategic Bombing Damage Factor: 100%
+Effects:
+- Produces nuclear bombs at a rate of 1 per 852 days and thermonuclear bombs at a rate of 1 per 1278 days
+- Mutually exclusive with other nuclear reactors
+- Reminder: all effects are immediately removed if/when the building suffers any damage from strategic bombing
+
+Name: Heavy water nuclear reactor
+Base Cost: 25000
+Max level: 1
+Strategic Bombing Damage Factor: 100%
+Effects:
+- Produces nuclear bombs at a rate of 1 per 1278 days and thermonuclear bombs at a rate of 1 per 2555 days
+- Mutually exclusive with other nuclear reactors
+- Reminder: all effects are immediately removed if/when the building suffers any damage from strategic bombing
+
+Name: Civilian nuclear reactor
+Base Cost: 35000
+Max level: 1
+Strategic Bombing Damage Factor: 100%
+Effects:
+- Max factories in state: +15%
+- Local available resources: +10%
+- Local State Construction speed: +15%
+- Produces nuclear bombs at a rate of 1 per 852 days and thermonuclear bombs at a rate of 1 per 1278 days
+- Mutually exclusive with other nuclear reactors
+- Reminder: all effects are immediately removed if/when the building suffers any damage from strategic bombing
+
+## Deconstructing
+It is possible to deconstruct shared buildings from the state tab by hovering over the building icon and pressing the X that appears in the lower right corner of the icon. During wartime, each state can only deconstruct one building per 30 days.
+
+## Slot count
+Each state has a category, which then decides the base number of shared slots. Various technologies give percentage bonuses to how many slots a state can have. Various national focuses may give additional bonus slots. The total number of slots is capped at 25
+
+Category:
+ Megalopolis Region
+Default number of slots: 12
+Name in source files: megalopolis
+Example State: Greater London Area
+
+Category:
+ Metropolis Region
+Default number of slots: 10
+Name in source files: metropolis
+Example State: New England
+
+Category:
+ Dense Urban Region
+Default number of slots: 8
+Name in source files: large_city
+Example State: Southern Ontario
+
+Category:
+ Urban Region
+Default number of slots: 6
+Name in source files: city
+Example State: Svealand
+
+Category:
+ Sparse Urban Region
+Default number of slots: 5
+Name in source files: large_town
+Example State: Nebraska
+
+Category:
+ Developed Rural Region
+Default number of slots: 4
+Name in source files: town
+Example State: Sardinia
+
+Category:
+ Rural Region
+Default number of slots: 2
+Name in source files: rural
+Example State: Madagascar
+
+Category:
+ Pastoral Region
+Default number of slots: 1
+Name in source files: pastoral
+Example State: Hejaz
+
+Category:
+ Small Island
+Default number of slots: 1
+Name in source files: small_island
+Example State: Iwo Jima
+
+Category:
+ Enclave
+Default number of slots: 0
+Name in source files: enclave
+Example State: Gibraltar
+
+Category:
+ Tiny Island
+Default number of slots: 0
+Name in source files: tiny_island
+Example State: Midway Island
+
+Category:
+ Wasteland
+Default number of slots: 0
+Name in source files: wasteland
+Example State: Libyan Desert
+
+# Province buildings [verified for 1.16]
+
+These buildings are built on a province level. Unlike state or shared buildings, these buildings benefit whoever controls the province they are in regardless of overall control of the state.
+
+Name: Naval base
+Cost: 5000 + 1000 * current level
+Max level: 10
+Strategic Bombing Damage Factor: 100%
+Effects:
+Stations naval fleets, and can send and receive supplies and resources via convoys. Each naval base level increases supply capacity, supply throughput and the number of local ship repairs. Resource output in states with a connected supply hub or naval base is increased by +20%.
+
+Name: Land fort
+Cost: 500 + 500 * current level
+Max level: 3-10, depending on terrain and fortification engineering technologies
+Strategic Bombing Damage Factor: 100%
+Effects:
+Inflicts an attack penalty of -15% for each fort level on the attacker in land-based combat. Attacking from multiple directions will reduce forts' effects.
+
+Name: Coastal fort
+Cost: 500 + 500 * current level
+Max level: 3-10, depending on terrain and fortification engineering technologies
+Strategic Bombing Damage Factor: 100%
+Effects:
+Inflicts an attack penalty of -15% pereach coastal fort level on the attacker during naval invasions and 'strait crossing' combat.
+
+Name: Railway
+Cost: 170 + 130 * current level
+Max level: 5
+Strategic Bombing Damage Factor: 100%
+Effects:
+Transports supplies from the capital to supply sources like cities, ports or supply hubs. Speeds up transport of divisions doing strategic movement.
+
+Name: Supply hub
+Cost: 20000
+Max level: 1
+Strategic Bombing Damage Factor: 10%
+Effects:
+Distributes supplies from railways. Resource output in states a connected supply hub or naval base is increased by +20%.
+
+Name: Canal Locks
+Cost: 2000
+Cannot be built manually
+Max level: 1
+Strategic Bombing Damage Factor: 0%
+(Cannot be damaged through normal strategic bombing)
+Effects: Enables Lock Bombing Raid for enemies
+
+## Experimental facilities
+Unlike other provincial buildings, the number of experimental facilities is limited to one per state. They also consume 3 supply while active, so the game does not allow them to be placed in locations with insufficient supply.
+
+Name: Naval Engineering Facility
+Cost:
+12000 + 5000 *
+Unaffected by infrastructure construction speed bonuses
+Max level: 1
+Strategic Bombing Damage Factor: 0%
+(Cannot be damaged through normal strategic bombing)
+Effects:
+Can employ a Naval Engineering}} scientist
+Enables Facility Strike for enemies
+
+Name: Nuclear Research Facility
+Cost:
+15000 + 5000 *
+Unaffected by infrastructure construction speed bonuses
+Max level: 1
+Strategic Bombing Damage Factor: 0%
+(Cannot be damaged through normal strategic bombing)
+Effects:
+Can employ a Nuclear Research}} scientist
+Enables Facility Strike for enemies
+
+Name: Aerodynamics and Avionics Facility
+Cost:
+12000 + 5000 *
+Unaffected by infrastructure construction speed bonuses
+Max level: 1
+Strategic Bombing Damage Factor: 0%
+(Cannot be damaged through normal strategic bombing)
+Effects:
+Can employ an Aerodynamics and Avionics}} scientist
+Enables Facility Strike for enemies
+
+Name: Land Warfare Facility
+Cost:
+12000 + 5000 *
+Unaffected by infrastructure construction speed bonuses
+Max level: 1
+Strategic Bombing Damage Factor: 0%
+(Cannot be damaged through normal strategic bombing)
+Effects: Can employ a Land Warfare}} scientist
+Enables Facility Strike for enemies
+
+## Railways at game start
+A map before the release of No Step Back showing all railways in the 1936 start.
+
+# Landmarks [verified for 1.17]
+
+Landmarks refer to iconic, real‑world monuments. Landmark modifiers affect only the actual owners, not the occupiers.
+Landmarks can't be damaged by regular strategic bombing.
+
+{| class = "wikitable sortable" style="text-align: right;"
+! Landmark !! State !! State ID !! Province ID !! Owner (1936) !! Country Modifiers !! hoi4 !! Notes
+|-
+Big Ben United Kingdom * Political Power Gain: +3% GTD
+|-
+Cristo Redentor Second Brazilian Republic * Stability : +5.00% GTD
+|-
+The Colosseum Italy * War Support : +5.00% GTD
+|-
+The Eiffel Tower France * Stability : +5.00% GTD
+|-
+The Hagia Sofia Turkey * Stability : +5.00% GOE
+|-
+The Hofburg Palace Austria * Stability : +5.00% GTD
+|-
+The Kremlin Soviet Union * Daily Command Power Gain Multiplier: +10% GTD
+|-
+The Reichstag German Reich * Stability : +5.00% GTD
+|-
+The Sa'dabad Complex Iran * Stability : +5.00% GOE
+|-
+The Statue of Liberty USA * Political Power Gain: +2%
+- Stability : +5.00% GTD
+|-
+The Taj Mahal British Raj * Stability : +5.00% GOE
+|-
+Volkshalle German Reich * Stability : +5.00%
+- War Support : +5.00% GTD Replaces Reichstag through 4 focuses: The Triumphant Will, Hegemony over Europe, Restore the Holy Roman Empire or European Confederation.
+|-
+The Forbidden City Hebei-Chahar * Surrender Limit: +5.00% NCNS
+|-
+The Nanjing Presidential Palace China * Political Power Gain: +5% NCNS
+|-
+The Imperial Palace Japan * Political Power Gain: +5% NCNS
+|-
+The National Diet Building Japan * Political Power Gain: +5%
+- Stability : +5.00% NCNS Replaces The Imperial Palace through Revoke the Peace Preservation Law focus.
+|-
+The Hakkō Ichiu Monument Japan * War Support : +5.00%
+- Justify War Goal Time: -10.0% NCNS Added through 2 focuses: Hakko Ichiu and Ichioku Isshin.
+|-
+The Great Wall Hebei-Chahar NCNS The Great Wall appears as a landmark in multiple locations on the map, but the landmarks themselves don't provide any buffs. The bonuses are actually applied through the province modifier, not the landmark entity.
+|}
+
+# Strategic location [verified for 1.17]
+
+Strategic locations allow for the increase in the maximum number of certain province and state buildings.
+
+{| class = "wikitable sortable" style="text-align: right;"
+! Name !! Effect !! Notes
+|-
+| Natural Harbor || Increases Naval base capacity by 2 ||
+|-
+| Defensive Chokepoint || Increases Land fort capacity by 2 ||
+|-
+| Defensible Coastline || Increases Coastal fort capacity by 2 ||
+|-
+| Favorable Approach || Increases Air base capacity by 2 || In state scope
+|}
+
+# Civilian factories [verified for 1.16]
+
+ Civilian factories make all the improvements to a territory and are necessary to build any of the constructions listed under the Construction tab . All nations start with a certain number of civilian factories and a percentage will be used for consumer goods, depending on the economy law and national spirits that are currently in place.
+
+Civilian factories that are not used to produce consumer goods can be used for trade, to complete or repair the construction queued in the Construction tab, to spend on the international market, or to pursue decisions or intelligency agency investments. It's possible to increase the number of civilian factories by building more, but this is limited by the number of shared buildings slots available in each state
+
+## Consumer goods
+Depending on economic laws, national spirits, political advisors, and stability, a number of civilian factories will be occupied by producing consumer goods and are unavailable for construction, trade, or any other use of civilian factories. This number is computed as a percentage of the total number of factories, including military factories and factories received through trade, but not naval dockyards . Factories are counted even when they are damaged and can't produce anything. The number of consumer goods factories is always rounded down.
+
+{| class="mw-collapsible mw-collapsed mildtable"
+! style="width:30px" |
+! Universal
+! Country-specific
+|-
+| align="right" |−20%|| ||German Reich national spirit Rebuild the Nation for 365 days
+|-
+| align="right" |−15%|| ||* Communist China national spirit Permit Opium Trade
+- Chinese Warlord national spirit Embrace the Opium Trade
+|-
+| align="right" |−10%|| ||* Australia national spirit Invest in Victory
+- China national spirit Grain Tax (from focus Grain Tax)
+- Chinese Warlord national spirit War Taxes (from focus War Taxes)
+- Greece national spirit Schachtplan (present at start)
+- Nationalist Spain national spirit National Recovery (from focus Spanish Austerity)
+- Turkey national spirit İnanç Vergısı (from focus İnanç Vergısı)
+|-
+| align="right" |−9%|| ||Regional Defense Council of Aragón national spirit Anarchist Society (from focus Communal Autarky)
+|-
+| align="right" |−8%|| ||* Canada national spirit War Bonds (from focus If Day)
+- South Africa national spirit Cheap Labor (from focus Outlaw Strikes)
+|-
+| align="right" |−7%|| ||* Bulgaria national spirit Government Reforms (from focus Corporatism)
+- Turkey national spirit Etatism (from focus Continue the Policy of Etatism)
+- Turkey national spirit Reappropriated Exploitive Finance (from focus Scraping Our Debts)
+|-
+| align="right" |−6%|| ||* Bulgaria national spirit Our Duty in the Balkans (from focus Free Balkan States if 5 countries get guaranteed)
+- Regional Defense Council of Aragón national spirit Anarchist Society (from focus Agrarian Collectivization)
+|-
+| align="right" |−5%|| Having 100% stability
+
+(−1% from each 10% of stability over 50%)
+|* Albania national spirit Balkan Trade Union Secretariat (from Bulgarian focus Balkan Trade Union Secretariat if they’re in a faction with Bulgaria)
+- Australia national spirit Invest in Victory
+- Bulgaria national spirit Tobacco Exports (from focus Expand the Tobacco Industry)
+- Bulgaria national spirit Government Reforms (from either focus Collectivization of the Countryside or Agrarian Cooperative Movement)
+- Bulgaria national spirit Balkan Trade Union Secretariat (from focus Balkan Trade Union Secretariat)
+- Bulgaria national spirit Our Duty in the Balkans (from focus Free Balkan States if 4 countries get guaranteed)
+- Bulgaria national spirit Foreign Industry (from focus Appeal to European Capitalists)
+- Chinese Warlord national spirit Land Value Tax (from focus Land Value Tax)
+- Czechoslovakia national spirit Arms Exports (from focus Export Subsidies)
+- Czechoslovakia national spirit Extensive Arms Exports (from focus Equal Access Guarantee)
+- France national spirit Devalue the Franc (from focus Devalue the Franc)
+- Greece national spirit Command Economy
+- Greece national spirit Collectivized Agriculture (from focus Agricultural Communes)
+- Greece national spirit Metaxism (from focus An Orthodox State)
+- Greece national spirit Schachtplan (from focus Bolster the Schachtplan)
+- Greece national spirit Farmer-Focused Culture (from focus Utilize Our Strengths)
+- Greece national spirit Balkan Trade Union Secretariat (from Bulgarian focus Balkan Trade Union Secretariat if they’re in a faction with Bulgaria)
+- Greece national spirit The Central Balkan Bank of Athens (from Turkish focus Create the Balkan Central Bank if they’re in a faction with Turkey and Greece has completed the focus The Bedrock of Balkan Financial Stability)
+- German Reich national spirit Mefo Bills (present at start)
+- German Reich national spirit Prepare for the Next Blockade (from focus Prepare for the Next Blockade)
+- Hungary national spirit Intervention (from focus Economic Intervention)
+- Republican Spain national spirit Seized Gold Reserves (from focus Seize the Gold Reserves)
+- Republican Spain national spirit Wealth Redistribution (from focus Wealth Redistribution)
+- Republican Spain national spirit Class War (from focus All Must Do Their Part)
+- Republican Spain national spirit Appropriate Church Riches (from focus Appropriate Church Riches)
+- Republican Spain national spirit Relocate the Gold Reserves (from focus Relocate the Gold Reserves)
+- Republican Spain national spirit Provide for the People (from focus Provide for the People)
+- Romania national spirit Agrarian Reform (from focus Agrarian Reform)
+- Romania national spirit Balkan Trade Union Secretariat (from Bulgarian focus Balkan Trade Union Secretariat if they’re in a faction with Bulgaria)
+- Romania national spirit The Central Balkan Bank of Athens (from Turkish focus Create the Balkan Central Bank if they’re in a faction with Turkey and Greece has completed the focus The Bedrock of Balkan Financial Stability)
+- Turkey national spirit Privatized Infrastructure (from focus Privatize Our Infrastructure)
+- Turkey national spirit Funkplan (from focus Approve the Funkplan)
+- Turkey national spirit Turkish Bolshevism (from focus Reconciling Kemalism with Bolshevism)
+- Turkey national spirit The Central Balkan Bank of Athens (from focus Create the Balkan Central Bank if Greece has completed the focus The Bedrock of Balkan Financial Stability)
+- Turkey national spirit Balkan Trade Union Secretariat (from Bulgarian focus Balkan Trade Union Secretariat if they’re in a faction with Bulgaria)
+- United Kingdom national spirit British Austerity
+- United Kingdom national spirit For the Good of the Revolution
+- United States national spirit Accumulated Wealth Tax Act (from focus Accumulated Wealth Tax Act)
+- Nationalist Spain national spirit Regional Agrarian Commissions (from focus Regional Agrarian Commissions)
+- Nationalist Spain national spirit National Recovery (from focus National Recovery)
+- Netherlands national spirit Friesland Agricultural Impetus (from focus Friesland Agricultural Impetus)
+- New Zealand national spirit Wairarapa Sheep Farms (from focus Wairarapa Sheep Farms)
+- South Africa national spirit Gold Exports (from focus Expand the Rand Mines)
+- Soviet Union national spirit Yugoslavian Economic Aid (from Yugoslav focus Mutual Economic Aid)
+- Yugoslavia national spirit Foreign Capital (from focus Attract Allied Capital)
+- Yugoslavia national spirit Yugoslavian Economic Aid (from focus Mutual Economic Aid)
+- Yugoslavia national spirit Balkan Trade Union Secretariat (from Bulgarian focus Balkan Trade Union Secretariat if they’re in a faction with Bulgaria)
+- Yugoslavia national spirit The Central Balkan Bank of Athens (from Turkish focus Create the Balkan Central Bank if they’re in a faction with Turkey and Greece has completed the focus The Bedrock of Balkan Financial Stability)
+|-
+| align="right" |−4%|| ||Bulgaria national spirit Our Duty in the Balkans (from focus Free Balkan States if 3 countries get guaranteed)
+|-
+| align="right" |−3%|| ||* Bulgaria national spirit Our Duty in the Balkans (from focus Free Balkan States if 2 countries get guaranteed)
+- Greece national spirit The Balkan Central Bank (from Turkish focus Create the Balkan Central Bank if they’re in a faction with Turkey)
+- Regional Defense Council of Aragón national spirit Anarchist Society (from focus Shared Burdens)
+- Romania national spirit The Balkan Central Bank (from Turkish focus Create the Balkan Central Bank if they’re in a faction with Turkey)
+- South Africa national spirit Cheap Labor (from focus Work for All Poor)
+- Turkey national spirit The Balkan Central Bank (from focus Create the Balkan Central Bank)
+- Yugoslavia national spirit The Balkan Central Bank (from Turkish focus Create the Balkan Central Bank if they’re in a faction with Turkey)
+|-
+| align="right" |−2%|| ||* British Raj national spirit Princely State Donations
+- Bulgaria national spirit National Industry (from focus Utmost Optimization)
+- Bulgaria national spirit Our Duty in the Balkans (from focus Free Balkan States if 1 country gets guaranteed)
+- Bulgaria national spirit Government Reforms (from focus Industrial Autarky)
+- Canada national spirit War Bonds (from focus War Bonds)
+- New Zealand national spirit First Labor Government
+- Portugal national spirit Hydroelectric Power (from focus Hydroelectricity)
+- Portugal national spirit Estado Novo (from focus Strengthen the Regime)
+|-
+| align="right" | −1%|| ||* Bulgaria national spirit Our Duty in the Balkans (from focus Free Balkan States)
+- Portugal national spirit Estado Novo (from focus Estado Novo)
+- Portugal national spirit National Gold Reserves (from focus National Gold Reserves)
+|-
+| align="right" |+2%|| || * New Zealand national spirit Waitangi Tribunal (from focus Waitangi Tribunal)
+|-
+| align="right" |+3%|| || * Romania national spirit Royal Household Accounts (gained by event)
+|-
+| align="right" |+4%|| || * Bulgaria national spirit National Industry (from focus Invigorate National Industry)
+|-
+| align="right" |+5%|| || * Australia national spirit Great Depression
+- France national spirit Matignon Agreements (from focus Reform the Labour Laws)
+- British Raj national spirit Famine (gained by event)
+- China national spirit Low Inflation (present at start)
+- Greece national spirit Foreign Monopolies (from either focus Encourage Tourism or Mobilize Our Economy)
+- Greece national spirit Small Debt Repayment (from decision)
+- Japan national spirit Zaibatsus (present at start)
+|-
+| align="right" |+8%|| || * Bulgaria national spirit National Industry (from focus Increase Industry Investments)
+|-
+| align="right" |+10%|| Total Mobilization as economy law||* Canada national spirit Great Depression (from focus Canada Wheat Board)
+- China national spirit Moderate Inflation (from a focus that increases inflation)
+- Greece national spirit Foreign Monopolies (from either focus Expand Our Tobacco Industry or Increase Our Mining Operations)
+- Spain national spirit Recovering From Civil War (at the end of the Spanish Civil War)
+|-
+| align="right" |+15%|| ||* Australia national spirit Great Depression
+- China national spirit Heavy Inflation (from a focus that increases inflation)
+- Greece national spirit Debt to the I.F.C (present at start)
+- Greece national spirit Foreign Monopolies (from either focus Exporting More Luxury Commodities or Greek Autarky)
+- Greece national spirit Large Debt Repayment (from decision)
+- Romania, national spirit King Carol Emptied Accounts (from focus Forced Abdication)
+- Collectivized Society as economy law (Regional Defense Council of Aragón only, from focus All Must Bear the Torch)
+|-
+| align="right" |+17.5|| ||United States national spirit Slow Economic Growth (from a focus that reduces the effect of the Great Depression)
+|-
+| align="right" |+20%|| War Economy as economy law||* Australia national spirit Great Depression (present at start)
+- China national spirit Hyper Inflation (from a focus that increases inflation)
+- Greece national spirit Foreign Monopolies (present at start)
+- Romania national spirit Supplementary Budget (gained by event)
+|-
+| align="right" |+25%|| Partial Mobilization as economy law||* Canada national spirit Great Depression (present at start)
+- China national spirit Economic Collapse (from a focus that increases inflation)
+- Romania national spirit Embezzlement Scandal (gained by event)
+- United States national spirit Slow Recovery (from a focus that reduces the effect of the Great Depression)
+|-
+| align="right" | +30%|| Early Mobilization as economy law||United States national spirit The Great Depression (present at start)
+|-
+| align="right" |+35%|| Civilian Economy as economy law|| Isolation as economy law (United States only, present at 1939 start)
+|-
+| align="right" |+50%|| || Undisturbed Isolation as economy law (United States only, present at start)
+|}
+
+South Africa can gain -3% consumer goods at Total Mobilization with its spirits, but will not gain additional factories by this.
+
+- Example
+Suppose the Early Mobilization is enabled and no other modifiers apply, meaning that the final consumer goods need is 30%. A country has 50 military factories , 50 civilian factories , and 20 naval dockyards . It will then have to allocate 30 civilian factories to produce consumer goods, leaving it with 15 that it can use freely.
+
+### Consumer goods factories factor
+Consumer Goods Factories factor (CGFF) is an additional factor that is available in some countries, most notably Germany. It is the additional percentages of consumer goods in porportion to the current consumer goods factories. The number is multiplicative, not additive.
+
+The following is the formula regarding CGFF:
+
+Suppose a country with Early Mobilization , meaning a consumer goods need of 30%, and has +10% CGFF. It will have a final consumer goods need of 30% x (1+10%) = 33%, not 40%. This means if it had 100 total factories, 33 civilian factories will be allocated to producing consumer goods.
+
+In some cases CGFF can go into the negatives. Similar what happens with positive CGFF, this will reduce the current consumer goods need multiplicatively. If the same example country with Early Mobilization had -10% CGFF instead, its final consumer goods need would be 30% x (1-10%) = 27%, not 20%.
+
+Multiple sources of CGFF stack multiplicatively with each other. This means that multiple smaller sources of positive CGFF can have a greater effect than a single, larger source of positive CGFF. Inversely, a single large source of negative CGFF will have a greater effect than multiple smaller sources of negative CGFF.
+
+## Output
+
+The civilian factory output of each civilian factory employed in construction is 4 per day. Construction Speed modifies the output for the building of all constructions.
+
+{| class="mildtable"
+! style="width:30px" |
+! Universal
+! Country Specific
+|-
+| align="right" |+15%|| Free Trade as trade law||
+|-
+| align="right" |+10%||* Export Focus as trade law
+- Construction I
+- Construction II
+- Construction III
+- Construction IV
+- Construction V
+|| * New Zealand national spirit The Worker's Party
+- New Zealand national spirit In the Darkness
+- Soviet Union national spirit Worker's Culture
+|-
+| align="right" |+5%|| Limited Exports as trade law||
+|-
+| align="right" |−10%|| Service by Requirement as conscription law||
+|-
+| align="right" |−30%|| All Adults Serve as conscription law||
+|-
+| align="right" |−40%|| Scraping the Barrel as conscription law ||
+|}
+
+There are also modifiers which only affect a single type of building. These are, primarily, the political advisors (Captain of Industry, Fortification Engineer, Quartermaster General and War Industrialist) but can also be one of many other national spirits activated by national focuses or events.
+
+## Efficiency of additional civilian factories
+
+The return on investment of building an additional Civilian Factory will depend on the Construction Speed bonus as well the Economy Law currently in place, or expected in the future. The higher the Construction Speed bonus is, the more Output will be done by the newly built Civilian Factory and the faster it will accumulate an Output equal to its cost, 10800. This variable is the time, in days, required to recover the cost of building the factory, or payback time.
+
+A country's economy law will, in addition to sometimes affecting civilian factory construction speed, also dictate what ratio of civilian factories are used for fulfilling consumer goods needs vs. for free use as output, trade, etc. The higher this ratio is, the longer the payback time of newly built civilian factories will be, as there is a greater likelihood that a newly built civilian factory will be allocated to producing consumer goods instead of having useful output. The payback time of a new civilian factory is given by the following formula:
+
+Construction speed modifiers range between -70% and +65%. Except for the lowest two modifiers, they all have multiple combinations to be achieved. In fact, there are 320 possible combinations of variables affecting civilian factory construction speed outside of national spirits and unique laws. The infrastructure bonus ranges from 1x at zero infrastructure to 2x at max infrastructure.
+
+For a typical state with 4 infrastructure, and therefore an infrastructure construction speed modifier of 1.8x, we can generate the following payback table.
+
+{| class="wikitable"
+|+ Payback Time with 4/5 Infrastructure (Days)
+! rowspan="2" | Economy Law
+! colspan="3" | Construction Speed
+|-
+! Minimum (-70%) !! 0% !! Maximum (+65%)
+|-
+| Undisturbed Isolation || 4444 || 1333 || 1159
+|-
+| Isolation || 3077 || 1231 || 985
+|-
+| Civilian Economy || 2286 || 1143 || 847
+|-
+| Early Mobilization || 1524 || 1067 || 688
+|-
+| Partial Mobilization || 1250 || 1000 || 606
+|-
+| War Economy || 1232 || 942 || 571
+|-
+| Total Mobilization || 1111 || 889 || 539
+|}
+
+Minimal Construction Speed is -70% for Undisturbed Isolation and goes up to -20% with Partial Mobilization. Maximum Speed is +15% for Undisturbed Isolation and +65% with Partial Mobilization. All Values are rounded up to full days.
+
+The ideal time to switch from building civilian factories to military factories to have the most equipment by a target time is given by the following formula:
+
+For example, for a Payback Time of 800 and a target time of January of 1944, one should switch from building civilian factories to military factories in September of 1937.
+
+Additionally, because it's possible to assign up to 15 civilian factories (when available) to the construction of a new civilian factory, the number of days it will take to build a new one is given by the following formula:
+
+# Infrastructure level [verified for ?]
+
+Construction speed of all buildings depends on the level of infrastructure in the state. Construction speed is multiplied by
+-
+
+Where the INFRA_MAX_CONSTRUCTION_COST_EFFECT in defines defaults to 1, and Maximum Infrastructure Level defaults to 5 in common/buildings/00_buildings.txt.
+
+For example, at 3/5 infrastructure in a state, construction speed in that state is multiplied by 1.6x. In the Construction UI, this bonus is displayed for each State as a colored percentage next to an Infrastructure road icon. This bonus is applied after bonuses from tech, advisors, and national spirits, making 1 level of infrastructure a more powerful bonus than, e.g., a War Industrialist.
+
+It is usually recommended to allocate an infrastructure/civilian factory building phase for your nation before subsequently militarizing by building military factories and naval dockyards. However, the scope of civilian factory building can be reduced substantially if early warfare is planned or expected, and/or if newly built dockyards are meant to produce ships with very long production times.
+
+Due to the construction boost from infrastructure, the most efficient method involves filling all building slots one state at a time. This can be done by prioritizing states with higher starting infrastructure levels. The mechanics of the game encourages players to concentrate industry in central, high-infrastructure areas, although this must be balanced against the increased vulnerability of having all of one's industry in one place. It is common for all building slots to be filled before the game ends, this represents the in-game factory cap for the respective territory.
+
+{| class="wikitable"
+|+ Optimal Infrastructure Level for Construction Cost for Buildings in State
+! Optimal Infrastructure Level !! Minimum Construction Cost (E/%) for any building !! Cost in terms of military factories !! Cost in terms of civilian factories (G)
+|-
+| 1 || 36000 || 5 || 3.333
+|-
+| 2 || 42000 || 5.833 ||3.889
+|-
+| 3 || 48000 || 6.667 ||4.444
+|-
+| 4 || 54000 || 7.5 ||5
+|-
+| 5 || 60000 || 8.333 ||5.556
+|}
+
+The construction cost value needed to justify infrastructure is further modified by the construction speed.
+
+{| class="wikitable"
+! Construction Speed !! Construction Speed Modifier
+|-
+| -30% || 0.7
+|-
+| -20% || 0.8
+|-
+| -10% || 0.9
+|-
+| 0% || 1
+|-
+| +10% || 1.1
+|-
+| +20% || 1.2
+|-
+| +30% || 1.3
+|}
+
+A higher construction speed, which is always beneficial, also causes the infrastructure construction boost to be less viable.
+
+The total amount of resources can also be increased by building infrastructure. Each level of infrastructure gives a resource increase of +15% to the total of all extracted resources in a state; this does not include resources produced by synthetic refineries . There are five (5) levels of infrastructure; building all of them will give a +75% bonus to the total amount of extracted resources.
+
+The infrastructure level also affects land unit organization recovery rates per the following table:
+
+{| class="wikitable"
+|+
+! Infrastructure level
+! 5
+! 4
+! 3
+! 2
+! 1
+|-
+| Organization recovery rate
+| +25%
+| +15%
+| +5%
+| -5%
+| -15%
+|}
+
+Once a state's Infrastructure reaches maximum (level 5), a building slot can be added to that state using a decision called “Region-wide Industrial Integration” that costs 100 PP. This decision can only be taken once per state.
+
+# Factory conversion [verified for 1.16]
+
+ Civilian factories can be converted into military factories for base cost of 4000, and military factories can be converted into civilian factories for base cost of 9000. The base cost is modified by economy laws and can be futher modified by national spirits and political advisors. To convert a factory, simply click on the corresponding state and hover over the factory that is to be converted. Alternatiely, use the convert button in the construction tab, and conversions will appear in the tab, just like any other building project.
+
+# Damage and repair [verified for 1.9]
+
+Each building level has 100 HP. They may get damaged by port strikes (naval bases), land combat (infrastructure, forts), resistance (factories), strategic bombing, or explicit events (like the Soviet Union's decision to move factories to the Urals). Nuclear bombs can destroy multiple or all levels of a building at once, for details see nuclear bomb effects.
+
+The damage from land combat (against infrastructure) and strategic bombing gets scaled by the building's damage factor (air base and radar: 0.5, anti-air: 0.1, 1 otherwise) and the squared ratio of the currently undamaged building levels to the maximum level. For example, a level-3 anti-air building (maximum level 5) where one level is already partially damaged only receives of incoming damage from strategic bombing.
+
+A single military factory in a state (or in other words a level-1 military factory) receives while 15 military factories receive . High-level factories and infrastructure will generally get damaged much more quickly from these two damage sources than lower levels.
+
+Anti-air provides damage resistance from bomber-type attacks (port strikes and strategic bombing) depending on the level of anti-air in the containing state and researched anti-air technologies. Dispersed Industry provides an alternative source of damage resistance but only for factories and not stacking with anti-air. The maximum of the two is used for factories.
+
+All damaged buildings appear in the construction list. The speed of factories assigned to a repair line gets a bonus of +200% plus any Factory Repair Speed bonuses (e.g., from construction technologies or the Construction Repair continuous focus , infrastructure levels). Even when no factories are assigned, the speed of the line is 1.
+
+The resulting daily repair progress is , rounded to the nearest full percent. So when no factories are assigned, repairs will still progress by 1% per day. Assigning just a few factories to repair an expensive building may also produce just 1% progress per day, effectively wasting the output of those factories.
+
+# Notes and References
+a Germany can increase this building's production by 1 after completing Industrial Expansion or by 2 after completing Establish Buna-Werke.
+b British Raj can increase this building's production by 1 after appointing William Rhodes Davis as a political advisor.

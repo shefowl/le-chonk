@@ -1,0 +1,16 @@
+TITLE: French events
+URL: https://hoi4.paradoxwikis.com/French_events
+REVISION: 2025-08-24T17:34:53Z (rev 88850)
+VERIFIED FOR: 1.11
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+This is a list of all France's events (from events/France.txt).
+
+# id 1 - 10
+
+# id 11 - 20
+
+# id 21 - 30
+
+# id 31 - 40

@@ -1,0 +1,62 @@
+TITLE: Soviet national focus tree
+URL: https://hoi4.paradoxwikis.com/Soviet_national_focus_tree
+REVISION: 2025-11-27T13:19:43Z (rev 93453)
+VERIFIED FOR: 1.17
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+- For the industrial branches of the Soviet focus tree, see Soviet national focus tree: industrial branches.
+- For the political branches of the Soviet focus tree, see Soviet national focus tree: political branches.
+
+Soviet Union, one of the seven major powers, has a unique national focus tree. With the No Step Back DLC, the alt-historical non-aligned / fascist / communist paths become available.
+
+Soviet national focus tree. Clicking on the branches leads to the appropriate section.
+
+The Soviet national focus tree can be divided into 7 branches and 9 sub-branches:
+- Infrastructure Effort/Heavy Industry Branch
+- The industrial branch gives bonuses to infrastructure and modifies the Five Year Plan national spirit.
+
+- Transpolar Flights Branch
+- The airforce branch allows the Soviet Airforce national spirit to be modified.
+
+- Expand the Red Fleet Branch
+- The naval branch modifies the The Red Fleet national spirit and gives bonuses to coastal states.
+
+- Found the PCDI Branch
+- This half of the army branch gives the national spirit Defense Industry and gives bonuses to artillery and armor as it gets modified when the player goes down the branch.
+
+ - Military Engineering University Sub-branch
+- This sub-branch creates forts on strategically defensive locations and moves the industry to the Ural mountains.
+
+- Strengthen the Mobilization Plan Branch
+- This half of the army branch modifies the The Red Army whilst giving bonuses to infantry divisions.
+
+- The Path of Marxism Leninism Branch
+- The Communist branch opens up to the following sub-branches.
+
+ - The Centre Sub-branch
+- This sub-branch allows the Soviet Union to follow the historical Communist path. It balances Stalin's Political Paranoia, starts the Great Purge and modifies the The Politburo national spirit.
+
+ - The Left Opposition Sub-branch
+- This sub-branch places communist as leader of the Soviet Union via civil war. Afterwards, it allows the fomentation of communist uprisings in foreign nations and allows the releasing of countries from within the Soviet Union.
+
+ - Gain Support From Party Members Sub-branch
+- This sub-branch is shared with the Communist and the communist . It allows gaining of support from advisors from the other sub-branch.
+
+ - Strengthen the Trade Unions Sub-branch
+- This sub-branch is shared with the Communist and the communist . It allows the the Supreme Soviet to become the head of the Communist party.
+
+ - The Right Opposition Sub-branch
+- This sub-branch places communist as leader of the Soviet Union via civil war or a coup via Stalin's assassination. It allows the New Economic Policy as a new economic law.
+
+ - Addressing Internal Affairs Sub-branch
+- This handles internal politics with an increased number of propaganda campaigns.
+
+ - The Comintern Sub-branch
+- This sub-branch handles external politics and alliances with the development of the Soviet Union other allies in the east, political maneuvering with the other major European countries, on other eastern European nations, The Middle East, and Far East Asia.
+
+- Beaten, but not Defeated Branch
+- This branch prepares the Second Russian Civil War, allowing the end of Communist rule in Soviet Union. It also allows the donation of Sakhalin or Vladivostok to Japan for help in the civil war.
+
+ - Reconvene the Zemsky Sobor Sub-branch
+- The post-civil war sub-branch allows the coronation of Vladimir III as non-aligned , thus reinstalling the Romanovs to the throne of Soviet Union. It may also install a Fascist government with Konstantin Rodzayevsky as leader and relegating the Tsar to a figurehead. There is also the path in which Soviet Union may become a non-aligned , creating the Third Rome with Arch-Patriarch Meletius as the head of state, forcing Vladimir III to resign.

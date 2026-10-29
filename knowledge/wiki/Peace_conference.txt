@@ -1,0 +1,496 @@
+TITLE: Peace conference
+URL: https://hoi4.paradoxwikis.com/Peace_conference
+REVISION: 2025-08-31T20:00:32Z (rev 89388)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+The peace conference allows the victors of a war to decide the post-war status of the losing countries via a system of demands.
+
+# Overview
+ During a war, belligerents on both sides accumulate war participation, a percentage that represents the relative contribution they make to their side of the war. The capitulation or conditional surrender of one side ends the war, computes the war score of each victor based on their war participation, and opens the peace conference interface.
+
+The conference takes place over a series of turns. War score is distributed at the beginning of the conference if there is just one victor, or over the first five turns if there are multiple victors. During each turn, all victors may simultaneously select and submit demands for states or ships. If multiple victors submit conflicting demands, a contest results and the victors may continue contesting it on subsequent turns until all but one have forfeited.
+
+Each demand involves the following roles:
+- Negotiator – The victor making the demand.
+- Beneficiary – The country that will end up as the new owner of the demand. This is often the same as the negotiator, unless the demand is on behalf of another victor or is a demand type that results in a puppet, liberated country, or forced change of government.
+- Loser – The country that loses the demanded state.
+
+The cost of each demand is influenced by a variety of factors, including the type of demand, the value of the demanded state, the negotiator’s ideology, whether the beneficiary has a core or claim on the demand, proximity of the demand to states owned by the negotiator, and whether another victor is already making a demand or contest on it. War score is a finite resource, so the player will often be forced to prioritize those demands that are most valuable to them.
+
+The conference ends when all victors exit the conference, typically after all war score has been expended.
+
+# Interface
+The peace conference interface consists of the following sections.
+
+## Score and turn panel
+The top part of the peace conference interface displays world tension effects resulting from selected demands and the player’s currently available war score. Below the current war score is the current conference turn. To the right of this value is the war score that will be issued to the player at the start of the next turn and how many turns remain to issue the remaining war score.
+
+Hovering over the war score values provides a tooltip summarizing the total war score the player is entitled to, including what is currently available and what they will receive in future turns.
+
+## Make Demands panel
+The Make Demands panel provides controls to select the following demand types:
+- Take State demands – Annexes the selected state to the negotiator’s country. The player also has the option to select a different victor as beneficiary of the annexation by selecting its country tile in the Current Demands panel.
+- Liberate demands – Liberates the selected state to the country that has a core or claim on it based on game scripting. If the receiving country does not exist, it will be created. Its ideology will be the ideology of its original tag, unless it changes during the game, in which case it will be its last ideology before becoming occupied.
+- Puppet demands – Creates a puppet with the selected state or adds it to an existing puppet subject to the negotiator, if applicable. Democratic negotiators can only create supervised state puppets from these demands.
+- Change Government demands – Creates an independent country from the selected state, but its government will have the same ideology as the negotiator’s.
+
+With the DLC By Blood Alone enabled, additional options include:
+- Take Navy demands – Acquires the defeated country’s capital ships (carriers, battleships, heavy cruisers). Individual screening ships (light cruisers, destroyers, submarines) are not listed; instead, a proportional number of the loser’s screening ships are automatically included with the demand for each capital ship.
+- Add Demilitarized Zone demands – Prohibits positioning military forces in the selected state for five years.
+- Add Resource Rights demands – Makes the state’s resources available to the negotiator for five years. The resources depicted for each state on the map reflect the potential resources after upgrades and may appear higher than what will initially be received upon conclusion of the conference.
+- Add Reparation demands – Provides half of the state’s current civilian factories to the negotiator for five years.
+- Add Dismantle Military Industry demands – Removes the state’s military factories, degrading the defeated country’s ability to manufacture weapons.
+
+The DMZ, Resource Rights, Reparation, and Dismantle Military Industry options are available only in conjunction with puppet or change government demands.
+
+Selecting a demand type lists the demands available for the selected type, grouping them under country tiles. Country tiles represent either the defeated countries when take state or take navy types are selected, or subject/breakaway countries that will result when puppet, liberate, or change government types are selected. Green flag and red flag icons on each country tile provide an at-a-glance number of uncontested and contested demands for the associated country.
+
+Selecting a tile expands the list of demands available under the country. Hovering over each demand displays a tooltip with more details of the demand, including its costs, beneficiary country, puppet type that will be created, other countries contesting, world tension effects, etc. Holding the Shift key during this hover will display expanded details on the cost modifiers of the demand. Once bidding starts, small country flags on each demand indicate which countries are bidding on it.
+
+Selecting a demand will add it as an un-submitted demand in the Current Demands panel and will deduct the associated demand costs from the available war score. Clicking the demand again will cancel the un-submitted demand, refunding the war score.
+
+## Current Demands panel
+Selections in the Make Demands panel are added in the Current Demands panel on the right side of the interface, which consists of the Victors list and Beneficiaries list.
+
+The Victors list is displayed by default and lists selected demands, grouping them under country tiles. Each country tile displays the country’s name, available war score, number of uncontested and contested demands, and war participation percentage. Selecting a country tile makes it the beneficiary of take state demands. By default, the player’s country tile is selected until another tile is selected. The current beneficiary is indicated with horizontal yellow bars.
+
+Selecting the yellow arrow on the right side of each tile expands the list of current demands made by or for that country. Within the list, un-submitted demands are bracketed with yellow chevrons prior to the end of turn submission. Clicking an un-submitted demand will cancel it and refund any points that were deducted from the player’s war score. After the turn, if the demands go uncontested, the chevrons are removed, indicating that the demands are now submitted.
+
+The remainder of each country’s demands list shows submitted demands from previous turns organized by loser and demand type. Victors cannot cancel their submitted demands from a previous turn unless another victor decides to contest it. When a victor leaves the conference, a green checkmark appears in its country tile.
+
+Selecting the Beneficiaries button switches to the Beneficiaries list, displaying puppets and liberated countries that receive states from puppet and liberate demands made by the victors. This list is read-only and these countries cannot be directly selected in this panel as beneficiaries. Rather, their beneficiary status for a given state is determined by the available demands under their country tile in the Make Demands panel.
+
+## Interactive map
+At the center of the interface, the map graphically represents the current status of different states during the conference, provides information based on selected demand types, and allows the player to select or deselect demands on states similar to the Make Demands and Current Demands panel. Hovering over a state displays a tooltip with demand information based on the currently selected demand type. This includes a breakdown of the costs. Holding the Shift key during this hover will display expanded details on the cost modifiers of the demand.
+
+The map updates based on the currently selected demand type from the Make Demands panel. States that are eligible for the selected demand type and affordable to the player will be highlighted green. If the state is not affordable with the current war score, it loses its green highlighting. On selecting a demand, the associated state is highlighted blue. On subsequent turns, if the state has been successfully demanded without contest, it changes its base color to that of the new owner. If a state is contested, it is highlighted red.
+
+Each state has an information card displayed on it with the following information:
+- War score points cost
+- Resources
+- Number of civilian factories (if Add War Reparation demand is selected)
+- Number of military factories (if Dismantle Military Industry demand is selected)
+- Flags of countries bidding on the state during the conference
+- A green flag to represent if the state has been demanded without contest
+- A red flag to represent if the state is being contested
+
+## Contested Demands window
+If another victor submits the same demand as the player, on the next turn the war score spent on the demand is refunded and the Contested Demands window will display. The Contested Demands window displays the total number of contested demands, the total war score refunded, and a list of the contested demands.
+
+The information displayed for each demand includes the new cost to contest it, the type of demand and name of the state or ship, and the countries involved in the contest. Hovering over a contested demand displays a tooltip with additional information, including details on other victors' demands. The player can individually select demands from the list to take action on or use the Select All button.
+
+Selecting Close will close the Contested Demands window without making a decision. The Submit Demands button will be relabeled Contested Bids, and selecting it will prompt the player with the Contested Demands window to make a decision before ending the turn.
+
+Selecting Forfeit will give up on the selected demands, allowing the player to keep the refunded war score. Selecting Demand will continue contesting the selected demands.
+
+The decisions made in this window do not prevent the player from subsequently selecting or deselecting the same demands from the conference interface prior to ending the turn.
+
+## Other Controls
+The Reset button, located at the bottom of the Make Demands panel, enables the player to cancel all unsubmitted demands within the current turn, thereby returning the war score to its original value. It should be noted that this button has no effect on any demands that have already been submitted in a previous turn.
+
+The button labelled "Submit Demands", located at the bottom of the panel displaying the player's current demands, serves to submit all un-submitted demands and conclude the current turn. In the event that the player is unable to meet the financial obligations associated with the selected demands, this button will become inoperable. In the event that demands are contested, the Submit Demands button will change to the Contested Demands button. This will remain in effect until the player has determined an appropriate course of action within the Contested Demands window.
+
+The Confirm and Exit button signifies the conclusion of the conference for the player and the closure of the peace conference interface. The button is only available when there are no longer any unsubmitted demands in the Current Demands list. Upon selecting the Confirm and Exit button, a warning is displayed, urging the player to ascertain that all requisite actions pertaining to the peace conference have been completed prior to exiting.
+
+# Conference mechanics in depth
+The following information is provided to give players a much more in depth understanding of how the conference mechanics work and how various values are calculated. This information is subject to change in future patches, so the reader is encouraged to check the most recent patch change logs in case recent updates have outpaced the management of this article.
+
+## Participants
+The conference initiates upon capitulation of the losing side, which may be:
+- A single country fighting the winner that is either not in a faction or is in a faction but has none of its allies involved in the war.
+- Multiple countries if they are in a faction and the majors of that faction were all capitulated. Any non-major countries in the faction that were participating in the war will automatically be capitulated. Countries in a losing faction that were not involved in the war are omitted from the peace conference.
+- Countries that are members of the winning faction, had been earlier occupied by the losing faction, and subsequently had half or more of their victory points occupied by a third-party faction fighting the losing faction (a common example is Poland at the end of the war in historic gameplay).
+
+The winning side will consist of all countries, whether allied or not, that were at war with the losing country or faction. It is possible for victorious countries in a conference to be in separate wars against each other.
+
+If a faction leader requests a conditional surrender via diplomacy and it is accepted, they along with their fellow faction members will comprise the losing side, and the winning side will consist of the faction leader that received the surrender along with their faction members. Other factions will be excluded.
+
+## War score
+The peace conference begins with distribution of war score, a political currency used to bid on available demands. The war score awarded to each victor is calculated as follows:
+
+- w = svpc, where:
+ - s is the peace score scale factor, a constant in the Defines LUA file, currently defined as 1.35.
+ - v is the combined state value of all states controlled by the enemy at the start of the war.
+ - p is the war participation of each victor, a percentage calculated by dividing the total of each participant’s war participation points into the total of all participants’ war participation points of the same side.
+ - c is a conditional surrender factor (only active if the loser conditionally surrenders) equal to the loser's surrender progress (represented by the red/blue bar at the top of the war summary window) at the time that they conditionally surrender.
+
+War score is distributed during the conference according to the following rules:
+- When there is only one victorious country in the conference, the total war score is awarded to that country on the first turn.
+- When there are multiple victors in the conference, every victor's war score will be issued in 20% increments over five turns.
+- There is a minimum war score per turn rate, calculated as 5% of the total war score awarded to all countries per turn. This goes into effect for any country with less than 5% war participation (assuming game rules do not redistribute their score), awarding them the minimum value until all of their score is distributed to them, potentially before the fifth turn.
+- War score cannot be transferred from one victor to another.
+- Once victors receive all of their war score, they receive no further score on subsequent turns.
+
+- An example of a single-victor conference: the USA declares war on Cuba and easily wins. The combined value of Cuba’s states is 120 points. USA is the only victor. The war score computed for the USA is: 1.35 * 120 * 1.0 = 162. All 162 points are distributed to the USA at the beginning of the conference.
+
+- An example of a multi-victor conference: Germany, the Soviet Union, and Lithuania declare war on Poland and win. The combined value of Poland’s states is 1000 points. Germany has 60% war participation, Soviet Union has 36% war participation, and Lithuania has 4%. The war score computed for each victor is:
+ - Germany: 1.35 * 1000 * 0.6 = 810
+ - Soviet Union: 1.35 * 1000 * 0.36 = 486
+ - Lithuania: 1.35 * 1000 * 0.04 = 54
+
+- The minimum score per turn rate is 1.35 * 1000 * 0.2 * 0.05 = 13.5. Germany and the Soviet Union’s war score will be distributed to them in 20% increments for the first five turns. Because Lithuania has less than 5% of the war participation, it will be given its score at the minimum war score per turn rate of 13.5 until it has all 54 of its points. The distribution to these three countries is depicted in the below table.
+
+- {| class="wikitable"
+|-
+! Country !! Turn 1 !! Turn 2 !! Turn 3 !! Turn 4 !! Turn 5
+|-
+| Germany || 162 || 162 || 162 || 162 || 162
+|-
+| Soviet Union || 97.2 || 97.2 || 97.2 || 97.2 || 97.2
+|-
+| Lithuania || 13.5 || 13.5 || 13.5 || 13.5 || 0
+|}
+
+## State value
+Each state’s value is used to compute war score distributed to victors as well as demand costs and is the sum of the state’s base value, resources, manpower, and buildings. These values may change before and after the conference, but remain static during the peace conference.
+- Base value – Every state has a base value of 10 points.
+- Manpower – Calculated as 1 point for every 100,000 population in the state.
+- Resources – Sum of all base resources in the state. Resources generated by buildings (e.g., oil refineries) are not included in this calculation.
+- Buildings – Sum of point values for the state's category plus points for each building type and level. The below table lists the values associated with state categories and buildings.
+
+State category: Wasteland
+Value: 0
+Building: Civilian factory
+Value: 5
+
+State category: Enclave
+Value: 0
+Building: Military factory
+Value: 8
+
+State category: Tiny island
+Value: 0
+Building: Naval dockyard
+Value: 5
+
+State category: Pastoral region
+Value: 4
+Building: Petroleum refinery
+Value: 5
+
+State category: Small island
+Value: 4
+Building: Fuel silo
+Value: 5
+
+State category: Rural region
+Value: 8
+Building: Rocket site
+Value: 1
+
+State category: Developed rural region
+Value: 16
+Building: Nuclear facility
+Value: 10
+
+State category: Sparse urban region
+Value: 20
+Building: Infrastructure
+Value: 1
+
+State category: Urban region
+Value: 24
+Building: Air base
+Value: 1
+
+State category: Dense urban region
+Value: 32
+Building: Anti air site
+Value: 1
+
+State category: Metropolis region
+Value: 40
+Building: Radar site
+Value: 4
+
+State category: Megalopolis region
+Value: 48
+
+- As an example, at the start of 1936, the German state of Rhineland has a state value of 205.5, based on the following:
+ - Base value: 10
+ - Manpower: 6,150,000 ÷ 100,000 = 61.5
+ - Base resources: 35 steel
+ - Buildings: 99
+ - State category (Megalopolis): 48
+ - Military factories: 3 * 8 = 24
+ - Civilian factories: 4 * 5 = 20
+ - Infrastructure: 4 * 1 = 4
+ - Air bases: 3 * 1 = 3
+ - Total: 10 + 61.5 + 35 + 99 = 205.5
+
+The computed state value is displayed in a tooltip when hovering over a demand in the peace conference; holding the Shift key during this hover displays a breakdown of the four constituent values. In non-Ironman games, the player can also view the state value by enabling tdebug in the console and hovering over any state.
+
+## Turns and demands
+During each turn, all victors in the conference get to make demands simultaneously. Players make demands either on their own behalf or on another victor’s behalf by selecting the victor’s country tile from the Current Demands panel. If making demands on another’s behalf, only the take states type may be selected.
+
+The turn ends when each participant submits their demands; in the player’s case, this occurs upon selecting the Submit Demands button. At the end of each turn, the game evaluates all demands to determine if there are any contests. Demands submitted by only one victor are considered uncontested and are essentially granted to that victor until another victor decides to select that demand in a future turn or until the conference ends.
+
+If multiple participants make demands on the same state (regardless of demand type) or ship, such demands become contested. The player is refunded the war score spent on any contested demands and presented with the Contested Demands window. The player can decide to continue contesting selected demands at an increased cost, at which point the refunded war score goes back into the contest.
+
+If the player decides to forfeit, they keep the refunded war score. The amount of war score refunded depends on how many turns the demand has been contested, with the score fully refunded on the first turn of contesting, but on each subsequent turn, this refund is reduced by 8% down to a low of 76%.
+
+## Demand costs
+Demand costs for each state are computed by multiplying the state’s value by various modifiers. Costs will vary between victors for a particular demand due to the victor's characteristics, the defeated state's characteristics, and demands already made on the state. The cost cap for any single demand is 9999 points.
+
+Modifiers are factors multiplied against the state value to either increase or decrease the total cost. Factors less than 1.0 will decrease the cost, while factors greater than 1.0 will increase the cost. Thus, a modifier of 1.2 represents a 20% increase while a modifier of 0.8 represents a 20% decrease. The combined cost modifier displayed in the demand tooltip (i.e., the 'Multiplied by' value) is computed by multiplying all active modifiers by each other. This product is then multiplied by the state value to arrive at the war score cost for the state. The breakdown of constituent cost modifiers is displayed in the demand tooltip when hovering over a demand in the peace conference by holding the Shift key.
+
+- As an example: Rhineland has a state value of 205.5 and the player, as democratic France, has captured it and wants to annex it. Assuming the cost modifiers in effect are Ideology (1.3), Influence (0.77), and Occupation (0.8):
+ - Combined cost modifier is: 1.3 * 0.77 * 0.8 = 0.8
+ - Cost to take state is: 0.8 * 205.5 = 164.4
+
+The below table describes generic modifiers that apply regardless of demand type.
+
+Category: Influence
+Description:
+Ranges from 0.7 to 1.0 depending on pixel distance from the nearest of three different types of your states, with varying contribution factored from negotiator’s capital (20%), nearest core (30%), and nearest controlled state (50%, including peace conference bids). For cases where one or more controlled states are directly adjacent, each adjacent state decreases the cost modifier by 0.05, which may bring the cost modifier below 0.7. Minor countries will get 35% less discount from this computation.
+
+Category: Contested
+Description:
+Starts at 1.2 once a state is contested, increasing each turn while state is contested by multiplying 1.2 by itself until no longer contested or until capped at 15.
+
+Category: Uncontested
+Description:
+Starts at 1.15 once a negotiator demands a state, increasing each turn while state is uncontested by multiplying 1.15 by itself plus 0.15 each turn up to 1.6, until contested or until capped at 15.
+
+The below table describes generic modifiers whose effects depend in part on the demand type.
+
+Category: Can Be Liberated
+Description: Core of previous owner
+Take: 1.05
+Puppet: 1.05
+Force: 1.05
+
+Category: Compliance
+Description: Negotiator occupies state with < 30% compliance
+Take: 1.0
+
+Category: Compliance
+Description: Negotiator occupies state with 30% to 70% compliance
+Take: 0.9
+
+Category: Compliance
+Description: Negotiator occupies state with > 70% compliance
+Take: 0.8
+
+Category: Continuous Political Action
+Description: Loser has been puppeted or forced to change govt in a previous turn
+Puppet: 0.85
+Force: 0.85
+
+Category: Core of Ally
+Description: Core of independent major country on same side as negotiator
+Take: 3
+Puppet: 3
+Force: 3
+
+Category: Defensive War
+Description: Negotiator was in defensive war with loser
+Take: 1.1
+Force: 0.95
+Liberate: 0.95
+
+Category: Has Claim
+Description: Claimed by independent beneficiary
+Take: 0.9
+
+Category: Ideology
+Description: Negotiator is Fascist
+Take: 0.9
+Puppet: 0.95
+Liberate: 1.3
+
+Category: Ideology
+Description: Negotiator is Communist
+Take: 1.0
+Puppet: 0.9
+Liberate: 1.3
+
+Category: Ideology
+Description: Negotiator is Democratic
+Take: 1.3
+Puppet: 1.2
+Liberate: 0.9
+
+Category: Ideology
+Description: Negotiator is Democratic; loser is currently Fascist or Communist
+Force: 0.9
+
+Category: Ideology
+Description:
+Negotiator is major and beneficiary; loser is major and either Democratic or Communist
+Take: 0.8
+Puppet: 0.8
+Force: 0.8
+Liberate: 0.8
+
+Category: Ideology
+Description: Negotiator is major and democratic; loser is major
+Force: 0.7
+
+Category: Is Core
+Description: Core of independent beneficiary
+Take: 0.25
+
+Category: Is Core
+Description: Core of puppeted beneficiary
+Take: 0.5
+
+Category: Is Core
+Description: Core of beneficiary and not core of loser
+Take: 0.95
+
+Category: Occupation
+Description: Negotiator occupies state with > 0 compliance
+Take: 0.8
+Puppet: 0.8
+Force: 0.8
+Liberate: 0.8
+
+Category: Other
+Description: Beneficiary has dormant national identity (e.g., Ukraine)
+Liberate: 1.25
+
+Category: Other
+Description: Not core of negotiator who has independence war goal against beneficiary
+Take: 1.25
+Puppet: 1.25
+Force: 1.25
+Liberate: 1.25
+
+Category: Other
+Description: Negotiator was target of independence war goal by loser
+Take: 0.5
+
+The below table describes generic modifiers based on war goals the negotiator has on the loser.
+
+Category: War Goal
+Description: Take state
+Take: 0.8
+
+Category: War Goal
+Description: Take claimed state
+Take: 0.5
+
+Category: War Goal
+Description: Puppet (focus)
+Puppet: 0.5
+
+Category: War Goal
+Description: Take core state
+Take: 0.2
+
+Category: War Goal
+Description: Annex everything (focus/decision)
+Take: 0.5
+
+Category: War Goal
+Description: Civil war
+Take: 0.25
+
+Category: War Goal
+Description: Topple Government
+Force: 0.5
+
+Category: War Goal
+Description: Liberate
+Liberate: 0.5
+
+Category: War Goal
+Description: Independence
+Take: 0.5
+
+For take navy demands, the game lists each capital ship (carriers, battleships, and heavy cruisers) and then allots a share of the country’s screen ships (light cruisers, destroyers, and submarines) to each. The cost of each demand is the sum of the capital ship’s IC (i.e., production cost) multiplied by 0.005 and the screening ships’ IC multiplied by 0.005.
+
+- As an example, Germany demands a converted battleship hull carrier in the conference from the UK, which comes with 13 destroyers. The carrier has an IC cost of about 9000 while each destroyer has an IC cost of 1000. The total cost is 9000 * 0.005 + 13 * 1000 * 0.005 = 110.
+
+Additional cost modifiers exist based on country-specific scripting, often categorized as Treaties and Conferences. A major example is the Yalta Conference event which, if agreed to by both the western and Soviet leaders, results in the following cost modifiers in the eventual peace conference between the Allies, Axis, and Comintern:
+- a 50% discount on West German states and 400% penalty on East German states for western major countries;
+- a 50% discount on East German states and 400% penalty on West German states for the Soviet Union;
+- a 50% discount on liberating Austria for western major countries.
+
+These types of cost modifiers may persist after the peace conference, which may result in undesirable demand costs if conflict re-ignites over the same territory.
+
+## Conclusion and effects
+The peace conference ends when all participants exit the conference; for the player this occurs upon selecting the Confirm and Exit button. The player will be pulled back into the conference if other victors contest their demands (unlikely when playing against the AI, but possible in multiplayer games).
+
+The world tension change for each demand is calculated as follows:
+
+- t = 2f * ln(3b + 5v + r + 2) ÷ 20, where:
+ - f = tension factor, depending on demand type
+ - 2 if annexing a state with no core or claim
+ - 0.5 if annexing a claim
+ - 0 if annexing a core
+ - 1.25 if puppeting a state
+ - 0.75 if changing government of a state
+ - b = total number of civilian factories, military factories, docks, and rocket sites in the state
+ - v = total number of victory points in the state
+ - r = total base resources in the state
+
+Liberating states will decrease tension by an amount that varies depending on the characteristics of the negotiator and the losing country (primarily number of production buildings) multiplied by a factor of -1.0.
+
+Taking ships increases tension by 0.25 per capital ship. DMZ, resource rights, reparations, and dismantle military industry demands are calculated as 0.25 times the base threat associated with the state. All tension resulting from the peace conference, whether a net increase or decrease, is credited to the country that the enemy faction capitulated to.
+
+Ships that are successfully bid on will retain 25% of their prior experience.
+
+It is possible for defeated countries to survive the conference. This typically occurs if the victors collectively fail to demand all states of the losers. Annexed states will be in an occupied status unless they are a core of their new owners; compliance gained during long-term occupation or through collaboration missions will remain in effect after the conference. Countries that have been forced to change government will tend to have poor opinion of the winners, while liberated countries will tend to have a good opinion.
+
+# AI behavior
+The AI employs a complex set of generic and country-specific rules when weighing its desire to make demands on states. A high-level summary of generic AI behavior in the peace conference is provided below.
+
+The AI will have a higher desire to make demands on:
+- Its own cores and claims
+- States that are next to states it controls
+- Allies' cores and claims on behalf of said allies
+- States that are taken from a country with different ideology
+- Demand types that are aligned with its ideology
+ - Fascists and Non-Aligned will tend to annex
+ - Democrats will tend to liberate or change government
+ - Communists will tend to puppet
+
+The AI will have a lower desire to make demands on:
+- Cores of countries liberated in an earlier turn
+- States that are contested
+- States that are already demanded by other countries
+- States that are occupied by a human player
+- Demands that would benefit a country of a different ideology
+- Exclaves (i.e., not touching a state it controls, unless core/claim)
+- States outside of its influence, except for the following:
+ - Coastal capitals
+ - Specific states (California, Cote Nord, Greater London Area, Tunisia, Suez, Indochina)
+ - Specific states (Gibraltar, Istanbul, Crimea) when taker is European
+ - Island states
+- AI allies' claims prior to turn 12
+
+In all cases, if the AI has a net 0 or less desire on a state, it will not make demands on it, even if it has the war score to do so. Puppets will generally not make demands at all unless it is on their own cores and claims, or on behalf of their overlord/allies for their cores and claims. The AI has not been observed demanding ships.
+
+In the event a contest between AI negotiators extends beyond two turns, a tie breaker function compares each negotiator's remaining war score, influence distance to the demanded state, and country score. As these factors are weighed evenly, the negotiator with the greater average of these factors is more likely to win the tie breaker.
+
+# Strategy
+The peace conference’s complex mechanics make it impossible to provide comprehensive guidelines for every scenario; however, the following techniques may prove useful depending on the makeup of the conference.
+
+## Pre-conference measures
+AI victors can be unpredictable in contests and AI puppets are particularly wasteful of war score. If an AI ally is not essential for defeating an enemy, keeping them out of the war will go a long way toward giving the player more control of the conference and ensure all states are properly dispositioned (i.e., taken, puppeted, etc.).
+
+Land combat damage and occupation tend to be the largest factors in war participation gain. Becoming proficient in combat will have a second-order effect of increasing war score in these areas. Naval and air combat are also excellent contributors for countries that can field an adequate navy and air force. Lend lease tends give the least return on investment and should be avoided when the materiel could be put to better use in the player’s military.
+
+For non-democratic nations, collaboration governments created through the espionage mechanics allow the player to take advantage of the Compliance cost modifier. This often requires performing two collaboration missions, so the player must weigh their cost versus benefit.
+
+## Priorities
+Players should generally prioritize deciding the fate of states before selecting naval vessels and other demands. This is because the total war score distribution computed at the beginning of the conference is based on state value and does not account for naval vessels or the value of additional demands such as DMZs, war reparations, and resources. Even in a single-victor conference where there is no AI to contend with, the player may not have sufficient war score to disposition all states and take all naval vessels, particularly if the loser has a large navy.
+
+If multiple contests erupt with the AI, it is worth sticking to demands for only one or two turns. This is because the player will start permanently losing some war score after the first turn of the contest and will incur opportunity costs on demanding other states. When there are multiple states contested, the AI will start forfeiting some of their demands at a rate of 1 or 2 per turn, but eventually the AI will stubbornly stick to a few demands and the player will face diminishing returns fighting for them.
+
+## Leveraging cost modifiers
+The player may take advantage of two powerful cost modifiers during the conference to decrease cumulative demand costs:
+- Continuous political action – Once the player makes a puppet or force government demand on a loser, all puppet and force government demands on the same loser will be 15% cheaper on subsequent turns. This allows the player to puppet or force one cheap state on one turn, and then get discounts on more expensive states of the losing country on subsequent turns.
+- Influence – Demands on a state are cheaper when the player has control of states nearby, especially if they are on the border; this includes states the player successfully annexes during the conference regardless of how much they cost. This allows a player to annex a cheap state on one turn, and get a discount on more expensive states nearby on subsequent turns.
+
+The effects of both modifiers are stackable for puppeting/forcing government actions. The player may, for example, annex a cheap state and puppet another cheap state on turn one, and then puppet additional states on subsequent turns with both modifiers multiplied by each other for a larger discount (the annexed state may be transferred to the puppet after the conference).
+
+For single-victor conferences, these techniques will free up more war score for other demands (take navy, reparations, etc.). With no pressure from other victors, the player can use influence from annexations over a number of turns to work their way around the country, from cheapest to most expensive states, with significant cumulative savings by the time the last state is annexed.
+
+For multi-victor conferences, the player can still benefit from these techniques but must balance the number of turns required to take advantage of it with the pressure that will come from competing victors.
+
+# References

@@ -1,0 +1,3 @@
+-r requirements.txt
+# Only for development/subscription adapter tests; not needed for Studio gameplay.
+claude-agent-sdk==0.2.168

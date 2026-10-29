@@ -1,0 +1,139 @@
+TITLE: Decisions
+URL: https://hoi4.paradoxwikis.com/Decisions
+REVISION: 2026-02-25T10:18:18Z (rev 97873)
+VERIFIED FOR: 1.4
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Add missing decision pages [full or near-full]
+Decisions represent various actions that players can take or missions which have a time limit to complete an action or prevent a consequence. Decisions have a dedicated interface tab and are further divided into categories. Most decisions require spending political power and have various conditions that must be fulfilled in order to be taken.
+
+# Decision page
+The following is a list of all decision files as found in the common/decisions/ folder.
+
+## Generic [verified for 1.17]
+
+- African Union decisions
+- Agent recruitment decisions LaR
+- Anti-Japanese infiltration decisions
+- Baltic decisions
+- Border conflict decisions
+- Chinese political power struggle decisions
+- Exiled government decisions
+- Generic decisions
+- Foreign influence decisions
+- Formable nation decisions
+- Military industrial organization decisions AAT
+- NATO decisions
+- Naval treaty decisions
+- Nordic decisions
+- Political decisions
+- Resource prospecting decisions
+- Stability & war support decisions
+- Trial of Allegiance shared decisions 3
+
+## Nation specific [verified for 1.17]
+
+- Afghanistan Afghan decisions
+- United States American decisions
+- United States American congress decisions
+- Argentina Argentinian decisions
+- Austria Austrian decisions
+- Belgium Belgian decisions
+- Belgian Congo Belgian Congo decisions
+- United Kingdom British decisions
+- British Raj British Raj decisions
+- British Raj British Raj decisions GoE
+- Bolivia Bolivian decisions
+- Brazil Brazilian decisions
+- Bulgaria Bulgarian decisions
+- Chile Chilean decisions
+- China Chinese decisions
+- Communist China Communist Chinese decisions
+- Denmark Danish decisions
+- Estonia Estonian decisions
+- Ethiopia Ethiopian decisions
+- Commonwealth of the Philippines Filipino decisions
+- Finland Finnish decisions
+- France French decisions
+- Republic of Georgia Georgian decisions
+- Germany German decisions
+- Germany German SS recruitment decisions
+- Kingdom of Greece Greek decisions
+- Kingdom of Hungary Hungarian decisions
+- Kingdom of Hungary Hungarian decisions DoD
+- Iceland Icelandic decisions
+- Iran Iranian decisions
+- Iraq Iraqi decisions
+- Italy Italian decisions
+- Japan Japanese decisions
+- Korea Korean decisions
+- Latvia Latvian decisions
+- Lithuania Lithuanian decisions
+- Manchukuo Manchukuo decisions
+- Mengjiang Mengjiang decisions
+- Mexico Mexican decisions
+- Mongolia Mongolian decisions
+- Netherlands Netherlands decisions
+- Norway Norwegian decisions
+- Oman Omani decisions
+- Paraguay Paraguayan decisions
+- Paraguay Uruguay Paraguay-Uruguay shared decisions
+- Peru Peruvian decisions
+- Poland Polish decisions
+- Portugal Portuguese decisions
+- Reorganized National Government of the Republic of China Reorganized National Government decisions
+- Romania Romanian decisions
+- Saudi Arabia Saudi decisions
+- Second Philippine Republic Second Philippine Republic decisions
+- South Africa South African decisions
+- Soviet Union Soviet decisions
+- Spain Spanish decisions
+- Sweden Swedish decisions
+- Switzerland Swiss decisions
+- Turkey Turkish decisions
+- Venezuela Venezuelan decisions
+- Sichuan Clique Shanxi Shandong Clique Guangdong Clique Guangxi Clique Hebei-Chahar Northeastern Army Yunnan Kumul Khanate Gansu Ma Khotan Ma Ningxia Ma Qinghai Ma Xibei San Ma Sinkiang Warlord decisions
+- Y Wladychfa Gymreig Wales Welsh decisions
+- Yugoslavia Yugoslavian decisions 3
+
+## Missions
+
+- Austria Austrian missions
+- Bulgaria Bulgarian missions
+- British Raj British Raj missions
+- Chile Chilean missions
+- China Chinese missions
+- Communist China Communist Chinese missions
+- ChinaCommunist ChinaManchukuo Chinese shared missions
+- Estonia Estonian missions
+- Finland Finnish missions
+- Italy Italian missions
+- Japan Japanese missions
+- Latvia Latvian missions
+- Lithuania Lithuanian missions
+- Manchukuo Manchukuo missions
+- Mexico Mexican missions
+- Poland Polish missions
+- Spain Spanish missions
+- Nationalist Spain Nationalist Spanish missions
+- Soviet Union Soviet missions
+- Sweden Swedish missions
+- Switzerland Swiss missions
+- Yugoslavia Yugoslavian missions 3
+
+## Other
+
+The following nations don't have decision or mission files dedicated to them, but have events affecting them appearing in the two lists above.
+- Albania
+- Dutch East Indies
+- Ecuador
+- Luxembourg
+- Mongolia
+- Siam
+- Syria
+- Tibet
+- Tannu Tuva
+- to be added 1
+
+# References

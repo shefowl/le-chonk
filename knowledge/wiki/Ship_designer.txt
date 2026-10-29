@@ -1,0 +1,2167 @@
+TITLE: Ship designer
+URL: https://hoi4.paradoxwikis.com/Ship_designer
+REVISION: 2026-03-27T17:49:16Z (rev 99349)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+The ship designer allows players to create their own ship variants. Players are able to pick hulls and outfit them with various modules, such as weapons, armor, engines, and supporting systems.
+
+Countries which are bound by the London Naval Treaty may have limitations on the types of ships they are allowed to produce so long as they remain members of the treaty. In 1936, these are: the United Kingdom, the United States, France, Italy, and Japan.
+
+# Hulls [verified for 1.16]
+
+## Destroyer
+
+Hull: Early
+Max Speed (kn): 32
+Max Range (km): 1500
+Organization: 35
+HP: 25
+Reliability: 80%
+Supply Use: 0.04
+Manpower: 250 manpower
+Fuel Usage: 0 fuel
+Depth Charges: 1
+Surface Visibility: 10
+Surface Detection: 20
+Sub Detection: 2.5
+Modules(fixed / custom): 6 / 2
+Production Cost: 400 naval production cost
+Resource Use per Dockyard: 2 steel
+
+Hull: 1936
+Max Speed (kn): 32
+Max Range (km): 1800
+Organization: 35
+HP: 40
+Reliability: 85%
+Supply Use: 0.04
+Manpower: 325 manpower
+Fuel Usage: 0 fuel
+Depth Charges: 1
+Surface Visibility: 10
+Surface Detection: 20
+Sub Detection: 3
+Modules(fixed / custom): 6 / 2
+Production Cost: 500 naval production cost
+Resource Use per Dockyard: 2 steel
+
+Hull: 1940
+Max Speed (kn): 32
+Max Range (km): 2000
+Organization: 35
+HP: 50
+Reliability: 90%
+Supply Use: 0.04
+Manpower: 400 manpower
+Fuel Usage: 0 fuel
+Depth Charges: 1
+Surface Visibility: 10
+Surface Detection: 20
+Sub Detection: 3.5
+Modules(fixed / custom): 6 / 3
+Production Cost: 550 naval production cost
+Resource Use per Dockyard: 3 steel
+
+Hull: 1944
+Max Speed (kn): 32
+Max Range (km): 2500
+Organization: 35
+HP: 60
+Reliability: 92%
+Supply Use: 0.04
+Manpower: 500 manpower
+Fuel Usage: 0 fuel
+Depth Charges: 1
+Surface Visibility: 10
+Surface Detection: 20
+Sub Detection: 4
+Modules(fixed / custom): 6 / 4
+Production Cost: 600 naval production cost
+Resource Use per Dockyard: 4 steel 1 chromium
+
+## Cruiser
+
+Hull: Early
+Max Speed (kn): 27
+Max Range (km): 2500
+Organization: 40
+HP: 100
+Reliability: 80%
+Supply Use: 0.16
+Manpower: 600 manpower
+Fuel Usage: 20 fuel
+Surface Visibility: 15
+Surface Detection: 20
+Sub Detection: 1
+Modules(fixed / custom): 7 / 3
+Production Cost: 1800 naval production cost
+Resource Use per Dockyard: 1 steel
+
+Hull: 1936
+Max Speed (kn): 30
+Max Range (km): 3000
+Organization: 40
+HP: 110
+Reliability: 85%
+Supply Use: 0.16
+Manpower: 800 manpower
+Fuel Usage: 20 fuel
+Surface Visibility: 15
+Surface Detection: 20
+Sub Detection: 1.5
+Modules(fixed / custom): 7 / 4
+Production Cost: 1900 naval production cost
+Resource Use per Dockyard: 2 steel
+
+Hull: 1940
+Max Speed (kn): 32
+Max Range (km): 4000
+Organization: 40
+HP: 120
+Reliability: 90%
+Supply Use: 0.16
+Manpower: 1200 manpower
+Fuel Usage: 20 fuel
+Surface Visibility: 15
+Surface Detection: 20
+Sub Detection: 2
+Modules(fixed / custom): 7 / 5
+Production Cost: 2000 naval production cost
+Resource Use per Dockyard: 2 steel
+
+Hull: 1944
+Max Speed (kn): 33
+Max Range (km): 4500
+Organization: 40
+HP: 130
+Reliability: 95%
+Supply Use: 0.16
+Manpower: 1400 manpower
+Fuel Usage: 20 fuel
+Surface Visibility: 15
+Surface Detection: 20
+Sub Detection: 2.5
+Modules(fixed / custom): 7 / 5
+Production Cost: 2100 naval production cost
+Resource Use per Dockyard: 3 steel
+
+Hull: Torpedo Cruiser
+Max Speed (kn): 30
+Max Range (km): 4000
+Organization: 40
+HP: 140
+Reliability: 90%
+Supply Use: 0.16
+Manpower: 960 manpower
+Fuel Usage: 20 fuel
+Surface Visibility: 15
+Surface Detection: 20
+Sub Detection: 1
+Modules(fixed / custom): 7 / 5
+Production Cost: 1700 naval production cost
+Resource Use per Dockyard: 3 steel
+
+Hull: Panzerschiff
+Max Speed (kn): 23
+Max Range (km): 7500
+Organization: 40
+HP: 220
+Reliability: 80%
+Supply Use: 0.4
+Manpower: 1800 manpower
+Fuel Usage: 20 fuel
+Surface Visibility: 22
+Surface Detection: 20
+Sub Detection: 1
+Modules(fixed / custom): 7 / 4
+Production Cost: 3500 naval production cost
+Resource Use per Dockyard: 4 steel
+
+Hull: Coastal Defense Ship
+Max Speed (kn): 20
+Max Range (km): 1500
+Organization: 40
+HP: 100
+Reliability: 80%
+Supply Use: 0.16
+Manpower: 1800 manpower
+Fuel Usage: 20 fuel
+Surface Visibility: 20
+Surface Detection: 20
+Sub Detection: 1
+Modules(fixed / custom): 7 / 4
+Production Cost: 3500 naval production cost
+Resource Use per Dockyard: 3 steel
+
+## Battleship
+
+Hull: Pre-Dreadnought
+Max Speed (kn): 18
+Max Range (km): 2250
+Organization: 50
+HP: 300
+Reliability: 65%
+Supply Use: 0.8
+Manpower: 3200 manpower
+Fuel Usage: 67 fuel
+Surface Visibility: 20
+Surface Detection: 20
+Sub Detection: 1
+Modules(fixed / custom): 7 / 3
+Production Cost: 2600 naval production cost
+Resource Use per Dockyard: 1 steel 1 chromium
+
+Hull: Early
+Max Speed (kn): 20
+Max Range (km): 3000
+Organization: 50
+HP: 350
+Reliability: 80%
+Supply Use: 0.8
+Manpower: 4000 manpower
+Fuel Usage: 67 fuel
+Surface Visibility: 20
+Surface Detection: 20
+Sub Detection: 1
+Modules(fixed / custom): 7 / 4
+Production Cost: 2800 naval production cost
+Resource Use per Dockyard: 1 steel 1 chromium
+
+Hull: 1936
+Max Speed (kn): 24
+Max Range (km): 3500
+Organization: 50
+HP: 370
+Reliability: 85%
+Supply Use: 0.8
+Manpower: 5200 manpower
+Fuel Usage: 67 fuel
+Surface Visibility: 20
+Surface Detection: 20
+Sub Detection: 1
+Modules(fixed / custom): 7 / 4
+Production Cost: 3000 naval production cost
+Resource Use per Dockyard: 1 steel 1 chromium
+
+Hull: 1940
+Max Speed (kn): 25
+Max Range (km): 4000
+Organization: 50
+HP: 400
+Reliability: 90%
+Supply Use: 0.8
+Manpower: 6000 manpower
+Fuel Usage: 67 fuel
+Surface Visibility: 20
+Surface Detection: 20
+Sub Detection: 1
+Modules(fixed / custom): 7 / 5
+Production Cost: 3200 naval production cost
+Resource Use per Dockyard: 1 steel 1 chromium
+
+Hull: 1944
+Max Speed (kn): 26
+Max Range (km): 4500
+Organization: 50
+HP: 450
+Reliability: 95%
+Supply Use: 0.8
+Manpower: 6000 manpower
+Fuel Usage: 67 fuel
+Surface Visibility: 20
+Surface Detection: 20
+Sub Detection: 1
+Modules(fixed / custom): 7 / 5
+Production Cost: 3400 naval production cost
+Resource Use per Dockyard: 1 steel 1 chromium
+
+Hull: Super Heavy
+Max Speed (kn): 24
+Max Range (km): 4500
+Organization: 50
+HP: 700
+Reliability: 80%
+Supply Use: 0.8
+Manpower: 9000 manpower
+Fuel Usage: 75 fuel
+Surface Visibility: 20
+Surface Detection: 20
+Sub Detection: 1
+Modules(fixed / custom): 7 / 7
+Production Cost: 5500 naval production cost
+Resource Use per Dockyard: 1 steel 1 chromium
+
+Hull: Modern Götterdämmerung
+Max Speed (kn): 30
+Max Range (km): 5000
+Organization: 50
+HP: 525
+Reliability: 95%
+Supply Use: 0.8
+Manpower: 6000 manpower
+Fuel Usage: 80 fuel
+Surface Visibility: 20
+Surface Detection: 20
+Sub Detection: 1
+Modules(fixed / custom): 7 / 5
+Production Cost: 4000 naval production cost
+Resource Use per Dockyard: 6 steel 2 tungsten 3 chromium
+
+## Carrier
+
+Hull: Converted Cruiser
+Max Speed (kn): 22.5
+Max Range (km): 4000
+Organization: 40
+HP: 125
+Reliability: 65%
+Supply Use: 1.2
+Manpower: 1000 manpower
+Fuel Usage: 87 fuel
+Surface Visibility: 30
+Surface Detection: 26
+Sub Detection: 5
+Modules(fixed / custom): 7 / 0
+Production Cost: 2700 naval production cost
+Resource Use per Dockyard: 3 steel 1 chromium
+
+Hull: Converted Battleship
+Max Speed (kn): 25
+Max Range (km): 4000
+Organization: 40
+HP: 325
+Reliability: 65%
+Supply Use: 1.2
+Manpower: 5000 manpower
+Fuel Usage: 87 fuel
+Surface Visibility: 30
+Surface Detection: 26
+Sub Detection: 5
+Modules(fixed / custom): 7 / 1
+Production Cost: 2700 naval production cost
+Resource Use per Dockyard: 4 steel 1 chromium
+
+Hull: 1936
+Max Speed (kn): 26
+Max Range (km): 3000
+Organization: 40
+HP: 250
+Reliability: 70%
+Supply Use: 1.2
+Manpower: 4500 manpower
+Fuel Usage: 87 fuel
+Surface Visibility: 30
+Surface Detection: 26
+Sub Detection: 5
+Modules(fixed / custom): 7 / 2
+Production Cost: 2094 naval production cost
+Resource Use per Dockyard: 3 steel 1 chromium
+
+Hull: 1940
+Max Speed (kn): 26
+Max Range (km): 4000
+Organization: 40
+HP: 325
+Reliability: 75%
+Supply Use: 1.2
+Manpower: 5000 manpower
+Fuel Usage: 87 fuel
+Surface Visibility: 30
+Surface Detection: 26
+Sub Detection: 5
+Modules(fixed / custom): 7 / 3
+Production Cost: 2600 naval production cost
+Resource Use per Dockyard: 4 steel 1 chromium
+
+Hull: 1944
+Max Speed (kn): 26
+Max Range (km): 5000
+Organization: 40
+HP: 350
+Reliability: 80%
+Supply Use: 1.2
+Manpower: 5500 manpower
+Fuel Usage: 87 fuel
+Surface Visibility: 30
+Surface Detection: 26
+Sub Detection: 5
+Modules(fixed / custom): 7 / 4
+Production Cost: 3250 naval production cost
+Resource Use per Dockyard: 4 steel 2 chromium
+
+Hull: Ice Götterdämmerung
+Max Speed (kn): 18
+Max Range (km): 7000
+Organization: 40
+HP: 350
+Reliability: 80%
+Supply Use: 1.2
+Manpower: 6000 manpower
+Fuel Usage: 95 fuel
+Surface Visibility: 40
+Surface Detection: 26
+Sub Detection: 5
+Modules(fixed / custom): 7 / 4
+Production Cost: 4500 naval production cost
+Resource Use per Dockyard: 5 steel 2 chromium
+
+Hull: Modern Götterdämmerung
+Max Speed (kn): 30
+Max Range (km): 7500
+Organization: 40
+HP: 400
+Reliability: 85%
+Supply Use: 1.2
+Manpower: 6500 manpower
+Fuel Usage: 90 fuel
+Surface Visibility: 30
+Surface Detection: 26
+Sub Detection: 5
+Modules(fixed / custom): 7 / 4
+Production Cost: 4250 naval production cost
+Resource Use per Dockyard: 5 steel 3 chromium
+
+## Submarine
+
+Hull: Early
+Max Speed (kn): 13
+Max Range (km): 2000
+Organization: 30
+HP: 10
+Reliability: 60%
+Supply Use: 0.04
+Manpower: 200 manpower
+Fuel Usage: 1 fuel
+Surface Visibility: 1
+Surface Detection: 20
+Sub Visibility: 25
+Modules(fixed / custom): 2 / 1
+Production Cost: 320 naval production cost
+Resource Use per Dockyard: 1 steel
+
+Hull: 1936
+Max Speed (kn): 17
+Max Range (km): 2500
+Organization: 30
+HP: 20
+Reliability: 70%
+Supply Use: 0.04
+Manpower: 200 manpower
+Fuel Usage: 1 fuel
+Surface Visibility: 1
+Surface Detection: 20
+Sub Visibility: 22
+Modules(fixed / custom): 2 / 1
+Production Cost: 350 naval production cost
+Resource Use per Dockyard: 2 steel
+
+Hull: 1940
+Max Speed (kn): 18
+Max Range (km): 3000
+Organization: 30
+HP: 30
+Reliability: 75%
+Supply Use: 0.04
+Manpower: 200 manpower
+Fuel Usage: 1 fuel
+Surface Visibility: 1
+Surface Detection: 20
+Sub Visibility: 20
+Modules(fixed / custom): 2 / 3
+Production Cost: 420 naval production cost
+Resource Use per Dockyard: 2 steel
+
+Hull: 1944
+Max Speed (kn): 18
+Max Range (km): 3500
+Organization: 30
+HP: 35
+Reliability: 80%
+Supply Use: 0.04
+Manpower: 200 manpower
+Fuel Usage: 1 fuel
+Surface Visibility: 1
+Surface Detection: 20
+Sub Visibility: 15
+Modules(fixed / custom): 2 / 3
+Production Cost: 550 naval production cost
+Resource Use per Dockyard: 3 steel 1 chromium
+
+Hull: Midget
+Max Speed (kn): 8.3
+Max Range (km): 400
+Organization: 30
+HP: 5
+Reliability: 65%
+Supply Use: 0.04
+Manpower: 100 manpower
+Fuel Usage: 1 fuel
+Surface Visibility: 1
+Surface Detection: 20
+Sub Visibility: 15
+Modules(fixed / custom): 2 / 0
+Production Cost: 150 naval production cost
+Resource Use per Dockyard: 1 steel
+
+Hull: Cruiser
+Max Speed (kn): 16
+Max Range (km): 5000
+Organization: 30
+HP: 30
+Reliability: 75%
+Supply Use: 0.04
+Manpower: 200 manpower
+Fuel Usage: 1 fuel
+Surface Visibility: 1
+Surface Detection: 20
+Sub Visibility: 20
+Modules(fixed / custom): 2 / 3
+Production Cost: 490 naval production cost
+Resource Use per Dockyard: 2 steel
+
+Hull: Fleet Götterdämmerung
+Max Speed (kn): 18
+Max Range (km): 6500
+Organization: 30
+HP: 40
+Reliability: 75%
+Supply Use: 0.04
+Manpower: 200 manpower
+Fuel Usage: 1 fuel
+Surface Visibility: 1
+Surface Detection: 20
+Sub Visibility: 18
+Modules(fixed / custom): 2 / 3
+Production Cost: 650 naval production cost
+Resource Use per Dockyard: 3 steel
+
+Hull: Nuclear Götterdämmerung
+Max Speed (kn): 20
+Max Range (km): 10000
+Organization: 30
+HP: 50
+Reliability: 75%
+Supply Use: 0.04
+Manpower: 400 manpower
+Fuel Usage: 1 fuel
+Surface Visibility: 1
+Surface Detection: 20
+Sub Visibility: 16
+Modules(fixed / custom): 2 / 4
+Production Cost: 1150 naval production cost
+Resource Use per Dockyard: 3 steel 2 chromium
+
+## Convoy
+{| class="wikitable sortable"
+! class="unsortable" | !! Hull
+! Surface Detection !! Surface Visibility
+!Light Attack
+!Light Piercing
+!Anti-Air Attack
+! Max Speed (kn)
+!Organization!! HP!! Reliability
+! Production Cost
+! Resource Use per Dockyard
+|-
+| || Convoy
+| 10 || 14
+|0.25
+|1
+|0.1
+| 12
+|30|| 60|| 80%
+| 70 naval production cost || 1 steel
+|}
+
+# Modules
+## Engine [verified for 1.16]
+
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! class="unsortable" | Alternative Name
+! Eligible Hulls
+! Sub Visibility
+! Max Range
+! Max Speed
+! Fuel Usage
+! Production Cost
+! Prerequisites
+|- id="Light Engine I"
+| || Light Engine I
+| 35,000 Shp Engine
+|
+- All Destroyer
+|
+|
+| +10%|| 7 fuel || +12.5% naval production cost
+| Early Destroyer
+|- id="Light Engine II"
+| || Light Engine II
+| 40,000 Shp Engine
+|
+- All Destroyer
+|
+|
+| +15%|| 8 fuel || +15% naval production cost
+| 1936 Destroyer
+|- id="Light Engine III"
+| || Light Engine III
+| 45,000 Shp Engine
+|
+- All Destroyer
+|
+|
+| +20%|| 10 fuel || +17.5% naval production cost
+| 1940 Destroyer
+|- id="Light Engine IV"
+| || Light Engine IV
+| 50,000 Shp Engine
+|
+- All Destroyer
+|
+|
+| +25%|| 10 fuel || +20% naval production cost
+| 1944 Destroyer
+|- id="Cruiser Engine I"
+| || Cruiser Engine I
+| 60,000 Shp Engine
+|
+- All Cruiser
+- Converted Cruiser
+|
+|
+| +20%|| 12 fuel || +15% naval production cost
+| Early Cruiser
+|- id="Cruiser Engine II"
+| || Cruiser Engine II
+| 70,000 Shp Engine
+|
+- All Cruiser
+- Converted Cruiser
+|
+|
+| +30%|| 16 fuel || +17.5% naval production cost
+| 1936 Cruiser
+|- id="Cruiser Engine III"
+| || Cruiser Engine III
+| 80,000 Shp Engine
+|
+- All Cruiser
+- Converted Cruiser
+|
+|
+| +35%|| 20 fuel || +20% naval production cost
+| 1940 Cruiser
+|- id="Cruiser Engine IV"
+| || Cruiser Engine IV
+| 90,000 Shp Engine
+|
+- All Cruiser
+- Converted Cruiser
+|
+|
+| +40%|| 24 fuel || +22.5% naval production cost
+| 1944 Cruiser
+|- id="Heavy Engine I"
+| || Heavy Engine I
+| 30,000 Shp Engine
+|
+- All Battleship
+- Converted Battleship
+|
+|
+| +20%|| 20 fuel || +17.5% naval production cost
+| Early Heavy Ship
+|- id="Heavy Engine II"
+| || Heavy Engine II
+| 90,000 Shp Engine
+|
+- All Battleship
+- Converted Battleship
+|
+|
+| +35%|| 25 fuel || +20% naval production cost
+| 1936 Heavy Ship
+|- id="Heavy Engine III"
+| || Heavy Engine III
+| 150,000 Shp Engine
+|
+- All Battleship
+- Converted Battleship
+|
+|
+| +45%|| 30 fuel || +22.5% naval production cost
+| 1940 Heavy Ship
+|- id="Heavy Engine IV"
+| || Heavy Engine IV
+| 210,000 Shp Engine
+|
+- All Battleship
+- Converted Battleship
+|
+|
+| +55%|| 35 fuel || +25% naval production cost
+| 1944 Heavy Ship
+|-
+|
+|Nuclear Heavy Ship Reactor
+|
+|
+- Modern Battleship
+|
+|+100%
+|+60%
+|-100%
+|+25% naval production cost
+| Götterdämmerung
+ Nuclear Engines
+|- id="Carrier Engine I"
+| || Carrier Engine I
+| 50,000 Shp Engine
+|
+- All Carrier
+|
+|
+| +30%|| 12 fuel || +10% naval production cost
+| Deck Conversions
+|- id="Carrier Engine II"
+| || Carrier Engine II
+| 120,000 Shp Engine
+|
+- All Carrier
+|
+|
+| +40%|| 16 fuel || +12.5% naval production cost
+| 1936 Carrier
+|- id="Carrier Engine III"
+| || Carrier Engine III
+| 150,000 Shp Engine
+|
+- All Carrier
+|
+|
+| +50%|| 20 fuel || +15% naval production cost
+| 1940 Carrier
+|- id="Carrier Engine IV"
+| || Carrier Engine IV
+| 210,000 Shp Engine
+|
+- All Carrier
+|
+|
+| +60%|| 24 fuel || +17.5% naval production cost
+| 1944 Carrier
+|-
+|
+|Nuclear Carrier Reactor
+|
+|
+- Modern Carrier
+|
+|+100%
+|+60%
+|-100%
+|+25% naval production cost
+| Götterdämmerung
+ Nuclear Engines
+|- id="Submarine Engine I"
+| || Submarine Engine I
+| 1,000 Shp Engine
+|
+- All Submarine except Nuclear Submarine
+|
+|
+| +10%|| 7 fuel || +10% naval production cost
+| Early Submarine
+|- id="Submarine Engine II"
+| || Submarine Engine II
+| 2,000 Shp Engine
+|
+- All Submarine except Nuclear Submarine
+|
+|
+| +10%||8 fuel || +12.5% naval production cost
+| 1936 Submarine
+|- id="Submarine Engine III"
+| || Submarine Engine III
+| 3,000 Shp Engine
+|
+- All Submarine except Nuclear Submarine
+| –5%
+|
+| +15%|| 10 fuel || +15% naval production cost
+| 1940 Submarine
+|- id="Submarine Engine IV"
+| || Submarine Engine IV
+| 4,000 Shp Engine
+|
+- All Submarine except Nuclear Submarine
+| –10%
+|
+| +20%|| 10 fuel || +20% naval production cost
+| 1944 Submarine
+|-
+|
+|Air-Independent Propulsion
+|
+|
+- All Submarine except Nuclear Submarine
+|–15%
+|-66%
+|+15%
+|60 fuel
+|+25% naval production cost
+| Götterdämmerung
+ Air-Independent Propulsion
+|-
+|
+|AIP-Diesel Combination Engine
+|
+|
+- All Submarine except Nuclear Submarine
+|–17%
+|-33%
+|+15%
+|45 fuel
+|+30% naval production cost
+| Götterdämmerung
+ AIP-Diesel Combination Engines
+|-
+|
+|High Speed Walter Engines
+|
+|
+- All Submarine except Nuclear Submarine
+|–20%
+|
+|+35%
+|30 fuel
+|+35% naval production cost
+| Götterdämmerung
+ High-Speed Walter Engines
+|-
+|
+|Nuclear Submarine Reactor
+|
+|
+- Nuclear Submarine
+|
+|
+|+10%
+|-100%
+|+25% naval production cost
+| Götterdämmerung
+ Nuclear Engines
+|}
+
+## Armor [verified for 1.16]
+
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! class="unsortable" | Alternative Name
+! Eligible Hulls
+! Max Speed
+! HP
+! Armor !! Incoming Torpedo Critical Chance !! Torpedo Damage Reduction
+! Supply Use
+! Production Cost
+! Resource Use per Dockyard
+! Prerequisites
+|- id="Cruiser Armor I"
+| || Cruiser Armor I || 50mm Belt/40mm Deck
+|
+- All Cruiser
+- All Carrier
+| -5%
+|
+| 6 || ||
+|
+| +10% naval production cost ||
+| Early Cruiser
+|- id="Cruiser Armor II"
+| || Cruiser Armor II || 100mm Belt/30mm Deck
+|
+- All Cruiser
+- All Carrier
+| -7.5%
+| +5%
+| 8 || ||
+|
+| +15% naval production cost || 1 steel
+| Basic Cruiser Armor Scheme
+|- id="Cruiser Armor III"
+| || Cruiser Armor III|| 120mm Belt/50mm Deck
+|
+- All Cruiser
+- All Carrier
+| -10%
+| +10%
+| 10 || ||
+|
+| +20% naval production cost || 1 steel 1 chromium
+| Inclined Belt Armor Scheme
+|- id="Cruiser Armor IV"
+| || Cruiser Armor IV|| 150mm Belt/60mm Deck
+|
+- All Cruiser
+- All Carrier
+| -12.5%
+| +15%
+| 12 || ||
+|
+| +25% naval production cost || 2 steel 1 chromium
+| All-or-Nothing Armor Scheme
+|- id="Battleship Armor I"
+| || Battleship Armor I|| 200mm Belt/40mm Deck
+|
+- All Battleship
+|
+| +5%
+| 30 || –10%|| +10%
+|
+| +12.5% naval production cost || 1 steel
+| Early Heavy Ship
+|- id="Battleship Armor II"
+| || Battleship Armor II|| 350mm Belt/150mm Deck
+|
+- All Battleship
+| -5%
+| +10%
+| 36 || –15%|| +15%
+|
+| +15% naval production cost || 1 steel
+| Inclined Belt Armor Scheme
+|- id="Battleship Armor III"
+| || Battleship Armor III|| 380mm Belt/155mm Deck
+|
+- All Battleship
+| -10%
+| +15%
+| 40 || –20%|| +20%
+|
+| +17.5% naval production cost || 2 steel 1 chromium
+| All-or-Nothing Armor Scheme
+|- id="Battlecruiser Armor I"
+| || Battlecruiser Armor I|| 150mm Belt/25mm Deck
+|
+- All Battleship
+| +5%
+| +5%
+| 22 || || +10%
+|–0.32
+| +10% naval production cost
+|
+| Early Heavy Ship
+|- id="Battlecruiser Armor II"
+| || Battlecruiser Armor II|| 305mm Belt/100mm Deck
+|
+- All Battleship
+|
+| +10%
+| 28 || –10%|| +15%
+|–0.32
+| +12.5% naval production cost || 1 steel
+| Inclined Belt Armor Scheme
+|- id="Battlecruiser Armor III"
+| || Battlecruiser Armor III|| 330mm Belt/130mm Deck
+|
+- All Battleship
+| -10%
+| +15%
+| 34 || –15%|| +20%
+|–0.32
+| +12.5% naval production cost || 1 steel 1 chromium
+| All-or-Nothing Armor Scheme
+|- id="Super-Heavy Armor"
+| || Super-Heavy Armor|| 450mm Belt/210mm Deck
+|
+- All Battleship
+| -12%
+| +10%
+| 55 || –25%|| +25%
+|
+| +25% naval production cost || 2 steel 1 chromium
+| Super Heavy Battleship
+|}
+
+## Deck Armor [verified for 1.16]
+
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! class="unsortable" | Alternative Name
+! Eligible Hulls
+! Max Speed
+! HP
+!Armor
+!Production Cost
+!Resource Use per Dockyard
+!Prerequisites
+|- id="Deck Armor"
+| || Flight Deck Armor
+| 90mm Deck
+|
+- All Carrier except Ice Carrier
+| -5%
+| +25
+|5
+|+10% naval production cost
+|1 steel
+| Deck Conversions
+|}
+
+## Runway Reinforcements [verified for 1.16]
+
+ Götterdämmerung
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! Eligible Hulls
+! Max Speed
+!Weather Penalty
+! HP
+!Armor
+!Production Cost
+!Resource Use per Dockyard
+! Prerequisites
+|- id="Pykrete Runway Reinforcements"
+| || Pykrete Runway Reinforcements
+|
+- Ice Carrier
+| -10%
+|–5%
+| +30
+|2
+|+10% naval production cost
+|2 steel
+| Ice Aircraft Carrier
+|-
+|
+|Steel-Reinforced Pykrete Runway
+|
+- Ice Carrier
+|-15%
+|–10%
+|+35
+|4
+|+15% naval production cost
+|2 steel
+| Refined Pykrete
+|-
+|
+|Ice-Composite Runway
+|
+- Ice Carrier
+|-15%
+|–15%
+|+40
+|6
+|+20% naval production cost
+|3 steel
+| Ice-Composite Runway
+|}
+
+## Rapid Fire Guns [verified for 1.16]
+
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! class="unsortable" | Alternative Name
+! Eligible Hulls
+! Light Attack !! Light Piercing
+! Anti-Air
+! Max speed
+! Production Cost
+! Resource Use per Dockyard
+! Prerequisites
+|- id="Light Battery I"
+| || Light Battery I
+| 85 mm RF. Cannon
+|
+- All Destroyer
+- Early Cruiser (as Light Cruiser)
+- 1936 Cruiser (as Light Cruiser)
+- 1940 Cruiser (as Light Cruiser)
+- 1944 Cruiser (as Light Cruiser)
+- Torpedo Cruiser
+| 1 || 1
+|
+| -1%
+| 90 naval production cost ||
+| Naval Gunnery
+|- id="Light Battery II"
+| || Light Battery II
+| 105 mm RF. Cannon
+|
+- All Destroyer
+- Early Cruiser (as Light Cruiser)
+- 1936 Cruiser (as Light Cruiser)
+- 1940 Cruiser (as Light Cruiser)
+- 1944 Cruiser (as Light Cruiser)
+- Torpedo Cruiser
+| 1.5 || 2
+|
+| -2%
+| 120 naval production cost ||
+| Basic Light Battery
+|- id="Light Battery III"
+| || Light Battery III
+| 127 mm RF. Cannon
+|
+- All Destroyer
+- Early Cruiser (as Light Cruiser)
+- 1936 Cruiser (as Light Cruiser)
+- 1940 Cruiser (as Light Cruiser)
+- 1944 Cruiser (as Light Cruiser)
+- Torpedo Cruiser
+| 2 || 2.5
+|
+| -3%
+| 150 naval production cost ||
+| Improved Light Battery
+|- id="Light Battery IV"
+| || Light Battery IV
+| 130 mm RF. Cannon
+|
+- All Destroyer
+- Early Cruiser (as Light Cruiser)
+- 1936 Cruiser (as Light Cruiser)
+- 1940 Cruiser (as Light Cruiser)
+- 1944 Cruiser (as Light Cruiser)
+- Torpedo Cruiser
+| 3 || 2.5
+|
+| -4%
+| 175 naval production cost || 1 steel
+| Advanced Light Battery
+|- id="Dual-Purpose Main Battery I"
+| || Dual-Purpose Main Battery I
+| 100mm Dual-Purpose Battery
+|
+- All Destroyer
+- Early Cruiser (as Light Cruiser)
+- 1936 Cruiser (as Light Cruiser)
+- 1940 Cruiser (as Light Cruiser)
+- 1944 Cruiser (as Light Cruiser)
+- Torpedo Cruiser
+| 1 || 0.5
+| 1
+| -1%
+| 100 naval production cost || 1 steel
+| Naval Gunnery
+|- id="Dual-Purpose Main Battery II"
+| || Dual-Purpose Main Battery II
+| 113mm Dual-Purpose Battery
+|
+- All Destroyer
+- Early Cruiser (as Light Cruiser)
+- 1936 Cruiser (as Light Cruiser)
+- 1940 Cruiser (as Light Cruiser)
+- 1944 Cruiser (as Light Cruiser)
+- Torpedo Cruiser
+| 1.5 || 1
+| 2
+| -2%
+| 130 naval production cost || 1 steel
+| Basic Dual-Purpose Battery
+|- id="Dual-Purpose Main Battery III"
+| || Dual-Purpose Main Battery III
+| 127mm Dual-Purpose Battery
+|
+- All Destroyer
+- Early Cruiser (as Light Cruiser)
+- 1936 Cruiser (as Light Cruiser)
+- 1940 Cruiser (as Light Cruiser)
+- 1944 Cruiser (as Light Cruiser)
+- Torpedo Cruiser
+| 2 || 1.7
+| 3
+| -3%
+| 160 naval production cost || 1 steel
+| Improved Dual-Purpose Battery
+|- id="Dual-Purpose Main Battery IV"
+| || Dual-Purpose Main Battery IV
+| 127mm RF. Dual-Purpose Battery
+|
+- All Destroyer
+- Early Cruiser (as Light Cruiser)
+- 1936 Cruiser (as Light Cruiser)
+- 1940 Cruiser (as Light Cruiser)
+- 1944 Cruiser (as Light Cruiser)
+- Torpedo Cruiser
+| 2.5 || 1.7
+| 4
+| -4%
+| 185 naval production cost || 1 steel
+| Advanced Dual-Purpose Battery
+|}
+
+## Medium Battery [verified for 1.16]
+
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! class="unsortable" | Alternative Name
+! Eligible Hulls
+!Light Attack
+!Light Piercing
+!Anti-Air!! Heavy Attack !! Heavy Piercing!! HP
+! Max Speed
+! Production Cost
+! Resource Use per Dockyard
+! Prerequisites
+|-
+|
+|Light Cruiser Battery I
+| 14.5 cm Cannon
+|
+- All Cruiser (without any Heavy Cruiser Battery) except Panzerschiff
+|4
+|5.5
+|
+|
+|
+|+20
+|-3%
+|300 naval production cost
+|
+| Naval Gunnery
+|-
+|
+|Light Cruiser Battery II
+| 15 cm Cannon
+|
+- All Cruiser (without any Heavy Cruiser Battery) except Panzerschiff
+|5
+|7
+|
+|
+|
+|+20
+|-4%
+|350 naval production cost
+|
+| Basic Medium Battery
+|-
+|
+|Light Cruiser Battery III
+| 15.5 cm Cannon
+|
+- All Cruiser (without any Heavy Cruiser Battery) except Panzerschiff
+|6
+|8
+|
+|
+|
+|+20
+|-5%
+|375 naval production cost
+|1 steel
+| Improved Medium Battery
+|-
+|
+|Light Cruiser Battery IV
+| 15.5 cm Auto-Loading Cannon
+|
+- All Cruiser (without any Heavy Cruiser Battery) except Panzerschiff
+|7.5
+|9
+|
+|
+|
+|+20
+|-6%
+|425 naval production cost
+|1 steel
+| Advanced Medium Battery
+|-
+|
+|Light Cruiser Battery Auto-Loading
+| 152m RF. Dual-Purpose Battery
+|
+- All Cruiser (without any Heavy Cruiser Battery) except Panzerschiff
+|7.5
+|8
+|4.5
+|
+|
+|+20
+|-6%
+|450 naval production cost
+|
+| Advanced Medium Dual-Purpose Battery
+|- id="Heavy Cruiser Battery I"
+| || Heavy Cruiser Battery I
+| 17 cm Cannon
+|
+- All Cruiser (without any Rapid Fire Guns or Light Cruiser Battery) except Panzerschiff
+|
+|
+| || 6 || 22|| +40%
+| -4%
+| 650 naval production cost || 1 steel
+| Naval Gunnery
+|- id="Heavy Cruiser Battery II"
+| || Heavy Cruiser Battery II
+| 19 cm Cannon
+|
+- All Cruiser (without any Rapid Fire Guns or Light Cruiser Battery) except Panzerschiff
+|
+|
+| || 8 || 25|| +40%
+| -6%
+| 700 naval production cost || 1 steel
+| Basic Medium Battery
+|- id="Heavy Cruiser Battery III"
+| || Heavy Cruiser Battery III
+| 20.3 cm Cannon
+|
+- All Cruiser (without any Rapid Fire Guns or Light Cruiser Battery) except Panzerschiff
+|
+|
+| || 10 || 29|| +40%
+| -7%
+| 725 naval production cost || 2 steel
+| Improved Medium Battery
+|- id="Heavy Cruiser Battery IV"
+| || Heavy Cruiser Battery IV
+| 20.3 cm Auto-Loading Cannon
+|
+- All Cruiser (without any Rapid Fire Guns or Light Cruiser Battery) except Panzerschiff
+|
+|
+| || 12 || 34|| +40%
+| -8%
+| 800 naval production cost || 2 steel
+| Advanced Medium Battery
+|}
+
+## Heavy Battery [verified for 1.16]
+
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! class="unsortable" | Alternative Name
+! Eligible Hulls
+! Heavy Attack !! Heavy Piercing
+! Max Speed
+! Production Cost
+! Resource Use per Dockyard
+! Prerequisites
+|- id="Heavy Battery I"
+| || Heavy Battery I
+| 28 cm Cannon
+|
+- Panzerschiff
+- Coastal Defense Ship
+- All Battleship except Super Heavy Battleship
+| 14 || 31
+| -5%
+| 1550 naval production cost || 1 steel
+| Naval Gunnery
+|- id="Heavy Battery II"
+| || Heavy Battery II
+| 30.5 cm Cannon
+|
+- Panzerschiff
+- Coastal Defense Ship
+- All Battleship except Super Heavy Battleship
+| 18 || 36
+| -6%
+| 1650 naval production cost || 1 steel
+| Basic Heavy Battery
+|- id="Heavy Battery III"
+| || Heavy Battery III
+| 38 cm Cannon
+|
+- Panzerschiff
+- Coastal Defense Ship
+- All Battleship except Super Heavy Battleship
+| 22 || 40
+| -7%
+| 1750 naval production cost || 1 steel
+| Improved Heavy Battery
+|- id="Heavy Battery IV"
+| || Heavy Battery IV
+| 40.6 cm Cannon
+|
+- Panzerschiff
+- Coastal Defense Ship
+- All Battleship except Super Heavy Battleship
+| 26 || 45
+| -8%
+| 1850 naval production cost || 1 steel 1 chromium
+| Advanced Heavy Battery
+|- id="Super-Heavy Battery"
+| || Super-Heavy Battery
+| 46 cm Cannon
+|
+- Super Heavy Battleship
+| 27 || 45
+| -8%
+| 2000 naval production cost || 1 steel 1 chromium
+| Basic Heavy Battery
+|}
+
+## Secondary Batteries [verified for 1.16]
+
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! class="unsortable" | Alternative Name
+! Eligible Hulls
+! Light Attack !! Light Piercing
+! Anti-Air
+! Max Speed
+! Production Cost
+! Prerequisites
+|- id="Secondary Battery I"
+| || Secondary Battery I
+| 75mm RF. Cannon
+|
+- All Cruiser
+- All Battleship
+- All Carrier
+| 3 || 5.5
+|
+| -2%
+| 180 naval production cost
+| Naval Gunnery
+|- id="Secondary Battery II"
+| || Secondary Battery II
+| 120mm RF. Cannon
+|
+- All Cruiser
+- All Battleship
+- All Carrier
+| 4 || 7
+|
+| -3%
+| 240 naval production cost
+| Basic Medium Battery
+|- id="Dual-Purpose Secondary Battery I"
+| || Dual-Purpose Secondary Battery I
+| 100mm Dual-Purpose Secondary Battery
+|
+- All Cruiser
+- All Battleship
+- All Carrier
+| 2 || 3
+| 1
+| -1%
+| 180 naval production cost
+| Basic Dual-Purpose Battery
+|- id="Dual-Purpose Secondary Battery II"
+| || Dual-Purpose Secondary Battery II
+| 113mm Dual-Purpose Secondary Battery
+|
+- All Cruiser
+- All Battleship
+- All Carrier
+| 3 || 4
+| 2
+| -1%
+| 240 naval production cost
+| Basic Dual-Purpose Battery
+|- id="Dual-Purpose Secondary Battery III"
+| || Dual-Purpose Secondary Battery III
+| 127mm Dual-Purpose Secondary Battery
+|
+- All Cruiser
+- All Battleship
+- All Carrier
+| 4 || 7
+| 2.5
+| -3%
+| 300 naval production cost
+| Improved Dual-Purpose Battery
+|- id="Dual-Purpose Secondary Battery IV"
+| || Dual-Purpose Secondary Battery IV
+| 127mm RF. Dual-Purpose Secondary Battery
+|
+- All Cruiser
+- All Battleship
+- All Carrier
+| 4.5 || 7
+| 3
+| -3%
+| 360 naval production cost
+| Advanced Dual-Purpose Battery
+|}
+
+## Anti-Air [verified for 1.12]
+
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! class="unsortable" | Alternative Name
+! Eligible Hulls
+! Anti-Air !! Max Speed
+! Production Cost
+! Prerequisites
+|- id="Anti-Air I"
+| || Anti-Air I
+| .50 cal. MG
+|
+- All Destroyer
+- All Cruiser
+- All Battleship
+- All Carrier
+| 2.5 || -0.5%
+| 80 naval production cost
+| Towed Artillery
+|- id="Anti-Air II"
+| || Anti-Air II
+| 20mm AA
+|
+- All Destroyer
+- All Cruiser
+- All Battleship
+- All Carrier
+| 3.5 || -0.5%
+| 110 naval production cost
+| Towed Anti-Air
+|- id="Anti-Air III"
+| || Anti-Air III
+| 37mm AA
+|
+- All Destroyer
+- All Cruiser
+- All Battleship
+- All Carrier
+| 4.5 || -0.5%
+| 140 naval production cost
+| Improved Anti-Air
+|- id="Anti-Air IV"
+| || Anti-Air IV
+| 40mm Quad AA
+|
+- All Destroyer
+- All Cruiser
+- All Battleship
+- All Carrier
+| 5.5 || -0.5%
+| 170 naval production cost
+| Advanced Anti-Air
+|}
+
+## Torpedo Launchers [verified for 1.16]
+
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! class="unsortable" | Alternative Name
+! Eligible Hulls
+! Torpedo Attack !! Torpedo Hit Chance
+! Max Speed
+! Production Cost
+! Prerequisites
+|- id="Torpedo Launcher I"
+| || Torpedo Launcher I
+| 3x 450mm Torpedo Launcher
+|
+- All Destroyer
+- All Cruiser
+- Pre-Dreadnought
+| 18 ||
+| -1%
+| 90 naval production cost
+| Basic Torpedo
+|- id="Torpedo Launcher II"
+| || Torpedo Launcher II
+| 4x 450mm Torpedo Launcher
+|
+- All Destroyer
+- All Cruiser
+- Pre-Dreadnought
+| 24 || +1%
+| -2%
+| 120 naval production cost
+| Improved Ship Torpedo Launcher
+|- id="Torpedo Launcher III"
+| || Torpedo Launcher III
+| 3x 533mm Torpedo Launcher
+|
+- All Destroyer
+- All Cruiser
+- Pre-Dreadnought
+| 30 || +1.5%
+| -3%
+| 150 naval production cost
+| Advanced Ship Torpedo Launcher
+|- id="Torpedo Launcher IV"
+| || Torpedo Launcher IV
+| 4x 533mm Torpedo Launcher
+|
+- All Destroyer
+- All Cruiser
+- Pre-Dreadnought
+| 36 || +2%
+| -4%
+| 180 naval production cost
+| Modern Ship Torpedo Launcher
+|}
+
+## Torpedo Room [verified for 1.16]
+
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! class="unsortable" | Alternative Name
+! Eligible Hulls
+! Torpedo Attack !! Torpedo Hit Chance
+! Max Speed
+! Reliability
+! Production Cost
+! Prerequisites
+|- id="Torpedo Tubes I"
+| || Torpedo Tubes I
+| 4x 450mm Torpedo Tubes
+|
+- All Submarine
+| 14 ||
+| -1%
+|
+| 80 naval production cost
+| Early Submarine
+|- id="Torpedo Tubes II"
+| || Torpedo Tubes II
+| 6x 450mm Torpedo Tubes
+|
+- All Submarine
+| 18 || +1%
+| -2%
+|
+| 100 naval production cost
+| 1936 Submarine
+|- id="Torpedo Tubes III"
+| || Torpedo Tubes III
+| 4x 533mm Torpedo Tubes
+|
+- All Submarine
+| 22 || +1.5%
+| -3%
+|
+| 120 naval production cost
+| 1940 Submarine
+|- id="Torpedo Tubes IV"
+| || Torpedo Tubes IV
+| 6x 533mm Torpedo Tubes
+|
+- All Submarine
+| 28 || +2%
+| -4%
+|
+| 140 naval production cost
+| 1944 Submarine
+|-
+|
+|Nuclear Torpedo
+|
+|
+- All Submarine
+|44
+|+5%
+|-5%
+|-15%
+|520 naval production cost
+| Götterdämmerung
+ Nuclear Torpedo
+|}
+
+## Radar [verified for 1.12]
+
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! class="unsortable" | Alternative Name
+! Eligible Hulls
+! Surface Detection
+! Sub Detection
+! Light Battery Hit Chance
+! Heavy Battery Hit Chance
+! Anti-Air
+! Production Cost
+! Prerequisites
+|- id="Radar I"
+| || Radar I
+| Decimetric Naval Search Radar
+|
+- All Destroyer
+- All Cruiser
+- All Battleship
+- All Carrier
+- 1940 Submarine
+- 1944 Submarine
+- Cruiser Submarine
+- Fleet Submarine
+- Nuclear Submarine
+|5
+|
+|
+|
+|
+|100 naval production cost
+| Radar
+|- id="Radar II"
+| || Radar II
+| Improved Decimetric Naval Search Radar
+|
+- All Destroyer
+- All Cruiser
+- All Battleship
+- All Carrier
+- 1940 Submarine
+- 1944 Submarine
+- Cruiser Submarine
+- Fleet Submarine
+- Nuclear Submarine
+|7
+|2
+| +2.5%
+| +2.5%
+| +5%
+|130 naval production cost
+| Cavity Magnatron
+|- id="Radar III"
+| || Radar III
+| Centimetric Gunnery Radar
+|
+- All Destroyer
+- All Cruiser
+- All Battleship
+- All Carrier
+- 1940 Submarine
+- 1944 Submarine
+- Cruiser Submarine
+- Fleet Submarine
+- Nuclear Submarine
+|12
+|6
+|+5%
+|+5%
+| +7.5%
+|160 naval production cost
+| Phased Array
+|- id="Radar IV"
+| || Radar IV
+| Integrated Fire Control Radar
+|
+- All Destroyer
+- All Cruiser
+- All Battleship
+- All Carrier
+- 1940 Submarine
+- 1944 Submarine
+- Cruiser Submarine
+- Fleet Submarine
+- Nuclear Submarine
+|18
+|14
+|+10%
+|+10%
+|+10%
+|190 naval production cost
+| Monopulse Radar
+|}
+
+## Sonar [verified for 1.12]
+
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! Eligible Hulls
+! Sub Detection
+! Production Cost
+! Prerequisites
+|- id="Hydrophones"
+| || Hydrophones
+|
+- All Destroyer
+- All Cruiser
+|8
+|40 naval production cost
+| Passive Sonar
+|- id="Active Sonar"
+| || Active Sonar
+|
+- All Destroyer
+- All Cruiser
+|12
+|60 naval production cost
+| Active Sonar
+|- id="Advanced Sonar"
+| || Advanced Sonar
+|
+- All Destroyer
+- All Cruiser
+| 16
+| 80 naval production cost
+| Advanced Sonar
+|- id="Modern Sonar"
+| || Modern Sonar
+|
+- All Destroyer
+- All Cruiser
+|20
+|100 naval production cost
+| Modern Sonar
+|}
+
+## Snorkels [verified for 1.16]
+
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! Eligible Hulls
+! Sub Visibility
+! Production Cost
+! Prerequisites
+|- id="Basic Schnorkel"
+| || Basic Schnorkel
+|
+- 1940 Submarine
+- 1944 Submarine
+- Cruiser Submarine
+- Fleet Submarine
+| -7%
+| 50 naval production cost
+| Basic Submarine Snorkel
+|- id="Improved Schnorkel"
+| || Improved Schnorkel
+|
+- 1940 Submarine
+- 1944 Submarine
+- Cruiser Submarine
+- Fleet Submarine
+| -13%
+| 70 naval production cost
+| Improved Submarine Snorkel
+|}
+
+## Fire Control Systems [verified for 1.16]
+
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! class="unsortable" | Alternative Name
+! Eligible Hulls
+! Light Battery Hit Chance
+! Heavy Battery Hit Chance
+! Anti-Air
+! Production Cost
+! Prerequisites
+|- id="Fire Control 0"
+| || Fire Control 0
+| Central Rangefinding
+|
+- All Destroyer
+- All Cruiser
+- All Battleship
+|+2.5%
+|+2.5%
+|
+|60 naval production cost
+| Electronic Mechanical Engineering
+|- id="Fire Control I"
+| || Fire Control I
+| Director Fire
+|
+- All Destroyer
+- All Cruiser
+- All Battleship
+|+5%
+|+5%
+|+10%
+|135 naval production cost
+| Basic Fire Control System
+|- id="Fire Control II"
+| || Fire Control II
+| Mechanical Rangekeeper
+|
+- All Destroyer
+- All Cruiser
+- All Battleship
+|+7.5%
+|+7.5%
+|+15%
+|165 naval production cost
+| Improved Fire Control System
+|- id="Fire Control III"
+| || Fire Control III
+| Ballistic Computer
+|
+- All Destroyer
+- All Cruiser
+- All Battleship
+|+10%
+|+10%
+|+20%
+|225 naval production cost
+| Advanced Fire Control System
+|}
+
+## Anti-Submarine Warfare [verified for 1.16]
+
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! class="unsortable" | Alternative Name
+! Eligible Hulls
+! Depth Charges !! Max Speed
+! Production Cost
+! Prerequisites
+|- id="Depth Charge I"
+| || Depth Charge I
+| Depth Charge Rails
+|
+- All Destroyer
+- Early Cruiser
+- 1936 Cruiser
+- 1940 Cruiser
+- 1944 Cruiser
+- Torpedo Cruiser
+| 8 || -1%
+| 90 naval production cost
+| Basic Depth Charges
+|- id="Depth Charge II"
+| || Depth Charge II
+| Depth Charge Thrower
+|
+- All Destroyer
+- Early Cruiser
+- 1936 Cruiser
+- 1940 Cruiser
+- 1944 Cruiser
+- Torpedo Cruiser
+| 13 || -1%
+| 120 naval production cost
+| Depth Charge Thrower
+|- id="Depth Charge III"
+| || Depth Charge III
+| Anti-submarine Mortar
+|
+- All Destroyer
+- Early Cruiser
+- 1936 Cruiser
+- 1940 Cruiser
+- 1944 Cruiser
+- Torpedo Cruiser
+| 17 || -2%
+| 150 naval production cost
+| Depth Charge Mortar
+|- id="Depth Charge IV"
+| || Depth Charge IV
+| Advanced Anti-submarine Mortar
+|
+- All Destroyer
+- Early Cruiser
+- 1936 Cruiser
+- 1940 Cruiser
+- 1944 Cruiser
+- Torpedo Cruiser
+| 22 || -2%
+| 180 naval production cost
+| Improved Depth Charge Mortar
+|}
+
+## Mine Warfare [verified for 1.16]
+
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! Eligible Hulls
+! Minelaying !! Minesweeping !! Max speed
+! Production Cost
+! Prerequisites
+|- id="Minelaying Rails"
+| || Minelaying Rails
+|
+- All Destroyer
+- All Cruiser except Coastal Defense Ship
+| 1 || || -2%
+| 90 naval production cost
+| Contact Mine
+|- id="Minelaying Tubes"
+| || Minelaying Tubes
+|
+- All Submarine except Midget Submarine
+| 1 || ||
+| 90 naval production cost
+| Minelaying Submarine
+|- id="Minesweeping Gear"
+| || Minesweeping Gear
+|
+- All Destroyer
+| || 1 || -2%
+| 30 naval production cost
+| Contact Mine
+|}
+
+## Aircraft Facilities [verified for 1.16]
+
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! Eligible Hulls
+! Surface Detection !! Sub Detection
+! Max Speed
+! Production Cost
+! Prerequisites
+|- id="Floatplane Catapult"
+| || Floatplane Catapult
+|
+- All Cruiser
+- All Battleship
+- Cruiser Submarine
+- Fleet Submarine
+- Nuclear Submarine
+| 7 || 2.5
+| -1%
+| 150 naval production cost
+| Early Cruiser
+|- id="Improved Floatplane Catapult"
+| || Improved Floatplane Catapult
+|
+- All Cruiser
+- All Battleship
+- Cruiser Submarine
+- Fleet Submarine
+- Nuclear Submarine
+| 10 || 3.5
+| -1%
+| 170 naval production cost
+| Improved Airplane Catapult
+|}
+
+## Hangar Space [verified for 1.16]
+
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! Eligible Hulls
+! Manpower
+! Deck Size
+! Max Speed
+!Production Cost
+!Resource Use per Dockyard
+!Prerequisites
+|- id="Hangar Space"
+| || Hangar Space
+|
+- All Carrier except Ice Carrier
+|500 manpower
+| 20
+| -5%
+|1500 naval production cost
+|1 steel
+| Deck Conversions
+|-
+|
+|Floating Airfield Runway
+|
+- Ice Carrier
+|800 manpower
+|30
+|-10%
+|2000 naval production cost
+|2 steel
+| Götterdämmerung
+ Ice Aircraft Carrier
+|}
+
+## Coating [verified for 1.16]
+
+ Götterdämmerung
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! Eligible Hulls
+! Sub Visibility
+! Production Cost
+!Resource Use per Dockyard
+! Prerequisites
+|- id="Anechoic Tiles"
+| || Anechoic Tiles
+|
+- 1940 Submarine
+- 1944 Submarine
+- Cruiser Submarine
+- Fleet Submarine
+- Nuclear Submarine
+| -20%
+| +25% naval production cost
+|2 rubber
+| Anechoic Tiles
+|}
+
+## Deck Guns [verified for 1.16]
+
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! Eligible Hulls
+!Sub Visibility
+! Raiding Efficiency
+! Production Cost
+! Prerequisites
+|- id="200mm Battery"
+| || 200mm Battery
+|
+- Cruiser Submarine
+|+5%
+| +20%
+| 110 naval production cost
+| Raiding Protocol special project prototype outcome choice
+|}
+
+## Fuel [verified for 1.16]
+
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! Eligible Hulls
+! Max Range (km)
+! Production Cost
+! Prerequisites
+|- id="Fuel Tank"
+| || Fuel Tank
+|
+- Cruiser Submarine
+- Fleet Submarine
+- Nuclear Submarine
+| +1000
+| +5% naval production cost
+| Raiding Protocol special project prototype outcome choice
+|}
+
+## Missile Launcher [verified for 1.16]
+
+ Götterdämmerung
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! Eligible Hulls
+! Sub Visibility
+! Reliability
+! Production Cost
+! Prerequisites
+|- id="Submarine Missile Launcher"
+| || Submarine Missile Launcher
+|
+- Fleet Submarine
+- Nuclear Submarine
+| +15%
+| -10%
+|1500 naval production cost
+| Missile Launching Submarine
+|}
+
+## Nuclear Missile Launcher [verified for 1.16]
+
+ Götterdämmerung
+{| class="wikitable sortable"
+! class="unsortable" | !! Module
+! Eligible Hulls
+! Sub Visibility
+! Reliability
+!Production Cost
+! Prerequisites
+|- id="Submarine Nuclear Missile Launcher"
+| || Submarine Nuclear Missile Launcher
+|
+- Nuclear Submarine
+| +20%
+| -15%
+|2000 naval production cost
+| Nuclear Missile Submarine
+|}
+
+# References
+
+- For module data, see reference files in folder common/units/equipment/modules.
+- For flavor text, see reference files:
+ - ship_modules_l_english.yml.
+ - designer_l_english.yml.
+ - modifiers_l_english.yml.

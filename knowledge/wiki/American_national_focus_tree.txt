@@ -1,0 +1,2535 @@
+TITLE: American national focus tree
+URL: https://hoi4.paradoxwikis.com/American_national_focus_tree
+REVISION: 2026-03-18T08:08:03Z (rev 98937)
+VERIFIED FOR: 1.17
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+United States, as one of the seven major powers, has a unique national focus tree.
+
+American national focus tree. Clicking on the branches leads to the appropriate section.
+
+The American national focus tree can be divided into 4 branches and 3 Sub-Branches:
+- Continue the New Deal/ Reestablish the Gold Standard Branch
+- This branch allows the United States to begin removing the effects of the Great Depression in one of two ways, increase research, change political leanings, and/or increase production.
+- The national focuses in the center of the branch are all Democracy and thus broadly historical, but on either edge of the branch (gated behind the national focuses "Suspend the Persecution" and "America First", respectively, lie the communism and fascism branches of the national focus tree, both of which will cause a civil war if progressed through.
+- The center branch diverges into two sub-branches: Limited Intervention and Neutrality Act.
+ - Limited Intervention allows the United States to intervene in the approaching war in Europe or Asia earlier than historically by allowing them to send volunteers, guarantee independence, and provide lend-lease at less World Tension, in addition to improving espionage and eventually even permitting military action by enabling a decision for that, but this is supported by neither the House of Representatives nor the Senate (increasing opposition in both) and will make it harder to mobilize the economy.
+ - Neutrality Act does the opposite: It restricts the country's foreign policy by preventing the United States from intervening in either Europe or Asia and causes the country to turn inwards. However, this inwards focus allows the United States to address the Great Depression more effectively, and enables the US to begin building up its economy and mobilizing itself more gradually and more effectively, improving strength and readiness for when the time to go to war comes. This is the historical path.
+
+- The communism branch requires the national focus Continue the New Deal and the fascism branch requires the national focus Reestablish the Gold Standard. Both are mutually exclusive.
+ - Suspend the Persecution Sub-branch
+- This is the communism sub-branch. It focuses on gradually changing the political party to Communism communism and implementing various socialist policies to dismantle capitalism to form the Communist States of America. It then continues onwards to allying with other communist nations (either the Soviet Union or Communist China) and finally leads to forcefully demanding the decolonization of the Pacific, and declaring war on the European nations to end monarchism and shatter the colonial empires.
+- Taking either the Full Desegregation or Union Representation Act national focuses will lead to a civil war.
+
+ - America First Sub-branch
+ - This is the fascism sub-branch. It focuses on gradually changing the ideology to Fascism fascism by allying with the Silver Legion of America led by William Dudley Pelley and Charles Lindbergh, having them recruit the German-American Bund and the Free Corps and acquiring foreign aid from other fascist powers to ultimately inaugurate the Confederated States of America, thus allowing Pelley to seize power and install himself as "Chief" (an American equivalent to "Führer" and "Il Duce") of America, dismantling democracy in the process.
+ - From there, the path becomes extremely aggressive, as the War Powers Act opens up a set of national focuses that focus annexing Cuba, subjugating Mexico and annexing British Columbia from Canada to create a land connection to Alaska. After that, the path of aggression escalates ever further, beginning with the subjugation of the entire American continent, demands for subordination to Pacific countries (or their overlords) before culminating in the aptly named national focus Global Hegemony which tops it all off with War Goals against all major powers, with the intent to turn them into puppet states and achieve World Domination.
+ - Taking both the Voter Registration Act and Ally With the Silver Shirts national focuses will lead to a civil war.
+
+- War Plans Division Branch
+- This Branch improves planning speed and enables United States to take decisions that give attack and defense bonuses against all major countries and certain others as well, though it does not give War Goals (but those can be gained from the War Powers Act sub-branch under the Fascism fascist branch). It will also allow the United States to form a faction and invite democratic Latin American countries into it, in addition to building coastal forts and naval bases in the Pacific.
+
+- War Department Branch
+- This Branch is a combined Army and Air Force Branch. It gives army and air technology research boosts as well as various production cost discounts to tanks and airplanes. It also allows the United States to increase it conscription law to Limited Conscription if it is below that and also adds 2% more recruitable manpower.
+
+ - Two Ocean Navy Act Sub-branch
+- This Branch is the Navy Branch. It adds 10 Naval Dockyards to California and New York (5 each) and gives naval technology research boosts and production cost discounts to nearly every ship class except for submarines.
+
+# Continue the New Deal/ Reestablish the Gold Standard Branch [verified for 1.17]
+
+Political branch of the American national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+Focus:
+FOCUS Continue the New Deal: The policies of the New Deal have proven to work. We must not lose our way now.
+Prerequisites:
+United States:
+- ExclusiveM Mutually exclusive with:
+ - Reestablish the Gold Standard
+- Current ruling party is democracy
+Effects:
+United States:
+- political power : +150
+
+Focus:
+FOCUS Reestablish the Gold Standard: Without the Gold Standard, money exists as little more than an article of faith, while rampant inflation eats away our people's savings and devalues their work. We must abandon this fiscally irresponsible path.
+Prerequisites:
+United States:
+- ExclusiveM Mutually exclusive with:
+ - Continue the New Deal
+- Franklin Delano Roosevelt is not the current country leader
+- Current ruling party is democracy
+Effects:
+United States gets the national spirit:
+
+Spirit On the Gold Standard:
+- Consumer Goods Factories: 5%
+- stability : +10.00%
+
+- Up to 4 Senators and 20 Representatives go into opposition
+
+Focus:
+FOCUS WPA: Millions of people are still suffering the unemployment resulting from the Great Depression. An agency to put these people to work on public projects may not fully solve the problem, but the Work Progress Administration is a step in the right direction.
+Prerequisites:
+United States:
+- Requires the following:
+ - Continue the New Deal
+Effects:
+United States:
+- political power : +150
+
+Focus:
+FOCUS Agricultural Adjustment Act: Our farmers have been particularly hard-hit by the depression. We must ensure that the people who produce our food are not driven out of business by an unchecked market.
+Prerequisites:
+United States:
+- Requires the following:
+ - WPA
+- Requires the support of at least 49 Senators and 218 Representatives
+- Current ruling party is democracy
+All of the following must be true:
+- Does not have the national spirit The Great Depression
+- Does not have the national spirit Slow Recovery
+- Does not have the national spirit Slow Economic Growth
+Effects:
+United States:
+- Reduces the effect of the Great Depression
+ - Replace The Great Depression with:
+
+Spirit Slow Recovery:
+Effective Change:
+- Daily Political Power cost: -0.35
+- Resource Gain Efficiency: +5.00%
+- manpower Factor: +10%
+- Consumer Goods Factories: -5%
+
+ - Replace Slow Recovery with:
+
+Spirit Slow Economic Growth:
+Effective Change:
+- Daily Political Power cost: -0.40
+- Resource Gain Efficiency: +5.00%
+- manpower Factor: +20%
+- Consumer Goods Factories: -7%
+
+ - loses the national spirit Slow Economic Growth
+- After this law is passed, it will take 230 days until
+ further New Deal legislation is drafted and ready to
+ be signed.
+- Up to 8 Senators and 40 Representatives go into opposition
+- Unlocks decision: Pay Farm Subsidies
+ - When Decision is removed:
+ - Up to 5 Senators and 25 Representatives will Support the Government.
+
+Focus:
+FOCUS Fair Labor Standards Act: With the first signs of a slow recovery taking place, it is time to ensure that the workers get to participate in it. We must ban exploitative practices such as unpaid overtime and introduce a liveable minimum wage.
+Prerequisites:
+United States:
+- Requires the following:
+ - Agricultural Adjustment Act
+- Requires the support of at least 49 Senators and 218 Representatives
+- Current ruling party is democracy
+- Not: New Legislation is still being drafted
+All of the following must be true:
+- Does not have the national spirit The Great Depression
+- Does not have the national spirit Slow Recovery
+- Does not have the national spirit Slow Economic Growth
+Effects:
+United States:
+- Reduces the effect of the Great Depression
+ - Replace The Great Depression with:
+
+Spirit Slow Recovery:
+Effective Change:
+- Daily Political Power cost: -0.35
+- Resource Gain Efficiency: +5.00%
+- manpower Factor: +10%
+- Consumer Goods Factories: -5%
+
+ - Replace Slow Recovery with:
+
+Spirit Slow Economic Growth:
+Effective Change:
+- Daily Political Power cost: -0.40
+- Resource Gain Efficiency: +5.00%
+- manpower Factor: +20%
+- Consumer Goods Factories: -7%
+
+ - loses the national spirit Slow Economic Growth
+- After this law is passed, it will take 230 days until
+ further New Deal legislation is drafted and ready to
+ be signed.
+- Up to 8 Senators and 40 Representatives go into opposition
+
+Focus:
+FOCUS Federal Housing Act: As part of our ongoing efforts to eradicate poverty in the United States, we will create a program of federally-subsidized housing.
+Prerequisites:
+United States:
+- Requires the following:
+ - Fair Labor Standards Act
+- Requires the support of at least 49 Senators and 218 Representatives
+- Current ruling party is democracy
+- Not: New Legislation is still being drafted
+Effects:
+United States:
+- Reduces the effect of the Great Depression
+ - Replace The Great Depression with:
+
+Spirit Slow Recovery:
+Effective Change:
+- Daily Political Power cost: -0.35
+- Resource Gain Efficiency: +5.00%
+- manpower Factor: +10%
+- Consumer Goods Factories: -5%
+
+ - Replace Slow Recovery with:
+
+Spirit Slow Economic Growth:
+Effective Change:
+- Daily Political Power cost: -0.40
+- Resource Gain Efficiency: +5.00%
+- manpower Factor: +20%
+- Consumer Goods Factories: -7%
+
+ - loses the national spirit Slow Economic Growth
+- Up to 8 Senators and 40 Representatives go into opposition
+- 5 random (owned, controlled and cored) states: add 1 building slot each.
+
+Focus:
+FOCUS Scientific Research & Development Office: With war looming on the horizon, we must focus our scientific efforts to ensure that we are not outmatched by any potential adversary.
+Prerequisites:
+United States:
+- Requires the following:
+ - WPA
+Effects:
+United States:
+- Add 1 Research Slot
+
+Focus:
+FOCUS Rubber Reserve Company: With the eruption of war, we have lost almost all our sources of imported rubber.
+ With an enormous coordinated effort, the rubber companies in the United States can cooperate to find better means of producing synthetic rubber, possibly even meeting the demands of the war effort.
+Prerequisites:
+United States:
+- Requires the following:
+ - Scientific Research & Development Office
+Effects:
+United States:
+- 2x 100% research bonus for:
+ - Synthetic rubber
+
+Focus:
+FOCUS Limited Intervention: It would take extraordinary aggression to draw us into a war at full force, but after recent developments, many people are freely willing to assist in conflicts abroad.
+Prerequisites:
+United States:
+- Requires one of the following:
+ - Continue the New Deal
+ - Reestablish the Gold Standard
+- ExclusiveM Mutually exclusive with:
+ - Neutrality Act
+- Requires the support of at least 58 Senators and 261 Representatives
+- Current Ruling Party is democracy
+- No part of government has trait Fascist Demagogue
+- No part of government has trait Communist Revolutionary
+Effects:
+United States gets the national spirit:
+
+Spirit Limited Intervention: It would take extraordinary aggression to draw us into a war at full force, but after recent developments, many people are freely willing to assist in conflicts abroad.
+- Join Faction tension limit: -25.0%
+- Send Volunteers Tension Limit: -35.0%
+- Guarantee tension limit: -20.0%
+- Economy Laws Cost: +100%
+- Conscription Laws Cost: +100%
+
+- Up to 8 Senators and 40 Representatives go into opposition
+- If war support is between 20% and 40%:
+ - Gain Base Stability : -10.00%
+- If war support is below 20%:
+ - Gain Base Stability : -20.00%
+- Passing this law will make it Significantly Harder to mobilize your economy
+
+Focus:
+FOCUS War Propaganda: Our people don't want to send their children to die in another war, but many politicians see a need for intervention. Propaganda to demonize the enemy and call for open conflict may not only be a tool for tyrants.
+Prerequisites:
+United States:
+- Requires the following:
+ - Limited Intervention
+- Current ruling party is democracy
+Effects:
+United States:
+- Gain Base War Support : +10.00%
+- If War Support is less than 40%:
+ - Up to 4 Senators and 20 Representatives go into opposition
+
+Focus:
+FOCUS Focus on Europe: The Great Powers of Europe are once more poised to plunge the world into a world war. We can not, as we did before, wait until it affects us. We must be ready to intervene decisively should any nation in Europe threaten the peace.
+Prerequisites:
+United States:
+- Requires the following:
+ - War Propaganda
+- ExclusiveM Mutually exclusive with:
+ - Focus on Asia
+- Current ruling party is Democracy
+One of the following must be true:
+- Is at war with Germany
+- Is at war with United Kingdom
+- Is at war with France
+Effects:
+United States:
+- Unlocks Intervention Mandate Decisions.
+ - Intervention Mandates allow us to request Congress to authorize military action against another country.
+
+Focus:
+FOCUS Office of Strategic Services: Forming a dedicated intelligence agency will not only aid the war, but future operations abroad. British intelligence services can serve as a model.
+Prerequisites:
+United States:
+- Requires the following:
+ - Focus on Europe
+Effects:
+United States:
+- If the DLC La Résistance is not enabled:
+ - gets the national spirit:
+
+Spirit Office of Stategic Services: The Office of Strategic Services (OSS) was a United States Intelligence agency formed during World War II. It was the wartime intelligence agency, and a predecessor of the Central Intelligence Agency (CIA).
+- Decryption: +20.00%
+- Decryption Research Speed: +5%
+- Encryption Research Speed: +5%
+
+- Otherwise:
+ - gets the national spirit:
+
+Spirit Office of Stategic Services: The Office of Strategic Services (OSS) was a United States Intelligence agency formed during World War II. It was the wartime intelligence agency, and a predecessor of the Central Intelligence Agency (CIA).
+- Strengthen Resistance efficiency: +25%
+- Infiltration effectiveness: +25%
+
+Focus:
+FOCUS Focus on Asia: While most people look with worry towards Europe, we also face uncertainty and instability across the Pacific. It might be in our best interest to intervene abroad before we attacked closer to home.
+Prerequisites:
+United States:
+- Requires the following:
+ - War Propaganda
+- ExclusiveM Mutually exclusive with:
+ - Focus on Europe
+- All of the following must be true:
+ - At peace with Japan
+ - At peace with China
+Effects:
+United States:
+- Unlocks Intervention Mandate Decisions.
+ - Intervention Mandates allow us to request Congress to authorize military action against another country.
+
+Focus:
+FOCUS MAGIC: The Navy thinks it can break the Japanese encryption codes, which would allow us to read all of their message traffic, including ship movements.
+Prerequisites:
+United States:
+- Requires the following:
+ - Focus on Asia
+Effects:
+United States gets the national spirit:
+
+Spirit MAGIC: The Navy thinks it can break the Japanese encryption codes, which would allow us to read all of their message traffic, including ship movements.
+Spotting Chance: +20%
+
+Focus:
+FOCUS Black Chamber Operation: We have information of political activities in a number of American countries that does not align with our interests. Fortunately we have established a underground propaganda network and are ready to push these countries in our direction. This is something we must do to ensure that we are not under threat at home.
+Prerequisites:
+United States:
+- Requires one of the following:
+ - Office of Strategic Services
+ - Magic
+Effects:
+United States:
+- If DLC La Résistance is not enabled:
+ - 2x 100% Research bonus for: Encryption methods or decryption methods
+- Otherwise:
+ - gets the national spirit:
+
+Spirit Black Chamber Operation: We have information of political activities in a number of American countries that does not align with our interests. Fortunately we have established a underground propaganda network and are ready to push these countries in our direction. This is something we must do to ensure that we are not under threat at home.
+- Propaganda mission effects: +25%
+- Boost Ideology mission effects: +25%
+
+Focus:
+FOCUS Lend Lease Act: The large democracies of the world are under assault. If they lose the battle, it is only a question of time before war comes to our shores. We must do what we can to support them - even if they can not pay for the equipment immediately.
+Prerequisites:
+United States:
+- Requires one of the following:
+ - Limited Intervention
+ - Neutrality Act
+- If War Support is greater than 40%:
+ - Requires the support of at least 49 Senators and 218 Representatives
+ - Otherwise: Requires the support of at least 58 Senators and 261 Representatives
+- More than 95% Support for Democracy Party
+- Passing the Neutrality act will drastically increase the requirements to pass the Lend Lease Act:
+ - If the focus Neutrality Act is complete:
+ - Any Major country that is the same Ideology as the United States is at war and has over 0 surrender progress.
+Effects:
+United States:
+- Replace the national spirit Limited Intervention or Neutrality Act with:
+
+Spirit Lend Lease Act: The large democracies of the world are under assault. If they lose the battle, it is only a question of time before war comes to our shores. We must do what we can to support them - even if they can not pay for the equipment immediately.
+Effective Change: Lend-Lease tension limit -100%
+
+- If War Support is over 60% and not at war:
+ - Up to 5 Senators and 25 Representatives will support the Government.
+- If War Support is over 40% and not at war:
+ - Up to 4 Senators and 20 Representatives go into opposition
+- If War Support is under 40% and not at war:
+ - Up to 25 Senators and 100 Representatives go into opposition
+- Otherwise:
+ - Up to 8 Senators and 40 Representatives go into opposition
+
+Focus:
+FOCUS Scientist Haven: Having asserted ourselves as guardians of liberty in the world, we can welcome researchers and intellectuals driven out of the oppressive regimes abroad, giving them a chance to succeed and aid our cause in the land of opportunity.
+Prerequisites:
+United States:
+- Requires one of the following:
+ - Black Chamber Operation
+ - Arsenal of Democracy
+- Current ruling party is democracy
+Effects:
+United States:
+- Gain 1 research slot
+
+Focus:
+FOCUS Manhattan Project: Development of Substitute Materials, an innocent-sounding USACE project, will eventually be known as the Manhattan Project. One of the most secretive and dangerous undertakings in military history, its goal is to create the first atomic bomb.
+Prerequisites:
+United States:
+- Requires the following:
+ - Scientist Haven
+Effects:
+United States:
+- If has not researched Atomic Research:
+ - 1x 50% research bonus for: Nuclear technology.
+ - Gain breakthrough progress:
+ - Nuclear Research: 50.00%
+ - gets the national spirit:
+
+Spirit Manhattan Project: Development of Substitute Materials, an innocent-sounding USACE project, will eventually be known as the Manhattan Project. One of the most secretive and dangerous undertakings in military history, its goal is tot create the first atomic bomb.
+Nuclear Research Special Projects Speed: +5%
+
+- Otherwise:
+ - Gain breakthrough progress:
+ - Nuclear Research: 100.00%
+ - gets the national spirit:
+
+Spirit Manhattan Project: Development of Substitute Materials, an innocent-sounding USACE project, will eventually be known as the Manhattan Project. One of the most secretive and dangerous undertakings in military history, its goal is tot create the first atomic bomb.
+Nuclear Research Special Projects Speed: +5%
+
+Focus:
+FOCUS Neutrality Act: It seems increasingly certain that war will break out in Europe. During the Great War, American companies sold large quantites of weapons to the Allies, and many believe that the American entry was mostly motivated by a desire to ensure that those deliveries would be paid for. This time, there won't be any war-profiteering.
+Prerequisites:
+United States:
+- Requires one of the following:
+ - Continue the New Deal
+ - Reestablish the Gold Standard
+- ExclusiveM Mutually exclusive with:
+ - Limited Intervention
+- Requires the support of at least 39 Senators and 174 Representatives
+- More than 95% support for democracy party
+- No part of government has trait Fascist Demagogue
+- No part of government has trait Communist Revolutionary
+Effects:
+United States:
+- political Power : +200
+- Gain Base War Support : -5.00%
+- If the DLC Arms Against Tyranny is enabled:
+
+Spirit Neutrality Act: It seems increasingly certain that war will break out in Europe. During the Great War, American companies sold large quantites of weapons to the Allies, and many believe that the American entry was mostly motivated by a desire to ensure that those deliveries would be paid for. This time, there won't be any war-profiteering.
+- Join Faction tension limit: +25.0%
+- Send Volunteers tension limit: +50.0%
+- Guarantee tension limit: +50.0%
+- Embargo tension limit: +150.0%
+- The United States cannot buy or sell arms to countries at war
+
+- Otherwise:
+
+Spirit Neutrality Act: It seems increasingly certain that war will break out in Europe. During the Great War, American companies sold large quantites of weapons to the Allies, and many believe that the American entry was mostly motivated by a desire to ensure that those deliveries would be paid for. This time, there won't be any war-profiteering.
+- Join Faction tension limit: +25.0%
+- Send Volunteers tension limit: +50.0%
+- Guarantee tension limit: +50.0%
+
+- If War Support is less than 40%:
+ - Up to 5 Senators and 25 Representatives will support the Government.
+- The Neutrality Act will limit the player's foreign policy:
+ - Passing the Lend Lease Act will require a Major that is the same ideology as the United States to be at war with over 0 surrender progress.
+ - Declaring war over the Panay Incident will cause stability : -30% and war support : -10%
+
+Focus:
+FOCUS Arsenal of Democracy: Regardless of whether or not we choose to intervene directly in a war, democratic nations must know that we will arm and support them.
+Prerequisites:
+United States:
+- Requires the following:
+ - Neutrality Act
+- More than 95% support for democracy party
+- Not enough building slots for mic
+- Not enough building slots for nic
+Effects:
+United States:
+- Navy Exp : +50
+- Army Exp : +50
+- Air Exp : +10
+- 2 Random Owned Controlled Cored States:
+ - Add 3 building slot .
+ - Add 3 mic
+- 2 Random Owned Controlled Cored States:
+ - Add 3 building slot .
+ - Add 3 nic
+
+Focus:
+FOCUS The Giant Wakes: Nations turn to us to protect the values of democracy and liberty. The world where non-interventionist America was born no longer exists and we must adapt accordingly.
+Prerequisites:
+United States:
+- Requires the following:
+ - Arsenal of Democracy
+- One of the following must be true:
+ - At War
+ - More than 30% War Support
+- More than 95% support for Democracy party
+has the national spirit Homeland Defense Emergency Act
+Effects:
+United States:
+- If has economy law: Undisturbed Isolation or Isolation :
+ - Change economy law to Civilian Economy which grants:
+ - Consumer Goods Factories: 35%
+ - mic to cic cost : +30.00%
+ - cic to mic cost : +30.00%
+ - Fuel Gain per oil: -40.00%
+ - Fuel Capacity: -25.00%
+ - mic construction speed:-30.00%
+ - cic construction speed:-30.00%
+ - Otherwise:
+ - Add Political Power : +100
+
+Focus:
+FOCUS Wartime Industry: We have a strong industry, but not all of it is well adapted for production of war materials. Finding efficient processes to facilitate this change will be key to utilizing our resources.
+Prerequisites:
+United States:
+- Requires the following:
+ - The Giant Wakes
+- More than 95% support for Democracy party
+Effects:
+United States gets the national spirit:
+
+Spirit Wartime Industry:
+cic to mic cost : -50.00%
+
+- Available as Design Company:
+ - General Motors:
+ - Industrial Research Speed: +15%
+ - Industrial Concern, Factory Output : +5.00%
+
+Focus:
+FOCUS Military Construction: With superpowers threatening world peace, our public works projects need to be turned towards military matters as well as civilian ones.
+Prerequisites:
+United States:
+- Requires the following:
+ - Arsenal of Democracy
+- One of the following must be true:
+ - At war
+ - More than 30% War Support
+Effects:
+United States:
+- Army exp : +10
+- Random owned controlled state in the Continental United States with more than 4 free building slots:
+ - Add 5 building slot
+ - Add 5 mic
+- Any owned state that is controlled and cored by the United States: add 2 infra
+- Any owned state that is controlled and cored by the United States (Prioritize 371): add 2 infra
+- Any owned state that is controlled and cored by the United States: add 2 infra
+- Any owned state that is controlled and cored by the United States (Prioritize 375): add 2 infra
+- Any owned state that is controlled and cored by the United States: add 2 infra
+- Any owned state that is controlled and cored by the United States (Prioritize 378): add 2 infra
+
+Focus:
+FOCUS USACE Projects: The US Army Corps of Engineers will be put to the task of building the foundation for many future military projects the like of which the world has never seen. Essayons!
+Prerequisites:
+United States:
+- Requires the following:
+ - Military Construction
+- One of the following must be true:
+ - More than 30% War Support
+ - At War
+Effects:
+United States:
+- Random owned controlled state in the Continental United States with more than 2 free building slots:
+ - Add 3 building slots
+ - Add 3 mic
+- Random owned controlled state in the Continental United States with more than 3 million Population and more than 2 free infra slots:
+ - Add 3 infra
+- air exp : +50
+- navy exp : +50
+- army exp : +10
+
+Focus:
+FOCUS Adjusted Compensation Act: Our veterans of the Great War were promised a fair pension. Many have fallen on hard times recently as the depression hit. We must do what we can to help those who answered the call of the Republic in its hour of need.
+Prerequisites:
+United States:
+- Requires the following:
+ - Reestablish the Gold Standard
+- Requires the support of at least 49 Senators and 218 Representatives
+Effects:
+United States gets the national spirit for 180 days:
+
+Spirit Adjusted Compensation Payment:
+Consumer Goods Factories: 5%
+
+- Reduces the effect of the Great Depression
+ - Replace The Great Depression with:
+
+Spirit Slow Recovery:
+Effective Change:
+- Daily Political Power cost: -0.35
+- Resource Gain Efficiency: +5.00%
+- manpower Factor: +10%
+- Consumer Goods Factories: -5%
+
+ - Replace Slow Recovery with:
+
+Spirit Slow Economic Growth:
+Effective Change:
+- Daily Political Power cost: -0.40
+- Resource Gain Efficiency: +5.00%
+- manpower Factor: +20%
+- Consumer Goods Factories: -7%
+
+ - loses the national spirit Slow Economic Growth
+- Up to 4 Senators and 20 Representatives go into opposition
+
+Focus:
+FOCUS Labor-Management Relations Act: Businesses all over America are threatened by all kinds of union activities - strikes, organizing, demands for higher wages. We can not allow this to continue.
+Prerequisites:
+United States:
+- Requires the following:
+ - Adjusted Compensation Act
+- Requires the support of at least 49 Senators and 218 Representatives
+Effects:
+United States gets the national spirit:
+
+Spirit Labor-Management Relations Act: Businesses all over America are threatened by all kinds of union activities - strikes, organizing, demands for higher wages. We can not allow this to continue.
+Production Efficiency Cap : +5.00%
+
+- If Communism support is less than 10%:
+ - Up to 4 Senators and 20 Representatives go into opposition
+- Otherwise:
+ - Up to 8 Senators and 40 Representatives go into opposition
+
+Focus:
+FOCUS Protectionist Tariffs: Free Trade has opened up our markets to foreign competitors, many of which have raised tariffs and duties of their own. Our companies face stiff competition while theirs enjoy the safety of the customs-wall. This must end.
+Prerequisites:
+United States:
+- Requires the following:
+ - Labor-Management Relations Act
+Effects:
+United States:
+- Reduces the effect of the Great Depression
+ - Replace The Great Depression with:
+
+Spirit Slow Recovery:
+Effective Change:
+- Daily Political Power cost: -0.35
+- Resource Gain Efficiency: +5.00%
+- manpower Factor: +10%
+- Consumer Goods Factories: -5%
+
+ - Replace Slow Recovery with:
+
+Spirit Slow Economic Growth:
+Effective Change:
+- Daily Political Power cost: -0.40
+- Resource Gain Efficiency: +5.00%
+- manpower Factor: +20%
+- Consumer Goods Factories: -7%
+
+ - loses the national spirit Slow Economic Growth
+- Change trade law to Export Focus which grants:
+ - Consumer Goods Factories: 35%
+ - Construction Speed: +10.00%
+ - Research Speed: +5.00%
+ - Factory Output : +10.00%
+ - Dockyard Output : +10.00%
+ - Resources to Market +50.00%
+
+Focus:
+FOCUS Income Tax Reform: The Income Tax takes money out of every American's wallet - money that our citizens could spend on buying other things and supporting their local economy. We will give Americans the autonomy over their own finances back.
+Prerequisites:
+United States:
+- Requires the following:
+ - Protectionist Tariffs
+- Requires the support of at least 58 Senators and 261 Representatives
+Effects:
+United States:
+- Reduces the effect of the Great Depression
+ - Replace The Great Depression with:
+
+Spirit Slow Recovery:
+Effective Change:
+- Daily Political Power cost: -0.35
+- Resource Gain Efficiency: +5.00%
+- manpower Factor: +10%
+- Consumer Goods Factories: -5%
+
+ - Replace Slow Recovery with:
+
+Spirit Slow Economic Growth:
+Effective Change:
+- Daily Political Power cost: -0.40
+- Resource Gain Efficiency: +5.00%
+- manpower Factor: +20%
+- Consumer Goods Factories: -7%
+
+ - loses the national spirit Slow Economic Growth
+- Up to 8 Senators and 40 Representatives go into opposition
+- Unlocks Decision: Extend the Tax Breaks
+ - When decision is removed:
+ - Up to 5 Senators and 40 Representatives will Support the Government.
+
+Focus:
+FOCUS American Institute of Sciences: The universities and research labs all across the nation have so far conducted their research as they saw fit. This must end. We will create a new organization to coordinate the efforts of our world-class scientists.
+Prerequisites:
+United States:
+- Requires the following:
+ - Income Tax Reform
+Effects:
+United States:
+- Gain 1 research slot.
+
+## Suspend the Persecution Sub-branch [verified for 1.17]
+
+Communist sub-branch of the American national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+Focus:
+FOCUS Suspend the Persecution: The persecution of American citizens for their political views - no matter how abhorrent they may seem - is fundamentally at odds with the values of this country. It must cease immediately.
+Prerequisites:
+United States:
+- Requires the following:
+ - Continue the New Deal
+Effects:
+United States:
+- Gain base Stability : -5.00%
+- Available as Political Advisor:
+ - Earl Browder (Communist Revolutionary):
+ - Daily Communism Support: +0.10
+
+Focus:
+FOCUS Desegregate the Armed Forces: Serving under arms in the armed forces of one's country can be an unwelcome duty - but it can also be a cherished right. A right that many of our citizens are denied on account of their ancestry.
+Prerequisites:
+United States:
+- Requires the following:
+ - Suspend the Persecution
+- One of the following must be true:
+ - More than 10% Support for communism
+ - Harry S. Truman is the current country leader
+Effects:
+United States gets the national spirit:
+
+Spirit Armed Forces Desegregation:
+manpower : 2.00%
+
+Focus:
+FOCUS Full Desegregation: For too long, some of our states have treated people differently based on old, outdated and inhuman criteria. In a free republic, every citizen must be treated equally - and not seperately.
+Prerequisites:
+United States:
+- Requires the following:
+ - Desegregate the Armed Forces
+- More than 20% Support for communism
+Effects:
+United States:
+- Replace the national spirit Armed Forces Desegregation with:
+
+Spirit Full Desegregation: For too long, some of our states have treated people differently based on old, outdated and inhuman criteria. In a free republic, every citizen must be treated equally - and not seperately.
+Effective Change: manpower Factor: +20%
+
+- Up to 25 Senators and 100 Representatives go into Opposition
+- Gets event Silver Legion protests or Protests escalate into violence
+- This will move you closer to a Civil War!
+
+Focus:
+FOCUS Democratic Socialism: No right-thinking person can deny that socialism is the future of human civilization. At the same time, no proud and patriotic citizen of this republic could possibly support a system where government is no longer made by the people and of the people. Like our proud forefathers, we will create a new form of government that combines both.
+Prerequisites:
+United States:
+- Requires the following:
+ - Desegregate the Armed Forces
+- More than 35% Support for communism
+Current Ruling Party is communism
+Effects:
+United States:
+- Politics will change:
+ - communism becomes the ruling party
+ - Public elections will be held
+- Change in popularity of Communism : 25.00%
+
+Focus:
+FOCUS Liberty for the Philippines: The people of the Philippines have shown their ability to organize their own affairs, and it is about time that the last vestiges of American control over their country are official removed.
+Prerequisites:
+United States:
+- Requires the following:
+ - Full Desegregation
+ - Democratic Socialism
+- Current Ruling Party is communism
+- Philippines exists
+Philippines is not a subject of the United States
+Effects:
+Philippines becomes free if it is a subject of the United States
+
+If United States is a Faction leader, Philippines joins the faction.
+
+Focus:
+FOCUS Pacific Decolonisation: There is no justification - none - for the continued presence of European powers in the Pacific, nor for keeping the peoples of the Pacific Islands in servitude to their European masters. America will no longer stand idly by while this injustice continues.
+Prerequisites:
+United States:
+- Requires the following:
+ - Liberty for the Philippines
+Effects:
+If:
+- Dutch East Indies exists and is a subject:
+ - Gain Puppet (Focus) cb against Dutch East Indies
+
+If:
+- 523 is not owned by Papua New Guinea then:
+ - Gain Conquer cb against owner of 523
+
+Focus:
+FOCUS Union Representation Act: Work is a core part of human life, and organizing into a union is a fundamental part of organizing a democratic society. It is only proper that we should recognize this and ensure that unions have mandatory representation in Congress.
+Prerequisites:
+United States:
+- Requires the following:
+ - Suspend the Persecution
+- Requires the support of at least 58 Senators and 261 Representatives
+- One of the following must be true:
+ - Part of government has trait Communist Revolutionary
+ - Current Ruling Party is communism
+- Has not completed focus Limited Intervention
+- Has not completed focus Neutrality Act
+Effects:
+United States:
+- If the support of at least 58 Senators and 261 Representatives is not active:
+ - Gain Base Stability : -10.00%
+- Ensures a comfortable majority in Congress.
+ This majority will be restored in any future election if it should be lost in the meantime.
+- Disables events for congress to support or oppose the government (e.g. Opposition suffers defeat in the Senate or Representative criticizes President)
+- Gets event Silver Legion protests or Protests escalate into violence
+- This will move you closer to a Civil War!
+
+Focus:
+FOCUS Old Age Pension Act: After a lifetime of work, our people deserve to enjoy financial security and respect in old age. What legislation exists to support them is clearly insufficient.
+Prerequisites:
+United States:
+- Requires the following:
+ - Union Representation Act
+- Requires the support of at least 49 Senators and 218 Representatives
+Effects:
+United States:
+- Gain base Stability : +10.00%
+- Up to 4 Senators and 20 Representatives go into Opposition
+
+Focus:
+FOCUS Accumulated Wealth Tax Act: Some people in our country have amassed absurd amounts of capital. This money sits passively in bank accounts or invested in impractically large buildings, gildened furniture and expensive paintings. None of these serve any viable economic purpose. by instituting a new tax we will force those amongst our citizens who have amassed such useless wealth to reinvest the money into the economy.
+Prerequisites:
+United States:
+- Requires the following:
+ - Union Representation Act
+- One of the following must be true:
+ - Part of government has trait Communist Revolutionary
+ - Current Ruling Party is communism
+- Requires the support of at least 58 Senators and 261 Representatives
+Effects:
+United States:
+- gets the national spirit:
+
+Spirit Accumulated Wealth Tax Act: Some people in our country have amassed absurd amounts of capital. This money sits passively in bank accounts or invested in impractically large buildings, gildened furniture and expensive paintings. None of these serve any viable economic purpose. by instituting a new tax we will force those amongst our citizens who have amassed such useless wealth to reinvest the money into the economy.
+Consumer Goods Factories: -5%
+
+- If more than 30% Support for communism and Current Ruling Party is not communism :
+ - Up to 8 Senators and 40 Representatives go into opposition
+- If less than 30% Support for communism and Current Ruling Party is not communism :
+ - Up to 25 Senators and 100 Representatives go into Opposition
+ - Change in popularity of Communism : 5.00%
+- Reduces the effect of the Great Depression
+ - Replace The Great Depression with:
+
+Spirit Slow Recovery:
+Effective Change:
+- Daily Political Power cost: -0.35
+- Resource Gain Efficiency: +5.00%
+- manpower Factor: +10%
+- Consumer Goods Factories: -5%
+
+ - Replace Slow Recovery with:
+
+Spirit Slow Economic Growth:
+Effective Change:
+- Daily Political Power cost: -0.40
+- Resource Gain Efficiency: +5.00%
+- manpower Factor: +20%
+- Consumer Goods Factories: -7%
+
+ - loses the national spirit Slow Economic Growth
+
+Focus:
+FOCUS Guarantee the American Dream: Most of our people don't wish for much in life: stable employment, good health, and a place to start a family. There is no reason why they shouldn't have that.
+Prerequisites:
+United States:
+- Requires the following:
+ - Old Age Pension Act
+ - Accumulated Wealth Tax Act
+Effects:
+United States:
+- Gain Base War Support : +10.00%
+- Ensures that in the event of a civil war the states of Illinois, Indiana, Iowa, Michigan, Minnesota and Wisconsin will not secede to form the Neutral Bloc.
+
+Focus:
+FOCUS Worker Management Act: Far too often factories and offices are managed by people who have never worked on the shop floor. Unable to understand the realities of production, they set unrealistic expectations. To safeguard our economy from the damage such incompetent managers can cause, we will enforce management of the workers, by the workers, for the workers!
+Prerequisites:
+United States:
+- Requires the following:
+ - Guarantee the American Dream
+- Requires the support of at least 58 Senators and 261 Representatives
+- One of the following must be true:
+ - Part of government has trait Communist Revolutionary
+ - Current Ruling Party is communism
+Effects:
+United States:
+- gets the national spirit:
+
+Spirit Worker Management Act: Far too often factories and offices are managed by people who have never worked on the shop floor. Unable to understand the realities of production, they set unrealistic expectations. To safeguard our economy from the damage such incompetent managers can cause, we will enforce management of the workers, by the workers, for the workers!
+Factory Output : +5.00%
+
+- If more than 30% Support for communism and Current Ruling Party is not communism :
+ - Up to 8 Senators and 40 Representatives go into opposition
+- If less than 30% Support for communism and Current Ruling Party is not communism :
+ - Up to 25 Senators and 100 Representatives go into Opposition
+ - Change in popularity of Communism : 5.00%
+- Reduces the effect of the Great Depression
+ - Replace The Great Depression with:
+
+Spirit Slow Recovery:
+Effective Change:
+- Daily Political Power cost: -0.35
+- Resource Gain Efficiency: +5.00%
+- manpower Factor: +10%
+- Consumer Goods Factories: -5%
+
+ - Replace Slow Recovery with:
+
+Spirit Slow Economic Growth:
+Effective Change:
+- Daily Political Power cost: -0.40
+- Resource Gain Efficiency: +5.00%
+- manpower Factor: +20%
+- Consumer Goods Factories: -7%
+
+ - loses the national spirit Slow Economic Growth
+
+Focus:
+FOCUS Militia Organization Act: Our proud republic has a long tradition of the citizen soldier. Should our country ever find itself invaded by a foreign attacker, they will face a well-organized and well-armed militia of men and women fighting on familiar territory to defend their homes.
+Prerequisites:
+United States:
+- Requires the following:
+ - Guarantee the American Dream
+- Requires the support of at least 58 Senators and 261 Representatives
+Effects:
+United States
+- gets the national spirit:
+
+Spirit Militia Organization Act: Our proud republic has a long tradition of the citizen soldier. Should our country ever find itself invaded by a foreign attacker, they will face a well-organized and well-armed militia of men and women fighting on familiar territory to defend their homes.
+Division Training time: -10.0%
+
+- Up to 4 Senators and 20 Representatives go into opposition
+
+Focus:
+FOCUS Communal Property Act: The needs of the many should never be outweighed by the desires of the few, or even the one. To ensure that this is the case, we will pass new legislation to allow local communities to execute eminent domain more easily.
+Prerequisites:
+United States:
+- Requires the following:
+ - Worker Management Act
+ - Militia Organization Act
+- Requires the support of at least 58 Senators and 261 Representatives
+Effects:
+United States:
+- If more than 30% Support for communism and Current Ruling Party is not communism :
+ - Up to 8 Senators and 40 Representatives go into opposition
+- If less than 30% Support for communism and Current Ruling Party is not communism :
+ - Up to 25 Senators and 100 Representatives go into Opposition
+ - Change in popularity of Communism : 5.00%
+- Reduces the effect of the Great Depression
+ - Replace The Great Depression with:
+
+Spirit Slow Recovery:
+Effective Change:
+- Daily Political Power cost: -0.35
+- Resource Gain Efficiency: +5.00%
+- manpower Factor: +10%
+- Consumer Goods Factories: -5%
+
+ - Replace Slow Recovery with:
+
+Spirit Slow Economic Growth:
+Effective Change:
+- Daily Political Power cost: -0.40
+- Resource Gain Efficiency: +5.00%
+- manpower Factor: +20%
+- Consumer Goods Factories: -7%
+
+ - loses the national spirit Slow Economic Growth
+- Unlocks Decision: Communal Domain
+ - When decision is selected:
+ - 685: add 1 building Slot
+
+Focus:
+FOCUS Reintegration: The war has divided our nation, but eventually, even those that rose up against us can yet be redeemed. When the population has learned the error of their ways, they should be allowed to once again rejoin the political process in our proud republic.
+Prerequisites:
+United States:
+- Requires the following:
+ - Communal Property Act
+- One of the following Must be true:
+- Is at war with Confederacy of American States
+- The Second American Civil War has started.
+Effects:
+United States:
+- Unlocks Decision: Readmit State to the Union
+ - When Decision is removed:
+ - Two Senators are added to Congress. They will initially Support the Government
+
+Focus:
+FOCUS Reach out to the Ware Group: There exists a small group of devoted communists inside our government. They believe that they operate in secret, but we know their names. Perhaps they could see that our goal align and could be persuaded to join the government.
+Prerequisites:
+United States:
+- Requires the following:
+ - Suspend the Persecution
+ - Agricultural Adjustment Act
+- One of the following must be true:
+ - Current ruling party is Democracy
+ - Current ruling party is Communism
+Effects:
+United States:
+- Available as Political Advisor:
+ - Harry White (Financial Expert):
+ - Consumer Goods Factories: -5%
+ - Victor Perlo (Economist):
+ - Production Efficiency Cap : +5.00%
+ - Whittaker Chambers (Editor):
+ - Political Power gain: +5%
+ - Stability : +5.00%
+
+Focus:
+FOCUS US-USSR Economic Cooperation: Despite its chaotic and bloody birth, the Soviet Union has achieved remarkable progress in building a modern, industrialized society. We should do our part to help them.
+Prerequisites:
+United States:
+- Requires the following:
+ - Reach out to the Ware Group
+- At peace with Soviet Union
+Soviet Union:
+- One of the following Must be true:
+ - Does not exist
+ - Is at war with the United States
+ - Is a subject of another country
+Effects:
+Soviet Union:
+- Joins US-USSR Economic Cooperation
+
+United States:
+- Joins US-USSR Economic Cooperation
+
+Focus:
+FOCUS Unholy Alliance: Sometimes, we have to choose our enemies. Often, the choice is not easy. The future may judge us for standing side by side with one tyrant, or praise us for saving it from the other.
+Prerequisites:
+United States:
+- Requires the following:
+ - US-USSR Economic Cooperation
+- ExclusiveM Mutually exclusive with:
+ - Secure China
+- Is not in faction
+- Is at peace with Soviet Union
+- Soviet Union:
+ - Current Ruling Party is communist
+ - is faction leader
+ - Is not in a civil war
+ - Is at peace with the United States
+Effects:
+Soviet Union:
+- Gets event The United States seeks to join the Comintern
+
+Focus:
+FOCUS Secure China: China has been gripped by a long, bloody civil war. The Nationalist government is deeply corrupt and has lost all support in the population. It is time we start to support the single actor in China who can unite and pacify the country - the Communist Party.
+Prerequisites:
+United States:
+- Requires the following:
+ - Reach out to the Ware Group
+- ExclusiveM Mutually exclusive with:
+ - Unholy Alliance
+- At peace with Communist China
+- One of the following must be true:
+ - Is Faction Leader
+ - Communist China: Is faction leader
+ - Communist China: Can join factions
+Effects:
+If Communist China is faction leader:
+- Communist China gets event The United States seeks to join the faction
+
+Otherwise, if United States is Faction leader:
+- Communist China gets event The United States invites Communist China to faction
+
+Focus:
+FOCUS End Monarchism: The monarchies of Europe have plunged the world into one world war already - we can not allow them to do it again. Our forefathers made war on the King of England to gain their freedom - we shall free the world from his tyranny forever!
+Prerequisites:
+United States:
+- Requires the following:
+ - Reach out to the Ware Group
+- More than 30% support for communism
+Effects:
+If United Kingdom:
+- Current ruling party is not Communism
+- Is not in faction with the United States
+ - Gains Topple Government cb against United Kingdom
+If Germany:
+- Has completed the focuses GER_return_of_the_kaiser or GER_the_monarchy_compromise
+- Is not in faction with the United States
+ - Gains Topple Government cb against Germany
+If Hungary:
+- Is not Austria-Hungary
+- Is not in faction with the United States
+ - Gains Topple Government cb against Hungary
+If Japan:
+- Current ruling party is not Communism
+- Current ruling party is not Democracy
+- Is not in faction with the United States
+ - Gains Topple Government cb against Japan
+If Manchukuo:
+- Has completed the focuses Imperial Divinity
+- Is not in faction with the United States
+ - Gains Topple Government cb against Manchukuo
+
+Focus:
+FOCUS Shatter the Empires: We were once a colony of a global empire, until we purchased our freedom in blood. Our republic can not truely feel secure until those that dream themselves masters of this world are contained.
+Prerequisites:
+United States:
+- Requires the following:
+ - End Monarchism
+- One of the following must be true:
+ - United Kingdom
+ - Exists
+ - Is at peace with the United States
+ - Is not in a faction with the United States
+ - Has not completed focus Decolonization
+ - Italy
+ - Exists
+ - Is at peace with the United States
+ - If the DLC By Blood Alone is enabled:
+ - Has not completed the focus Abolish the Colonies
+ - Has not completed the focus New Colonial Policies
+ - Is not in a faction with the United States
+ - Any controlled state:
+ - Is not a core of Italy
+ - France
+ - Exists
+ - Is at peace with the United States
+ - Is not in a faction with the United States
+ - Any controlled state:
+ - Is not a core of France
+ - Germany
+ - Exists
+ - Is at peace with the United States
+ - Is not in a faction with the United States
+ - Any controlled state:
+ - Is not a core of Germany
+Effects:
+If:
+- United Kingdom
+ - Exists
+ - Is at peace with the United States
+ - Is not in a faction with the United States
+ - Has not completed focus Decolonization
+- Then: Gain Puppet (focus) War Goal against the United Kingdom and all its subjects
+
+If:
+- Italy
+ - Exists
+ - Is at peace with the United States
+ - Is not in a faction with the United States
+ - Any controlled state:
+ - Is not a core of Italy
+ - One of the following must be true:
+ - The DLC By Blood Alone is not enabled
+ - Both:
+ - Has not completed the focus Abolish the Colonies
+ - Has not completed the focus New Colonial Policies
+- Then: Gain Puppet (focus) War Goal against Italy and all its subjects
+
+If:
+- France
+ - Exists
+ - Is at peace with the United States
+ - Is not in a faction with the United States
+ - Any controlled state:
+ - Is not a core of France
+- Then: Gain Puppet (focus) War Goal against France and all its subjects
+
+If:
+- Germany
+ - Exists
+ - Is at peace with the United States
+ - Is not in a faction with the United States
+ - Any controlled state:
+ - Is not a core of Germany
+- Then: Gain Puppet (focus) War Goal against Germany and all its subjects
+
+## America First Sub-branch [verified for 1.17]
+
+Fascist Sub-branch of the American national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+Focus:
+FOCUS America First: Some people would have us spend our treasures and the blood of our youth in foreign wars. We must not be swayed by these warmongerers, and will instead live by a simple maxim: America First - Everyone Else Second.
+Prerequisites:
+United States:
+- Requires the following:
+ - Reestablish the Gold Standard
+Effects:
+United States:
+- Available as Political Advisor
+ - Charles Coughlin (Fascist Demagogue)
+ - Daily fascism support: +0.10
+- Change in popularity of Fascism : 5.00%
+
+Focus:
+FOCUS Extend the Chinese Exclusion Acts: With China ravaged by war we must take steps to limit Chinese immigration, lest we be drowned in waves of refugees.
+Prerequisites:
+United States:
+- Requires the following:
+ - America First
+- Requires the support of at least 39 Senators and 174 Representatives
+Effects:
+United States:
+- Up to 30 Senators and 125 Representatives will Support the Government.
+
+Current leader of China:
+- Gains Extend the Chinese Exclusion Acts ( opinion of the United States: -100)
+
+Focus:
+FOCUS Empower the Huac: The House Commitee on Unamerican Activities serves an important function in our healthy democracy. We must not permit disloyal elements from trying to influence the political process.
+Prerequisites:
+United States:
+- Requires the following:
+ - Labor-Management Relations Act
+ - Extend the Chinese Exclusion Acts
+Effects:
+United States:
+- Available as Political Advisor:
+ - Joseph McCarthy (Anti-Communist Crusader):
+ - Stability : +5.00%
+ - Daily Communism support: -0.10
+- Unlocks Decision: Investigate the Opposition
+ - When decision is selected:
+ - Up to 5 Senators and 25 Representatives will Support the Government.
+ - Gain Base Stability : -5.00%
+
+Focus:
+FOCUS Voter Registration Act: Elections are the most important part of a democracy. It is utterly unreasonable to demand that there should be no checks on who can participate in them - or perhaps, the people who argue for uncontrolled elections have more sinister motivations and wish to subvert the process with vote fraud...
+Prerequisites:
+United States:
+- Requires the following:
+ - Empower the Huac
+- More than 15% support for fascism
+- Requires the support of at least 58 Senators and 261 Representatives
+Effects:
+United States:
+- Ensures a comfortable majority in Congress. This majority will be restored in any future election if it should be lost in the meantime.
+- If Democracy is over 75%, gain base stability : -10.00%
+- Disables events for congress to support or oppose the government (e.g. Opposition suffers defeat in the Senate or Representative criticizes President)
+- Gets event Protests in the Capital or The Ten-Million-March
+- This will move you closer to a Civil War!
+
+Focus:
+FOCUS Ally With the Silver Shirts: To restore our nation to its proper place in the world and claim our manifest destiny, a more fundamental reorganization is necessary. The Silver Shirts will help us achieve this.
+Prerequisites:
+United States:
+- Requires the following:
+ - America First
+- More than 15% support for fascism
+- Part of government has trait Fascist Demagogue
+- Has not completed focus Limited Intervention
+- Has not completed focus Neutrality Act
+Current Ruling Party is fascism
+Effects:
+United States:
+- Up to 10 Senators and 50 Representatives will Support the Government.
+- Unlocks Decision: Intimidate Political Opponents
+ - When decision is selected:
+ - Gain base Stability : -10.00%
+ - Up to 5 Senators and 25 Representatives will Support the Government.
+ - Change Popularity of Fascism : 2.00%
+- Gets Event Protests in the Capital or The Ten-Million-March
+- This will move you closer to a Civil War!
+
+Focus:
+FOCUS National Prosperity Program: The key to ensuring a swift recovery and lasting prosperity lies not in unchecked markets but in carefully guided programs, connecting private and public enterprises.
+Prerequisites:
+United States:
+- Requires the following:
+ - Ally With the Silver Shirts
+- More than 20% support for fascism
+Effects:
+United States:
+- Gain Base Stability : +5.00%
+
+Focus:
+FOCUS Privatize the TVA: The Tennessee Valley Authority has crowded out private competition and has established a stranglehold on construction work in the area. It can not be the government's job to do things the private sector has proven to do better.
+Prerequisites:
+United States:
+- Requires the following:
+ - National Prosperity Program
+Effects:
+United States:
+- 368: add 2 Building Slot
+- gets the national spirit:
+
+Spirit Privatization of State-owned Companies:
+infra construction speed: +10.00%
+
+Focus:
+FOCUS De-Regulate the Banking Sector: Following a correction in the financial markets that is perfectly normal in the economic cycle, previous governments have instituted quite unreasonable constraints on financial activities. While no doubt well-intentioned, these restrictions clearly do more harm than good.
+Prerequisites:
+United States:
+- Requires the following:
+ - National Prosperity Program
+Effects:
+United States gets the national spirit:
+
+Spirit De-Regulated Banking Sector:
+- mic construction speed: +10.00%
+- cic construction speed: +10.00%
+
+Focus:
+FOCUS National Employment Strategy: Unemployment comes from a simple fact: people don't match up with the jobs offered. Factories lie idle because employers don't find the people they need while people in other parts of the country starve. We will introduce a new strategy that will ensure that any employer can find the people he needs to run his company.
+Prerequisites:
+United States:
+- Requires the following:
+ - Privatize the TVA
+ - De-Regulate the Banking Sector
+Effects:
+United States:
+- Replace the national spirit De-Regulated Banking Sector with:
+
+Spirit National Employment Strategy: Unemployment comes from a simple fact: people don't match up with the jobs offered. Factories lie idle because employers don't find the people they need while people in other parts of the country starve. We will introduce a new strategy that will ensure that any employer can find the people he needs to run his company.
+Effective Change:
+- Production Efficiency Growth : +10.00%
+
+- Reduces the effect of the Great Depression
+ - Replace The Great Depression with:
+
+Spirit Slow Recovery:
+Effective Change:
+- Daily Political Power cost: -0.35
+- Resource Gain Efficiency: +5.00%
+- manpower Factor: +10%
+- Consumer Goods Factories: -5%
+
+ - Replace Slow Recovery with:
+
+Spirit Slow Economic Growth:
+Effective Change:
+- Daily Political Power cost: -0.40
+- Resource Gain Efficiency: +5.00%
+- manpower Factor: +20%
+- Consumer Goods Factories: -7%
+
+ - loses the national spirit Slow Economic Growth
+
+Focus:
+FOCUS Invite Foreign Support: With some very disturbing reports coming in about the loyalty of the military and some state governments, we might have to look abroad for support.
+Prerequisites:
+United States:
+- Requires the following:
+ - Ally With the Silver Shirts
+Effects:
+United States:
+- Unlocks Search for foreign supporters Decisions
+ - These decisions allow us to approach major countries to lobby for material support.
+
+Focus:
+FOCUS Send Lindbergh To Germany: The famous aviator has offered to go to Europe to investigate how Germany has rebuilt itself after the last war. This should give us valuable experience. Lindbergh has also indicated that he would be willing to join the government in a consulting role.
+Prerequisites:
+United States:
+- Requires the following:
+ - Invite Foreign Support
+Effects:
+United States:
+- Air exp : +75
+- Available as Chief of Airforce:
+ - Charles Lindbergh:
+ - Fighter: Fuel Usage: -10%
+ - Heavy Fighter: Fuel Usage: -10%
+ - Pilot training (Genius): Air Wing Training Experience Gain: +15%
+
+Focus:
+FOCUS Work With the Bund: The German-American Bund has offered to help us communicate our positions to the many Americans of German ancestry. It would ensure that we have a sympathetic base in their states.
+Prerequisites:
+United States:
+- Requires the following:
+ - Send Lindbergh To Germany
+- At peace with Germany
+Is in a civil war
+Effects:
+United States:
+- Gain Base Stability : +5.00%
+
+Germany gains Work With the Bund ( opinion of the United States: +35)
+- Ensures that the following states remain with the government in the event of a civil war:
+- Ohio, Missouri, Wisconsin, Illinois, Indiana and Michigan
+
+Focus:
+FOCUS Honor the Confederacy: For too long, the story of the Civil War was told from the northern perspective - the story of a doomed rebellion. It is time that the other side is heard as well.
+Prerequisites:
+United States:
+- Requires the following:
+ - National Employment Strategy
+ - Work With the Bund
+- One of the following must be true:
+ - Is in a civil war
+ - Current ruling party is fascism
+ - Current ruling party is neutrality
+Effects:
+United States:
+- Unlocks Honor the Confederacy Decisions:
+ - These decisions allow us to rebuild the people's trust in the government in the event of a civil war by reconnecting with the past.
+
+Focus:
+FOCUS Recruit the Free Corps: With the military increasingly suspect, we must turn to the heroes of the Great War. In its hour of need, the German Freikorps came to the aid of the German Republic. We need a similar organization that will stay loyal to us when our hour of need comes.
+Prerequisites:
+United States:
+- Requires the following:
+ - Send Lindbergh To Germany
+Effects:
+United States:
+- Unlocks decision: Raise the Free Corps:
+ - Raises loyalty infantry units in areas that remain with the government.
+
+Focus:
+FOCUS War Powers Act: In a world of increasingly fast aircraft carrying increasingly larger bombloads, in a world of submarines and chemical weapons, restricting the President to require the consent of Congress to do what is needed to defend the country is inviting disaster.
+Prerequisites:
+United States:
+- Requires the following:
+ - America First
+- Requires the support of at least 58 Senators and 261 Representatives
+- More than 30% support for fascism
+Effects:
+United States:
+- gets the national spirit:
+
+Spirit War Powers Act: In a world of increasingly fast aircraft carrying increasingly larger bombloads, in a world of submarines and chemical weapons, restricting the President to require the consent of Congress to do what is needed to defend the country is inviting disaster.
+- Offensive War Penalty Stability Modifier: +20.00%
+- Defensive War Penalty Stability Modifier: +20.00%
+
+- Set the rule: Can create factions
+
+Focus:
+FOCUS Seize Cuba: Just off our shores lies an unsinkable aircraft carrier, ready to serve as a base for an aggressor. We must not let that happen.
+Prerequisites:
+United States:
+- Requires the following:
+ - War Powers Act
+- More than 35% War Support
+One of the Following Must Be true:
+- Owns Cuba
+- Is at war with Cuba
+- Cuba is a subject of the United States
+- Has an Annex cb against Cuba
+Effects:
+United States either:
+- Gains Annex cb against Cuba if it controls 315
+- Gains Take State cb against owner of 315
+
+Focus:
+FOCUS Eliminate the Southern Threat: Mexico has been an unstable mess for the last generation. Whether the violence spills over our border or someone unites the country and marches north is irrelevant - we must secure our southern flank.
+Prerequisites:
+United States:
+- Requires the following:
+ - Seize Cuba
+Mexico:
+- One of the following Must Be true:
+ - Is subject of the United States
+ - Does not exist
+ - Is at war with the United States
+Effects:
+Mexico:
+- Gets event The United States demands Treaty of Consultation and Friendship
+
+Focus:
+FOCUS Manifest Destiny: The special circumstances around our nation's foundation and history give us mandate to act on injustice and oppression anywhere in the world. To create a safe international community, our primary export must be freedom.
+Prerequisites:
+United States:
+- Requires the following:
+ - War Powers Act
+Effects:
+United States gets the national spirit:
+
+Spirit Manifest Destiny:
+Justify cb time: -35.0%
+
+Focus:
+FOCUS The Canadian Corridor: A small strip of sparsely populated Canadian territory separates Alaska from the lower US. Its defense is therefore dependent on Canadian good-will. However, the most likely attacker is Canada. This can not continue.
+Prerequisites:
+United States:
+- Requires the following:
+ - Manifest Destiny
+- Any other Country:
+ - Owns 473
+ - Owns 471
+ - Owns 864
+473: One of the Following must be true:
+- Controlled by the United States
+- Owned by the United States
+- Owner is at war with the United States
+- Owner is a subject of the United States
+
+471: One of the Following must be true:
+- Controlled by the United States
+- Owned by the United States
+- Owner is at war with the United States
+- Owner is a subject of the United States
+
+864: One of the Following must be true:
+- Controlled by the United States
+- Owned by the United States
+- Owner is at war with the United States
+- Owner is a subject of the United States
+Effects: Controller of 473 gets event The Canadian Corridor
+
+Focus:
+FOCUS North American Dominion: With our immediate borders secure, we must look further afield to preempt any threat against North America. We can not tolerate any rogue state in the region.
+Prerequisites:
+United States:
+- Requires the following:
+ - Eliminate the Southern Threat
+ - The Canadian Corridor
+The following Countries either does not exist, Is at war with the United States or is a subject of the United States:
+- Cuba
+- Haiti
+- Dominican Republic
+- Guatemala
+- Canada
+- Mexico
+- Honduras
+- Nicaragua
+- Panama
+- Costa Rica
+Effects:
+The Countries If they are not at war and a subject of the United States:
+- Cuba
+- Haiti
+- Dominican Republic
+- Guatemala
+- Mexico
+- Canada
+- Honduras
+- Nicaragua
+- Panama
+- Costa Rica
+- El Salvador
+ - Gets event The United States demands Control over Foreign Policy
+
+Focus:
+FOCUS Strategic Interests: The world is more connected than ever before. A threat in one part of it can easily grow until it becomes a danger to the entire world. We must build a network of mutually-supporting bases around the globe to enable us to respond quickly to any situation.
+Prerequisites:
+United States:
+- Requires the following:
+ - North American Dominion
+- 336: Owner is at war with The United States or is controlled by the United States
+- 326: Owner is at war with The United States or is controlled by the United States
+- 118: Owner is at war with The United States or is controlled by the United States
+Effects:
+The controller of 336, 326, 118 or the overlord of the controller of the above states:
+- Gets event US demands Territories
+
+Focus:
+FOCUS Protect South America: The southern part of our double continent has been the playground of empires since it was discovered. It is time that someone took it upon themselves to ensure that those nations are undisturbed and guided towards a more productive future.
+Prerequisites:
+United States:
+- Requires the following:
+ - Strategic Interests
+The following Countries either does not exist, Is at war with the United States or is a subject of the United States:
+- Brazil
+- Venezuela
+- Colombia
+- Ecuador
+- Peru
+- Bolivia
+- Paraguay
+- Argentina
+- Chile
+- Uruguay
+Effects:
+The Countries If they are not at war and a subject of the United States:
+- Brazil
+- Venezuela
+- Colombia
+- Ecuador
+- Peru
+- Bolivia
+- Paraguay
+- Argentina
+- Chile
+- Uruguay
+ - Gets event The South-American Security Summit
+
+Focus:
+FOCUS Pacific Pacification: Australia and New Zealand are too far from Britain to be effectively defended by them. We can not allow them to be taken over by a nation hostile to the United States.
+Prerequisites:
+United States:
+- Requires the following:
+ - North American Dominion
+- Australia exists
+- New Zealand exists
+All of the following must be true:
+- Australia: does not exist, Is at war with the United States or is a subject of the United States
+- New Zealand: does not exist, Is at war with the United States or is a subject of the United States
+Effects:
+Australia and New Zealand or The overlord of Australia and New Zealand if not independent:
+- Gets event The United States demand colonial holdings if they are not at war with the United States
+
+Focus:
+FOCUS Secure Asia: The colonial nations in Europe seem either unwilling or unable to effectively defend their Asian colonies. We must take over this burden for them, lest these areas become springboards of further aggression.
+Prerequisites:
+United States:
+- Requires the following:
+ - Pacific Pacification
+- Siam: One of the following must be true:
+ - Is at war with The United States
+ - Is a subject of the United States
+ - Does not Exist
+- Dutch East Indies: One of the following must be true:
+ - Is at war with The United States
+ - Is a subject of the United States
+ - Does not Exist
+- Controller of 671: One of the following must be true:
+ - Is at war with The United States
+ - Is a subject of the United States
+- Controller of 670: One of the following must be true:
+ - Is at war with The United States
+ - Is a subject of the United States
+- Controller of 741: One of the following must be true:
+ - Is at war with The United States
+ - Is a subject of the United States
+Effects:
+If Siam, Dutch East Indies Republic of Vietnam, Republic of Laos or Republic of Cambodia is not a subject and not at war with the United States:
+ - Gets Event The United States exerts pressure
+- The overlord of Dutch East Indies if it is a subject:
+ - Gets event US demands control over colonies
+- If the controller of 670, 286, 741, and 1017 is not at war with the United States:
+ - Gets event The United States demands Indochina
+
+Focus:
+FOCUS Global Hegemony: We stand at the cusp of achieving a position of global supremacy that will allow us to prevent conflict just through our mere existence. We just have to ensure that the remaining Great Powers on the planet acknowledge our position.
+Prerequisites:
+United States:
+- Requires the following:
+ - Protect South America
+ - Secure Asia
+Effects:
+United States gains Puppet (focus) cb against:
+- Every Major Country that is not the United States and is not at war with the United States
+
+# War Plans Division Branch [verified for 1.17]
+
+War Plans branch of the American national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+Focus: FOCUS War Plans Division: While we might desire peace, we must prepare for war.
+Prerequisites: None
+Effects:
+United States:
+- Available as Chief of Army:
+ - Walter Krueger (Army Planning (Expert)): Planning Speed: +10.0%
+- Unlocks War Plans Decisions
+
+Focus:
+FOCUS Intervention in the Americas: Our first order of business must be to ensure we are prepared for any eventuality in our own hemisphere.
+Prerequisites:
+United States:
+- Requires the following:
+ - War Plans Division
+Effects:
+The United States gets the national spirit:
+
+Spirit Intervention in the Americas: Our first order of business must be to ensure we are prepared for any eventuallity in our own hemisphere.
+Planning Speed: +5.0%
+
+Focus:
+FOCUS War Plan Green: With Mexico in a constant state of instability following the revolution, we must be prepared to intervene, decisively.
+Prerequisites:
+United States:
+- Requires the following:
+ - Intervention in the Americas
+Effects:
+United States:
+- Unlocks Decision: Execute War Plan Green
+ - While Active:
+ - Infra construction speed: +10.00%
+ - Mexico
+ - Attack Bonus against country: +10.0%
+ - Defense Bonus against country: +10.0%
+
+Focus:
+FOCUS Reaffirm Monroe Doctrine: Dating over a 100 years back, the Monroe Doctrine codified US intervention in the case of European attempts to colonize the Americas, but stay out of European affairs. Strengthening our role as peace-keepers on these continents will improve our influence in the region.
+Prerequisites:
+United States:
+- Requires the following:
+ - Intervention in the Americas
+Effects:
+United States:
+- Increases Trade Opinion with all American nations.
+- Unlocks Intervention Mandate Decisions.
+
+Focus:
+FOCUS War Plan Gray: History has shown that the nations of the Caribbean are quite unstable. We might have to move quickly to protect American interests should any of them fall into instability.
+Prerequisites:
+United States:
+- Requires the following:
+ - Reaffirm Monroe Doctrine
+Effects:
+United States:
+- Unlocks Decision: Execute War Plan Gray
+ - While Active:
+ - Invasion Preparation Time: -50.0%
+ - Amphibious Invasion Speed: +10.0%
+
+Focus:
+FOCUS Hemisphere Defense: Regardless of any foreign entanglements, we must first and foremost look to our own neighborhood.
+Prerequisites:
+United States:
+- Requires the following:
+ - War Plan Gray
+Effects:
+If United states is not in a faction:
+- Create Faction Treaty of Reciprocal Assistance
+If United states is in a faction and is faction leader:
+- Every Latin American Country who has the same Party as the United States, Not at war with the United states and not in a faction:
+ - Gets event The United States Invites country to faction
+
+Focus:
+FOCUS War Plan Crimson: While Canada may be a friendly neighbor now, this may not always be the case.
+Prerequisites:
+United States:
+- Requires the following:
+ - Intervention in the Americas
+Effects:
+United States:
+- Unlocks Decision: Execute War Plan Crimson
+ - While Active:
+ - Land Fort construction speed: +10.00%
+ - Canada
+ - Attack Bonus against country: +10.0%
+ - Defense Bonus against country: +10.0%
+
+Focus:
+FOCUS Intervention in Europe: Less than two decades after the end of the Great War, the nations of Europe are once again poised for war. We must be prepared in case the situation requires swift intervention.
+Prerequisites:
+United States:
+- Requires the following:
+ - War Plans Division
+Effects:
+The United States
+- gets the national spirit:
+
+Spirit Intervention in Europe: Less than two decades after the end of the Great War, the nations of Europe are once again poised for war. We must be prepared in case the situation requires swift intervention.
+Daily Command Power Gain Multiplier: +10%
+
+- If the DLC La Résistance is enabled:
+ - George Musulin becomes an operative
+
+Focus:
+FOCUS War Plan Gold: France suffers from internal division and increasing political radicalism, but is also one of the greatest military powers of Europe. This combination makes many people uncomfortable.
+Prerequisites:
+United States:
+- Requires the following:
+ - Intervention in Europe
+Effects:
+United States:
+- If the DLC La Résistance is enabled:
+ - René Joyeuse becomes an operative
+- Unlocks Decision: Execute War Plan Gold
+ - While Active:
+ - France
+ - Attack Bonus against country: +10.0%
+ - Defense Bonus against country: +10.0%
+
+Focus:
+FOCUS War Plan Silver: Italy has openly declared its ambition to rule the Mediterranean. If their desires of an Empire conflict with our interests, we must be prepared.
+Prerequisites:
+United States:
+- Requires the following:
+ - Intervention in Europe
+Effects:
+United States:
+- If the DLC La Résistance is enabled:
+ - Joe Savoldi becomes an operative
+- Unlocks Decision: Execute War Plan Silver
+ - While Active:
+ - Italy
+ - Attack Bonus against country: +10.0%
+ - Defense Bonus against country: +10.0%
+
+Focus:
+FOCUS War Plan Black: It's plain to see that Germany's politics and expansionism goes far beyond any measure of sanity. They must be stopped before their war machine reaches the point of no return.
+Prerequisites:
+United States:
+- Requires the following:
+ - Intervention in Europe
+Effects:
+Germany Gains War Plan Black ( opinion of the United States -50)
+United States:
+- If the DLC La Résistance is enabled:
+ - William G Sebold becomes an operative
+- Unlocks Decision: Execute War Plan Black
+ - While Active:
+ - Germany
+ - Attack Bonus against country: +10.0%
+ - Defense Bonus against country: +10.0%
+
+Focus:
+FOCUS Destroyers For Bases: The UK is in need of ships, and we need to protect our home territory. For the right to set up military bases in currently British territories, we can exchange some Destroyers, which will hopefully be put to good use as well.
+Prerequisites:
+The United States:
+- Requires the following:
+ - War Plan Black
+- Is fully independent
+Germany Exists
+
+United Kingdom:
+- Current ruling party is Democracy
+- At war
+- At peace with the United States
+- Any enemy country:
+ - Is considered a major
+- 696 331 308 693 689 691 is not controlled by the United Kingdom
+- United Kingdom does not exist
+Effects:
+United Kingdom:
+- The United Kingdom must approve of the agreement for bonuses to take effect
+- Gets event Destroyers for Bases Agreement
+The United States becomes owner and controller of: 696 331 308 693 689 691
+
+Focus:
+FOCUS War Plan White: The communist Menace cannot be allowed to expand unchecked. Whether from without or from within, there is no greater threat to our nation and the world at large.
+Prerequisites:
+United States:
+- Requires the following:
+ - Intervention in Europe
+Effects:
+Soviet Union Gains War Plan White ( opinion of the United States -50)
+United States:
+- If the DLC La Résistance is enabled:
+ - Serge Obolensky becomes an operative
+- Unlocks Decision: Execute War Plan White
+ - While Active:
+ - Soviet Union
+ - Attack Bonus against country: +10.0%
+ - Defense Bonus against country: +10.0%
+
+Focus:
+FOCUS Anti Bolshevik Aid: Any gun, shell, bullet and pair of boots we can give to those fighting the spread of the Bolshevik Threat will ultimately help defend us.
+Prerequisites:
+United States:
+- Requires the following:
+ - War Plan White
+- The Soviet Union is not in a civil war
+Effects:
+United States:
+- Unlocks Decision: Guns for the Anti-Bolshevist War
+ - When Decision is Selected:
+ - Send 1000 of Infantry Equipment to countries at war with Soviet Union, Old ones go first.
+
+Focus:
+FOCUS War Plan Red: After appearing to be on the path to respecting the people, our old oppressors are now at odds with the winds of change we've accepted. The British Empire is showing its true colors. We must let them know where we stand.
+Prerequisites:
+United States:
+- Requires the following:
+ - Intervention in Europe
+Effects:
+United Kingdom Gains War Plan Red ( opinion of the United States -50)
+United States:
+- Unlocks Decision: Execute War Plan Red
+ - While Active:
+ - Spotting Chance: +10%
+ - United Kingdom
+ - Attack Bonus against country: +10.0%
+ - Defense Bonus against country: +10.0%
+
+Focus:
+FOCUS War Plan Ruby: India houses untold millions of people, which we must be prepared to face should we come into conflict.
+Prerequisites:
+United States:
+- Requires the following:
+ - War Plan Red
+Effects:
+United States:
+- Unlocks Decision: Execute War Plan Ruby
+ - While Active:
+ - Spotting Chance: +10%
+ - British Raj
+ - Attack Bonus against country: +10.0%
+ - Defense Bonus against country: +10.0%
+
+Focus:
+FOCUS War Plan Scarlet Garnet: In the Pacific, Australia and New Zealand may well come to the aid of their motherland. Any plan to deal with Britain must account for her colonies.
+Prerequisites:
+United States:
+- Requires the following:
+ - War Plan Red
+Effects:
+United States:
+- Unlocks Decision: Execute War Plan Scarlet-Garnet
+ - While Active:
+ - Australia
+ - Attack Bonus against country: +10.0%
+ - Defense Bonus against country: +10.0%
+ - New Zealand
+ - Attack Bonus against country: +10.0%
+ - Defense Bonus against country: +10.0%
+
+Focus:
+FOCUS Intervention In Asia: Often overshadowed by the developments in Europe, Asia has its own trouble spots, forcing us to prepare for an intervention.
+Prerequisites:
+United States:
+- Requires the following:
+ - War Plans Division
+Effects:
+United States:
+- Alexander Vandegrift becomes a General
+
+Focus:
+FOCUS War Plan Orange: There is no greater threat to us than Japan's imperialistic ambitions. Their efforts to expand into Asia and the Pacific will put them at odds with our interests quickly.
+Prerequisites:
+United States:
+- Requires the following:
+ - Intervention in Asia
+Effects:
+Japan Gains War Plan Orange ( opinion of the United States -50)
+United States:
+- Unlocks Decision: Execute War Plan Orange
+ - While Active:
+ - Invasion Preparation Time: -25.0%
+ - Amphibious Invasion Speed: +10.0%
+ - Japan
+ - Attack Bonus against country: +10.0%
+ - Defense Bonus against country: +10.0%
+ - Manchukuo
+ - Attack Bonus against country: +10.0%
+ - Defense Bonus against country: +10.0%
+ - Mengkukuo
+ - Attack Bonus against country: +10.0%
+ - Defense Bonus against country: +10.0%
+
+Focus:
+FOCUS War Plan Yellow: China has been in a state of civil war for more than a generation. There is no telling when the situation deteriorates to the point where we have to intervene.
+Prerequisites:
+United States:
+- Requires the following:
+ - Intervention in Asia
+Effects:
+United States:
+- Unlocks Decision: Execute War Plan Yellow
+ - While Active:
+ - China
+ - Attack Bonus against country: +10.0%
+ - Defense Bonus against country: +10.0%
+ - Communist China
+ - Attack Bonus against country: +10.0%
+ - Defense Bonus against country: +10.0%
+ - Shanxi
+ - Attack Bonus against country: +10.0%
+ - Defense Bonus against country: +10.0%
+ - Yunnan
+ - Attack Bonus against country: +10.0%
+ - Defense Bonus against country: +10.0%
+ - Xibei San Ma
+ - Attack Bonus against country: +10.0%
+ - Defense Bonus against country: +10.0%
+ - Guangxi Clique
+ - Attack Bonus against country: +10.0%
+ - Defense Bonus against country: +10.0%
+ - Sinkiang
+ - Attack Bonus against country: +10.0%
+ - Defense Bonus against country: +10.0%
+
+Focus:
+FOCUS Defense of the Pacific: The Japanese government is beyond hope, its expansionism threatening both our people and its Asian neighbors. The nation must be brought under American administration to reform it and prevent it from ever repeating its mistakes.
+Prerequisites:
+United States:
+- Requires the following:
+ - War Plan Orange
+ - War Plan Yellow
+Japan:
+- Exists
+- Current Ruling Party is not democracy
+Effects:
+United States:
+- 650, 631, 632, 638, 642:
+ - Add 2 Coastal Fort in a province in the state.
+ - Add 2 Naval Base in a province in the state.
+
+# War Department Branch [verified for 1.17]
+
+Military expansion branch of the American national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+Focus:
+FOCUS War Department: In an age of industrialized warfare, we must have an administration capable of harnessing the resources of our great nation to their fullest potential.
+Prerequisites: None
+Effects:
+United States gets the national spirit:
+
+Spirit War Department: In an age of industralized warfare, we must have an administration capable of harnessing the resources of our great nation to their fullest potential.
+Maximum Command Power Increase: +20
+
+Focus:
+FOCUS Selective Training Act: The United States has historically been slow to adopt a draft, even in times of war. We are no longer able to afford this luxury.
+Prerequisites:
+United States:
+- Requires the following:
+ - War Department
+- If World Tension is less than than 50% or at war:
+ - Requires the support of at least 58 Senators and 261 Representatives
+ - Otherwise: Requires the support of at least 39 Senators and 174 Representatives
+Effects:
+United States:
+- If Mobilization Law is Disarmed Nation or Volunteer Only :
+ - Change Mobilization Law to Limited Conscription which grants:
+ - manpower : 2.50%
+ - Otherwise: add Political Power : 150
+- If war support is less than 10%:
+ - Set Base War Support 10.00%
+- If war support is less than 40%:
+- Up to 8 Senators and 40 Representatives go into Opposition
+
+Focus:
+FOCUS First Special Service Force: Operations behind enemy lines in inhospitable territory will be part of any global conflict. Forming commando units to fulfill these roles is essential to our future warfare.
+Prerequisites:
+United States:
+- Requires the following:
+ - Selective Training Act
+Effects:
+United States:
+- army exp : +5
+- 1x 100% research bonus for:
+ - Paratroopers I
+ - Paratroopers II
+ - Mountain Infantry I
+ - Mountain Infantry II
+ - Engineer Company I
+ - Engineer Company II
+ - Engineer Company III
+ - Recon Company I
+ - Recon Company II
+ - Recon Company III
+
+Focus:
+FOCUS Louisiana Maneuvers: Budget constraints have forced us to observe many military developments from afar. Now, we can finally try out some of our theories in practice.
+Prerequisites:
+United States:
+- Requires the following:
+ - Selective Training Act
+Effects:
+United States:
+- army exp : +20
+- 1x 50% Cost Reduction for: Land Doctrine
+- George S. Patton Add Skill Level: 1
+
+Focus:
+FOCUS Airborne Divisions: The developments in the range and payload of planes have opened up a number of possibilities. Cargo planes could deliver a full division of troops far behind enemy lines, where they would wreak havoc.
+Prerequisites:
+United States:
+- Requires the following:
+ - Louisiana Maneuvers
+Effects:
+United States gets the national spirit:
+
+Spirit Airborne Divisions: The developments in the range and payload of planes have opened up a number of possibilities. Cargo planes could deliver a full division of troops far behind enemy lines, where they would wreak havoc.
+Special Forces Capacity Multiplier: +5.0%
+
+- If the DLC Arms Against Tyranny is enabled:
+ - Adds 1 free Special Forces Branch Specialism
+ - 2x 25% Cost reduction for: Special Forces Doctrine
+
+Focus:
+FOCUS Army of the United States: For the fights that are to come, the US Army is too small. To oversee the dramatic increase in size we will have to accomplish, we will need to create a new organization.
+Prerequisites:
+United States:
+- Requires the following:
+ - Louisiana Maneuvers
+Effects:
+United States gets the national spirit:
+
+Spirit Army of the United States: For the fights that are to come, the US Army is too small. To oversee the dramatic increase in size we will have to accomplish, we will need to create a new organization.
+Mobilization speed: +20.00%
+
+- Omar Bradley Add Skill Level: 1
+- Mark W. Clark Add Skill Level: 1
+
+Focus:
+FOCUS Women's Armed Service Integration Act: We can not afford to turn away anyone who wishes to serve. Every woman in uniform frees up a man to fight at the front.
+Prerequisites:
+United States:
+- Requires the following:
+ - Army of the United States
+- Requires the support of at least 49 Senators and 218 Representatives
+Effects:
+United States gets the national spirit:
+
+Spirit Women's Armed Service Integration Act: We can not afford to turn away anyone who wishes to serve. Every woman in uniform frees up a man to fight at the front.
+manpower : 2.00%
+
+Focus:
+FOCUS Support Rock Island: Supporting our brave troops in any way we can is key to victory. Be that by laying down heavy artillery fire from a distance or more direct support on the battlefield. We must make sure our troops have everything they need.
+Prerequisites:
+United States:
+- Requires the following:
+ - Selective Training Act
+Effects:
+United States:
+- 2x 100% research bonus for: Support Artillery and Support technology
+
+Focus:
+FOCUS Tank Experiments: Tanks are indispensable on the modern battlefield. We must find out how to best utilize them.
+Prerequisites:
+United States:
+- Requires the following:
+ - Support Rock Island
+Effects:
+United States:
+- Gain breakthrough progress:
+ - Land Warfare: 50.00%
+- 1x 100% research bonus for: Armor technology
+
+Focus:
+FOCUS Tank Destroyer Doctrine: A controversial theory developed by some artillery officers, claiming that the best weapon against armored breakthroughs is a fast, lightly armored but heavily armed vehicle.
+Prerequisites:
+United States:
+- Requires the following:
+ - Tank Experiments
+- ExclusiveM Mutually exclusive with:
+ - Main Battle Tanks
+Effects:
+United States:
+- If the DLC Arms Against Tyranny is enabled:
+ - Available as Military Industrial Organization:
+ - Tank Destroyer Board (Mobile Tank Destroyers)
+ - Tank Destroyer Board Gain +2 Sizes
+- Otherwise:
+ - Available as Design Company
+ - Tank Destroyer Board which grants:
+ - Armor Research Speed: +15%
+ - Light Tank Destroyer:
+ - Production Cost : -10.00%
+ - Piercing: +10%
+ - Hard Attack: +25%
+ - Medium Tank Destroyer:
+ - Production Cost : -10.00%
+ - Piercing: +10%
+ - Hard Attack: +25%
+ - Heavy Tank Destroyer:
+ - Production Cost : -10.00%
+ - Piercing: +10%
+ - Hard Attack: +25%
+
+Focus:
+FOCUS Main Battle Tanks: Experience in the field has clearly shown that a tank must be able to perform a large number of tasks, from infantry support to fighting enemy tanks. Designing vehicles to meet these needs allows us to streamline production.
+Prerequisites:
+United States:
+- Requires the following:
+ - Tank Experiments
+- ExclusiveM Mutually exclusive with:
+ - Tank Destroyer Doctrine
+Effects:
+United States:
+- If the DLC Arms Against Tyranny is enabled:
+ - Available as Military Industrial Organization:
+ - Detroit Arsenal (Standardized Production)
+ - Detroit Arsenal Gain +2 Sizes
+- Otherwise:
+ - Available as Design Company
+ - Detroit Arsenal which grants:
+ - Armor Research Speed: +15%
+ - Medium Tank:
+ - Production Cost : -10.00%
+ - Light Tank:
+ - Production Cost : -10.00%
+
+Focus:
+FOCUS Armored Infantry: Tanks alone can not win a battle. It takes infantry to hold territory. Providing them with armored vehicles allows them to keep up with the tanks and survive anything thrown at them.
+Prerequisites:
+United States:
+- Requires one of the following:
+ - Tank Destroyer Doctrine
+ - Main Battle Tanks
+Effects:
+United States:
+- 2x 100% research bonus for: Motorized
+
+Focus:
+FOCUS Build the Pentagon: The expansion of our military requires a new global headquarters to command it.
+Prerequisites:
+United States:
+- Requires the following:
+ - War Department
+Effects:
+United States gets the national spirit:
+
+Spirit The Pentagon:
+Planning Speed: +10.0%
+
+Focus:
+FOCUS Department of Defense: Renaming the war department underlines that we can no longer choose to ignore our protection until the moment it is tested. We must always be vigilant.
+Prerequisites:
+United States:
+- Requires the following:
+ - Build the Pentagon
+Effects:
+United States:
+- Replace National Spirit War Department with:
+
+Spirit Department of Defense: Renaming the war department underlines that we can no longer choose to ignore our protection until the moment it is tested. We must always be vigilant.
+Effective Change:
+Maximum Command Power Increase: +10
+Daily Command Power Gain Multiplier: +10%
+
+Focus:
+FOCUS Air War Plans Division: To make the right priorities in aviation as well as aircraft production will require long-term planning. The AWPD will ensure we have materiel, organization and strategic plans.
+Prerequisites:
+United States:
+- Requires the following:
+ - War Department
+Effects:
+United States:
+- Air exp : +25
+- 2x 50% Cost Reduction for: Air Doctrine
+- gets the national spirit:
+
+Spirit Air War Plans Division: Only through supremacy in the air will the Axis Powers be defeated. Long-term plans for the production and deployment of fighters and strategic bombers make this not only possible, but attainable.
+- Fighter: Production Cost : -10.00%
+- Heavy Fighter: Production Cost : -10.00%
+
+Focus:
+FOCUS Air Support: Aerial warfare must first and foremost be used in conjunction with other military operations.
+Prerequisites:
+United States:
+- Requires the following:
+ - Air War Plans Division
+- ExclusiveM Mutually exclusive with:
+ - Strategic Bombing
+Effects:
+United States:
+- Air exp : +25
+- Gets the National Spirit
+
+Spirit Air Support:
+- Close Air Support: Production Cost : -10.00%
+- Tactical Bomber: Production Cost : -10.00%
+
+Focus:
+FOCUS CAS Effort: A modern army needs support from vehicles not only on the ground, but also in the air.
+Prerequisites:
+United States:
+- Requires the following:
+ - Air Support
+Effects:
+United States:
+- 1x 100% Research bonus for: Close Air Support models
+
+Focus:
+FOCUS Tactical Bomber Effort: Constructing planes built to attack tactical targets will make way for our troops to advance more safely.
+Prerequisites:
+United States:
+- Requires the following:
+ - Air Support
+Effects:
+United States:
+- Air exp : +25
+- 2x 100% Research bonus for: Tactical Bomber models
+
+Focus:
+FOCUS US Army Air Force: The fundamental objective of military airpower is to allow the ground forces to take and hold ground. Everything else is ancillary.
+Prerequisites:
+United States:
+- Requires the following:
+ - Tactical Bomber Effort
+Effects:
+United States:
+- 2x 50% Cost Reduction for: Air Doctrine
+
+Focus:
+FOCUS Strategic Bombing: The capacity to execute precision bombing will allow us to stop the war machine of any nation in its tracks.
+Prerequisites:
+United States:
+- Requires the following:
+ - Air War Plans Division
+- ExclusiveM Mutually exclusive with:
+ - Air Support
+Effects:
+United States:
+- Air exp : +25
+- gets the national spirit:
+
+Spirit Strategic Bombing:
+Strategic Bomber: Production Cost : -10.00%
+
+Focus:
+FOCUS Escort Fighters: While the bomber might always get through, his wingman might not - unless they are both protected by friendly fighters.
+Prerequisites:
+United States:
+- Requires one of the following:
+ - Air Support
+ - Strategic Bombing
+Effects:
+United States:
+- 1x 300% Research bonus for: Heavy Fighter Models
+
+Focus:
+FOCUS Combined Bomber Offensive: With another Great Power on our side, we have unexpected advantages in researching and applying large-scale offensive bombing.
+Prerequisites:
+United States:
+- Requires the following:
+ - Strategic Bombing
+- At war
+- One of the following must be true:
+ - Is in Faction with Germany
+ - Is in Faction with Japan
+ - Is in Faction with Italy
+ - Is in Faction with Soviet Union
+ - Is in Faction with France
+ - Is in Faction with United Kingdom
+Effects:
+United States:
+- Air exp : +25
+- 1x 100% Research bonus for: Heavy aircraft
+- gets the national spirit:
+
+Spirit Combined Bomber Offensive:
+Stategic Bomber: Range: +50%
+
+Focus:
+FOCUS US Air Force: The fundamental objective of military airpower is to win wars. Strategic bombing with ever more devastating weapons will either break the will of the enemy to resist or render them materially unable to do so.
+Prerequisites:
+United States:
+- Requires the following:
+ - Combined Bomber Offensive
+Effects:
+United States gets the national spirit:
+
+Spirit US Air Force: The fundamental objective of military airpower is to win wars. Strategic bombing with ever more devastating weapons will either break the will of the enemy to resist or render them materially unable to do so.
+Air Doctrine Cost:-10%
+
+## Two Ocean Navy Act Sub-branch [verified for 1.17]
+
+Naval Expansion Sub-branch of the American national focus tree.
+Clicking on a national focus icon leads to the appropriate table row.
+
+{| class="mildtable"
+! style="width: 30%;" | Focus
+! style="width: 30%;" | Prerequisites
+! style="width: 40%;" | Effects
+
+|- id="Two Ocean Navy Act"
+| FOCUS Two Ocean Navy Act: With war on the horizon, we must ensure that no enemy can ever set foot on American shores. Our navy must be able to fight any enemy in either of the two great oceans that form our borders.
+| United States:
+- Requires the following:
+ - War Department
+- If World tension is under 50% or is not at war:
+ - Requires the support of at least 58 Senators and 261 Representatives
+- Otherwise:
+ - Requires the support of at least 39 Senators and 174 Representatives
+- controls 378
+- controls 358
+| United States:
+- Up to 8 Senators and 40 Representatives go into opposition
+- 378:
+ - Add 5 building slot
+ - Add 5 nic
+- 358:
+ - Add 5 building slot
+ - Add 5 nic
+- Ernest King Add Skill Level: 1
+
+|- id="Maritime Commission"
+| FOCUS Maritime Commission: While most laymen only focus on the warships, the true experts know that it is the humble cargo vessel that wins wars. To increase the amount of shipping available in times of war, we will form a special board to coordinate construction.
+| United States:
+- Requires the following:
+ - Two Ocean Navy Act
+| United States gets the national spirit:
+
+Spirit Maritime Commission: While most laymen only focus on the warships, the true experts know that it is the humble cargo vessel that wins wars. To increase the amount of shipping available in times of war, we will form a special board to coordinate construction.
+nic construction speed: +10.00%
+
+|- id="Liberty Ships"
+| FOCUS Liberty Ships: Mass-production of cargo ships need to accompany our industrial developments to ensure our materials and troops reach the theaters where they are needed.
+| United States:
+- Requires the following:
+ - Maritime Commission
+| United States gets the national spirit:
+
+Spirit Liberty Ships:
+- Amphibious Invasion Speed: +10.0%
+- Trade Convoy: Production cost : -25.00%
+
+|- id="Bureau of Ships"
+| FOCUS Bureau of Ships: We will combine the Bureau of Construction and Repair and the Bureau of Engineering into one entity to oversee future naval developments. While we're at it, it may be time to investigate rumors of inefficient torpedo performance which the Bureau of Ordnance so vehemently deny.
+| United States:
+- Requires the following:
+ - Two Ocean Navy Act
+| United States:
+- navy exp : +50
+- gets the national spirit:
+
+Spirit Bureau of Ships:
+- Naval Equipment Experience Cost: -10%
+- Heavy Ship: Production Cost : -5.00%
+- Carrier: Production Cost : -5.00%
+- Cruiser: Production Cost : -5.00%
+- Light Hull: Production Cost : -5.00%
+- Submarine: Production Cost : -5.00%
+
+- Removes Bureau of Ordnance which grants:
+ - Torpedo hit chance: -10.00%
+- Chester W. Mimitz Add Skill Level: 1
+- William Halsey, Jr. Add Skill Level: 1
+
+|- id="Battleship Primacy"
+| FOCUS Battleship Primacy: With the Japanese denounciation of the Washington Naval Treaty, we may face another arms race on the oceans. We will ensure we have both the most and best battleships.
+| United States:
+- Requires the following:
+ - Bureau of Ships
+- ExclusiveM Mutually exclusive with:
+ - Carrier Primacy
+| United States:
+- Gain breakthrough progress:
+ - Naval Engineering: 25.00%
+- 2x 100% research bonus for: Battleship models
+
+|- id="Advanced Mahanian Doctrine"
+| FOCUS Advanced Mahanian Doctrine: The influence of Alfred Thayer Mahan on naval warfare can hardly be underestimated. Building on his work will allow us to make good use of battleships, which he considered a decisive factor.
+| United States:
+- Requires the following:
+ - Battleship Primacy
+| United States:
+- Add a +10.00% Mastery bonus for 180 days to all Capital Ships tracks
+
+|- id="Advanced Basing"
+| FOCUS Advanced Basing: The further we can keep the enemy from our shores, the better.
+| United States:
+- Requires the following:
+ - Advanced Mahanian Doctrine
+| United States:
+- 638: Add 2 Naval base in a province in the state
+- If the controller of 327 is the subject of the United States: Add 2 Naval base in a province in the state
+
+|- id="Carrier Primacy"
+| FOCUS Carrier Primacy: Air power will be needed in battles to come, and the most practical means of extending its range is the use of aircraft carriers. We must create more advanced and specialized models.
+| United States:
+- Requires the following:
+ - Bureau of Ships
+- ExclusiveM Mutually exclusive with:
+ - Battleship Primacy
+| United States:
+- Gain breakthrough progress:
+ - Naval Engineering: 25.00%
+- 2x 100% research bonus for: Carrier models
+- Create Essex Class Carrier variant on gaining technology Improved Carrier.
+
+|- id="Bureau of Aeronautics"
+| FOCUS Bureau of Aeronautics: To meet the needs for naval aviation development, the Bureau of Aeronautics, which has been responsible for these matters for decades, will have to be expanded.
+| United States:
+- Requires the following:
+ - Carrier Primacy
+| United States:
+- 1x 100% research bonus for: Naval Bomber models and Naval aircraft
+
+|- id="Naval Radar"
+| FOCUS Naval Radar: Radar offers tantalizing possibilities to take the cover of night away from our enemies and detect them even in bad weather.
+| United States:
+- Requires the following:
+ - Bureau of Aeronautics
+| United States:
+- Gain breakthrough progress:
+ - Naval Engineering: 25.00%
+- Gain breakthrough progress:
+ - Aerodynamics and Avionics: 50.00%
+- 1x 100% research bonus for: RADAR technology
+
+|- id="Escort Effort"
+| FOCUS Escort Effort: Submarines constitute a danger to our merchant convoys. Focusing on development of new destroyer models will allow us to wage anti-submarine warfare efficiently.
+| United States:
+- Requires the following:
+ - Bureau of Ships
+| United States gets the national spirit:
+
+Spirit Escort Effort:
+- Light Hull: Production Cost : -10.00%
+
+|- id="Convoy Tactics"
+| FOCUS Convoy Tactics: Protecting our trade vessels is not just about escorts and effective intelligence, but also tactical choices in how to arrange our trade routes and routines.
+| United States:
+- Requires the following:
+ - Escort Effort
+| United States:
+- navy exp : +25
+- Add 50 Mastery to all Screens tracks
+- Add a +10.00% Mastery bonus for 180 days to all active Screens tracks
+- If the DLC ncns is enabled:
+ - Create Casablanca Class Carrier variant on gaining technology Escort Carrier
+
+|- id="Fleet Submarines"
+| FOCUS Fleet Submarines: Our most likely opponents in the naval war both rely on foreign trade, which has shown to be very vulnerable to submarines. These submarines would have to have very long range to allow them to cross the oceans and operate close to the enemy shore.
+| United States:
+- Requires the following:
+ - Bureau of Ships
+- Has completed special project Cruiser Submarine
+| United States:
+- 2x 100% research bonus for: Submarine models
+- Gain breakthrough progress:
+ - Naval Engineering: 25.00%
+- Gets the national spirit:
+
+Spirit Fleet Submarines: Our most likely opponents in the naval war both rely on foreign trade, which has shown to be very vulnerable to submarines. These submarines would have to have very long range to allow them to cross the oceans and operate close to the enemy shore.
+- Fleet Submarine Research Speed: +100%
+- Fleet Submarine:
+ - Production Cost : -10.00%
+
+|- id="Unrestricted Submarine Warfare"
+| FOCUS Unrestricted Submarine Warfare: History has shown that whatever well-intentioned treaty tried to control submarine warfare is not worth the paper it is written on. We should not consider ourselves bound by something our enemies will ignore anyway.
+| United States:
+- Requires the following:
+ - Fleet Submarines
+| United States gets the national spirit:
+
+Spirit Unrestricted Submarine Warfare: History has shown that whatever well-intentioned treaty tried to control submarine warfare is not worth the paper it is written on. We should not consider ourselves bound by something our enemies will ignore anyway.
+Submarine:
+- Surface detection: +10%
+- Sub Visibility: -10.0%
+
+|- id="Fund The Navy"
+| FOCUS Fund The Navy: We must be able to adapt to anything new our enemies throws at us. Increased funding to navy exercises will lead to a more efficient navy that can tactically outperform our enemies.
+| United States:
+- Requires the following:
+ - Two Ocean Navy Act
+| United States:
+- 3x 50% Cost Reduction for: Naval Doctrine
+
+|- id="Expand The USMC"
+| FOCUS Expand The USMC: The United States Marine Corps have been a decisive force in many past wars and may be more relevant than ever for our amphibious campaigns. Semper fidelis!
+| United States:
+- Requires the following:
+ - Fund The Navy
+| United States:
+- If the DLC Arms Against Tyranny is enabled:
+ - 2x 25% Cost reduction for: Special Forces Doctrine
+- Otherwise
+ - 1x 100% research bonus for: Marines II and Marines III
+
+|- id="Amphibious Operations"
+| FOCUS Amphibious Operations: Unless our worst nightmares come true, this war will not be ended on American soil. Well-executed landings will need to be part of the path to victory.
+| United States:
+- Requires the following:
+ - Expand The USMC
+| United States:
+- 2x 100% research bonus for: Transport models
+|}

@@ -1,0 +1,63 @@
+TITLE: French events LaR
+URL: https://hoi4.paradoxwikis.com/French_events_LaR
+REVISION: 2025-10-19T22:49:20Z (rev 91006)
+VERIFIED FOR: 1.10
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+La Résistance
+This is a list of all France's events (from events/LaR_France.txt).
+
+# Congress of Paris id 1 - 6
+
+# Political Violence id 1 - 4
+
+# French Union id 1 - 11
+
+# Syria Intervention id 1 - 31
+
+# Indochina Intervention id 1 - 12
+
+# Central Africa Intervention id 1 - 12
+
+# West Africa Intervention id 1 - 12
+
+# Compensate Italy id 1 - 12
+
+# Intervention in Greece id 1 - 12
+
+# Dominate the Middle East id 1 - 12
+
+# Spheres of Influence id 1 - 12
+
+# Align Belgium id 1 - 12
+
+# Split Belgium id 1 - 12
+
+# Concession to Italy id 1 - 12
+
+# Ratify the Stresa Front id 1 - 12
+
+# Franco-Soviet Treaty id 1 - 12
+
+# End the Occupation id 1 - 6
+
+# Low Stability Civil War id 1 - 12
+
+# Worker Shortage id 1 - 12
+
+# Arms Purchases id 1 - 12
+
+# Volunteers to Spain id 1 - 3
+
+# Non-Intervention id 1 - 12
+
+# Communist Support id 1 - 12
+
+# Appeal to Overseas Territories id 1 - 12
+
+# Vichy Reunification id 1 - 3
+
+# Inefficient Economy id 1
+
+# Reconnect to the Balkans id 1 - 5

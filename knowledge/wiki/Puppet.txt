@@ -1,0 +1,1103 @@
+TITLE: Puppet
+URL: https://hoi4.paradoxwikis.com/Puppet
+REVISION: 2026-02-26T07:52:43Z (rev 97949)
+VERIFIED FOR: 1.14
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+A puppet is a nation that is more or less controlled by another, often stronger nation, through an installed government that is loyal to the controlling nation.
+
+When a country is puppeted, its government is replaced by one installed by the puppet master, matching the puppet master's ideology.
+If a puppet master declares war, they can call in their puppets as allies. In the peace conference that ensues after a successful war, puppeted countries will not be able to make demands by themselves (except for high autonomy level puppets such as dominions and satellites), though the puppet master can dictate demands in favor of its puppets if they choose to do so. As a result, an already puppeted country cannot puppet other countries.
+
+If a puppet master is forced to capitulate, its puppets will automatically capitulate as well if they aren't in a faction with a major country that has yet to capitulate. If a puppet master capitulates but there are still majors in a puppet's faction, the puppet will earn autonomy points. Upon defeating a puppet master (and other majors in faction with it), the victorious nations can choose to detach puppeted countries from their puppet master, making them free-standing nations again. Communist countries get a 35% cost reduction for puppeting other countries.
+
+# Being a Puppet Master [verified for 1.14]
+
+## Advantages of having a puppet
+- The puppet master nation may import goods from its puppet or subject state at a rate discounted below the standard trade rate of up to 8 loads of a resource per factory. For example, puppet or an integrated puppet, such as Malaya, provides 80 loads per factory to its British master (90% discount), while a colony (British Raj) offers 16 loads (50% discount) and British dominions offer 10 loads per factory (25% discount).
+- The puppet master may access far more of the puppet's resources than it could otherwise with its own trade laws if directly annexed. Extra Trade for overlord provides a bonus on top of the puppet's Trade Law to market rate. So if a Puppet would have 200 steel available and has Free Trade , typically, only 80% of their resources go to export (160 steel ) the rest can be kept for themselves. With the Extra trade bonus of +25% (from Dominion level autonomy) this brings the total steel available to export from a puppet to 170 (160 + 10, where 10 is 25% of 40, where 40 is 200 - 160) out of their total of 200. This can mean with Integrated Puppets the puppet master may purchase all of their resources even if they switch to Closed Economy . The extra trade to overlord is applied to the resources not exported.
+- Integrated Puppets, Reichskommissariats/Reichsprotektorates and Imperial Associates/Protectorates give a small share of their civilian factories (incl. refineries) and a major share of their military factories to the puppet master. Naval dockyards are unaffected. See charts for details.
+- At certain levels of autonomy a puppet master may request license production of a puppet's equipment, at a discount or even completely free. In addition to being given access to equipment without needing to research it, there is also a bonus conferred to researching that equipment while the license is in effect. Speeding up research for domestic equipment.
+- It is possible to "request" control over the troops of the puppet; this provides additional divisions for the puppet master, although puppet divisions may not be very well designed.
+- When doing so, it is desirable for the player to lend-lease appropriate equipment to the puppet nation which will allow for faster division training as well as combat any existing puppet equipment shortages. Alternatively, the master may request lend-lease equipment from the puppet to drain its equipment stocks.
+ - Puppet can still receive lend-lease from countries other than the puppet's master - and puppet, most likely, will ask others for equipment, as it usually has equipment shortages, and often has little-to-no industry. Then, puppet master can request lend-lease equipment from puppet, to drain puppet's stocks. Puppet and puppet master have separate lend-lease cooldowns. Therefore, puppet master can use puppet to beg equipment from other factions.
+- The master can effectively boost their own manpower by raising units including a mix of master and puppet manpower (70% for a Colony, 90% for a Puppet, and 100% for an Integrated Puppet). Such colonial divisions are controlled by the puppet master. The templates for such colonial divisions are those taken or adapted from the puppet's own template list (open by clicking the Crown icon at the top of the Division Designer in the Recruit/Deploy menu). If a puppet is newly released, it will receive templates of the puppet master.
+- Puppet can send garrison support to save up on manpower.
+- Puppet doesn't need garrison - what allows to save up on manpower and weapons.
+- Puppeting countries can often be safer than annexing them as it generates less world tension than territorial annexation, reducing the risk of foreign intervention by other potentially hostile countries.
+- Puppeting allows countries to retain any fleets. As capital ships take a long time to construct, this can drastically aid naval supremacy.
+- Communist countries can puppet defeated nations at a 10% discount in peace deals, allowing them to put more territory under their (indirect) control after a war.
+- Some puppet autonomy levels will transfer some of their war score to their overlord.
+- With La Résistance DLC, Satellites, Dominions, Imperial Subjects, and Supervised States can contribute spies to a spymaster.
+- Puppets can research different technologies than his Puppet Master. Then, Puppet Master and Puppets can share their research with each other, using Technology sharing and Equipment licensing.
+- Master's divisions can get resupplied from puppet's logistics network if they are on puppet's territory. If master's underequipped divisions are stationed on puppet's territory, it will allow to arm said divisions at the expense of puppet, which doesn't increase puppet's autonomy. Similarly, some pieces of master's equipment may end up in possession of puppet's divisions if puppet's divisions move to master's territory.
+- There's also a weird "non-existent puppet" or "virtual puppet" bug. If you release a puppet, all currently controlled states of which are your cores (e.g. Papal States for Italy, Occitania for France), while keeping cores, puppet is technically released but doesn't receive any states. This results in puppet existing only "on paper", without physical representation on map; so much as selecting them requires quick double-click in Open Country List. Such non-existent puppets do give small benefits, as they do their own research, but do clutter the interface.
+- It's also possible to drain weapons via rump state Puppet. When conquering a country, ideally with lots of weapons, in Peace Conference annex all States of country except the most worthless one, and make the conquered country a Puppet while only leaving that one state for them. Then, order Puppet to give you their equipment via lend-lease - getting access to the other half of their arsenal which you didn't recieve upon capitulating the country. Eventually after a very long while, the rump states becomes independent again, at which point it can be conquered again or just ignored.
+
+On one hand, if you release Puppet earlier, it will have more time to complete it's focus tree, construct buildings, field divisions and beg others for lend-lease. On the other side, newly released puppet will receive templates of the puppet master - so, if you're planning to use Puppet for war (be it colonial divisions, or divisions of puppet you "requested" control), you should consider making all needed, battle-ready templates before releasing Puppet. Also, many Puppets have less research slots than their masters - so, if they get released more early, then they will be less technologically advanced in the long run (not a big problem).
+
+## Disadvantages of having a puppet
+- Puppeting small countries with few resources is less efficient than simply annexing the country, especially if the puppet has less than 8 but more than 0 units of the resource, as factories still have to be paid.
+ - If the would-be puppet country is conquered, the problem can be greatly postponed by Resource Rights Demands.
+- If you give too much land to a puppet, it may refuse to give you your land back.
+
+# Being a puppet [verified for 1.14]
+
+## Advantages of being a puppet
+- Puppets can receive lend lease from their master, even in peacetime. This may help in multiplayer games to grant a puppet a head-start in multiplayer games with a 1936 start date.
+- Puppets generally can receive lend lease from their master at a lower tension level than normal.
+- If a nation declares war on a puppet, its master will automatically turn hostile towards the nation that declared war on it and join the war, bringing them as well as all their other puppets into the fight.
+
+## Disadvantages of being a puppet
+- A puppet receives a reduced number of factories for giving resources to its master. This can hinder early-game industry development.
+- A puppet can neither justify war goals nor can it declare war on another country, in addition to that, puppets cannot make demands in a peace conference, meaning that a puppet's territorial expansion is entirely decided by the puppet master.
+- If a puppet master declares war on a nation, they can freely force the puppet into the war (Imperial Subjects can decline it). If matched up against a stronger opponent and fighting alone, the odds are clearly not in its favor. Even if the puppet proves stronger and defeats that enemy, it gets nothing but glory (and autonomy points) from the war unless the puppet master provides something in the peace or thereafter.
+- A puppet has to deal with autonomy or risk further disadvantages in favor of its overlord or, at worst, direct annexation by its overlord. One of the quickest and most reliable ways to raise autonomy is to use a continuous focus, wasting time that could be used for completing other national focuses. A puppet may also gain autonomy by trading or lend-leasing goods to its overlord. However, puppets with unique focus trees usually have a national focus that is even quicker than said method.
+
+# Autonomy system [verified for 1.14]
+
+Note: The icons are clickable.
+
+## Autonomy levels
+Some puppets are more independent than others. To represent the difference between largely autonomous dominions like Canada, somewhat autonomous colonies like the British Raj, and totally subservient puppet states like Malaya, the game divides subject states into four levels of autonomy. Within each level, autonomy has a numerical level between 0 and 1000.
+
+At 1000 autonomy , the subject may advance to a higher tier, or become free if it is already a Dominion . At 0 autonomy, the master may decrease autonomy to a lower tier, or annex the puppet entirely if it is already an Integrated Puppet . Changing tiers costs 50 political power , while annexing a subject costs 300 political power and becoming free costs 300 political power .
+
+- yes May declare wars
+- yes May decline call to war
+- no Control over deployed units goes to overlord
+- no Overlord can build in provinces
+- yes Can be spymaster
+- yes Generates spies for spymaster
+- yes Can create collaboration governments
+No longer a puppet!
+
+- no May declare wars
+- no May decline call to war
+- no Control over deployed units goes to overlord
+- no Overlord can build in provinces
+- yes Can be spymaster
+- yes Generates spies for spymaster
+- no Can create collaboration governments
+- Extra trade for Overlord: +25%
+- Overlord trade cost: −25%
+- Peace Score transferred to Overlord: +5%
+- Lend-lease tension limit from puppet: -10%
+- Autonomy 1000
+
+- no May declare wars
+- no May decline call to war
+- no Control over deployed units goes to overlord
+- yes Overlord can build in provinces
+- no Can be spymaster
+- no Generates spies for spymaster
+- no Can create collaboration governments
+- Extra trade for Overlord: +50%
+- Overlord trade cost: −50%
+- Research sharing bonus factor: −50%
+- Subject manpower requirement: +70%
+- Peace Score transferred to Overlord: +10%
+- Lend-lease tension limit from puppet: -30%
+- Autonomy 1000
+
+- no May declare wars
+- no May decline call to war
+- no Control over deployed units goes to overlord
+- yes Overlord can build in provinces
+- no Can be spymaster
+- no Generates spies for spymaster
+- no Can create collaboration governments
+- Extra trade for Overlord: +100%
+- Overlord trade cost: −90%
+- Research sharing bonus factor: −50%
+- Subject manpower requirement: +90%
+- Peace Score transferred to Overlord: +10%
+- Lend-lease tension limit from puppet: -40%
+- Autonomy 1000
+
+- no May declare wars
+- no May decline call to war
+- yes Control over deployed units goes to overlord
+- yes Overlord can build in provinces
+- no Can be spymaster
+- no Generates spies for spymaster
+- no Can create collaboration governments
+- Extra trade for Overlord: +100%
+- Overlord trade cost: −90%
+- Research sharing bonus factor: −50%
+- Subject manpower requirement: +100%
+- Civilian Industry controlled by overlord: +25%
+- Military Industry controlled by overlord: +75%
+- Peace Score transferred to Overlord: +20%
+- Lend-lease tension limit from puppet: -40%
+- Autonomy 1000
+- autonomy 150 ( ah vassal volkskommissariat )
+
+## Autonomy levels (fascism)
+ Fascist countries use a slightly different system for their subjects. While there are fewer levels of autonomy (3), the same amount of autonomy has to be increased overall to break free (or decreased to annex), as autonomy is now numerically classified from 0 to 1500 at each level except Satellite . Political power costs remain unchanged: 50 political power to change tiers, 300 political power to annex a subject, and 300 political power to become free.
+
+- yes May declare wars
+- yes May decline call to war
+- no Units are deployed to overlord
+- no Overlord can build in provinces
+- yes Can be spymaster
+- yes Generates spies for spymaster
+- yes Can create collaboration governments
+No longer a puppet!
+
+- no May declare wars
+- no May decline call to war
+- no Units are deployed to overlord
+- no Overlord can build in provinces
+- no Can be spymaster
+- yes Generates spies for spymaster
+- no Can create collaboration governments
+- Subject manpower requirement: +40%
+- Extra trade for overlord: +40%
+- Overlord trade cost: –40%
+- License cost between subject and master: –100%
+- All autonomy gain: –30%
+- Peace Score transferred to Overlord: +10%
+- Lend-lease tension limit from puppet: -30%
+- Autonomy 1500
+
+- no May declare wars
+- no May decline call to war
+- no Units are deployed to overlord
+- yes Overlord can build in provinces
+- no Can be spymaster
+- no Generates spies for spymaster
+- no Can create collaboration governments
+- Subject manpower requirement: +70%
+- Recruitable population factor: -25%
+- Extra trade for overlord: +60%
+- Overlord trade cost: –60%
+- Civilian Industry controlled by overlord: +25%
+- License cost between subject and master: –100%
+- Peace Score transferred to Overlord: +5%
+- Lend-lease tension limit from puppet: -30%
+- All autonomy gain: –30%
+- Autonomy 1500
+
+- no May declare wars
+- no May decline call to war
+- yes Units are deployed to overlord
+- yes Overlord can build in provinces
+- no Can be spymaster
+- no Generates spies for spymaster
+- no Can create collaboration governments
+- Subject manpower requirement: +90%
+- Recruitable population factor: -50%
+- Extra trade for overlord: +100%
+- Overlord trade cost: –90%
+- Civilian Industry controlled by overlord: +25%
+- Military Industry controlled by overlord: +65%
+- License cost between subject and master: –100%
+- All autonomy gain: –30%
+- Peace Score transferred to Overlord: +10%
+- Lend-lease tension limit from puppet: -30%
+- Resistance target in occupied states: -10%
+- Autonomy 1000
+
+## Autonomy levels (Imperial Japan)
+Japan and Manchukuo use yet another system.
+
+There are only 2 basic autonomy levels, with a third alternative level unique to a subject Manchukuo ( Imperial Subject ) of Japan.
+
+Furthermore the Imperial Associate level requires the subject to be either Fascist or Non-aligned , while the other two levels ( Imperial Protectorate and Imperial Subject ) require the Overlord to be Fascist or Non-aligned instead.
+
+Moving from Imperial Protectorate to Imperial Associate requires 2500 autonomy , and moving from Imperial Associate to freedom requires 1500 autonomy .
+
+ Political power costs remain unchanged: 50 political power to change tiers, 300 political power to annex a subject, and 300 political power to become free.
+
+The Imperial Subject level caps at 1000 autonomy , and disallows freedom. Manchukuo can only become free via national focus. Furthermore, Manchukuo can only raise their autonomy level from Imperial Protectorate to Imperial Associate after completing either Strengthen the Concordia Association or Obedience. To gain the Imperial Subject level, Manchukuo can either complete the focus Assertiveness to immedeately become one, or can manually become one after completing The Two Emperors or Claim Outer Manchuria
+
+- yes May declare wars
+- yes May decline call to war
+- no Units are deployed to overlord
+- no Overlord can build in provinces
+- yes Can be spymaster
+- yes Generates spies for spymaster
+- yes Can create collaboration governments
+No longer a puppet!
+
+- yes May declare wars
+- yes May decline call to war
+- no Units are deployed to overlord
+- yes Overlord can build in provinces
+- no Can be spymaster
+- yes Generates spies for spymaster
+- no Can create collaboration governments
+- Subject manpower requirement: +50%
+- Extra trade for overlord: +25%
+- Overlord trade cost: –25%
+- Civilian Industry controlled by overlord: +10%
+- Military Industry controlled by overlord: +25%
+- Peace Score transferred to Overlord: +1%
+- Lend-lease tension limit from puppet: -30%
+- Autonomy 1000 (ManchukuoAssertiveness)
+
+- no May declare wars
+- no May decline call to war
+- no Units are deployed to overlord
+- yes Overlord can build in provinces
+- no Can be spymaster
+- no Generates spies for spymaster
+- no Can create collaboration governments
+- Subject manpower requirement: +70%
+- Extra trade for overlord: +60%
+- Overlord trade cost: –60%
+- Civilian Industry controlled by overlord: +25%
+- All autonomy gain: –30%
+- Peace Score transferred to Overlord: +5%
+- Lend-lease tension limit from puppet: -20%
+- Autonomy 1500
+- Autonomy 500 (ManchukuoAssertiveness)
+
+- no May declare wars
+- no May decline call to war
+- yes Units are deployed to overlord
+- yes Overlord can build in provinces
+- no Can be spymaster
+- no Generates spies for spymaster
+- no Can create collaboration governments
+- Subject manpower requirement: +90%
+- Extra trade for overlord: +100%
+- Overlord trade cost: –90%
+- Civilian Industry controlled by overlord: +25%
+- Military Industry controlled by overlord: +65%
+- All autonomy gain: –30%
+- Peace Score transferred to Overlord: +20%
+- Lend-lease tension limit from puppet: -10%
+- Autonomy 2500
+
+## Supervised State (democratic)
+The Supervised State subject is created in a peace deal by a nation in a faction founded by a democratic nation. This subject type boosts the overlord's ideology in the subject and disallows the appointment of any government minister that may alter the ideological makeup of the nation. The overlord cannot annex this subject nation and the subject gains more autonomy over time, eventually allowing them to become free from their overlord. Note that a democratic nation may still gain ordinary puppets by annexing the defeated nations in the peace deal and releasing them as puppets.
+
+- yes May declare wars
+- yes May decline call to war
+- no Units are deployed to overlord
+- no Overlord can build in provinces
+- yes Can be spymaster
+- yes Generates spies for spymaster
+- yes Can create collaboration governments
+No longer a puppet!
+
+- no May declare wars
+- no May decline call to war
+- no Units are deployed to overlord
+- no Overlord can build in provinces
+- no Can be spymaster
+- yes Generates spies for spymaster
+- no Can create collaboration governments
+- Master ideology drift: +0.30
+- Extra trade for overlord: +25%
+- Overlord trade cost: –25%
+- Daily autonomy progress gain: +2.0
+- Peace Score transferred to Overlord: +15%
+- Lend-lease tension limit from puppet: -20%
+- Autonomy 1250
+
+## Collaboration Government
+ La Résistance
+(Main article: Occupation, Collaboration government)
+
+ Fascist , Communist and Non-Aligned countries may form collaboration governments. If the average local collaboration in all occupied states for a certain core rises to 80%, the occupying nation will be given the opportunity to install a collaboration government formed from loyal and sympathetic local civilians, to administer and govern the occupied territories.
+
+When created, this autonomy level is placed between Integrated Puppet / Reichskommissariat / Imperial Protectorate (depending on what kind of subject the overlord can make) and Annexed .
+
+The AI will not increase nor decrease their autonomy level.
+
+{| class="wikitable"
+! style="width:10em;" | Autonomy level !! Rules !! Modifiers !! Autonomy Cost
+|-
+! Collaboration Government
+
+| * no May declare wars
+- no May decline call to war
+- yes Units are deployed to overlord
+- yes Overlord can build in provinces
+- no Can be spymaster
+- no Generates spies for spymaster
+- no Can create collaboration governments
+|
+- Subject manpower requirement: +100%
+- Extra trade for overlord: +100%
+- Overlord trade cost: –90%
+- Civilian Industry controlled by overlord: +75%
+- Military Industry controlled by overlord: +75%
+- Research sharing bonus factor: −50%
+- Peace Score transferred to Overlord: +20%
+- Lend-lease tension limit from puppet: -10%
+|
+- Autonomy 1000
+|}
+
+## Personal Union
+ No Step Back
+Personal Unions are a unique subject type, currently available only for Poland, Non-Aligned Germany and Lithuania through their focus trees. They are one time creations that cannot be regained should the subject be lost. Personal Unions cannot be annexed, furthermore should they increase their autonomy, they will break free.
+
+Poland can create the following Personal Unions:
+- Czechoslovakia: via the focus The King Of Bohemia.
+- Lithuania: via the focus The Kingdom of Lithuania.
+- Romania: via the focus King Michael's Coup.
+- Kingdom of Hungary: via the focus Restore Poland-Hungary.
+Germany can create the following Personal Unions:
+- After completing "Establish Western Grand Duchies":
+ - Wales: via the decision "Establish a Greater Welsh State"
+ - Scotland: via the decision "Establish a Greater Scottish State"
+ - Brittany: via the decision "Establish a Grand Breton State"
+ - Belgium: via the decision "Establish a Greater Flanders"
+- After completing "Establish Eastern Grand Duchies":
+ - United Baltic Duchy: via the decision "Found a Baltic-German State"
+ - Ukraine: via the decision "Restore the Ukrainian State"
+ - Belarus: via the decision "Establish a Belarusian State"
+ - Georgia: via the decision "Found a Transcaucasian Satellite State"
+Lithuania can create the following Personal Union:
+- Poland: via the focus The Kingdom of Poland.
+
+{| class="wikitable"
+! style="width:10em;" | Autonomy level !! Rules !! Modifiers !! Autonomy Cost
+|-
+! Personal Union
+
+| * no May declare wars
+- no May decline call to war
+- no Units are deployed to overlord
+- yes Overlord can build in provinces
+- no Can be spymaster
+- yes Generates spies for spymaster
+- no Can create collaboration governments
+|
+- Extra trade for overlord: +50%
+- Overlord trade cost: –50%
+- Peace Score transferred to Overlord: +5%
+- Lend-lease tension limit from puppet: -10%
+|
+- Autonomy 0
+|}
+
+## Nordic defense council member
+ Arms Against Tyranny
+The "Nordic defense council member" autonomy level is only available to Sweden. Furthermore, only the nations of Denmark, Iceland, Finland and Norway can be this subject.
+
+In the Autonomy system its placed below Integrated Puppet and replaces the Annexed level.
+
+Should Sweden ever become the overlord of any of these nations, it can manually decrease their autonomy level to become "Nordic defense council members", even if they were not gained through the "The Nordic Defense Council" focuses. This however also means, that Sweden can never diplomatically annex another Nordic nation.
+
+These subjects will also change their names to Denmark, Iceland, Finland and Norway.
+
+{| class="wikitable"
+! style="width:10em;" | Autonomy level !! Rules !! Modifiers !! Autonomy Cost
+|-
+! Nordic defense council member
+
+| * no May declare wars
+- no May decline call to war
+- yes Units are deployed to overlord
+- yes Overlord can build in provinces
+- no Can be spymaster
+- yes Generates spies for spymaster
+- no Can create collaboration governments
+|
+- Lend-lease tension limit from puppet: -40.0%
+- Subject manpower requirement: 100.00%
+- Extra trade for overlord: +100%
+- Overlord trade cost: –80%
+- Civilian industry to overlord: +35.00%
+- Military industry to overlord: +65.00%
+- All autonomy gain: -30.0%
+- Peace Score transferred to Overlord: +50.00%
+|
+- Autonomy 1000
+|}
+
+## Austro-Hungarian Vassal
+gtd
+The "Austro-Hungarian Vassal" autonomy level is only available to:
+- Austria (after taking the focus Demand Hungarian Submission or Bring Hungary back into the Fold)
+- Kingdom of Hungary (after taking the focus The Lands of the Crown of Saint Stephen).
+
+Furthermore its only applied to certain subject states. These are:
+
+Kingdom of Hungary, Austria, Albania, Czechoslovakia, Yugoslavia, Romania, Poland, Bosnia, Croatia, Herzegovina, Kingdom of Lombardy-Venetia, Montenegro, Silesia, Slovenia, Slovakia and Transylvania.
+
+This subject type is located within the regular autonomy system, between integrated puppet and puppet . The autonomy cost of annexing an integrated puppet is brought down to just autonomy 125, making annexation quite fast.
+
+It has some quirks not explicitly detailed in-game; even if they have the political power, an AI country with this subject type will never raise their own autonomy level to puppet , but will raise it back to this level if brought down to integrated puppet .
+
+{| class="wikitable"
+! style="width:10em;" | Autonomy level !! Rules !! Modifiers !! Autonomy Cost
+|-
+! Austro-Hungarian Vassal
+
+| * no May declare wars
+- no May decline call to war
+- yes Overlord can build in provinces
+- no Can be spymaster
+- yes Generates spies for spymaster
+- no Can create collaboration governments
+|
+- Technology sharing bonus: -50.00%
+- Lend-lease tension limit from puppet: -40.0%
+- Subject manpower requirement: 90.00%
+- Extra trade for overlord: +100%
+- Overlord trade cost: –90%
+- Peace Score transferred to Overlord: +10.00%
+|
+- Autonomy 1000
+|}
+
+## EU Member State
+gtd
+The "EU Member State autonomy" level is only available to:
+- Belgium, after taking either the focus European Community or The Council of Europe
+- Austria after taking the focus Via the Danube to Europe
+- Netherlands after taking the focus Foundations for a European Union
+
+Furthermore its only applied to certain subject states. These are:
+
+Germany, Italy, Austria, Belgium, Greece, Denmark, Ireland, Portugal, Spain, Sweden, Finland, Czechoslovakia, Poland, Hungary, Romania, Estonia, Latvia, Lithuania, Bulgaria, Slovenia, Croatia, France, United Kingdom, Luxembourg, Netherlands, Wales and Scotland.
+
+This subject type will be within the regular autonomy system, between annexed and integrated puppet .
+
+{| class="wikitable"
+! style="width:10em;" | Autonomy level !! Rules !! Modifiers !! Autonomy Cost
+|-
+! EU Member State
+
+| * no May declare wars
+- no May decline call to war
+- yes Overlord can build in provinces
+- yes Can be spymaster
+|
+- Technology sharing bonus: +10.00%
+- Lend-lease tension limit from puppet: -40.0%
+- Subject manpower requirement: 50.00%
+- Extra trade for overlord: +50%
+- Overlord trade cost: –45%
+- Peace Score transferred to Overlord: +5.00%
+|
+- Autonomy 1000
+|}
+
+## Volkskommissariat
+gtd
+The "Volkskommissariat" autonomy level is only available to a Communist Germany that has completed the focus Establish Volkskommissariats
+
+Within the regular autonomy system it will be between integrated puppet and puppet , with the autonomy cost of integrated puppet changing to autonomy 125.
+
+{| class="wikitable"
+! style="width:10em;" | Autonomy level !! Rules !! Modifiers !! Autonomy Cost
+|-
+! Volkskommissariat
+
+| * no May declare wars
+- no May decline call to war
+- yes Overlord can build in provinces
+- no Can be spymaster
+- yes Generates spies for spymaster
+- no Can create collaboration governments
+|
+- Recruitable Population Factor: -50%
+- Lend-lease tension limit from puppet: -20.0%
+- Subject manpower requirement: 90.00%
+- Extra trade for overlord: +100%
+- Overlord trade cost: –90%
+- Civilian Industry to overlord: +50.00%
+- Military Industry to overlord: +50.00%
+- All autonomy gain: -30.0%
+- License cost between subject and master: -100.00%
+- Peace Score transferred to Overlord: +10.00%
+|
+- Autonomy 1000
+|}
+
+## Warlord Subject
+ncns
+The "Warlord Subject" and "Integrated Warlord Subject" levels are only available to:
+- China, Chinese Soviet Republic, Guangxi Clique, Yunnan, Shanxi, Qinghai Ma, Sinkiang, Guangdong Clique, Shandong Clique, Sichuan Clique, Ningxia Ma, Gansu Ma, Northeastern Army, Khotan Ma, Kumul Khanate, Hebei-Chahar, Reorganized National Government of the Republic of China
+
+Furthermore its only applied to certain subject states. These are:
+
+- Guangxi Clique, Yunnan, Shanxi, Qinghai Ma, Sinkiang, Guangdong Clique, Shandong Clique, Sichuan Clique, Ningxia Ma, Gansu Ma, Northeastern Army, Khotan Ma, Kumul Khanate, Hebei-Chahar
+
+These two subject levels interact very unusually with the autonomy system. First, this is how they work for China:
+
+For non-aligned China they replace all other autonomy levels, thus being placed between annexed and free .
+
+A China of any other ideology adds one additional subject level above warlord subject . This being Dominion Dominion for democratic / communist China and Satellite for fascist China
+
+For all other nations its a bit more complicated:
+
+First of all, the integrated warlord subject "Integrated warlord subject" level is usually unavailable but can be gained in some cases if the overlord is fascist .
+
+For all other ideologies, warlord subject "Warlord Subject" will be placed between " Colony " and " Dominion ".
+
+For fascist nations, it will be placed between " Reichsprotectorate " and " Satellite ". Furthermore, once the subject reaches warlord subject "Warlord Subject", the previous level will turn into integrated warlord subject "Integrated Warlord subject" (even though they previously were a Reichsprotectorate ). From integrated warlord subject "Integrated Warlord Subject" they can again turn into a " Reichsprotectorate ".
+
+{| class="wikitable"
+!Autonomy level
+!Rules
+!Modifiers
+!Autonomy Cost
+|-
+! Warlord Subject
+
+| * no May declare wars
+- no May decline call to war
+- no Units are deployed to overlord
+- yes Overlord can build in provinces
+- no Can be spymaster
+- no Generates spies for spymaster
+- no Can create collaboration governments
+|
+- Technology sharing bonus: -10.00%
+- Lend-lease tension limit from puppet: -40%
+- Subject manpower requirement: 50.00%
+- Extra trade for overlord: +50%
+- Overlord trade cost: –45%
+- Peace Score transferred to Overlord: +5%
+|
+- Autonomy 2000
+|-
+!Integrated
+Warlord Subject
+
+|* no May declare wars
+- no May decline call to war
+- no Units are deployed to overlord
+- yes Overlord can build in provinces
+- no Can be spymaster
+- no Generates spies for spymaster
+- no Can create collaboration governments
+|
+- Technology sharing bonus: -10.00%
+- Lend-lease tension limit from puppet: -40%
+- Subject manpower requirement: 90.00%
+- Extra trade for overlord: +100%
+- Overlord trade cost: –90%
+- Peace Score transferred to Overlord: +10%
+|* Autonomy 500
+|}
+
+## Changing autonomy
+Both overlord and subject actions can change autonomy. In general, the subject helping the overlord increases its autonomy, while the overlord helping the subject decreases it.
+
+- An overlord lend-leasing equipment to a subject lowers autonomy by 1 for every 100 production cost of the transferred equipment. For example, giving 1000 Infantry Weapons I (unit cost 0.5 production cost ) will lower autonomy by (1000 * 0.5 / 100) = 5 units. The equipment must be at least as good as the best equipment of that type the subject can produce with its own technology (or better) and can not be foreign-made (neither lend-leased nor captured), so dumping obsolete equipment will have no effect (lend leasing obsolete equipment from a master to a puppet might decrease the puppet's autonomy. This master-to-puppet effect needs to be confirmed. In one posting in the Bug Report forum, the British lend-leased 10000 basic infantry equipment to the British Raj, lowering the Raj's autonomy by 30).
+- A subject lend-leasing equipment to their overlord will raise their autonomy by 1 for every 20 production cost of the transferred equipment. The equipment must be as good as the best the overlord can produce (or better), so dumping obsolete equipment to an overlord does not their weaken authority over the puppet.
+- An overlord performing any construction in a subject lowers the subject's autonomy by 0.7 for every 100 industrial capacity invested. For example, building a military factory , with a cost of 7200 units, will lower autonomy by (7200 * 0.7 / 100) = 50.4. Note that certain subject types prevent overlords from constructing in them (unless the subject is in a faction with their overlord, since faction members can always construct in each other's territory).
+- If an overlord trades for some of one of their subject's resources, the subject gains 0.005 autonomy per day per resource exported. Note that it does not matter how much of those resources the overlord ends up actively using, only how much they receive from trading with their puppet.
+- Subjects gain autonomy for their contributions to their overlord's wars roughly equivalent to 60% of the war score they generate.Exact formula TBD
+- The continuous focus "Suppress subjects" lowers all subjects' autonomy by 0.5 daily, while the focus "Increase autonomy" raises it by 0.5 daily for the subject taking the focus. If both focuses are active at the same time, they will cancel each other out.
+- Several nation-specific focuses and National Spirits increase or decrease autonomy - currently, these are limited to the United Kingdom, Commonwealth nations, the Netherlands, Italy, and Manchukuo.
+- If an overlord capitulates (to anyone), all of their subjects immediately gain autonomy equal to 50% of the total amount of autonomy that would be required for them to progress to their next tier. This is normally 500 autonomy.
+ - For fascist overlords who have fewer puppet tiers with much larger autonomy ranges, if they capitulate, their subjects can gain a lot more autonomy.
+- An overlord sending an attaché to their puppet reduces autonomy by 0.05 per day, whereas a puppet sending an attaché to their overlord generates 0.05 autonomy points per day.
+
+# Achieving Independence [verified for 1.14]
+
+It is possible for puppets to break free from their puppet masters. However, this cannot be done peacefully if the player wishes to do it swiftly. One potential method for achieving this would be to provide increased support for a different ideology than that espoused by the current government, utilizing political advisors and triggering a civil war as a means of liberating oneself from the existing authority structure.
+
+Once hostilities commence, the newly independent government will be engaged in armed conflict with the original puppet government, which may still seek assistance from the puppet master. The outcome of this struggle for independence is contingent upon the rebels' ability to overpower both the master and the loyalists. Should the puppet succeed, they will be presented with the opportunity to assume control of their former overlord.
+
+An alternative method of achieving independence is to increase autonomy to a sufficient degree. One may accomplish this by providing the puppet master with any type of equipment through the Lend-Lease program. In response, the puppet master may attempt to diminish the autonomy of the nation in question by initiating construction projects within its borders or, if consent is granted, by providing loans or other forms of financial assistance. It can be concluded that the attainment of independence through a peaceful process is feasible with the implementation of the Together For Victory strategy; however, it is a protracted and intricate procedure.
+
+# Puppet names
+Most puppets have the same names as their independent counterparts, however some countries use special names when they are specific kinds of subjects to specific countries:
+- United Kingdom Subjects:
+ - United States:
+ - Dominion of North America (Dominion)
+ - 48/49/50/51 Colonies (Colony) (Number varies depending on if the United States gave statehood to Alaska, Hawaii, and/or Puerto Rico)
+ - British North American Territories (Puppet)
+ - King George's Land (Integrated Puppet)
+ - Queen Wallis' Land (Integrated Puppet, under King Edward)
+ - Dominion of Canada:
+ - Dominion of Canada (Dominion)
+ - Canadian Confederation (Colony)
+ - Province of Canada (Puppet)
+ - British North America (Integrated Puppet)
+ - Kenya:
+ - Dominion of Kenya (Dominion)
+ - Colony of Kenya (Colony)
+ - British Kenya (Puppet)
+ - British East Africa (Integrated Puppet)
+ - Zimbabwe:
+ - Dominion of Rhodesia (Dominion)
+ - Colony of Rhodesia (Colony)
+ - British Rhodesia (Puppet)
+ - British SAC Territory (Integrated Puppet)
+ - Botswana:
+ - Dominion of Botswana (Dominion)
+ - Colony of Bechuanaland (Colony)
+ - Bechuanaland Protectorate (Puppet)
+ - British Bechuanaland (Integrated Puppet)
+ - Mexico:
+ - Dominion of Mexico (Only gets applied via a peace conference if "Nationalize the Oil Fields" focus has been completed by Mexico and the UK is not communist)
+ - Republic of Armenia (As the result of the Megali Idea):
+ - Dominion of Armenia (Dominion)
+ - Governorate of Armenia (Colony)
+ - Protectorate of Armenia (Puppet)
+ - British Armenia (Integrated Puppet)
+ - Occitania (Non-Aligned)
+ - Angevin Kingdom of Aquitaine
+ - Switzerland:
+ - Alpine Territories (Democratic)
+ - British Alpine Territories (Fascist)
+ - Khotan Ma:
+ - Tunganistan
+- German Reich Subjects:
+ - Republic of Ukraine:
+ - Greater Ukrainian Reich (Dominion)
+ - Reichsland Ukraine (Satellite/Colony)
+ - Reichsprotektorat Ukraine (Reichsprotectorate/Fascist Puppet)
+ - Ukraine (Puppet)
+ - Reichskommissariat Ukraine (Reichskommissariat/Integrated Puppet)
+ - Belarus:
+ - Weißruthenien (Satellite/Dominion/Colony/Puppet)
+ - Reichsprotektorat Weißruthenien (Reichsprotectorate/Fascist Puppet) (Fascist)
+ - Reichskommissariat Weißruthenien (Reichskommissariat/Integrated Puppet)
+ - Netherlands:
+ - Dietsland (Satellite/Dominion) (Fascist)
+ - Reichsland Niederlande (Colony) (Fascist)
+ - Reichsprotektorat Niederlande (Reichsprotectorate/Puppet) (Fascist)
+ - Reichskommissariat Niederlande (Reichskommissariat/Integrated Puppet) (Fascist)
+ - Belgium:
+ - Flandern-Wallonien (Satellite/Dominion) (Fascist)
+ - Reichsland Belgien (Colony) (Fascist)
+ - Reichsprotektorat Belgien (Reichsprotectorate/Puppet) (Fascist)
+ - Reichskommissariat Belgien (Reichskommissariat/Integrated Puppet) (Fascist)
+ - Georgia:
+ - Reichskommissariat Kaukasien (Fascist)
+ - Estonia:
+ - Estonia (Satellite/Dominion) (Fascist)
+ - Reichsland Estland (Colony) (Fascist)
+ - Reichsprotektorat Estland (Reichsprotectorate/Puppet) (Fascist)
+ - Reichskommissariat Estland (Reichskommissariat/Integrated Puppet) (Fascist)
+ - Lithuania:
+ - Lithuania (Satellite/Dominion) (Fascist)
+ - Reichsland Litauen (Colony) (Fascist)
+ - Reichsprotektorat Litauen (Reichsprotectorate/Puppet) (Fascist)
+ - Reichskommissariat Litauen (Reichskommissariat/Integrated Puppet) (Fascist)
+ - Latvia:
+ - Latvia (Satellite/Dominion) (Fascist)
+ - Reichsland Lettland (Colony) (Fascist)
+ - Reichsprotektorat Lettland (Reichsprotectorate/Puppet) (Fascist)
+ - Reichskommissariat Lettland (Reichskommissariat/Integrated Puppet) (Fascist)
+ - Norway:
+ - Reichsland Norwegen (Colony) (Fascist)
+ - Reichsprotektorat Norwegen (Reichsprotectorate/Puppet) (Fascist)
+ - Reichskommissariat Norwegen (Reichskommissariat/Integrated Puppet) (Fascist)
+ - Czechoslovakia:
+ - Reichsprotektorat Böhmen-Mähren (Reichsprotectorate/Puppet) (Fascist)
+ - Poland:
+ - The Generalgouvernement (Reichsprotectorate) (Fascist)
+ - Generalgouvernment (Puppet) (Fascist) (sic)
+ - France:
+ - Vichy France (Puppet/Reichsprotectorate) (Fascist)
+ - Kenya:
+ - Ostafrika (Satellite/Dominion)
+ - Reichsland Ostafrika (Colony)
+ - Reichsprotectorat Ostafrika (Reichsprotectorate/Puppet)
+ - Deutch-Ostafrika (Reichskommissariat/Integrated Puppet)
+ - Zimbabwe:
+ - Mittelafrika (Satellite/Dominion)
+ - Reichsland Mittelafrika (Colony)
+ - Reichsprotectorat Mittelafrika (Reichsprotectorate/Puppet)
+ - Deutch-Mittelafrika (Reichskommissariat/Integrated Puppet)
+ - Libya:
+ - Nordafrika (Satellite/Dominion)
+ - Reichsland Nordafrika (Colony)
+ - Reichsprotectorat Nordafrika (Reichsprotectorate/Puppet)
+ - Deutch-Nordafrika (Reichskommissariat/Integrated Puppet)
+ - Free City of Danzig:
+ - Reichsgau Danzig (Fascist)
+ - Crimea:
+ - Teilbezirk Taurien (Fascist)
+ - Republic of Volga Germany:
+ - Reichskommissariat Wolga Deutschland (Fascist)
+ - Soviet Union:
+ - Reichskommissariat Muscovien (Reichskommissariat/Integrated Puppet)
+ - Switzerland:
+ - Schweizerische Reichsprotektorat (Fascist)
+ - Schweizerische Eidgenossenschaft (Democratic)
+ - China:
+ - Chinese Reichsprotectorate (Puppet/Reichsprotectorate)
+ - Uruguay:
+ - Reichsprotektorat Uruguay (Fascist) (Only via peace conference)
+ - Kolonie Uruguay (Democratic/Communist) (Only via peace conference)
+ - Deutsch-Uruguay (Non-Aligned) (Only via peace conference)
+- Soviet Union Subjects:
+ - Germany
+ - Soviet Occupation Zone of Germany (Puppet) (Communist)
+ - United Kingdom
+ - British Soviet Socialist Republic (Communist)
+ - Poland
+ - Polish Soviet Socialist Republic (Communist)
+ - Republic of Ukraine:
+ - Ukrainian People's Republic (Dominion) (Communist)
+ - Ukrainian Socialist Republic (Colony) (Communist)
+ - Ukrainian Independent SSR (Puppet) (Communist)
+ - Ukrainian SSR (Integrated Puppet) (Communist)
+ - Belarus:
+ - Belarussian People's Republic (Dominion) (Communist)
+ - Socialist Republic of Byelorussia (Colony) (Communist)
+ - Byelorussian Independent SSR (Puppet) (Communist)
+ - Byelorussian SSR (Integrated Puppet) (Communist)
+ - Estonia:
+ - Estonian People's Republic (Dominion) (Communist)
+ - Socialist Republic of Estonia (Colony) (Communist)
+ - Estonian Independent SSR (Puppet) (Communist)
+ - Estonian SSR (Integrated Puppet) (Communist)
+ - Lithuania:
+ - Lithuanian People's Republic (Dominion) (Communist)
+ - Socialist Republic of Lithuania (Colony) (Communist)
+ - Lithuanian Independent SSR (Puppet) (Communist)
+ - Lithuanian SSR (Integrated Puppet) (Communist)
+ - Latvia:
+ - Latvian People's Republic (Dominion) (Communist)
+ - Socialist Republic of Latvia (Colony) (Communist)
+ - Latvian Independent SSR (Puppet) (Communist)
+ - Latvian SSR (Integrated Puppet) (Communist)
+ - Finland:
+ - Finnish People's Republic (Dominion) (Communist)
+ - Socialist Republic of Finnland (Colony) (Communist) (sic)
+ - Finnish Democratic Republic (Puppet) (Communist)
+ - Finnish SSR (Integrated Puppet) (Communist)
+ - Altai:
+ - Gorno-Altai Autonomous Soviet Socialist Republic (Communist)
+ - Kalmykia:
+ - Kalmyk Autonomous Soviet Socialist Republic (Communist)
+ - Karelia:
+ - Karelian Autonomous Soviet Socialist Republic (Communist)
+ - Crimea:
+ - Crimean Autonomous Soviet Socialist Republic (Communist)
+ - Tatarstan:
+ - Tatar Autonomous Soviet Socialist Republic (Communist)
+ - Chechen-Ingush Republic:
+ - Checheno-Ingush Autonomous Soviet Socialist Republic (Communist)
+ - Mountainous Republic of Dagestan:
+ - Dagestan Autonomous Soviet Socialist Republic (Communist)
+ - Republic of Buryatia:
+ - Buryat-Mongol Autonomous Soviet Socialist Republic (Communist)
+ - Far Eastern Republic:
+ - The Far Eastern Soviet Republic (Communist)
+ - Chukotka Republic:
+ - Chukotka National Okrug (Communist)
+ - Sakha Republic:
+ - Yakut Autonomous Soviet Socialist Republic (Communist)
+ - Vladivostok Independent Republic:
+ - Primorsky Krai (Communist)
+ - Republic of Karakalpakstan:
+ - Karakalpak Autonomous Soviet Socialist Republic (Communist)
+ - Taymyria:
+ - Taymyr Dolgano-Nenets National Okrug (Communist)
+ - Yamalian Republic:
+ - Yamalo-Nenets National Okrug (Communist)
+ - Ostyak-Vogul National Republic:
+ - Ostyak-Vogul National Okrug (Communist)
+ - Nenetsia:
+ - Nenets National Okrug (Communist)
+ - Komi Republic:
+ - Komi Autonomous Soviet Socialist Republic (Communist)
+ - Abkhazia:
+ - Abkhaz Autonomous Soviet Socialist Republic (Communist)
+ - Federal Republic of Kabardins and Karachay-Balkars:
+ - Kabardino-Balkarian Autonomous Soviet Socialist Republic (Communist)
+ - North Ossetia-Alania:
+ - North Ossetian Autonomous Soviet Socialist Republic (Communist)
+ - Republic of Volga Germany:
+ - Volga German Autonomous Soviet Socialist Republic (Communist)
+ - Bashkortostan:
+ - Bashkir Autonomous Soviet Socialist Republic (Communist)
+ - Bukharan Jadidist Republic:
+ - Bukharan People's Soviet Republic (Communist)
+ - Khivan Jadidist Republic:
+ - Khorezm People's Soviet Republic (Communist)
+ - Chuvashia:
+ - Chuvash Autonomous Soviet Socialist Republic (Communist)
+ - Mari El:
+ - Mari Autonomous Soviet Socialist Republic (Communist)
+ - Udmurtia:
+ - Udmurt Autonomous Soviet Socialist Republic (Communist)
+ - Sinkiang:
+ - Soviet Socialist Republic of Sinkiang (Communist)
+ - Khakassia:
+ - Khakas Autnomous Oblast (Communist)
+ - Don Republic:
+ - Don Soviet Republic (Communist)
+ - Kuban Republic:
+ - Kuban Soviet Republic (Communist)
+ - Turkestan:
+ - Turkestan Autonomous Soviet Socialist Republic (Communist)
+ - Mountainous Republic of the Northern Caucasus:
+ - Mountain Autonomous Soviet Socialist Republic (Communist)
+ - Transcaucasia:
+ - Transcaucasian Socialist Federative Soviet Republic (Communist)
+ - Siberia:
+ - Siberian Federative Soviet Socialist Republic (Communist)
+ - Idel-Ural State:
+ - Idel Ural Federative Soviet Socialist Republic (Communist)
+ - Switzerland:
+ - Swiss Union (Communist)
+ - Khotan Ma:
+ - Dungan Soviet Socialist Republic (Communist)
+- Italy subjects:
+ - Albania
+ - Protectorate of Albania (Fascist)
+ - Aussa
+ - Aussa Governorate (Fascist)
+ - Bosnia
+ - Protectorate of Bosnia (Fascist)
+ - Governorate of Sarajevo (Fascist, without Herzegovina)
+ - Crimea:
+ - Regno Bosporano (Fascist)
+ - Dalmatia
+ - Province of Illyria (Fascist)
+ - Ethiopia
+ - Kingdom of Ethiopia (Dominion/Satellite) (Fascist)
+ - Grand Duchy of Ethiopia (Colony) (Fascist)
+ - Governorate of Ethiopia (Puppet/Reichsprotectorate) (Fascist)
+ - Italian East Africa (Integrated Puppet/Reichskommissariat) (Fascist)
+ - Gojjam (Fascist) (If "Reach out to the Italians" and "Declare for Italy" focuses have been completed by Ethiopia)
+ - Jimma (Fascist) (If "Reach out to the Italians" and "Declare for Italy" focuses have been completed by Ethiopia)
+ - Herzegovina
+ - Governorate of Mostar (Fascist)
+ - Italian State of East Africa
+ - Italian East Africa (Fascist/Non-Aligned)
+ - Italian East Africa Company (Democratic)
+ - Kosovo
+ - Governorate of Prishtina (Fascist)
+ - Kingdom of Libya
+ - Kingdom of Libya (Dominion/Satellite) (Fascist)
+ - Libya (Colony) (Fascist)
+ - Cyrenica (Puppet/Reichsprotectorate) (Fascist) (sic)
+ - Italian North Africa (Integrated Puppet/Reichskommissariat) (Fascist)
+ - Macedonia
+ - Protectorate of Macedonia (Fascist)
+ - Montenegro
+ - Governorate of Montenegro (Fascist)
+ - Serbia
+ - Protectorate of Serbia (Fascist)
+ - Slovenia
+ - Province of Ljubljana (Fascist)
+ - Switzerland
+ - Protettorato Svizzero (Fascist)
+ - Repubblica Svizzera (Democratic)
+ - Transylvania
+ - Dacian Protectorate (Fascist)
+ - Gambela:
+ - Jimma (Fascist) (If "Topple Amhara Rulers" focus has been completed by Italy)
+ - Benishangul-Gumuz Nation:
+ - Gojjam (Fascist) (If "Topple Amhara Rulers" focus has been completed by Italy)
+- Japan Subjects:
+ - China
+ - Chinese Constitutional Republic (Imperial associate) (Fascist)
+ - Reorganized Government of China (Puppet/Reichsprotectorate/Imperial protectorate) (Fascist)
+ - Chinese Provisional Authority (Integrated puppet/Reichskommissariat) (Fascist)
+ - Manchukuo
+ - Empire of Manchukuo (Dominion/Satellite/Imperial associate) (Fascist)
+ - Imperial Realm of Manchukuo (Colony) (Fascist)
+ - Manchukuo (Puppet/Reichsprotectorate/Imperial protectorate) (Fascist)
+ - Manchukuo (Integrated puppet/Reichskommissariat/Imperial subject) (Fascist)
+ - Republic of Buryatia:
+ - Trans-Mongolian Protectorate (Non-aligned)
+ - Ulan Ude Autonomous Army (Fascist)
+ - Far Eastern Republic:
+ - Japanese Far East Protectorate (Non-aligned)
+ - East Siberian Army (Fascist)
+ - Chukotka Republic:
+ - Chukchi Protectorate (Non-aligned)
+ - Bering Strait Autonomous Territory (Fascist)
+ - Sakha Republic:
+ - Yakut Protectorate (Non-aligned)
+ - Yakut Autonomous Territories (Fascist)
+ - Vladivostok Independent Republic:
+ - Transamur Protectorate (Non-aligned)
+ - Primorsky Autonomous District (Fascist)
+ - Taymyria:
+ - East Nenets Protectorate (Non-aligned)
+ - Northernmost Autonomous Area (Fascist)
+ - Yamalian Republic:
+ - Autonomous Yamalo-Nenetsian Protectorate (Non-aligned)
+ - Northeast Ural Autonomous District (Fascist)
+- France Subjects:
+ - Netherlands
+ - Batavian Republic (Democratic)
+ - Poland
+ - Grand Duchy of Warsaw (Non-Aligned)
+ - Kurdistan (As the result of the Megali Idea):
+ - French State of Kurdistan (Dominion)
+ - Governorate of Kurdistan (Colony)
+ - French Mandate of Kurdistan (Puppet)
+ - French Kurdistan (Integrated Puppet)
+ - Occitania
+ - Autonomous Region of Southern France
+ - Switzerland
+ - République Hélvetique (Democratic)
+ - Nation Hélvetique (Fascist)
+- Spain Subjects:
+ - Mexico:
+ - New Spain (Fascist/Non-aligned)
+- Greece Subjects:
+ - Republic of Cyprus: (Via Enosis)
+ - Dominion of Cyprus (Dominion)
+ - Governorate of Cyprus (Colony)
+ - Protectorate of Cyprus (Puppet)
+ - Greek Cyprus (Integrated Puppet)
+- Yugoslavia Subjects:
+ - Kosovo:
+ - Autonomous Region of Kosovo
+ - Croatia:
+ - Banovina of Croatia
+ - Slovenia:
+ - Drava Banovina
+ - Bosnia:
+ - Banovina of Bosnia
+ - Herzegovina:
+ - Banovina of Herzegovina
+ - Macedonia:
+ - Vardar Banovina
+ - Montenegro:
+ - Zeta Banovina
+ - Dalmatia:
+ - Banovina of Dalmatia
+ - Transylvania:
+ - Autonomous Region of Transylvania
+ - Vojvodina:
+ - Autonomous Region of Vojvodina
+- Ethiopia Subjects:
+ - Harar:
+ - Harar Autonomous Region (Non-Aligned)
+ - Tigray:
+ - Tigray Autonomous Region (Non-Aligned)
+ - Aussa:
+ - Afar Autonomous Region (Non-Aligned)
+ - Benishangul-Gumuz Nation:
+ - Benishangul-Gumuz Autonomous Region (Non-Aligned)
+ - Gambela:
+ - Gambela Autonomous Region (Non-Aligned)
+ - Sidamo:
+ - Sidamo Autonomous Region (Non-Aligned)
+ - Oromia:
+ - Oromo Autonomous Region (Non-Aligned)
+ - Qemant State:
+ - Qemant Autonomous Region (Non-Aligned)
+ - Cuba:
+ - Imperial Cuban Territories (Non-Aligned)
+- South Africa Subjects:
+ - United States: (With King Edward, "A King for Our People" focus)
+ - Dominion of North America (Dominion)
+ - 48/49/50/51 Colonies (Colony) (Number varies depending on if the United States gave statehood to Alaska, Hawaii, and/or Puerto Rico)
+ - African North American Territories (Puppet)
+ - Queen Wallis' Land (Integrated Puppet)
+- Hungary Subjects:
+ - Transylvania
+ - Federal Republic of Székelyföld (Democratic) (If Demand Székely Autonomy" focus has been completed by Hungary)
+ - United Székely Duchies (Non-Aligned) (If Demand Székely Autonomy" focus has been completed by Hungary)
+ - Greater Székely Land (Fascist) (If Demand Székely Autonomy" focus has been completed by Hungary)
+ - Union of Székely, Saxons and Romanian Soviets (Communist) (If Demand Székely Autonomy" focus has been completed by Hungary)
+- Sweden Subjects:
+ - Denmark
+ - The Southern Deterrent Sector (Nordic Defense Council Member)
+ - Finland
+ - The Finland Nordic Bulwark (Nordic Defense Council Member)
+ - Iceland
+ - Icelandic Defense Zone (Nordic Defense Council Member)
+ - Norway
+ - The Norwegian Atlantic Wall (Nordic Defense Council Member)
+- Chinese Soviet Republic Subjects:
+ - China:
+ - Province of Central and East China
+- Poland Subjects:
+ - Kingdom of Lithuania:
+ - Grand Duchy of Lithuania
+- Any Countrys Subjects:
+ - Indonesia:
+ - Overlord's adjective East Indies
+ - Zaire:
+ - Overlord's adjective Congo
+ - British Malaya:
+ - Overlord's adjective Malaya
+ - Libya:
+ - Overlord's adjective North Africa
+ - Saudi Arabia:
+ - Overlord's adjective Central Arabia
+ - India:
+ - Dominion of India (Dominion)
+ - Overlord's adjective Raj
+ - Germany:
+ - Overlord's adjective Occupation Zone (Supervised State)
+ - Overlord's adjective Germany
+ - United Kingdom:
+ - Overlord's adjective Protectorate of Britain (Fascist)
+ - Overlord's adjective Socialist Republic of Great Britain (Communist)
+ - Overlord's adjective Britain (Democratic/Non-Aligned)
+ - Soviet Union:
+ - Overlord's adjective Mandate of Russia (Supervised State)
+ - Russian Dominion (Dominion)
+ - Overlord's adjective Russia (Colony/Puppet)
+ - Russian Protectorate (Integrated Puppet)
+ - Protectorate Russia (Reichsprotectorate)
+ - Reichskommissariat Russia (Reichskommissariat)
+ - Russian Imperial Protectorate (Imperial protectorate)
+ - United States:
+ - Overlord's adjective North America (Democratic)
+ - Overlord's adjective North American Territories (Non-Aligned)
+ - Overlord's adjective Protectorate of America (Fascist)
+ - North American Socialist Republic (Communist)
+ - China:
+ - Chinese Dominion (Dominion)
+ - Overlord's adjective Chinese Colony (Colony)
+ - Overlord's adjective China (Puppet/Supervised State)
+ - Overlord's adjective China Territory (Integrated Puppet)
+ - Chinese Protectorate (Reichsprotectorate)
+ - Kommissariat of China (Reichskommissariat)
+ - Overlord's adjective Chinese Dominion (Dominion)
+ - Sweden:
+ - Svenska Demokratiska Republiken (Communist)
+ - Poland:
+ - Socialist Republic of Poland (Communist)
+ - Romania:
+ - Romanian People's Republic (Communist)
+ - Occitania:
+ - Overlord's adjective Occitania
+ - Italy:
+ - Republican Italy (Democratic)
+ - Switzerland:
+ - Helvetic Republic (Democratic)
+ - Overlord's adjective Alpine Territories (Via console commands (?))
+ - Overlord's adjective Helvetia (Via console commands (?))
+ - Australia:
+ - Australia (Dominion)
+ - Italian State of East Africa:
+ - Overlord's adjective East Africa
+ - Kingdom of Lombardy-Venetia:
+ - Lombardy-Venetia
+ - Overlord's adjective Occupation Zone of Lombardy and Venice (Supervised State)
+ - Papal States:
+ - Overlord's adjective Occupation Zone of Rome (Supervised State)
+ - Grand Duchy of Tuscany:
+ - Tuscany
+ - Duchy of Tuscany (Non-Aligned)
+ - Overlord's adjective Occupation Zone of Tuscany (Supervised State)
+ - Sardinia-Piedmont:
+ - Sardinia-Piedmont
+ - Overlord's adjective Occupation Zone of Sardinia and Piedmont (Supervised State)
+ - Kingdom of the Two Sicilies:
+ - Two Sicilies
+ - Overlord's adjective Occupation Zone of Naples and Sicily (Supervised State)
+ - Polynesia:
+ - Dominion of Polynesia (Dominion)
+ - Greater Lithuania
+ - Grand Duchy of Lithuania
+
+# References
+
+hoi4de:Puppet
+hoi4es:Puppet
+hoi4fr:Puppet
+hoi4pl:Puppet
+hoi4pt:Puppet
+hoi4ru:Puppet

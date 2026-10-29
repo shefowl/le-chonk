@@ -1,0 +1,231 @@
+TITLE: Patch 1.17
+URL: https://hoi4.paradoxwikis.com/Patch_1.17
+REVISION: 2025-11-25T20:14:23Z (rev 93127)
+VERIFIED FOR: ?
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Patch 1.17 was released on 2025-11-20 coinciding with the release of the No Compromise, No Surrender DLC. The checksum is 3884.
+
+# No Compromise, No Surrender
+- Added new ahistorical Japanese focus paths including Imperial Influence system.
+- Added new historical Japan focus tree paths
+- Added new focus tree to Nationalist China
+- Added new focus tree to Communist China
+- Added full focus tree to Philippines
+- Updated existing warlord focus trees and added it to new war lord countries’
+- Split Sinkiang and Khotan Ma with NCNS enabled.
+- Split Xibei San Ma into Qinghai Ma, Gansu Ma and Ningxia Mawith NCNS enabled.
+- Split Nationalist China from Sichuan Clique, Northeastern Army, Hebi-Chahar and Shandong Clique with NCNS enabled.
+- Split Guangdong Clique from Guangxi Clique with NCNS enabled.
+- Updated states in East Asia and Philippines
+- Added new VO for Philippines
+- Added 10 new music tracks
+- Added 67 new 3D models
+- Added 54 reskinned and updated 3D models
+
+# Feature
+- Existing faction mechanics expanded on with completely new system, including shared inteligence, faction rules and faction goals
+- Added over 60 faction rules
+- Added over 150 short, medium and long term faction goals
+- Added new faction theatres system for collaborating with faction allies more effectively.
+- Replaced existing doctrine trees for Army, Navy and Air with new doctrines system.
+- Added 3 New Special Projects
+- Added 19 New Military Spirits
+- Reworked and added limit for the State and Province type buildings, depending on the state type. Limits introduced for different island categories.
+- Reworked Naval Invasions, replaced global cap of divisions assigned at the same time to invasions and scaling time per division, to have caps based on the number of simulatenous naval invasion plans, how many divisions can be assigned to that plan. Planning time for Naval Invasions is no longer depending on the amount of divisions attached to the order.
+- Added Strategic Locations, Provinces that can have increased building limits, e.g. Natural Harbor, which increases the limit of naval base in a province by 2.
+- Added 23 new Subdoctrines for the No Compromise, No Surrender
+- Added 1 new Subdoctrine for La Resistance
+- Added 4 new Subdoctrines for By Blood Alone
+- Reintroduced Fleet Home Base system, Port, from which Fleet stationed there draws range and supplies. Now with option to use 'Automatic' Selection of the Home Base.
+- Planes on Carriers can now perform air missions, while their taskforce is performing naval mission.
+- Added Carrier Stances that allows to customize how many planes should participate in the defense of the taskforce, and how many should perform air missions
+
+# Balance
+- Increased maximum naval shore bombardment penalty to defenders to 33 percent. Halved shore bombardment generation from ship heavy and light attack to make the effect stronger but harder to cap.
+- Reduced generic MIO bonuses for infantry tanks and assault guns to bring them in line with other MIO types.
+- USA: Reduced all generals and admirals by one level. Several leaders can regain this level through focuses to represent pre-war experience progression.
+- USA: Added Leader Experience Gain to the Department of Defence to help leaders catch up after entering the war late.
+- Snowy ground is now more punishing for movement and breakthrough. Extremely cold weather now inflicts higher attrition.
+- Slightly lowered base speed during strategic deployment.
+- Added a small attrition multiplier while units are moving.
+- Naval shore bombardment can now critically hit, causing severe damage to forts and coastal forts during combat.
+- Removed WAR_SCORE_DECAY_FOR_BUILT_CONVOY. Warscore from sinking convoys now uses the same IC-based logic as ships. Significantly increased warscore for sinking ships.
+- Updated submarine escape ratios to be more coherent and consistent.
+- Danish Welfare Balance of Power effects on Starting Production Efficiency changed from minus 15 percent and minus 10 percent to minus 5 percent and minus 5 percent.
+- China: Army Reform decisions available without No Compromise, No Surrender now cost 75 Army Experience. War of Resistance now grants 20 percent core defense.
+- Subjects and Overlords no longer receive the Faction Traitor opinion penalty when leaving factions.
+- Carriers now intercept land-based naval strikes by destroying incoming bombers. The number of carrier fighters determines interception strength. Bomber agility, defense, and speed determine survival chances.
+- Improved German General Paulus with higher defense, planning, and logistics to better reflect his historical staff career. Previously had uniformly low stats that were not representative.
+- Line Artillery: Equipment requirement reduced from 36 to 24.
+- Line Rocket Artillery: Equipment requirement reduced from 36 to 24.
+- Motorized Line Artillery: Artillery requirement reduced from 36 to 24. Truck requirement reduced from 50 to 36.
+- Motorized Line Rocket Artillery (Truck-Drawn): Rocket equipment requirement reduced from 36 to 24. Truck requirement reduced from 50 to 36.
+- Motorized Line Anti-Tank Artillery: Trucks Requirement reduced from 50 to 36.
+- Motorized Line Anti-Air: AA requirement increased from 30 to 36. Truck requirement reduced from 50 to 36.
+- Motorized Rocket Artillery: Rocket equipment requirement reduced from 20 to 16. Truck requirement increased from 15 to 16.
+- Support Artillery Tech: Soft Attack bonus per level reduced from plus 10 percent to plus 5 percent.
+- Light, Medium, Modern, and Heavy Self Propelled Artillery: Combat Width reduced from 3 to 2. Equipment requirement set to 40 Self Propelled Artillery per battalion (previously 60, 50, 50, 40).
+- Light, Medium, Modern, and Heavy Self Propelled Anti Air: Equipment requirement increased from 36 to 40 per battalion.
+- Light, Medium, Modern, and Heavy Tank Destroyers: Equipment requirement reduced from 50 to 40 per battalion.
+- Naval Air Targeting: Adjusted ship targeting logic for planes. High screening causes targets to be selected more randomly, while low screening causes targeting to behave more like the previous system.
+- Collaboration: Surrender Limit impact reduced from -30% to -15% at 100%
+- Removed the Naval Admiral Level contribution to naval hit chance and removed the Coordination bonus.
+
+# Gameplay
+- Reworked Samar and Cebu into Eastern and Western Visayas
+- Removed the unused Ausf. I from German equipment variant names as they historically did to avoid numeral confusion. Added a new Ausf. Q to preserve the full 16-variant naming set.
+- Implemented game logic for naval mission targeting.
+- Assault Gun Manufacturer MIOs now also apply to Modern SP Artillery.
+- Coastal Defense Ships can now mount mine rails and perform minelaying operations.
+- Iraq now automatically grants air base access to United Kingdom and cannot revoke air or military access while the Anglo-Iraqi Treaty is active.
+- Added coal to the mobilization laws interface.
+- AI now sticks more firmly to production lines before switching. Threshold adjusted from 0.25 to 0.1.
+- Removed the Medium Battery tech line.
+- Moved all medium battery modules into the corresponding light and heavy battery lines.
+- Added plus 5 percent attack and piercing to Heavy Cruisers through the Heavy Shell techs.
+- Standardized naval equipment names to Early, Basic, Improved, and Advanced.
+- Moved hull years to 1922, 1936, 1939, and 1943.
+- Added submarine carrier airwing size modifiers.
+- Added three new unit categories: All Anti Tank Artillery, Mobile Anti Tank Artillery, and All Rocket Artillery.
+- Collaboration impact on surrender limit reduced from 30 percent at 100 percent to 15 percent at 100 percent.
+- Added minor flavour national spirits for Tibet.
+- Added the Warsaw Pact focus for the Soviet Union.
+- Germany: Tag-based Reichskommissariats can no longer be formed if the country is already a German puppet, such as Poland or Czechoslovakia.
+- Tweaked Danish AI to be more likely to declare independence when their overlord is losing and less likely when the overlord is stable.
+- Encouraged France to participate in the Yalta Conference even with very low warscore.
+- Opened a passage into Arunachal Pradesh and set parts of the Yunnan–Burma border to impassable.
+- AI should no longer withdraw its entire army from a front when a controller area is split. This may not cover every edge case, but it addresses the majority of occurrences.
+
+# Stability & Performance
+- Fixed a crash on Mac when hovering over a deleted template.
+- Implemented a OOS fix related to pathfinding.
+- Fixed a crash on Mac when pressing the Raids interface.
+- Fixed a CTD in the supply system.
+- Corrected the Noric script so it now displays the proper tooltip.
+- Parallelized parts of the supply dirty check for improved performance.
+- Fixed an OOS issue in production lines.
+- Reordered triggers for WTT border conflicts to reduce topbar GUI lag when playing as China.
+- Optimized memory allocation throughout the codebase.
+- Optimized pathfinding by storing state in a single byte instead of several.
+- Optimized naval strength comparison logic.
+- Optimized the join wars and call allies actions.
+- Optimized trade route calculations and overall route optimization.
+- Optimized CCountryIntelligenceAgencyView::CalcOperations.
+- Raids now evaluate equipment archetypes instead of specific variants, greatly improving performance.
+- Fixed an OOS in the supply system related to localization.
+- Fixed a CTD triggered when starting a peace conference.
+- Fixed a temperature-related OOS issue.
+- Improved save file size requirements caused by the international market.
+- Added an optimization that batch-removes CGui::_guiObjectShown entries when batch-removing GUI objects, avoiding expensive per-object removals.
+
+# UI
+- Most country targeted decisions will now pan the camera to that country’s capital state when right clicking them.
+- Shift clicking equipment in the lend lease setup now adds all equipment of that type to the offer with the Once setting enabled.
+- Main menu backgrounds are now fully localizable. Added support for the Chinese localized NCNS background.
+- Added portrait traits for minor portraits and improved the tooltip for Hirohito.
+- Added the Korean language folder and language selection settings.
+- Added naval HQ and best HQ leader information to the combat result screen.
+- Updated the top bar factory display to show coal and energy information.
+- Added an alert when fuel drops below 25 percent.
+- Reduced lobby list spam by collapsing duplicate lobby names.
+- Improved the daily manpower gain tooltip so the displayed value now matches the underlying calculation more accurately.
+- Fixed the research window layout for low resolution displays.
+- Map tooltips now lock to the bottom right of the screen. This can be toggled in game settings.
+- Strategic Region names are now only visible on hover. This can be toggled in game settings.
+- Land unit icons now display with transparency while using the strategic naval mapmode.
+- Adjusted the color of naval supply routes to be less visually noisy.
+- Fixed issues with the naval stance dropdown.
+- Replaced the navy engagement button with a dropdown menu.
+- Modernized the repair priority button visuals.
+- Added more information to the strategic location icon.
+- Added a faction button to the top bar.
+- Updated the Officer Corps menu icon.
+
+# Modding
+- Added the annex_subject_cost_factor modifier.
+- You can now switch countries by holding Tab and clicking a country on the map while in debug mode.
+- Raid Types can now use a range factor modifier that multiplies the effective range of eligible units.
+- Added the fade_delay GUI property to containerWindowType, allowing an initial delay before a window fades in.
+- Added the army_experience_from_volunteers modifier.
+- Added support for buttons with scripted effects in the focus tree inlay window.
+- Added a new modifier: spotting_chance_against.
+- Added a new modifier: naval_hit_chance_against.
+- Added a new modifier: amphibious_invasion_against.
+- The language=X argument can now be used with or without the l_ prefix.
+- Implemented a new trigger: has_resources_in_collection.
+- Removed cl_tech from the game. All uses have been migrated to ca_tech, and ca_tech has been renamed to Cruiser Technology.
+
+# Graphics
+- Fixed a missing land bridge east of Batangas.
+- Updated textures for Japanese tanks in the Axis Armor Pack.
+
+# Bugfix
+- Fixed a bug where Air Accident modifiers were not applied correctly + improved the tooltip to show more accurately what is happening
+- Fixed the Nothing Personal, Adolf achievement to also require the Austrian states split off in Götterdämmerung.
+- Fixed redundant requirements in the Canadian focus Defense Research Grants and the Ethiopian focus Support Anti Colonialist Resistance.
+- Added a missing name to the research bonus from the Yugoslav focus Industrialization Program.
+- Disabled automatic bypass on several Belgian focuses.
+- Updated the localization for automatic medal granting to read Automatic Free Medal Chance for better clarity.
+- Fixed an issue where Lluis Companys’ portrait did not appear correctly when leading independent Catalonia.
+- Corrected several cases where incorrect or unrepresentative airframe graphics were used in starting OOBs for ENG, GER, JAP, and USA.
+- Fixed missing French localization for the Swedish focus Husqvarna Weapons Factory.
+- Corrected the Sunrise Invasion achievement description to state that players must own a coastal European state, not merely occupy one.
+- Updated the flag on the Nanjing Presidential Palace.
+- Fixed border war state selection and restored the Xian Incident event.
+- Fixed flickering terrain modifier tooltips when multiple units attacked from the same province.
+- Amphibious tanks are now correctly classified as amphibious units.
+- Warlords who imprison Kai Shek are now correctly removed from the faction if China chooses to declare war.
+- Peace conferences can now force ownership of impassable states.
+- Resource rights are now cancelled automatically when going to war with the rights giver.
+- Fixed a GUI bug affecting the chat box in multiplayer.
+- Fixed gain_xp for naval commanders.
+- Border wars can now be initiated across puppet state borders.
+- Redesigned the strategic region and sea zone interface window.
+- Fixed an issue preventing missiles from being attached to submarines with missile modules.
+- Fixed taskforce reinforcement and reserve transfer issues.
+- Fixed a bug where depth charges were not properly scaled by modifiers.
+- Naval Aircraft MIO archetypes now correctly apply Naval Attack, Naval Targeting, Sub Detection, and Surface Detection bonuses.
+- Mengkukuo can now use the generic industrial concern.
+- Casualty values are now stored using 64 bit integers.
+- Added XP gain to naval missions and expanded XP tooltip information.
+- Removed unnecessary whitespace in the monthly recruitable population tooltip in the state view.
+- Fixed broken number symbol usage in Russian localization.
+- Added a missing name to the tech bonus from the Greek focus Increase Our Mining Operations.
+- Fixed an issue where enemy nations could absorb returning volunteer divisions.
+- ToA music now plays less frequently when the player capital is outside South America.
+- Fixed weather related speed modifiers not applying correctly during attack moves.
+- Fixed UK focus Organize the Blackshirts causing overlapping branches.
+- Fixed an issue where electing MacArthur during wartime did not trigger the correct event.
+- Fixed a bug where subject manpower reinforcement speed was ignored.
+- Corrected multiple flawed focus prerequisite and bypass conditions for Poland.
+- Fixed a typo in the German focus Reorganize the Wehrmacht.
+- Fixed Belgian coring of Gallic states failing when a decision was interrupted.
+- Fixed a lobby bug where countries could appear to be controlled by fake players after a kick.
+- Fixed both options for German demand for colonies being localized as acceptance.
+- Seizing civilian trains can no longer provide armored trains.
+- Fixed a rare CTD when OpenGL users joined multiplayer lobbies.
+- Fixed modded decision category interfaces shifting after their first use.
+- CAS damage is now scaled by effective plane count rather than full airwing size.
+- Operation Countenance now proceeds more reliably along historical paths.
+- Finnish sniper events will no longer appear when combat is not occurring on Finnish territory.
+- Italy: Enrico Fermi can now be unlocked through the focus New Forms of Weaponry.
+- Ethiopia: A ceasefire accepted by Italy during Peace Negotiations now forces all Italian allies into white peace with Ethiopia.
+- Removed Axis Armor Pack references from game logic. Ownership of the cosmetic pack is unaffected.
+- Corrected supply_factor usage in multiple national tags, replacing it with supply_consumption. (Argentina, British Raj, Chile, China, Congo, Denmark, Finland, Germany, Greece, Iceland, Iraq, Italy, Philippines, Sinkiang, Sweden, Afghanistan and Japan)
+- Rexist Belgium will now join the Axis before Germany invades.
+- Germany is now more willing to grant territory to its Reichskommissariats during peace conferences.
+- French Syria no longer incorrectly loses two states at the conclusion of the war with Turkey after Megali Plan ratification.
+- Added force_link_ownership_to support for impassable states.
+- Added minor flavour national spirits for Tibet.
+- Added the Warsaw Pact focus for the Soviet Union.
+- Added a Dardanelles Straits adjacency.
+- Germany: Tag based Reichskommissariats can no longer be created if the target country is already a German puppet.
+- Tweaked Danish AI to be more likely to declare independence when their overlord is losing and less likely when stable.
+- Encouraged France to participate in the Yalta Conference even with very low warscore.
+- Opened a passage into Arunachal Pradesh and set portions of the Yunnan Burma border to impassable.
+- Corrected localization cutoff in The Khakimov Proposal.
+- Fixed missing images for Nordic Defense Council events.
+
+# References

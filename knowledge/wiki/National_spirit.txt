@@ -1,0 +1,2110 @@
+TITLE: National spirit
+URL: https://hoi4.paradoxwikis.com/National_spirit
+REVISION: 2026-03-19T13:44:49Z (rev 98973)
+VERIFIED FOR: 1.17
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+A national spirit is a modifier that describes unique advantages or disadvantages of countries. A country can have several national spirits at the same time. They can be acquired, removed, or modified by finishing national focuses or through certain events. National spirits can be viewed in the political menu. Some countries already start with national spirits as can be seen below.
+
+Not to be confused with: the Spirits of a country's officer corps
+
+# Starting national spirits [verified for 1.17]
+
+Country: Afghanistan
+Name: King Zahir Shah
+Effects: * Stability : +10.00%
+DLC: goe
+
+Country: Afghanistan
+Name: Pashtunwali
+Effects:
+- Political Power Gain: -40%
+- Army exp Gain: -20.0%
+- Naval exp Gain: -20.0%
+- Air exp Gain: -20.0%
+- Stability : +20.00%
+- Daily support for Non-Aligned : +0.10
+DLC: goe
+
+Country: Afghanistan
+Name: Quami
+Effects:
+- Army exp Gain: +2.0%
+- Division Defense on core territory: +3.0%
+- Irregular Infantry Defense: +5.00%
+- Irregular Infantry Speed: +5.00%
+- Irregular Infantry Organization: +5.00%
+DLC: goe
+
+Country: Afghanistan
+Name: Subsistence Economy
+Effects:
+- Stability : +20.00%
+- Production Efficiency Cap : -35.00%
+- Production Efficiency growth : -50.00%
+- Factory Output : -50.00%
+DLC: goe
+
+Country: Afghanistan
+Name: Turkish Military Mission
+Effects:
+- Divisions speed: +5.00%
+- Army exp Gain: +10.0%
+- Division Attack: +5.0%
+- Division Defense: +5.0%
+DLC: goe
+
+Country:
+Argentina
+Bolivia
+Brazil
+Canada
+Chile
+Mexico
+Paraguay
+Uruguay
+Venezuela
+And all other American countries
+Name: Monroe Doctrine
+
+Country: Argentina
+Name: Infamous Decade
+Effects:
+- Stability : -10.00%
+- War Support -10.00%
+- Political Advisor Cost: +25%
+- Daily Support for Unaligned : +0.02
+DLC: Trial of Allegiance
+
+Country: Argentina
+Name: Legacy of the Naval Arms Race
+Effects:
+- Dockyard Output : -15.00%
+- Carrier Max Cost: 9500
+- Cruiser Max Cost: 5300
+- Heavy Ship Max Cost: 10000
+- nic construction speed: -40.00%
+DLC: Trial of Allegiance
+
+Country: Argentina
+Name: Political Corruption
+Effects:
+- Political Power Gain: +10%
+- War Support : -20.00%
+- Construction Speed: -10.00%
+- production Efficiency Cap : -10.00%
+DLC: Trial of Allegiance
+
+Country: Argentina
+Name: The Roca-Runciman Treaty
+Effects:
+- Consumer Goods Factories factor: 10.0%
+- Resources to Market: +20%
+- Trade Laws Cost: +10%
+- Economy Laws Cost: +10%
+- cic construction speed: +5.00%
+DLC: Trial of Allegiance
+
+Country: Aussa
+Name: Warriors Skilled in Desert Warfare
+Effects:
+- Heat Attrition: -30.00%
+- Supply Consumption: -10.0%
+- Irregular Infantry Attack: +10.00%
+- Irregular Infantry Defense: +15.00%
+- Irregular Infantry Speed: +5.00%
+
+Country: Australia
+Name: Great Depression
+Effects:
+- Consumer Goods Factories factor: 40.0%
+- Stability : −10.00%
+- Factory Output : −15.00%
+- Dockyard Output : −15.00%
+
+Country: Austria
+Name: Austrofascism
+Effects:
+- Stability : +5.00%
+- Daily Fascism Support: +0.02
+- Acceptance of Fascist Diplomacy: +50
+- Daily Support for Unaligned: +0.03
+DLC: Götterdämmerung
+
+Country: Austria
+Name: Phönix Insurance
+Effects:
+- Political Power Gain: +15%
+- Recruitable Population Factor: +15%
+- Stability : +5.00%
+- War Support : +5.00%
+DLC: Götterdämmerung
+
+Country: Austria
+Name: Recovering From Economic Depression
+Effects:
+- Consumer Goods Factories factor: 20.0%
+- Factory Output : −10.00%
+DLC: Götterdämmerung
+
+Country: Austria
+Name: Treaty of Saint-Germain-en-Laye
+Effects:
+- Factory Output : −50.00%
+- Facility Construction speed: −100.00%
+- Military Factory construction speed -75.00%
+- So long as this National Spirit
+ is active,
+conscription law cannot be
+ raised beyond 'Volunteer Only'.
+- Units cannot be trained,
+disbanded or
+have their templates modified
+- Can send volunteers: no
+- Will be removed 16 July, 1940 (1658 days)
+DLC: Götterdämmerung
+
+Country: Austria
+Name: Widespread Unemployment
+Effects:
+- Political Power Gain: -10%
+- Stability : -10.00%
+DLC: Götterdämmerung
+
+Country: Belgian Congo
+Name: An Uncontrollably Vast Nation
+Effects:
+- Political Power Gain: -20%
+- Recruitable Population Factor: -15%
+- Consumer Goods Factories factor: 15.0%
+- Stability : -10.00%
+- War Support : -10.00%
+- Construction Speed: -10.00%
+- Resistance Target: +15%
+DLC: Götterdämmerung
+
+Country: Belgian Congo
+Name: Force Publique
+Effects:
+- Supply Consumption: -5.00%
+- Army Leader Cost: +100.0%
+- Division Defense on core territory: +5.00%
+- Daily autonomy progress gain: -0.2
+- Maximum Command Power Increase: -50
+- Daily Command Power Gain Multiplier: -50%
+- Hot acclimatization gain factor: +15.0%
+- Equipment Capture Ratio Modifier: +10.0%
+- Resistance Target: -5%
+DLC: Götterdämmerung
+
+Country: Belgian Congo
+Name: The Invisible Roof
+Effects:
+- Stability Stability: -10.00%
+- Research Speed: -15.00%
+- Daily autonomy progress gain: +0.2
+DLC: Götterdämmerung
+
+Country: Belgium
+Name: Chasseurs Ardennais
+Effects:
+- Mountaineers:
+- Forest:
+ - Movement Effective Change: +10%
+ - Attack Effective Change: +20%
+ - Defense Effective Change: +20%
+- Mountain:
+ - Movement Effective Change: -10%
+ - Attack Effective Change: -20%
+DLC: Götterdämmerung
+
+Country: Belgium
+Name: Corruption
+Effects:
+- Daily Political Power Gain: -0.25
+- Stability : -20.00%
+- Construction Speed: -20.00%
+- Daily Fascism Support: +0.10
+DLC: Götterdämmerung
+
+Country: Belgium
+Name: Economic Downturn
+Effects:
+- Consumer Goods Factories factor: 25.0%
+- Factory Output : -20.00%
+DLC: Götterdämmerung
+
+Country: Belgium
+Name: Language Barriers
+Effects:
+- Daily Political Power Gain: -0.10
+- Stability Stability: -10.00%
+- War Support : -10.00%
+DLC: Götterdämmerung
+
+Country: Belgium
+Name: Scars of the Great War
+Effects:
+- Division Organization: -15.0%
+- Recruitable Population Factor: -15%
+- War Support : -30.00%
+- mic construction speed: -20.00%
+DLC: Götterdämmerung
+
+Country: Bolivia
+Name: The Era of National Regression
+Effects:
+- Political Power Gain: -20%
+- Stability : -10.00%
+- War Support : -5.00%
+- Will be removed if Greater Bolivia is restored:
+ - Has full control of 940, 506, 688
+DLC: Trial of Allegiance
+
+Country: Bolivia
+Name: The Toll of the Chaco War
+Effects:
+- Recruitable Population Factor: -15%
+- War Support : -15.00%
+- Division Attack: -10.0%
+- Justify War Goal time: +30.0%
+- Will be removed 1 November, 1939 (1400 days)
+DLC: Trial of Allegiance
+
+Country: Brazil
+Name: Legacy of the Naval Arms Race
+Effects:
+- Dockyard Output : -15.00%
+- Carrier Max Cost: 9500
+- Cruiser Max Cost: 5300
+- Heavy Ship Max Cost: 10000
+- nic construction speed: -40.00%
+DLC: Trial of Allegiance
+
+Country: Brazil
+Name: Separatist Sentiments
+Effects:
+- stability : -10.00%
+- War Support : -10.00%
+DLC: Trial of Allegiance
+
+Country: Brazil
+Name: State of Emergency
+Effects:
+- Stability : -5.00%
+- Daily Communism Support: +0.05
+DLC: Trial of Allegiance
+
+Country: Brazil
+Name: Undiversified Economy
+Effects:
+- Production Efficiency Cap : -20.00%
+- Production Efficiency Growth : -20.00%
+- Factory Output : -20.00%
+DLC: Trial of Allegiance
+
+Country: Brazil
+Name: Weak Government
+Effects:
+- Political Power Gain: -20%
+- Stability : -15.00%
+- Daily Command Power Gain Multiplier: -40%
+- Daily Support for Unaligned : +0.02
+DLC: Trial of Allegiance
+
+Country: British Raj
+Name: Agrarian Society
+Effects: * Recruitable Population Factor: -70%
+DLC: no
+ goe
+
+Country: British Raj
+Name: Marginalized Muslim Community
+Effects:
+- Recruitable Population Factor: -20%
+- Stability : -10.00%
+
+Country: British Raj
+Name: Princely States
+Effects: * Daily autonomy progress gain: -0.1
+
+Country: British Raj
+Name: Risk of Famine
+Effects:
+- A famine will trigger if one of these are true:
+ - We lose a starting Indian state and fail to take it back within 30 day(s) (Aden being excluded)
+ - The new controller is not a releasable that is occupied by us at the start of the game
+ - The new controller is not our subject
+
+Country: British Raj
+Name: Agrarian Society
+Effects:
+- Mobilization speed: -72.00%
+- Recruitable Population Factor: -72%
+- Conscription Laws Cost: +216%
+DLC: goe
+
+Country: British Raj
+Name: Great Depression
+Effects:
+- Consumer Goods Factories factor: +40.0%
+- Factory Output : -15.00%
+- Dockyard Output : -15.00%
+- Stability : -15.00%
+DLC: goe
+
+Country: Bulgaria
+Name: Army Restrictions
+Effects:
+- Factory Output: -25.00%
+- Dockyard Output: -25.00%
+- Cannot increase conscription law
+or declare wars.
+- Cannot train units, disband units,
+ or edit unit templates.
+- Cannot produce armor, aircraft or
+ ships
+- no Can access international markets
+ ( Puppet and Overlords can always access each other's market) ( Arms Against Tyranny )
+DLC: Battle for the Bosporus
+
+Country: Bulgaria
+Name: IMRO
+Effects:
+- Daily Political Power Gain: -0.30
+- Stability : -10.00%
+- opinion : -15.00%
+DLC: Battle for the Bosporus
+
+Country: Bulgaria
+Name: Second National Catastrophe
+Effects:
+- Stability : -10.00%
+- Weekly Stability : -0.30%
+- War Support : -10.00%
+- Will be removed if Greater Bulgaria is restored:
+- Has full control of Sofia, Plovdiv, Moesia, Burgas, Southern Serbia, Macedonia, Central Macedonia, Thrace, Dobrudja, Northern Dobrudja.
+DLC: Battle for the Bosporus
+
+Country: Canada
+Name: Conscription Crisis among French Canadians
+Effects: * Recruitable Population Factor: −30%
+
+Country: Canada
+Name: Great Depression
+Effects:
+- Consumer Goods Factories factor: 50.0%
+- Factory Output : −20.00%
+- Dockyard Output : −20.00%
+
+Country: Chile
+Name: Legacy of the Naval Arms Race
+Effects:
+- Dockyard Output : -15.00%
+- Carrier Max Cost: 9500
+- Cruiser Max Cost: 5300
+- Heavy Ship Max Cost: 10000
+- nic construction speed: -40.00%
+DLC: Trial of Allegiance
+
+Country: Chile
+Name: Near Anarchic Society
+Effects:
+- Political Power Gain: -15%
+- Stability : -25.00%
+- War Support : -10.00%
+- Daily Fascism Support: +0.02
+DLC: Trial of Allegiance
+
+Country: Chile
+Name: The Chilean Economy
+Effects:
+- Resource Gain Efficiency: -10.00%
+- Consumer Goods Factories factor: 10.0%
+- Stability : -5.00%
+- Construction Speed: -15.00%
+- Factory Output : -15.00%
+- Dockyard Output : -5.00%
+DLC: Trial of Allegiance
+
+Country: Chile
+Name: The Hacienda - Inquillinaje System
+Effects:
+- Recruitable Population Factor: -10%
+- Stability : -5.00%
+- Production Efficiency Cap : +15.00%
+- Daily Communism Support: +0.02
+DLC: Trial of Allegiance
+
+Country: Chile
+Name: The Mapuche Conflict
+Effects:
+- Recruitable Population Factor: -5%
+- Consumer Goods Factories factor: 5.0%
+- War Support : -10.00%
+- Production Efficiency Retention: -5.00%
+DLC: Trial of Allegiance
+
+Country: Chile
+Name: The Republican Guard
+Effects:
+- Division training time: -15.0%
+- Recruitable Population Factor: +5%
+- Division Defense on core territory: +10.0%
+- Ideology drift defense: +15.0%
+DLC: Trial of Allegiance
+
+Country: China
+Name: Army Corruption
+Effects:
+- Mobilization speed: -35.00%
+- Division Organization: -2.0%
+- Division Attack: -30.0%
+- Division Defense: -30.0%
+DLC: no
+ ncns
+
+Country: China
+Name: German Military Advisors
+Effects: * Land Doctrine Cost: -10.00%
+DLC: no
+ ncns
+
+Country: China
+Name: Incompetent Officers
+Effects: * Daily Command Power Gain Multiplier: -70%
+DLC: no
+ ncns
+
+Country: China
+Name: Ineffective Bureaucracy
+Effects: * Recruitable Population factor: -35.00%
+DLC: no
+ ncns
+
+Country: China
+Name: Low Inflation
+Effects:
+- Consumer Goods Factories factor: 10.0%
+- Factory Output: -5.00%
+DLC: no
+ ncns
+
+Country: China
+Name: Nine Power Treaty
+DLC: no
+ ncns
+
+Country: China
+Name: Aviation Affairs Commission
+Effects:
+- Air Exp Gain: -20.0%
+- Air Accidents Chance: +25.0%
+DLC: ncns
+
+Country: China
+Name: Corruption in the Administration
+Effects:
+- Daily Political Power Gain: +0.35
+- Consumer Goods Factories factor: 25.0%
+- Construction Speed: -10.00%
+- Free repair: -25.00%
+- Economy Laws Cost: +65%
+DLC: ncns
+
+Country: China
+Name: Corruption in the Armed Forces
+Effects:
+- Division Organization: -5.0%
+- Recruitable Population Factor: -78%
+- Supply Consumption: +10.0%
+- Division Recovery Rate: -25.0%
+- Division Attack: -5.0%
+- Division Defense: -15.0%
+- Max Entrenchment: -1.0
+- Railway Construction speed: -15.00%
+DLC: ncns
+
+Country: China
+Name: Illicit Trade
+Effects:
+- Consumer Goods Factories factor: 25.0%
+- Factory Output : -15.00%
+DLC: ncns
+
+Country: China
+Name: Inefficient Economy
+Effects:
+- Production Efficiency growth : -35.00%
+- Base Fuel Gain: -50.00%
+DLC: ncns
+
+Country: China
+Name: Neglected Countryside
+Effects:
+- Research Speed: -20.00%
+- Daily Communism Support: +0.05
+DLC: ncns
+
+Country: China
+Name: Nine Power Treaty
+Effects:
+- Consumer Goods Factories factor: 16.0%
+- Resources to Market: 16.0%
+- Justify cb time on us: -16.0%
+DLC: ncns
+
+Country: Chinese Soviet Republic
+Name: Aftermath of the Long March
+Effects:
+- Construction Speed: -50.00%
+- Factory Output: -15.00%
+DLC: no
+ ncns
+
+Country: Chinese Soviet Republic
+Name: Low Popular Support
+Effects:
+- Stability: -18.00%
+- War Support: -18.00%
+DLC: no
+ ncns
+
+Country: Chinese Soviet Republic
+Name: Power Struggles
+Effects:
+- Conscription Laws cost: +25%
+- Trade Laws cost: +25%
+- Economy Laws cost: +25%
+- Political Advisor Cost: +25%
+DLC: no
+ ncns
+
+Country: Chinese Soviet Republic
+Name: Red Army Weakened
+Effects:
+- Army Organization Regain: -10.00%
+- Training time: +20.00%
+- Reinforce Rate: -1.0%
+DLC: no
+ ncns
+
+Country: Chinese Soviet Republic
+Name: Agrarian Society
+Effects:
+- Construction Speed: -10.00%
+- Research Speed: -15.00%
+- Factory Output: -10.00%
+DLC: ncns
+
+Country: Chinese Soviet Republic
+Name: Defunct State Bank
+Effects:
+- Consumer Goods Factories factor: 25.0%
+- Stability : -10.00%
+DLC: ncns
+
+Country: Chinese Soviet Republic
+Name: The Central Committee
+Effects: *Justify war goal time: +50.0%
+DLC: ncns
+
+Country: Chinese Soviet Republic
+Name: The Chinese Red Army
+Effects:
+- Army exp Gain: -15.0%
+- Division Organization: -10.0%
+- Recruitable Population Factor: -10%
+- Division Attrition: -5.0%
+- Division Attack: -10.0%
+- Armor Division Attack: -10.0%
+- Training time: +10.00%
+- Max planning factor: -5.0%
+DLC: ncns
+
+Country: Czechoslovakia
+Name: Divided Nation
+Effects:
+- Recruitable Population : -0.50%
+- Stability : -20.00%
+
+Country: Czechoslovakia
+Name: Škoda Works
+Effects:
+- Factory output: +10.00%
+- Facility construction speed: +5.00%
+
+Country: Denmark
+Name: Danish Industrial Capabilities
+Effects:
+- Consumer Goods Factories factor: 30.0%
+- Production Efficiency Retention: -5.00%
+- Factory Output: -10.00%
+- Dockyard Output: -10.00%
+- Equipment Conversion Speed: -5%
+DLC: Arms Against Tyranny
+
+Country: Denmark
+Name: Economic Crisis
+Effects:
+- Monthly Population : -10.0%
+- Weekly Stability : -0.10%
+- Daily Democracy Support: -0.05
+- Daily Support for Unaligned : +0.02
+DLC: Arms Against Tyranny
+
+Country: Denmark
+Name: Neglected Military
+Effects:
+- Mobilization speed: -20.00%
+- Surrender Limit: -20.00%
+- Planning Speed: -10.0%
+DLC: Arms Against Tyranny
+
+Country: Estonia
+Name: Democratic Opposition
+Effects:
+- Political Power Gain: -10%
+- Stability : -15.00%
+- War Support : -10.00%
+- Daily Democracy Support: +0.05
+DLC: No Step Back
+
+Country: Estonia
+Name: Low Vaps Tension
+Effects:
+- Recruitable Population Factor: -10%
+- Stability : -10.00%
+- Conscription Laws Cost: +25%
+- Daily Fascism Support: +0.02
+DLC: No Step Back
+
+Country: Ethiopia
+Name: Air Force in Infancy
+Effects:
+- Air Accidents Chance: +15.0%
+- Air Attack: -15%
+- Enemy Air Support: +25.00%
+- Air Doctrine Cost: +50.00%
+DLC: By Blood Alone
+
+Country: Ethiopia
+Name: Conservative High Command
+Effects:
+- Infantry Division Attack: +10.0%
+- Research Speed: -15.00%
+- Maximum Command Power Increase Multiplier: -25%
+- Land Doctrine Cost: +50.00%
+DLC: By Blood Alone
+
+Country: Ethiopia
+Name: Corrupt Bureaucracy
+Effects:
+- Construction Speed: -25.00%
+- Production Efficiency Cap: -10.00%
+- Research Speed: -25.00%
+DLC: By Blood Alone
+
+Country: Ethiopia
+Name: Ethiopian Industry
+Effects:
+- Consumer Goods Factories: 5.0%
+- Production Efficiency Retention: -10.00%
+- Factory Output: -10.00%
+- Dockyard Output: -10.00%
+DLC: By Blood Alone
+
+Country: Ethiopia
+Name: No Naval Tradition
+Effects:
+- Ship Refitting Cost: +25%
+- Ship Repair Speed:: -10%
+- Naval Doctrine Cost: +50.00%
+DLC: By Blood Alone
+
+Country: Ethiopia
+Name: On Our Own
+Effects: no Can join factions
+DLC: By Blood Alone
+
+Country: Ethiopia
+Name: The Heroes of Adwa
+Effects:
+- War Support : +10.00%
+- (Italy) Attack bonus against country: +10.0%
+DLC: By Blood Alone
+
+Country: Ethiopia
+Name: The International Red Cross
+Effects:
+- Division Recovery Rate: +10.0%
+- Enemy Air Support: -5.00%
+DLC: By Blood Alone
+
+Country: Ethiopia
+Name: Traditional Warfare
+Effects:
+- army exp Gain: -20.0%
+- Division Organization: -5.0%
+- Supply Consumption: -10.0%
+- Entrenchment speed: -50.0%
+- Division Defense: -15.0%
+- Max Entrenchment: -3.0
+- Infantry Attack: +5.00%
+- Irregular Infantry Attack: +10.00%
+DLC: By Blood Alone
+
+Country: Finland
+Name: Sisu
+Effects:
+- Division Recovery Rate: +5%
+- Division Defense on core territory: +10%
+
+Country: France
+Name: Disjointed Government
+Effects:
+- Daily Political Power Cost: +0.80
+- Stability : -10.00%
+- Surrender Limit: -50.00%
+
+Country: France
+Name: Full Employment
+Effects: * Recruitable Population Factor: -25%
+
+Country: France
+Name: Inefficient Economy
+Effects:
+- Factory Output : -20.00%
+- Dockyard Output : -20.00%
+
+Country: France
+Name: London Naval Treaty Signatory
+Effects:
+- Carrier Max Cost: 9500 production cost n
+- Cruiser Max Cost: 5300 production cost n
+- Heavy Ship Max Cost: 10000 production cost n
+
+Country: France
+Name: Political Violence
+
+Country: France
+Name: Protected by the Maginot Line
+Effects:
+- Planning Speed: -25.0%
+- Max Planning: +25.0%
+
+Country: France
+Name: Victors of the Great War
+Effects:
+- Recruitable Population : -0.30%
+- War Support : -5.00%
+- Land Doctrine Cost: +50.00%
+
+Country:
+Gansu Ma
+Guangdong Clique
+Guangxi Clique
+Hebei-Chahar
+Khotan Ma
+Ningxia Ma
+Northeastern Army
+Qinghai Ma
+Shandong Clique
+Shanxi
+Sichuan Clique
+Sinkiang
+Yunnan
+Name: Commonplace Looting
+Effects:
+- Consumer Goods Factories factor: 10.0%
+- Division Recovery Rate: +5.0%
+- Construction Speed: -5.00%
+DLC: ncns
+
+Country:
+Gansu Ma
+Guangdong Clique
+Hebei-Chahar
+Khotan Ma
+Ningxia Ma
+Northeastern Army
+Qinghai Ma
+Shandong Clique
+Sichuan Clique
+Name: Government Corruption
+Effects:
+- Political Power Gain: -10%
+- Stability : -10.00%
+DLC: ncns
+
+Country:
+Gansu Ma
+Guangdong Clique
+Hebei-Chahar
+Khotan Ma
+Ningxia Ma
+Northeastern Army
+Qinghai Ma
+Shandong Clique
+Sichuan Clique
+Name: Ineffective Bureaucracy
+Effects: * Daily Political Power Gain: -0.25
+DLC: ncns
+
+Country: Gansu Ma
+Khotan Ma
+Ningxia Ma
+Qinghai Ma
+Name: Ma Clique Collective
+Effects: * Cavalry Attack: +5.0%
+DLC: ncns
+
+Country:
+Gansu Ma
+Guangdong Clique
+Hebei-Chahar
+Khotan Ma
+Ningxia Ma
+Northeastern Army
+Qinghai Ma
+Shandong Clique
+Sichuan Clique
+Name: Warlord State
+Effects:
+- Political Power Gain: -5%
+- Recruitable Population Factor: +5%
+- Division Attrition: -5.0%
+- Supply Consumption: -3.0%
+- Stability: -5.00%
+- Research Speed: -3.00%
+- Daily Command Power Gain Multiplier: -15%
+- This spirit is removed upon the completion of either of the focuses Power Struggle, The Yan'an Incident and Proclaim Rival Government
+DLC: ncns
+
+Country: German Reich
+Name: Bitter Loser
+Effects:
+- Ideology drift defense: +50%
+- Can create factions
+
+Country: German Reich
+Name: Deutsches Heer
+Effects:
+- Division Organization: +5.0%
+- Supply Consumption: +15%
+- Planning Speed: +25.0%
+
+Country: German Reich
+Name: Kriegsmarine
+Effects:
+- Screening bonus when using only capital ships: +10.0%
+- Naval Defense: -10.00%
+
+Country: German Reich
+Name: Luftwaffe
+Effects:
+- Air manpower requirement: +10.00%
+- Air Accidents Chance: +10.0%
+
+Country: German Reich
+Name: MEFO Bills
+Effects:
+- Consumer Goods Factories factor will increase by 3.0% each month up to 100.0%. The monthly increase will be higher based on the amount of non-core states controlled by German Reich. If Consumer Goods Factories factor reaches 100.0% additional penalties will be applied.
+- Consumer Goods Factories: 10.0%
+- Civilian Intelligence to others: -25.0%
+- Army Intelligence to others: -25.0%
+- Navy Intelligence to others: -25.0%
+- Airforce Intelligence to others: -25.0%
+- Military factory construction speed: +10.00%
+- Naval dockyard construction speed: +10.00%
+
+Country: Greece
+Name: Agrarian Society
+Effects:
+- Recruitable Population Factor: -45%
+- Factory Output: -30.00%
+DLC: Battle for the Bosporus
+
+Country: Greece
+Name: Debt to the I.F.C.
+Effects:
+- Consumer Goods Factories factor: 30.0%
+- Stability : -10.00%
+DLC: Battle for the Bosporus
+
+Country: Greece
+Name: Foreign Monopolies
+Effects:
+- Consumer Goods Factories factor: 40.0%
+- Trade deal opinion factor: +25.00%
+- Economy Laws Cost: +75%
+- Trade Laws Cost: +75%
+DLC: Battle for the Bosporus
+
+Country: Greece
+Name: George II
+Effects:
+- Stability : -5.00%
+- Daily Support for Unaligned : +0.01
+DLC: Battle for the Bosporus
+
+Country: Greece
+Name: Political Instability
+Effects:
+- political Power Gain: -15%
+----
+- The Monarchists are Loyal.
+ - Effects: Stability : +10%
+ - Recruitable Population Factor: +20%
+- The Republicans are Hostile.
+ - Effects: Stability : -15%
+- The Communists are Hostile.
+ - Effects: Stability : -15%
+- The Fascists are Inconsequential.
+ - Effects: No effect.
+DLC: Battle for the Bosporus
+
+Country: Greece
+Name: Schachtplan
+Effects:
+- Consumer Goods Factories factor: -25.0%
+- Resources to Market: +30%
+- Economy Laws Cost: +25%
+- Trade Laws Cost: +25%
+- cic construction speed: +15.00%
+DLC: Battle for the Bosporus
+
+Country: Guangdong Clique
+Guangxi Clique
+Name: Local Unease
+Effects:
+- Political Power : -5%
+- Stability : -10.00%
+DLC: ncns
+
+Country: Guangxi Clique
+Qinghai Ma
+Shanxi
+Sinkiang
+Xibei San Ma
+Yunnan
+Name: Government Corruption
+Effects:
+- Political Power Gain: -10%
+- Stability : -10.00%
+
+Country: Guangxi Clique
+Qinghai Ma
+Shanxi
+Sinkiang
+Xibei San Ma
+Yunnan
+Name: Ineffective Bureaucracy
+Effects: * Daily Political Power Gain: -0.25
+
+Country: Guangxi Clique
+Qinghai Ma
+Shanxi
+Sinkiang
+Xibei San Ma
+Yunnan
+Name: Warlord State
+Effects:
+- Political Power Gain: -5%
+- Recruitable Population Factor: +5%
+- Division Attrition: -5.0%
+- Supply Consumption: -3.0%
+- Stability: -5.00%
+- Research Speed: -3.00%
+- Daily Command Power Gain Multiplier: -15%
+- This spirit is removed upon the completion of either of the focuses Power Struggle, The Yan'an Incident and Proclaim Rival Government
+
+Country: Kingdom of Hungary
+Name: Treaty of Trianon
+Effects:
+- Recruitable Population: -0.50%
+- Military Factory construction speed -50.00%
+- Can access international market ( Puppet and Overlords can always access each other's market) ( Arms Against Tyranny )
+DLC: no
+ gtd
+
+Country: Kingdom of Hungary
+Name: Gömbös Trade Treaty
+Effects:
+- Political Power Gain: -15%
+- Consumer Goods Factories factor: -10.0%
+- Construction Speed: +5.00%
+- Daily Fascism Support: +0.01
+- Allows for Arms Trade with Germany
+DLC: gtd
+
+Country: Kingdom of Hungary
+Name: Hungarian National Defense Association
+Effects:
+- Recruitable Population Factor: 10%
+- War Support : +5.00%
+- Daily Fascism Support: +0.01
+DLC: gtd
+
+Country: Kingdom of Hungary
+Name: Levente Associations
+Effects:
+- Recruitable Population Factor: 10%
+- Ideology drift defense: +15.0%
+DLC: gtd
+
+Country: Kingdom of Hungary
+Name: Treaty of Trianon
+Effects:
+- Army Experience Gain: -15.0%
+- Air Experience Gain: -25.0%
+- Recruitable Population: -0.50%
+- Factory Output: -10.00%
+- mic construction speed: -50.00%
+- Military Industrial Organization Research Bonus: -10%
+- Funds Gain: -10%
+- Can access international market ( Puppet and Overlords can always access each other's market) ( Arms Against Tyranny )
+DLC: gtd
+
+Country: Iceland
+Name: Christian X
+Effects:
+- Stability : -10.00%
+- Division Defense on Core Territory: +5.0%
+- Daily Support for Unaligned : +0.01
+DLC: Arms Against Tyranny
+
+Country: Iceland
+Name: The Icelandic Economy
+Effects:
+- Construction Speed: -10.00%
+- Production Efficiency Cap : -10.00%
+- Research Speed: -10.00%
+- Factory Output: -10.00%
+- Dockyard Output: -10.00%
+DLC: Arms Against Tyranny
+
+Country: Iran
+Name: Anglo-Iranian Oil Company
+Effects:
+- Resource Gain Efficiency: -15.00%
+- Factory Output : -10.00%
+- Resources to Market: +20%
+DLC: goe
+
+Country: Iran
+Name: Azerbaijani Resistance
+Effects:
+- Stability : -10.00%
+- War Support : -10.00%
+DLC: goe
+
+Country: Iran
+Name: Islamic Traditions
+Effects:
+- Stability : +10.00%
+- Research Speed: -10.00%
+- Political Advisor Cost: +25%
+DLC: goe
+
+Country: Iran
+Name: Kurdish Resistance
+Effects:
+- Stability : -10.00%
+- War Support : -10.00%
+DLC: goe
+
+Country: Iran
+Name: Rural Feudalism
+Effects:
+- Political Power Gain: +5%
+- Recruitable Population Factor: -5%
+- Construction Speed: -2.00%
+- Research Speed: -5.00%
+DLC: goe
+
+Country: Iraq
+Name: Agrarian Society
+Effects:
+- Recruitable Population Factor: -20%
+- Consumer Goods Factories factor: 15.0%
+- Construction Speed: -10.00%
+- Factory Output : -15.00%
+DLC: goe
+
+Country: Iraq
+Name: Anglo-Iraqi Treaty
+Effects:
+- Political Power Gain: -10%
+- Stability : -20.00%
+- (United Kingdom) Attack bonus against country: -10.0%
+- (United Kingdom) Defense bonus against country: -10.0%
+DLC: goe
+
+Country: Iraq
+Name: Royal Iraqi Army
+Effects:
+- Army Exp Gain: -3.0%
+- Division Organization: -5.0%
+- Recruitable Population Factor: -5%
+- Planning Speed: -10.0%
+- Hot acclimatization gain factor: +15.0%
+DLC: goe
+
+Country: Iraq
+Name: The Golden Square
+Effects:
+- Political Power Gain: -20%
+- Stability : -20.00%
+- Daily Fascism support: +0.02
+DLC: goe
+
+Country: Italy
+Name: London Naval Treaty Signatory
+Effects:
+- Carrier Max Cost: 10250
+- Cruiser Max Cost: 5700
+- Heavy Ship Max Cost: 11500
+
+Country: Italy
+Name: Military Industry
+Effects:
+- Armor Research Speed: -15%
+- Weapons and Equipment Research Speed: -15%
+- Artillery Research Speed: -15%
+- Air Research Speed: -15%
+- Naval Research Speed: -15%
+- Production Efficiency Cap: -10.00%
+- Production Efficiency growth: -5.00%
+- Production Efficiency Base: -5.00%
+- Factory Output: -10.00%
+
+Country: Italy
+Name: Regia Aeronautica
+Effects:
+- Ace generation chance: +10.00%
+- Naval Mission Efficiency: -10%
+- Air Accidents Chance: +5.0%
+- Night Operations Penalty: +15.00%
+- Bad Weather Penalty: +15.00%
+- Air Superiority Bonus in Combat: +5.0%
+- Air Doctrine Cost: +10.00%
+
+Country: Italy
+Name: Regia Marina
+Effects:
+- Fleet Coordination: -5%
+- Naval Detection: -10%
+- Spotting Speed: -10%
+- Screening Efficiency: +5.0%
+- Naval Doctrine Cost: +10.00%
+- Attack when in combat alongside the Pride of the Fleet: +10.00%
+
+Country: Italy
+Name: Regio Esercito
+Effects:
+- Divisions speed: -10.00%
+- Divisions Organization: -10.0%
+- Org Loss when Moving: +15.0%
+- Max Entrenchment: +10.00%
+- Land Doctrine Cost: +10.00%
+
+Country: Italy
+Name: Ricostruzione Industriale
+Effects:
+- Aircraft Designer Cost: -15%
+- Tank Designer Cost: -15%
+- Naval Designer Cost: -15%
+- Materiel Designer Cost: -15%
+- Industrial Concern Cost: -35%
+- cic construction speed: +5.00%
+
+Country: Italy
+Name: Victor Emmanuel III
+Effects: *Stability: +5%
+
+Country: Italy
+Name: Vittoria Mutilata
+Effects:
+- Justify war goal time: −5%
+- Acceptance of Communist Diplomacy: −10
+- Acceptance of Democratic Diplomacy: −10
+- Acceptance of Fascist Diplomacy: +10
+
+Country: Japan
+Name: Army and Naval Air Services
+Effects:
+- Separate Air Services, which grants
+ - Air Research Speed: -10%
+- Air Wing Experience loss when killed: +10%
+- Naval Mission Efficiency: +10%
+- Untrained pilots penalty for new Air Wings: +10%
+
+Country: Japan
+Name: Early Industrialization Efforts
+Effects:
+- Consumer Goods Factories factor: 30.0%
+- Lack of Resources Penalty: +10.00%
+- Research Speed: -3.00%
+- Factory Bomb Vulnerability: +25.00%
+
+Country: Japan
+Name: Imperial Army
+Effects:
+- Japanese Armor Doctrine, which grants
+ - Armor Research Speed: -10%
+ - All Tank Equipment:
+ - Production Cost : +10.00%
+ - Armor Division Attack: -10.0%
+ - Tanks & Armor Variants:
+ - Jungle:
+ - Attack Effective Change: +10%
+ - Defense Effective Change: +10%
+- Supply Consumption: +20.0%
+- Division Recovery Rate: +5.0%
+- Division Defense: -5.0%
+- Artillery Attack: -10.0%
+- Initiative: +10.0%
+
+Country: Japan
+Name: Imperial Influence
+Effects:
+- Current Faction Levels:
+
+- Meddling Army Faction, which grants
+ - All Infantry and Support Equipment:
+ - Production Cost : +2.50%
+ - All Artillery Equipment:
+ - Production Cost : +2.50%
+ - Fighter and CAS:
+ - Production Cost : +2.50%
+ - Army Fuel Capacity: -2.50%
+- Meddling Navy Faction, which grants
+ - All Carrier Aircraft:
+ - Production Cost : +2.50%
+ - All Warships:
+ - Production Cost : +2.50%
+ - Navy Fuel Consumption: +2.50%
+- Meddling Zaibatsu Faction, which grants
+ - Economy Laws Cost: +20%
+ - infra : construction speed: +10.00%
+ - cic construction speed: +10.00%
+- Meddling Civic Faction, which grants
+ - Daily Political Power Gain: +0.05
+ - Recruitable Population Factor: -5%
+ - Stability : +5.00%
+ - War Support : -10.00%
+ - Trade Laws Cost: +25%
+
+Country: Japan
+Name: Imperial Navy
+Effects:
+- Naval Detection: -10%
+- Number of ships in the first contact: +10%
+- Naval Max Range Factor: +10.00%
+- Escort efficiency: -15.0%
+- Accident chance: +10.00%
+- Torpedo hit chance: +15.00%
+
+Country: Japan
+Name: London Naval Treaty Signatory
+Effects:
+- Carrier Max Cost: 9500 production cost n
+- Cruiser Max Cost: 5300 production cost n
+- Heavy Ship Max Cost: 10000 production cost n
+
+Country: Japan
+Name: Militarism
+Effects:
+- Research Speed: -5.00%
+- Justify cb time: -20.0%
+- Conscription Laws Cost: -25%
+- cic construction speed: -10.00%
+
+Country: Japan
+Name: State Shintoism
+Effects:
+- Surrender Limit: +10.00%
+- War Support : +20.00%
+
+Country: Khotan Ma
+Name: Widespread Unrest
+Effects:
+- Division Organization: -3.0%
+- Recruitable Population Factor: -5%
+- Division Recovery Rate: +5.0%
+- Stability : -20.00%
+- War Support : -5.00%
+DLC: ncns
+
+Country: Khotan Ma
+Sinkiang
+Name: Battle for Sinkiang
+Effects: * Can Join Factions: No
+DLC: ncns
+
+Country: Latvia
+Name: Democratic Opposition
+Effects:
+- Political Power Gain: -10%
+- Stability : -15.00%
+- War Support : -10.00%
+- Daily Democracy Support: +0.05
+DLC: No Step Back
+
+Country: Latvia
+Name: Pērkonkrusts
+Effects:
+- Recruitable Population Factor: -20%
+- Stability : -15.00%
+- Land Doctrine Cost: +25.00%
+- Conscription Laws Cost: +50%
+- Daily Fascism Support: +0.10
+DLC: No Step Back
+
+Country: Lithuania
+Name: Agrarian Society
+Effects:
+- manpower Factor: -50%
+- Consumer Goods Factories factor: 6.0%
+- Factory Output: -20.00%
+DLC: No Step Back
+
+Country: Lithuania
+Name: Low Iron Wolf Threat
+Effects:
+- manpower Factor: -15%
+- Daily Command Power Gain: -0.05
+- Conscription Laws Cost: +10%
+- Daily Fascism Support: +0.05
+DLC: No Step Back
+
+Country: Lithuania
+Name: The Seimas
+Effects:
+- Stability : -15.00%
+- Economy Laws Cost: +15%
+- Political Advisor Cost: +15%
+- Daily Democracy Support: +0.05
+DLC: No Step Back
+
+Country: Lithuania
+Name: Underfunded Military
+Effects:
+- Army Leader Cost: +50.0%
+- Daily Command Power Gain Multiplier: -50%
+- Land Doctrine Cost: +25.00%
+DLC: No Step Back
+
+Country: Manchukuo
+Name: Banditry
+Effects:
+- Stability: -10.00%
+- War Support: -10.00%
+
+Country: Manchukuo
+Name: Kwantung Veto
+Effects:
+- Conscription Laws cost: +25%
+- Trade Laws cost: +25%
+- Economy Laws cost: +25%
+- Political Advisor Cost: +25%
+
+Country: Manchukuo
+Name: Low Legitimacy
+Effects:
+- Stability: -50.00%
+- War Support: -50.00%
+
+Country: Manchukuo
+Name: The Kangde Emperor
+Effects: * Political Power Gain: +5%
+
+Country: Mengjiang
+Name: Stretched Administration
+Effects:
+- Recruitable Population Factor: -5%
+- Consumer Goods Factories factor: 10.0%
+- Construction Speed: -5.00%
+
+Country: Mengjiang
+Name: The Paillingmiao Council
+Effects:
+- Political Power Gain: +10%
+- Ideology drift defense: +15.0%
+
+Country: Mengjiang
+Name: A Disorganized Army
+Effects:
+- Division Organization: -5.0%
+- Recruitable Population Factor: -5%
+- Division Attack: -10.0%
+- Division Defense: -10.0%
+DLC: ncns
+
+Country: Mengjiang
+Name: Communist Revolutionaries
+Effects: *Daily Communism Support: +0.01
+DLC: ncns
+
+Country: Mengjiang
+Name: Mongol Banners
+Effects:
+- Irregular Infantry Attack: +10.00%
+- Irregular Infantry Defense: +10.00%
+- Allows for the raising of Irregular Divisions when at war
+DLC: ncns
+
+Country: Mexico
+Name: Callistas
+Effects:
+- Political Power gain: -20%
+- Construction cost : -10.00%
+
+Country: Mexico
+Name: Caudillo Tensions Moderate
+Effects: stability : -5.00%
+
+Country: Mexico
+Name: Oil Concessions
+
+Country: Mexico
+Name: Politicized Army
+Effects:
+- Military Leaders Cost: +100.0%
+- Planning Speed: -20.0%
+
+Country: Mexico
+Name: Weak Church
+Effects: Factory Output: +10.00%
+
+Country: Nationalist Spain
+Name: Recovering From Civil War
+Effects:
+- Consumer Goods Factories: 20.0%
+- Construction Speed: -10.00%
+- Factory Output: -20.00%
+- Dockyard Output: -20.00%
+- Join faction tension limit: +50.0%
+
+Country: Nationalist Spain
+Name: Carlism
+Effects:
+- Recruitable Population : 1.00%
+- Infantry Division Attack: +5.0%
+- Infantry Division Defense: +5.0%
+DLC: La Résistance
+
+Country: Nationalist Spain
+Name: Expand Conscription
+Effects: Recruitable Population : 2.00%
+DLC: La Résistance
+
+Country: Nepal
+Name: Royal Nepalese Army
+Effects:
+- Special Forces Attack: +5.0%
+- Special Forces Defense: +5.0%
+- Special Forces Capacity Multiplier +75.0%
+
+Country: Netherlands
+Name: Aloof Neutrality
+Effects:
+- Join faction tension limit: +100.0%
+- Send volunteers tension limit: +50.0%
+- Guarantee tension limit: +100.0%
+- AI Modifier: Desire to be in or expand a faction: −100
+- AI Modifier: Threat receptivity: +1%
+
+Country: Netherlands
+Name: De Crisisjaren
+Effects: * construction cost Speed: -50.00%
+
+Country: Netherlands
+Name: Shell-shocked Spectator of the Great War
+Effects:
+- Recruitable Population Factor: -50%
+- Factory Output: -25.00%
+- Dockyard Output: -10.00%
+
+Country: Netherlands
+Name: Weak Government
+Effects:
+- Daily Political Power Cost: +0.50
+- Stability : -10.00%
+
+Country: Netherlands
+Name: Wilhelmina
+Effects:
+Popular Figurehead
+- Stability : +15.00%
+
+Country: Norway
+Name: Anti-Communist Sentiment
+Effects: *Daily Fascism Support: +0.01
+DLC: Arms Against Tyranny
+
+Country: Norway
+Name: Complacent Cabinet
+Effects:
+- Daily Political Power Gain: -0.25
+- Division training time: +60.0%
+- Trade Laws Cost: +50%
+- Economy Laws Cost: +50%
+- Theorist Cost: 120%
+DLC: Arms Against Tyranny
+
+Country: Norway
+Name: Crumbling Fortifications
+Effects:
+- Land Fort effectiveness: -50%
+- Coastal Fort effectiveness: -50%
+DLC: Arms Against Tyranny
+
+Country: Norway
+Name: Obsolete Armed Forces
+Effects:
+- Divisions speed: -25.00%
+- Division Organization: -20.0%
+- Division Attack: -30.0%
+DLC: Arms Against Tyranny
+
+Country: Norway
+Name: The Hard Thirties
+Effects:
+- Consumer Goods Factories factor: 55.0%
+- Construction Speed: -30.00%
+DLC: Arms Against Tyranny
+
+Country: Paraguay
+Name: The Aftershock of the Triple Alliance
+Effects:
+- Monthly Population : -60.0%
+- Will be removed if controlling 957, 504
+- Will be removed 16 November, 1940 (1780 days)
+DLC: Trial of Allegiance
+
+Country: Paraguay
+Name: The Toll of the Chaco War
+Effects:
+- Recruitable Population Factor: -15%
+- War Support : -15.00%
+- Division Attack: -10.0%
+- Justify War Goal time: +30.0%
+- Will be removed 1 November, 1939 (1400 days)
+DLC: Trial of Allegiance
+
+Country: Philippines
+Name: Island Nation
+Effects:
+- Convoy speed while retreating: +15%
+- Visibility: -5.00%
+
+Country: Philippines
+Name: American Interference
+Effects:
+- Technology sharing bonus: +20.00%
+- Daily Autonomy progress gain: -0.1
+DLC: ncns
+
+Country: Philippines
+Name: Philippine Army
+Effects:
+- Army exp Gain: -80.0%
+- Recruitable Population Factor: -50%
+- Factory Output : -90.00%
+- Dockyard Output : -50.00%
+- Training Time: +40.00%
+- Daily Command Power Gain Multiplier: -20%
+DLC: ncns
+
+Country: Philippines
+Name: The Great Depression
+Effects:
+- Any ideology drift will align with the ruling party
+- Daily Political Power Gain: -0.75
+- Resource Gain Efficiency: -25.00%
+- Consumer Goods Factories factor: 50.0%
+- Construction Speed: -25.00%
+- Join faction tension limit: +100.0%
+DLC: ncns
+
+Country: Poland
+Name: Looming Peasant's Strike
+DLC: P
+
+Country: Poland
+Name: Low Sanation Left Opposition
+Effects:
+- Stability : -5.00%
+- Daily Support for Unaligned : +0.02
+DLC: P
+
+Country: Poland
+Name: Low Sanation Right Opposition
+Effects:
+- War Support : -10.00%
+- Daily Support for Unaligned : +0.05
+DLC: P
+
+Country: Poland
+Name: The April Constitution
+Effects:
+- Political Power Gain: -15%
+- Conscription Laws Cost: +15%
+- Economy Laws Cost: +15%
+- Political Advisor Cost: +15%
+- Daily Support for Unaligned : +0.05
+DLC: P
+
+Country: Portugal
+Name: Unreliable Army
+Effects:
+- Division Organization: -10.0%
+- Recruitable Population Factor: -25%
+- War Support: -5.00%
+- Division Attack: -5.0%
+DLC: La Résistance
+
+Country: Portugal
+Name: Unstable Republic
+Effects:
+- Daily Political Power Gain: -0.50
+- Weekly Stability: -0.50%
+- Construction Speed: -20.00%
+DLC: La Résistance
+
+Country: Republican Spain
+Name: Carlism
+Effects:
+- Weekly Stability : -0.30%
+- Division Attack: -10.0%
+- Division Defense: -10.0%
+- Daily Support for Unaligned : +0.05
+DLC: La Résistance
+
+Country: Republican Spain
+Name: Military Disloyalty
+Effects:
+- Military Leader Cost: +100.0%
+- Cannot train units, disband units,
+ or edit unit templates.
+DLC: La Résistance
+
+Country: Republican Spain
+Name: National Strikes
+Effects:
+- Stability : -10.00%
+- Construction Speed: -10.00%
+- Factory Output: -10.00%
+- Dockyard Output: -10.00%
+DLC: La Résistance
+
+Country: Republican Spain
+Name: Political Violence
+Effects:
+- Stability : -15.00%
+- Cannot Assign Ministers & Laws: Yes
+DLC: La Résistance
+
+Country: Romania
+Name: King Carol II's Lifestyle
+
+Country: Romania
+Name: Neutral Foreign Policy
+Effects:
+- Join faction tension limit: +100%
+- Send volunteers tension limit: +20%
+- Guarantee tension limit: +100%
+- Embargo tension limit: +250%
+- AI Modifier: Threat receptivity: +1%
+- AI Modifier: Desire to be in or expand a faction: −100
+
+Country: Siam
+Name: Army of Siam
+Effects:
+- Supply Consumption: -10.0%
+- Supply Range: +15%
+- mic construction speed: +10.00%
+
+Country: Sichuan Clique
+Name: A Loose Unity
+Effects:
+- Political Power Gain: -10%
+- Stability : -10.00%
+- Division Attack on core territory: -5.0%
+- Division Defense on core territory: -10.0%
+DLC: ncns
+
+Country: South Africa
+Name: History of Segregation
+Effects: *Recruitable Population Factor: -55%
+
+Country: South Africa
+Name: Ossewabrandwag
+Effects:
+- Factory Output: -10.00%
+- Dockyard Output: -10.00%
+- Daily Fascism Support: +0.01
+
+Country: Soviet Union
+Name: Five Year Plan
+Effects:
+- Consumer Goods Factories factor: +10.0%
+- Production Efficiency Cap: +5%
+- Production Efficiency Growth: -15%
+- cic construction speed: +5%
+
+Country: Soviet Union
+Name: Home of the Revolution
+Effects:
+- Ideology drift defense: +50.0%
+- Can create factions
+
+Country: Soviet Union
+Name: Politicized Military
+Effects:
+- Division Defense on core territory: +3.0%
+- Ideology drift defense: +10.0%
+- Commander Abilities Cost: +10.00%
+- air exp Air Doctrine Cost: +20.00%
+- army exp Land Doctrine Cost: +20.00%
+- navy exp Naval Doctrine Cost: +20.00%
+
+Country: Soviet Union
+Name: Soviet Air Force
+Effects:
+- Air Wing Experience loss when killed: +30%
+- Ace generation chance: -50.00%
+- Air Wing Training Experience Gain: -10%
+- Air Accidents Chance: +75.0%
+- Night Operations Penalty: +30.00%
+- Bad Weather Penalty: +30.00%
+- Air Wing Mission Experience Gain: +10%
+
+Country: Soviet Union
+Name: The Red Army
+Effects:
+- army exp Gain: -10.0%
+- Division Organization: -15.0%
+- Experienced soldier losses: +25.0%
+- Conscription Laws Cost: -10%
+
+Country: Soviet Union
+Name: Trotskyite Plot?
+Effects:
+- Political Power gain: -15%
+- Stability : -20.00%
+
+Country: Sweden
+Name: En Svensk Tiger
+Effects:
+- Ideology drift defense: +10.0%
+- Justify wargoal time on us: +10.0%
+DLC: no
+ Arms Against Tyranny
+
+Country: Sweden
+Name: Neutral Foreign Policy
+Effects:
+- Join faction tension limit: +100.0%
+- Send volunteers tension limit: +20.0%
+- Guarantee tension limit: +100.0%
+- Embargo tension limit: +250.0%
+- AI Modifier: Threat receptivity: +1.0%
+- AI Modifier: Desire to be in or expand a faction: −100
+
+Country: Sweden
+Name: Folkhemmet
+Effects:
+- Stability : +25.00%
+- War Support : -25.00%
+- infra construction speed: +20.00%
+- mic construction speed: -20.00%
+- cic construction speed: +20.00%
+- nic construction speed: -20.00%
+DLC: Arms Against Tyranny
+
+Country: Sweden
+Name: Hungersköld
+Effects:
+- Sweden risks strikes or riots if Stability is under 68%
+- Will be removed if either of the following are true:
+ - Has more than 45 Civilian Factories including trade
+ - Has constructed more than 14 cics excluding trade
+- Gain 120 Political Power upon removal
+DLC: Arms Against Tyranny
+
+Country: Sweden
+Name: King Gustaf V
+Effects: SWE_former_autocrat
+DLC: Arms Against Tyranny
+
+Country: Sweden
+Name: Severe lack of ammunition
+Effects:
+- Division Attack: -10.0%
+- Division Defense: -10.0%
+DLC: Arms Against Tyranny
+
+Country: Switzerland
+Name: Foreign Fascist Propaganda
+Effects: Daily fascist support: +0.04
+DLC: By Blood Alone
+
+Country: Switzerland
+Name: Swiss Neutrality
+Effects:
+- Improve relations opinion: -20.00%
+- Join faction tension limit: +100.0%
+- Send volunteers tension limit: +20.0%
+- Guarantee tension limit: +100.0%
+- Justify cb time on us: +250.0%
+- Embargo Tension Limit: +250.0%
+- Army Chief Cost: +200%
+- Daily Democracy Support: +0.01
+DLC: By Blood Alone
+
+Country: Tibet
+Name: Dmag Dpung Bod
+Effects:
+- Cold acclimatization gain factor: +10.0%
+- Armor Research Speed: -5%
+- Air Research Speed: -5%
+
+Country: Tibet
+Name: Ganden Podrang
+Effects:
+- Stability : +10.00%
+- War Support : -10.00%
+
+Country: Turkey
+Name: Birinci Beş Yıllık Sanayi Planı
+Effects:
+- Civilian Factory Construction Speed: +5.00%
+- Construction Technology Research Speed: +5%
+DLC: Battle for the Bosporus
+
+Country: Turkey
+Name: Disorganized Armed Forces
+Effects:
+- Fleet Coordination: -15%
+- Divisions speed: -10.00%
+- Divisions Organization: -8.00%
+- Air Accidents Chance: +15.0%
+- War Support : -15.00%
+- Training time: +25.00%
+- Minimum training level: -10%
+DLC: Battle for the Bosporus
+
+Country: Turkey
+Name: Kemalist Officers
+Effects:
+- Army exp gain: -10.0%
+- Stability : +5.00%
+- Max Planning: +10.0%
+DLC: Battle for the Bosporus
+
+Country: Turkey
+Name: Sectarian Woes
+Effects:
+- Stability : -15.00%
+- War Support : -15.00%
+----
+- Turkey's internal divisions are represented geographically through State Modifiers: the Kemalists can be found in the west and in the north, the religious Traditionalists can be found in the central hinterlands as well as in the south, while the Kurdish people can be found in the south-east of the nation.
+
+- Interactions with the different Factions can be accessed through the Decisions Tab, as well as through some Focus Effects and Event Options.
+DLC: Battle for the Bosporus
+
+Country: Turkey
+Name: Widespread Illiteracy
+Effects:
+- Political Power gain: -5%
+- Stability : -5.00%
+- Research Speed: +5.00%
+DLC: Battle for the Bosporus
+
+Country: United Kingdom
+Name: British Stoicism
+Effects:
+- Ideology drift defense: +50.0%
+- yes Can Create Factions
+
+Country: United Kingdom
+Name: King George V
+Effects: popular_figurehead
+
+Country: United Kingdom
+Name: London Naval Treaty Signatory
+Effects:
+- Carrier Max Cost: 9500 production cost n
+- Cruiser Max Cost: 5300 production cost n
+- Heavy Ship Max Cost: 10000 production cost n
+
+Country: United Kingdom
+Name: The War to End All Wars
+Effects: * Recruitable Population Factor: -30%
+
+Country: United States
+Name: Home of the Free
+Effects:
+- Ideology drift defense: +20.0%
+- no Cannot Join Factions lead by another ideology
+- yes Can Create Factions
+
+Country: United States
+Name: London Naval Treaty Signatory
+Effects:
+- Carrier Max Cost: 9500 production cost n
+- Cruiser Max Cost: 5300 production cost n
+- Heavy Ship Max Cost: 10000 production cost n
+
+Country: United States
+Name: Monroe Doctrine Enforcer
+
+Country: United States
+Name: The Great Depression
+Effects:
+- Daily Political Power cost: +1.00
+- Resource Gain Efficiency: -20.00%
+- Recruitable Population Factor: -50%
+- Consumer Goods Factories factor: 60.0%
+- Join faction tension limit: +20.0%
+
+Country: Uruguay
+Name: Low Amounts of External Debts
+Effects:
+- Consumer Goods Factories factor: 10.0%
+- Construction Speed: +5.00%
+DLC: Trial of Allegiance
+
+Country: Venezuela
+Name: Blockade Inactive
+Effects:
+- Foreign Powers can blockade our oil shipments to Fascist aligned powers if they have more than 2 Capital Ships in the Caribbean Sea
+
+Country: Yugoslavia
+Name: Anti-German Military
+Effects: * Ideology drift defense: +5.0%
+
+Country: Yugoslavia
+Name: Croatian Opposition
+Effects: * Stability Stability: -30.00%
+
+Country: Yugoslavia
+Name: Macedonian Opposition
+Effects:
+- Manpower Conscription Laws Cost: +25%
+- Political Power Trade Laws Cost: +25%
+- Economy Laws Cost: +25%
+- Political Power Political Advisor Cost: +25%
+
+Country: Yugoslavia
+Name: Serbian General Staff
+Effects:
+- Political Power Military Leader Cost: +50.0%
+- Max Planning: +10.0%
+
+Country: Yugoslavia
+Name: Slovene Nationalism
+Effects: * Production efficiency growth: -10.00%
+
+## National spirits of releasable countries
+- Kumul Khanate
+(Main article: Kumul Khanate#National spirits)
+
+- Vichy France
+(Main article: Vichy France#National spirits)
+
+- Free France
+(Main article: Free France#National spirits)
+
+- Confederacy of American States
+(Main article: Confederacy of American States#National spirits)
+
+- Unaligned States of America
+(Main article: Unaligned States of America#National spirits)
+
+- Italian State of East Africa
+(Main article: Italian State of East Africa#National spirits)
+
+- Reorganized National Government of the Republic of China
+(Main article: Reorganized National Government of the Republic of China#National spirits)
+
+- All North and South American countries gain:
+Spirit Monroe Doctrine: The United States has long promised to protect the western hemisphere from outside interference by colonial powers, meaning any incursion into our territory would likely mean the USA would come to our aid. However, if our politics no longer align with that of the United States, we may find ourselves unprotected.
+
+# Generic spirits [verified for 1.17]
+
+The following spirits are more generic in nature and can apply to more than one nation (they can be found in the generic focus tree).
+
+Spirit Collectivist Ethos:
+- Daily Democracy support: –0.02
+
+Spirit Deterrence: Standing alone, we rarely benefit from war. Fortunately, we know that the best defense is one so well-known you never have to put it to use.
+- Land Fort construction speed: +20.00%
+- Coastal Fort construction speed: +20.00%
+- Anti Air building construction speed: +20.00%
+- mic construction speed: +20.00%
+
+Spirit Foreign Expeditions:
+- Divisions required for sending volunteer force: -50.0%
+
+Spirit Internationalism:
+- Daily Communism support: +0.10
+
+Spirit Ideological Fanaticism:
+- war Support : +5.00%
+- Division Attack on core territory: +10%
+- Division Defense on core territory: +10%
+- Rule yes Can Create Factions
+
+Spirit Indoctrination: Having established our ideology as based on the truth, it may be taught as truth. Education and media must reflect this lesson.
+- Weekly Manpower : +400
+- Stability : +5.00%
+
+Spirit Liberty Ethos:
+- Trade deal opinion factor: +20.00%
+
+Spirit Militarism:
+- manpower : 2.00%
+- Damage to Garrisons: -10.00%
+
+Spirit Military Youth:
+- Mobilization speed: +25.00%
+- manpower : 1.00%
+
+Spirit Nationalism:
+- Daily Fascism support: +0.10
+
+Spirit Neutral Foreign Policy: Neutrality is sometimes viewed as a craven stance, but this nation trusts that when the dust settles, those who didn't take sides may be better off than those who did.
+- Join faction tension limit: +100.0%
+- Send volunteers tension limit: +20.0%
+- Guarantee tension limit: +100.0%
+- AI Modifier: Desire to be in or expand a faction: −100
+- AI Modifier: Threat receptivity: +1.0%
+- Embargo tension limit: +250.0%
+
+Spirit Paramilitarism:
+- Division training time: -10.0%
+- Supply Combat Penalties on Core Territory: -15.0%
+
+Spirit Political Commissars:
+- Division Recovery Rate: +10.0%
+
+Spirit Political Correctness: People who think correctly are much harder to influence by foreign powers.
+- Foreign subversive activities efficiency: –75%
+
+Spirit Secret Weapons Initiatives: While it is tempting to expend all extra resources into developing tanks and planes, the secret to winning wars lies in whole new fields of science; electronics, rocketry and nuclear research.
+- Special Project Speed: +5.00%
+
+Spirit Special Forces:
+- Special Forces Capacity Multiplier: +2.0%
+
+Spirit Volunteer Corps:
+- Divisions required for sending volunteer force: -25.0%
+
+Spirit Why We Fight:
+- Stability : +10.00%
+- war Support : +10.00%

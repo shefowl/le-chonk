@@ -1,0 +1,471 @@
+TITLE: Ideology
+URL: https://hoi4.paradoxwikis.com/Ideology
+REVISION: 2026-03-27T17:53:11Z (rev 99351)
+VERIFIED FOR: 1.9
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Each country has one of the four ideology groups (usually referred to as ideologies). These are difficult to change and affect under what circumstances a country can perform certain actions, and what happens to occupied territory.
+
+Ideology types (usually referred to as sub-ideologies) have only a modest impact on the game: interacting with the alt-history focuses of several nations (Communist Italy, Right Opposition USSR, and Fascist Poland all have focuses that distinguish between the Marxist and Stalinist sub-ideologies of Communism, the Rexist sub-idology of Fascism, and the Democratic Socialism sub-ideology of Democracy; for instance) but have almost no impact on historical paths.
+
+The main effect sub-ideologies have in the base game is that countries with the same ideology subtype gain the same_ruling_party opinion modifier toward each other, while countries with the same ideology group yet different sub-ideologies gain the similar_ruling_party opinion modifier toward each other.
+
+The name and the description of the ideology type shows up when hovering over the ideology icon in the country's politics or diplomacy view. In case of the anarchism ideology within the non-aligned group, a different icon is also used.
+
+# Democracy [verified for 1.16]
+
+ democracy Democracy is a form of government in which the popular vote governs, directly or indirectly. It is characterized by a commitment to civil liberties.
+
+## Sub-ideologies
+Conservatism: Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values.
+
+Liberalism: With a long philosophical tradition of valuing personal liberty, liberalism views safeguarding these rights as the primary function of the state.
+
+Socialism: Striving for equality and a socialist state by reformist means, democratic socialism aims to abolish or mitigate the effects of capitalism with public mandate.
+
+Populism: A political movement with little clear ideological framework. Populists advocate for policies from across the spectrum that are popular with the electorate or are perceived as at odds with the preferences of the political 'elite.'
+
+## Rules
+- no Can declare war on country with the same ideology group without a war goal
+- yes Can guarantee other ideologies
+- yes Lowers World Tension with Guarantees
+- no Can puppet a country
+- no Cannot justify war goals against countries that have not generated World Tension
+- no Can create collaboration governments
+- yes Can force government of another country to adopt the same ideology
+- no Can send volunteer forces
+- yes Can host governments in exile
+
+Democracies cannot occupy territory owned by neutral countries, it is given to the owner instead.
+
+## Tension limits
+tension_threshold_democracy
+
+## Modifiers
+- Civilian intelligence to others: +20%
+- Army intelligence to others: +5%
+- Navy intelligence to others: +20%
+- Airforce intelligence to others: +5%
+- Embargo Cost Modifier: -50%
+- Embargo threshold factor: +50%
+- Impact of war declaration on World Tension: –75%
+- Impact of joining faction on World Tension: –90%
+- Faction trade opinion modifier: +50%
+
+## Peace conference modifiers
+- Annex cost: +30%
+- Liberate cost -10%
+- Change ideology on Fascist country cost -10%
+- Change ideology on Communist country cost -10%
+- Puppet cost +20%
+
+## Unique occupation law
+Democratic nations can employ Local Autonomy occupation law.
+
+## Countries that start out as a democracy
+Majors:
+
+Liberal:
+- United States
+- United Kingdom
+- France
+
+Socialist:
+- France (1939)
+
+Minors:
+
+Conservative:
+- Belgium
+- British Burma
+- British Malaya
+- Czechoslovakia
+- Dutch East Indies
+- Haiti
+- Honduras
+- Ireland
+- Liberia
+- Luxembourg
+- Netherlands
+- Commonwealth of the Philippines
+- Romania
+- South Africa
+- Spain
+- Switzerland
+- Republic of Syria
+
+Liberal:
+- Bolivian Republic
+- Chile
+- Colombia
+- Costa Rica
+- Cuba
+- Dominion of Canada
+- Ecuador (1939)
+- Lebanese Republic
+- Panama
+- Iceland
+- Republic of Paraguay
+- Uruguay (1939)
+
+Socialist:
+- Australia
+- Denmark
+- Chile (1939)
+- Cuba (1939)
+- Ecuador
+- New Zealand
+- Norway
+- Sweden
+
+Populist:
+- Second Brazilian Republic
+
+# Communism [verified for 1.16]
+
+ communism Communism is a form of government based on social equality and collective ownership of the means of production.
+
+## Sub-ideologies
+Marxism: Encompassing a broad spectrum of economic and historical views, Marxist politics seek to apply the theories of Karl Marx to political practice. Class struggle and the need for transition to a society based on common ownership of the means of production characterize these ideologies.
+
+Leninism: A political ideology based in Marxist thought, Leninism seeks to establish a socialist state by a vanguard party leading a revolution overthrowing capitalist society. Once in power, the party rules through a system whereby policies are open for internal debate until a decision has been made.
+
+Stalinism: Identifying as a form of government applying and developing Marxist-Leninist policies, Stalinism emphasizes rapid industrialization and collectivization as well as the need for a strong authoritative socialist state to purge any counter-revolutionary elements.
+
+Anti-Revisionism: A reaction to the many ideologies claiming to be successors to Marxism, Anti-Revisionism advocates retaining key elements of original revolutionary theory. Mainly opposing incorporation of capitalist economic elements into socialist states, the ideology is defined as much by what it isn't as what it is.
+
+Anarchist Communism: An ideology embracing the idea of communism as a stateless society, Anarchist Communism eschews the idea of a transitionary socialist state and favors a society based on voluntary associations and mutual aid.
+
+Buddhist Socialism: Buddhist socialism, also referred to as Dhammic or Natural socialism, is a political ideology which advocates socialism based on the principles of Buddhism. Both Buddhism and socialism seek to provide an end to suffering by analyzing its conditions and removing its main causes through praxis. Both also seek to provide a transformation of personal consciousness to bring an end to human alienation and selfishness.
+
+## Rules
+- yes Can force government of another country to adopt the same ideology
+- yes Can send volunteer forces
+- yes Can puppet a country
+- yes Can prepare collaboration governments
+
+## Tension limits
+tension_threshold_communism
+
+## Modifiers
+- Civilian intelligence to others: +10%
+- Army intelligence to others: +7.5%
+- Navy intelligence to others: +12.5%
+- Airforce intelligence to others: +7.5%
+- World Tension required to join faction: -10%
+- Embargo threshold factor: -50%
+- Impact of war declaration on World Tension: -25%
+- Impact of joining faction on World Tension: -50%
+
+## Peace conference modifiers
+- Liberate cost: +30%
+- Puppet cost: -10%
+
+## Unique occupation law
+Communist nations can employ Liberated Workers occupation law.
+
+## Countries that start out as communist
+Majors:
+
+Stalinist:
+- Soviet Union
+
+Minors:
+
+Marxist:
+- Chinese Soviet Republic
+- Mongolian People's Republic
+- Paraguay (1939)
+
+Stalinist:
+- Mongolian People's Republic (1939)
+- Sinkiang
+- Tannu Tuva
+
+# Fascism [verified for 1.17]
+
+ fascism Fascism is a form of government characterized by authoritarian nationalism.
+
+## Sub-ideologies
+Nazism: Rooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer.
+
+Generic Nazism: Rooted in extreme nationalism, National Socialism is driven by ideas of racial supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power.
+
+Fascism: Encompassing a variety of ultra-nationalist movements, fascism typically venerates devotion to the state and uniting the people under a strong leader.
+
+Falangism: An authoritarian ideology with traits of fascism and conservatism, Falangism values national and Catholic identity.
+
+Rexism: Strongly opposed to both liberal and communist ideals, Rexism is a staunchly conservative nationalist movement who advocate a corporatist economic policy. Employing increasingly populist and authoritarian rhetoric, their ideals are shifting closer to other fascist movements.
+
+Emperor Fascism: Emperor Fascism is a form of Ultranationalism in which the masses do not hold a say, often referred to as 'fascism from above', where the rule is held by the military and aristocratic bureaucrats, with great reverence for the nations emperor, a monarch who is regarded as an infallible divine figure.
+
+Notes:
+note
+
+## Rules
+- yes Can force government of another country to adopt the same ideology
+- yes Can send volunteer forces
+- yes Can puppet a country
+- yes Can prepare collaboration governments
+
+## Tension limits
+tension_threshold_fascism
+
+## Modifiers
+- Time to justify war when at war with major power: –80%
+- Civilian intelligence to others: +15%
+- Army intelligence to others: +10%
+- Navy intelligence to others: +10%
+- Airforce intelligence to others: +10%
+- World Tension requirement to join faction: -10%
+
+## Peace conference modifiers
+- Annex cost: -10%
+- Liberate cost: +30%
+- Puppet cost -5%
+
+## Unique occupation law
+Fascist nations can employ Brutal Oppression occupation law.
+
+## Countries that start out as fascist
+Majors:
+
+Nazi:
+- German Reich
+
+Fascist:
+- Italy
+
+Minors:
+
+Fascist:
+- Dominican Republic
+- El Salvador
+- Peru
+- Siamese Empire (1939)
+- Slovakia (1939)
+- Venezuela
+
+Emperor-Fascism:
+- Manchukuo
+
+# Non-Aligned [verified for 1.17]
+
+ neutrality The term "Non-Aligned" is used to describe any remaining ideology that does not align with the other three categories.
+
+## Sub-ideologies
+Despotic: Despotism is a form of government in which a single person rules with absolute power.
+
+Oligarchic: An oligarchy is a form of government in which a small group of individuals holds absolute power.
+
+Moderatism: Moderatism is a form of government which avoids the extremes of left and right by taking a moderate position or course of action.
+
+Centrism: Centrism is a form of government which wants to achieve common sense solutions that appropriately address current and future needs, that support the public trust and serve the common good with consideration of risk and capacity in context of these needs.
+
+Anarchism: Anarchism is the rejection of authority itself, promoting the division of society into self-managing and self-governing collectives instead of a singular, centralized state.
+
+Militarism: Militarism is an ideology in which the leader of the nation holds only nominal control, and acts more like a puppet to the nation's military than an independent politician, constantly forwarding their agenda with the end goal of rapid expansionist policy.
+
+## Rules
+- yes Can impose its ideology on other countries
+- no Can send volunteer forces
+- yes Can puppet a country
+- Yes Can prepare collaboration governments
+
+## Tension limits
+tension_threshold_neutrality
+
+## Modifiers
+- Ideology drift defence: –30%
+- Civilian intelligence to others: +20%
+- Army intelligence to others: +10%
+- Navy intelligence to others: +20%
+- Airforce intelligence to others: +10%
+- Impact of declaring war on World Tension: –75%
+- Impact of joining factions on World Tension: –90%
+
+## Countries that start out non-aligned
+
+Despotic:
+- Albania
+- Argentina Trial of Allegiance no
+- Austria
+- Sultanate of Aussa
+- Bhutan
+- Brazil (1939)
+- Bulgaria
+- China
+- Ethiopia
+- Kingdom of Greece (1939)
+- Gansu Ma ncns
+- Guangdong Clique ncns
+- Guangxi Clique
+- Guatemala
+- Hebei-Chahar ncns
+- Iran
+- Iraq
+- Khotan Ma ncns
+- Mengjiang
+- Nepal
+- Ningxia Ma ncns
+- Nicaragua
+- Northeastern Army ncns
+- Sultanate of Muscat and Oman
+- Paraguay (1939)
+- Portugal
+- Qinghai Ma ncns
+- Kingdom of Romania (1939)
+- Saudi Arabia
+- Shandong Clique ncns
+- Shanxi
+- Kingdom of Siam
+- Nationalist Spain (1939)
+- Tibet
+- Emirate of Transjordan
+- Turkey
+- Uruguay
+- Xibei San Ma ncns no
+- Yemen
+- Yugoslavia
+- Yunnan
+
+Oligarchic:
+- Kingdom of Afghanistan
+- Belgian Congo gtd
+- Estonia
+- Kingdom of Hungary
+- Latvia
+- Lithuania
+- Mandatory Palestine
+- Poland
+
+Moderate:
+- Argentina Trial of Allegiance or (1939)
+- Mexico
+
+Centrist:
+- British Raj
+- Bolivia (1939)
+- Finland
+- Kingdom of Greece
+
+Militarist:
+- Japanese Empire
+
+# Changing ideology [verified for 1.9]
+
+A country can change its ideology in four ways:
+- Having an election while another ideology has more than 50% support. This creates an event that enables a peaceful change of power without a civil war. (Main article: Election events)
+- Executing a coup (see below)
+- Fighting and winning a civil war. The support of the conflicting ideology decides how much troops and states they get at the beginning. (Main article: Civil War)
+- Using the command set_ruling_party (ideology)
+
+Below is a list of events that might appear if a corresponding minister is appointed or another ideology enjoys widespread support.
+
+Event: [Ideology] on the Rise
+Requirements: * Fires on appointing an ideology-changing minister
+Mean time to happen: Immediate
+Effects:
+- Option 1: Internal support
+ - Increases chances of a coup
+- Option 2: Popular support
+ - Increases chances of support-increasing events
+
+Event: [Ideological] Sympathies in government/military
+Requirements: * Minister for [Ideology]
+Mean time to happen: 500 days (250 days if internal support was chosen)
+Effects: * Makes a future coup possible.
+
+Event: Communism Class Conflicts Divide
+Requirements: * At least 20% popularity
+Mean time to happen: 365 days (~182 if popular support was chosen)
+Effects:
+- +5% popularity
+- –5% Stability
+
+Event: Communism Soldiers Desert to Communist Partisans
+Requirements:
+- At least 30% popularity
+- Can only be active once
+Mean time to happen: 365 days (~182 if popular support was chosen)
+Effects:
+- +5% popularity
+- Until government change: +0.05% popularity per day, -0,20% recruitable population
+
+Event: Communism Fascism Coup
+Requirements:
+- Minister
+- Sympathies in government/military event happened
+- Not major or puppet
+- Communism :
+ - At least 40% popularity
+ - Cannot create a second People's Republic of China
+- Fascism : At least 30% popularity
+Mean time to happen: 100 days (half if at least 50% popularity)
+Effects:
+- Immediately changes the country's ideology
+- Reign of Terror for two years (+10% political power)
+
+Event: Communism The [Month] Revolution
+Requirements:
+- Minister
+- At least 40% popularity
+- Cannot create a second People's Republic of China
+Mean time to happen: 365 days (x0.75 if popular support was chosen)
+Effects:
+- Option 1: Civil war
+ - Starts a civil war with 60% of the country being opposed
+ - Reign of Terror for two years (+10% political power)
+- Option 2: Do nothing
+
+Event: Fascism Civil War for Fascism
+Requirements: * At least 25% popularity
+Mean time to happen: 365 days (x0.75 if popular support was chosen)
+Effects:
+- Option 1: Civil war
+ - Starts a civil war with 70% of the country being opposed (60% if at least 40% popularity)
+ - Reign of Terror for two years (+10% political power)
+- Option 2: Do nothing
+
+Event: Fascism Fascist Assault Divisions Form
+Requirements:
+- At least 30% popularity
+- Can only be active once
+Mean time to happen: 365 days (half if popular support was chosen)
+Effects:
+- +5% popularity
+- Until government change:
+ - +0.05% popularity per day
+ - +0.2% recruitable population
+ - –5% Stability
+
+Event: Fascism The Threat of Communism
+Requirements:
+- At least 25% popularity
+- At least one neighboring country is communist
+Mean time to happen: 365 days (half if popular support was chosen)
+Effects: * +10% popularity
+
+Event: [Ideological] Demonstrations
+Requirements:
+- Not puppet
+- At least 50% popularity
+Mean time to happen: 30 days
+Effects:
+- Option 1: Suppress
+ - –10% popularity –5% [ideology.ADJ] revolutionaries
+- Option 2: Ignore
+ - –5% [ideology.ADJ] revolutionaries
+- Option 3: Allow
+ - Government changes
+ - –5% Stability
+
+# References
+
+hoi4de:Ideology
+hoi4es:Ideology
+hoi4fr:Ideology
+hoi4pl:Ideology
+hoi4pt:Ideology
+hoi4ru:Ideology

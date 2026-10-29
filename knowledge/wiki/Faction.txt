@@ -1,0 +1,3314 @@
+TITLE: Faction
+URL: https://hoi4.paradoxwikis.com/Faction
+REVISION: 2026-03-27T17:53:39Z (rev 99352)
+VERIFIED FOR: 1.9
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+A faction is a coalition of nation states that are allied to each other.
+
+2
+
+# Rules [verified for 1.9]
+
+A country may only form a new faction if the respective country rule is enabled. At the start of the game the three existing faction leaders Germany, the United Kingdom and the Soviet Union, along with the United States, have this rule. Other nations gain the capability to form their own factions through their national focus trees. Joining a faction is again limited by country rules. Depending on ideology and national spirits, countries need various amounts of world tension before they can join or ask someone to join a faction.
+
+Faction members share military access with one another and see accurate intelligence in the diplomacy screen of their allies.
+
+Factions rules can amend some country rules such as the ability to justify war goals on other countries of the same ideology or which actions are allowed in peace conferences.
+
+Faction members can choose to leave a faction, but this causes a significant relations modifier faction traitor (-75 relations). A faction member cannot leave while fighting a war on the side of other members. The faction leader may kick another country out even while at war or disband the faction altogether if it contains no other members than themselves and their subjects.
+If the faction leader ceases to exist, the largest remaining member takes over.
+
+If a country fights alongside major allies, it will only surrender once all of the majors in the faction have capitulated. For instance if Poland joined the Allies, it will not surrender before the United Kingdom and France capitulate, and will instead continue on as a government-in-exile.
+
+Note, that listing all "possible members" would be too long - those listed are merely most common and most logical possible members. Generally, it's rather often for countries of matching ideology to join alliances.
+
+# Faction leader [verified for 1.9]
+
+A faction leader in HoI IV is the leader of a faction. The default faction leaders in-game are the United Kingdom leading the Allies, the German Reich leading the Axis and the Soviet Union leading the Comintern. They are usually joined by Japan leading the Greater East Asian Co-Prosperity Sphere and China leading the Chinese United Front.
+
+If the faction leader ceases to exist, the largest remaining member takes over.
+
+## Diplomatic Actions
+The faction leader may kick another country out even while at war or disband the faction altogether if it contains no other members than themselves and their subjects.
+
+## Assuming Leadership
+To be able to take over the faction they are in, a country must ...
+- have more than twice the deployed manpower of the faction leader (subjects count, but at varying strength depending on autonomy)
+- have more than 150% of the factories of the faction leader
+- be in every war the faction leader is currently in
+- not have capitulated already
+
+After paying 200 political power , the country can become faction leader, with all the benefits it entails.
+
+# Starting factions [verified for 1.9]
+
+## Allies
+The Allies is the main democratic faction, led by the United Kingdom.
+
+1936:
+- United Kingdom
+- Dominion of Canada
+- British Raj
+- Australia
+- New Zealand
+- South Africa
+- British Malaya
+- British Burma
+- Mandatory Palestine
+- Kuwait
+- Oman 3
+1939:
+- United Kingdom
+- Dominion of Canada
+- British Raj
+- Australia
+- New Zealand
+- South Africa
+- British Malaya
+- British Burma
+- Mandatory Palestine
+- Kuwait
+- Oman
+- France
+- Republic of Syria
+- Lebanon 3
+Possible members:
+- Poland
+- Belgium
+- Netherlands
+- Dutch East Indies
+- Luxembourg
+- Republican Spain
+- Denmark
+- Norway
+- United States
+- Philippines
+- Iraq
+- Iran 3
+
+## Axis
+The Axis is the main fascist faction, led by the German Reich.
+
+1936: Germany
+1939:
+- Germany
+- Slovakia
+- Italy
+Possible members:
+- Poland
+- Kingdom of Hungary
+- Romania
+- Vichy France
+- Bulgaria
+- Greece
+- Turkey
+- Luxembourg
+- Belgium
+- Netherlands
+- Nationalist Spain
+- Portugal
+- Lithuania
+- Estonia
+- Latvia
+- Sweden
+- Norway
+- Denmark
+- Finland
+- Ireland
+- Guatemala
+- El Salvador
+- Honduras
+- Nicaragua
+- Costa Rica
+- Panama
+- Cuba
+- Haiti
+- Dominican Republic
+- Colombia
+- Venezuela
+- Ecuador
+- Peru
+- Brazil
+- Bolivia
+- Chile
+- Argentina
+- Paraguay
+- Uruguay
+- China
+- Japan 4
+
+## Comintern
+The Third Communist International, abbreviated as the Comintern, is the main communist faction, led by the Soviet Union.
+
+1936:
+- Soviet Union
+- Tannu Tuva
+- Mongolia
+1939:
+- Soviet Union
+- Tannu Tuva
+- Mongolia
+Possible Members:
+- Republican Spain
+- Estonia
+- Latvia
+- Lithuania
+- Finland
+- Sweden
+- Norway
+- Denmark
+- Romania
+- Bulgaria
+- Greece
+- Yugoslavia
+- Turkey
+- Saudi Arabia
+- Afghanistan
+- Iran
+- Iraq
+- China
+- Chinese Soviet Republic
+- Manchukuo
+- Guangxi Clique
+- Yunnan
+- Shanxi
+- Xibei San Ma
+- Sinkiang 4
+
+## Chinese United Front
+
+The Chinese United Front is one of the starting factions in 1939. Sometime after 1936, the faction is formed either by China inviting the Chinese Soviet Republic via the focus 'United Front', by the Chinese Soviet Republic inviting China via the focus 'Coalition Government' or by one of the warlords via the decision 'Invite Chiang Kai-Shek' - in order to unite the Chinese against the Japanese invaders. In the last case, the leader of China will refuse to ally with the communists, what gives you the opportunity to arrest him and turn him over to the communists. The United Front will then be formed by China together with the Chinese Soviet Republic. The warlords of Shanxi, Xibei San Ma, Yunnan, the Guangxi Clique and Sinkiang can then join the faction via a decision. By completing the focus 'One China Policy' though, China or the Chinese Soviet Republic (depending on who's leading the faction) leaves the faction.
+
+Since the No Compromise, No Surrender DLC, China can form this faction via the focus 'One Nation, Undivided', while the Chinese Soviet Republic can form it via the focus 'Burn the Paper Tigers'. Also, completing the focus 'One China Policy' doesn't automatically make you dissolve or leave your current faction anymore.
+
+1936: –
+1939:
+- China
+- Chinese Soviet Republic
+- Xibei San Ma
+- Yunnan
+- Guangxi Clique
+- Sinkiang
+Possible Members: * Shanxi
+
+## Greater East Asia Co-Prosperity Sphere
+
+The Greater East Asia Co-Prosperity Sphere is one of the starting factions in 1939. Sometime after 1936, the faction is formed by Japan via completing the focus of the same name. It is founded with the objective of creating a Pan-Asian bloc led by Japan. Japan and GEACPS members will fight a defensive war against invading nation, such as the Soviet Union.
+
+1936: –
+1939:
+- Japan
+- Manchukuo
+- Mengkukuo
+Possible members:
+- Siam
+- Philippines
+- Australia
+- New Zealand
+- Italy
+- Iran
+
+# Other possible factions [verified for 1.9]
+
+All countries can acquire the ability to form factions through their national focus tree. In general, these have no default name, with the player choosing a name when inviting the first member. Several specific factions, inspired by counterfactual history, do have pre-set names, however, and are listed below.
+
+## 4th International (Mexico)
+If Mexico becomes communist and takes the focus 'Smash the Bureaucrats', it can form this faction.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible Members
+|- style="vertical-align:top"
+|
+- Mexico
+|
+- Chinese Soviet Republic
+- Paraguay
+- Communist Spain Republican Spain
+- Sinkiang
+- Shanxi
+- Soviet Union
+|}
+
+## 4th International (Union of Soviet Republics)
+If the Trotskyists take power in the Soviet Union, they can form this faction with the focus 'Long Live the Worker’s Government'.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible Members
+|- style="vertical-align:top"
+|
+- Soviet Union
+|
+- Mexico
+- Chinese Soviet Republic
+- Paraguay
+- Communist Spain Republican Spain
+- Sinkiang
+- Shanxi
+|}
+
+## African People's Union
+An independent, communist South Africa can form this faction with the focus 'Union of the African People'. It has no default members and will have only South Africa at the game start, however, the country can conquer colonies from Portugal, Belgium and the United Kingdom to create puppets or free faction members.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible Members
+|- style="vertical-align:top"
+|
+- South Africa
+|
+- Algeria
+- Tunisia
+- Libya
+- Egypt
+- Mauritania
+- Senegal
+- The Gambia
+- Guinea-Bissau
+- Mali
+- Guinea
+- Sierra Leone
+- Liberia
+- Upper Volta
+- Ghana
+- Togo
+- Dahomey
+- Niger
+- Nigeria
+- Chad
+- Biafra
+- Cameroon
+- Sudan
+- Central African Republic
+- Equatorial Guinea
+- Gabon
+- Congo-Brazzaville
+- Belgian Congo
+- Eritrea
+- Djibouti
+- Somali Sultanate
+- Aussa
+- Ethiopia
+- Uganda
+- Kenya
+- Tanzania
+- Angola
+- Katanga
+- Zambia
+- Barotseland
+- Zimbabwe
+- Botswana
+- Malawi
+- Mozambique
+- Madagascar
+- Namibia 5
+|}
+
+## Anglo-Italian Pact
+If the United Kingdom becomes fascist, it can invite Italy to this new faction with the focus 'Secure the Italian Alliance' - if the United Kingdom isn’t already in an alliance.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- United Kingdom
+- British Malaya
+- Italy
+|}
+
+## Anti-Soviet Pact (fascist)
+If the Soviet Union attacks a signatory of the Anti-Soviet Pact, the German Reich can form a faction of the same name.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible Members
+|- style="vertical-align:top"
+|
+- German Reich
+|
+- Italy
+- Kingdom of Hungary
+- Finland
+- Bulgaria
+- Romania
+- Turkey
+- Kingdom of Greece
+- Japan
+- Manchukuo
+- Mengkukuo 3
+|}
+
+## Anti-Soviet Pact (non-aligned)
+If Germany opts to overthrow Hitler and restores the monarchy, it can form the 'Anti-Soviet Pact'.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible Members
+|- style="vertical-align:top"
+|
+- German Empire
+|
+- Czechoslovakia
+- Kingdom of Hungary
+- Kingdom of Romania
+- Yugoslavia
+- Mexico
+- Netherlands
+- Portugal
+- Bulgaria
+- Turkey 2
+|}
+
+## Asian Communist Solidarity
+Can be created by communist Japan with the focus of the same name.
+
+Since the No Compromise, No Surrender DLC though, this faction doesn't exist anymore.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible Members
+|- style="vertical-align:top"
+|
+- Japan
+|
+- Chinese Soviet Republic
+|}
+
+## Balkan Defence League
+If Yugoslavia chooses to disunite, they can form this alliance with their former territories with the focus 'Yugoslav Defence League'.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible Members
+|- style="vertical-align:top"
+|
+- Serbia
+- Montenegro
+- Kosovo
+- Macedonia
+- Slovenia
+- Croatia
+- Bosnia 2
+|
+- Dalmatia
+- Herzegovina
+- Vojvodina
+- Transylvania
+|}
+
+## Balkan Entente (Romania)
+If Romania doesn't accept the Hungarian Rearmament they can create the Balkan Entente with Czechoslovakia and Yugoslavia.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible Members
+|- style="vertical-align:top"
+|
+- Romania
+|
+- Czechoslovakia
+- Yugoslavia
+|}
+
+## Balkan Pact
+The Kingdom of Hungary can create this faction by taking the focus of the same name and later invite Romania.
+Since the Götterdämmerung DLC, the faction not only can be increased further, you can also propose referendums to regain lost territories and propose a union of Hungary and Romania, creating the United Kingdoms of Hungary and Romania.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible Members
+|- style="vertical-align:top"
+|
+- Kingdom of Hungary
+|
+- Romania
+- Czechoslovakia
+- Austria
+- Yugoslavia
+- Greece
+- Albania
+- Bulgaria 2
+|}
+
+## Baltic Alliance
+If Poland puts the Sanation Left in power, they can form this faction with the focus of the same name.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible Members
+|- style="vertical-align:top"
+|
+- Poland
+|
+- Estonia
+- Latvia
+- Lithuania
+- Czechoslovakia
+|}
+
+## Benelux
+If the Netherlands choose to become democratic but don't align with the United Kingdom, they can form this faction with the focus 'Form the Benelux' and invite Belgium as well as Luxembourg to it. By completing the focus 'Foundations for a European Union' the faction turns into the European Union.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible Members
+|- style="vertical-align:top"
+|
+- Netherlands
+|
+- Belgium
+- Luxembourg
+|}
+
+## Bolivarian Alliance
+If Mexico becomes communist, it can invite Latin American countries to this faction with the focus of the same name. By completing the focus 'Smash the Bureaucrats' the faction turns into the 4th International.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible Members
+|- style="vertical-align:top"
+|
+- Mexico
+|
+- Argentina
+- Brazil
+- Bolivia
+- Chile
+- Colombia
+- Costa Rica
+- Cuba
+- Dominican Republic
+- Ecuador
+- El Salvador
+- Guatemala
+- Haiti
+- Honduras
+- Nicaragua
+- Panama
+- Paraguay
+- Peru
+- Philippines
+- Uruguay
+- Venezuela 4
+|}
+
+## British Communist Alternative
+If the United Kingdom becomes communist but doesn't align with the Soviet Union, it can form this faction with the focus of the same name. By completing the focus 'Reach Out Across the Channel' the British Union then can invite either France or the Netherlands, Belgium and Luxembourg.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible Members
+|- style="vertical-align:top"
+|
+- United Kingdom
+- British Malaya
+- British Burma
+- Mandatory Palestine
+- Kuwait
+- Oman
+- Dominion of Canada
+- British Raj
+- Australia
+- New Zealand
+- South Africa 3
+|
+- France
+- Republic of Syria
+- Lebanon
+- Netherlands
+- Belgium
+- Luxembourg 2
+|}
+
+## Bucharest Accords
+Romania can form this faction after taking the focus 'Align Hungary' if the Kingdom of Hungary refuses submission.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible Members
+|- style="vertical-align:top"
+|
+- Romania
+|
+- Kingdom of Hungary
+|}
+
+## Coalition of Free Commonwealth States
+If the United Kingdom is at war (alongside its colonies against a common enemy) while completing the focus 'Decolonization', one of its colonies (priority given to Canada) forms this faction and also invites other former colonies to it. The faction will be formed by Canada (if Canada is in the war), Australia (if Australia is in the war, but Canada is not) or the British Raj (if neither Australia nor Canada are in the war).
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Canada
+- Australia
+- British Raj
+- South Africa
+- New Zealand
+|}
+
+## Central European Alliance
+If the German Reich chooses to oppose Hitler and reestablish democratic elections, it will eventually form the Central European Alliance with the focus of the same name in opposition to the Soviet Union and eventually offer membership to a number of non-fascist, non-communist countries across Europe.
+
+Since the Götterdämmerung DLC though, the faction for both democratic and monarchist Germany is Mitteleuropa, so the Central European Alliance doesn't exist anymore.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible Members
+|- style="vertical-align:top"
+|
+- Germany
+|
+- Austria
+- Czechoslovakia
+- Kingdom of Hungary
+- Yugoslavia
+- Romania
+- Netherlands
+- Dutch East Indies
+- Belgium
+- Luxembourg
+- Norway
+- Sweden
+- Denmark
+- Estonia
+- Latvia
+- Lithuania
+- Poland
+- Finland 3
+|}
+
+## Central Powers (German Empire)
+If the German Empire chooses to oppose Hitler and reestablish the German monarchy, but has not yet formed Mitteleuropa, Turkey can make Germany form the Central Powers by reforming the Ottoman Empire and completing the 'Rejoin the Central Powers' focus. Germany can then attempt to restore Austria-Hungary and reestablish the monarchy in Italy.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible Members
+|- style="vertical-align:top"
+|
+- German Empire
+|
+- Austria-Hungary
+- Ottoman Empire
+- Bulgaria
+- Italy
+- Austria
+- Kingdom of Hungary
+- Czechoslovakia
+- Netherlands
+- Kingdom of Greece
+- Yugoslavia
+- Iraq
+- Iran
+- Afghanistan
+- Kingdom of Syria Kingdom of Syria
+- Kingdom of Egypt
+- Poland
+- Lithuania
+- Kingdom of Romania Provisional Kingdom of Romania
+- Portugal
+- Ethiopia
+- Don Host
+- Kuban Host
+- Italian State of East Africa 4
+|}
+
+## Commonwealth of Nations
+Canada automatically forms this faction and and invites Australia,New Zealand, as well as South Africa to it once the Dominions break with the Crown following the coronation of Edward VIII in the United Kingdom.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Canada
+- Australia
+- New Zealand
+- South Africa
+|}
+
+## Community of Nations
+If Mexico becomes democratic and decides to take the focus of the same name, it can form this faction with the United Kingdom - if the United Kingdom is not already in a faction.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Mexico
+- United Kingdom
+- Dominion of Canada
+- South Africa
+- British Raj
+- British Malaya
+- British Burma
+- Mandatory Palestine
+- Kuwait
+- Oman
+- Australia
+- New Zealand 2
+|}
+
+## Cordon Sanitaire
+When Romania chooses the focus of the same name, this faction will form, with Poland and Czechoslovakia being invited.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible Members
+|- style="vertical-align:top"
+|
+- Romania
+|
+- Poland
+- Czechoslovakia
+- Kingdom of Greece
+|}
+
+## Czech Entente
+An independent, democratic Czechoslovakia can form this faction with the focus 'An Entente of Our Own' and invite Romania, Yugoslavia, as well as the Kingdom of Hungary.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible Members
+|- style="vertical-align:top"
+|
+- Czechoslovakia
+|
+- Romania
+- Yugoslavia
+- Kingdom of Hungary
+|}
+
+## Daitoa Kyoeiken
+An independent, fascist New Zealand can form this faction with the focus 'Befriend Japan' and invite Japan - if the country is not in a faction or has created the Greater East-Asian Co-Prosperity Sphere.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible Members
+|- style="vertical-align:top"
+|
+- New Zealand
+|
+- Japan
+- Manchukuo
+- Mengkukuo
+|}
+
+## Domination Française
+If France revives the National Bloc and flips to fascism, it can form this faction with fascist Italy. Together they stand against democratic Germany.
+
+Since the La Résistance DLC though, the faction doesn't exist anymore.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- France
+- Italy
+|}
+
+## European Union (Netherlands)
+If the Netherlands chooses to become democratic but doesn't align with the United Kingdom, it can form this faction with the focus 'Foundations for a European Union' and invite all democratic nations in Europe to it.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Netherlands
+|
+- Luxembourg
+- Belgium
+- Sweden
+- France
+- Czechoslovakia
+- Poland
+- Lithuania
+- Estonia
+- Latvia
+- Spain
+- Romania
+- Greece
+- Denmark
+- Bulgaria
+- Portugal
+- Finland
+- Ireland
+- Hungary 3
+|}
+
+## French Alliance
+If France condemns the German Reich's ambitions in Czechoslovakia, they will automatically form this faction with Czechoslovakia.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- France
+- Republic of Syria
+- Lebanon
+- Czechoslovakia
+|
+- Poland
+- Yugoslavia
+- Romania
+- United Kingdom
+- Dominion of Canada
+- British Raj
+- Australia
+- New Zealand
+- South Africa
+- British Malaya
+- British Burma
+- Mandatory Palestine
+- Kuwait
+- Oman 3
+|}
+
+## Government of National Defense
+If the Chinese Soviet Republic takes the focus 'Government of National Defense', it can form this faction with China. By completing the focus 'One China Policy' though, the Chinese Soviet Republic leaves the faction.
+
+Since the No Compromise, No Surrender DLC though, the faction doesn't exist anymore. Also, completing the focus 'One China Policy' doesn't automatically make you dissolve or leave your current faction anymore.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Chinese Soviet Republic
+|
+- China
+|}
+
+## Greater Balkan Worker's Congress
+Communist Yugoslavia can turn the Pan-Slavic Worker’s Congress into this faction with the focus 'Pan-Balkan Initiative' and invite all Balkan countries to it.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Yugoslavia
+- Bulgaria
+- Albania
+|
+- Romania
+- Kingdom of Hungary
+- Kingdom of Greece
+- Turkey
+|}
+
+## Hispanic Alliance (Mexico)
+If Mexico becomes fascist under the Gold Shirts, it can invite Latin American countries to this faction with the focus of the same name.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Mexico
+|
+- Argentina
+- Brazil
+- Bolivia
+- Chile
+- Colombia
+- Costa Rica
+- Cuba
+- Dominican Republic
+- Ecuador
+- El Salvador
+- Guatemala
+- Haiti
+- Honduras
+- Nicaragua
+- Panama
+- Paraguay
+- Peru
+- Philippines
+- Uruguay
+- Venezuela 3
+|}
+
+## House Bernadotte
+If the Kingdom of Hungary takes the focus 'Elect a Democratic King' and becomes democratic, both it and Sweden will get the option to form this faction if the other one is at war.
+
+Since the Götterdämmerung DLC though, the necessary decision doesn't appear anymore.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Kingdom of Hungary
+- Sweden
+|}
+
+## Italian League
+Italy can form this faction with the focus 'Italy First' as part of their general foreign affairs.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Italy
+- Bulgaria
+|
+- Nationalist Spain / Carlist Spain
+- Portugal
+- Greece
+- Turkey
+|}
+
+## Little Entente
+The Little Entente is a faction that can be formed by France with the 'Strengthen the Little Entente' focus. When this faction is formed, France won't join the Allies. Based on the pre-WW2 alliance with the objective of preventing the Kingdom of Hungary from rearming and/or a Habsburg restoration in Austria.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- France
+- Republic of Syria
+- Lebanon
+|
+- Czechoslovakia
+- Poland
+- Yugoslavia
+- Romania
+- United Kingdom
+- Dominion of Canada
+- South Africa
+- British Raj
+- British Malaya
+- British Burma
+- Mandatory Palestine
+- Kuwait
+- Oman
+- Australia
+- New Zealand 3
+|}
+
+## Międzymorze
+It will be formed by Poland with the 'The Between the Seas Concept' focus and can be expanded to include the Baltic states. The faction has bases on the historical idea of the Intermarium, in Polish Międzymorze, a plan created by politician Józef Piłsudski in which the Eastern European countries that broke free from Russian control would create a federation between the Baltic and Black seas. In the game, however, the Międzymorze is only a military alliance.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Poland
+|
+- Lithuania
+- Estonia
+- Latvia
+- Romania
+- Finland
+- Denmark
+- Sweden
+- Norway
+- Czechoslovakia
+- Austria
+- Kingdom of Hungary
+- Kingdom of Greece
+- Turkey
+- Italy
+- Italian State of East Africa 3
+|}
+
+## Mutual Assistance Bloc
+If the Chinese Soviet Republic decides to complete the focus 'Marxism With Chinese Characteristics', it will form this faction. Potential members are any communist nation in China (like Sinkiang). By completing the focus 'Secure China' the United States, either democratic or communist, can join the faction too.
+
+Since the No Compromise, No Surrender DLC though, this faction doesn't exist anymore.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Chinese Soviet Republic
+|
+- Sinkiang
+|}
+
+## North-American Alliance
+If the Dominion of Canada remains democratic but becomes independent and leaves the Allies, it can form this faction with the focus of the same name and invite the United States.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Canada
+|
+- United States
+- Philippines
+|}
+
+## Northern Defense Front (non-aligned)
+Non-aligned Finland can form this faction via completing the focus 'Northern Defense Front' after declaring its neutrality.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Finland
+|
+- Norway
+- Sweden
+- Denmark
+- Iceland
+- Estonia
+- Latvia
+- Lithuania 2
+|}
+
+## Northern Sovereignty Coalition
+If the Dominion of Canada chooses to become independent from the United Kingdom and becomes fascist it can either join the Axis or support fascism in Mexico and form this faction with the focus 'Skewer the Eagle'. Doing this can give a favorable outcome in a war with the United States.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Canada
+|
+- Mexico
+|}
+
+## Novus Imperium Romanum
+The Novus Imperium Romanum (an old Latin translation of 'New Roman Empire') is a faction that may be formed by Italy after taking the 'Mare Nostrum' focus as a precursor to the Roman Empire. By completing both the focuses 'Iberian Protectorate' and 'South American Alliances' the new Roman Empire can bring more nations into the faction.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Italy
+|
+- Spain
+- Portugal
+- Panama
+- Colombia
+- Venezuela
+- Ecuador
+- Peru
+- Brazil
+- Bolivia
+- Paraguay
+- Argentina
+- Chile 3
+|}
+
+## Pact of Rome
+An independent, fascist Kingdom of Hungary can invite Austria and Italy into this faction with the focus 'Alliance with Italy'. However, it is important to note that Italy will still be able to form its own faction.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Kingdom of Hungary
+|
+- Italy
+- Austria
+|}
+
+## Pan-Slavic Worker's Congress
+If Yugoslavia becomes communist, it can invite fellow Slavic neighbors into this faction with the focus of the same name. The faction can evolve into the Greater Balkan Worker's Congress by further going down the focus path.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Yugoslavia
+|
+- Bulgaria
+- Albania
+|}
+
+## Stresa Front
+If France chooses the focus 'Ratify the Stresa Front', it can form the faction with Italy and potentially the United Kingdom. Italy can also form this faction if it goes down the path of the focus 'Guarantee Austrian Independence'. The possible members vary a bit, depending on the played faction.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- France
+- Republic of Syria
+- Lebanon
+|
+- Italy
+- United Kingdom
+- Dominion of Canada
+- South Africa
+- British Raj
+- British Malaya
+- British Burma
+- Mandatory Palestine
+- Kuwait
+- Oman
+- Australia
+- New Zealand
+- Austria
+- Czechoslovakia
+- Poland
+- Yugoslavia
+- Nationalist Spain
+- Portugal 4
+|}
+
+## Synarchist Pact
+After completing the focus 'Crusade Against Atheism' religiously fascist Mexico can create the Synarchist Pact via the focus 'Hispanic Alliance'. After this it can invite Latin American countries to this faction.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Mexico
+|
+- Argentina
+- Brazil
+- Bolivia
+- Chile
+- Colombia
+- Costa Rica
+- Cuba
+- Dominican Republic
+- Ecuador
+- El Salvador
+- Guatemala
+- Haiti
+- Honduras
+- Nicaragua
+- Panama
+- Paraguay
+- Peru
+- Philippines
+- Uruguay
+- Venezuela 4
+|}
+
+## The Berlin-Moscow Axis
+Can be formed by the German Reich after the focus 'Alliance with the USSR'. This alliance will be comprised of the German Reich and the Soviet Union.
+
+Since the Götterdämmerung DLC though, it's not an indefinite alliance anymore. The faction dissolves automatically after 730 days and leaves the German Reich as well as the Soviet Union without a faction.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Germany
+- Soviet Union
+|
+- Italy
+- Slovakia
+- Kingdom of Hungary
+- Romania
+- Bulgaria
+- Vichy France
+- Nationalist Spain
+- Turkey 2
+|}
+
+## The Coalition
+Independent Canada not being in a faction can create this alliance if the United States elect Alf Landon as their new president in 1936, then put America first, pass the War Powers Act, claim their manifest destiny and finally demand the Canadian corridor (consisting of Vancouver Island, British Columbia, Haida Gwaii, Prince Rupert and the Yukon Territory) from its northern neighbor. Canada can invite friendly countries, especially those that are at war with the United States.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Canada
+|}
+
+## The New International
+If after communist Japan completes the focus 'Join Comintern' the Soviet Union is not in a faction or not communist, Japan will form this faction.
+
+Since the No Compromise, No Surrender DLC though, this faction doesn't exist anymore.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Japan
+|
+- Soviet Union
+|}
+
+## The Old Alliance
+If after democratic Japan completes the focus 'Rekindle the Old Alliance' the United Kingdom is not in a faction or not democratic, Japan will form this faction and invite the United Kingdom.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Japan
+|
+- United Kingdom
+- Dominion of Canada
+- South Africa
+- British Raj
+- British Malaya
+- British Burma
+- Mandatory Palestine
+- Kuwait
+- Oman
+- Australia
+- New Zealand
+- Korea 3
+|}
+
+## The People's Front
+If one of the Chinese warlords bordering the Chinese Soviet Republic (for example Shanxi or Xibei San Ma) decides to cooperate with the Communists and completes the focus 'Join the Chinese Soviet', The Chinese Soviet Republic will form this faction and invite the particular warlord. The Yan'an Incident then sees this warlord annex the Chinese Soviet Republic and become the new Chinese Soviet Republic. By completing the focus 'One China Policy' the Chinese Soviet Republic leaves the faction.
+
+Since the No Compromise, No Surrender DLC, the faction can also be formed by the Chinese Soviet Republic embracing the Unwilling Diarchy, seeing Mao Zedong ascend and completing the focus 'Demand the Loyalty of the Warlords'. Also, completing the focus 'One China Policy' doesn't automatically make you dissolve or leave your current faction anymore.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Chinese Soviet Republic
+|
+- Xibei San Ma
+- Shanxi
+- Yunnan
+- Guangxi Clique
+|}
+
+## The South-West Pacific Initiative
+An independent, democratic Australia can form this faction with the focus of the same name and invite the United States.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Australia
+|
+- Dutch East Indies
+- United States
+- Philippines
+|}
+
+## Treaty of Reciprocal Assistance
+If the United States takes the focus 'Hemisphere Defense', they will form this faction and automatically invite all Latin American nations of its ideology into it. Note that the nations invited will differ depending on what ideology the US is at the time it completes the focus.
+
+Since the No Compromise, No Surrender DLC, the United States start as the leader of the American Commonwealth faction, so in order to form the Treaty of Reciprocal Assistance and not just invite all the Latin American nations to the American Commonwealth, this faction has to be dismantled first.
+
+The faction itself is likely based on the real-life Inter-American Treaty of Reciprocal Assistance, a treaty that was signed after World War 2. Unlike the real-life treaty, which merely invited countries based on their locations, the in-game faction will only invite Latin American countries of the same ideology as the US, meaning that Venezuela, Argentina, Paraguay, Brazil, Bolivia, Peru, Dominican Republic, El Salvador, and Mexico will not be invited if a Democratic US was to form the faction, despite having signed the treaty in the first year (although should a Fascist or Communist US be the one to form the faction, the countries belonging to those ideologies would be invited instead).
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- United States
+|
+- Chile
+- Colombia
+- Costa Rica
+- Cuba
+- Ecuador
+- Haiti
+- Honduras
+- Panama
+- Philippines
+- Uruguay
+- Argentina
+- Paraguay
+- Brazil
+- Bolivia
+- Venezuela
+- Peru
+- El Salvador
+- Dominican Republic
+- Mexico
+- Chinese Soviet Republic 4
+|}
+
+## Union of Communist Soviets
+If the communist Kingdom of Hungary takes the focus 'The Revolutionary Council', it will form this faction.
+
+Since the Götterdämmerung DLC though, this faction doesn't exist anymore.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Kingdom of Hungary
+|}
+
+## Western Pacific Sphere
+An independent, fascist Australia can form this faction with the focus 'A Deal With Japan' and invite Japan (if not in a faction).
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Australia
+|
+- Japan
+- Manchukuo
+- Mengkukuo
+|}
+
+## West Pacific Treaty Organization
+If democratic Japan takes the focus of the same name, it will form this faction.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Japan
+|
+- Korea
+- China
+|}
+
+# Factions added with La Résistance
+ La Résistance
+
+## Anti-Fascist Bloc
+Orleanist France can form this faction with the focus 'No Further Humiliations'.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- France
+|
+- German Empire German Empire
+- Italy
+- Carlist Spain
+|}
+
+## Anti-Fascist Coalition
+Communist France can form this faction with the focus of the same name if there is no democratic or communist faction in the world, inviting every democratic or communist country bordering it and not in a faction.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- France
+|
+- Belgium
+- Luxembourg
+- Switzerland
+- Spain
+- United Kingdom
+- Dominion of Canada
+- South Africa
+- British Raj
+- British Malaya
+- Australia
+- New Zealand
+- Liberia
+- Netherlands
+- Czechoslovakia
+- Romania
+- Yugoslavia 4
+|}
+
+## Confédération du Rhin
+Non-aligned France under Napoleon VI can form this faction with the German states with the focus 'Disunite Germany'.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- France
+- Kingdom of Baden-Württemberg
+- Kingdom of Bavaria
+- Kingdom of Westphalia
+- Duchy of Schleswig-Holstein
+- Grand Duchy of Mecklenburg
+- Kingdom of Saxony
+- Kingdom of Prussia 2
+|
+- Austria
+- Czechoslovakia
+- Carlist Spain
+|}
+
+## International Bureau of Revolutionary Socialist Unity
+Anti-Stalinist Spain can form this faction with the focus 'Unify the London Bureau'.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Spain
+|
+- Paraguay
+|}
+
+## Latin Bloc
+Nationalist Spain can form this faction with the focus of the same name and invite all Latin countries.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Nationalist Spain
+|
+- Portugal
+- Vichy France
+- Italy
+|}
+
+## Latin Entente
+France can form this faction with the focus of the same name if they go fascist.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- France
+|
+- Italy
+- Nationalist Spain
+- Portugal
+|}
+
+## Legitimist Alliance
+Non-aligned France, after restoring the legitimate heir to the throne, can form this faction with Carlist Spain.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- France
+- Carlist Spain Carlist Spain
+|
+- Yugoslavia
+|}
+
+## Paris Accords
+Communist France can form this faction with the focus 'Loyalty to the Cause' and then spread the revolution to the countries around it.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- France
+|
+- British Empire Union of Britain
+- Communist Spain Republican Spain
+- East Germany Socialist Republic of Germany
+- Italy
+- Netherlands
+|}
+
+## Popular Front Bloc
+Communist Portugal can form this faction with the focus of the same name, inviting every communist county in Europe to it.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Portugal
+|}
+
+## Royal Iberian Alliance
+Non-aligned Portugal can form this faction with Carlist Spain after completing the focus of the same name.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Portugal
+- Carlist Spain
+|}
+
+## The Continental System
+Monarchist France under Napoléon VI automatically forms this faction via finishing the focus 'Proclaim the Third Empire'. The alliance doesn't have any other starting members besides France, but the name of the faction changes to Confédération du Rhin after the focus 'Disunite Germany' with the different German states in it.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- France
+|}
+
+# Factions added with Battle for the Bosporus
+ Battle for the Bosporus
+
+## Anti-Bolshevik Accord
+Turkey can form this alliance through the focus 'The Anti-Bolshevik Mediterranean Bloc'. Republican Spain joins if not in the Comintern already.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Turkey
+|
+- Spain
+|}
+
+## Argos Alliance
+Monarchist Greece will form this alliance with Austria-Hungary, if the German Reich hasn't restored the Kaiserreich.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Kingdom of Greece
+|
+- Austria-Hungary
+- Turkey
+- Bulgaria
+|}
+
+## Balkan Entente (Turkey)
+Turkey can form this faction with the focus 'Reform the Balkan Pact'.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Turkey
+|
+- Bulgaria
+- Kingdom of Greece
+- Kingdom of Hungary
+- Romania
+- Yugoslavia
+|}
+
+## Balkan Federation of Socialist Republics
+Communist Bulgaria can form this faction with the focus of the same name as a precursor to the United Balkan Federation.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Bulgaria
+|
+- Yugoslavia
+|}
+
+## Central Powers (Turkey)
+Once Turkey goes down the democratic path of its focus tree and then restores the Ottoman Empire, it will form this faction with the focus 'Rejoin the Central Powers' if the German Reich has not revived the Kaiserreich and the Kingdom of Hungary has formed Austria-Hungary. In this case, the Ottoman Empire will invite Austria-Hungary.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Ottoman Empire
+|
+- Austria-Hungary
+- Bulgaria
+- Iraq
+- Iran
+- Afghanistan
+- Kingdom of Syria Kingdom of Syria
+- Kingdom of Egypt 2
+|}
+
+## Corfu Cooperative
+Coymmunist Greece can form this faction by completing the focus 'Ally Tito', triggering a civil war in Yugoslavia.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Kingdom of Greece
+- Yugoslavia
+|}
+
+## Covenant of the Mediterranean
+Turkey can form this alliance with the focus 'The Mediterranean Entente'.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Turkey
+|
+- Italy
+- Bulgaria
+- Kingdom of Greece
+- Portugal
+- Nationalist Spain
+|}
+
+## Greater Bulgarian Federation
+Bulgaria can form this faction with the focus 'The Fate of the Balkans'.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Bulgaria
+|}
+
+## League of Balkan Confederacies
+Democratic Bulgaria can form this faction with the focus 'A Balkan Confederation'.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Bulgaria
+|
+- Kingdom of Greece
+- Romania
+|}
+
+## Saadabad Concordat
+The Ottoman Empire can form this faction with the focus 'Expand the Saadabad Pact'.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Ottoman Empire
+|
+- Iraq
+- Iran
+- Afghanistan
+|}
+
+## Spazio Vitale
+Nationalist Greece can form this faction led by Italy via the focus 'Greece and Turkey Together in the Axis!', but only if Germany went down one of the anti-fascist paths. In this case Greece and Turkey join Italy.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Italy
+- Greece
+- Turkey
+|
+- Nationalist Spain
+- Portugal
+|}
+
+# Factions added with No Step Back
+ No Step Back
+
+## Baltic Brotherhood
+If Latvia becomes fascist, it can form this faction with the focus 'Consecrate the Brotherhood'.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Latvia
+|
+- Estonia
+- Lithuania
+- German Reich
+- Sweden
+- Denmark
+- Finland 2
+|}
+
+## Baltic Entente
+The Baltic States can form this faction with the decision 'Formalize the Baltic Entente'.
+
+{| class="wikitable plainlist"
+! Possible members
+|- style="vertical-align:top"
+|
+- Estonia
+- Latvia
+- Lithuania
+- Finland
+- Norway
+- Sweden
+- Denmark 2
+|}
+
+## Commonwealth Alliance
+This faction marks a different path towards a unification of Poland and Lithuania. It may be formed if both countries simultaneously decide to recreate the Polish-Lithuanian Commonwealth - Lithuania via putting king Mindaugas III in charge and completing the focus 'Support Monarchism in Poland', Poland via letting King Friedrich Christian take the throne and completing the focus 'Support Monarchism in Lithuania'. The nation that has completed its focus last, gets the 'Two Kings Dilemma' event, where it can choose to form the Commonwealth Alliance with the other nation as a starting member. If Poland forms the faction, this also automatically finishes the focus 'The Between The Seas Concept', which opens up the possibility to invite a whole bunch of other nations to the faction as well.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Poland
+- Lithuania
+|
+- Finland
+- Denmark
+- Sweden
+- Norway
+- Latvia
+- Estonia
+- Czechoslovakia
+- Austria
+- Hungary
+- Yugoslavia
+- Greece
+- Turkey
+- Italy 3
+|}
+
+## Finnic Supremacy League (Estonia)
+If Estonia becomes fascist, it can form this faction with the focus 'Finno-Estonian Supremacy League'.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Estonia
+|
+- Finland
+|}
+
+## Falangist International
+If Poland becomes fascist, it can form this faction with the focus of the same name and can invite many Catholic nations from across the world.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Poland
+|
+- Nationalist Spain
+- Estonia
+- Latvia
+- Lithuania
+- Netherlands
+- Dutch East Indies
+- Belgium
+- Luxembourg
+- Mexico
+- Guatemala
+- Honduras
+- El Salvador
+- Nicaragua
+- Costa Rica
+- Panama
+- Cuba
+- Haiti
+- Dominican Republic
+- Colombia
+- Venezuela
+- Ecuador
+- Peru
+- Bolivia
+- Paraguay
+- Brazil
+- Chile
+- Argentina 4
+|}
+
+## Habsburg Pact
+If non-aligned Poland elects Karl Albrecht I as king, it can form this faction with the focus 'A Habsburg Alliance'.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Poland
+|
+- Kingdom of Hungary
+- Yugoslavia
+|}
+
+## International Revolutionary Marxist Centre
+If the Soviet Union goes down 'The Right Opposition paths, it can form this faction with the focus 'International Revolutionary Marxism'.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Soviet Union
+|
+- Mongolia
+- Paraguay
+- Chinese Soviet Republic
+- Communist Spain Spanish Commune
+|}
+
+## Morges Pact
+If democratic Poland organizes the Peasant's Strike and elects a PSL leader, it can form this faction with the focus of the same name.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Poland
+|
+- France
+- Liberia
+|}
+
+## North Pacific Treaty Organization
+If the Soviet Union becomes fascist, it can form this faction with the focus 'Intervention in the Americas'.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Soviet Union
+|
+- Argentina
+- Bolivia
+- Brazil
+- Chile
+- Colombia
+- Ecuador
+- Paraguay
+- Peru
+- Uruguay
+- Venezuela 2
+|}
+
+## November Alliance
+If Poland becomes non-aligned and Germany overthrows Hitler, Poland can form this faction with the focus 'Seek an Alliance with the Kaiser' if Germany has not formed a faction, regardless if Germany is democratic or non-aligned.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Poland
+- German Empire German Empire
+|}
+
+## Triple Entente
+If the Soviet Union becomes non-aligned, it can form this faction with the focus 'Reform the Triple Entente'.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Soviet Union
+|
+- United Kingdom
+- Dominion of Canada
+- South Africa
+- British Raj
+- British Malaya
+- British Burma
+- Mandatory Palestine
+- Kuwait
+- Oman
+- Australia
+- New Zealand
+- France
+- Republic of Syria
+- Lebanon 3
+|}
+
+# Factions added with By Blood Alone
+ By Blood Alone
+
+## African Union
+Ethiopia can form this faction with the focus 'Towards African Unity' after regaining independence from Italy.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Ethiopia
+|
+- South Africa
+- Algeria
+- Tunisia
+- Libya
+- Egypt
+- Mauritania
+- Senegal
+- The Gambia
+- Guinea-Bissau
+- Mali
+- Guinea
+- Kingdom of Sierra Leone
+- Liberia
+- Upper Volta
+- Ghana
+- Togo
+- Dahomey
+- Niger
+- Nigeria
+- Chad
+- Republic of Biafra
+- Cameroon
+- Sudan
+- Central African Republic
+- Equatorial Guinea
+- Gabon
+- Congo-Brazzaville
+- Belgian Congo
+- Eritrea
+- Djibouti
+- Somali Sultanate
+- Aussa
+- Uganda
+- Kenya
+- Tanzania
+- Angola
+- Katanga
+- Zambia
+- Barotseland
+- Zimbabwe
+- Botswana
+- Malawi
+- Mozambique
+- Republic of Madagascar
+- Namibia 4
+|}
+
+## Free States of Europe
+Communist Italy can form this faction with the focus 'Italia Libera' and invite all democratic countries in Central as welll as Southern Europe.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Italy
+|
+- Spain
+- Switzerland
+|}
+
+## Italian Confederation
+Democratic Italy can form this faction with the focus of the same name after uniting the opposition and deciding for Italian Socialism.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Italy
+- Libya
+- Eritrea
+- Somali Sultanate
+|}
+
+## Neutral Entente
+Switzerland can form this faction with the focus of the same name.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Switzerland
+|
+- Sweden
+- Netherlands
+- Romania
+- Turkey
+- Portugal
+- Ireland
+- Afghanistan
+- Saudi Arabia
+- Yemen 2
+|}
+
+## United Socialist Front
+Communist Italy can form this faction with the focus 'Defend the Land' and invite all communist countries in the world that are not already in a faction.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Italy
+|
+- Sinkiang
+- Paraguay
+- Communist China
+|}
+
+## The Catholic Dominion
+If Italy goes down the monarchist path and brings back Vittorio Emanuele III it can strengthen the Papacy and eventually become the Papal State. The Pope can then form The Catholic Dominion via the focus 'Iberian Protection'. By completing the focus 'South American Alliances' the new state can bring more nations into the faction.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Italy
+|
+- Spain
+- Portugal
+- Panama
+- Colombia
+- Venezuela
+- Ecuador
+- Peru
+- Brazil
+- Bolivia
+- Paraguay
+- Argentina
+- Chile 3
+|}
+
+# Factions added with Arms against Tyranny
+ Arms Against Tyranny
+
+## Finnish Supremacy League (Finland)
+Finland can form this faction via the focus 'Finnish Supremacy in the North' after flipping to fascism. It will invite any independent fascist Nordic or Baltic country and boost fascism in any other one.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Finland
+|}
+
+## Norden League
+Norway can form this faction via the focus 'Shield of the North' after following the monarchist path and reforming the Kingdom of Norway. After that the nation can claim Iceland as well as parts of Denmark, Sweden and the Soviet Union.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Norway
+|}
+
+## Nordic Cooperation Alliance
+Denmark can form this faction by reaffirming neutrality and starting rearmament. After completing the focus 'Strength in Numbers' the nation can either join one of the three major powers or form its own faction - all via decision.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Denmark
+- Iceland
+|
+- Sweden
+- Norway
+- Finland
+- France
+|}
+
+## Nordic Council
+Democratic Norway can form this faction after holding a vote of no confidence and bringing Johan H. Andresen to power. Completing the focus 'Proactive Defense' forms the Nordic Council. Norway can afterwards still join the Allies though, which will dismantle the Nordic Council.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Norway
+|}
+
+## Northern International
+Norway can form this faction with the focus 'Reawaken the Permanent Revolution' after flipping to communism and deciding to prosecute the NKP.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Norway
+|
+- Sinkiang
+- Paraguay
+- Communist China
+|}
+
+## Northern Defense Front (democratic)
+Democratic Finland can form this faction via choosing Social-Democracy after concentrating on liberating the working class. After neglecting the Comintern and the Allies Finland has to complete the focus 'United Under the North Star' - after forming a union with Estonia - and will then be able to invite the Nordic states.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Finland
+|
+- Estonia
+- Sweden
+- Norway
+- Denmark
+|}
+
+## Northern National Front
+Denmark can form this faction after flipping to fascism and deciding against German support. The newly fascist nation sways the public opinion of the Nordic countries and offers them protection, eventually annexing them.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Denmark
+|
+- Norway
+- Sweden
+- Finland
+- Iceland
+- Estonia
+- Latvia
+- Lithuania
+- Poland 2
+|}
+
+## Northern People's Union
+Finland can form this faction via concentrating on liberating the working class and tending towards a red government. After flipping to communism and forming a union with Estonia Finland can take the focus 'United Under the North Star' to form the Northern People's Union and invite the Nordic countries.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Finland
+|
+- Estonia
+- Sweden
+- Norway
+- Denmark
+|}
+
+## Northern Security Pact
+Denmark can form this faction after unifying the Right and letting King Christian X assume power. Through the focus 'Scandinavian Security' the Kingdom of Denmark can then decide to form its own faction and invite the Nordic countries. In the end Denmark reintegrates Iceland and completely annexes all Nordics.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Denmark
+- Iceland
+|
+- Sweden
+- Norway
+- Finland
+|}
+
+## Scandinavian Defense Union
+Sweden can form this faction with the focus of the same name after flipping to communism, liquidating the monarchy and supporting the red ideology in the Nordic countries.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Sweden
+|
+- Norway
+- Denmark
+|}
+
+## Swedish-Finnish Defense Agreement
+Sweden can form this faction with the focus of the same name after either going down the fascist or monarchist path. The country can afterwards still join the Allies though, which will dismantle the Defense Agreement.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Sweden
+|
+- Finland
+|}
+
+## The Nordic Defense Council
+Sweden can form this faction with the focus 'Decentralized Nordic Army Command' after concentrating on the Soviet Union as the old enemy.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Sweden
+|
+- Norway
+- Denmark
+- Finland
+|}
+
+# Factions added with Trial of Allegiance
+ Trial of Allegiance
+
+## Confederación Fascista
+Argentina can create this faction by going down the fascist path, working with the nationalists, cutting ties with the British and deciding to put Argentina first – instead of joining the Axis. The country will then work towards dominating the South.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Argentina
+|
+- Paraguay
+- Chile
+|}
+
+## Francophone Hegemony
+Chile can create this faction together with monarchist France if Carlos Ibáñez del Campo launches his coup, rules by decree, and invites Antoine III to become the new king of Araucanía and Patagonia during the civil war. After forming their alliance, the two monarchist nations decide to invade Mexico.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Chile
+- France
+|
+- Bolivia
+- Uruguay
+- Paraguay
+- Haiti
+- Republic of Suriname
+- Inca Empire 2
+|}
+
+## Hispanic Alliance (Chile)
+Chile can form this faction after denouncing the state of near anarchy, commencing a fascist counter-revolution and abiding by the Francoist model. After forming the 'Hispanic Alliance', Chile invites nearly all other South and Central American countries – if they are fascist or neutral.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Chile
+|
+- Peru
+- Uruguay
+- Venezuela
+- Colombia
+- Argentina
+- Bolivia
+- Paraguay
+- Brazil
+- Ecuador
+- Venezuela
+- Guyana
+- Suriname
+- Cayenne
+- Trinidad and Tobago
+- British Antilles
+- Guadeloupe
+- Dominican Republic
+- Haiti
+- Jamaica
+- Bahamas
+- Panama
+- Costa Rica
+- Nicaragua
+- Honduras
+- El Salvador
+- Guatemala 4
+|}
+
+## Hispanic Supremacy League
+Chile can form this faction after denouncing the state of near anarchy, commencing a fascist counter-revolution, and abiding by the Francoist model. After forming the Hispanic Supremacy League, Chile decides to unify the Hispanic lands through conquest.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Chile
+|}
+
+## Internacional Sudamericana
+Argentina can form this faction after calling to reform, starting a communist revolution, and forging its own path under the feminist revolutionary Fanny Edelman. The new República Popular can then either invite communist South American countries or annex the non-communist ones.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Argentina
+|}
+
+## Latin American Socialist Cooperative
+Brazil can form this faction after launching the Second Intentona Communista and expanding its revolution to South America – by deciding not to join the Comintern. After forming the Latin American Socialist Cooperative, the new Socialist Republic liberates the colonies and puppets all democratic, neutral, and fascist nations in South and Central America as well as the Caribbean.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Chile
+|
+- Peru
+- Uruguay
+- Venezuela
+- Colombia
+- Argentina
+- Bolivia
+- Paraguay
+- Brazil
+- Ecuador
+- Venezuela
+- Guyana
+- Suriname
+- Cayenne
+- Netherlands Antilles
+- Trinidad and Tobago
+- British Antilles
+- Guadeloupe
+- Puerto Rico
+- Dominican Republic
+- Haiti
+- Jamaica
+- Cuba
+- Bahamas
+- Panama
+- Costa Rica
+- Nicaragua
+- Honduras
+- El Salvador
+- Guatemala
+- Belize 4
+|}
+
+## Mercosul
+Non-aligned or fascist Brazil can form this faction by either reviving the monarchy, working towards the Estado Novo or the Estado Moderno and then concentrating on the domination of the Americas. After forming this single economic and political block, Brazil can invite South and Central American as well as Caribbean countries.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Brazil
+|
+- Argentina
+- Bolivia
+- Chile
+- Colombia
+- Costa Rica
+- Ecuador
+- El Salvador
+- Guatemala
+- Honduras
+- Nicaragua
+- Panama
+- Peru
+- Uruguay
+- Venezuela
+- Paraguay
+- Cuba
+- Dominican Republic
+- Haiti 4
+|}
+
+## Monroe Alliance
+Argentina can form this faction after backing the clean election, creating a country for all, and deciding against joining the Allies. After announcing the Monroe Alliance, the Second Argentine Republic invites all democratic nations of South and Central America as well as the Caribbean and puppets all fascist ones.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Argentina
+|
+- Chile
+- Brazil
+- Paraguay
+- Bolivia
+- Peru
+- Ecuador
+- Colombia
+- Venezuela
+- Dominican Republic
+- Haiti
+- Cuba
+- Panama
+- Costa Rica
+- Honduras
+- El Salvador 4
+|}
+
+## Organization of American States
+Democratic or non-aligned Brazil can form this faction by either repealing the national security laws, reviving the monarchy, or concentrating on creating the Estado Novo – followed by inflicting a good neighbor policy. After forming the Organization of American States, Brazil can invite all South and Central American as well as Caribbean states.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Brazil
+|
+- Argentina
+- Bolivia
+- Chile
+- Colombia
+- Costa Rica
+- Ecuador
+- El Salvador
+- Guatemala
+- Honduras
+- Nicaragua
+- Panama
+- Peru
+- Uruguay
+- Venezuela
+- Paraguay
+- Cuba
+- Dominican Republic
+- Haiti 4
+|}
+
+## Rome-Rio Pact
+Non-aligned or fascist Brazil can form this faction by either reviving the monarchy, working towards the Estado Novo or the Estado Moderno and then concentrating on the domination of the Americas. After looking towards Italy and forming the Rome-Rio Pact, Africa undergoes a Italian-Brazilian partition.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Brazil
+- Italy
+|}
+
+## Union of American Indigenous People
+Non-aligned Chile can form this faction after Carlos Ibáñez del Campo launches his coup, Manuel Manquilef starts to address the Mapuche conflict, and the indigenous people rise up to create their own state again. After their success, the Mapuche declare the Union of American Indigenous People and start a crusade against the European invaders – liberating all the indigenous nations across the Americas.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Chile
+|
+- Guaraní Nation
+- Inca
+- Mosquito
+- Maya
+- United Inuit States
+- Charrúa Nation
+- Itza
+- Isthmo-Amerindian State
+- Bolivia
+- Brazil
+- Mexico
+- Suriname
+- Samoa
+- Tahiti
+- Rapa Nui
+- United States
+- Canada
+- Haiti
+- Kingdom of Hawai'i 4
+|}
+
+# Factions added with Götterdämmerung
+wuw
+
+## Alpine Federation
+Democratic Austria can form this faction via seeking support from the Guarantors and then deciding not to join the Allies by completing the focus 'The Alpine Federation'.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Austria
+|
+- Switzerland
+- France
+- Italy
+- Yugoslavia
+- Romania
+- Czechoslovakia 2
+|}
+
+## Benelux Union
+Democratic Belgium can form this faction after the government resigns and a new Government of National Unity is formed. Following a royal intervention, Paul-Émile Janson becomes the new leader of the country, which then forms the Benelux Union by completing the focus of the same name. Via completing the focus 'The Council of Europe' though, this faction will in the end be replaced by the European Union.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Belgium
+- Belgian Congo
+|
+- Netherlands
+- Luxembourg
+|}
+
+## Central Powers (Austria)
+Non-aligned or fascist Austria can form this faction after regaining control over Hungary via the focus 'Reform the Central Powers'.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Austria
+|
+- German Reich
+- Turkey
+- Bulgaria
+|}
+
+## Danubian Bloc
+Communist Austria can form this faction after completing the focus 'Raiding Old Military Stockpiles' and then establishing the Danubian Bloc instead of joining the Comintern.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Austria
+|}
+
+## Danubian Federation (Austria)
+Democratic or non-aligned Austria under Otto von Habsburg can form this faction via completing the focus of the same name and then deciding against forming the European Union.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Austria
+|
+- Czechoslovakia
+- Romania
+- Yugoslavia
+- Bulgaria
+- Hungary
+- France
+- Luxembourg
+- Belgium
+- Netherlands
+- Turkey
+- Greece 3
+|}
+
+## Danubian Federation (Hungary)
+Democratic Hungary can form this faction via ending the White Terror, establishing the Second Republic and deciding for a Danubian Federation.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Hungary
+|
+- Czechoslovakia
+- Austria
+- Romania
+- Yugoslavia
+- Bulgaria
+- Transylvania 2
+|}
+
+## European Union (Austria)
+Democratic or non-aligned Austria under Otto von Habsburg can form this faction after finishing the focus 'The Danubian Federation', inviting the Observers and deciding against becoming the Protector of the Danube.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Austria
+|
+- Sweden
+- France
+- Luxembourg
+- Netherlands
+- Czechoslovakia
+- Poland
+- Lithuania
+- Estonia
+- Latvia
+- Spain
+- Romania
+- Greece
+- Denmark
+- Bulgaria
+- Portugal
+- Finland
+- Ireland
+- Hungary 4
+|}
+
+## European Union (Belgium)
+Democratic or communist Belgium can form this faction after the Belgian government has resigned. The country can then either form the Government of National Unity or put Émile Vandervelde in charge, both paths have the option to form the European Union.
+
+If you turn communist before uniting Europe though, the decision disappears. So it is wise to form the European Federation and then turn communist and become the Union of European Soviet Socialist Republics.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Belgium
+|
+- France
+- Luxembourg
+- Netherlands
+- Spain
+- Sweden
+- Czechoslovakia
+- Poland
+- Austria
+- Lithuania
+- Estonia
+- Latvia
+- Romania
+- Greece
+- Denmark
+- Bulgaria
+- Portugal
+- Finland
+- Ireland
+- Hungary 4
+|}
+
+## Habsburg Alliance
+Non-aligned Austria under Otto von Habsburg can form this faction after completing the focus 'The Legacy of an Empire' and then demanding Hungarian submission.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Austria
+|
+- Czechoslovakia
+- Hungary
+- Romania
+- Yugoslavia
+- Albania
+- Poland 2
+|}
+
+## Mitteleuropa (democratic)
+Germany can form this faction via winning the civil war, finishing the focus 'Monarchist Sentiment' and turning democratic. After the focus 'Realpolitik', the country can form this alliance. The decisions for members are more or less the same as for non-aligned Germany, despite as a democratic nation you can’t do the 'Carve up Czechoslovakia' and 'Reject the Locarno Treaty' focuses.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Germany
+|
+- Austria
+- Czechoslovakia
+- Yugoslavia
+- Greece
+- Albania
+- Bulgaria
+- Romania
+- Italy
+- Turkey
+- Iraq
+- Iran
+- Saudi Arabia
+- Yemen
+- Oman
+- Poland
+- Lithuania
+- Estonia
+- Latvia
+- Norway
+- Sweden
+- Denmark
+- Finland
+- China
+- Afghanistan
+- Bhutan
+- Nepal
+- Siam
+- Tibet
+- Ethiopia
+- Liberia 4
+|}
+
+## Mitteleuropa (non-aligned)
+Germany can form this faction via winning the civil war, finishing the focus 'Monarchist Sentiment' and turning non-aligned. After the focus 'Realpolitik', the country can form the alliance. The decisions for members are more or less the same as for democratic Germany, despite only as a non-aligned nation you can do the 'Carve up Czechoslovakia' and 'Reject the Locarno Treaty' focuses.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Germany
+|
+- Austria
+- Hungary
+- Czechoslovakia
+- Yugoslavia
+- Greece
+- Albania
+- Bulgaria
+- Romania
+- Italy
+- Turkey
+- Iraq
+- Iran
+- Saudi Arabia
+- Yemen
+- Oman
+- Poland
+- Lithuania
+- Estonia
+- Latvia
+- Norway
+- Sweden
+- Denmark
+- Finland
+- Netherlands
+- Belgium
+- China
+- Afghanistan
+- Bhutan
+- Nepal
+- Siam
+- Tibet
+- Ethiopia
+- Liberia 4
+|}
+
+## Organisation of African Unity
+The democratic Belgian Congo can form this faction after negotiating its freedom with Belgium via the 'Whispers of Independence' focus. This will automatically finish the 'Republic of Congo' focus, which unlocks the 'African Union' and 'Great War of Africa' focuses. With these, you can form the alliance, invite all independent African nations and get war goals against the Imperialist European countries.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Belgian Congo
+|
+- Algeria
+- Tunisia
+- Libya
+- Egypt
+- Mauritania
+- Senegal
+- The Gambia
+- Guinea-Bissau
+- Mali
+- Guinea
+- Kingdom of Sierra Leone
+- Liberia
+- Upper Volta
+- Ghana
+- Togo
+- Dahomey
+- Niger
+- Nigeria
+- Chad
+- Republic of Biafra
+- Cameroon
+- Sudan
+- Central African Republic
+- Equatorial Guinea
+- Gabon
+- Congo-Brazzaville
+- Eritrea
+- Djibouti
+- Somali Sultanate
+- Aussa
+- Ethiopia
+- Uganda
+- Kenya
+- Tanzania
+- Angola
+- Katanga
+- Zambia
+- Barotseland
+- Zimbabwe
+- Botswana
+- Malawi
+- Mozambique
+- Republic of Madagascar
+- Namibia
+- South Africa 4
+|}
+
+## Pride of the Golden Lion
+Fascist Belgium can form this faction after the Belgian government has resigned. Belgium then puts a Government of National Unity in place and after a royal intervention becomes ruled by Leon Degrelle. The Belgian Inquisitor supports the VNV and expands his territory to finally proclaim Belgica. Forming the alliance happens by deciding against the Axis and completing the focus 'Strength and Brotherhood'.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Belgium
+|}
+
+## Proletarian International
+Germany can form this faction after winning the first civil war, then turning communist via starting the proletarian revolution and igniting the second civil war. Either deciding for the Legacy of the Spartacus League or for proletarian dictatorship, the alliance is finally formed via completing the focus 'Spark The Flame of Revolution'.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Germany
+|
+- Austria
+- Italy
+- Czechoslovakia
+- Poland
+- Hungary
+- Denmark
+- Norway
+- Sweden 2
+|}
+
+## Royal Imperial Alliance
+Non-aligned Austria can form this faction by completing the focus 'The Legacy of an Empire' and deciding for allying with the United Kingdom, while the British are not in a faction.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Austria
+|
+- United Kingdom
+- British Malaya
+- British Raj
+- South Africa
+- New Zealand
+- Dominion of Canada
+- Australia 2
+|}
+
+## The Belgian Commonwealth
+Belgium can form this faction during its negotiations with the Belgian Congo about the colony’s freedom – when it is not a part of the Allies. Instead of demanding Congolese payment or outright fight the Congolese, Belgium can form this alliance with the Congo.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Belgium
+|
+- Belgian Congo
+|}
+
+## The Boma Accords
+The non-aligned Belgian Congo can form this faction after regaining its independence, assembling a Regency Council and reviving the Kingdom of Loango. Moa Poaty III then, after reclaiming Loango and occupying Cabinda, can form this alliance with either France or Portugal.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Belgian Congo
+|
+- France
+- Portugal
+|}
+
+## The Habsburg Alliance
+Non-aligned Kingdom of Hungary can form this faction after ending the regency, reinstating the Pragmatic Sanction of 1713 and inviting Otto von Habsburg to the throne. The Habsburg Prince then proclaims Transleithania, reunites with Austria and can form this alliance via completing the focus 'A Habsburg Alliance'.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Kingdom of Hungary
+|
+- Mexico
+- Poland
+- Spain
+- Ukraine
+- Albania
+- Sardinia-Piedmont
+- Papal States
+- Grand Duchy of Tuscany
+- Kingdom of the Two Sicilies 2
+|}
+
+# Factions added with Graveyard of Empires
+goe
+
+## Arab League
+Fascist Iraq can form this faction via rallying behind the Party of National Brotherhood, hindering the attempted assassination of Sidqi and strengthening the Golden Square. Instead of restoring the regent or joining the Axis, the country can then form the Arab League.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Iraq
+|
+- Saudi Arabia
+|}
+
+## Gulf Alliance
+Communist Iran can form this faction by establishing a National Front, rallying behind the united progressive parties and elevating the Iran Party. The focus 'Iranian Socialism' then forms the Gulf Alliance.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Iran
+|
+- Kurdistan
+- Azerbaijan
+- Afghanistan
+- Pakistan
+- Iraq
+- Kuwait
+- Saudi Arabia
+- Yemen
+- Oman 2
+|}
+
+## Indian-Prosperity-Sphere
+Democratic India can form this faction via choosing the road of independence, focusing on Mahatma Gandhi and (after the Indian independence) completing the focus 'Pledge for the Allies', while the United Kingdom is not in a faction.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- India
+|}
+
+## Islamic Brotherhood
+Democratic Iran can form this faction by establishing a National Front, rallying behind Mosaddegh and nationalizing the oil fields. Then, the country can finish the focus 'Islamic Brotherhood' to form the faction of the same name.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Iran
+|
+- Kurdistan
+- Afghanistan
+- Pakistan
+- Iraq
+- Kuwait
+- Saudi Arabia
+- Yemen
+- Oman 2
+|}
+
+## Ittehad-e Islami
+Fascist Afghanistan can form this faction via working against Kabul, remembering the Khost Rebellion and starting the Faquir’s revolt, which leads to the formation of the Emirate of Afghanistan. Then, the country can decide against joining the Japanese and for creating the Ittehad-e Islami.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Afghanistan
+|
+- Albania
+- Turkey
+- Iran
+- Iraq
+- Saudi Arabia
+- Yemen 2
+|}
+
+## Middle East Protectorate
+Non-aligned Iran can form this faction via declaring the Pahlavi Imperium, deciding for a legacy of greatness and root out the conspiracies to keep Reza Shah Pahlavi in charge. The country then needs to embrace industrial powers, which leads to joining the Axis and finally forming the Middle East Protectorate.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Iran
+|}
+
+## Middle East Treaty Organization
+Fascist Iraq can form this faction by rallying behind the Party of National Brotherhood, hindering the attempted assassination of Sidqi and curtailing Pan-Arabism. The focus 'Anti-Western Alliance' then forms the Middle East Treaty Organization.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Iraq
+|
+- Iran
+- Turkey
+- Afghanistan
+|}
+
+## OPEC
+Iraq can - with any ideology and excluding Kurdistan - form this faction after raising enough troops and nationalizing the Anglo-Iraqi Oil Company via the focus 'Form OPEC'. The country then can't join or create another faction anymore - and in case that has happened before, Iraq can't form OPEC anymore.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Iraq
+|}
+
+## Turko-Persian Union
+Fascist Afghanistan can form this faction via working against Kabul and exploiting Turko-Persian heritage.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Afghanistan
+|
+- Iran
+- Turkey
+- Iraq
+- Saudi Arabia
+- Palestine
+- Syria
+- British Raj 2
+|}
+
+# Factions added with No Compromise, No Surrender
+ncns
+
+## American Commonwealth
+Since the No Compromise, No Surrender DLC, the American Commonwealth is the faction which is led by the United States at the start of the game. Instead of for example forming the North-American Alliance or the Treaty of Reciprocal Assistance, Canada and the American nations will now be invited into the new US faction. If one wishes to create those factions, the American Commonwealth has to be dismantled.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- United States
+- Philippines
+|
+- Chile
+- Colombia
+- Costa Rica
+- Cuba
+- Ecuador
+- Haiti
+- Honduras
+- Panama
+- Philippines
+- Uruguay
+- Argentina
+- Paraguay
+- Brazil
+- Bolivia
+- Venezuela
+- Peru
+- El Salvador
+- Dominican Republic
+- Mexico 4
+|}
+
+## Asian Democratic Union
+The Asian Democratic Union can come into existence in two ways: The Chinese Soviet Republic can either first form the Chinese United Front and then transform it into the Asian Democratic Union after proclaiming the People’s Republic of China and becoming democratic or it can simply form it this way without having created another faction before.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Chinese Soviet Republic
+|
+- British Malaya
+- Burma
+- Dutch East Indies
+- India
+- Philippines 4
+|}
+
+## Fifth Communist International
+Communist Japan can form this faction if the Tokyo Metropolitan Police Department suppresses the Kōdōha faction’s coup, the Emperor nominates Abe Isoo and the major debate brings forth the Lecture Group, which works towards socialism in one state, forms the Fifth Communist International and spreads communism around the world.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Japan
+|
+- Mongolia
+- Tannu Tuva
+- Bhutan
+- Nepal
+- India
+- Afghanistan
+- Iran
+- Turkey
+- Iraq
+- Jordan
+- Syria
+- Palestine
+- Saudi Arabia
+- Oman
+- Yemen
+- Chile
+- Colombia
+- Costa Rica
+- Cuba
+- Ecuador
+- Haiti
+- Honduras
+- Panama
+- Uruguay
+- Argentina
+- Paraguay
+- Brazil
+- Bolivia
+- Venezuela
+- Peru
+- El Salvador
+- Dominican Republic 4
+|}
+
+## Hispanic Coalition
+The non-aligned Philippines can form this faction either via first signing the Treaty of Manila and then completing the focus 'Hispanic Overtures' or without signing the Treaty of Manila via first completing the focus 'Hispanic Overtures' and then declaring independence from the United States via the 'War of Independence' focus. All Central and South American nations can be invited – and annexed if Juan III becomes the Navy King, leading to the proclamation of the Hispanic Empire.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Philippines
+|
+- Chile
+- Colombia
+- Costa Rica
+- Cuba
+- Ecuador
+- Haiti
+- Honduras
+- Panama
+- Philippines
+- Uruguay
+- Argentina
+- Paraguay
+- Brazil
+- Bolivia
+- Venezuela
+- Peru
+- El Salvador
+- Dominican Republic
+- Mexico 4
+|}
+
+## Ma Clique Collective
+All of the four different Chinese Ma countries (Qinghai Ma, Khotan Ma, Ningxia Ma and Gansu Ma) can form this faction via their shared focus tree after developing inter-province ties, unifying training programs and strengthening regional trade as well as promising mutual defense via the focus 'Formalize the Ma Clique Collective'.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Qinghai Ma
+- Khotan Ma
+- Ningxia Ma
+- Gansu Ma
+|}
+
+## Nanjing Front
+Non-aligned China can form this faction after focusing on the Dang Guo and preparing for a change in leadership with the focus 'Lay the Foundation for a United China'.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- China
+|
+- Mongolia
+- Korea
+- Japan
+- Tibet
+- Bhutan
+- Nepal
+- India
+- Afghanistan
+- Burma
+- Philippines
+- Siam
+- British Malaya
+- Dutch East Indies
+- Australia
+- New Zealand 4
+|}
+
+## New Order in East Asia
+Fascist Japan can form this faction if the Imperial Japanese Navy’s Yokosuka Regiment suppresses the Kōdōha faction's coup and the country resolves the Harakiri Debate by appointing Senjūrō Hayashi and then Fumimaro Konoe as prime minister. The nobleman then forms this faction, which however is later replaced by the Greater East-Asian Co-Prosperity Sphere after completing the focus of the same name.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Japan
+|}
+
+## Pan-Asian Revolutionary Front
+Communist Japan can form this faction if the Tokyo Metropolitan Police Department suppresses the Kōdōha faction’s coup, the Emperor nominates Abe Isoo and the major debate brings forth the Labor-Farmer Faction, which works towards guiding the lesser states by forming the Pan-Asian Revolutionary Front, puppeting the other Asian nations and conquering Siberia from the Soviet Union.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Japan
+|
+- Tannu Tuva
+- Mongolia
+- Korea
+- Manchukuo
+- Mengjiang
+- Philippines
+- Siam
+- British Malaya
+- Dutch East Indies
+- Australia
+- New Zealand 4
+|}
+
+## Pan Pacific Trade Union Secretariat
+The communist Philippines can form this faction after staging a coup, declaring maritime communism and deciding against joining the Comintern.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Philippines
+|}
+
+## Popular Front
+Communist Manchukuo can form this faction after choosing assertiveness, questioning the Emperor’s authority and deposing Puyi. Zhao Shangzhi then coups Ma Zhanshan and forms this faction with the Chinese Soviet Republic.
+
+ {| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Manchukuo
+|
+- Chinese Soviet Republic
+|}
+
+## Sino-Japanese Anti-Communist Pact
+Fascist Japan can form this faction if the Imperial Japanese Navy’s Yokosuka Regiment suppresses the Kōdōha faction’s coup and the country resolves the Harakiri Debate by appointing Kazushige Ugaki as prime minster. The diplomat then reiterates the Three Principles of Hirota and forms this faction with China. However, it is only a temporary alliance. After 730 days, the pact will be dissolved and Japan can go on with forming the Greater East-Asian Co-Prosperity Sphere.
+
+ {| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Japan
+|
+- China
+|}
+
+## Southeast Asia Treaty Organization
+The Philippines can form this faction via selecting the 'Found the Southeast Asia Treaty Organization' event after signing the Treaty of Manila, becoming independent and founding the Department of Foreign Affairs.
+
+{| class="wikitable plainlist"
+! Starting members
+|- style="vertical-align:top"
+|
+- Philippines
+|}
+
+## The Japanese Sphere
+Non-aligned Japan can form this faction after supporting the Kōdōha faction’s coup, establishing the Gunbatso and restoring the Showa. The country then can decide against utilizing its Polish friendship or joining the Axis in order to form the Japanese Sphere.
+
+ {| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Japan
+|
+- Ethiopia
+|}
+
+## Warsaw Pact
+The Warsaw Pact can (like in real time) be formed by the Soviet Union after emerging victorious from a war with another major power - the German Reich in actual history. The country needs to first form the COMECON (which is only possible with at least one subject) and then finish the focus 'Found the Warsaw Pact'.
+
+{| class="wikitable plainlist"
+! Starting members
+! Possible members
+|- style="vertical-align:top"
+|
+- Soviet Union
+- Mongolia
+|
+- Republican Spain
+- Estonia
+- Latvia
+- Lithuania
+- Finland
+- Sweden
+- Norway
+- Denmark
+- Romania
+- Bulgaria
+- Greece
+- Yugoslavia
+- Turkey
+- Saudi Arabia
+- Afghanistan
+- Iran
+- Iraq
+- China
+- Chinese Soviet Republic
+- Manchukuo
+- Guangxi Clique
+- Yunnan
+- Shanxi
+- Xibei San Ma
+- Sinkiang 4
+|}
+
+# Generic faction names
+The following names are used by AI countries when creating ad hoc factions and have no particular historical background:
+
+## Communist
+- The Compact
+- Syndicate
+- The Combine
+- The Pact
+- The Bloc
+
+## Democratic
+- The Association
+- The Entente
+- The Concordat
+- The Union
+- Coalition
+- Federation
+
+## Fascist
+- Brotherhood of
+- Group
+- The League
+- The Confederacy
+- Confederation
+
+## Non-aligned
+- Defense League
+- The Congress
+- The Alliance
+- Confederate Nations
+- The Coalition
+
+# References

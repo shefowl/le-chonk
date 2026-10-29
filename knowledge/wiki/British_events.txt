@@ -1,0 +1,16 @@
+TITLE: British events
+URL: https://hoi4.paradoxwikis.com/British_events
+REVISION: 2025-08-24T17:30:00Z (rev 88837)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+This is a list of all United Kingdom's events (from events/Britain.txt).
+
+# id 1 - 10
+
+# id 11 - 20
+
+# id 21 - 27
+
+# Narvik (id 1 - 4)

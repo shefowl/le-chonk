@@ -1,0 +1,581 @@
+TITLE: Research
+URL: https://hoi4.paradoxwikis.com/Research
+REVISION: 2026-03-27T17:41:47Z (rev 99342)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Research is used to unlock technologies. These can serve to unlock new units, equipment or structures or to improve the performance of existing units, equipment and structures.
+
+# Technologies [verified for 1.16]
+
+- Land
+- Infantry technology: Technologies that improve infantry weapons and equipment, unlock or improve motorized and mechanized units as well as special forces (marines, mountaineers and paratroopers).
+- Artillery technology: Technologies that unlock and improve all types of artillery, including anti-tank, anti-air and rocket artillery.
+- Support Companies technology: Technologies that unlock and improve all types of support battalions: Engineers, Reconnaissance, Military Police, Maintenance, Field Hospital, Logistics and Signal companies.
+- Armor technology (different without No Step Back): Technologies that unlock all types and models of tanks, from light to super heavy chassis, as well as their variants: tank destroyer, self-propelled artillery and self-propelled anti-air.
+
+- Naval
+- Naval technology (different without Man the Guns): Technologies that unlock or improve all kinds of ship units: destroyers, light and heavy cruisers, battlecruisers, battleships, carriers, and submarines.
+- Naval support technology: With Man the Guns , the naval support research tree includes all technologies which are not direct derivatives of ship hulls. These technologies include for the most part new or improved naval weaponry.
+
+- Air
+- Air technology (different without By Blood Alone): Technologies that unlock or improve all types of airframes: light, medium or heavy, as well as their jet propulsion versions.
+
+- Industry
+- Engineering technology: Groups all technologies related to electronic engineering (computers, radios, cryptography), rockets, and atomic research.
+- Industry technology: Groups all technologies that improve production efficiency and volume of all factories, increase the excavation of resources, and unlock and improve synthetic refineries.
+
+- Special Projects
+- Special project: All technologies that are directly unlocked by completing certain special projects.
+
+# Research slots [verified for 1.16]
+
+Technology is unlocked by assigning a research slot to it for the required number of days.
+
+Some countries are defined with the base numbers of research slots, while other European countries have 3 and non-European countries have 2 by default. In addition to the base slots, countries can unlock additional research slots via their national focus trees (1~3 depending on the country). For most countries, they can not complete all these focuses in a game because they belong to different branches. Some of these focuses require some conditions, like having a substantial number of factories (usually 50+), and the Commonwealth countries must additionally become fully independent to maximize their available research slots.
+
+Yunnan, Xibei San Ma, Sinkiang, Shanxi, Guangxi Clique ( no ncns )
+- chi_public_education_reform
+
+Yunnan, Sinkiang, Shanxi, Guangxi Clique, Guangdong Clique, Sichuan Clique, Northeastern Army, Shandong Clique, Hebei-Chahar, Qinghai Ma, Gansu Ma, Ningxia Ma, Khotan Ma, Kumul Khanate
+- chi_expand_public_education
+
+Afghanistan
+- afg_expand_kabul_university
+Mutually exclusive:
+- afg_reform_1 ( non-aligned / democratic )
+- afg_darulaman_university ( fascist )
+
+Argentina
+- arg_technical_schools
+Mutually exclusive:
+- arg_university_reforms ( democratic )
+- arg_universidad_de_buenos_aires ( non-aligned )
+- arg_socialist_researchers ( communist )
+- arg_fascist_researchers ( fascist )
+
+Brazil
+- BRA_bonus_tech_slot
+Mutually exclusive:
+- BRA_tech_slot_1 ( fascist )
+- BRA_tech_slot_2 ( democratic )
+- BRA_tech_slot_3 ( communist )
+- BRA_royal_colleges ( non-aligned )
+
+Chile
+- CHL_advancements_in_telecommunications
+Mutually exclusive:
+- CHL_invite_french_academia ( non-aligned Rule by Decree)
+- CHL_strengthen_instituto_nacional ( democratic / communist )
+- CHL_controlled_education ( fascist )
+
+Iceland
+- ICE_industrial_research_school
+- ICE_expanding_the_university_of_reykjavik ( democratic / non-aligned )
+- ICE_international_research_community ( communist )
+
+Iran
+- per_educational_reforms
+Mutually exclusive:
+- per_imperial_funded_universities exclusivem per_open_abadan ( non-aligned )
+- per_fascist_secularism ( fascist )
+- per_royal_college_funding ( democratic )
+- per_communist_education_reform ( communism )
+
+Aussa, Tigray, Qemant State, Benishangul-Gumuz Nation, Gambela, Kingdom of Sidamo, Oromia, Emirate of Harar
+- HOA_the_grand_university_of_capital
+- HOA_the_capital_school_of_technology
+
+British Raj ( no goe )
+- raj_indian_defense_research
+- raj_indian_institute_of_science
+- raj_research_collaboration
+
+British Raj
+Mutually exclusive:
+- raj_indo_centric_curriculum ( fascist / communist / democratic )
+- raj_education_efforts ( democratic )
+- raj_to_shake_the_world ( democratic )
+- raj_education_efforts_2 ( fascist )
+- "Form Akhand Bharat" decision ( fascist Hindutva)
+- raj_planned_economy ( fascist Netaji)
+- raj_continue_the_five_year_plan ( communist )
+- raj_five_year_plan ( communist )
+- East India Company
+ - raj_privatized_tutelage
+ - raj_mineral_exploitation_institute
+ - raj_attract_scientists
+- Mughal Empire
+ - raj_halls_of_knowledge
+ - raj_halls_of_knowledge_2
+ - raj_halls_of_knowledge_3
+
+Philippines
+- phi_quezon_city_campus
+- phi_philippine_american_educational_foundation ( democratic Peg the Peso to the Dollar)
+- phi_philippine_military_academy
+
+Australia
+- ast_army_inventions_directorate
+- ast_fund_australian_defense_research
+- ast_research_collaboration
+
+Communist China ( no ncns )
+- PRC_literacy_programs
+- Has less than 5 research slots:
+ - PRC_china_medical_university
+ - PRC_form_the_academy_of_sciences
+
+Communist China
+- PRC_form_the_academy_of_sciences
+- PRC_the_peoples_republic
+Mutually exclusive:
+- PRC_lessons_of_the_west (The unwilling Diarchy)
+- PRC_reestablish_moscow_sun_yat_sen_university (Reclaim the Grasp of Power)
+- PRC_Establish_the_yanan_university (The Leadership of Mao Zedong)
+
+Warlords that have claimed the Chinese Soviet Tree
+- PRC_literacy_programs
+- Has less than 5 research slots
+ - PRC_china_medical_university
+ - PRC_form_the_academy_of_sciences
+
+China ( no ncns )
+- CHI_expand_the_academica_sinica
+- Has less than 5 research slots
+ - CHI_chemical_research_institute
+ - CHI_rural_schooling
+
+China
+- CHI_expand_the_academica_sinica
+- CHI_the_national_sun_yat_sen_University
+- CHI_unify_the_admissions_process ( non-aligned )
+- CHI_championing_the_cause_of_liberty ( democratic )
+
+Reorganized National Government of the Republic of China
+
+Warlords that have claimed the Focus tree of national China
+- CHI_expand_the_academica_sinica
+- Has less than 5 research slots
+ - CHI_chemical_research_institute
+ - CHI_rural_schooling (Reopen the National Assembly)
+
+Belgian Congo
+- Has less than 5 research slots
+ - COG_national_insitute_of_agronomic_study ( democratic )
+ - COG_socialist_education_reforms ( communist Invite Kwame Nkrumah to the Capital)
+ - COG_african_research_and_development_department ( communist Liberation by Force)
+ - COG_royal_university_of_higher_education ( non-aligned )
+- CONGO_establish_university_of_louvain (shared)
+- CONGO_research_grants (shared)
+
+Ethiopia
+- ETH_capital_school_of_technology
+- ETH_ethiopian_industrial_research_institute
+- ETH_communal_education ( communism )
+
+Iraq
+- irq_baghdad_colleges_of_engineering_and_education
+- irq_army_research_bonus
+- irq_kurdish_language (Kurdistan)
+
+Manchukuo ( no ncns )
+- man_law_university
+- man_research_and_education_department
+- man_social_research_unit exclusivem man_imperial_university
+
+Manchukuo
+- man_law_university
+- man_research_and_education_department
+Mutually exclusive:
+- man_imperial_university ( non-aligned / fascism Bolster Nationalism)
+- man_beiyang_university ( democracy The new Beiyang government)
+- man_research_cooperation_with_the_cpc ( communism Zhao Shangzi's Coup)
+- man_study_the_gassakusha (Japan puppet Strengthen the Concordia Association)
+
+Mexico
+- mex_focus_television_innovators
+- mex_focus_rural_schools exclusivem mex_focus_cientifico_camarilla
+- mex_focus_state_education( exclusivem mex_focus_church_schools
+
+Paraguay, Uruguay
+- GUAY_national_academy_of_sciences
+- GUAY_national_academy_of_sciences_2
+- GUAY_national_academy_of_sciences_3
+
+Portugal ( yes La Résistance )
+- POR_instituto_superior_tecnico
+- POR_military_research_facilities
+- POR_naval_research_institute
+
+South Africa
+- saf_fund_the_university_of_south_africa
+- saf_the_cape_defense_institute
+- saf_defense_collaboration_initiative
+
+Countries with 2 slots in 1936:
+- Dutch East Indies
+- Albania
+- Bhutan
+- Bolivia
+- British Burma
+- Bulgaria ( no Battle for the Bosporus )
+- Colombia
+- Costa Rica
+- Cuba
+- Dominican Republic
+- Ecuador
+- El Salvador
+- Guatemala
+- Haiti
+- Honduras
+- Oman
+- Jordan
+- Lebanon
+- Luxembourg
+- Mengkukuo
+- Mongolia
+- Nepal
+- Nicaragua
+- Palestine
+- Panama
+- Peru
+- Saudi Arabia
+- Siam
+- Syria
+- Tannu Tuva
+- Tibet
+- Venezuela
+- Yemen
+- Extra Research Slot
+- Extra Research Slot II
+- Technology Sharing
+
+Countries with 2 slots that don't exist in 1936:
+Altai Republic, Balochistan, Bukharan Republic, Buryatia, Central Indian Provinces, Chukotka, Croatia, Partisans, Don Republic, Evenkia, Federation of South Arabia, Greenland, Khakassia, Khiva, Khalistan, Karakalpakstan, Kalat, Kolhapur and Deccan, Kuban Republic, kurdistan, Manipur, Mysore, Osyakia-Vogulia, Madras States, Rajputana, Sindh, Sikkim, Taymyria, Yakutia, Yamalia, Andalusia, Algeria, Angola, Assyria, Bahmas, Bangladesh, Barotseland, British Antilles, Bahrain, Bhutan, Biafra, Belize, Botswana, Burundi, Central African Republic, Cayenne, Catalonia, Chad, Charrua, Cameroon, Curaco, Cyprus, Dahomey, Djibouti, Egypt, Equatorial Guinea, Eritrea, Fiji, Micronesia, Gabon, The Gambia, Guarani, Guadeloupe, Ghana, Galicia, Guinea, Guinea-Bissau, Guam, Guyana, Hawaii, Isthmo Amerindia, Omani Imamate, Inca, Inuit, Israel, Itza, Ivory Coast, Jamaica, Jan Mayen, Katanga, Kenya, Korea, Kuwait, Krygistan, Libya, Liberia, Madagascar, Maya, Miskito, Maldives, Mali, Malta, Malawa, Moldova, Morocco, Mauretania, Mozambique, Nahua, Navarra, Nigeria, Niger, Namibia, Pakistan, Papau-New Guinea, Pashtunistan, Puerto Rico, Qatar, Rapa Nui, Republic of Congo, RIF, Rio Grande, Rwanda, Samoa, Scotland, Senegal, Sierra Leone, Slovakia, Sami, Sokoto, Solomon Island, Somalia, Sri Lanka, Sudan, Suriname, Tahiti, Tajikistan, Turkemistan, Togo, Trinidad and Tobago, Tunisia, Tanzania, United Arab Emirates, Uzbekhistan, Upper Volta, Western Sahara, Welsh Argentinia, Wales, Yucatan, Zambia, Zimbabwe
+- Extra Research Slot
+- Extra Research Slot II
+- Technology Sharing
+
+New Zealand
+- nzl_department_of_scientific_and_industrial_research
+- nzl_national_defense_institute
+- nzl_expand_the_university_of_auckland
+- nzl_research_collaboration
+
+Norway
+- NOR_expand_norges_tekniske_hogskole
+
+Switzerland
+- Swiss decision Expand Arms Industry
+- SWI_weapons_of_democracy ( democratic )
+
+Austria
+- AUS_volkschule
+Mutually exclusive:
+- AUS_universitat_wien ( democratic / communist )
+- AUS_osterreichische_akademie ( non-aligned )
+- AUS_universitat_graz ( fascist )
+
+Lithuania, Latvia, Estonia
+- BALTIC_unchain_education
+- BALTIC_technology_sharing
+
+Belgium
+- BEL_royal_military_academy
+- BEL_val_benoit_institutes
+
+Bulgaria ( yes Battle for the Bosporus )
+- BUL_expand_sofia_university
+- BUL_vasil_levsky_national_military_university
+
+Canada
+- CAN_fund_the_national_research_council
+- CAN_defense_research_grants
+
+Czechoslovakia
+- Has less than 5 research slots
+ - CZE_bonus_research_slot_1
+ - CZE_bonus_research_slot_2
+ - CZE_war_college
+
+Denmark
+- DEN_expand_institut_for_teoretisk_fysik
+Mutually exclusive:
+- DEN_welcome_foreign_scientists ( democratic / communist )
+- DEN_expand_kobenhavns_university ( non-aligned )
+- DEN_experimental_technology ( fascist )
+
+Finland
+- FIN_suomen_akatemia
+Mutually exclusive:
+- FIN_finnish_learned_societies ( democratic / communist )
+- FIN_joint_scientific_program ( non-aligned )
+- FIN_intellectual_elite ( fascist )
+
+France
+- FRA_extra_research_slot
+- FRA_extra_research_slot_2
+
+Greece
+- GRE_academy_of_athens
+Mutually exclusive:
+- GRE_the_die_is_cast ( fascist Byzantium / democratic )
+- GRE_the_greek_industrial_revolution ( communist )
+- GRE_expansion_of_athens_university ( non-aligned )
+- GRE_cement_greco_german_ties ( fascist )
+
+Hungary ( no gtd )
+- HUN_institute_for_industrial_techniques
+- HUN_expand_the_technical_university_of_budapest exclusivem HUN_aeronautic_technology_institute
+
+Hungary ( yes gtd )
+- wuw_HUN_expand_the_hungarian_academy_of_sciences
+- wuw_HUN_budapest_university_of_technology_and_economics
+
+Netherlands
+- HOL_expand_RD_facilities
+- HOL_domestic_innovation
+
+Poland
+- POL_additional_research_slot1
+- POL_additional_research_slot2
+
+Romania
+- ROM_expand_the_university_of_bucharest
+- ROM_the_royal_foundation
+
+Nationalist Spain
+Mutually exclusive:
+- From spa_the_phalanx_ascendant
+ - SPA_develop_all_talent
+ - SPA_exemplify_the_art_and_science_of_warfare
+- SPA_direct_the_universities (requires Unify the Nationalist Front)
+- SPA_found_the_academia_vazquez_de_mella (requires Supremacy of the Communion)
+- SPA_utilize_the_intellectuals (requires Unify the Nationalist Front / Supremacy of the Communion)
+
+Republican Spain
+Mutually exclusive:
+- From Regional Defense Council of Aragon
+ - SPR_literacy_programs
+ - SPR_freedom_of_thought
+- From The Anti-Fascist Worker's Revolution
+ - SPR_invite_socialist_intellectuals
+ - SPR_beacon_of_socialism
+- From Maintain the Second Republic
+ - SPR_a_frontline_suited_for_intellectuals
+ - SPR_restore_higher_education
+
+Sweden
+- SWE_research_slot_1
+- SWE_research_slot_2
+
+Turkey
+- TUR_utilize_foreign_capital
+Mutually exclusive:
+- TUR_reinstate_the_darulfununu_sahane (Ottoman Empire)
+- TUR_edirne_research_exchange ( non-aligned )
+- TUR_expanded_credit_on_our_debts ( democratic )
+- TUR_cooperative_research_centers ( fascist )
+- TUR_the_international_of_proletarian_freethinkers ( communist )}}
+
+Yugoslavia
+- YUG_expand_the_university_of_zagreb
+- YUG_expand_the_university_of_ljubljana exclusivem YUG_expand_the_university_of_belgrad
+
+Japan ( no ncns )
+- JAP_fund_the_riken_institute
+Mutually exclusive:
+- JAP_open_up_the_universities ( communism )
+- JAP_expand_the_showa_research_association ( fascism )
+- JAP_national_research_policy ( non-aligned )
+- JAP_research_spending ( democracy )
+
+Japan
+- JAP_fund_the_riken_institute
+Mutually exclusive:
+- JAP_overhaul_the_education_system ( communism )
+- JAP_expand_the_showa_research_association ( fascism )
+- JAP_politicize_the_education_system ( non-aligned )
+- JAP_reorganize_tokyo_imperial_university ( democracy )
+
+Countries with 3 slots in 1936:
+- Ireland
+- British Malaya
+- Portugal ( no La Résistance )
+- Extra Research Slot
+- Extra Research Slot II
+
+Countries with 3 slots that don't exist in 1936:
+Abkhazia, Italian East Africa, Armenia, Azerbaijan, Bavaria, Belarus, Bosnia, Brittany, Bashkorsostan, Cambodia, Cabo Verde, Chuvashia, Chechnya-Ingushetia, Corsica, Crimea, CSA, Dagestan, Danzig, Far Eastern Republic, Generalgouvernement, Georgia, Hanover, Hesse, Herzegovina, Hyderabad, Kalmykia, Karelia, Kashmir, Kazakhstan, Kabardia-Balkaria, Komi Republic, Kosovo, Kashubia, Laos, Lombardy Venetia, Macedonia, Mecklenburg, Mari El, Montenegro, Nenetsia, Nothern Ireland, North Ossetia-Alania, Northwestern-Frontier-States, Occitania, Papal States, Prussia, Quebec, Reichskommissariat Australasien, Reichskommissariat Anden, Reichskommissariat Arabien, Reichskommissariat Kolumbus, Reichskommissariat Großbritannien, Reichskommissariat Hindustan, Rhineland, Reichskommissariat Mittelafrika, Reichskommissariat Belgian, Reichskommissariat Norwegen, Reichskommissariat Balkan, Protektorat Böhmen-Mähren, Reichskommissariat Kaukasien, Reichskommissariat Iberien, Reichskommissariat Ural, Reichskommissariat Moskowien, Reichskommissariat Niederlande, Reichskommissariat Ostland, Reichskommissariat Turkestan, Reichskommissariat Ukraine, Reichskommissariat Klein-Venedig, Reichskommissariat Nordafrika, Reichskommissariat Ostasien, Reichskommissariat Nordamerika, Saxony, Serbia, Schleswig-Holstein, Silesia, Slovenia, Sardinia-Piedmont, Tatarstan, Thuringia, Tuscany, Transylvania, The Two Sicilies, United Baltic Duchy, Udmurtia, Ukraine, USB, Volga Germany, Vietnam, Vladivostok, Western Indian States, Baden-Württemberg
+- Extra Research Slot
+- Extra Research Slot II
+
+Soviet Union
+- SOV_the_ussr_academy_of_sciences
+- SOV_leningrad_polytechnical_institute
+- SOV_socialist_humanism (requires SOV_the_right_opposition)
+
+Germany
+- GER_develop_heraeus_facilities
+
+United Kingdom
+- uk_extra_tech_slot
+
+Germany ( no gtd )
+- GER_develop_heraeus_facilities
+- GER_reverse_the_brain_drain ( democracy )
+
+Italy
+- ITA_expand_national_universities
+- ITA_il_sol_dell_avvenire ( communism )
+- ITA_scientific_cooperation ( democracy )
+
+United States
+- USA_scientist_haven
+- USA_office_of_scientific_research_and_development (requires Continue the New Deal)
+- USA_institute_of_american_sciences (requires Reestablish the Gold Standard)
+
+Countries with 4 slots that don't exist in 1936:
+- East Germany
+- West Germany
+- Extra Research Slot
+- Extra Research Slot II
+
+Each research slot can store up to NTechnology BASE_RESEARCH_POINTS_SAVED points of "Days Saved" without being assigned to a specific tech. "Days Saved" functions as days added to research progress once a tech is chosen for the slot. See research speed.
+
+# Research time [verified for 1.16]
+
+Each technology has a base time cost. They are multiples of the standard base cost of 110 days.
+
+Cost (Days): 55
+Example Technologies: Basic Cruiser Armor Scheme , Small-Caliber Semi-Armor Piercing Shell
+
+Cost (Days): 82
+Example Technologies: Improved Airplane Catapult
+
+Cost (Days): 110
+Example Technologies: Support Equipment , Improved Anti-Air , Fuel storage
+
+Cost (Days): 137
+Example Technologies: Engineer Company I , Cavity Magnatron
+
+Cost (Days): 165
+Example Technologies: Basic Infantry equipment , Civilian Train , Towed Anti-Tank
+
+Cost (Days): 192
+Example Technologies: Early Heavy Ship , Reinforced Mothership Wings
+
+Cost (Days): 220
+Example Technologies: Infantry Equipment II , Towed Rocket Artillery , Radio
+
+Cost (Days): 275
+Example Technologies: Night Vision I , Mechanical computing , Streamlined line
+
+Cost (Days): 330
+Example Technologies:
+Mechanized Equipment III , Synthetic oil experiments , Super-Heavy Tank Chassis
+
+Cost (Days): 550
+Example Technologies: Atomic Research
+
+# Research speed [verified for 1.16]
+
+Base research cost represents the time it takes to research a specific technology. In practice, this cost will likely vary each time due to different research modifiers being applied (for better or for worse).
+
+Research speed modifiers stack additively to research speed (rather than subtractively to research cost). For example, 110 days base cost at 15% research speed bonus will take:
+
+{{#tag:math|\left\lceil\frac{ 110 }{1+15\%}\right\rceil= 96 }} days.
+
+"Days Saved" are subtracted from the modified expected number of days. Thus, "Days Saved" benefit from (or are penalized by) the same research speed modifiers.
+
+The aggregate research bonus is calculated and updated every day. Thus changes in research speed (except limited-use bonuses) apply to all ongoing research.
+
+Research speed cannot fall below NTechnology MIN_RESEARCH_SPEED y of the default speed.
+
+# Research modifiers
+## Difficulty
+The player can get a research speed bonus or penalty depending on the game difficulty setting as follows:
+- Civilian: +15% bonus
+- Recruit: +7% bonus
+- Regular: no bonus or penalty
+- Veteran: –15% penalty
+- Elite: –30% penalty
+
+## Trade law
+(Main article: Ideas, Trade laws)
+Trade laws can also increase research speed. The more open the trade the higher the reduction as can be seen below.
+- Free Trade: +10% bonus
+- Export Focus: +5% bonus
+- Limited Exports: +1% bonus
+
+## Technologies that increase research speed
+
+Technology: Electronic mechanical engineering
+Year: 1936
+Research speed: +3%
+
+Technology: Mechanical computing
+Year: 1936
+Research speed: +4%
+
+Technology: Computing machine
+Year: 1938
+Research speed: +5%
+
+Technology: Improved computing machine
+Year: 1940
+Research speed: +8%
+
+Technology: Atomic research
+Year: 1940
+Research speed: +4%
+
+Technology: Advanced computing machine
+Year: 1942
+Research speed: +8%
+
+## Limited-use bonuses
+Limited-use bonuses are awarded by National Focuses. Once available, a limited-use research bonus is activated when a Research Slot is assigned to an applicable technology. Once activated, the limited-use bonus is tied to the technology even if the slot is re-assigned. However, the game does give a grace period of 3 days to switch the bonus to a different applicable technology with the same slot.
+
+A limited-use bonus can additionally act as an ahead-of-time bonus, reducing the ahead-of-time penalty by the stated amount.
+
+Some naval technologies and naval support technologies allow the player to spend navy exp to acquire a one-time research speed bonus for them. These bonuses apply on top of any existing one-time bonuses that would be expended alongside them.
+
+## Equipment licensing
+When licensing equipment from another country, researching that equipment gets a speed bonus of NTechnology LICENSE_PRODUCTION_TECH_BONUS y. For equipment that uses designs, such as tanks (with No Step Back ), ships (with Man the Guns ), and aircraft (with By Blood Alone ), the bonus only applies to technologies for the chassis, hulls, and airframes, not to any module technologies for components of the licensed design(s).
+
+## Technology sharing
+When a country is part of a research group, it gets a research speed bonus for each other country in the group that has already unlocked that technology, up to NTechnology MAX_TECH_SHARING_BONUS y. Tech sharing bonus functions in the same way as Limited-use bonus: once applied, the bonus is locked to the tech; changes in the country's tech sharing situation will only reflect in future research. Subjects can benefit less from technology sharing, depending on their autonomy level.
+
+## Other sources of research bonus
+Various national spirits, political advisors, and design companies can continuously improve research speed for applicable technologies while they are active.
+
+With Arms Against Tyranny , military industrial organizations can be assigned to perform research, providing a research speed bonus at the cost of daily political power .
+
+# Ahead-of-time penalty
+All technologies have a date attached to them when they become current. Researching them earlier comes at the cost of reduced research speed. Each year ahead-of-time adds a 2 ahead-of-time (AOT) penalty. Ahead-of-time bonuses from national focuses can reduce this penalty modifier. For research ahead of time, the in-game tool-tip displays the estimated time to completion using the formula below.
+
+A technology starting to research years before the date it becomes current, with a base research cost of days and aggregate research bonus at %, will take days to complete, where {{#tag:math|\text{AOT} = 2 }} without any penalty reductions from national focuses. This assumes the research starts with a speed higher than the minimum and finishes before the technology becomes current. It is also subject to a small approximation error (unlikely to be noticed in-game). The formula is derived by solving the following integral equation for (in days):
+
+If part of the research is not under penalty (i.e., in the equation above), the estimated time-to-completion with an AOT of 2 is {{#tag:math|365\left(T+\frac{N}{365\left(1+B\%\right)}-\frac{\ln\left(2T+1\right)}{ 2 }\right) }} days.
+
+For example, at exactly one year before a tech becomes current, research speed on that tech is modified by multiplicative factor of . As research speed is re-calculated every day, the speed penalty goes down while a technology is being researched. Half a year later, the penalty is down to . Regular research speed modifiers apply linearly. Thus regular country-wide research bonus does not alleviate AOT penalties. If a 50% ahead-of-time bonus is active as shown in in-game tooltip, 0.5 is taken off the AOT penalty. Thus, at 1 year ahead-of-time, the research speed is modified by instead of without the bonus; similarly, at half a year ahead-of-time, the AOT penalty is reduced to from without bonus.
+
+Below is a Python script to calculate the time it will take to research a technology, given its base cost, bonuses and AOT penalty.
+
+res_perc = 0.0
+time = 0
+base = 170 # Base Cost
+bonus = 0.34 # Research Speed Bonus
+aot = 0.47 # Ahead-of-time penalty (not years ahead)
+base /= 1+bonus
+while res_perc<1:
+ res_perc += 1/base/(1+aot)
+ aot -= 2/365
+ if aot<0: aot = 0
+ time += 1
+print(time) # Prints total time needed
+
+# References

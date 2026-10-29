@@ -1,0 +1,274 @@
+TITLE: Diplomacy
+URL: https://hoi4.paradoxwikis.com/Diplomacy
+REVISION: 2025-09-04T05:52:02Z (rev 89558)
+VERIFIED FOR: 1.9
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+For the most part, Diplomacy in Hearts of Iron 4 is bilateral, meaning all relations, offers and requests are done one to one, between the player and the target country or between two AI countries. The exception to this is when a faction is created. All members of a faction will join defensive wars together and may also invite other faction members to join offensive wars along with the aggressor.
+
+Additionally, diplomacy is not symmetric. This means that all variables affecting the opinion of another country or the likelihood to accept an offer are completely independent for each country. For example, the player country may have positive relations with another country while that country might have negative relations with the player. Relations can be increased by being in the same faction, having the same Ideology, by Guaranteeing, through trading or improving relations.
+
+# Diplomatic actions [verified for 1.9]
+
+There are a number of diplomatic actions in the game. All the diplomatic actions in the following table are the primary action, all the actions that are cancellable have a related diplomatic action that becomes available once the primary action is taken. It will also replace the primary action in the diplomatic menu. The only exceptions are Expeditionary Force, which will be cancelled by "Return Expeditions", and Ask for control of State, which will be cancelled by "Give control of State".
+
+Action: Declare war
+Description: Only way to start a new war.
+Requirements: War goal on the target country.
+Conditions to cancel:
+- War has been ongoing for more than 6 months.
+- Must be faction leader.
+- Must be on the losing side.
+- The war score of the winning side is at least 50%.
+
+Action: Justify War goal
+Description: Begin justifying a war goal against another country.
+Requirements:
+- Target country must not be an ally.
+- Variable amount of political power . Amount increases as World Tension rises. Amount is also modified by Subversive activities modifiers. Minimum of 2 political power .
+Conditions to cancel: | None
+
+Action: Guarantee independence
+Description:
+Guarantee the independence of another country. If anyone declares war on a guaranteed nation, that guaranteed nation will automatically join the faction of the guarantor.
+
+Exception: If a nation guarantees both the nation that declares war and the nation that war is being declared upon, the guaranteeing nation will not automatically intervene.
+Requirements:
+- Target country has the same ideology.
+- Costs 15 political power , +15 political power for each country already guaranteed.
+- World Tension threshold reached.
+Conditions to cancel:
+|
+- Target country does not guarantee you.
+
+Action: Call to arms
+Description: Calls an ally into a war.
+Requirements: Is a member of the same faction.
+Conditions to cancel: Cannot be cancelled.
+
+Action: Ask for military access
+Description:
+Military access allows moving troops through the territory of another country, allied or not. Military access is granted automatically to members of the same faction.
+Requirements: Target country must accept.
+Conditions to cancel: No troops on the target country's territory.
+
+Action: Offer military access
+Description:
+Offer to provide military access to another country. If they accept, it will not automatically grant you military access.
+Requirements: Target country must accept.
+Conditions to cancel:
+The target country has no troops on the territory of the country that has been granting access.
+
+Action: Ask for docking rights
+Description:
+Docking rights allow moving ships into the ports of another country, allied or not. Docking rights are granted automatically to members of the same faction. Docking rights extends the naval range of your naval units.
+Requirements: Target country must accept.
+Conditions to cancel: None.
+
+Action: Offer docking rights
+Description:
+Offer to provide docking rights to another country. If they accept, it will not automatically grant you docking rights.
+Requirements: Target country must accept.
+Conditions to cancel: None.
+
+Action: Improve relations
+Description:
+Start improving relations between you and the target country up to +100 over time. Relation affects trade influence and the success likelihood of other diplomatic actions.
+Requirements:
+- Must not be at war with target country.
+- Costs 10 political power , +0.2 political power per day if both countries have the same ideology and +0.4 political power per day with differing ideology.
+Conditions to cancel: | None
+
+Action: Send Attaché
+Description:
+Sends an attache to a country. This gives the sender additional army exp and war support . They can also see the receiver's military positioning.
+Requirements:
+- Target must be at war.
+- 100 political power to send the attaché.
+- 50 cp is used to maintain the attaché.
+Conditions to cancel: None.
+
+Action: Non-aggression pact
+Description:
+Having a non-aggression pact (NAP) disables "Justify War goal" and "Declare war" diplomatic actions.
+Requirements: Target country must accept.
+Conditions to cancel:
+Not cancellable without having a common border or within the first 12 months of the pact. After 12 months, the ability to break a NAP will depend on the relative size of armies along the common border. Up to 18 months past the NAP, the country will require a 2:1 ratio of troops compared to its opponent on the common border. Between 18 and 24 months, a 1:1 ratio is required. Past 24 months after the NAP, a 1:2 ratio is required to break the pact. NAPs dissolve after 48 months.
+If you declare war on a third country which is guaranteed by a country you have a NAP with, this country will join the war against you nevertheless.
+
+You cannot justify a war goal or declare war on a member of another faction if you have a NAP with that faction's leader.
+
+Action: Invite to faction
+Description: Invite another country to your faction.
+Requirements:
+- Faction leader.
+- Target country must accept.
+- Requires popularity of inviting country's ideology > 30%.
+Conditions to cancel:
+- Must not be faction leader.
+- Must not be in war with other faction members.
+- If a country has been kicked from a faction, 90 days must pass before they are allowed to rejoin it.
+
+Action: Request License Production
+Description:
+Requests production licenses for specified equipment from target country, allowing you to produce that equipment yourself and research the technology to unlock it faster. Civilian factories are used to pay for the license.
+Requirements: Target country must accept.
+Conditions to cancel: 30 days minimum must pass before a license can be cancelled.
+
+Action: Create faction
+Description:
+If you are not already in a faction and a National focus allows you to create a faction, you may invite another country to create a new faction.
+Requirements:
+- Same ideology.
+- Target country must accept.
+Conditions to cancel:
+|
+- Must not be faction leader.
+- Must not be in war with other faction members.
+
+Action: Join faction
+Description: Allows you to join a faction. Will automatically join existing war(s).
+Requirements:
+- Target country must be faction leader.
+- Must not be in a faction.
+- World Tension threshold reached.
+- Faction leader must accept.
+Conditions to cancel:
+|
+- Must not be in war with other faction members.
+- May not Leave Faction if already in a war as part of the faction.
+
+Action: Start Lend lease
+Description:
+Send any equipment to another non-enemy country currently at war. It's possible to send a single shipment of a specified amount, or set a specified monthly amount or percentage of monthly production to be sent. Shipments occur once per month and information on past and present shipments is available in a tooltip for the Lend-Lease section at the top of the Recruit/Deploy window.
+Requirements:
+- Target country must have enough convoys to receive the equipment, unless there's an unobstructed land path.
+- World Tension threshold reached.
+Conditions to cancel:
+| None. Click on the Lend Lease action to modify or cancel Lend Lease instructions.
+
+Action: Request lend lease
+Description:
+Ask a country to send lend-lease of specific equipment archetypes. The selection screen shows the stockpile and production rates of the target country.
+Requirements:
+- Target country must accept.
+- Must be at war.
+Conditions to cancel: None
+
+Action: Join wars
+Description: Allows you to join the war of another faction member.
+Requirements:
+- Must not already be in war with allies.
+- Target country must be faction leader.
+Conditions to cancel: | Not cancellable
+
+Action: Send Volunteers
+Description:
+Send a limited number of divisions to a country. Control over the units is retained, but return only when donor is at war.
+Requirements:
+- Target country must be at war.
+- Must be at peace.
+- Must not be in the same faction as the target country.
+- Total number of divisions threshold reached.
+- World Tension threshold reached.
+Conditions to cancel: | None
+
+Action: Expeditionary Force
+Description:
+Send an unlimited number of divisions to a fellow member of the faction. Control over the units is transferred.
+Requirements:
+- Must be fighting a war together.
+- Target country must be an ally.
+- Target country must accept.
+- Divisions must be on land.
+Conditions to cancel:
+| Donor must activate Return Expeditions to recover Divisions. A target country Disband order to Expeditions returns them to donor.
+
+Action: Return Expeditions
+Description:
+Recovers control over all units currently sent as Expeditionary force to the target country.
+Requirements: None
+Conditions to cancel: None
+
+Action: Request forces
+Description:
+Gives control over a selected number of divisions that are part of the military of the target country.
+Requirements: Target country must be our puppet.
+Conditions to cancel: A Disband order to the requested forces returns them to the puppet.
+
+Action: Boost party popularity
+Description:
+Increases the popularity of the target country's local party with the same ideology. With La Résistance , this diplomatic action is replaced by the Boost Ideology mission.
+Requirements: Costs 0.25 political power per day
+Conditions to cancel: None
+
+Action: Stage a coup
+Description:
+Starts preparations for a Coup d'État in the target country. The most common effect is to start a civil war in the country. The result of this action will depend on the popularity of the political party belonging to your ideology. With La Résistance , this diplomatic action is moved to the Orchestrate Coup operation.
+Requirements:
+- 200 political power or more, accumulating at a maximum rate of political power per day. This cost is modified by Subversive Activities modifiers.
+- Thousands of infantry equipment.
+Conditions to cancel: | None
+
+Action: Ask for control of state
+Description: Ask current controller of an occupied State to give up control.
+Requirements:
+- Must be in a war together.
+- Must have sufficient war contribution.
+- Target country must accept.
+- Target State must not be considered a Core of the target country.
+Conditions to cancel:
+| Can (in theory) be canceled through the "Give control of state" action. Otherwise not cancellable.
+
+Action: Give control of state
+Description: Give control of one or multiple occupied States.
+Requirements: Target country must accept.
+Conditions to cancel:
+Can (in theory) be canceled through the "Ask for control of state" action. Otherwise not cancellable.
+
+Action: Reduce subject autonomy
+Description: Reduces a subject's autonomy level.
+Requirements:
+- The subject's autonomy is low enough to be reduced a level.
+- Can afford the political power cost.
+Conditions to cancel: Cannot be cancelled.
+
+Action: Request Garrison support
+Description: Ask a puppet or faction member to provide manpower to fill garrisons.
+Requirements: Target country must accept.
+Conditions to cancel: None.
+
+Action: Issue trade embargo
+Description: Prevents trade with another country
+Requirements:
+- Requires By Blood Alone
+- Must not be at war with the target country
+- Must not be in the same faction
+- Target country has generated a certain amount of World Tension
+- Can afford the political power cost
+
+## Additional information
+- Guarantee independence: The political power cost will start at political power for the first guarantee and will then increase by 15 for every subsequent guarantee, in the following fashion: political power for the second, political power for the third, political power for the fourth, and so on.
+- Ask for Military Access: Once military access is granted (either explicitly via this diplomatic action or by being in the same faction), the granting nation becomes eligible to claim for provinces that you capture, as explained in the Territorial Control article.
+- Join faction and Create faction: the conditions to cancel these diplomatic actions are essentially the same. They're the conditions to activate the Leave faction diplomatic action, except that you cannot be the faction leader when you join a faction. The tooltip does not warn you, but if you go to war along with the faction then you may not leave it, so Leave Faction is timely in the event of a Call to Arms.
+- Start Lend Lease: the amount of production that can be sent to the target country can be a fixed number of units out of the monthly production or a percentage of the monthly production, but not both at the same time. It's possible to modify the Lend lease at will. For further discussion of Lend-lease, refer to the corresponding section.
+- Stage a Coup: This diplomatic action also requires to select the State of origin of the civil war. At the onset of the civil war, the rebelling State will be joined by a number of other States, the number of which will vary based on the proportional party popularity when the full political power requirement is filled. For this reason, Stage a Coup is more effective when combined with "Boost party popularity" to well over 50%. The amount of infantry equipment required appears to be a function of the target country's civilian population. The more populous the country, the more infantry equipment a nation has to give in preparation for the civil war. Coups will automatically succeed with over 40% party popularity if performed in a country with only one state. Otherwise a successful coup will start a civil war. For further information about civil wars, refer to the Civil War article.
+- Diplomatic pressure: With La Résistance , an operative can perform the Diplomatic Pressure mission to make a target country more willing to accept a faction invitation or sign a non-aggression pact. It also makes the target country less inclined to do these deals with other countries.
+
+# World tension
+(Main article: World tension)
+ World Tension acts as a measurement of how close the game is to another world war. Many diplomatic actions are limited by world tension. Annexing countries, joining factions, declaring war on nations are all examples of things that increase world tension. World tension does decay over time, but very slowly.
+
+Generally speaking, fascist and communist powers want world tension to stay low to delay their enemies' rearmament and diplomatic efforts against them, while non-aligned and democratic powers want world tension to increase quickly so that they can rearm their militaries earlier and intervene in foreign wars.
+
+When world tension is high, a country that has war declared upon it is likely to accept an offer to join from a faction of the same ideology.
+
+# References
+
+hoi4de:Diplomacy
+hoi4es:Diplomacy
+hoi4fr:Diplomacy
+hoi4pl:Diplomacy
+hoi4pt:Diplomacy
+hoi4ru:Diplomacy

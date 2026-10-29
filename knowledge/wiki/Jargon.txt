@@ -1,0 +1,428 @@
+TITLE: Jargon
+URL: https://hoi4.paradoxwikis.com/Jargon
+REVISION: 2025-11-05T00:15:33Z (rev 91304)
+VERIFIED FOR: Timeless
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Hearts of Iron 4, and the communities surrounding it, have their own jargon, including slang terms and acronyms.
+
+# Acronyms and initialisms
+Here are some of the common acronyms in the game and in discussions surrounding it:
+
+- AA
+- Anti-air - Can be used in multiple contexts. Most common are state anti-air and divisional anti-air (battalions or companies that use anti-air equipment such as Anti-aircraft artillery and Self-Propelled anti-air).
+- AAA
+- Anti-aircraft artillery - Artillery designed to shoot down enemy aircraft.
+- AC
+- Armored Car - wheeled (not tracked) lightly armored military vehicle typically used for reconnaissance and security.
+- In multiplayer, more commonly used to refer to a faction's air controller player (see jargon section).
+- AH
+- Alternate History, Austria-Hungary, or Adolf Hitler.
+- AAR
+- After action report - A player's recounting of their game. For more detail, see the AAR section.
+- AAT
+- The Arms Against Tyranny DLC.
+- AI
+- Artificial intelligence - What controls all nations that are not being played by humans. (In the context of Hearts of Iron 4, this term uses a very loose definition of "intelligence".)
+- AIOC
+- Anglo-Iranian Oil Company.
+- APC
+- Armored Personnel Carrier - an armored fighting vehicle for carrying infantry soldiers in combat or Armor Piercing Capped - an armor piercing shell type used in anti-tank guns and naval guns.
+- ARM
+- Armor, including light (LARM), medium (MARM), heavy (HARM), and super-heavy (SHARM) varieties.
+- ASW
+- Anti-submarine warfare - the use of ships and planes to find and destroy enemy submarines. This is usually the main task of destroyer escorts in combat.
+- ART
+- Artillery, including support, line, or self-propelled (see also SPxx). Also "Arty". See also RART.
+- AT
+- Anti-tank - Designates units with a high hard attack and piercing value, can be artillery or self-propelled.
+- BB
+- Battleship - Most powerful type of ship equipped with guns.
+- BBA
+- The By Blood Alone DLC.
+- BBB
+- Super heavy battleship - Heavily armored and gunned battleship, sometimes designated as SHBB.
+- BC
+- Battlecruiser - Lightly armored battleship, served as a fast convoy attack ship, but can be used in the same role as a BB in HoI4.
+- BFTB of BftB
+- The Battle for the Bosporus DLC.
+- BP
+- Battleplan - Mechanic used in HoI4 to simplify defensive or offensive management of divisions.
+- Brigade
+- A term used in the names of historical units, also informally to refer to a tactical formation of one or more regiments and other assets, a tactical force of comparable size, a collection of varied troops grouped together, or other colloquial meanings. To avoid confusion, it should not be used interchangeably with "regiment" to describe a combat unit column in a division template. Rectangular infantry divisions, common in World War One, were composed of 2 brigades each of 2 regiments.
+- BS
+- Battlefield Support - the air doctrine tree that benefits Close Air Support the most.
+- btn
+- The common term in HoI4 for the smallest unit, other than support companies, when designing a division or an abbreviation for battalion.
+- CA
+- Heavy Cruiser - Large sized cruiser, can fit multiple roles.
+- CAG
+- Carrier air group - The planes attached to an aircraft carrier.
+- CAP or cap
+- More commonly, short for capitulation or surrender.
+- Less commonly, Combat Air Patrol, fighter planes flying overhead to protect their target from enemy planes.
+- CAS
+- Close air support - Airplanes specialized in combat role, inflicts Organization and Hit points damage to enemy divisions during battle.
+- CASNAV or NAVCAS
+- Naval bomber aircraft designs that also have a lot of close air support weapons, letting them act as either CAS or NAVs as needed.
+- CAV
+- Cavalry - Combat units mounted on horseback, available in many nations at the start of the war, and often favored for partisan suppression.
+- CB
+- Casus belli - Cause for war, term carried over from other Paradox games with the same meaning as the possibilities for Justifying War Goal (Conquer, Puppet, etc.).
+- Less commonly, large cruisers, which describe special ship types that use cruiser armor but can equip heavy gun batteries, e.g., Panzerschiffs and Coastal Defense Ships.
+- CiC
+- Construction industrial capacity - Capacity provided by Civilian factories for the construction of any structure in HoI4.
+- CinC
+- Commander-in-chief. The term is never used in HoI4 itself, but players may use it to designate various things such as the Chief of Army.
+- Civs
+- Same as CiC.
+- CL
+- Light cruiser - Ship used in screening role and sometimes anti-air role.
+- CNO
+- Chief of Naval Operations. The term is never used in HoI4 itself, but players may use it to designate various things such as the Chief of Navy.
+- CSC
+- Constant Conversion, a cheesy strategy that allows certain expensive equipment to be produced at a fraction of its normal resource costs through the use of equipment conversion (see jargon section).
+- CTD
+- Crash To Desktop - Frequently used in patch notes.
+- CTF
+- Commander of Task Force or Carrier Task Force.
+- CUF
+- Chinese United Front
+- CV
+- Aircraft carrier - Ship capable of transporting airplanes of three types: fighter, CAS or naval bomber.
+- CVE
+- Escort Aircraft Carrier - a shorter and slower carrier with fewer planes, but was cheaper and quicker to build. Usually converted from a cruiser when playing with Man the Guns. Historically, used to defend convoys, but in practice in the game, is bad at that job and so instead is best either for navies that cannot afford full carriers or wish to sidestep issues with carrier stacking penalties.
+- CVL
+- Light Aircraft Carrier - a faster version of CVE able to keep up with fast moving, full size aircraft carriers.
+- DC
+- Damage Control, emergency measures to prevent the sinking of a ship from battle damage or Depth Charge, a weapon launched or dropped into the water that detonates and causes a hydraulic shock wave for the purpose of destroying enemy submarines.
+- DD
+- Destroyer - Ship used in screening role and anti-submarine warfare or Developer Diary.
+- DDE
+- Destroyer Escort - A destroyer designed to escort ocean convoys and merchant ships, usually to protect them from submarines.
+- DEI or VOC
+- Dutch East Indies.
+- DLC
+- Downloadable content - A package made available by Paradox that adds more game mechanics, music, and other features to the game. Compare with mod.
+- DMZ
+- Demilitarized Zone - An area where a treaty between nations prohibits military forces, military equipment, and military installations.
+- DOD or DoD
+- Death or Dishonor, an early DLC that has since been integrated into the core game.
+- DoW
+- Danzig or War - A common National Focus choice for Germany. OR Declaration of war - Can be used as a verb ("Japan just DOW'd the USA!").
+- DP
+- Dual Purpose gun - a light caliber naval artillery piece designed to shoot enemy ships and planes.
+- ENG
+- Engineer support company
+- ETO
+- European Theater of Operations - a term used by the United States to refer to US operations in Europe.
+- FC
+- Fire Control - a method for aiming a ship's guns that accounts for gun range, gun elevation, ship's speed, distance to target, etc.
+- FCS
+- Fire Control System - a system that helps aim a ship's guns.
+- FEX
+- Fire Exchange group - a cluster of ships simultaneously engaged in sea battle
+- FM
+- Field Marshal, the highest of the two possible ranks of army leaders.
+- FOW
+- Fog of War - Prevents nations from seeing parts of the map they do not either border, or have an army or navy adjacent to.
+- FTR
+- Fighter aircraft. Often means only "light fighters", which is to say the types that aren't in the "heavy fighter" research tree.
+- GBP
+- Grand Battleplan, one of the available land doctrines.
+- GD
+- Great Depression.
+- Alternatively, the Götterdämmerung DLC.
+- GDP
+- Gross Domestic Product - The value of all goods and services produced in a country during a given year.
+- GEACPS
+- Greater East Asia Co-Prosperity Sphere - a coalition, led by Japan, of East Asian nations.
+- GIE
+- Government In Exile - a temporary government formed by exiles who have fled to a foreign country in the hope of ruling their former country when it becomes liberated.
+- GM
+- Game-master - A leader or organizer of a multiplayer game.
+- GOE or GoE
+- The Graveyard of Empires DLC.
+- HA
+- Hard attack - The hard attack value of a unit or division.
+- HCmd
+- High Command. Same as MHC.
+- HFTR
+- Heavy fighter.
+- HK
+- Hunter Killer - destroyers that form groups to hunt and kill enemy submarines.
+- HOS or HOSP
+- Field hospital support company
+- HP
+- Hit points - Represents how much damage a division can take. Maximum HP is increased by adding regiments to a division. HP value drops when a division takes damage (losing men and equipment) and is replenished when it receives reinforcements. Hit points - Also represents how much damage a ship can take before sinking. Health points - Also represents how much damage a building or fixed asset can take before complete destruction.
+- IC
+- Industrial capacity - Term used in previous installments of HoI, is equivalent to Factory Output in HoI4.
+- IC-days
+- Number of days of IC usage - Term used in previous installments of HoI, is similar to Production Cost in HoI4.
+- IJN
+- Imperial Japanese Navy.
+- INF
+- Infantry - This word standing alone may refer to either the general category of infantry soldiers (those using infantry equipment) or specifically to non-specialized combat infantrymen who travel on foot, as distinguished from special forces (Marines, Paratroopers, and Mountain Infantry) and from mounted infantry (Cavalry, motorized infantry, and mechanized infantry).
+- JIRA
+- Software manager used by Paradox for bug reporting.
+- LaR
+- La Résistance - the 3rd major expansion by Paradox for Hearts of Iron IV.
+- LL
+- Lend Lease - a program to send free aid (weapons, tanks, planes, etc.) to another nation.
+- LNT
+- London Naval Treaty - an agreement between the United Kingdom, Japan, France, Italy and the United States to limit and reduce naval armament.
+- LOG
+- Logistics support company
+- MA
+- Mass Assault, one of the available land doctrines.
+- MAIN
+- Maintenance support company
+- MHC
+- Military High Command.
+- MiC
+- Military industrial capacity - Capacity provided by Military factories for the construction of any equipment in HoI4.
+- Mils
+- Same as MiC.
+- MM or Mass Mob
+- The Mass Mobilization branch of the Mass Assault land doctrine.
+- Alternatively, the flood of small infantry divisions used to help hold a frontline made possible thanks to the uniquely strong bonuses given by the Mass Mobilization branch of the Mass Assault land doctrine.
+- MP
+- Multi-player, Military Police, or Manpower.
+- MR
+- Molotov-Ribbentrop pact - The one pact to rule them all.
+- MRA
+- Motorized Rocket Artillery - rocket artillery mounted on a truck chassis.
+- MTB
+- Motor Torpedo Boat - a small, fast, lightly armed boat for torpedoing enemy ships.
+- MTG or MtG
+- The Man the Guns DLC.
+- MTTH
+- Mean time to happen - The metric used to measure how long, on average, it takes for an event to trigger.
+- MW
+- Mobile Warfare, one of the available land doctrines.
+- NAP
+- Non-Aggression Pact. An agreement or formal treaty between countries not to attack one another via a Declaration of War (DOW).
+- NAV
+- Naval bombers, used for anti-shipping missions in sea zones and for port strikes over land.
+- NF
+- National focus - A concept that works similarly to technologies, but for political actions.
+- NiC
+- Naval industrial capacity - Capacity provided by Dockyards for the construction of any ship in HoI4.
+- NKVD
+- Narodnyy Komissariat Vnutrennikh Del or People's Commissariat for Internal Affairs - Secret police during the Stalin regime.
+- NS
+- National Spirit - a modifier that describes unique advantages or disadvantages of countries.
+- NSB
+- No Step Back - the 6th expansion by Paradox for Hearts of Iron IV.
+- OOB
+- Order of Battle - the hierarchical organization, command structure, strength, disposition of personnel, formations, and equipment of armed forces.
+- OOS
+- Out of Sync - A notorious desynchronisation error that occurs in multiplayer, requires the game to be loaded again. Out of Supply.
+- OP
+- Overpowered or, on the forums, the original poster of a thread.
+- OPM
+- Overpowered minor
+- PC
+- Peace conference. A phase of the game that occurs when a country or all the countries in a faction have capitulated.
+- PH
+- Pearl Harbor. A naval base in Hawaii.
+- PotF
+- Pride of the Fleet - a capital ship that is chosen to represent a country and its people at their "best".
+- PP
+- Political power - Point acquired over time and required for all political actions in the game.
+- PTO
+- Pacific Theater of Operations - a term used by the United States to refer to US operations in the Pacific.
+- QRF
+- Quick Reaction Force - a military unit that can respond quickly to a military emergency such as a breach in the front line.
+- RART
+- Rocket Artillery.
+- REC
+- Recon support company
+- Rgt
+- Regiment - a basic military formation of 1 or more battalions, which is in game represented by a division template column that can have 1 to 5 battalions of compatible types.
+- RN
+- Royal Navy (United Kingdom).
+- RNG
+- Random number generator; a mathematical subsystem that generates a random number. Used to determine chances for events, battle results, and other game features that use randomization of results to any degree.
+- ROTW or ROW
+- Rest of the world - Generally refers to all areas outside Europe.
+- SA
+- Soft attack - The Soft attack value of a division or other unit.
+- SAG
+- Surface Action Group - A task force of surface warships that has a primary mission to attack and sink enemy surface ships.
+- SCW
+- Spanish Civil War - An event that will always happen when starting in the 1936 scenario.
+- SEA
+- Southeast Asia
+- SIG
+- Signal support company
+- SF
+- Superior Firepower, one of the available land doctrines or Special Forces (Marines, Mountain Infantry, Paratroopers) or Strike Force (a naval mission).
+- shp
+- Shaft horsepower - the power delivered to a ship propeller shaft.
+- SHxx
+- Super Heavy [something] - Can be used to designate Super Heavy Battleships (SHBB), tanks (SHT), artillery (SHA), tank destroyer (SHTD) or anti-air (SHAA).
+- SPxx
+- Self-propelled [something] - Weapons mounted on vehicle chassis, including self-propelled artillery (SPART) aka guns (SPG), tank destroyer (SPTD) and anti-air brigades (SPAA).
+- SS
+- Submarine.
+- SSN
+- Nuclear Submarine.
+- SSBN
+- Nuclear Ballistic Missile Submarine.
+- TAC
+- Tactical bombers - Flexible aircraft capable of strategic bombing, ground support, naval strike, and port strike missions.
+- TD
+- Tank destroyer - Designates armored vehicles with high hard attack and piercing values.
+- TF
+- Task Force - a temporary grouping of naval assets, such as ships and naval planes, to accomplish a specific mission.
+- TfV
+- Together for Victory, an early DLC that has since been integrated into the core game.
+- TPM
+- Two/three province minor - Term borrowed from EU4 to designate small countries in the game, consisting of only two or three States.
+- TOA
+- The Trial of Allegiance DLC.
+- TOE
+- Table of Organization and Equipment - specified organization, staffing, and equipment of units in table form.
+- USN
+- United States Navy.
+- VP
+- Victory Points - Points attributed to some provinces, usually capitals and strategic locations, in order to measure how close a country is to capitulating.
+- WAD
+- Works/working as designed; this acronym means that the thing in question is wrongly considered a bug and is actually intentional.
+- WC
+- World conquest - Taking over every inhabitable province on the map; often a goal for players; for others, an ahistorical outcome.
+- WNT
+- Washington Naval Treaty - a treaty signed during 1922 among the major nations that had won World War I, which agreed to prevent an arms race by limiting naval construction.
+- WS
+- War Support - the willingness of the population to endure the privations of war.
+- WT
+- World tension - Variable that serves to limit the involvement of democracies in ongoing events.
+- WTT or WtT
+- Waking the Tiger, an early DLC that has since been integrated into the core game.
+- XP
+- Experience - Points acquired in three categories (Army, Navy, Air) through combat or other means.
+
+# Slang
+Here are some of the common slang terms in the game and in discussions surrounding it:
+
+- Agency: Short for intelligence agency.
+- Air Controller: Dedicated player who focuses their attention on micromanaging air wings for their faction and tries to obtain strong bonuses to their air units through national focuses and military high command choices. Very common in multiplayer games.
+- Air Co-op: In multiplayer, similar to an air controller, but as a player playing co-operatively for a nation that is not 100% dedicated to managing air wings.
+- Air Gamble or Air Casino: In multiplayer, an Axis strategy that invests a lot into the faction's air force, usually also forcing the Allied faction to invest similarly large amounts into their airforce to match the Axis. Referred to as a "gamble" or "casino" because of its highly variable results, sometimes being very strong (because it can fully prevent any allied naval invasions) and other times being very weak (because it leaves insufficient production for land units, particularly tanks) depending on how the rest of the game progresses.
+- Armor Meme: A tank design that is meant to have very high armor and that is meant to be used by a single battalion in a tank division that otherwise has more economical tanks that do not focus as much on armor. Related to the Space Marine, but is more effective at its job of providing more armor to a division for as little extra cost and stats reductions as possible.
+- Asia LARP: A strategy, usually in multiplayer, where the Allies, mainly the United Kingdom and United States, prioritize fighting Japan in Asia instead of the Axis powers in Europe and Africa.
+- Barb: A shortening of "Operation Barbarossa", used to describe the German invasion of the USSR/Russia.
+- Blob: A large nation that tends to get larger over time unless checked. Named after how such large nations' expansions can leave them with irregular borders, resembling blobs of paint.
+- Boosting or Trade Boosting: In multiplayer, the practice of deliberately performing actions that provide additional civilian factories to a specific, allied country, such as trading resources even when they are not needed, purchasing unnecessary production licenses, or deliberately buying useless equipment from them through the international market.
+- Cheese or Cheesy: A strategy or part of a strategy that provides some notable advantage and that is unlikely to be intentional by the game's developers. Somewhat related to exploits, but usually considered "softer" and more fair to use. Examples include constant conversion, completely removing an enemy's planning bonus by having every member of a faction set one of their spies to build a network near their frontline, tying down an enemy's navy by using many tiny submarine task forces to Always Engage, et al.
+- Civ: Civilian factory.
+- (Country) Can Into Space: to make a country succeed far beyond expectations. (A takeoff on the polandball meme.)
+- Clay: One's rightful land. Also a takeoff from polandball.
+- Click (Province) or Click (Unit): Being able to quickly defeat all enemy forces in a province without any effort besides right-clicking the province to order selected units to move onto it.
+- Conductor: Dedicated player who focuses their attention on producing, micromanaging, and maximizing bonuses for railway guns, preferably the super-heavy variety. Somewhat common in multiplayer games, usually done by minor powers whose land unit bonuses are eclipsed by their teammates', e.g., Romania for the Axis and South Africa for the Allies.
+- Constant Conversion: A cheesy strategy where the high resource costs of expensive tanks and aircraft are bypassed by simultaneously producing basic, bare-bones designs that are marked as outdated and converting them immediately to their final designs. This can happen because the resource costs of these equipments is often incurred only by the base chassis/airframe and the main armament, while these are only a minority of the total production costs of the final design. Especially with the help of equipment conversion speed bonuses, the amount of production lost to this strategy ends up being negligible, while the civilian factory savings from not having to trade for as many resources can be huge.
+- D-Day: Historically, the day of the Allied naval landings in occupied France in Operation Overlord; used to describe any in-game naval invasion of continental Europe from Britain, sometimes as a verb (as in "The Allies are D-Daying!").
+- Div(s): Division(s), the basic combat unit on the map.
+- Doomstack: An extremely large enemy force in a single province; seldom used on land in HoI4, but often for navies.
+- Double Combat: Attacking the same enemy province from two different provinces in a way where the attacks are treated as two separate combats instead of a singular one, done by queueing up moves for the divisions in two different provinces in a specific way. This ensures that enemy units get the "in multiple combats" penalty in both combats, which would normally only be applied if they were both attacking and defending at the same time.
+- El Ala: Abbreviation for El Alamein, the site of a few famous historical battles in World War 2 and a notorious choke point for land armies in Egypt.
+- Excav: Abbrevation for excavation technologies.
+- Flickering or Flicker Bombing: The practice of rapidly switching air wings, usually bombers, between multiple air zones, either to abuse the mechanics behind naval strike and port strike air missions to make attacks happen far more frequently than intended, or simply to overload the micromanagement abilities of enemy air controllers in multiplayer.
+- Gibby: Abbreviation for Gibraltar, a notable choke point controlling access between the Mediterranean Sea and the larger Atlantic Ocean.
+- Gorilla or Gorilla Tactics: Bastardization of the very annoying Guerrilla Tactics combat tactic, usually when unlocked through the Mass Mobilization branch of the Mass Assault land doctrine.
+- Grinding: Deliberately keeping units in battles without capturing provinces to generate XP. Often used in early wars before World War 2 with volunteer divisions to help level up generals to high levels with good skills and traits, rarely also used with admirals (and more difficult to do with them) for similar reasons.
+ - Pre-grinds: Done in many multiplayer-oriented mods and custom save games to avoid people wanting to grind generals manually and therefore speed up the game, as grinding an normally be somewhat micro-intensive.
+- Gun: Abbreviation for infantry equipment, the most important equipment in terms of providing a battalion's combat stats for all infantry and mobile battalions. Usually followed by a number to indicate its year: gun 0 is 1918 infantry equipment, gun 1 is 1936 infantry equipment, gun 2 is 1939 infantry equipment, and gun 3 is 1942 infantry equipment.
+- Hands: In multiplayer, a reference to players who actively pay attention to a delicate in-game situation and actively respond to it (or used in insults for players who cannot or do not do this when expected of them), usually in the form of micro.
+- Holding Event: Deliberately letting an event expire or waiting until right before it does to select an option in it. Because a lot of events only apply their effects after a country has clicked an option in it, holding events like this can delay undesirable effects (e.g., the Allies handing the Sudetenland over to Germany) for a few weeks that can end up being crucial.
+- Howies: Abbreviation for howitzer tanks, i.e., tank designs that use howitzers for their main armament, giving them a lot of soft attack but very little hard attack.
+- Inf: Infantry battalion or division
+- Infra: Infrastructure.
+- Juggling or Tech Juggling: The practice of leaving a research slot deliberately empty for a month before spending the accrued research progress to help complete a specific, high-priority tech faster. This is done by researching said "juggled" tech with one slot while leaving another empty, and when the empty slot has accrued enough research progress, switching the first slot to research a different technology and then continuing to research the "juggled" tech with the slot that was left empty.
+- Justifying: The political action of building a propaganda case against a country to justify a declaration of war.
+- Lobby Simulator or Lobby Sim: In multiplayer, spending a lot of time in the game's lobby waiting for the game to start, waiting for players whose game crashed or who went out-of-sync to reconnect to the game, and/or waiting for hot-joins to finish loading in.
+- Mana: Slang for numerical Political power, Experience, and other points.
+- Mech: Mechanized battalion or division
+- Mech Marine: A marine division with a few mechanized battalions included, usually to greatly increase the division's HP and therefore make it last longer when performing naval invasions using the Force Attack commander ability.
+- Mil: Military factory.
+- Macro: Considered the opposite of "micro", refers to the larger choices made and strategy used outside of controlling individual units, including for production, research, construction, political power expenses, and the order and timing of national focuses.
+- Micro: Short for "micromanagement", refers to controlling individual units, as well as the attention and the skill required to do it well under time pressure.
+ - Pause-Micro: In multiplayer, queueing up orders for many individual units while a game is paused, taking advantage of there being no time pressure present to do so.
+ - Last Stand Micro or Force Attack Micro: The practice of setting of a dummy order-of-battle with lower-quality generals that can then be used to dramatically reduce the command power cost of performing the respectively named commander abilities. This is done by temporarily assigning the specific divisions for which the ability is to be used to one of those dummy generals, activating the commander ability on the dummy general, and only assigning the unit(s) back to their regular generals after the ability is no longer needed.
+- Mod: A software package that modifies the game, written by the player community. Compare with DLC.
+- Navy Co-op: In multiplayer, a player playing co-operatively on a larger nation who is meant to focus on nothing else besides micromanaging that country's navy.
+- Navy LARP: A strategy where a country puts far more emphasis on building up a (surface) navy than is deemed sensible for that country.
+- Nuke: Nuclear bombs, or the act of using them.
+- Org: Organization, required for any division to continue or engage combat.
+ - Deorg: A division running out of organization, forcing it to break off an attack or retreat when defending.
+- Pop Cipher: After having decrypted an enemy country's cipher, revealing it for a major temporary bonus at the cost of needing to re-decrypt their cipher after the bonus expires.
+- PP Guy: Abbreviation for a political advisor who increases the country's political power gain, usually one with the Silent Workhorse trait.
+- Refs: Abbreviation for synthetic refineries.
+- Reinfs: Reinforcements in manpower, equipment or both.
+ - Reinforce meme: Defeating all divisions currently in combat before reserve divisions in the same province can enter combat, forcing them to retreat without fighting (or causing them to be destroyed if encircled).
+- Rehost: In multiplayer, having the game's host save the game, exit the game (thereby disconnecting all other players), then host a new game from the save taken. Often used as an attempted fix for when several players keep crashing and/or going out-of-sync to the point that the game cannot actually be played.
+- Safari: When the Axis captures Egypt and advances south into Africa.
+- Savescumming: Reloading earlier saves when something goes wrong in order to set things right. Often considered a negative trait. Ironman mode prevents savescumming, unless circumvented through manual file copying.
+- Shore: Abbreviation for shore bombardment.
+- Shovels: Engineer support companies.
+- Silent Invasion: In multiplayer, the act of exploiting a certain bug around naval invasions that allow them to be launched against a player without triggering the visual or audio alert for them for an ongoing naval invasion.
+- Snaking: Sending a single division or small group of divisions to race ahead through a breakthrough and capture tiles, VPs, or ports without securing the tiles behind them, in order to disrupt industry or enemy supply, or VP snipe an enemy country and cause it to capitulate. Often results in the division(s) used being encircled and lost.
+- Space Marine: A division with a single armored battalion, usually a heavy tank destroyer or heavy tank, that otherwise has no other armored battalions. This is meant to provide a lot of armor and/or piercing to the division for little cost by taking advantage of the way armor and piercing are calculated for divisions. Considered overpowered by a lot of people in early versions of the game, they tend to be far less cost-effective in current versions of the game.
+- Stab Guy: Abbreviation for a political advisor who increases the country's stability, usually one with the Popular Figurehead trait.
+- Strat: Strategic bomber or strategic redeploy or strategy.
+- Tile: Province.
+- Tradebacks: In multiplayer, the practice of one country buying the resources of an ally to offset said ally using their civilian factories to purchase the first country's resources, even when those resources would go unused. Also often used to offset the civilian factory cost of obtaining production licenses.
+- Vols: Short for volunteers.
+- VP Sniping: Using paratroopers, snaking fast divisions, and/or naval invasions to capture the victory point tiles of an enemy country and thus cause it to capitulate, bypassing most of its army. When unsuccessful, likely to result in the divisions used being encircled and lost.
+- Wardec: The act of declaring war / being declared war upon.
+- War Support Cruiser: The cheapest, most basic heavy cruiser that can be made whose sole purpose is to be designated a Pride of the Fleet to give its country extra war support.
+
+# Country abbreviations
+Abbreviations sometimes used for countries. Often written in all caps despite not being initialisms, many of those are originating from the country tags used by Paradox.
+
+- AST: Australia
+- AUS: Austria
+- AUST: Australia
+- BEL: Belgium
+- CAN: Canada
+- ENG: United Kingdom
+- FIN: Finland
+- FRA: France
+- GER: Germany
+- HOL: Netherlands
+- HUN: Hungary
+- INS: Indonesia also known as Dutch East Indies
+- ITA: Italy
+- JAP: Japan
+- NED: Netherlands
+- POL: Poland
+- ROM: Romania
+- SAF: South Africa
+- SPA: Spain
+- SOV: Soviet Union or sometimes the Comintern faction.
+- SU: Soviet Union
+- YUG: Yugoslavia
+
+# AAR
+After Action Reports (AARs) are threads posted to the HOI4 forums or a personal web site or blog written by players about their ongoing games. They can be written from the game player's personal point of view, or can be written from a fictitious narrative perspective, like a serialized novel. Some writers also blend the two elements, going from a metagame discussion to a fictitious narrative set in their game's alternate history world.
+
+### Player Point of View
+"I had a rough time as Austria this last session. It started when Ulm, that darned OPM, suddenly brought in half the HRE against me when I declared war on it. In all my playthroughs, this was the first time I ever was faced with such a nasty coalition. Before I knew it, not only was I facing the coalition, but the Ottoman Empire decided to make a DOW on me while I was in the thick of it!“
+
+### Fictitious Narrative
+"Let me tell you a story, a story about how a small and obscure nation, would come and rise to glory and ultimately shape history forever...
+
+It is 1938 and the Munich Conference is in to discuss theSudeten crisis. France and the United Kingdom came to decide the fate of little Czechoslovakia's northern front, the Sudetenland. Both of these powerful nations, France and the U.K. decided to fall in to the German Reich's demands for the land, effectively giving it to them. But when the German soldiers went to their "newly aquired lands" they saw forts, bunkers and all sorts of fortifications along the border, with Czechoslovakian flags held high. See, the Czechs had a fear of this crisis since 1936, and they acted on it. They build great land forts, built the army, worked on moving to a full war economy and mass produced weapons. The Czechs were ready to defend their rightful home. 2 months will pass and the German Reich will demand that Czechoslovakia surrender the land or there will be war... The Czech president sent a message to the German aggressors, "Come and take it", at that moment, In 1938, the German Reich decalred war on the Czechs. No help from the U.K. or France made the situation look dire, but the brave Czechs had a plan, they reformed the "Little Enente" of Yugoslovia and Romania. Hungary, bordering the east of Czechslovakia would go onto join the Axis, and try to invade Slovakia, but Romanian troops will crush the Hungarian menace, and absorb their lands. Its now 1939 and Italy has not decided to enter the war, and Romanian and Yugoslavian troops occupied by fighting to defend Yugoslavia from German invasions, was unable to help the Czechs against Germany, Czechoslovakia stood alone. They saw the German army, the Panzers, the Luffwaffe, and decided that they must hold the line. Winter, 1939 German troops are suffering heavy from attrition, the Czechs have been prepared for winter and have plenty of equipment to hold, then, on December 17, 1939, the Field Marshall of the Czecholslovakian Army ordered a push to attack the encamped Germany attackers. The Czechs raided out of their bunkers and attacked the unprepared Germany army. The Germans were rapidly pushed back, Almost no rest for the retreating German army made them weak. January 12, 1940 -- The capital of the former nation Austria, Vienna, has been taken by Czech forces, the same will be with Nuremberg, Munich. March 11, All of former Austria has been taken by Czech forces, and the entire southern half of Germany has been taken. March 13, The Soviet Union will inavde Poland, and begin to justify war against the Czechoslovakian goverment. In March 27, 1940, the capital of the German Reich, Berlin, will fall to Czech forces, Germany is contemplating surrender. A day later, March 28th, Italy will decide it cannont stand idely by while their ally is being demolished, they declare war on Czechoslovakia. Italy will launch a full invasion on Yugoslavia, in April, Yugoslavia will capitulate to the Italians. Every bit of Germany has been taken except the city of Hamburg, the last bastion of the Nazi goverement. In September of 1940, the German Reich will capitulate to Czech troops. Italy stands alone against the Czech might, A massive army pushed down the Italian pennisula and in December of 1940, Rome will fall. In Early 1941, Italy will surrender to Czech forces, and will be left with control only over Sicily and Sardina, effectively kicked off mainland Europe. In March of 1941, Japan will enter the war and attempt to restore the GErman Reich, their invasion will be stopped. In May, 1941, Japan will give up on the war and ask for peace. The Allies are fighting against Comintern forces while the Czechs consolidate their newly aquired land of Germany, Austria and Italy... and remember the day that when their freedom was in danger, they fought, fought valiantly for it, and won.
+
+The course of human history was changed that day, WW2 never occured, America and the Allies will fight and destory the Soviet Union in late 1944, the Cold War will never happen, and Czechoslovakia will become one of the most powerful nations in the world. Czechmate."
+
+Players can include screen shots from their games, maps, period art, and other elements to add depth to their reports.
+
+hoi4de:Jargon
+hoi4es:Jargon
+hoi4fr:Jargon
+hoi4pl:Jargon
+hoi4pt:Jargon
+hoi4ru:Jargon

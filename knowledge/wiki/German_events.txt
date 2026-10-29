@@ -1,0 +1,32 @@
+TITLE: German events
+URL: https://hoi4.paradoxwikis.com/German_events
+REVISION: 2025-08-24T17:35:32Z (rev 88852)
+VERIFIED FOR: 1.10
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+This is a list of all Germany's events (from events/Germany.txt).
+
+# id 1 - 20
+
+# id 21 - 40
+
+# id 41 - 50
+
+# id 51 - 60
+
+# id 61 - 70
+
+# id 71 - 80
+
+# id 81 - 90
+
+# id 91 - 100
+
+# id 101 - 110
+
+# id 111 - 120
+
+# id 121 - 130
+
+# id 999 - 1043

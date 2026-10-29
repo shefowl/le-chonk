@@ -1,0 +1,359 @@
+TITLE: Occupation
+URL: https://hoi4.paradoxwikis.com/Occupation
+REVISION: 2026-02-13T04:57:04Z (rev 97209)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+For the pre-1.9 occupation system see a previous version of this page.
+
+States are divided into three main categories based on resistance: core states (also known in-game as national territory), occupied states, and colony states. Occupied states have resistance enabled, while colony states do not. If a core state has resistance turned on (whether if the requirement to enable resistance is changed in a mod or an effect forces it to be enabled, such as with the "Instigate Workers Revolution in Britain" operation), it will be listed as an occupied state, while still not having the mali that apply to non-core states such as with manpower or building slots.
+
+If a state does not have resistance at the start of the game, then it will remain disabled unless the state changes hands or another mechanic enables it (such as various Ethiopian decisions that enable resistance in certain colonial states in Africa and Arabia).
+
+If a state changes hands or resistance already exists, the game decides daily whether it should continue by checking the following conditions:
+- The state is not impassable
+- The state is not a core of the controller country
+- Either any country has a core on this country or the state was owned by Spain at the game's start and is occupied by a country originating from Spain, after the civil war has ended.
+
+Occupied states have two values attached to them: resistance and compliance.
+
+# Resistance [verified for 1.16]
+
+The resistance system is based on the resistance strength, which slowly grows or decays towards the resistance target.
+## Resistance strength
+Resistance strength measures the severity of the populace's resistance to the controller's occupation of the state. Upon the state being captured, the initial resistance is set to NResistance INITIAL_STATE_RESISTANCE from where it rises or falls to the Resistance target. If the state shouldn't have resistance any longer, the resistance decays towards 0 by NResistance RESISTANCE_COOLDOWN_WHEN_DISABLED per day.
+
+The resistance strength is capped between NResistance RESISTANCE_DECAY_MIN and NResistance RESISTANCE_GROWTH_MAX
+It affects the debuffs applied to the state, frequency, and severity of resistance actions. When resistance strength reaches certain thresholds, various debuffs begin to apply on a per-state basis:
+
+Name: Organized Resistance
+Resistance level needed: 25%
+Effect: * Garrison Penetration Chance: +50%
+
+Name: Emboldened Resistance
+Resistance level needed: 50%
+Effect: * Damage to Garrisons: +100%
+
+Name: Uprising
+Resistance level needed: 75%
+Effect:
+- Divisions speed: -50% (Only for the controller)
+- Strategic Redeployment Disabled: Yes
+- Local Supplies: -50% (Only for the controller)
+- Division Attrition: +30% (Only for the controller)
+
+Name: Rebellion
+Resistance level needed: 90%
+Effect:
+- Local Factories: -3%
+- Resistance will declare independence on the core states that are being occupied. (Fires the rebellion event in 1 hour)
+ - Occupied states will declare independence. This changes their control to the rebelling country (it will be re-established if it doesn't exist or is at peace with the occupier) and grants divisions to it (2–6 per state, based on factory amount).
+
+## Resistance target
+Resistance target reflects a potential amount of unrest in the state. The resistance slowly trends towards this value. The following values that modify it:
+
+- Resistance Target base: +NResistance RESISTANCE_TARGET_BASE
+- Target country has capitulateda: +NResistance RESISTANCE_TARGET_MODIFIER_OCCUPIED_CAPITULATED
+- Target country has a government in exile: +NResistance RESISTANCE_TARGET_MODIFIER_OCCUPIED_IS_EXILE_MIN plus +0.18% per legitimacy of the government in exile, up to a total of +20 at 100% legitimacy
+- Controller has a claim: NResistance RESISTANCE_TARGET_MODIFIER_HAS_CLAIM
+- Controller is at peace: NResistance RESISTANCE_TARGET_MODIFIER_IS_AT_PEACE
+- Victory points in state:
+ - NResistance RESISTANCE_TARGET_MODIFIER_STATE_VP 1– VP: NResistance RESISTANCE_TARGET_MODIFIER_STATE_VP 2%
+ - NResistance RESISTANCE_TARGET_MODIFIER_STATE_VP 3– VP: +NResistance RESISTANCE_TARGET_MODIFIER_STATE_VP 4%
+ - NResistance RESISTANCE_TARGET_MODIFIER_STATE_VP 5– VP: +NResistance RESISTANCE_TARGET_MODIFIER_STATE_VP 6%
+ - NResistance RESISTANCE_TARGET_MODIFIER_STATE_VP 7+ VP: +NResistance RESISTANCE_TARGET_MODIFIER_STATE_VP 8%
+- From compliance in state: NResistance RESISTANCE_TARGET_MODIFIER_PER_COMPLIANCE for each percent of compliance, up to %.
+- From controller stability: -NResistance RESISTANCE_TARGET_MODIFIER_PER_STABILITY_LOSS for each percent of stability below 100% (up to +% at 0% stability )
+- Less than NResistance RESISTANCE_POP_VERY_LOW_CUTOFF state population: NResistance RESISTANCE_TARGET_MODIFIER_POP_VERY_LOW
+- Between NResistance RESISTANCE_POP_VERY_LOW_CUTOFF and NResistance RESISTANCE_POP_LOW_CUTOFF state population: NResistance RESISTANCE_TARGET_MODIFIER_POP_LOW
+- Modifiers or effects, such as the following:b
+ - Compassionate Gentleman political advisor: -5%
+ - Root out resistance mission: Base -10%, increased by upgrading the agency or assigning more agents. Each subsequent agent is only NOperatives ROOT_OUT_RESISTANCE_STACKING_FACTOR yesx as efficient as the previous one.
+ - Occupation laws: -75% to +40%
+ - Continuous focus "Resistance Suppression": -5%
+ - Enemy intelligence operations: +10% or +20% (with bonus) on a successful Strengthen Resistance operationc or +10% (with bonus) on a successful Make Resistance Contacts operation.
+- Spread from a neighbouring state with a higher resistance target, as +NResistance RESISTANCE_RATIO_DIFF_TO_SPREAD of the difference. Only one state can be selected to have the spread from, and it picks the highest one. In this case, the difference is calculated between this state's resistance target (before the spread) and the neighbouring state's either resistance target without the spread or only the spread that it received.
+ - For example, a state with a 70% resistance target neighbouring a state with a 10% resistance target will increase the latter's total target to 40% by adding half of the difference between 10% and 70%. If another state with a 10% resistance target borders the state now with a 40% target, it will raise to 20% through half of the difference between the 10% base and the 30% spread from the first state.
+
+The resistance target can only fall down to NResistance RESISTANCE_TARGET_MIN_CAP_FOR_NON_COMPLIANCE with most of these modifiers, only compliance can push it down further to 0.
+
+If resistance falls to 0, then the resistance will only be re-enabled once the resistance target reaches NResistance RESISTANCE_TARGET_TO_REENABLE_RESISTANCE.
+
+## Resistance growth and decay
+If the resistance strength doesn't match up with the resistance target, it will gradually change towards the resistance target. If the resistance strength is rising, this is resistance growth; if it is falling, this is resistance decay.
+
+By default, resistance growth increases it by NResistance RESISTANCE_GROWTH_BASE per day, while resistance decay decreases it by -NResistance RESISTANCE_DECAY_BASE per day. Further modifiers to them are applied multiplicatively.
+
+If the country has a claim on the occupied state, the resistance decay is increased by +NResistance RESISTANCE_DECAY_MODIFIER_HAS_CLAIM. Below NResistance RESISTANCE_DECAY_MODIFIER_FACTORS 1 resistance strength, decay is changed by NResistance RESISTANCE_DECAY_MODIFIER_FACTORS 2%, while below NResistance RESISTANCE_DECAY_MODIFIER_FACTORS 3 strength, decay is changed by NResistance RESISTANCE_DECAY_MODIFIER_FACTORS 4%.
+
+In terms of modifiers, there are the following ways to change it:b
+- The "Weapons for the Resistance" national spirit for governments in exile increases the resistance growth by +10% within the core states of the country with the spirit.
+- The Guerrilla Warfare land doctrine in the Mass Assault doctrine branch increases the resistance growth by +25% within the core states of the country with the doctrine.
+- The Brutal Oppression occupation law available to Fascist increases the resistance decay by +100% in the states where it's applied to.
+
+## Resistance activity
+Each day that resistance is active, the game rolls for resistance activity. The chance for resistance activity to happen in a state increases by +0.312% per 1% of resistance in that state, up to a maximum of +31.2% at 100% resistance.
+
+Whenever resistance activity happens in a state, local partisans will attack and destroy 2% of the state garrison's equipment and 1.6% of the state garrison's manpower. Equipment losses are applied to all currently used equipment by the garrison based on the garrison's current fulfillment rate and are rounded up for all equipment types. Emboldened Resistance increases the potential damage to both equipment and manpower. Certain national spirits, occupation laws, political advisors, and land doctrines can increase or decrease the amount of damage dealt to garrisons in certain occupied states. The garrison template's hardness reduces both types of damage by -1% per 1% hardness, capped at a maximum of -90% at 90% hardness or more. This reduction occurs regardless of the actual equipment the garrison has available. For example, a garrison template with a heavy tank battalion will have its damage reduced even if the country has no heavy tanks to fulfill their garrisons' equipment request. It also stacks additively with other sources of garrison damage reduction up to a maximum total damage reduction of -90%. This can mean that additional garrison hardness is effectively wasted when enough damage reduction sources from national spirits, occupation laws, political advisors, etc. is present.
+
+In addition to damage to garrisons, there is a chance that resistance activity will "penetrate" the garrison and cause damage to local infrastructure , civilian factories , or military factories . The base chance is 2% per resistance activity, but this can be increased through Organized Resistance . Certain unique national spirits and political advisors can reduce garrison penetration chance.
+
+# Compliance [verified for 1.16]
+
+Compliance is a representation of a non-core territory's population's loyalty to the occupying regime. The in-game number represents the proportion of people in the local population that are loyalists.
+
+Compliance is calculated on a per-state basis with its own local effects while providing overall bonuses for occupied land when reaching a certain average threshold.
+
+Compliance in an occupied state starts at 0%. Once a state capitulates or is annexed, if a collaboration government has been prepared beforehand, starting compliance in all of its original states will increase to the country's collaboration percentage. Non-core states at the beginning of the game start with 70 compliance by default. If a non-core state switches owners, its new owner will receive 0.5x of the old owner's compliance in that state.
+
+## Compliance gain
+Compliance base gain is 0.075 per day by default, but it is modified by occupation laws, some national spirits, and leader traits. The following values that modify it:
+- (Previous) Controller has (temporarily) lost control of the state: -0.05 per day for controller
+- Modifiers or effects, such as the following:b
+ - Occupation laws: -0.11% to +0.03% per day
+ - No Garrison occupation law: Compliance gain disabled
+
+Compliance gain can be increased by compliance growth from the following sources:
+- Controller has a claim: +5
+- Controller is at peace: +10
+- Modifiers or effects, such as the following:b
+ - Compassionate Gentleman political advisor: +2%
+
+This is counteracted by compliance decay. There are two main sources of compliance decay, both of which are applied after compliance growth modifiers have been incorporated into compliance gain:
+- Existing compliance: -0.00083% per day per existing compliance, up to -0.083 per day at 100% compliance
+- State is a core of a country with a government in exile: -0.00015% per day per legitimacy of the government in exile, up to -0.015 per day at 100% legitimacy
+
+Setting up a collaboration government switches the occupied states to a puppet state and dispenses with resistance, making compliance unnecessary.
+
+## Compliance and industry
+Compliance provides bonuses to available factories ( civilian factories , military factories , naval dockyards ) within a state. The formula looks like this:
+
+-
+(Refineries are unaffected by this. They will always produce the maximum amount of fuel and rubber, depending on technology, same applies for fuel silos)
+
+The same applies to the resources and manpower provided by the occupied states:
+
+-
+
+-
+
+The average level of compliance between states also provides flat percentage bonuses:
+
+Name: Informants
+Compliance level needed: 15%
+Effect: Enemy operative detection chance offset: +25%
+
+Name: Local Police Force
+Compliance level needed: 25%
+Effect:
+Required Garrisons: -25%
+
+Additional Recruitable Population: +0.5%
+
+Name: Reorganized Workforce
+Compliance level needed: 40%
+Effect:
+Local Resources: +10%
+
+Local factories: +10%
+
+Name: Volunteer Program
+Compliance level needed: 60%
+Effect: Recruitable Population: +20%
+
+Name: A New Regime
+Compliance level needed: 80%
+Effect: Triggers event to establish a Collaboration Government
+
+A state at 100% Compliance will provide 100% of its factories, 105% of its resources, and 40.5% of its manpower to its occupier by default, thanks to the modifiers listed above.
+
+The following can also affect the amount of factories, resources, and manpower that an occupied state provides:
+- Prince of Terror political advisor: +2% manpower from non-core states
+- Occupation laws:
+ - Local Factories: -35% to +60%
+ - Local Resources: -35% to +60%
+ - Local Manpower: +0% to +8%
+
+While having access to more than 100% of a state's factories or resources is usually temporary because compliance decay will outgrow compliance gain, there are some situations where this is not the case. Certain national focuses, political advisors, and decisions on certain countries can result in a compliance gain that overwhelms the additional compliance decay created by more extractive occupation laws. In particular, the Secret Police , Communist -exclusive Liberated Workers , and Italy-specific Colonial Police occupation laws all provide additional factories and resources while having low enough compliance gain reduction that they can be easily overwhelmed by additional sources of compliance gain.
+
+#### Fractional industry
+Fractional factories and resources are rounded down for each individual factory and resource type. On game startup, they are also grouped by tag and have a different rounding procedure, but this is corrected a few days into the game, when factories from occupation are first recalculated.
+
+For example, the British Raj in 1936 occupies many different states at 70% compliance, giving them access to 80% of those states' factories. This includes 1 military factory from the Western Indian States, 1 civilian factory from Mysore, 2 civilian factories from Hyderabad, and 2 civilian factories from Pakistan. This nominally adds up to 0.8 military factories and 4 civilian factories from occupied states, which should round down to 0 military factories and 4 civilian factories. In practice, the British Raj only receives 0 military factories and 3 civilian factories from occupation on 1st Jan 1936 because of the previously mentioned different rounding methods, but a few days afterward, their factory counts from occupation are recalculated, and they receive the proper 0 military factories and 4 civilian factories.
+
+## Collaboration government
+
+The collaboration value represents the local population's willingness to cooperate with and aid the occupiers. Collaboration is necessary for curbing and eliminating resistance.
+There are two stages of collaboration: local collaboration and collaboration governments.
+Local collaboration is gained through the "create a collaboration government" covert operation and provides the following effects:
+
+- Increases initial starting compliance in occupied states by 30-45% per use, up to a maximum of 100% collaboration (as an example, 70% collaboration will give you 70% compliance)
+- Decreases the surrender progress threshold needed for capitulation
+
+The current amount of collaboration can be seen in the "collaboration governments" tab on the country screen.
+
+If the average local collaboration in all occupied states rises to 80%, the occupying nation will be given the opportunity to install a collaboration government formed from loyal and sympathetic local civilians, to administer and govern the occupied territories. Note that a democratic country cannot create collaboration governments.
+The collaboration government itself is a special type of puppet, available with La Résistance DLC and it has the following puppet rules:
+- no Can declare wars
+- no Can decline call to war
+- no Control over deployed units go to overlord
+- no Can create collaboration governments
+- no Can be Spy Master
+- no Contributes Operatives to Spy Master
+- yes Master can build constructions on the subject's territory
+- Technology sharing bonus -50%
+- Subject manpower requirement: +100%
+- Extra trade to overlord: +100%
+- Overlord trade cost: -90%
+- Civilian industry to overlord: +75%
+- Military industry to overlord: +75%
+- Peace Score transferred to Overlord: +20%
+- Lend-lease tension limit from puppet: -10%
+
+Once created, the collaboration government is a separate tag and will be given the Generic national focus tree for use, unless the opposing country for the cores doesn't exist. Additionally, the collaboration government will also gain cores on every state that is a core state of the country the collaboration government is meant to represent, regardless of what territory the collaboration government actually controls.
+
+The collaboration government will adopt the puppet master's color and will also use the puppet master's adjective in its name to represent the close connection between the two governments. However, the puppet will be granted the research progress of the country it is meant to represent. If you are creating a collaboration government of a tag that is using the generic tree by default, your collaborationist government also inherits the generic tree progression, despite the continued existence of that country.
+
+For example, if Japan creates a collaboration government representing China in East Hebei (which starts off controlled by Japan), the collaboration government will be named "Japanese China" and gain cores on every Chinese core state, while being of the same map color as Japan. If, however, China did not exist when the collaboration government was formed, the collaboration government will assume the role of China, including the focus tree.
+
+Currently, Compliance will only be checked from one tag per state. If the state's owner has a core on it, the owner will be the target of compliance, otherwise, it's the leftmost flag in the list of the cores. This can be checked by annexing the Chinese Warlords: China is given a core before the warlords, meaning the resistance will be directed towards them.
+
+For example, if Japan creates a collaboration network in Communist China, the collaboration will be counted from Communist China towards Japan for the state of Shaanxi only. They can then immediately be released as a collaboration government since the Communist China collaboration is NOT checked for the other Japanese-owned states in China, as their collaboration is counted from China toward Japan. When released they will only receive the provinces from which their compliance is calculated but retain their other cores.
+
+This mechanic prevents the formation of some pre-existing tags that are another nation's core. ex: Macedonia, Croatia, Occitania, Algeria, etc. They cannot be formed into collaboration governments (unless released, attacked, and annexed), only released as regular puppets. this also prevents the formation of a collaboration government from provinces in which the releasing nation has cores, these provinces will, however, be released with an eventual collaboration government. An example of this is if Italy creates a Yugoslavian collaboration government, they would then lose control and their core on Istria which would be ceded to the collaboration government in Yugoslavia.
+
+Since a collaboration government has cores on its territory, the puppet master will not need to garrison the territory and resistance will not form.
+
+Collaboration governments cannot be created from an existing puppet, neither can they themselves increase their own autonomy status when controlled by A.I. However, when controlled by a player, they can increase their own autonomy status and become a regular puppet, allowing them to eventually become independent through the normal puppet autonomy ladder.
+
+# Garrison [verified for 1.16]
+
+In order to combat resistance and police the population, occupied states will need to be garrisoned by military troops to perform police duties. The in-game Garrison represents this and can be assigned from the Occupied Territories tab.
+
+The divisions needed to staff the garrisons are not visible on the map and are allocated and get their equipment automatically. The equipment allocation can be set via the Recruit & deploy dialog.
+
+Occupation laws are scaled with Garrison Efficiency. If a Garrison reinforcement order is not fulfilled, all effects from the occupation law will be scaled by this value:
+
+- {{#tag:math|\text {Modifier} = 100\% - \text {max}(\text {(Manpower requirement)}^2 \text {; (Equipment requirement)}^3)}}
+
+For every point of resistance, the occupying country will require 0.75 points of suppression in each state. However, even if resistance strength is lower than 10, the number of garrisons needed will remain as if it was 10%. The same mechanic applies when resistance strength rises above 50, capping the amount of suppression needed for states with high resistance.
+
+# Occupation laws [verified for 1.16]
+
+Occupation laws can be selected in a country's occupied, i.e., non-core, territories. They can be assigned on a country-wide, per-occupied-country, or per-state basis. They regulate the resistance targets, compliance generation rates, amounts of industry and resources available to the player in their applied states. Some occupation laws can also give several other, unique advantages.
+
+No Garrison
+
+Compliance change disabled
+
+Civilian Oversight
+
+Local Police Force
+
+Secret Police
+
+Enemy intel network strength gain: -25%
+
+Enemy operative detection chance offset: +1%
+
+Military Governor
+
++10%
+Local Manpower +8%
+
+Forced Labor
+
+Civilian Factory Repair Speed: +25%
+
+Resource Sabotage Chance: -25%
+
+Resource Sabotage Duration: -25%
+
+Harsh Quotas
+
+Military Factory Repair Speed: +25%
+
+Civilian Factory Repair Speed: +25%
+
+Military Factory Sabotage Chance: -25%
+
+Civilian Factory Sabotage Chance: -25%
+
+Martial Law
+
+Brutal Oppression
+
+Resistance Decay Speed: +100%
+Exclusive to fascism Fascists
+
+Liberated Workers
+
+Exclusive to communism Communists
+
+Local Autonomy
+
+Exclusive to democracy Democracies
+
+Reconciliation
+
+Resistance Decay Speed: +50%
+Exclusive to Turkey with Battle for the Bosporus on Kurdistan core states and only if completed either A Common Destiny for All of Turkey or Permit Regional Elections.
+
+Colonial Police
+
+Exclusive to Italy with By Blood Alone on African states and only if Ministry of Italian Africa is complete. Also available for Albania core states if Albanian Fascist Militia is complete.
+
+Colonial Police (Improved)
+
+Exclusive to Italy with By Blood Alone on African states and only if Regional Development is complete. Also available for Albania core states if Albanian Fascist Militia is complete.
+
+Colonial Police (Final)
+
+Local Manpower +5%
+Exclusive to Italy with By Blood Alone on African states and only if Polizia dell'Africa Italiana is complete. Also available for Albania core states if Albanian Fascist Militia is complete.
+
+Secretaries General
+
+Exclusive to occupiers of Belgium with Götterdämmerung on their core states and only if they have completed Secretaries General.
+
+Independent Rule
+
+Exclusive to British Raj with goe on princely states and only if RAJ_princely_states_policy is complete.
+
+Princely Subjugation
+
+Exclusive to British Raj with goe on princely states and only if RAJ_princely_states_policy is complete.
+
+Senbu
+
+Exclusive to Japan with ncns on Chinese states and only if jap_Invest_in_Senbu is complete.
+
+East Asian Exploitation
+
+Military Factory Repair Speed: +25%
+
+Civilian Factory Repair Speed: +25%
+
+Military Factory Sabotage Chance: -25%
+
+Civilian Factory Sabotage Chance: -25%
+Exclusive to Japan with ncns on Asian states and only if The Greater East Asia Co-Prosperity Sphere is complete and the option "The Emperors supreme Authority must always come first!" has been chosen.
+
+East Asian Prosperity
+
+-
+
+Exclusive to Japan with ncns on Asian states and only if The Greater East Asia Co-Prosperity Sphere is complete and the option "We must pursue Prosperity for all Asian states" has been chosen.
+
+# References and notes
+a Stricter than capitulation: the target must not control any states.
+b There is a large quantity of effects and modifiers that modify this, with a lot being country-specific. Only effects and/or modifiers that can modify it when playing any country have been selected here.
+c If the country initiating the operation has completed the SWI_export_saboteurs national focus, the bonus-less resistance target changes to +25%.
+
+hoi4de:Occupation
+hoi4es:Occupation
+hoi4fr:Occupation
+hoi4pl:Occupation
+hoi4pt:Occupation
+hoi4ru:Occupation

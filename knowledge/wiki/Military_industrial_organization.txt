@@ -1,0 +1,387 @@
+TITLE: Military industrial organization
+URL: https://hoi4.paradoxwikis.com/Military_industrial_organization
+REVISION: 2025-12-31T00:09:27Z (rev 95969)
+VERIFIED FOR: 1.13
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Arms Against Tyranny
+For equipment designers without Arms Against Tyranny , see Design company.
+
+Military Industrial Organizations (MIOs) are a feature in the Arms Against Tyranny expansion, replacing the base game design companies. They can be used to research technologies faster, confer bonuses onto equipment, and increase the output of a production line. MIOs increase in size, or "level up", over the course of a game, allowing them to unlock new player-selected bonuses from a trait tree and eventually make use of player-selected MIO policies that can confer additional bonuses. MIOs broadly follow the same categories as the design companies present in the base game, with designers of the same type sharing the same basic trait trees. However, as opposed to design companies, multiple MIOs of the same category can be used at the same time, allowing players a lot more flexibility in terms of what they specialize in compared to needing to lock into using just one design company for each equipment type (tanks, navy, planes, materiel).
+
+Industrial concerns remain unchanged.
+
+# Mechanics
+
+Each country starts with a set of military industrial organizations (MIOs) that each specialize in different types of equipment. Countries can opt to use these MIOs to help design and/or produce equipment tied to their speciality, as well as to help research technologies related to their speciality. Each of these tasks accrues funds in the MIO that help increase its size, unlocking additional bonuses.
+
+## Bonuses and costs
+When assigned to a production line, a MIO can confer production bonuses to the line through its traits and/or policies when they are available. Even when no such bonuses are available, being assigned to a production line still help the MIO acquire funds. Assigning a MIO to a production line costs the country 0 political power per day.
+
+When assigned to research a technology, a MIO can confer a research speed bonus at the cost of political power . The base research bonus is +5%, but is often higher thanks to MIOs' starting traits and can be increased further through unlockable traits and policies for each MIO, as well as potentially also by various political advisors and national focuses. Assigning a MIO to research a technology costs the country 0.1 political power per day, but only while the technology is actively being researched. Changing the MIO assigned to research a technology, including unassigning one, costs 0 army exp for land-based technologies, 0 navy exp for naval and naval support technologies, and 0 air exp for air technologies.
+
+When assigned as the designer of some equipment, a MIO can confer various stat bonuses (and in some cases, maluses) to said equipment based on its traits and/or selected policy. MIOs can be assigned to equipment variants or, when eligible, to No Step Back armor designs, Man the Guns ship designs, or By Blood Alone aircraft designs. This happens automatically for any equipment unlocked from a technology that was researched using that MIO. For other technologies, or if the player wants the bonuses from a different MIO, a new variant can be created from the production screen. Adding, changing, or re-applying the MIO designer of some equipment costs 0 army exp for land-based equipment and designs, 0 navy exp for naval equipment and designs, and 0 air exp for aircraft equipment and designs, though this cost can be discounted by some unlockable MIO traits and/or national focuses. Newly acquired stat bonuses from traits and policies are also not retroactively applied to existing equipment. In order to apply newly unlocked bonuses, a MIO must be re-applied as the designer of the given equipment variant (with the same army exp navy exp air exp experience cost as when assigning a new designer), and production lines must switched over to the new variant. Any already-manufactured land- and air-based equipment must be converted to the new variant if so desired, and already-manufactured ships must be refitted to the new variant.
+
+It can be important to note that MIOs can be assigned to production lines to produce equipment designed by other MIOs. For example, this can be beneficial if one MIO's traits are better-suited for boosting stats while another's are better for increasing production. Investing into two different MIOs for the same equipment this way can be more difficult (and is only even possible for countries that have multiple MIOs available for the same piece of equipment), but if the given piece of equipment is important enough to warrant this sort of dual setup, the additional effort can be worth it.
+
+## Size and funds
+A MIO can gain funds from being assigned to production lines and/or to conducting research, which help it increase in size.
+
+Being assigned to a production line earns the MIO 0.1 funds per production cost per day, up to at most 100 funds per day.
+
+Being assigned to research a technology earns the MIO 500 funds multiplied by the base cost of technology when the technology has been researched. A technology with a base cost of 110 days would earn 500 funds, one with a base cost of 165 days would earn 750 funds, one with a base cost of 99 days would earn 450 funds, etc. If progress has already been made on a technology before the MIO is assigned to it, the amount of funds gained upon completion is scaled to the percentage of the research that was done with the MIO assigned. As the amount of funds that a MIO receives depends only on the technology's base cost, not the actual time required to research it, it can be beneficial to choose to research technologies with available research speed bonuses if a player wishes to rapidly increase the size of a MIO. Naval technologies and naval support technologies where bonuses can be acquired by spending naval exp can be especially potent. On the flipside, researching technologies ahead-of-time will not provide an assigned MIO more funds, so doing so can result in a lot more political power having to be spent on the MIO's research relative to the amount of funds it will gain from performing that research.
+
+Various political advisors, national focuses, and MIO traits can increase the amount of funds that a MIO gains whenever it would normally gain funds. Some national focuses also directly add funds to certain MIOs and/or directly increase their size.
+
+A MIO's funds will slowly increase its size. The main benefit of a MIO increasing in size is that gains 1 additional trait point each time its size increases that can be spent on traits. Additionally, policies unlock when a MIO reaches size 6.
+
+The funds required to increase the size of the MIO increases with greater MIO size:
+
+{{#tag:math|\text{Funds Required to Increase MIO Size} = 100 \cdot \left(\text{Current MIO Size} + 1\right)^{ 1.8 } + 700}}
+
+The amount of funds required to reach the first dozen of MIO sizes is summarized in the table below.
+
+MIO Size: 0
+Funds Required for Next Size Increase: 800
+Cumulative Funds Required to Reach This Size: 0
+
+MIO Size: 1
+Funds Required for Next Size Increase: 1048
+Cumulative Funds Required to Reach This Size: 800
+
+MIO Size: 2
+Funds Required for Next Size Increase: 1422
+Cumulative Funds Required to Reach This Size: 1848
+
+MIO Size: 3
+Funds Required for Next Size Increase: 1912
+Cumulative Funds Required to Reach This Size: 3270
+
+MIO Size: 4
+Funds Required for Next Size Increase: 2511
+Cumulative Funds Required to Reach This Size: 5182
+
+MIO Size: 5
+Funds Required for Next Size Increase: 3215
+Cumulative Funds Required to Reach This Size: 7693
+
+MIO Size: 6
+Funds Required for Next Size Increase: 4020
+Cumulative Funds Required to Reach This Size: 10908
+
+MIO Size: 7
+Funds Required for Next Size Increase: 4922
+Cumulative Funds Required to Reach This Size: 14928
+
+MIO Size: 8
+Funds Required for Next Size Increase: 5919
+Cumulative Funds Required to Reach This Size: 19850
+
+MIO Size: 9
+Funds Required for Next Size Increase: 7009
+Cumulative Funds Required to Reach This Size: 25769
+
+MIO Size: 10
+Funds Required for Next Size Increase: 8190
+Cumulative Funds Required to Reach This Size: 32778
+
+MIO Size: 11
+Funds Required for Next Size Increase: 9460
+Cumulative Funds Required to Reach This Size: 40968
+
+MIO Size: 12
+Funds Required for Next Size Increase: 10818
+Cumulative Funds Required to Reach This Size: 50428
+
+## Archetypes and variants
+MIOs, like design companies before them, are sorted into 4 categories: Material Equipment, Planes, Ships and Tanks.
+
+The MIOs themselfes follow certain Archetypes from which they take the most or all of their traits. Most nations have special unique traits available in their specific MIOs. In game, MIOs have a name (usually historical) and a descriptor. That descripter is, in most cases, the name of their archetype.
+
+The following Archetypes exist:
+- Material Equipment:
+ - Artillery Manufacturer
+ - Infantry Weapons Manufacturer
+ - Support Equipment Manufacturer
+ - Automotive Manufacturer
+ - Armored Car Designer
+ - Helicopter Development
+
+- Planes:
+ - General Aircraft Designer
+ - Light Aircraft Designer
+ - Medium Aircraft Designer
+ - Heavy Aircraft Designer
+ - CAS Aircraft Designer
+ - Naval Aircraft Designer
+ - Multi-Role Aircraft Designer
+ - High Agility Fighter Designer
+ - Range Focused Aircraft Designer
+
+- Ships:
+ - Task Force Ship Builders
+ - Battle Line Ship Builders
+ - Escort Ship Builders
+ - Raiding Ship Builders
+ - Submarine Builders
+ - Black Sea Fleet Designer
+ - Refurbishment Repair Manufacturer
+
+- Tanks:
+ - Standardized Production
+ - Infantry Tank Designer
+ - Assault Guns Manufacturer
+ - Fast Tank Designer
+ - Medium Tank Designer
+ - Heavy Tank Designer
+ - Tank Refurbishment Plant
+ - Light Armored Manufacturer
+
+### Variants
+Some MIOs have a descriptor that varies from the Archetype they are based from. Usually this is because they apply their traits to additional/different types of equipment.
+
+These are:
+- Infantry Weapons Manufacturer:
+ - Small Arms Manufacturer
+
+- Support Equipment Manufacturer:
+ - Ammunition and Weapons Works
+
+- Automotive Manufacturer:
+ - Fast Automotive Manufacturer
+ - Attack Focused Automotive Manufacturer
+
+- Armored Car Designer:
+ - Minerva Imperia Armored Cars
+
+- Light Aircraft Designer
+ - Standardized Production
+ - Robust Light Aircraft Designer
+
+- Medium Aircraft Designer:
+ - Medium Long-Range Aircraft
+
+- CAS Aircraft Designer:
+ - Army Aircraft Manufacturer
+
+- Multi-Role Aircraft Designer:
+ - Aircraft Production Plant
+
+- Range Focused Aircraft Designer:
+ - Light Long-Range Aircraft
+
+- Task Force Ship Builders:
+ - Carrier Specialists
+
+- Escort Ship Builders:
+ - Merchant and Escort Ship Builders
+
+- Raiding Ship Builders:
+ - Carrier Focused Raiding Fleet
+ - Coastal Defense Production
+
+- Submarine Builders
+ - Advanced Submarine Designer
+
+- Standardized Production:
+ - Dedicated Tank Factory
+
+- Infantry Tank Designer:
+ - Multi Role Tank Designer
+ - Heavy Machinery Workshop
+
+- Fast Tank Designer:
+ - Mobile Tank Destroyers
+
+- Medium Tank Designer:
+ - Medium Tank Manufacturer
+
+## Traits
+Traits are the main source of a MIO's bonuses and modifiers.
+
+All MIOs start with at least one trait that always confers some bonus (or penalty) to using it. Additional traits can be acquired by increasing a MIO's size, which add trait points to the MIO that can be spent on traits made available through the MIO's trait tree. Once a trait has been purchased, the purchase cannot be undone. When a MIO has at least one unspent trait point, players will receive a notification for it near the top of their screen.
+
+The same MIO types across different countries will usually share the same starting traits and basic trait trees, but there are plenty of exceptions, especially in the form of unique unlockable MIO traits added onto a basic trait tree.
+
+Like with technologies, traits in a MIO's trait tree can be mutually exclusive with other traits and/or have prerequisites (usually other MIO traits, but sometimes also technologies). Some country-specific traits available only to MIOs of certain countries can also have additional prerequisites, usually that certain national focuses be completed.
+
+MIO traits in the trait tree can be queued up by shift-clicking their icons instead of clicking them (which is used to acquire those traits). When a MIO gains trait points (usually from having increased in size), it will automatically attempt to spend them on available traits in its trait queue. The current trait queue for a MIO can be viewed by clicking the trait queue button in the MIO trait tree interface. Queued traits can also be reordered through the interface made available through that button. They can also be dequeued either by clicking the X button(s) next to them in the trait queue view or by shift-clicking their icons in the trait tree.
+
+It can sometimes be a good idea to delay acquiring certain traits, potentially indefinitely, and leave trait points unspent. Some traits can apply maluses that outweight the benefits of their bonuses, so delaying them until their maluses have come less relevant can be a wise choice. Infantry equipment MIOs can be an especially common example of this, where the fairly minor breakthrough bonuses that come from some of their traits are often not worth the more substantial production cost maluses that come with those same traits.
+
+## Policies
+When a MIO reaches size 6, policies are unlocked for it. These serve as an additional source of bonuses or modifiers for a MIO that, unlike traits, can be altered over time. Not all types of MIO have access to all types of policy, but there are some common polices that all MIOs get access to.
+
+Assigning a new policy to a MIO costs 25 political power . Only one policy can be active at a time per MIO, but a new one can be selected after at least 180 days have passed since a MIO has been assigned a policy.
+
+Unlike traits, policies cannot be queued up for MIOs. However, by queuing up 5 MIO traits for each of their MIOs, players can ensure that when they see a notification for them having an unspent MIO trait point, it will be for MIOs that are at least size 6, reminding them to select a policy for it as well as trait(s).
+
+### List of policies
+
+Ruthless Contracts
+- Funds Gain: +10%
+
+Policy: Assembly Line Optimisers
+Effect:
+- All MIO equipment:
+ - pe cap : +5%
+ - pe growth : +5%
+Prerequisites: * Not available for MIOs that only specialize in ships
+
+Vertical Integration
+- All MIO equipment:
+ - Production resources need: -10%
+ - Production resource penalty: +10%
+
+Mechanical genius
+- All MIO equipment:
+ - Reliability: +10%
+
+Experimental Development Team
+- MIO research bonus: +20%
+
+Policy: Permanent Industrial Revolution
+Effect:
+- MIO research bonus: +10%
+- All MIO equipment:
+ - Production resource need: -10%
+Prerequisites: * As Norway, complete Norwegian Engineering
+
+Policy: Ordnance Factory Board
+Effect:
+- All MIO equipment:
+ - pe cap : +10%
+ - pe gain : +10%
+ - Reliability: -10%
+Prerequisites:
+- As British Raj or one of its inheritors, complete The Ordnance Factories Board
+
+Policy: Armor Welding Specialists
+Effect:
+- All MIO equipment:
+ - Armor: +5%
+Prerequisites: * Only available for Tank MIOs
+
+Policy: Casting Specialists
+Effect:
+- All MIO equipment:
+ - Hardness: +2%
+Prerequisites: * Only available for Tank MIOs
+
+Policy: Heavy Gantry Cranes
+Effect:
+- Train:
+ - pe cap : +5%
+ - Hidden: Added to list of supported MIO equipment
+- Railway Artillery:
+ - pe cap : +5%
+ - Hidden: Added to list of supported MIO equipment
+- Heavy Tank:
+ - pe cap : +5%
+ - Hidden: Added to list of supported MIO equipment
+Prerequisites: * Only available for Train and Tank MIOs
+
+Policy: Factory Applied Camuflage
+Effect:
+- All MIO equipment:
+ - Defense: +2%
+ - Breakthrough: +2%
+Prerequisites: * Only available for Tank MIOs specializing in Medium and Heavy chassis designs
+
+Policy: Cutting Corners
+Effect:
+- All MIO equipment:
+ - Production Cost : -10%
+ - Reliability: -5%
+ - Soft Attack: -5%
+ - Hard Attack: -5%
+ - Armor: -5%
+Prerequisites: * Only available for Tank MIOs
+
+Policy: Welding Specialists
+Effect:
+- All MIO equipment:
+ - Production Cost : -5%
+Prerequisites: * Only available for Ship MIOs
+
+Policy: Space Efficient Design
+Effect:
+- Carrier:
+ - Deck Size: +1
+ - Hidden: Added to list of supported MIO equipment
+- All MIO equipment:
+ - Max Range: +25%
+Prerequisites: * Only available for Ship MIOs
+
+Policy: Stable Gunnery Platforms
+Effect:
+- All MIO equipment:
+ - Light Battery hit chance factor: +10%
+ - Heavy Battery hit chance factor: +10%
+Prerequisites: * Only available for Ship MIOs
+
+Policy: Great Sea Keeping
+Effect:
+- All MIO equipment:
+ - Weather Penalty: -50%
+Prerequisites: * Only available for Ship MIOs
+
+Policy: Coastal Battlefleet
+Effect:
+- All MIO equipment:
+ - Production Cost : -10%
+ - Max Range: -25%
+Prerequisites: * Only available for Ship MIOs
+
+Policy: Perfect Finnish
+Effect:
+- All MIO equipment:
+ - Max Speed: +5%
+ - Production Cost : +5%
+Prerequisites: * Only available for Plane MIOs
+
+Policy: Heavy Gantry Cranes
+Effect:
+- All Medium Planes:
+ - pe cap : +10%
+ - Hidden: Added to list of supported MIO equipment
+- Strategic Bombers:
+ - pe cap : +10%
+ - Hidden: Added to list of supported MIO equipment
+- Naval Patrol Bombers:
+ - pe cap : +10%
+ - Hidden: Added to list of supported MIO equipment
+Prerequisites: * Only available for Plane MIOs specializing in Medium and Large airframes
+
+Policy: Propulsion Experimenters
+Effect: * MIO research bonus: +20%
+Prerequisites: * Only available for Plane MIOs
+
+Policy: Wind Tunnel Pioneers
+Effect:
+- All MIO equipment:
+ - Agility: +5%
+Prerequisites: * Only available for Plane MIOs
+
+Policy: Modular Assembly
+Effect:
+- All MIO equipment:
+ - Production Cost : -5%
+Prerequisites: * Only available for Plane MIOs
+
+# Lists of MIOs and their traits
+
+## Armor Companies
+(Main article: List of Tank MIOs)
+
+## Naval Companies
+(Main article: List of Ship MIOs)
+
+## Plane Companies
+(Main article: List of Plane MIOs)
+
+## Material Equipment Companies
+(Main article: List of Material Equipment MIOs)
+
+# References

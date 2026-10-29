@@ -1,0 +1,490 @@
+TITLE: Naval doctrine
+URL: https://hoi4.paradoxwikis.com/Naval_doctrine
+REVISION: 2025-11-23T11:46:27Z (rev 92883)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Naval doctrine allows a nation to specialize the way its navy conducts naval warfare. Naval doctrines can be reviewed and unlocked from the Officer Corps using naval exp . There are three mutually exclusive doctrine trees.
+
+3
+
+# Doctrine Overviews [verified for 1.16]
+
+- Fleet in Being
+- A strong fleet focused around battleships means that we are a force to be reckoned with when deployed at sea.
+
+This is the well-rounded, general purpose set of naval doctrines that most substantial navies used. It provides decent combat bonuses to all classes of ship, and it is also the best doctrine for escorting convoys, minelaying, and anti-submarine warfare. Its exclusive Officer Corps spirits of Grand Fleet , Global Presence , and Decisive Battle benefit large surface engagements with battleships, battlecruisers, and/or cruisers. However, while carriers are better at anti-submarine warfare with this doctrine, they receive fewer bonuses to their combat stats compared to the other two doctrines. Land-based naval bombers are also less effective with this doctrine than with other naval doctrines, as this doctrinue uniquely provides no naval targeting bonuses. It should also be noted that much of its bonuses to light cruisers, destroyers, and carriers are scattered throughout multiple branches, making it less effective for direct ship-to-ship combat when naval exp is at a premium.
+
+Historically, this doctrine was the prevailing school of thought among almost all naval powers in both world wars, and dictated the naval build-up strategies of the United Kingdom, the German Empire, France, Italy, the United States, Russian Empire, and Japan throughout the 19th and early 20th centuries. Although battles like the Battle of Tsushima continued to vindicate its believers in the early 20th century, the inconclusive results of the Battle of Jutland saw the beginning of the decline of naval schools of thought around decisive battles won by large battleships. However, even for enthusiastic adopters of more novel forms of naval warfare, e.g., Japan, the idea of achieving naval superiority by winning a decisive battle with battleships remained prominent in their naval strategies.
+
+The wide bearth of bonuses and no prominent major deficiencies make this doctrine a good generalist pick for a major power wanting to get the most out of their surface navy. However, this doctrine can also work well for minors who wish to specialize in anti-submarine operations, especially if their allied majors cannot afford as much of a specialized investment and have not prepared adequate air-based anti-submarine forces.
+- Trade Interdiction
+- Against a stronger naval opponent we can focus on tying up their fleet and destroying supply lines to starve their war machine.
+
+This is a naval doctrine focusing on asymmetric warfare against a stronger foe. It gives decent combat bonuses to cruisers, battlecruisers, and battleships and excellent combat bonuses to submarines. Additionally, it gives these ships extra surface detection and raiding efficieny, which allow them to find and engage enemy convoys more quickly and effectively while evading detection from enemy patrols for longer. At the Officer Corps, this doctrine's exclusive spirits of Convoy Warfare , Submarine Primacy , and Surface Raiders encourage using submarines and/or hit-and-run attacks with surface ships, particularly capital ships. The asymmetry extends to the costs of the doctrine as well: assuming one wishes to focus on either surface ships or submarines but not both, most relevant bonuses can be obtained with much less naval exp invested compared to other doctrines. However, the doctrine comes with a lot of shortcomings as well. Destroyers receive very few bonuses overall, and anti-submarine bonuses are almost entirely absent from the doctrine. With Götterdämmerung , it is also the only doctrine that cannot get access to Underway Replenishment, making surface navies more vulnerable to lack of supply from poor naval base coverage.
+
+The idea of defeating a much larger and stronger navy indirectly by harassing shipping instead of engaging in direct battle has a long history stretching at least as far back as the privateers of the 16th and 17th centuries. However, for modern naval warfare, it first came to prominence during the first world war, when, especially after the Battle of Jutland, the Central Powers of the German Empire, Austria-Hungary, Bulgaria, and the Ottoman Empire saw their surface navies far outnumbered and outmatched. Out of necessity, the German Reich would later revive this doctrine at the start of the second world war, and the Soviet Union would make a similar decision when their navy modernization program was interrupted by Operation Barbarossa.
+
+As advertized, this doctrine is best used by powers who wish to deal with enemy naval superiority by harassing enemy shipping and avoiding losing battles. It can be used effectively by both major and minor powers for both submarine- and surface ship-based operations. Submarines can be especially cost-effective against enemies who have not invested into dedicated anti-submarine measures, while even a small group of fast and long-range surface raiders can effectively raid enemy shipping protected by the long-range naval bombers that would normally be able to easily deal with submarines.
+- Base Strike
+- With a strong focus on carriers and their support, no enemy will be outside our reach, whether on land or at sea.
+
+This is a naval doctrine that focuses hard on surface engagements using carriers and carrier combat. It gives decent bonuses to destroyers and submarines, fantastic bonuses to light cruisers and carriers, and little to no bonuses to other ship types. While carriers can already be very cost-effective with other doctrines, with this doctrine, they can become absolutely terrifying, easily out-damaging capital ships many times their number. Their exclusive Officer Corps spirits of Integrated Air Arm , Mobile Force , and Surprise Attacks also emphasize the use of carriers. Screens and submarines are not the main focus of this doctrine, but they are still supported well enough, with this doctrine in particular also being the best for light cruisers meant to hold out in the screen line. However, this doctrine does come with some substantial downsides. Heavy cruisers, battlecruisers, and battleships receive the fewest bonuses out of all three doctrines, but they are still needed in surface engagements to prevent enemy capital ships from immediately firing upon friendly carriers. Moreover, while carriers themselves can be devastating, they can be rendered ineffective by stormy weather , nighttime engagements (without CAG Night Fighting ), large amounts of enemy fighters, or even just by having too many carriers in a battle.
+
+Aircraft carriers were a very new type of ship in the early 20th century, and doctrines on how to use them properly were still very much under active development at the start of the second world war. Although the earliest aircraft carriers, which were primarily seaplane tenders, had proven promising during the first world war, most naval theorists continued to believe in the primacy of the battleship even into the early years of the second world war. It was only a few dissenters within the navies of the United Kingdom, the United States, and Japan that foresaw the pivotal role that carriers would play in the oncoming conflict. Both Japan and the United States would make heavy use of carriers during the War in the Pacific, though Japan still expected to use its battleships in a decisive battle that never ended up happening.
+
+This doctrine works very well for major naval powers looking to field a carrier-focused blue water navy. However, due to how cost-effective carriers and light cruisers can be in their roles in naval battles, it can also be useful for an aspiring power that wants to get the most out of a limited amount of available dockyards. Thanks to naval targeting bonuses also affecting land-based naval bombers, even countries without any real navies to speak of can benefit noticeably from this doctrine.
+
+# Researching Doctrines [verified for 1.16]
+
+Each individual doctrine has a base cost of 100 naval exp to unlock. This cost may be modified by spirits, advisors, and special bonuses from focuses, events, or decisions.
+
+It is possible to change doctrine tree at any point, but all bonuses from previously unlocked doctrines are lost when unlocking a different doctrine tree. Any doctrine-exclusive Officer Corps spirits are also automatically switched to different ones when a different doctrine tree is selected.
+
+## Starting Doctrines
+
+Some nations start the game with a naval doctrine pre-selected and unlocked. They can still change doctrines as normal, though sticking with their starting doctrine can cost them less naval exp in the long run.
+
+Starting Doctrine: Base Strike
+Countries:
+- Japan
+- United States 3
+
+Starting Doctrine: Fleet In Being
+Countries:
+- Australia
+- British Malaya
+- British Raj
+- Dominion of Canada
+- China
+- France
+- Italy
+- New Zealand
+- South Africa
+- Soviet Union
+- United Kingdom 3
+Countries (1939 Only):
+- Afghanistan
+- Argentina
+- Belgium
+- Bolivia
+- Brazil
+- Bulgaria
+- Chile
+- Colombia
+- Costa Rica
+- Cuba
+- Denmark
+- Dominican Republic
+- Ecuador
+- El Salvador
+- Estonia
+- Finland
+- Greece
+- Guatemala
+- Haiti
+- Honduras
+- Hungary
+- Iceland
+- Ireland
+- Iraq
+- Latvia
+- Liberia
+- Lithuania
+- Manchukuo
+- Mengkukuo
+- Mexico
+- Netherlands
+- Norway
+- Panama
+- Persia
+- Peru
+- Philippines
+- Poland
+- Portugal
+- Romania
+- Shanxi
+- Siam
+- Sinkiang
+- Spain
+- Sweden
+- Switzerland
+- Turkey
+- Uruguay
+- Venezuela
+- Xibei San Ma
+- Yugoslavia 3
+
+Starting Doctrine: Trade Interdiction
+Countries:
+- German Reich
+- East Germany
+- West Germany
+- Mecklenburg
+- Prussia
+- Saxony
+- Schleswig-Holstein
+- Thuringia
+- Generalgouvernement
+- Reichskommissariat Australasien
+- Reichskommissariat Anden
+- Reichskommissariat Arabien
+- Reichskommissariat Balkan
+- Reichskommissariat Belgien-Nordfrankreich
+- Reichskommissariat Großbritannien
+- Reichskommissariat Hindustan
+- Reichskommissariat Iberien
+- Reichskommissariat Kaukasien
+- Reichskommissariat Klein-Venedig
+- Reichskommissariat Kolumbus
+- Reichskommissariat Mittelafrika
+- Reichskommissariat Moskowien
+- Reichskommissariat Niederlande
+- Reichskommissariat Nordafrika
+- Reichskommissariat Nordamerika
+- Reichskommissariat Norwegen
+- Reichskommissariat Ostasien
+- Reichskommissariat Ostland
+- Reichskommissariat Turkestan
+- Reichskommissariat Ukraine
+- Reichskommissariat Ural 3
+
+# Definitions and terminology [verified for 1.16]
+
+## Ship Modifiers
+- Armor: Value that represents a ship's steel decking thickness, belt thickness, bulkheads, etc. The purpose of armor is to help protect a ship from attack. Having armor that is equal to or greater than the opponent's piercing value makes you take less damage.
+- Attack: Value that represents a capital ship's firepower or damage capability due to its gun size, quantity, rate of fire, etc. This value adds a positive modifier to the "to hit" dice of a large friendly ship. The higher the number, the better. See naval combat details.
+- Carrier overcrowding: Reduces the penalty for having too many planes based in a carrier. See sortie efficiency for more details.
+- Enemy fleet size penalty: Increases the penalty the enemy gets when they have too many ships in combat.
+- HP: Abbreviation for "hit points" or "health points" and is the ability to absorb damage. It represents strength, which is how much damage a ship can sustain before being destroyed.
+- Naval AA attack: Increases the amount of planes shot down when successfully intercepting enemy aircraft, reduces the damage and effectiveness of incoming Naval Strikes and Port Strikes. See ship anti-air defense for more details.
+- Organization: Indicator of a ship's combat readiness. The higher the organization rating of a ship, the longer it can stay in a fight, and the less its effectiveness drops from enemy attacks. A ship with low or no organization cannot fight or move effectively. See Defines NNavy COMBAT_LOW_ORG_HIT_CHANCE_PENALTY.
+- Surface detection: How well ships can detect enemy vessels on the surface, both when finding enemy surface fleets and when trying to avoid them.
+- Sub detection: How well ships can detect enemy submarines, both in and out of combat.
+- Surface visibility: How hard a ship is to hit in combat by other ships, and how well a ship is hidden from detection outside of combat.
+- Sub visibility: How hard a submarine is to hit with depth charges, how well a hidden submarine can remain hidden in combat, and how well a submarine can remain hidden from detection outside of combat.
+- Torpedo reveal chance: How likely submarines are to reveal themselves when they fire at an enemy equipped with sub detection. Submarines have a base score of 3.5% modified by visibility and positioning. While destroyers and light cruisers can also be equipped with torpedoes, as surface ships, they use different concealment mechanics.
+
+## Mission Modifiers
+- Escort efficiency: How quickly ships assigned to Convoy Escort missions can come to the defense of convoys. At 100%, escorts will immediately enter combat upon a convoy coming under attack.
+- Minelaying efficiency: Affects overall efficiency of naval minelaying performed by fleets.
+- Naval air agility from carriers: Modifies the agility of planes executing naval strike missions from carriers.
+- Naval targeting: How likely planes assigned to Naval Strike and Port Strike missions can hit enemy ships.
+- Port strikes Increases damage when performing Port Strike missions against fleets in port.
+- Raiding efficiency: How quickly ships assigned to Convoy Raiding missions can gather upon spotting a target.
+- Sortie efficiency: Represents how many aircraft on the aircraft carrier can participate in the attack during the battle (sorties are air missions launched from an aircraft carrier). A higher sortie efficiency rating results in greater numbers of carrier based planes (not land based) joining in a fight. Sortie efficiency typically starts at 50% meaning that only half of a carrier's planes may fly at the same time. See sortie efficiency for more details.
+- Strike force org loss: How much organization is lost by ships moving to engage a spotted fleet while assigned to Strike Force missions.
+
+# Doctrine Trees
+## Fleet in Being [verified for 1.16]
+
+Fleet In Being Ships stay in port where they are safer and only engage enemies at opportune moments. The presence of our ships will make enemies more reluctant to take our ports. *Battleship, Battlecruiser, Heavy Cruiser:
+Organization +5
+- Light Cruiser, Destroyer:
+Surface detection +10%
+- Naval minelaying efficiency +10%
+Battlefleet Concentration Call in nearby ships as soon as an enemy vessel is spotted. Coordinated focused fire quickly render enemy ships useless. Hunt them down one by one. *Battleship, Battlecruiser, Heavy Cruiser:
+Organization +5
+Strike Force Org loss −20% Convoy Sailing Introducing compulsory convoy sailing will make it easier to spot enemy raids and respond in time. Safety in numbers is the way to go. *Destroyer:
+- Sub detection +5%
+Organization +5
+- Escort efficiency +5% Submarine Operations We do not need to engage the enemy fleet head on to win the war. Strike at their trade convoys before they can react and disappear below the surface again. You cannot fight what you cannot see. *Submarine:
+- Surface detection +5%
+Organization +10
+Torpedo reveal chance −5%
+Subsidiary Carrier Role Carriers support Battleships, improving their readiness in switching from defense to offense. The utility of the Carrier as both an eye in the sky and powerful quick strikeforce complement the slower Battleships well. *Carrier: Organization +10
+- Sortie efficiency +10% Convoy Escorts Fast surface ships as part of our convoys will allow us to spot enemy submarines and respond in time. Detection is the key to eliminating the submarine nuisance. *Destroyer:
+- Sub detection +5%
+Organization +5
+- Escort efficiency +10% Undersea Blockade Submarines are the perfect tool for cutting of the enemy's inflow of important raw materials. We will cripple the enemy's production and win by starving them out. *Submarine:
+- Surface detection +10%
+Organization +10
+Hunter Killer Groups Destroyers form groups to hunt down enemy submarines. The combined efforts of scouting and hunting specialists make a fantastic killing team. *Destroyer:
+- Sub detection +10%
+Organization +5
+- Light Cruiser:
+- Sub detection +20%
+Organization +5
+- Escort efficiency +5% Escort Carriers The area covered by a Carrier's aircraft makes escorting trade convoys a much easier task. Securing the flow of resources is essential. *Carrier: Sub detection +25%
+- Escort efficiency +15% Convoy Interdiction Improved coordination of our submarines will let them strike at trade convoys en route. Disrupting the enemy's supply lines will give us the strategic advantage. *Submarine:
+- Surface detection +5%
+- Raiding efficiency +5%
+- Organization +10
+Torpedo reveal chance −10%
+Floating Fortress With battleships on highest alert we will always be prepared to respond if the enemy dares threaten our waters. Any fleet needs a solid foundation and the power of the battleship is unparallelled. *Battleship: Organization +20
+- Capital ship armor +10% Integrated Convoy Defense Better navy and air coordination allow us to strike at enemies from miles away before they are near our trade convoys. This will drastically increase the effectiveness of convoy sailing. *Destroyer:
+- Sub detection +10%
+Organization +5
+- Light Cruiser:
+- Sub detection +15%
+Organization +10
+- Carrier: Sub detection +25%
+- Escort efficiency +10% Submarine Offensive Reaching the pinnacle of communication between our submarines allows them to go on the offensive. Let us destroy the enemy trade convoys faster than they can replace them. *Submarine:
+- Surface detection +5%
+- Raiding efficiency +10%
+- Organization +10
+
+Floating Airfield Improved integration of Carriers into our fleet keeps us prepared to strike from both sea and air. It is key that we dominate the air wherever we go. *Carrier: Organization +20
+- Sortie efficiency +20%
+Grand Battlefleet Leadership training allow our commanders to keep calm in the heat of battle even when commanding immense fleets. Our fleet will crush any opposition head on. *Battleship, Battlecruiser, Heavy Cruiser:
+- Organization +20
+
+- Naval AA attack +10%
+- Capital ship attack +10%
+- Naval minelaying efficiency +10%
+
+## Trade Interdiction [verified for 1.16]
+
+Trade Interdiction The sooner we spot the enemy ships, the sooner we can destroy them. Hit their trade convoys and escape before they have time to react. * Submarine, Light Cruiser, Heavy Cruiser:
+- Surface detection +5%
+- Organization +10
+Raider Patrols Patrols of both fast and gun heavy ships leave the enemy trade convoys nowhere to hide.
+Not only submarines can hunt. *Light Cruiser, Heavy Cruiser:
+- Surface detection +10%
+- Raiding efficiency +15%
+- Organization +10 Carrier Operations Carriers will allow our pilots to strike at sea faster and easier than from our airbases on land. We will strike before they have time to react. *Carrier: Organization +20
+- Naval targeting +10% Convoy Interdiction Improved coordination of our submarines will let them strike at trade convoys en route. Disrupting the enemy's supply lines will give us the strategic advantage. *Submarine:
+- Surface detection +5%
+- Raiding efficiency +5%
+- Organization +10
+Torpedo reveal chance −10%
+Capital Ship Raiders With our most powerful ships on the hunt for trade convoys, the enemy will no longer find safety in numbers. They are sitting ducks praying we will not find them. *Battlecruiser:
+- Surface detection +15%
+- Raiding efficiency +15%
+- Organization +20
+
+- Battleship:
+- Surface detection +25%
+- Raiding efficiency +50%
+- Organization +20
+
+- Enemy fleet size penalty +10% Convoy Sailing Introducing compulsory convoy sailing will make it easier to spot enemy raids and respond in time. Safety in numbers is the way to go. *Destroyer:
+- Sub detection +5%
+Organization +5
+- Escort efficiency +5% Unrestricted Submarine Warfare Let our submarines sink any vessel without warning, civilian or not. While some consider this a breach of the rules of war, there is no denying its effectiveness. *Submarine:
+- Surface detection +10%
+- Raiding efficiency +5%
+- Attack +10%
+Battlefleet Concentration Call in nearby ships as soon as an enemy vessel is spotted. Coordinated focused fire quickly render enemy ships useless. Hunt them down one by one. *Battleship, Battlecruiser, Heavy Cruiser:
+Organization +10
+- Strike Force Org loss −20% Subsidiary Carrier Role Carriers support Battleships, improving their readiness in switching from defense to offense. The utility of the Carrier as both an eye in the sky and powerful quick strikeforce complement the slower Battleships well. *Carrier: Organization +10
+- Sortie efficiency +10% Wolfpacks With our submarines organized into packs the coordination between them is greatly improved. Once an enemy is located our submarine lies in wait until the rest of the pack arrives. Attacking only when the odds are overwhelmingly in our favour. *Submarine:
+- Surface detection +10%
+- Raiding efficiency +15%
+- Organization +10
+Torpedo reveal chance −10%
+Floating Fortress With battleships on highest alert we will always be prepared to respond if the enemy dares threaten our waters. Any fleet needs a solid foundation and the power of the battleship is unparallelled. *Battleship: Organization +20
+- Capital ship armor +10% Naval Air Operations Pilots trained to perform missions from carriers opens a new way for us to dominate the seas. Airplanes are an efficient way of thinning out the enemy fleet. *Carrier: Organization +10
+- Naval targeting +10% Advanced Submarine Warfare A massive improvement on communication between our submarines lets them time attacks to perfection. When they finally see us it will be from a sinking ship. *Submarine:
+- Surface detection +10%
+- Raiding efficiency +20%
+- Organization +10
+- HP +20%
+
+Floating Airfield Improved integration of Carriers into our fleet keeps us prepared to strike from both sea and air. It is key that we dominate the air wherever we go. *Carrier: Organization +20
+- Sortie efficiency +20%
+
+Combined Operations Raiding Designating all resources to hunt for enemy trade convoys. Coordination between our main fleet and submarines makes our fleet ever alert. No ship will go unnoticed in our waters. *Submarine:
+- Surface detection +10%
+- Raiding efficiency +5%
+- Organization +10
+
+- Light Cruiser, Heavy Cruiser, Battlecruiser:
+- Surface detection +15%
+- Raiding efficiency +35%
+- Organization +10
+
+## Base Strike [verified for 1.16]
+
+Base Strike Striking at the enemy's ports will cripple their ability to rebuild their fleet. This will allow us to dominate the seas by sheer numbers. *Carrier: Organization +20
+- Planes: Port strikes +50%
+Convoy Escorts Fast surface ships as part of our convoys will allow us to spot enemy submarines and respond in time. Detection is they key to eliminating the submarine nuisance. *Destroyer:
+- Sub detection +5%
+Organization +5
+- Escort efficiency +10% Submarine Operations We do not need to engage the enemy fleet head on to win the war. Strike at their trade convoys before they can react and disappear below the surface again. You cannot fight what you cannot see. *Submarine:
+- Surface detection +5%
+Organization +10
+Torpedo reveal chance −5% Carrier Primacy Modern airplanes have greater range and precision than ordinary naval guns. Integrate carriers into our fleet and dominate the seas from the sky. *Carrier: Organization +20
+- Naval targeting +10%
+- Sortie efficiency +10%
+Escort Patrols Improving detection makes our convoy escorts far deadlier to submarines. With nowhere to hide they pose no real threat. *Destroyer:
+- Sub detection +5%
+- Organization +5
+
+- Light Cruiser:
+- Sub detection +10%
+- Organization +5
+
+- Escort efficiency +5% Undersea Blockade Submarines are the perfect tool for cutting of the enemy's inflow of important raw materials. We will cripple the enemy's production and win by starving them out. *Submarine:
+- Surface detection +10%
+Organization +10 Carrier Task Forces Organized task forces with carriers and light cruisers ensures that the enemy will never catch us off guard. *Carrier, Light Cruiser:
+Organization +20
+- Naval targeting +10%
+Convoy Sailing Introducing compulsory convoy sailing will make it easier to spot enemy raids and respond in time. Safety in numbers is the way to go. *Destroyer:
+- Sub detection +5%
+Organization +5
+- Escort efficiency +5% Convoy Interdiction Improved coordination of our submarines will let them strike at trade convoys en route. Disrupting the enemy's supply lines will give us the strategic advantage. *Submarine:
+- Surface detection +5%
+- Raiding efficiency +5%
+- Organization +10
+Torpedo reveal chance −10% Floating Airfield Improved integration of Carriers into our fleet keeps us prepared to strike from both sea and air. It is key that we dominate the air wherever we go. *Carrier: Organization +20
+- Sortie efficiency +20%
+Integrated Convoy Defense Better navy and air coordination allow us to strike at enemies from miles away before they are near our trade convoys. This will drastically increase the effectiveness of convoy sailing. *Destroyer:
+- Sub detection +10%
+Organization +5
+- Light Cruiser:
+- Sub detection +15%
+Organization +5
+- Carrier: Sub detection +25%
+- Escort efficiency +10% Submarine Offensive Reaching the pinnacle of communication between our submarines allows them to go on the offensive. Let us destroy the enemy trade convoys faster than they can replace them. *Submarine:
+- Surface detection +5%
+- Raiding efficiency +10%
+- Organization +10 Massed Strikes Pilots trained for carrier missions will allow even an overcrowded carrier to function smoothly, swarming the enemy and vastly improving their effectiveness in naval battles. A carrier needs to run like a well oiled machine where everyone knows their role. *Carrier: Organization +20
+- Naval targeting +20%
+- Sortie efficiency +20%
+- Carrier overcrowding −20%
+
+Floating Fortress With battleships on highest alert we will always be prepared to respond if the enemy dares threaten our waters. Any fleet needs a solid foundation and the power of the battleship is unparallelled. *Battleship: Organization +20
+- Capital ship armor +10%
+Carrier Battlegroups Carriers are able to strike at the enemy from a greater distance than any naval cannon and with eyes in the sky we will never be caught off guard. Carriers in mass is a force to be reckoned with. *Carrier, Light Cruiser:
+Organization +20
+- Naval air agility from carriers +10%
+
+# Comparison Tables [verified for 1.16]
+
+Doctrine: Fleet in Being
+Organization: +40
+Surface Detection: +25%
+Raiding Efficiency: +15%
+Torpedo Reveal Chance: −15%
+
+Doctrine: Trade Interdiction
+Organization: +50
+Surface Detection: +50%
+Raiding Efficiency: +50%
+Torpedo Reveal Chance: −20%
+Attack: +10%
+HP: +20%
+
+Doctrine: Base Strike
+Organization: +40
+Surface Detection: +25%
+Raiding Efficiency: +15%
+Torpedo Reveal Chance: −15%
+
+Doctrine: Fleet in Being
+Organization: +20
+Surface Detection: +10%
+Sub Detection: +30%
+Naval AA Attack: +10%
+
+Doctrine: Trade Interdiction
+Organization: +5
+Sub Detection: +5%
+
+Doctrine: Base Strike
+Organization: +20
+Sub Detection: +25%
+
+Doctrine: Fleet in Being
+Organization: +15
+Surface Detection: +10%
+Sub Detection: +35%
+Naval AA Attack: +10%
+
+Doctrine: Trade Interdiction
+Organization: +30
+Surface Detection: +30%
+Raiding Efficiency: +50%
+
+Doctrine: Base Strike
+Organization: +50
+Sub Detection: +25%
+
+Doctrine: Fleet in Being
+Organization: +30
+Attack: +10%
+Armor: +10%
+Naval AA Attack: +10%
+
+Doctrine: Trade Interdiction
+Organization: +40
+Surface Detection: +30%
+Raiding Efficiency: +50%
+Armor: +10%
+
+Doctrine: Base Strike
+Armor: +10%
+
+{| class="wikitable sortable" style="text-align:right;"
+|+Battlecruiser (BC) stats
+! class="unsortable" |Doctrine
+! data-sort-type="number" |Organization
+! data-sort-type="number" |Surface Detection
+! data-sort-type="number" | Raiding Efficiency
+! data-sort-type="number" |Attack
+! data-sort-type="number" |Armor
+! data-sort-type="number" |Naval AA Attack
+|-
+| style="text-align:left;" |Fleet in Being||+30|| || ||+10%||+10%||+10%
+|-
+| style="text-align:left;" |Trade Interdiction||+40||+30%||+50%|| ||+10%||
+|-
+| style="text-align:left;" |Base Strike|| || || || ||+10%||
+|}
+
+{| class="wikitable sortable" style="text-align:right;"
+|+Battleship (BB) stats
+! class="unsortable" |Doctrine
+! data-sort-type="number" |Organization
+! data-sort-type="number" |Surface Detection
+! data-sort-type="number" | Raiding Efficiency
+! data-sort-type="number" |Attack
+! data-sort-type="number" |Armor
+! data-sort-type="number" |Naval AA Attack
+|-
+| style="text-align:left;" |Fleet in Being||+50|| || ||+10%||+10%||+10%
+|-
+| style="text-align:left;" |Trade Interdiction||+50||+25%||+50%|| ||+10%||
+|-
+| style="text-align:left;" |Base Strike||+20|| || || ||+10%||
+|}
+
+{| class="wikitable sortable" style="text-align:right;"
+|+Carrier (CV) stats
+! class="unsortable" |Doctrine
+! data-sort-type="number" |Organization
+! data-sort-type="number" |Naval Air Agility
+! data-sort-type="number" | Sortie Efficiency
+! data-sort-type="number" | Carrier Overcrowding
+! data-sort-type="number" |Sub Detection
+! data-sort-type="number" |Attack
+! data-sort-type="number" |Armor
+! data-sort-type="number" |Naval AA Attack
+|-
+| style="text-align:left;" |Fleet in Being||+30|| ||+30%|| ||+50%||+10%||+10%||+10%
+|-
+| style="text-align:left;" |Trade Interdiction||+60|| ||+30%|| || || ||+10%||
+|-
+| style="text-align:left;" |Base Strike||+120||+10%||+50%||−20%||+25%|| ||+10%||
+|}
+
+{| class="wikitable sortable" style="text-align:right;"
+|+Other bonuses
+! class="unsortable" | Doctrine
+! data-sort-type="number" | Naval Targeting
+! data-sort-type="number" | Port Strikes
+! data-sort-type="number" |Minelaying Efficiency
+! data-sort-type="number" | Escort Efficiency
+! data-sort-type="number" |Strikeforce Org Loss
+! data-sort-type="number" |Enemy Fleet Size Penalty
+|-
+| style="text-align:left;" | Fleet in Being|| || ||+20%||+45%||−20%||
+|-
+| style="text-align:left;" | Trade Interdiction||+20%|| || ||+5%||−20%||+10%
+|-
+| style="text-align:left;" |Base Strike||+40%||+50%|| ||+30%|| ||
+|}
+
+# References

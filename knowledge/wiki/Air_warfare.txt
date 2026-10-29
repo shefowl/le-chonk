@@ -1,0 +1,186 @@
+TITLE: Air warfare
+URL: https://hoi4.paradoxwikis.com/Air_warfare
+REVISION: 2026-01-06T23:15:37Z (rev 96272)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Air warfare consists of the deployment of air wings to strategic regions, where they can undertake missions targeting enemy air forces, land units, naval units or buildings. Given that air warfare is the only type that directly affects all three types of combat (on top of the strategic targeting), the air war is something the player must take into account when devising successful strategies.
+
+# Deployment [verified for 1.16]
+
+Air warfare is managed in the corresponding strategic air map mode. Most air operations work on the scale of strategic regions.
+
+## Air base
+
+ air base are needed for the operation of aircraft. They are state-wide buildings, which may be constructed or repaired at the Construction screen. In contrast to other state-wide buildings, air bases are located in a specific province (which is fixed per state) and control of this province determines who can use the air base. When an air base gets captured, planes automatically relocate to other air bases if available and won't be lost.
+
+### Capacity
+
+Each land-based air base can support 200 planes per base level without any penalties. The maximum air base level is 10, for a maximum of 2000 aircraft. All types of planes may be located at these air bases, including carrier-capable models.
+
+Naval carriers can operate as air bases at sea. The number of planes they can support without penalties is based on their deck space stat. Most carriers can only support carrier-capable aircraft, though ice carriers can support all types of planes.
+
+The capacity of an air base is shared between allies. The tooltip for the air base shows the total number of planes located there (and a list of the countries with air wings and the types of planes).
+If the total number of stationed planes exceeds the capacity, every additional percent of planes causes a -2 overcrowding penalty. At 50% overcapacity, the penalty reaches -100%, preventing any planes from flying from the air base. It is therefore very important to manage available capacity and to quickly rebase planes off of overfilled air bases.
+
+Air bases can be damaged by strategic bombing missions . Damage will reduce the capacity the base can hold until it is repaired.
+
+### Carrier fleets
+Aircraft carriers act as additional, floating air bases. Their capacity is determined by the deck size stat of the ship. Most carriers can only support carrier-capable aircraft, though ice carriers can support all types of planes.
+
+Planes on aircraft carriers automatically participate in naval battles when they are not assigned on missions and/or if the aircraft carrier is assigned to a mission. Air wings on carriers on hold (not on any naval missions) outside of ports can perform air missions, just like any other aircraft. This can be useful to provide close air support for an amphibious invasion when other bases are out of range, to exercise untrained air wings so that they perform better in naval battles, or to hunt unescorted enemy naval patrol bombers from outside their bombing range, among others.
+
+Hosting too many planes on an aircraft carrier applies the same penalty to their ability to operate as for land-based airbases. However, this penalty can be reduced with the Massed Strikes naval doctrine. In naval battles, it can also be counteracted by having more than 100% sortie efficiency.
+
+## Air wing
+
+Air wings are a group of planes forming an air unit attached to an air base. A new air wing is deployed from the air base screen. An air wing may be created only if there are sufficient planes and service manpower available.
+
+The size of an air wing is 100 planes for land-based ones and 10 for carrier-based ones. All planes in an air wing must be of the same type or capable of the same missions; it is not possible to mix fighters with bombers, for example. However, different models of plane within the same type or same missions (e.g. 1936 fighters and 1940 fighters) may be mixed in the same air wing.
+
+The reinforcement level of an air wing represents the amounts of plane in an air wing compared to full strength. If the current number of planes is lower than the reinforcement level, new planes will be added to it as long as there are sufficient stockpiled planes of that type. If there are none, then reinforcement will take place when new planes of the correct equipment type are produced by military production lines.
+
+Wings can be split into multiple wings of the same type or merged into one in the air base view. There is also a Reorganize option that allows greater control over moving planes between two or more wings of the same type.
+
+Once a new air wing is created, it will take 2 days for the planes to arrive at the air base. The wing may be assigned to an air region and given missions immediately, but it will not carry out the missions until the planes arrive. When air wings are reassigned to a different air base (rebased), they require time to travel to their new base. The time required to rebase planes depends on how far away their new base is and the speed of the slowest aircraft model in the design. Rebasing planes from land-based air bases to aircraft carriers or vice versa also applies a 48 hour-long penalty to the air wing preventing it from receiving any reinforcements.
+
+If an air wing is disbanded, all of its planes will return to the equipment stockpile and will be available for deployment to other air wings.
+
+# Missions
+
+(Main article: Air missions)
+Air wings can be assigned to various missions.
+
+# Air combat
+(Main article: Air combat)
+
+# Air superiority [verified for 1.16]
+
+Air superiority is the degree of dominance of your air force over an opponent's air force in a strategic region. Air superiority is provided by planes actively performing their mission and depends on their type as well. Each type of an air wing has a defined air superiority power value that describes how effective it is in domination of the sky (see table below).
+
+Aircraft Type: Heavy Fighter
+Superiority Power: 1.25
+
+Aircraft Type:
+Fighter, Carrier Fighter, Jet Fighter, CAS, Carrier CAS, NAV, Carrier NAV, TAC, Jet TAC
+Superiority Power: 1.00
+
+Aircraft Type: Strategic Bomber, Jet Strategic Bomber
+Superiority Power: 0.01
+
+Each air wing's air power is its number of planes, multiplied by the superiority power above and its mission efficiency.
+
+A region's air superiority is determined by comparing your air power (plus allies) to the enemy's air power. This ratio is stated as a percentage and results in a color applied to a region (can be viewed using the Strategic Air map mode). The colors and interpretation of the colors is listed in the table below. The ratio is non-linear, at high levels of air superiority you need to add substantially more planes to increase air superiority by 1%. At 4000 allied planes versus 500 enemy planes, adding 1000 planes to the allied side only increases allied air superiority by 1.3 percentage points.
+
+Color
+Air Superiority Percentage
+Explanation
+
+Red
+< 40%
+enemy has air superiority
+
+Yellow
+40% - 60%
+contested region
+
+Green
+> 60%
+you (or allies) have air superiority
+
+ Static anti-air can also reduce air superiority in an air region. Each building level (maximum level 5 per state) adds -5 air power to the opposing side, up to a maximum of -25.
+
+With Götterdämmerung , any Rocket site launching missiles on Surface to air missions also adds 5 air power to their side for each missile wing times the air attack of that wing, up to a theoretical maximum of 15 per site. In practice, Surface-to-Air Missile I is the only such equipment available for these missions, and it only has an Air Attack of 0.25, which translates to 1.25 air superiority per active missile wing, up to a maximum of 3.75 air superiority per rocket site , which is also before factoring in their reduced mission efficiency from their low range.
+
+Every 1 point of air superiority advantage in a strategic region gives an air support penalty (called enemy air superiority on the combat screen) to enemy land combat defense and breakthrough of -0.7%, up to a maximum of -35% at 100% air superiority. For example, with 60% air superiority, the enemy will suffer a -7% penalty to defense and breakthrough. For this reason, it is advised to hold air superiority as much as possible. Doctrines can increase this penalty by multiplying the final air support penalty by 1 + the bonus from doctrine; e.g., a -10% penalty to enemies combined with +30% air superiority from, e.g., having all Battlefield Support air doctrines becomes -10% * (1 + 30%) = -13%. Air superiority also inflicts a maximum penalty of -30% to enemy movement speed at 100% air superiority with no modifiers. anti-air , support anti-air , and other sources of divisional anti-air can reduce the penalties from hostile air superiority to down to 0.25x their unmodified values, but the effect is not linear, with the effect tapering off with more and more divisional anti-air.
+
+Having air superiority in a sea region can increase both surface and sub detection by up to +25%.
+
+Air superiority can also affect raids and special missions, such as:
+- paratroopers cannot be dropped unless you have at least 70% air superiority.
+- the success chances of most aerial raids is reduced down to -10% at 0% air superiority and increased up to +10% at 100% air superiority.
+- the success chances of lock bombing, dam busting, and oilfield raids is reduced down to -20% at 0% air superiority and increased up to +20% at 100% air superiority.
+- the success chances of nuclear strike, thermonuclear strike, mine sabotage, and pathfinder raids is reduced down to -25% at 0% air superiority and increased up to +25% at 100% air superiority.
+- air superiority contributes to intel on the success chances of a raid by up to 50%.
+
+# Aces [verified for 1.16]
+
+Air combat has a chance of generating aces. An air wing may be assigned up to one ace only. For a list of aces by country, see list of aces.
+
+Skill Level: "Good"
+Chance: 0.9
+Fighter Ace:
+- Air Attack: +3%
+- Speed: +3%
+- Agility: +5%
+(Strategic) Bomber Ace:
+- Strategic Bombing: +5%
+- Range: +3%
+Support (CAS, TAC, or NAV) Ace:
+- Naval Targeting: +5%
+- Ground attack factor: +3%
+- Agility: +5%
+
+Skill Level: "Unique"
+Chance: 0.4
+Fighter Ace:
+- Air Attack: +6%
+- Speed: +5%
+- Agility: +10%
+(Strategic) Bomber Ace:
+- Strategic Bombing: +10%
+- Range: +6%
+Support (CAS, TAC, or NAV) Ace:
+- Naval Targeting: +10%
+- Ground attack factor: +5%
+- Agility: +10%
+
+Skill Level: "Genius"
+Chance: 0.05
+Fighter Ace:
+- Air Attack: +10%
+- Speed: +8%
+- Agility: +15%
+(Strategic) Bomber Ace:
+- Strategic Bombing: +15%
+- Range: +10%
+Support (CAS, TAC, or NAV) Ace:
+- Naval Targeting: +15%
+- Ground attack factor: +8%
+- Agility: +15%
+
+The effects are scaled inversely by the size of the wing relative to 100 planes, to a maximum of 50x at 2 planes.
+
+An ace can generate on a wing after a sortie under two circumstances:
+- The wing deals damage to enemy wings in air-to-air combat
+- The wing deals more points of damage to a ship than they lose in the attack
+- The wing successfully deals damage to an enemy structure
+
+Each time this happens, the chance to generate an ace scales quadratically with the amount of planes in the air wing. The chance is 1% plus 0.005 per plane in the air wing, rolled twice. For a full, land-based air wing of 100 planes, this comes out to a final overall chance of 2.9775%. For a full, carrier-based air wing of 10 planes, this comes out to a final overall chance of about 2.0890%.
+
+If an ace is generated for an air wing that already has a living ace, the newly generated ace is put in reserve. Otherwise, the newly generated ace is automatically assigned to the air wing.
+
+Aces can die whenever an air wing loses at least one airplane in a sortie. The chance for this to happen is 0.5% plus 0.001 per plane that was lost in the sortie. When an ace dies, they remain nominally assigned to the air wing, but have a coffin displayed over their portrait and do not give any bonuses to their air wing. Dead aces are only automatically unassigned if the same wing generates a new ace; if there are any living aces in reserve that could be assigned to a wing with a dead ace, they must be manually assigned.
+
+# Strategy
+
+## Dealing with low mission efficiency
+Deploying more planes can offset reduced mission efficiency to an extent, but basing planes closer to the center of the strategic region or using planes with longer range may be more efficient.
+
+If the player does not control any bases within a region that they are attacking, then they are at a considerable disadvantage to their enemies, who do have control. The player might:
+
+- Choose tactical bombers to carry out close air support missions, instead of CAS, and use heavy fighters because of their longer range.
+- Try to capture an enemy air base as quickly as possible, so that the player can redeploy some fighters and CAS there. It might even be worthwhile if the player captures a state without an air base to build their own level 1 base there as quickly as possible. That will allow them to redeploy wings with up to 200 planes to be located within the region.
+- Use strategic bombers to bomb enemy buildings, including air bases. This might cause enough damage to their air bases to "even the odds" by reducing enemy mission efficiency. But this may only work if their air bases are already close to full capacity.
+- Using carrier fleets might also be very useful if the region has a coast where the player can (safely) anchor the fleet. Especially if the attack on the region is being carried out by a naval invasion. The carrier fleet can carry out the multiple roles of protecting the transport convoys, and providing shore bombardment.
+- Abandon trying to compete for air superiority with the player's fighters, and rely only on interception missions. Fighters on interception missions only take off and attack bomber wings if they detect a target. This causes lower losses of the player's fighters. It will give the player's enemy the air superiority bonus in combat however.
+
+# References
+
+hoi4de:Air warfare
+hoi4es:Air warfare
+hoi4fr:Air warfare
+hoi4pl:Air warfare
+hoi4pt:Air warfare
+hoi4ru:Air warfare

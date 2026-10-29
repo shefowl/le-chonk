@@ -1,0 +1,251 @@
+TITLE: Weather
+URL: https://hoi4.paradoxwikis.com/Weather
+REVISION: 2025-04-07T13:52:13Z (rev 82437)
+VERIFIED FOR: 1.14
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+Terrain
+A dynamic counterpart to terrain, weather can affect movement and combat of all types of units. Weather has a big impact on logistics and how one is able to supply units. It should be noted provinces do not always have weather, and some provinces have no temperature modifiers.
+
+# Day-Night Cycle [verified for 1.14]
+
+The game simulates full day-night cycles for every province on the map every hour. Over the course of a year, every province will have roughly 12 hours of daytime and 12 hours of nighttime per day, though the amount of daytime and nighttime that a province receives per day can vary depending on the day of the year. Provinces closer to the Equator will have little variance in their daytime and nighttime hours over the course of a year, whereas provinces closer to the poles can experience months with large amounts of daytime during their summer seasons and months with large amounts of nighttime during their winter seasons.
+
+Nighttime confers the following effects to units located in it:
+
+- -50% land attack
+- -20% air detection
+- -25% naval hit chance
+- -100% carrier traffic
+- -50% bombing targeting
+- +10% naval retreat speed
+- 0.1 close air support damage
+These penalties can be offset by modifiers that are explicitly stated as night penalty reductions, e.g., from CAG Night Fighting or a Night Operations Chief of Air Force. Land Night Attack bonuses, e.g., from Night Assault Tactics or Night Vision technologies, also negate the base penalty to land attack at nighttime instead of just adding land attack at night, which is an important difference to consider when multiple sources of this bonus are applied.
+
+It should be noted that carrier aircraft are affected both by nighttime penalties to their aerial mission as well as by night penalties to the carriers off of which they are based. Nighttime penalty reductions to aircraft alone are therefore far less effective on carrier aircraft unless also accompanied by nighttime penalty reductions to carriers.
+
+# Temperature [verified for 1.14]
+
+Temperature plays a very important role in the game's weather systems.
+
+## Temperature Variation and Ranges
+Temperature is tracked for every province on the map and updated regularly. Every update tick, the temperature of a province can change up to 6 degrees Celsius, though both temperature changes and temperatures as a whole are smoothed between neighboring provinces to be more gradual overall.
+
+All strategic regions have pre-defined temperature ranges that their provinces are allowed to have at on any given day of the year. Some can have very large ranges of temperatures throughout the year (e.g., temperatures in Manchuria can range between -25 and 31 degrees throughout the year), while others can have fairly stable temperatures that are temperature throughout the entire year (e.g., temperatures in Southern England can range between -5 and 25 degrees throughout the year). Similarly, some regions can tend to have very high temperatures (e.g., temperatures in South Indochina can range between 16 and 36 degrees throughout the year), while others can tend to have very low temperatures (e.g., provinces in Northern Norway can range between -23 and 18 degrees throughout the year).
+
+The terrain of a province can also bias its temperature. The following terrain types will statically bias the temperature of their province by the following amount:
+
+- Mountain : -7 degrees
+- Hills : -3 degrees
+- Forest : -1 degree
+- Urban : +3 degrees
+- Jungle : +5 degrees
+
+## Province Modifiers from Temperature
+Provinces that are experiencing more extreme temperatures can be assigned one of the following modifiers, which will have the following effects on units in the province:
+
+Extremely cold
+-100 to -12
++20%
+−20%
+−30%
+−5%
+−60%
+−15%
+100%
+
+Very cold
+-12 to -4
++10%
+−10%
+−15%
+−30%
+
+Very hot
+20 to 28
++10%
+−5%
+−5%
+
+Extremely hot
+28 to 100
++20%
+−10%
+−10%
++50%
+10%
+
+Note: Attrition from weather only applies if controller is at war.
+
+While winter attrition can be reduced by appointing the armies to a commander with a Winter Specialist trait, there is no corresponding trait to reduce heat attrition. Commanders gain the Winter Specialist trait by fighting for a longer time in cold weather. South Africa has a unique focus Desert Equipment reducing heat attrition.
+
+Negative effects from these modifiers can be reduced by up to 50% (at best halved) through acclimatization. Effects from Extremely hot and Very hot can be reduced with hot acclimatization, and effects from Extremely cold and Very cold can be reduced with cold acclimatization. Units gain hot acclimatization by spending time in provinces with Extremely hot or Very hot . Units gain cold by spending time in provinces with Extremely cold , Very cold , Snow , Blizzard , Snow , and/or Deep Snow . Acclimatization speed is increased by 3x when a unit is in combat, and it can also be increased through various sources of acclimatization factor bonuses, e.g., the Adaptable commander trait or the Shared Instructors special forces doctrine. Acclimatization decays over time when a unit is not in a province with a modifier that would benefit from it. It also decays at 2x speed when a unit with cold acclimatization is in a province where it would benefit from hot acclimatization or vice versa.
+
+## Temperature Impacts on Weather Events and Modifiers
+While the likelihood of weather events such as Rain , Storm , Snow , and Blizzard and modifiers representing their long-term effects like Mud , Snow , and Deep Snow are primarily defined though strategic regions for each month of the year, temperature can also have an indirect effect in the following ways:
+
+- Mud : The rate at which collected water in a province evaporates increases linearly from 2 degrees to 38 degrees, which means mud dries out quicker at hotter temperatures. The modifier also disappears at temperatures of -1 degree or colder, as the mud freezes.
+- Snow , Blizzard , Snow , and Deep Snow : Snow can only fall on a province when it is 1 degree or colder, and the rate of snowfall for Snow and Blizzard increases linearly until -4 degrees before capping out. Snow only starts melting into in provinces at 0 degrees or warmer (snowmelt will become collected water), and the rate of snowmelt increases linearly until 12 degrees before capping out.
+- Arctic Water : This modifier can only be applied to eligible sea zones when they are between 0 and -5 degrees. Once applied, they also can only be removed once the given sea zone is between 1 and 5 degrees. Some sea zones, e.g. the Bering Sea, will always have this modifier applied, while others, e.g. the Denmark Strait, might only have it applied during colder, winter months.
+
+# Weather Events [verified for 1.14]
+
+Weather events spawn modifiers that can have an impact on single provinces and/or entire states.
+
+## State-Level Modifiers
+
+Rain
++10%
+−10%
+−10%
+−10%
+−5%
+−5%
+−20%
+5%
+
+Storm
++30%
+−20%
+−30%
+−80%
+−20%
+−20%
+−10%
+−40%
+−10%
+−50%
+10%
+
+10%
+−5%
+
+Snow
++10%
+−15%
+−10%
+−15%
+−5%
+−5%
+−30%
+−10%
+10%
+−10%
+30%
+
+Blizzard
++30%
+−30%
+−30%
+−100%
+−30%
+−10%
+−10%
+−40%
+−20%
+−70%
+25%
+15%
+
+−25%
+100%
+
+Sandstorm
++60%
+−90%
+−50%
+−90%
+−100%
+25%
+
+−15%
+300%
+
+Shark Infested Waters
+
+Arctic Water
+
+−20%
+
+## Province-Level Modifiers
+
+Snow
+−20%
+−15%
+−20%
+−25%
+10%
+−20%
+50%
+
+Deep Snow
+–40%
+−30%
+−50%
+−50%
+−5%
+25%
+−40%
+100%
+
+Mud
++70%
+−40%
+−50%
+25%
+−15%
+500%
+
+Flooded
++50%
+−50%
+−20%
+25%
+−40%
+300%
+
+Note: Attrition from weather only applies if controller is at war.
+
+High levels of Snow and Deep Snow will affect unit movement speed and greatly hinder the power of any offensive. These debuffs stack on top of those of Extremely cold and Very cold , so smart players should be mindful of launching winter offensives in colder climates without adequate preparation, including the potential use of Rangers with Cold Weather Specialists . Mud will increase attrition levels, especially for supply trucks used for motorized supply, and can similarly grind offensives to a halt.
+
+If the area is set up as being susceptible to mud during a particular time of year, and the water level over a time period is high enough, mud develops. Rain , a Storm , or even melting Snow can be the source of the water. The game logs how much water is collected in each province based on past precipitation and temperature. Higher levels of infrastructure will reduce the growth of mud in a province by up to -80%.
+
+Temperature affects how quickly collected snow and water disappear from each province. Snow and Deep Snow in provinces with temperatures at or above 0 degrees will melt into collected water, with melting speed increasing linearly with temperature until it caps out at 12 degrees. Collected water (that could produce Mud ) will start to evaporate at temperatures of 2 degrees or warmer. Evaporation speed increases linearly with temperature until it caps out at 38 degrees, though any precipitation in the meantime can refill provinces' collected water. Mud in provinces with temperatures of -1 degrees or colder will also freeze, negating its effects until temperatures become warm enough to thaw it out.
+
+Wise players will try to avoid launching major offensives during the mud seasons of a given location. In places like the Western Soviet Union and the Northeastern United States, this happens during the spring, when cold and snowy winters are followed by a wet and mild spring, as well as in the late autumn, when heavy rainfall and low temperatures cause a buildup of unevaporated water. In Northern France and the Southern United Kingdom, this can happen during mild but very wet winters when temperatures are not cold enough to cause mud to freeze, but also not warm enough for the buildup of water to evaporate, especially in areas with less infrastructure .
+
+## Terrain effects on weather
+Some terrain makes it more or less likely for a weather event to occur and/or for province modifiers from collected water and/or snow to appear.
+
+Weather: Mud
+Mountain: -30%
+Plains: +50%
+Marsh: +90%
+Desert: +10%
+Jungle: +20%
+
+Rain
+
+Storm
+
+Weather: Snow
+Mountain: +80%
+Desert: -100%
+Urban: -40%
+
+Blizzard
+
+Weather: Sandstorm
+Mountain: -100%
+Desert: +80%
+
+# Notes and References
+a Increases the supply use of a division in a state or province experiencing that weather.b Reduces the rate that supplies flow into a province in the state experiencing that weather.
+
+hoi4de:Weather
+hoi4es:Weather
+hoi4fr:Weather
+hoi4pl:Weather
+hoi4pt:Weather
+hoi4ru:Weather

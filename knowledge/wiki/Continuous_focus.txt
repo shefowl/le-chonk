@@ -1,0 +1,161 @@
+TITLE: Continuous focus
+URL: https://hoi4.paradoxwikis.com/Continuous_focus
+REVISION: 2025-03-31T07:50:49Z (rev 82022)
+VERIFIED FOR: 1.14
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+National focus
+
+A continuous focus is a special type of focus that is unlocked once 10 regular focuses have been completed. There are a total of 9 continuous focuses available.
+
+Having an active continuous focus comes at the expense of pursuing a regular focus as only one focus can be picked at a time regardless of its type.
+
+As opposed to a regular focus which provides one-time effects, the effects of a continuous focus benefit the nation whilst the chosen focus remains active. An active focus requires a maintenance cost of Political power –1 Political power per day. The focus can, however, be deactivated or switched with another at any time for no additional cost.
+
+Clicking on a focus icon leads to the appropriate table row.
+
+The dedicated control panel is located on the bottom left of the national focus tree. The player can see on the panel's top right how many focuses are still required (black/green leds) before the mechanic is operational. The panel displays which of the focuses are available for activation, if one is currently in effect and its relevant maintenance cost.
+
+# Unconditioned focuses [verified for 1.14]
+
+Focus:
+FOCUS Air Production: We can reorganize our aviation industry to eliminate waste and streamline production.
+Effects:
+Production cost: –10% * Carrier CAS
+- Carrier Fighter
+- Carrier Naval Bomber
+- Close Air Support
+- Fighter
+- Guided Missile
+- Heavy Fighter
+- Jet Fighter
+- Jet Strategic Bomber
+- Jet Tactical Bomber
+- Naval Bomber
+- Rocket Interceptor
+- Scout Planes
+- Strategic Bomber
+- Tactical Bomber
+- Transport Plane 2
+
+Focus:
+FOCUS Army Training: By creating specialized advanced training units within each division, we can deploy even divisions that would previously have been held back to finish training to the front.
+Effects: * Division training time: –25%
+
+Focus:
+FOCUS Construction Engineering: There is still a lot of slack in our construction industry. By focusing our attention on it, we can achieve a significant improvement in construction speed. Unfortunately, the production of machine tools has proven a major bottleneck in the expansion of our heavy industry, so they won't benefit from efforts in this area.
+Effects:
+Construction Speed : +20% * Static Anti Air
+- Coastal Fort
+- Land Fort
+- Radar Station 2
+ Construction Speed : +10% * Air Base
+- Fuel Silo
+- Infrastructure
+- Naval base
+- Railway
+- Rocket Site
+- Supply Hub
+- Nuclear Reactor
+- Heavy Water Nuclear Reactor
+- Civilian Nuclear Reactor 2
+
+Focus:
+FOCUS Construction Repair: We will form specialized repair teams from factory and construction workers and centrally control their deployment to improve reconstruction of damaged infrastructure.
+Effects: * Factory repair speed: +50%
+
+Focus:
+FOCUS Naval Production: By focusing resources on our shipyards and exempting skilled shipbuilders from military service, we can dramatically reduce production time for ships.
+Effects: * Dockyard output : +20%
+
+Focus:
+FOCUS Resistance Suppression: By infiltrating the major resistance groups in occupied territory and turning their leaders, we can significantly reduce the amount of damage they can do.
+Effects: * Resistance target: –5%
+
+# Conditional focuses [verified for 1.14]
+
+Focus:
+FOCUS Increase Autonomy: By reorganizing our colonial bureaucracy and recruiting native administrators, we will, in time, be able to take charge of our own affairs.
+Prerequisites: * Is a subject nation
+Effects: * Daily autonomy progress gain: +0.5
+
+Focus:
+FOCUS Suppress Subjects: Our colonial subjects have gotten rather silly ideas about things like "self-determination" or "national independence". It is time to disabuse them of these notions.
+Prerequisites: * Has a subject nation
+Effects: * Autonomy in subjects: –0.5
+
+Focus:
+FOCUS Technology Sharing: We will encourage our research institutes and universities to reach out to their counter parts in allied countries. This will gain us a tech sharing bonus.
+Prerequisites:
+- Is in a faction with at least 2 members
+- Is not part of a technology sharing group
+Effects:
+Join Faction research:
+- Research speed for every nation owning the tech: +10%
+
+# Country Specific focuses [verified for 1.14]
+
+Focus:
+FOCUS Strengthen the Black Lions: Although we have lost land to the enemy, the fight must go on. The Black Lions are offering a great deal of resistance to the Italian's and we should therefore support them in any way we can.
+Prerequisites:
+- The DLC By Blood Alone is enabled
+- Is/was Ethiopia
+- Has completed focus Anti-Italian Propaganda
+- One of the following must be true:
+ - Is a Government in Exile
+ - Country leader has trait: Imperator Absentis
+- Any owned state:
+ - Is not controlled by Ethiopia
+Effects: * Compliance Growth Speed in our states occupied by the enemy: -10%
+
+Focus:
+FOCUS Supporting the Arbegnoch: Across Ethiopia there are patriots willing to take up arms against the Italian invaders. We must do everything we can to support these brave men and women in crippling the Italian war machine
+Alternative Descriptions
+Game File description
+
+Across [ROOT.GetName] there are patriots willing to take up arms against the [ITA.GetAdjective] invaders. We must do everything we can to support these brave men and women in crippling the [ITA.GetAdjective] war machine.
+Prerequisites:
+- The DLC By Blood Alone is enabled
+- Is/was Ethiopia
+- Has completed focus The Patriots
+- One of the following must be true:
+ - Is a Government in Exile
+ - Country leader has trait: Imperator Absentis
+- Any owned state:
+ - Is not controlled by Ethiopia
+Effects: * Resistance Growth Speed in our states occupied by the enemy: +10%
+
+Focus:
+FOCUS Build up Military Readiness: The task of preparing the Swiss population is never-ending. We cannot rest until the treat of invasion is gone, and might never be. We must orient our nation towards defensive preparations without delay.
+Prerequisites:
+- The DLC By Blood Alone is enabled
+- Is/was Switzerland
+- Has completed focus Armed Neutrality
+Effects: Activates mission: Building up Military Readiness
+
+Focus:
+FOCUS Support Active Militias: Our citizens are armed and deployed into their local militias, it is everyone else's duty to support them however they can so we can keep the enemies of the confederation at bay
+Prerequisites:
+- The DLC By Blood Alone is enabled
+- Is/was Switzerland
+- Has Modifier: Citizen Militias Deployed
+Effects:
+- Militia Attack: +30%
+- Militia Defense: +30%
+- Militia Speed: +30%
+- Militia Organization: +15%
+
+Focus:
+FOCUS Undermine Overlord Influence: We must do what we can to resist and undermine our Overlords to ensure Danish sovereignty.
+Prerequisites:
+- The DLC Arms Against Tyranny is enabled
+- Is/was Denmark
+- Is subject
+- Overlord Influence is active
+Effects: * Weekly Balance of Power Change: +1.00%
+
+# References
+
+- To update page content see reference files in folder common/continuous_focus.
+- For flavor text see reference file focus_l_english.yml.

@@ -1,0 +1,272 @@
+TITLE: Intelligence agency
+URL: https://hoi4.paradoxwikis.com/Intelligence_agency
+REVISION: 2026-03-14T11:56:06Z (rev 98816)
+VERIFIED FOR: 1.16
+SOURCE: WikiTeam dump wiki-hoi4.paradoxwikis.com-20260330 (archive.org)
+LICENSE: CC BY-SA, https://central.paradoxwikis.com/Central:Copyrights
+
+La Résistance
+
+An intelligence agency is required for most of the espionage actions. It requires investing 5 civilian factories for time 30 days to become operational. Once it is created, it can be used to recruit operatives to perform missions or operations, and it can be further enhanced with various upgrades.
+
+# Operatives
+(Main article: Operatives)
+
+Operatives are field agents capable of carrying out espionage under an intelligence agency. Similar to commanders and scientists, they have their own names, portraits, traits, and skill levels, and they can gain experience and additional traits through missions and operations.
+
+# Missions
+(Main article: Missions)
+
+Operatives can perform various missions on the map. The strength and impact of a mission generally depends on the size and strength of your spy network.
+
+# Operations
+(Main article: Operations)
+
+Operations become available to you after sufficient intel network has been established in the target country. All available operations can be found under the "Operations" tab in your Intelligence agency.
+
+# Agency Upgrades [verified for 1.16]
+
+All agency upgrades are divided into 5 branches: Intelligence, Defense, Operations, Operative Training, and Cryptology Department.
+Each upgrade requires a variable amount of civilian factory to be invested for time 30 days, but this time can be shortened by -15% (to effectively 25 days) if you employ an Illusive Gentleman advisor.
+
+## Intelligence Branch
+The Intelligence branch consists of 4 upgrades, one for each field of intel:
+
+Economy/civilian
+Civilian Intelligence: +25%
+5
+
+Army Department
+Army Intelligence: +25%
+5
+
+Naval Department
+Naval Intelligence: +25%
+5
+
+Airforce Department
+Air Intelligence: +25%
+5
+
+## Defense Branch
+The Defense branch interacts with operatives' missions.
+Counter-intelligence bonus from Passive Defence increases execution time of hostile operations on your territory and increases chances of stopping enemy's Operatives.
+Anti-partisan upgrade increases effectiveness of Root Out Resistance of your Operatives.
+
+Passive defense
+- First upgrade:
+ - Counter intelligence: +1.5
+- Second upgrade:
+ - Counter intelligence: +1.25
+- Third and fourth upgrades:
+ - Counter intelligence: +1
+5
+
+Anti-partisan
+- First and second upgrades:
+ - Root Out Resistance mission effects: +25%
+5
+
+## Operations Branch
+The Operations Branch upgrades increase chances for positive results and decreases risk of your operations.
+
+Blueprint stealing
+Steal Blueprint effectiveness: +25%
+5
+
+Name: Portable radios
+Effect: Coordinated Strike effectiveness: +100%
+civilian factory Cost: 8
+Prerequisites: yes Has researched Radio
+
+Invisible Ink
+- Intelligence gained from Operatives and Infiltrated Assets: +20%
+- Steal Blueprint risk: -25%
+5
+
+Plastic explosives
+- Targeted Sabotage efficiency: +25%
+- Strengthen Resistance efficiency: +25%
+8
+
+Suicide pills
+- Death chance of our Operative on capture: +10%
+- Own operative detection chance offset: -0.05%
+5
+
+## Operative Training Branch
+Operative training branch upgrades improve effects of certain missions your Operatives can perform in field and provide improvements for the Operatives pool.
+
+Localized training centers
+- Enemy nationality recruit chance: +25%
+- Occupied friendly nationality recruit chance: +25%
+- Operative recruitment choices: +1
+- Unlocks Local Agent Recruitment decisions
+10
+
+Commando training
+- Chance of recruiting an Operative with the Commando trait: +100%
+- Hidden: Allows Operatives to earn experience towards the Commando trait.
+5
+
+Interrogation techniques
+- Enemy operative capture chance: +100%
+- Enemy operative intel extraction rate: +25%
+5
+
+Diplomatic Training
+- Control Trade mission effects: +25%
+- Diplomatic Pressure mission effects: +25%
+5
+
+Psychological Warfare
+- Propaganda mission effects: +25%
+- Boost Ideology mission effects: +25%
+8
+
+## Cryptology Department Branch
+The cryptology department branch unlocks and improves the cipher decryption mechanic.
+
+Form Department
+- Decryption power : +25
+- Cryptology level : +1
+- Unlock Cryptology Department: Yes
+8
+
+Name: Radio Interception Group
+Effect:
+- First upgrade:
+ - Decryption power : +25
+- Second upgrade:
+ - Decryption power : +10
+civilian factory Cost: 5
+Prerequisites: yes Has completed Form Department agency upgrade
+
+Name: Machine-Assisted Decryption
+Effect:
+- First upgrade:
+ - Decryption power : +25
+- Second upgrade:
+ - Decryption power : +15
+- Third upgrade:
+ - Decryption power : +10
+civilian factory Cost: 10
+Prerequisites:
+- yes Has completed all Radio Interception Group agency upgrades
+- yes Has researched Mechanical Computing technology
+
+Name: Government Cypher School
+Effect:
+- First, second, and third upgrades:
+ - Cryptology level : +1
+civilian factory Cost: 5
+Prerequisites: yes Has completed Form Department agency upgrade
+
+Name: Machine-Assisted Encryption
+Effect:
+- First, second, and third upgrades:
+ - Cryptology level : +2
+civilian factory Cost: 15
+Prerequisites:
+- yes Has completed all Government Cypher School agency upgrades
+- yes Has researched Mechanical Computing technology
+
+# Cryptology [verified for 1.16]
+
+Cipher decryption mechanic uses two stats: Cryptology level and Decryption power .
+
+ Cryptology level can be described as a defensive stat for your ciphers, while Decryption power is your offensive stat.
+
+Every day, your Decryption power adds up towards decryption of selected ciphers.
+
+In order to decrypt an enemy's cipher, you have to accumulate your Decryption power until it reaches your opponent's Cryptology level .
+
+Starting Cryptology level is 0, which requires you to accumulate 12000 Decryption power .
+
+Each upgrade in Cryptology level increases the net pool by 4250, so with Cryptology level 7, your enemy will have to reach 41750 net Decryption power . The formula will look like this:
+
+-
+
+It is possible to decrypt multiple codes at once, but your Decryption power will be split into even parts as well, e.g., if you have 50 Decryption power and are trying to break the codes of two countries at once, you will invest 25 Decryption power towards decrypting one opponent's cipher and 25 towards the other. However, if you pause the decrypting process for one country, all your Decryption power will be used for the other code.
+
+Additionally, countries not at war suffer a -50% penalty to their Decryption power .
+
+Cracked code provides you with following passive bonuses against the target country:
+
+- Air detection: +5.0%
+- Interception Mission Efficiency: +25%
+- Decrypted Civilian Cipher Bonus: +10%
+- Decrypted Army Cipher Bonus: +10%
+- Decrypted Navy Cipher Bonus: +10%
+- Decrypted Airforce Cipher Bonus: +10%
+
+You can also reveal intel about the cracked codes to the enemy, which will grant you active bonuses on top of the passive ones for 30 days:
+
+- Invasion Penalty: -15%
+- Planning Speed: +50.0%
+- Defense bonus against country: +15.0%
+- Invasion Preparation Speed: +50.0%
+- Breakthrough bonus against country: +15.0%
+- Decrypted Civilian Cipher Bonus: +50%
+- Decrypted Army Cipher Bonus: +50%
+- Decrypted Navy Cipher Bonus: +50%
+- Decrypted Airforce Cipher Bonus: +50%
+
+After 30 days, the opponent will change their cods and your decryption progress will be reset to 0.5
+
+# Spy Master [verified for 1.16]
+
+Once a country has upgraded its agency at least 3 times, is independent or a high-autonomy puppet ( Dominion , Satellite , Imperial Subject , Supervised state ), and is a part of a faction, it can choose to invest political power to become its faction's Spy Master. Each faction can have at most one Spy Master at a time, though any faction member can invest political power to take over as Spy Master.
+
+The number of extra operative slots gained from being a Spy Master depends on the number of at least semi-independent countries in your faction and the size of their industry. Specifically, every independent county and high-autonomy puppets ( Dominion , Satellite , Imperial Subject , Supervised state ) in the faction with at least OPERATIVE_SLOTS_FROM_FACTION_MEMBERS_FOR_SPY_MASTER but less than OPERATIVE_SLOTS_FROM_FACTION_MEMBERS_FOR_SPY_MASTER factories provides OPERATIVE_SLOTS_FROM_FACTION_MEMBERS_FOR_SPY_MASTER extra operative slots, and every such country with at least OPERATIVE_SLOTS_FROM_FACTION_MEMBERS_FOR_SPY_MASTER factories provides OPERATIVE_SLOTS_FROM_FACTION_MEMBERS_FOR_SPY_MASTER extra operative slots. It should be noted that the factory count includes both military factories and civilian factories , but not naval dockyards .
+
+For example, when Germany is a Spy Master for the Axis and it puppets Slovakia, it will not receive an additional operative. When Italy joins the Axis, because it has more than OPERATIVE_SLOTS_FROM_FACTION_MEMBERS_FOR_SPY_MASTER factories, Germany will gain OPERATIVE_SLOTS_FROM_FACTION_MEMBERS_FOR_SPY_MASTER of a spy, giving it an additional operative. If Romania becomes a satellite and it has OPERATIVE_SLOTS_FROM_FACTION_MEMBERS_FOR_SPY_MASTER - OPERATIVE_SLOTS_FROM_FACTION_MEMBERS_FOR_SPY_MASTER (exclusive) factories, Germany will gain OPERATIVE_SLOTS_FROM_FACTION_MEMBERS_FOR_SPY_MASTER of a spy.
+
+# Agency Name and Logo [verified for 1.16]
+
+When creating an agency, the following logos are available. The first one is picked by default, including its default name. A custom name may also be set.
+{|class = "wikitable sortable"
+! class="unsortable" | Logo
+! Default Name
+! Prerequisites
+|-
+|
+| Rooke
+|
+|-
+|
+| Tower
+|
+|-
+|
+| Snake
+|
+|-
+|
+| Stag
+|
+|-
+|
+| Golden Lion
+|
+|-
+|
+| Arrow
+|
+|-
+|
+| Lion Head
+|
+|-
+|
+| Golden Eagle
+|
+|-
+|
+| Hammer and Sickle
+| Communist
+|}
+
+Some countries have predefined intelligence agencies with custom logos and default names. For a list of intelligence agencies by country, see list of intelligence agencies.
+
+# References
