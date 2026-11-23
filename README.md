@@ -1,8 +1,10 @@
 <div align="center">
 
-# 🐈 Le Chonk
+# HOI4 War Cabinet
 
-### Mistral Large 4 plays *Hearts of Iron IV* — with an entire war cabinet
+### Mistral Large 4 plays *Hearts of Iron IV* — in every seat of a war cabinet
+
+<sub>🐈 <b>Le Chonk</b> is Mistral's codename for Mistral Large 4 — hence the repository name.</sub>
 
 [![Mistral Challenge](https://img.shields.io/badge/Mistral_Discord_Challenge-🏆_Community_vote_winner-FA520F?style=for-the-badge)](docs/submission/POST.md)
 
@@ -18,16 +20,18 @@
 
 </div>
 
-An entire nation, an entire general staff, and one very large cat in command. Le Chonk runs a HOI4 country through a cabinet of agents — planner, supreme command, politics, industry, army, air force, navy and a field marshal per theatre. The same model, **Mistral Large 4**, can fill every seat.
+An entire nation, an entire general staff, and one very large cat in every seat. **Mistral Large 4** runs a HOI4 country through a cabinet of agents — planner, supreme command, politics, industry, army, air force, navy and a field marshal per theatre — and the same model fills every seat.
 
 Run the whole country autonomously, or **play alongside it**: hand the navy, the air force or industry to the cabinet, keep the rest yourself, and take any branch back from a native in-game command desk.
 
 ## The war cabinet
 
+🐈 **Le Chonk** (Mistral Large 4) sits in every seat.
+
 | Seat | Role | Responsibilities |
 |:--|:--|:--|
 | **Le Stratège** | Planner | Long-term plan: economy, research, production, politics, force targets, future wars |
-| **LE CHONK** 🐈 | Supreme command | Turns the plan into theatre objectives, force allocations and orders to ministries and staffs |
+| **Le Généralissime** | Supreme command | Turns the plan into theatre objectives, force allocations and orders to ministries and staffs |
 | **Le Diplomate** | Events & requests | Answers events and diplomatic requests between cabinet meetings |
 | **Le Ministre** | Politics | Focuses, political power, laws, advisors, decisions, country mechanics |
 | **L'Industriel** | Industry & research | Construction, research, production lines, trade, equipment |
@@ -38,14 +42,16 @@ Run the whole country autonomously, or **play alongside it**: hand the navy, the
 
 ```mermaid
 flowchart TD
-  P["Le Stratège<br/>long-term plan"] --> S["🐈 LE CHONK<br/>supreme command"]
-  D["Le Diplomate<br/>events & requests"] -.-> S
-  S --> M["Le Ministre<br/>politics"]
-  S --> I["L'Industriel<br/>industry & research"]
-  S --> G["Le Général<br/>army staff"]
-  S --> A["Le Général de l'Air<br/>air staff"]
-  S --> N["L'Amiral<br/>admiralty"]
-  S --> F["Le Maréchal × theatres<br/>fronts & battle plans"]
+  subgraph LC["🐈 Le Chonk · Mistral Large 4 — every seat"]
+    P["Le Stratège<br/>long-term plan"] --> S["Le Généralissime<br/>supreme command"]
+    D["Le Diplomate<br/>events & requests"] -.-> S
+    S --> M["Le Ministre<br/>politics"]
+    S --> I["L'Industriel<br/>industry & research"]
+    S --> G["Le Général<br/>army staff"]
+    S --> A["Le Général de l'Air<br/>air staff"]
+    S --> N["L'Amiral<br/>admiralty"]
+    S --> F["Le Maréchal × theatres<br/>fronts & battle plans"]
+  end
 ```
 
 ## How it plays
