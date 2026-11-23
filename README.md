@@ -1,14 +1,79 @@
-# Le Chonk — Hearts of Iron IV command desk
+<div align="center">
 
-Mistral Large 4 plays a grand strategy game through a hierarchy of agents: planning, supreme command, politics, industry, army, air force, navy, and field marshals. The same model can fill every role. A native in-game command desk shows their plan, reports and conversations; you can give directives or take a branch back.
+# 🐈 Le Chonk
 
-**Contest profile:** `--models lechonk` uses **Mistral Studio**, `https://api.mistral.ai/v1`, exact model **`mistral-large-4` for every role**. It does not use `mistral-large-latest` or OpenRouter. Other providers are available for development and BYOK.
+### Mistral Large 4 plays *Hearts of Iron IV* — with an entire war cabinet
 
-**[Watch/download the two-minute Italy demo](https://github.com/shefowl/le-chonk/releases/tag/v0.1.0)** · **[Challenge write-up](docs/submission/POST.md)**
+[![Mistral Challenge](https://img.shields.io/badge/Mistral_Discord_Challenge-🏆_Community_vote_winner-FA520F?style=for-the-badge)](docs/submission/POST.md)
+
+[![Model](https://img.shields.io/badge/model-Mistral_Large_4-FF7000)](https://docs.mistral.ai/)
+[![HOI4](https://img.shields.io/badge/HOI4-1.19.4.1-1f4e79)](#setup)
+[![Platform](https://img.shields.io/badge/platform-Linux_·_Windows_coming_soon-555555)](#setup)
+[![Python](https://img.shields.io/badge/python-3.11+-3776AB)](requirements.txt)
+[![License](https://img.shields.io/badge/license-MIT-2ea44f)](LICENSE)
+
+[![Le Chonk command desk over the Italian campaign in East Africa](docs/media/command-desk.jpg)](https://github.com/shefowl/le-chonk/releases/tag/v0.1.0)
+
+**[▶ Watch the two-minute demo](https://github.com/shefowl/le-chonk/releases/tag/v0.1.0)** · **[Challenge write-up](docs/submission/POST.md)** · **[Setup](#setup)** · **[Runbook](docs/RUNBOOK.md)**
+
+</div>
+
+An entire nation, an entire general staff, and one very large cat in command. Le Chonk runs a HOI4 country through a cabinet of agents — planner, supreme command, politics, industry, army, air force, navy and a field marshal per theatre. The same model, **Mistral Large 4**, can fill every seat.
+
+Run the whole country autonomously, or **play alongside it**: hand the navy, the air force or industry to the cabinet, keep the rest yourself, and take any branch back from a native in-game command desk.
+
+## The war cabinet
+
+| Seat | Role | Responsibilities |
+|:--|:--|:--|
+| **Le Stratège** | Planner | Long-term plan: economy, research, production, politics, force targets, future wars |
+| **LE CHONK** 🐈 | Supreme command | Turns the plan into theatre objectives, force allocations and orders to ministries and staffs |
+| **Le Diplomate** | Events & requests | Answers events and diplomatic requests between cabinet meetings |
+| **Le Ministre** | Politics | Focuses, political power, laws, advisors, decisions, country mechanics |
+| **L'Industriel** | Industry & research | Construction, research, production lines, trade, equipment |
+| **Le Général** | Army staff | Armies and army groups, commanders, templates, recruitment, training |
+| **Le Général de l'Air** | Air staff | Wings, airfields, missions: fighters, bombers, close air support |
+| **L'Amiral** | Admiralty | Fleets, task forces, convoys, sea zones, landings |
+| **Le Maréchal** | Field marshal, one per theatre | Reads its front, assigns army sectors, draws attacks and fallback lines |
+
+```mermaid
+flowchart TD
+  P["Le Stratège<br/>long-term plan"] --> S["🐈 LE CHONK<br/>supreme command"]
+  D["Le Diplomate<br/>events & requests"] -.-> S
+  S --> M["Le Ministre<br/>politics"]
+  S --> I["L'Industriel<br/>industry & research"]
+  S --> G["Le Général<br/>army staff"]
+  S --> A["Le Général de l'Air<br/>air staff"]
+  S --> N["L'Amiral<br/>admiralty"]
+  S --> F["Le Maréchal × theatres<br/>fronts & battle plans"]
+```
+
+## How it plays
+
+Think of an enthusiastic human with fewer than 100 hours in HOI4, not a veteran with a perfect build. The harness supplies information and tools; it never swaps the model's strategy for a scripted one. Development campaigns (several models, not all of them Mistral Large 4):
+
+<div align="center">
+<img src="docs/media/italy-opening.gif" alt="Italy's opening against Ethiopia: the cabinet forms armies and draws battle plans" width="85%">
+<br><sub>Italy, January 1936: the cabinet writes its plan, forms armies and draws battle plans against Ethiopia (2× speed).</sub>
+</div>
+
+| Campaign | Outcome |
+|:--|:--|
+| Germany, 1939 | Defeated Poland and France without much trouble |
+| France, 1936, historical | Held the Belgian border and the Maginot Line for about three months, with no prescribed survival plan |
+| UK, 1936, historical | Beat German and Italian naval forces, made progress in Africa, strong industry by 1940 |
+| Japan, 1936, historical | Got stuck at Beiping — invading China turns out to require a plan |
+| USSR, 1936, historical | So worried about Japan that it kept forces in the Far East while the German front collapsed |
+
+**What the cabinet can touch:** focuses, laws, advisors, decisions, construction, research, production, trade, diplomacy, espionage, division templates and recruitment, army organisation, fronts and battle plans, naval missions, air wings and missions, logistics, supply and HQs.
 
 The recording shows Italy's opening against Ethiopia: planning, focuses, industry, fronts and battle plans. It is edited and sped up 2×; it demonstrates an autonomous opening, not a completed war. You can also play alongside the cabinet: delegate the navy, air force or another branch and keep the rest under your control.
 
-**Compatibility:** native Linux x86-64, single-player HOI4 **1.19.4.1**, ELF build ID `2265e6e7c1f527bf4b1f2c4b4ca3efd4371dc082`. This build was used for the live Italy demonstration. A version number alone is insufficient. The guard refuses a different executable. Windows/Proton and multiplayer are not supported by this harness.
+> [!NOTE]
+> **Contest profile:** `--models lechonk` uses **Mistral Studio**, `https://api.mistral.ai/v1`, exact model **`mistral-large-4` for every role**. It does not use `mistral-large-latest` or OpenRouter. Other providers are available for development and BYOK.
+
+> [!IMPORTANT]
+> **Compatibility:** native Linux x86-64, single-player HOI4 **1.19.4.1**, ELF build ID `2265e6e7c1f527bf4b1f2c4b4ca3efd4371dc082`. This build was used for the live Italy demonstration. A version number alone is insufficient. The guard refuses a different executable. Multiplayer is not supported. **Windows support is coming soon**; Windows/Proton does not work with the current release.
 
 ## Setup
 
